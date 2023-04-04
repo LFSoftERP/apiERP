@@ -1,0 +1,1191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62713342-680F-4158-9760-E23F85FB451E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>apiERP</RootNamespace>
+    <AssemblyName>apiERP</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.9\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Cors, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.9\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.9\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.9\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acc_com_hedge.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_carga_descarga.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_certificacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_certificacao_itens_especificos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_cooperado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_esquema.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_formulario_ser_aplicado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_situacao_norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento_talhao_propriedade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="alas_do_armazem.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="alas_do_armazem_chip_rfid.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="alas_do_armazem_lotes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="almoxarifado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="amostra_da_roca.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="amostra_solo_foliar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="amostra_solo_foliar_lote.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="amostra_solo_foliar_talhao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aplicador_de_produtos_na_lavoura.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="arbitragem_cafe.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
+    <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
+    <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageAreaRegistration.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\Models\HelpPageApiModel.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ImageSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
+    <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="autorizacao_dev_cooperado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="autorizacao_generica.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="autorizacao_lotes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="autorizacao_venda_exp.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="baixa_valor_adiantado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bebida.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bebida_padrao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bolsa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cadastro_entrada.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="carregamento_para_armazem_terceiros.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="carteira.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="categoria_de_emprestimo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="categoria_de_emprestimo_com_banco.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cepbr_bairro.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cepbr_cidade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cepbr_enderecos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cepbr_estado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="certificacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cfop.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cliente.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cliente_conta_bancaria.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="comercial_ativo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="complementacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="complementacoes_lote.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="composicao_amostra.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="composicao_amostra_envio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="conciliacoes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configuracao_nota_filial.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configuracao_plano_de_contas_nota.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configuracoes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contas_a_pagar_despesas_contrato.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contas_a_pagar_e_receber.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contas_a_pagar_planejamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contas_a_pagar_plano_de_contas.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contas_bancarias_empresa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contrato.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\agendamentoCertificacaoController.cs" />
+    <Compile Include="Controllers\CertificacaoController\controllerGenerics.cs" />
+    <Compile Include="Controllers\CooperadoController.cs" />
+    <Compile Include="Controllers\formularioAplicarController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\retornoApi.cs" />
+    <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_aplicar_agendamento_talhao_propriedade_ids.cs" />
+    <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_aplicar_ids.cs" />
+    <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_respostas_ids.cs" />
+    <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_resposta_documento_comprobatorio_ids.cs" />
+    <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_resposta_evidencia_ids.cs" />
+    <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_resposta_seletiva_ids.cs" />
+    <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\form_resposta_nc_criterio_ids.cs" />
+    <Compile Include="convenio_medico.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="convenio_medico_guia.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="convenio_plano_de_saude.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="convenio_titular.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cooperado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cooperado_que_fazem_parte_do_mercado_futura_situacao_norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cooperado_que_fazem_parte_do_mercado_futuro.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cotacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cotacao_compra.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cotacao_compra_item.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cotacao_item.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cotacao_item_fornecedor.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cotacao_resultado_itens.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="criterios.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="curso.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cursos_cooperados.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="curso_ministrantes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="curso_realizados.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="curso_relacionado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="custo_da_formacao_de_preco.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dados_bancarios.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dap.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="defeito_cafe.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="defeito_cafe_cadastro_lote.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dependentes_plano_de_saude.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="descontos_acrescimos_pg_cafe.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="despesas_realizadas_contas_a_pg_e_rec.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="devolucao_de_compra.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="documento_comprobatorio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="email.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="email_cliente.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="empresa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="empresa_forn_prod_agricola.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="emprestimos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="estimativa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="estrutura_do_produto.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fechamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fechamento_mercado_futuro.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fluxo_de_caixa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fonte_de_recurso.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formacao_de_preco.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="forma_de_pagamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_aplicar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_aplicar_agendamento_talhao_propriedade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_aplicar_produtos_utilizados_na_lavoura.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_checklist.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_exercicio_rastreabilidade_balanco_massa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_item.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_item_selecao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_respostas.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_resposta_documento_comprobatorio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_resposta_evidencia.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_resposta_seletiva.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_seletiva.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_subitem_rank.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_subitem_ref_criterio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="formulario_sub_item.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="form_resposta_nc_criterio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frota.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="funcionario.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="gestao_risco.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="grau_de_parentesco.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="grupo_da_carteira.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="grupo_de_imposto.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="grupo_de_servico.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="grupo_reuniao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="grupo_variedade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hedge.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="historico_de_alteracao_de_status.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="historico_talhao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="informacao_adicional.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="instituicao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="instrucao_lote_resultado_para_gerar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="instrucao_preparo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="integracao_contabil.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="integracao_contabil_lancamentos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="integrantes_grupo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="intervalo_da_forma_pagamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="laboratorio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lancamento_extras_codigos_contabeis.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="liquidacao_contrato_de_cambio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="liquidacao_contrato_de_cambio_relacao_nf.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="log_erro_do_sistema.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="log_usuarios.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lotes_compoe_carregamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lotes_do_fechamento_e_hedge.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lotes_origem_do_produto.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_armazem_terceiros.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_arm_terceiros_situacao_norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_composicao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_instrucao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_nota_cancelada.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_origem_do_result_reb.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_para_analise_solo_foliar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_producao_rastreabilidade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_produto.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_produto_situacaonorma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_resultado_rebeneficio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_resultado_rebeneficio_situacao_norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lote_situacaonorma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="maquinario.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="modalidade_entrega.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo_COOPFAM.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modelo_COOPFAM.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo_COOPFAM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo_COOPFAM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modelo_COOPFAM.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\CertificacaoController\documentoComprobatorioController.cs" />
+    <Compile Include="Controllers\CertificacaoController\formularioItemSelecaoController.cs" />
+    <Compile Include="Controllers\CertificacaoController\formularioSeletivaController.cs" />
+    <Compile Include="Modelo_COOPFAM.Views.cs" />
+    <Compile Include="Models\IRepository.cs" />
+    <Compile Include="Controllers\CertificacaoController\pontoCriticoController.cs" />
+    <Compile Include="Controllers\CertificacaoController\potencialRiscoController.cs" />
+    <Compile Include="Controllers\CertificacaoController\procedimentoCriticoMedidaPrecaucaoController.cs" />
+    <Compile Include="Models\Repository.cs" />
+    <Compile Include="motorista.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="motorista_autorizacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="movimentos_produtos_contabeis.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="movimento_bancario.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="normas_resultante_instrucao_preparo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="norma_cooperado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="norma_talhao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="norma_talhao_historico.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="notas_canceladas.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="notas_de_origem.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="notas_para_assinar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="nota_fiscal.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_de_producao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_de_producao_embalagens.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_de_producao_produtos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_de_producao_produtos_utilizados.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_de_producao_resultado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_de_producao_situacaonorma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_de_producao_tempo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="origem_do_produto.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="origem_do_produto_nota_fiscal.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="padrao_de_imposto_por_cfop.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pagamento_emprestimo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pagamento_recebimento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pagamento_recebimento_fluxo_de_caixa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="papel_das_partes_contrato_cafe.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parcela_emprestimo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="participante_dap.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pedido_faturamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pedido_faturamento_parcelas.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pedido_faturamento_produto.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pilar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_acoes_do_item.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_auto_avaliacao_impacto.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_categoria.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_data_realizacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_item.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_periodo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_responsavel.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="plano_conversao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="plano_de_contas_contabil.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ponto_critico.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="portifolio_fornecedor.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="potencial_risco.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="praga_doenca.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="premio_ft.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pre_financiamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="procedimento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="procedimento_critico_medida_precaucao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="procedimento_tipo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="produtos_ccontabeis_referencia_terceiros.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="produtos_contabeis.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="produto_linha.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pronaf.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pronaf_parcelas.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pronaf_pronaf_tipo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pronaf_tipo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="propriedade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="quebra_de_safra.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="quebra_de_safra_estimativa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rank.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rastrear_transferencias_entre_contas.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recibo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recibo_cancelado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recibo_lotes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="referenciar_lotes_armazem_terceiros.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="referencia_comercial.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="referencia_hedge.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="relacao_de_custos_da_formacao_de_preco.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="relacao_de_notas_desc_acrescimo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="relacao_notas_descontoacrescimo_lotes_fechamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="relacao_situacao_norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="remocao_de_lotes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="requisicao_compra.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="requisito_compra_itens.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="resultado_rebeneficio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="revisoes_pop.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rfid_chip.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rolagem.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="setor.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="situacaonorma_subtiponorma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="situacao_norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="solicitacao_de_amostra.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="solicitacao_de_amostra_lote.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="solicitacao_de_retirada.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="solicitacao_de_unificacao_divisao_de_talhoes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="solicitar_visita.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="subtipo_norma.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tabela_codigo_produto_por_convenio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tabela_ibpt.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tabela_icms.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="talhao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="talhao_ultima_aplicao_produto_proibido.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="talhao_unificar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="talhao_variedade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="telefone.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="telefone_cliente.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="termo_e_condicao_contrato_cafe_cru.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_amostra.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_cafe_rebeneficiado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_de_contato_com_cliente.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_de_documento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_de_inspecao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_de_pagamento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_de_permissao_alas_do_armazem.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_de_permissao_alas_do_armazem_normas.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_de_procedimento.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_lote_rebeneficio_para_gerar.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_produto_agricola.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipo_sacaria.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="transferencia_entre_almoxarifado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="transferencia_produtos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="unidade_de_medida.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="valor_diario_de_cada_carteira.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="variedades.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="venda_prestacao_servico.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Modelo_COOPFAM.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Modelo_COOPFAM.Context.cs</LastGenOutput>
+      <DependentUpon>Modelo_COOPFAM.edmx</DependentUpon>
+    </Content>
+    <Content Include="Modelo_COOPFAM.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Modelo_COOPFAM.edmx</DependentUpon>
+      <LastGenOutput>Modelo_COOPFAM.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\HelpPage\Views\Web.config" />
+    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EntityDeploy Include="Modelo_COOPFAM.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Modelo_COOPFAM.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Modelo_COOPFAM.edmx.diagram">
+      <DependentUpon>Modelo_COOPFAM.edmx</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25317</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25317/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
