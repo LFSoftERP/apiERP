@@ -254,6 +254,17 @@ namespace apiERP.Controllers
                         objForm.TXT_RECOMENDACAO = item2.TXT_RECOMENDACAO;
                         objForm.TXT_OBS_AVALIACAO_CLIENTE = item2.TXT_OBS_AVALIACAO_CLIENTE;
 
+                        foreach (var itemFormAppAgTalhao in item2.formulario_aplicar_agendamento_talhao_propriedade.Where(x=>x.BOOL_ATIVO).ToList())
+                        {
+                            formulario_aplicar_agendamento_talhao_propriedade objFormAppAgTalhao = new formulario_aplicar_agendamento_talhao_propriedade();
+
+                            objFormAppAgTalhao.BOOL_ATIVO = itemFormAppAgTalhao.BOOL_ATIVO;
+                            objFormAppAgTalhao.INT_ID_AGENDAMENTO_TALHAO_PROPRIEDADE = itemFormAppAgTalhao.INT_ID_AGENDAMENTO_TALHAO_PROPRIEDADE;
+                            objFormAppAgTalhao.INT_ID_FORM_APLICAR = itemFormAppAgTalhao.INT_ID_FORM_APLICAR;
+
+                            objForm.formulario_aplicar_agendamento_talhao_propriedade.Add(objFormAppAgTalhao);
+                        }
+
                         foreach (var itemFormResp in item2.formulario_respostas.Where(x=>x.BOOL_ATIVO).ToList())
                         {
                             formulario_respostas objFormApp = new formulario_respostas();
