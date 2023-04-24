@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Data.Mapping.EntityViewGenerationAttribute(typeof(Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySetsBF419988CF2799DA1FC50C216C8877762E128333A124BE56A8B119F2D890C1F9))]
+[assembly: System.Data.Mapping.EntityViewGenerationAttribute(typeof(Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySetsA885A3DD846F5190DAB006D3C805F71D638B97C0F28351C2244BE84659EAA24C))]
 
 namespace Edm_EntityMappingGeneratedViews
 {
@@ -17,18 +17,18 @@ namespace Edm_EntityMappingGeneratedViews
     /// <Summary>
     /// O tipo contém exibições para EntitySets e AssociationSets que foram gerados em tempo de design.
     /// </Summary>
-    public sealed class ViewsForBaseEntitySetsBF419988CF2799DA1FC50C216C8877762E128333A124BE56A8B119F2D890C1F9 : System.Data.Mapping.EntityViewContainer
+    public sealed class ViewsForBaseEntitySetsA885A3DD846F5190DAB006D3C805F71D638B97C0F28351C2244BE84659EAA24C : System.Data.Mapping.EntityViewContainer
     {
         
         /// <Summary>
         /// O construtor armazena as exibições para as extensões e também os valores de hash gerados com base nos metadados e no fechamento e nas exibições do mapeamento.
         /// </Summary>
-        public ViewsForBaseEntitySetsBF419988CF2799DA1FC50C216C8877762E128333A124BE56A8B119F2D890C1F9()
+        public ViewsForBaseEntitySetsA885A3DD846F5190DAB006D3C805F71D638B97C0F28351C2244BE84659EAA24C()
         {
             this.EdmEntityContainerName = "db_coopfamEntities";
             this.StoreEntityContainerName = "db_coopfamModelStoreContainer";
-            this.HashOverMappingClosure = "11fffa1294d0735e818054b16058139756bcb371cb726adb78f80b3e466c4885";
-            this.HashOverAllExtentViews = "0bd08e7a3461c68852fd2f3b8fe8ba5f51680601822e01da237f2505737eb761";
+            this.HashOverMappingClosure = "6314f644be32f3374ee4eb0ea44f0bbe0e8b205e4eafdd7f156885aa95d9fbe4";
+            this.HashOverAllExtentViews = "dad01dab377d929c1fb46cc4c0b1d069883f5aff5635eab79069da02b56f4889";
             this.ViewCount = 552;
         }
         
@@ -5746,19 +5746,20 @@ namespace Edm_EntityMappingGeneratedViews
                     "subitem_ref_criterio.INT_ID_ALTERACAO], T1.[formulario_subitem_ref_criterio.DATE" +
                     "_ALTERACAO], T1.[formulario_subitem_ref_criterio.INT_ID_EXCLUSAO], T1.[formulari" +
                     "o_subitem_ref_criterio.DATE_EXCLUSAO], T1.[formulario_subitem_ref_criterio.TXT_N" +
-                    "UM_CRITERIO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_" +
-                    "subitem_ref_criterio.INT_ID], \r\n            T.INT_ID_CRITERIO AS [formulario_sub" +
-                    "item_ref_criterio.INT_ID_CRITERIO], \r\n            T.BOOL_ATIVO AS [formulario_su" +
-                    "bitem_ref_criterio.BOOL_ATIVO], \r\n            T.INT_ID_CADASTRO AS [formulario_s" +
-                    "ubitem_ref_criterio.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO AS [formular" +
-                    "io_subitem_ref_criterio.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACAO AS [for" +
-                    "mulario_subitem_ref_criterio.INT_ID_ALTERACAO], \r\n            T.DATE_ALTERACAO A" +
-                    "S [formulario_subitem_ref_criterio.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLU" +
-                    "SAO AS [formulario_subitem_ref_criterio.INT_ID_EXCLUSAO], \r\n            T.DATE_E" +
-                    "XCLUSAO AS [formulario_subitem_ref_criterio.DATE_EXCLUSAO], \r\n            T.TXT_" +
-                    "NUM_CRITERIO AS [formulario_subitem_ref_criterio.TXT_NUM_CRITERIO], \r\n          " +
-                    "  True AS _from0\r\n        FROM db_coopfamEntities.formulario_subitem_ref_criteri" +
-                    "o AS T\r\n    ) AS T1");
+                    "UM_CRITERIO], T1.[formulario_subitem_ref_criterio.INT_ID_NORMA])\r\n    FROM (\r\n  " +
+                    "      SELECT \r\n            T.INT_ID AS [formulario_subitem_ref_criterio.INT_ID]," +
+                    " \r\n            T.INT_ID_CRITERIO AS [formulario_subitem_ref_criterio.INT_ID_CRIT" +
+                    "ERIO], \r\n            T.BOOL_ATIVO AS [formulario_subitem_ref_criterio.BOOL_ATIVO" +
+                    "], \r\n            T.INT_ID_CADASTRO AS [formulario_subitem_ref_criterio.INT_ID_CA" +
+                    "DASTRO], \r\n            T.DATE_CADASTRO AS [formulario_subitem_ref_criterio.DATE_" +
+                    "CADASTRO], \r\n            T.INT_ID_ALTERACAO AS [formulario_subitem_ref_criterio." +
+                    "INT_ID_ALTERACAO], \r\n            T.DATE_ALTERACAO AS [formulario_subitem_ref_cri" +
+                    "terio.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_subitem_re" +
+                    "f_criterio.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formulario_subite" +
+                    "m_ref_criterio.DATE_EXCLUSAO], \r\n            T.TXT_NUM_CRITERIO AS [formulario_s" +
+                    "ubitem_ref_criterio.TXT_NUM_CRITERIO], \r\n            T.INT_ID_NORMA AS [formular" +
+                    "io_subitem_ref_criterio.INT_ID_NORMA], \r\n            True AS _from0\r\n        FRO" +
+                    "M db_coopfamEntities.formulario_subitem_ref_criterio AS T\r\n    ) AS T1");
         }
         
         /// <Summary>
@@ -13705,19 +13706,20 @@ namespace Edm_EntityMappingGeneratedViews
                     "m_ref_criterio.INT_ID_ALTERACAO], T1.[formulario_subitem_ref_criterio.DATE_ALTER" +
                     "ACAO], T1.[formulario_subitem_ref_criterio.INT_ID_EXCLUSAO], T1.[formulario_subi" +
                     "tem_ref_criterio.DATE_EXCLUSAO], T1.[formulario_subitem_ref_criterio.TXT_NUM_CRI" +
-                    "TERIO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_subite" +
-                    "m_ref_criterio.INT_ID], \r\n            T.INT_ID_CRITERIO AS [formulario_subitem_r" +
-                    "ef_criterio.INT_ID_CRITERIO], \r\n            T.BOOL_ATIVO AS [formulario_subitem_" +
-                    "ref_criterio.BOOL_ATIVO], \r\n            T.INT_ID_CADASTRO AS [formulario_subitem" +
-                    "_ref_criterio.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO AS [formulario_sub" +
-                    "item_ref_criterio.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACAO AS [formulari" +
-                    "o_subitem_ref_criterio.INT_ID_ALTERACAO], \r\n            T.DATE_ALTERACAO AS [for" +
-                    "mulario_subitem_ref_criterio.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS" +
-                    " [formulario_subitem_ref_criterio.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSA" +
-                    "O AS [formulario_subitem_ref_criterio.DATE_EXCLUSAO], \r\n            T.TXT_NUM_CR" +
-                    "ITERIO AS [formulario_subitem_ref_criterio.TXT_NUM_CRITERIO], \r\n            True" +
-                    " AS _from0\r\n        FROM db_coopfamModelStoreContainer.formulario_subitem_ref_cr" +
-                    "iterio AS T\r\n    ) AS T1");
+                    "TERIO], T1.[formulario_subitem_ref_criterio.INT_ID_NORMA])\r\n    FROM (\r\n        " +
+                    "SELECT \r\n            T.INT_ID AS [formulario_subitem_ref_criterio.INT_ID], \r\n   " +
+                    "         T.INT_ID_CRITERIO AS [formulario_subitem_ref_criterio.INT_ID_CRITERIO]," +
+                    " \r\n            T.BOOL_ATIVO AS [formulario_subitem_ref_criterio.BOOL_ATIVO], \r\n " +
+                    "           T.INT_ID_CADASTRO AS [formulario_subitem_ref_criterio.INT_ID_CADASTRO" +
+                    "], \r\n            T.DATE_CADASTRO AS [formulario_subitem_ref_criterio.DATE_CADAST" +
+                    "RO], \r\n            T.INT_ID_ALTERACAO AS [formulario_subitem_ref_criterio.INT_ID" +
+                    "_ALTERACAO], \r\n            T.DATE_ALTERACAO AS [formulario_subitem_ref_criterio." +
+                    "DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_subitem_ref_crit" +
+                    "erio.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formulario_subitem_ref_" +
+                    "criterio.DATE_EXCLUSAO], \r\n            T.TXT_NUM_CRITERIO AS [formulario_subitem" +
+                    "_ref_criterio.TXT_NUM_CRITERIO], \r\n            T.INT_ID_NORMA AS [formulario_sub" +
+                    "item_ref_criterio.INT_ID_NORMA], \r\n            True AS _from0\r\n        FROM db_c" +
+                    "oopfamModelStoreContainer.formulario_subitem_ref_criterio AS T\r\n    ) AS T1");
         }
         
         /// <Summary>

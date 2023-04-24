@@ -17,6 +17,7 @@ namespace apiERP
         public norma()
         {
             this.agendamento_esquema = new HashSet<agendamento_esquema>();
+            this.formulario_subitem_ref_criterio = new HashSet<formulario_subitem_ref_criterio>();
             this.situacao_norma = new HashSet<situacao_norma>();
         }
     
@@ -29,6 +30,7 @@ namespace apiERP
     
         public virtual ICollection<agendamento_esquema> agendamento_esquema { get; set; }
         public virtual certificacao certificacao { get; set; }
+        public virtual ICollection<formulario_subitem_ref_criterio> formulario_subitem_ref_criterio { get; set; }
         public virtual ICollection<situacao_norma> situacao_norma { get; set; }
     }
 }

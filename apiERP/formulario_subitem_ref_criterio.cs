@@ -24,10 +24,12 @@ namespace apiERP
         public Nullable<int> INT_ID_EXCLUSAO { get; set; }
         public Nullable<System.DateTime> DATE_EXCLUSAO { get; set; }
         public string TXT_NUM_CRITERIO { get; set; }
+        public int INT_ID_NORMA { get; set; }
     
         public virtual criterios criterios { get; set; }
         public virtual funcionario funcionario { get; set; }
         public virtual funcionario funcionario1 { get; set; }
         public virtual funcionario funcionario2 { get; set; }
+        public virtual norma norma { get; set; }
     }
 }

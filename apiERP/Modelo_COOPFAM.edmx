@@ -1966,7 +1966,7 @@
           <Property Name="TXT_DESCRICAO" Type="varchar" MaxLength="2000" Nullable="false" />
           <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
           <Property Name="TXT_RESPOSTA_SUGESTIVA" Type="varchar" MaxLength="5000" Nullable="false" />
-          <Property Name="INT_ID_SELETIVA" Type="int" Nullable="false" />
+          <Property Name="INT_ID_SELETIVA" Type="int" />
           <Property Name="DECIMAL_PESO" Type="decimal" Precision="10" Scale="2" Nullable="false" />
           <Property Name="BOOL_MULTIPLA_ESCOLHA_NOTA" Type="bool" Nullable="false" />
           <Property Name="INT_ID_CADASTRO" Type="int" Nullable="false" />
@@ -2004,6 +2004,7 @@
           <Property Name="INT_ID_EXCLUSAO" Type="int" />
           <Property Name="DATE_EXCLUSAO" Type="datetime" Precision="0" />
           <Property Name="TXT_NUM_CRITERIO" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="INT_ID_NORMA" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="frota">
           <Key>
@@ -9288,7 +9289,7 @@ warning 6002: The table/view 'def.db_coopfam_certificacao.tabela_ibpt' does not 
           </ReferentialConstraint>
         </Association>
         <Association Name="formulario_sub_item_fk_formulario_seletiva">
-          <End Role="formulario_seletiva" Type="Self.formulario_seletiva" Multiplicity="1" />
+          <End Role="formulario_seletiva" Type="Self.formulario_seletiva" Multiplicity="0..1" />
           <End Role="formulario_sub_item" Type="Self.formulario_sub_item" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="formulario_seletiva">
@@ -9296,6 +9297,18 @@ warning 6002: The table/view 'def.db_coopfam_certificacao.tabela_ibpt' does not 
             </Principal>
             <Dependent Role="formulario_sub_item">
               <PropertyRef Name="INT_ID_SELETIVA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="formulario_sub_item_fk_subitem_ref_criterio">
+          <End Role="criterios" Type="Self.criterios" Multiplicity="0..1" />
+          <End Role="formulario_sub_item" Type="Self.formulario_sub_item" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="criterios">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="formulario_sub_item">
+              <PropertyRef Name="INT_ID_SUBITEM_REF_CRITERIO" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -9368,6 +9381,18 @@ warning 6002: The table/view 'def.db_coopfam_certificacao.tabela_ibpt' does not 
             </Principal>
             <Dependent Role="formulario_subitem_ref_criterio">
               <PropertyRef Name="INT_ID_CRITERIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="formulario_subitem_ref_criterio_fk_norma">
+          <End Role="norma" Type="Self.norma" Multiplicity="1" />
+          <End Role="formulario_subitem_ref_criterio" Type="Self.formulario_subitem_ref_criterio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="norma">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="formulario_subitem_ref_criterio">
+              <PropertyRef Name="INT_ID_NORMA" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -15961,6 +15986,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="formulario_seletiva" EntitySet="formulario_seletiva" />
             <End Role="formulario_sub_item" EntitySet="formulario_sub_item" />
           </AssociationSet>
+          <AssociationSet Name="formulario_sub_item_fk_subitem_ref_criterio" Association="Self.formulario_sub_item_fk_subitem_ref_criterio">
+            <End Role="criterios" EntitySet="criterios" />
+            <End Role="formulario_sub_item" EntitySet="formulario_sub_item" />
+          </AssociationSet>
           <AssociationSet Name="formulario_subitem_rank_fk_form_subitem" Association="Self.formulario_subitem_rank_fk_form_subitem">
             <End Role="formulario_sub_item" EntitySet="formulario_sub_item" />
             <End Role="formulario_subitem_rank" EntitySet="formulario_subitem_rank" />
@@ -15983,6 +16012,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           </AssociationSet>
           <AssociationSet Name="formulario_subitem_ref_criterio_fk_criterio" Association="Self.formulario_subitem_ref_criterio_fk_criterio">
             <End Role="criterios" EntitySet="criterios" />
+            <End Role="formulario_subitem_ref_criterio" EntitySet="formulario_subitem_ref_criterio" />
+          </AssociationSet>
+          <AssociationSet Name="formulario_subitem_ref_criterio_fk_norma" Association="Self.formulario_subitem_ref_criterio_fk_norma">
+            <End Role="norma" EntitySet="norma" />
             <End Role="formulario_subitem_ref_criterio" EntitySet="formulario_subitem_ref_criterio" />
           </AssociationSet>
           <AssociationSet Name="func_ib_lancamento" Association="Self.func_ib_lancamento">
@@ -19267,6 +19300,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="criterios" EntitySet="criterios" />
             <End Role="formulario_sub_item" EntitySet="formulario_sub_item" />
           </AssociationSet>
+          <AssociationSet Name="formulario_sub_item_fk_subitem_ref_criterio" Association="db_coopfamModel.formulario_sub_item_fk_subitem_ref_criterio">
+            <End Role="criterios" EntitySet="criterios" />
+            <End Role="formulario_sub_item" EntitySet="formulario_sub_item" />
+          </AssociationSet>
           <AssociationSet Name="formulario_subitem_ref_criterio_fk_criterio" Association="db_coopfamModel.formulario_subitem_ref_criterio_fk_criterio">
             <End Role="criterios" EntitySet="criterios" />
             <End Role="formulario_subitem_ref_criterio" EntitySet="formulario_subitem_ref_criterio" />
@@ -19893,6 +19930,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           </AssociationSet>
           <AssociationSet Name="formulario_subitem_ref_criterio_exclusao_fk_funcionario" Association="db_coopfamModel.formulario_subitem_ref_criterio_exclusao_fk_funcionario">
             <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="formulario_subitem_ref_criterio" EntitySet="formulario_subitem_ref_criterio" />
+          </AssociationSet>
+          <AssociationSet Name="formulario_subitem_ref_criterio_fk_norma" Association="db_coopfamModel.formulario_subitem_ref_criterio_fk_norma">
+            <End Role="norma" EntitySet="norma" />
             <End Role="formulario_subitem_ref_criterio" EntitySet="formulario_subitem_ref_criterio" />
           </AssociationSet>
           <AssociationSet Name="FK_hedge_ib_funcionario" Association="db_coopfamModel.FK_hedge_ib_funcionario">
@@ -22711,6 +22752,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="form_resposta_nc_criterio" Relationship="db_coopfamModel.form_resposta_nc_criterio_fk_criterios" FromRole="criterios" ToRole="form_resposta_nc_criterio" />
           <NavigationProperty Name="formulario_item" Relationship="db_coopfamModel.formulario_item_fk_criterio" FromRole="criterios" ToRole="formulario_item" />
           <NavigationProperty Name="formulario_sub_item" Relationship="db_coopfamModel.formulario_sub_item_fk_criterio" FromRole="criterios" ToRole="formulario_sub_item" />
+          <NavigationProperty Name="formulario_sub_item1" Relationship="db_coopfamModel.formulario_sub_item_fk_subitem_ref_criterio" FromRole="criterios" ToRole="formulario_sub_item" />
           <NavigationProperty Name="formulario_subitem_ref_criterio" Relationship="db_coopfamModel.formulario_subitem_ref_criterio_fk_criterio" FromRole="criterios" ToRole="formulario_subitem_ref_criterio" />
         </EntityType>
         <EntityType Name="curso">
@@ -23660,7 +23702,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="TXT_DESCRICAO" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="false" />
           <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
           <Property Name="TXT_RESPOSTA_SUGESTIVA" Type="String" Nullable="false" MaxLength="5000" FixedLength="false" Unicode="false" />
-          <Property Name="INT_ID_SELETIVA" Type="Int32" Nullable="false" />
+          <Property Name="INT_ID_SELETIVA" Type="Int32" />
           <Property Name="DECIMAL_PESO" Type="Decimal" Nullable="false" />
           <Property Name="BOOL_MULTIPLA_ESCOLHA_NOTA" Type="Boolean" Nullable="false" />
           <Property Name="INT_ID_CADASTRO" Type="Int32" Nullable="false" />
@@ -23675,6 +23717,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="BOOL_RANK" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="agendamento_certificacao_itens_especificos" Relationship="db_coopfamModel.agend_certifi_itens_espec_fk_formulario_sub_item" FromRole="formulario_sub_item" ToRole="agendamento_certificacao_itens_especificos" />
           <NavigationProperty Name="criterios" Relationship="db_coopfamModel.formulario_sub_item_fk_criterio" FromRole="formulario_sub_item" ToRole="criterios" />
+          <NavigationProperty Name="criterios1" Relationship="db_coopfamModel.formulario_sub_item_fk_subitem_ref_criterio" FromRole="formulario_sub_item" ToRole="criterios" />
           <NavigationProperty Name="formulario_checklist" Relationship="db_coopfamModel.formulario_checklist_fk_formulario_subitem" FromRole="formulario_sub_item" ToRole="formulario_checklist" />
           <NavigationProperty Name="formulario_item" Relationship="db_coopfamModel.formulario_sub_item_fk_formulario_item" FromRole="formulario_sub_item" ToRole="formulario_item" />
           <NavigationProperty Name="formulario_respostas" Relationship="db_coopfamModel.formulario_respostas_fk_form_sub_item" FromRole="formulario_sub_item" ToRole="formulario_respostas" />
@@ -23710,10 +23753,12 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="INT_ID_EXCLUSAO" Type="Int32" />
           <Property Name="DATE_EXCLUSAO" Type="DateTime" />
           <Property Name="TXT_NUM_CRITERIO" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="INT_ID_NORMA" Type="Int32" Nullable="false" />
           <NavigationProperty Name="criterios" Relationship="db_coopfamModel.formulario_subitem_ref_criterio_fk_criterio" FromRole="formulario_subitem_ref_criterio" ToRole="criterios" />
           <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.formulario_subitem_ref_criterio_alteracao_fk_funcionario" FromRole="formulario_subitem_ref_criterio" ToRole="funcionario" />
           <NavigationProperty Name="funcionario1" Relationship="db_coopfamModel.formulario_subitem_ref_criterio_cadastro_fk_funcionario" FromRole="formulario_subitem_ref_criterio" ToRole="funcionario" />
           <NavigationProperty Name="funcionario2" Relationship="db_coopfamModel.formulario_subitem_ref_criterio_exclusao_fk_funcionario" FromRole="formulario_subitem_ref_criterio" ToRole="funcionario" />
+          <NavigationProperty Name="norma" Relationship="db_coopfamModel.formulario_subitem_ref_criterio_fk_norma" FromRole="formulario_subitem_ref_criterio" ToRole="norma" />
         </EntityType>
         <EntityType Name="frota">
           <Key>
@@ -24942,6 +24987,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="BOOL_ORGANICO_BR" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="agendamento_esquema" Relationship="db_coopfamModel.agendamento_esquema_fk_normas" FromRole="norma" ToRole="agendamento_esquema" />
           <NavigationProperty Name="certificacao" Relationship="db_coopfamModel.norma_fk_certificacao" FromRole="norma" ToRole="certificacao" />
+          <NavigationProperty Name="formulario_subitem_ref_criterio" Relationship="db_coopfamModel.formulario_subitem_ref_criterio_fk_norma" FromRole="norma" ToRole="formulario_subitem_ref_criterio" />
           <NavigationProperty Name="situacao_norma" Relationship="db_coopfamModel.FK_situacao_norma_ib_norma" FromRole="norma" ToRole="situacao_norma" />
         </EntityType>
         <EntityType Name="norma_cooperado">
@@ -31402,6 +31448,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="formulario_sub_item_fk_subitem_ref_criterio">
+          <End Type="db_coopfamModel.criterios" Role="criterios" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.formulario_sub_item" Role="formulario_sub_item" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="criterios">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="formulario_sub_item">
+              <PropertyRef Name="INT_ID_SUBITEM_REF_CRITERIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="formulario_subitem_ref_criterio_fk_criterio">
           <End Type="db_coopfamModel.criterios" Role="criterios" Multiplicity="1" />
           <End Type="db_coopfamModel.formulario_subitem_ref_criterio" Role="formulario_subitem_ref_criterio" Multiplicity="*" />
@@ -33179,7 +33237,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           </ReferentialConstraint>
         </Association>
         <Association Name="formulario_sub_item_fk_formulario_seletiva">
-          <End Type="db_coopfamModel.formulario_seletiva" Role="formulario_seletiva" Multiplicity="1" />
+          <End Type="db_coopfamModel.formulario_seletiva" Role="formulario_seletiva" Multiplicity="0..1" />
           <End Type="db_coopfamModel.formulario_sub_item" Role="formulario_sub_item" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="formulario_seletiva">
@@ -33283,6 +33341,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Principal>
             <Dependent Role="formulario_subitem_ref_criterio">
               <PropertyRef Name="INT_ID_EXCLUSAO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="formulario_subitem_ref_criterio_fk_norma">
+          <End Type="db_coopfamModel.norma" Role="norma" Multiplicity="1" />
+          <End Type="db_coopfamModel.formulario_subitem_ref_criterio" Role="formulario_subitem_ref_criterio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="norma">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="formulario_subitem_ref_criterio">
+              <PropertyRef Name="INT_ID_NORMA" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -38789,6 +38859,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="formulario_subitem_ref_criterio">
             <EntityTypeMapping TypeName="db_coopfamModel.formulario_subitem_ref_criterio">
               <MappingFragment StoreEntitySet="formulario_subitem_ref_criterio">
+                <ScalarProperty Name="INT_ID_NORMA" ColumnName="INT_ID_NORMA" />
                 <ScalarProperty Name="TXT_NUM_CRITERIO" ColumnName="TXT_NUM_CRITERIO" />
                 <ScalarProperty Name="DATE_EXCLUSAO" ColumnName="DATE_EXCLUSAO" />
                 <ScalarProperty Name="INT_ID_EXCLUSAO" ColumnName="INT_ID_EXCLUSAO" />

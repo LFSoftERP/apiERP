@@ -28,7 +28,7 @@ namespace apiERP
         public string TXT_DESCRICAO { get; set; }
         public bool BOOL_ATIVO { get; set; }
         public string TXT_RESPOSTA_SUGESTIVA { get; set; }
-        public int INT_ID_SELETIVA { get; set; }
+        public Nullable<int> INT_ID_SELETIVA { get; set; }
         public decimal DECIMAL_PESO { get; set; }
         public bool BOOL_MULTIPLA_ESCOLHA_NOTA { get; set; }
         public int INT_ID_CADASTRO { get; set; }
@@ -44,6 +44,7 @@ namespace apiERP
     
         public virtual ICollection<agendamento_certificacao_itens_especificos> agendamento_certificacao_itens_especificos { get; set; }
         public virtual criterios criterios { get; set; }
+        public virtual criterios criterios1 { get; set; }
         public virtual ICollection<formulario_checklist> formulario_checklist { get; set; }
         public virtual formulario_item formulario_item { get; set; }
         public virtual ICollection<formulario_respostas> formulario_respostas { get; set; }
