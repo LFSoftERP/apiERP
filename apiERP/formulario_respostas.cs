@@ -59,7 +59,7 @@ namespace apiERP
         public string TXT_OBS_PONTO_CRITICO { get; set; }
         public string TXT_OBS_PROCEDIMENTO_CRITICO { get; set; }
         public string TXT_OBS_POTENCIAL_RISCO { get; set; }
-        public Nullable<int> INT_ID_RANK { get; set; }
+        public Nullable<int> INT_ID_FORMULARIO_SUBITEM_RANK { get; set; }
     
         public virtual ICollection<form_resposta_nc_criterio> form_resposta_nc_criterio { get; set; }
         public virtual formulario_aplicar formulario_aplicar { get; set; }
@@ -73,7 +73,7 @@ namespace apiERP
         public virtual ponto_critico ponto_critico { get; set; }
         public virtual potencial_risco potencial_risco { get; set; }
         public virtual procedimento_critico_medida_precaucao procedimento_critico_medida_precaucao { get; set; }
-        public virtual rank rank { get; set; }
+        public virtual formulario_subitem_rank formulario_subitem_rank { get; set; }
         public virtual ICollection<solicitar_visita> solicitar_visita { get; set; }
     }
 }

@@ -41,10 +41,11 @@ namespace apiERP
         public bool BOOL_ELIMINATORIA { get; set; }
         public Nullable<int> INT_ID_SUBITEM_REF_CRITERIO { get; set; }
         public bool BOOL_RANK { get; set; }
+        public string TXT_NR { get; set; }
+        public Nullable<int> INT_ID_TIPO_CRITERIO { get; set; }
     
         public virtual ICollection<agendamento_certificacao_itens_especificos> agendamento_certificacao_itens_especificos { get; set; }
         public virtual criterios criterios { get; set; }
-        public virtual criterios criterios1 { get; set; }
         public virtual ICollection<formulario_checklist> formulario_checklist { get; set; }
         public virtual formulario_item formulario_item { get; set; }
         public virtual ICollection<formulario_respostas> formulario_respostas { get; set; }
@@ -52,6 +53,7 @@ namespace apiERP
         public virtual funcionario funcionario { get; set; }
         public virtual funcionario funcionario1 { get; set; }
         public virtual funcionario funcionario2 { get; set; }
+        public virtual tipo_de_criterio tipo_de_criterio { get; set; }
         public virtual ICollection<formulario_subitem_rank> formulario_subitem_rank { get; set; }
     }
 }

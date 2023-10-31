@@ -27,6 +27,7 @@ namespace apiERP
             this.convenio_titular = new HashSet<convenio_titular>();
             this.cooperado1 = new HashSet<cooperado>();
             this.dados_bancarios = new HashSet<dados_bancarios>();
+            this.projeto_cooperado = new HashSet<projeto_cooperado>();
             this.cursos_cooperados = new HashSet<cursos_cooperados>();
             this.descontos_acrescimos_pg_cafe = new HashSet<descontos_acrescimos_pg_cafe>();
             this.emprestimos = new HashSet<emprestimos>();
@@ -123,6 +124,12 @@ namespace apiERP
         public Nullable<decimal> DECIMAL_COTA { get; set; }
         public bool BOOL_PERU { get; set; }
         public bool BOOL_OLEIRICULTOR { get; set; }
+        public string TXT_RFA_ID { get; set; }
+        public string TXT_OBS_FILHO_MENOR_18 { get; set; }
+        public Nullable<int> INT_ID_CADASTROU { get; set; }
+        public Nullable<int> INT_ID_ALTEROU { get; set; }
+        public Nullable<System.DateTime> DATE_CADASTRO { get; set; }
+        public Nullable<System.DateTime> DATE_ALTEROU { get; set; }
     
         public virtual ICollection<agendamento_certificacao> agendamento_certificacao { get; set; }
         public virtual ICollection<agendamento_cooperado> agendamento_cooperado { get; set; }
@@ -135,11 +142,14 @@ namespace apiERP
         public virtual ICollection<contas_a_pagar_e_receber> contas_a_pagar_e_receber { get; set; }
         public virtual ICollection<convenio_titular> convenio_titular { get; set; }
         public virtual funcionario funcionario { get; set; }
+        public virtual funcionario funcionario1 { get; set; }
+        public virtual funcionario funcionario2 { get; set; }
         public virtual plano_de_contas_contabil plano_de_contas_contabil { get; set; }
         public virtual ICollection<cooperado> cooperado1 { get; set; }
         public virtual cooperado cooperado2 { get; set; }
         public virtual grupo_reuniao grupo_reuniao { get; set; }
         public virtual ICollection<dados_bancarios> dados_bancarios { get; set; }
+        public virtual ICollection<projeto_cooperado> projeto_cooperado { get; set; }
         public virtual ICollection<cursos_cooperados> cursos_cooperados { get; set; }
         public virtual ICollection<descontos_acrescimos_pg_cafe> descontos_acrescimos_pg_cafe { get; set; }
         public virtual ICollection<emprestimos> emprestimos { get; set; }

@@ -24,8 +24,10 @@ namespace apiERP
         public Nullable<bool> BOOL_CC_PG_FLUXO_CAIXA { get; set; }
         public Nullable<int> INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO { get; set; }
         public Nullable<int> INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL { get; set; }
+        public Nullable<int> INT_ID_MOVIMENTO_PRODUTOcONTABIL { get; set; }
     
         public virtual contrato contrato { get; set; }
+        public virtual movimentos_produtos_contabeis movimentos_produtos_contabeis { get; set; }
         public virtual origem_do_produto_nota_fiscal origem_do_produto_nota_fiscal { get; set; }
         public virtual pagamento_emprestimo pagamento_emprestimo { get; set; }
         public virtual pagamento_recebimento_fluxo_de_caixa pagamento_recebimento_fluxo_de_caixa { get; set; }

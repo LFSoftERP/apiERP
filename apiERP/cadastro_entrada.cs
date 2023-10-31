@@ -34,6 +34,7 @@ namespace apiERP
             this.lotes_origem_do_produto = new HashSet<lotes_origem_do_produto>();
             this.movimentos_produtos_contabeis = new HashSet<movimentos_produtos_contabeis>();
             this.movimentos_produtos_contabeis1 = new HashSet<movimentos_produtos_contabeis>();
+            this.ordem_reensaque_lotes = new HashSet<ordem_reensaque_lotes>();
             this.solicitacao_de_amostra_lote = new HashSet<solicitacao_de_amostra_lote>();
         }
     
@@ -75,6 +76,11 @@ namespace apiERP
         public bool BOOL_FINALIZOU_DESCARGA { get; set; }
         public string TXT_CODIGO_DE_BARRAS { get; set; }
         public Nullable<bool> BOOL_VINCULAR_NOTA_FILIAL { get; set; }
+        public string TXT_ASPECTO { get; set; }
+        public Nullable<int> INT_MK { get; set; }
+        public string TXT_TIPO { get; set; }
+        public string TXT_NOTAS { get; set; }
+        public Nullable<bool> BOOL_STATUS { get; set; }
     
         public virtual agendamento_cooperado agendamento_cooperado { get; set; }
         public virtual ICollection<alas_do_armazem_lotes> alas_do_armazem_lotes { get; set; }
@@ -99,6 +105,7 @@ namespace apiERP
         public virtual ICollection<lotes_origem_do_produto> lotes_origem_do_produto { get; set; }
         public virtual ICollection<movimentos_produtos_contabeis> movimentos_produtos_contabeis { get; set; }
         public virtual ICollection<movimentos_produtos_contabeis> movimentos_produtos_contabeis1 { get; set; }
+        public virtual ICollection<ordem_reensaque_lotes> ordem_reensaque_lotes { get; set; }
         public virtual ICollection<solicitacao_de_amostra_lote> solicitacao_de_amostra_lote { get; set; }
         public virtual subtipo_norma subtipo_norma { get; set; }
         public virtual talhao talhao { get; set; }

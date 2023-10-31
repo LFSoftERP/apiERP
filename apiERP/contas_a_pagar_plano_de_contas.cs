@@ -29,9 +29,24 @@ namespace apiERP
         public bool BOOL_DEBITO_CREDITO { get; set; }
         public Nullable<int> INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA { get; set; }
         public bool BOOL_COMPENSACAO_DE_CHEQUE { get; set; }
+        public string TXT_TIPO_DE_MOVIMENTACAO { get; set; }
+        public Nullable<int> INT_ID_LOTE_DO_FECHAMENTO { get; set; }
+        public Nullable<int> INT_ID_NOTAS_DE_ORIGEM { get; set; }
+        public Nullable<int> INT_ID_NOTA_FISCAL { get; set; }
+        public Nullable<int> INT_ID_ORIGEM_DO_PRODUTO { get; set; }
+        public Nullable<int> INT_ID_EMPRESTIMO_COOPERADO { get; set; }
+        public Nullable<int> INT_ID_COMPLEMENTACAO { get; set; }
+        public Nullable<int> INT_ID_ACC { get; set; }
     
+        public virtual acc_com_hedge acc_com_hedge { get; set; }
+        public virtual complementacoes_lote complementacoes_lote { get; set; }
         public virtual contas_a_pagar_e_receber contas_a_pagar_e_receber { get; set; }
+        public virtual emprestimos emprestimos { get; set; }
+        public virtual lotes_do_fechamento_e_hedge lotes_do_fechamento_e_hedge { get; set; }
         public virtual movimento_bancario movimento_bancario { get; set; }
+        public virtual nota_fiscal nota_fiscal { get; set; }
+        public virtual notas_de_origem notas_de_origem { get; set; }
+        public virtual origem_do_produto origem_do_produto { get; set; }
         public virtual pagamento_recebimento_fluxo_de_caixa pagamento_recebimento_fluxo_de_caixa { get; set; }
         public virtual plano_de_contas_contabil plano_de_contas_contabil { get; set; }
         public virtual ICollection<integracao_contabil_lancamentos> integracao_contabil_lancamentos { get; set; }

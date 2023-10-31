@@ -24,6 +24,7 @@ namespace apiERP
             this.lotes_origem_do_produto = new HashSet<lotes_origem_do_produto>();
             this.referenciar_lotes_armazem_terceiros = new HashSet<referenciar_lotes_armazem_terceiros>();
             this.lote_instrucao = new HashSet<lote_instrucao>();
+            this.ordem_reensaque_lotes = new HashSet<ordem_reensaque_lotes>();
             this.solicitacao_de_amostra_lote = new HashSet<solicitacao_de_amostra_lote>();
         }
     
@@ -51,6 +52,7 @@ namespace apiERP
         public virtual ICollection<lotes_origem_do_produto> lotes_origem_do_produto { get; set; }
         public virtual ICollection<referenciar_lotes_armazem_terceiros> referenciar_lotes_armazem_terceiros { get; set; }
         public virtual ICollection<lote_instrucao> lote_instrucao { get; set; }
+        public virtual ICollection<ordem_reensaque_lotes> ordem_reensaque_lotes { get; set; }
         public virtual ICollection<solicitacao_de_amostra_lote> solicitacao_de_amostra_lote { get; set; }
         public virtual subtipo_norma subtipo_norma { get; set; }
     }

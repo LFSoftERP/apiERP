@@ -20,6 +20,7 @@ namespace apiERP
             this.pedido_faturamento = new HashSet<pedido_faturamento>();
             this.planejamento = new HashSet<planejamento>();
             this.requisicao_compra = new HashSet<requisicao_compra>();
+            this.solicitacao_de_retirada = new HashSet<solicitacao_de_retirada>();
         }
     
         public int INT_ID { get; set; }
@@ -30,5 +31,6 @@ namespace apiERP
         public virtual ICollection<pedido_faturamento> pedido_faturamento { get; set; }
         public virtual ICollection<planejamento> planejamento { get; set; }
         public virtual ICollection<requisicao_compra> requisicao_compra { get; set; }
+        public virtual ICollection<solicitacao_de_retirada> solicitacao_de_retirada { get; set; }
     }
 }

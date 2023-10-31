@@ -30,6 +30,8 @@ namespace apiERP
         public int INT_ID_AUTORIZADO { get; set; }
         public bool BOOL_ATIVO { get; set; }
         public Nullable<int> INT_ID_REVISAO_POP { get; set; }
+        public Nullable<int> INT_ID_SETOR { get; set; }
+        public string TXT_PLANEJAMENTO_PROJETO { get; set; }
     
         public virtual cliente cliente { get; set; }
         public virtual cooperado cooperado { get; set; }
@@ -37,5 +39,6 @@ namespace apiERP
         public virtual funcionario funcionario1 { get; set; }
         public virtual ICollection<movimentos_produtos_contabeis> movimentos_produtos_contabeis { get; set; }
         public virtual revisoes_pop revisoes_pop { get; set; }
+        public virtual setor setor { get; set; }
     }
 }

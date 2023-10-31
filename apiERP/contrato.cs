@@ -25,6 +25,7 @@ namespace apiERP
             this.referencia_hedge = new HashSet<referencia_hedge>();
             this.fluxo_de_caixa = new HashSet<fluxo_de_caixa>();
             this.liquidacao_contrato_de_cambio = new HashSet<liquidacao_contrato_de_cambio>();
+            this.ordem_reensaque = new HashSet<ordem_reensaque>();
             this.premio_ft = new HashSet<premio_ft>();
             this.relacao_situacao_norma = new HashSet<relacao_situacao_norma>();
         }
@@ -89,6 +90,8 @@ namespace apiERP
         public Nullable<int> INT_ID_TIPO_DE_TERMO_CONDICAO { get; set; }
         public Nullable<int> INT_ID_PAPEL_DAS_PARTES { get; set; }
         public Nullable<int> INT_ID_LOCAL_DE_EMBARQUE { get; set; }
+        public bool BOOL_FT_USA { get; set; }
+        public bool BOOL_RFA { get; set; }
     
         public virtual ICollection<agendamento_carga_descarga> agendamento_carga_descarga { get; set; }
         public virtual almoxarifado almoxarifado { get; set; }
@@ -114,6 +117,7 @@ namespace apiERP
         public virtual ICollection<referencia_hedge> referencia_hedge { get; set; }
         public virtual ICollection<fluxo_de_caixa> fluxo_de_caixa { get; set; }
         public virtual ICollection<liquidacao_contrato_de_cambio> liquidacao_contrato_de_cambio { get; set; }
+        public virtual ICollection<ordem_reensaque> ordem_reensaque { get; set; }
         public virtual ICollection<premio_ft> premio_ft { get; set; }
         public virtual ICollection<relacao_situacao_norma> relacao_situacao_norma { get; set; }
         public virtual situacao_norma situacao_norma { get; set; }

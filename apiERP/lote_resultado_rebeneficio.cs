@@ -24,6 +24,7 @@ namespace apiERP
             this.lote_producao_rastreabilidade = new HashSet<lote_producao_rastreabilidade>();
             this.lotes_origem_do_produto = new HashSet<lotes_origem_do_produto>();
             this.lote_resultado_rebeneficio_situacao_norma = new HashSet<lote_resultado_rebeneficio_situacao_norma>();
+            this.ordem_reensaque_lotes = new HashSet<ordem_reensaque_lotes>();
             this.solicitacao_de_amostra_lote = new HashSet<solicitacao_de_amostra_lote>();
         }
     
@@ -62,6 +63,7 @@ namespace apiERP
         public virtual tipo_cafe_rebeneficiado tipo_cafe_rebeneficiado { get; set; }
         public virtual ICollection<lotes_origem_do_produto> lotes_origem_do_produto { get; set; }
         public virtual ICollection<lote_resultado_rebeneficio_situacao_norma> lote_resultado_rebeneficio_situacao_norma { get; set; }
+        public virtual ICollection<ordem_reensaque_lotes> ordem_reensaque_lotes { get; set; }
         public virtual resultado_rebeneficio resultado_rebeneficio { get; set; }
         public virtual ICollection<solicitacao_de_amostra_lote> solicitacao_de_amostra_lote { get; set; }
         public virtual subtipo_norma subtipo_norma { get; set; }

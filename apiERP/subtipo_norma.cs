@@ -22,6 +22,7 @@ namespace apiERP
             this.composicao_amostra = new HashSet<composicao_amostra>();
             this.contrato = new HashSet<contrato>();
             this.fechamento_mercado_futuro = new HashSet<fechamento_mercado_futuro>();
+            this.instrucao_lote_resultado_para_gerar = new HashSet<instrucao_lote_resultado_para_gerar>();
             this.instrucao_preparo = new HashSet<instrucao_preparo>();
             this.lote_armazem_terceiros = new HashSet<lote_armazem_terceiros>();
             this.lote_resultado_rebeneficio = new HashSet<lote_resultado_rebeneficio>();
@@ -39,6 +40,7 @@ namespace apiERP
         public virtual ICollection<composicao_amostra> composicao_amostra { get; set; }
         public virtual ICollection<contrato> contrato { get; set; }
         public virtual ICollection<fechamento_mercado_futuro> fechamento_mercado_futuro { get; set; }
+        public virtual ICollection<instrucao_lote_resultado_para_gerar> instrucao_lote_resultado_para_gerar { get; set; }
         public virtual ICollection<instrucao_preparo> instrucao_preparo { get; set; }
         public virtual ICollection<lote_armazem_terceiros> lote_armazem_terceiros { get; set; }
         public virtual ICollection<lote_resultado_rebeneficio> lote_resultado_rebeneficio { get; set; }

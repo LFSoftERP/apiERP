@@ -45,6 +45,7 @@ namespace apiERP
         public Nullable<System.DateTime> DATE_ALTEROU { get; set; }
         public Nullable<int> INT_ID_EXCLUIU { get; set; }
         public Nullable<System.DateTime> DATE_EXCLUIU { get; set; }
+        public decimal DECIMAL_SCS_WASH_OUT { get; set; }
     
         public virtual ICollection<agendamento_cooperado> agendamento_cooperado { get; set; }
         public virtual cooperado cooperado { get; set; }

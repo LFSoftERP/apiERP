@@ -19,8 +19,6 @@ namespace apiERP.Controllers
         {
             IRepository<cooperado> repository = new Repository<cooperado>();
 
-            //repository.Find(x => x.CHAR_STATUS == "A").ToList();
-
             var teste = new db_coopfamEntities();
             var aux = teste.cooperado.Select(x => new { x.TXT_NOME, x.INT_ID, x.CHAR_STATUS }).Where(x =>x.INT_ID>5 && x.INT_ID<20 && x.CHAR_STATUS == "A").Take(5).ToList();
             //var ttt = teste.cooperado.Where(x => x.CHAR_STATUS == "A").ToList();

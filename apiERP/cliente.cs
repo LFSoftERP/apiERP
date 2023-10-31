@@ -32,11 +32,15 @@ namespace apiERP
             this.lote_produto = new HashSet<lote_produto>();
             this.movimento_bancario = new HashSet<movimento_bancario>();
             this.ordem_de_producao = new HashSet<ordem_de_producao>();
+            this.ordem_servico_celular = new HashSet<ordem_servico_celular>();
             this.pedido_faturamento = new HashSet<pedido_faturamento>();
+            this.planejamento_acoes_do_item_participantes = new HashSet<planejamento_acoes_do_item_participantes>();
             this.portifolio_fornecedor = new HashSet<portifolio_fornecedor>();
             this.procedimento = new HashSet<procedimento>();
             this.procedimento1 = new HashSet<procedimento>();
             this.produtos_ccontabeis_referencia_terceiros = new HashSet<produtos_ccontabeis_referencia_terceiros>();
+            this.projetos_da_empresa = new HashSet<projetos_da_empresa>();
+            this.projetos_realizados = new HashSet<projetos_realizados>();
             this.solicitacao_de_retirada = new HashSet<solicitacao_de_retirada>();
             this.venda_prestacao_servico = new HashSet<venda_prestacao_servico>();
         }
@@ -67,6 +71,17 @@ namespace apiERP
         public Nullable<int> INT_ID_CODIGO_CONTABIL { get; set; }
         public bool BOOL_MEDICO { get; set; }
         public bool BOOL_BLOQUEAR_VENDAS { get; set; }
+        public decimal DECIMAL_LIMITE_CREDITO { get; set; }
+        public bool BOOL_IGNORAR_LIMITE_DE_CREDITO { get; set; }
+        public string TXT_MOTIVO_BLOQUEIO { get; set; }
+        public string TXT_REFERENCIA_1 { get; set; }
+        public string TXT_CONTATO_1 { get; set; }
+        public string TXT_REFERENCIA_2 { get; set; }
+        public string TXT_CONTATO_2 { get; set; }
+        public string TXT_CONTATO_3 { get; set; }
+        public string TXT_REFERENCIA_3 { get; set; }
+        public string TXT_ID_RFA { get; set; }
+        public string TXT_FTUSA_ID { get; set; }
     
         public virtual ICollection<autorizacao_generica> autorizacao_generica { get; set; }
         public virtual cepbr_enderecos cepbr_enderecos { get; set; }
@@ -87,11 +102,15 @@ namespace apiERP
         public virtual ICollection<lote_produto> lote_produto { get; set; }
         public virtual ICollection<movimento_bancario> movimento_bancario { get; set; }
         public virtual ICollection<ordem_de_producao> ordem_de_producao { get; set; }
+        public virtual ICollection<ordem_servico_celular> ordem_servico_celular { get; set; }
         public virtual ICollection<pedido_faturamento> pedido_faturamento { get; set; }
+        public virtual ICollection<planejamento_acoes_do_item_participantes> planejamento_acoes_do_item_participantes { get; set; }
         public virtual ICollection<portifolio_fornecedor> portifolio_fornecedor { get; set; }
         public virtual ICollection<procedimento> procedimento { get; set; }
         public virtual ICollection<procedimento> procedimento1 { get; set; }
         public virtual ICollection<produtos_ccontabeis_referencia_terceiros> produtos_ccontabeis_referencia_terceiros { get; set; }
+        public virtual ICollection<projetos_da_empresa> projetos_da_empresa { get; set; }
+        public virtual ICollection<projetos_realizados> projetos_realizados { get; set; }
         public virtual ICollection<solicitacao_de_retirada> solicitacao_de_retirada { get; set; }
         public virtual ICollection<venda_prestacao_servico> venda_prestacao_servico { get; set; }
     }

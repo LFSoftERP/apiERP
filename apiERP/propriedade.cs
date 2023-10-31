@@ -53,10 +53,19 @@ namespace apiERP
         public bool BOOL_RESIDENCIA { get; set; }
         public string TXT_CAMINHO_MAPEAMENTO_PDF { get; set; }
         public string TXT_DESCREVER_ACESSO_PROPRIEDADE { get; set; }
+        public Nullable<int> INT_ID_CADASTRO { get; set; }
+        public Nullable<int> INT_ID_ALTEROU { get; set; }
+        public Nullable<int> INT_ID_EXCLUIU { get; set; }
+        public Nullable<System.DateTime> DATE_CADASTRO { get; set; }
+        public Nullable<System.DateTime> DATE_ALTEROU { get; set; }
+        public Nullable<System.DateTime> DATE_EXCLUIU { get; set; }
     
         public virtual ICollection<agendamento_talhao_propriedade> agendamento_talhao_propriedade { get; set; }
         public virtual cepbr_enderecos cepbr_enderecos { get; set; }
         public virtual cooperado cooperado { get; set; }
+        public virtual funcionario funcionario { get; set; }
+        public virtual funcionario funcionario1 { get; set; }
+        public virtual funcionario funcionario2 { get; set; }
         public virtual ICollection<historico_talhao> historico_talhao { get; set; }
         public virtual ICollection<talhao> talhao { get; set; }
     }

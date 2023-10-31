@@ -181,7 +181,9 @@ namespace apiERP
         public DbSet<lotes_compoe_carregamento> lotes_compoe_carregamento { get; set; }
         public DbSet<lotes_do_fechamento_e_hedge> lotes_do_fechamento_e_hedge { get; set; }
         public DbSet<lotes_origem_do_produto> lotes_origem_do_produto { get; set; }
+        public DbSet<maior_categoria> maior_categoria { get; set; }
         public DbSet<maquinario> maquinario { get; set; }
+        public DbSet<menor_categoria> menor_categoria { get; set; }
         public DbSet<modalidade_entrega> modalidade_entrega { get; set; }
         public DbSet<motorista> motorista { get; set; }
         public DbSet<motorista_autorizacao> motorista_autorizacao { get; set; }
@@ -196,6 +198,7 @@ namespace apiERP
         public DbSet<notas_canceladas> notas_canceladas { get; set; }
         public DbSet<notas_de_origem> notas_de_origem { get; set; }
         public DbSet<notas_para_assinar> notas_para_assinar { get; set; }
+        public DbSet<ods> ods { get; set; }
         public DbSet<ordem_de_producao> ordem_de_producao { get; set; }
         public DbSet<ordem_de_producao_embalagens> ordem_de_producao_embalagens { get; set; }
         public DbSet<ordem_de_producao_produtos> ordem_de_producao_produtos { get; set; }
@@ -203,8 +206,13 @@ namespace apiERP
         public DbSet<ordem_de_producao_resultado> ordem_de_producao_resultado { get; set; }
         public DbSet<ordem_de_producao_situacaonorma> ordem_de_producao_situacaonorma { get; set; }
         public DbSet<ordem_de_producao_tempo> ordem_de_producao_tempo { get; set; }
+        public DbSet<ordem_reensaque> ordem_reensaque { get; set; }
+        public DbSet<ordem_reensaque_lotes> ordem_reensaque_lotes { get; set; }
+        public DbSet<ordem_servico_celular> ordem_servico_celular { get; set; }
         public DbSet<origem_do_produto> origem_do_produto { get; set; }
         public DbSet<origem_do_produto_nota_fiscal> origem_do_produto_nota_fiscal { get; set; }
+        public DbSet<ouvidoria> ouvidoria { get; set; }
+        public DbSet<ouvidoria_mensagem> ouvidoria_mensagem { get; set; }
         public DbSet<padrao_de_imposto_por_cfop> padrao_de_imposto_por_cfop { get; set; }
         public DbSet<pagamento_emprestimo> pagamento_emprestimo { get; set; }
         public DbSet<pagamento_recebimento> pagamento_recebimento { get; set; }
@@ -218,10 +226,12 @@ namespace apiERP
         public DbSet<pilar> pilar { get; set; }
         public DbSet<planejamento> planejamento { get; set; }
         public DbSet<planejamento_acoes_do_item> planejamento_acoes_do_item { get; set; }
+        public DbSet<planejamento_acoes_do_item_participantes> planejamento_acoes_do_item_participantes { get; set; }
         public DbSet<planejamento_auto_avaliacao_impacto> planejamento_auto_avaliacao_impacto { get; set; }
         public DbSet<planejamento_categoria> planejamento_categoria { get; set; }
         public DbSet<planejamento_data_realizacao> planejamento_data_realizacao { get; set; }
         public DbSet<planejamento_item> planejamento_item { get; set; }
+        public DbSet<planejamento_menor_categoria> planejamento_menor_categoria { get; set; }
         public DbSet<planejamento_periodo> planejamento_periodo { get; set; }
         public DbSet<planejamento_responsavel> planejamento_responsavel { get; set; }
         public DbSet<plano_conversao> plano_conversao { get; set; }
@@ -238,6 +248,9 @@ namespace apiERP
         public DbSet<produto_linha> produto_linha { get; set; }
         public DbSet<produtos_ccontabeis_referencia_terceiros> produtos_ccontabeis_referencia_terceiros { get; set; }
         public DbSet<produtos_contabeis> produtos_contabeis { get; set; }
+        public DbSet<projeto_cooperado> projeto_cooperado { get; set; }
+        public DbSet<projetos_da_empresa> projetos_da_empresa { get; set; }
+        public DbSet<projetos_realizados> projetos_realizados { get; set; }
         public DbSet<pronaf> pronaf { get; set; }
         public DbSet<pronaf_parcelas> pronaf_parcelas { get; set; }
         public DbSet<pronaf_pronaf_tipo> pronaf_pronaf_tipo { get; set; }
@@ -250,6 +263,7 @@ namespace apiERP
         public DbSet<recibo> recibo { get; set; }
         public DbSet<recibo_cancelado> recibo_cancelado { get; set; }
         public DbSet<recibo_lotes> recibo_lotes { get; set; }
+        public DbSet<recurso_utilizado_outra_fonte> recurso_utilizado_outra_fonte { get; set; }
         public DbSet<referencia_comercial> referencia_comercial { get; set; }
         public DbSet<referencia_hedge> referencia_hedge { get; set; }
         public DbSet<referenciar_lotes_armazem_terceiros> referenciar_lotes_armazem_terceiros { get; set; }
@@ -285,6 +299,7 @@ namespace apiERP
         public DbSet<tipo_amostra> tipo_amostra { get; set; }
         public DbSet<tipo_cafe_rebeneficiado> tipo_cafe_rebeneficiado { get; set; }
         public DbSet<tipo_de_contato_com_cliente> tipo_de_contato_com_cliente { get; set; }
+        public DbSet<tipo_de_criterio> tipo_de_criterio { get; set; }
         public DbSet<tipo_de_documento> tipo_de_documento { get; set; }
         public DbSet<tipo_de_inspecao> tipo_de_inspecao { get; set; }
         public DbSet<tipo_de_pagamento> tipo_de_pagamento { get; set; }
@@ -296,6 +311,8 @@ namespace apiERP
         public DbSet<tipo_sacaria> tipo_sacaria { get; set; }
         public DbSet<transferencia_entre_almoxarifado> transferencia_entre_almoxarifado { get; set; }
         public DbSet<transferencia_produtos> transferencia_produtos { get; set; }
+        public DbSet<transferencia_recurso_planejamento_utilizado> transferencia_recurso_planejamento_utilizado { get; set; }
+        public DbSet<transferencia_recursos> transferencia_recursos { get; set; }
         public DbSet<unidade_de_medida> unidade_de_medida { get; set; }
         public DbSet<valor_diario_de_cada_carteira> valor_diario_de_cada_carteira { get; set; }
         public DbSet<variedades> variedades { get; set; }

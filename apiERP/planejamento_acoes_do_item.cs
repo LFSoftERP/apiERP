@@ -17,6 +17,7 @@ namespace apiERP
         public planejamento_acoes_do_item()
         {
             this.planejamento = new HashSet<planejamento>();
+            this.planejamento_acoes_do_item_participantes = new HashSet<planejamento_acoes_do_item_participantes>();
         }
     
         public int INT_ID { get; set; }
@@ -31,5 +32,6 @@ namespace apiERP
         public virtual pilar pilar { get; set; }
         public virtual ICollection<planejamento> planejamento { get; set; }
         public virtual planejamento_item planejamento_item { get; set; }
+        public virtual ICollection<planejamento_acoes_do_item_participantes> planejamento_acoes_do_item_participantes { get; set; }
     }
 }

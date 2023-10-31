@@ -49,6 +49,7 @@ namespace apiERP
         public Nullable<int> INT_NF { get; set; }
         public Nullable<int> INT_ID_NOTA_CANCELADA { get; set; }
         public Nullable<int> INT_ID_REVISAO_POP { get; set; }
+        public decimal DECIMAL_VALOR_PREMIO_POR_UNIDADE { get; set; }
     
         public virtual almoxarifado almoxarifado { get; set; }
         public virtual autorizacao_lotes autorizacao_lotes { get; set; }

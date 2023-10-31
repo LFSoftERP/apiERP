@@ -2,8 +2,10 @@
 using ERP_COOPFAM.Controllers.CertificacaoController;
 using ERP_COOPFAM.Model.Repository;
 using Newtonsoft.Json.Linq;
+using objRecebendoAPI;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -32,7 +34,7 @@ namespace apiERP.Controllers
         {
             retornoApi objReturn = new retornoApi();
             objReturn.Success = true;
-            objReturn.Message = "API Dsiponível";
+            objReturn.Message = "API Dsiponível!!!";
             return JObject.FromObject(objReturn);
         }
 
@@ -185,7 +187,7 @@ namespace apiERP.Controllers
 
         [Route("api/agendamentocertificacao/sincronizarvisitas")]
         // POST: api/agendamentoCertificacao
-        public JObject Sincronizar([FromBody]agendamento_certificacao objAgCert)
+        public JObject Sincronizar([FromBody]agendamento_certificacao_api objAgCert)
         {
             retornoApi objReturn = new retornoApi();
             objReturn.Success = true;
@@ -196,7 +198,11 @@ namespace apiERP.Controllers
                 objReturn.Message += objAgCert.BOOL_ATIVO;
                 
                 agendamento_certificacao obj = repository.Consulta_Id(objAgCert.INT_ID);
-            
+
+                configuracoes objConfig = new configuracoes();
+                objConfig = new Repository<configuracoes>().GetAll().FirstOrDefault();
+
+
                 obj.DATE_ALTERACAO = objAgCert.DATE_ALTERACAO;
                 obj.INT_ID_ALTERACAO = objAgCert.INT_ID_ALTERACAO;
                 obj.BOOL_SINCRONIZACAO_FINALIZOU = true;
@@ -253,6 +259,30 @@ namespace apiERP.Controllers
                         objForm.TXT_OBS_REDUCAO_TEMPO_TRANSICAO = item2.TXT_OBS_REDUCAO_TEMPO_TRANSICAO;
                         objForm.TXT_RECOMENDACAO = item2.TXT_RECOMENDACAO;
                         objForm.TXT_OBS_AVALIACAO_CLIENTE = item2.TXT_OBS_AVALIACAO_CLIENTE;
+                        objForm.TXT_MOTIVO_DE_NAO_COLETAR_ASSINATURA = item2.TXT_MOTIVO_DE_NAO_COLETAR_ASSINATURA;
+
+                        if (item2.TXT_ASSINATURA != "")
+                        {                            
+                            // Determine o diretório de destino onde você deseja salvar a imagem.
+                            string diretorioDestino = objConfig.TXT_CAMINHO_ASSINATURA;
+
+                            // Gere um nome único para a imagem, por exemplo, com base no ID.
+                            string nomeUnico = DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss.fff").Replace("-", "").Replace(":", "").Replace(" ", "").Replace(".", "") + ".png" ;
+
+                            // Combine o diretório de destino e o nome do arquivo para obter o caminho completo.
+                            string caminhoDestino = Path.Combine(diretorioDestino, nomeUnico);
+                            try
+                            {
+                                // Salve a imagem no servidor.
+                                objForm.TXT_ASSINATURA = nomeUnico;
+                                File.WriteAllBytes(caminhoDestino, item2.IMAGEM_ASSINATURA);
+                            }
+                            catch (Exception ex)
+                            {
+                                objForm.TXT_ASSINATURA = "erro "+ex.Message.ToString();
+                            }
+                        }                        
+
 
                         foreach (var itemFormAppAgTalhao in item2.formulario_aplicar_agendamento_talhao_propriedade.Where(x=>x.BOOL_ATIVO).ToList())
                         {
@@ -292,7 +322,7 @@ namespace apiERP.Controllers
                             objFormApp.INT_ID_PONTO_CRITICO = itemFormResp.INT_ID_PONTO_CRITICO;
                             objFormApp.INT_ID_POTENCIAL_RISCO = itemFormResp.INT_ID_POTENCIAL_RISCO;
                             objFormApp.INT_ID_PROCEDIMENTO_CRITICO = itemFormResp.INT_ID_PROCEDIMENTO_CRITICO;
-                            objFormApp.INT_ID_RANK = itemFormResp.INT_ID_RANK;
+                            objFormApp.INT_ID_FORMULARIO_SUBITEM_RANK = itemFormResp.INT_ID_FORMULARIO_SUBITEM_RANK;
                             objFormApp.TXT_ACAO_CORRETIVA = itemFormResp.TXT_ACAO_CORRETIVA;
                             objFormApp.TXT_CONSTATACAO_INSPETOR = itemFormResp.TXT_CONSTATACAO_INSPETOR;
                             objFormApp.TXT_LATITUDE = itemFormResp.TXT_LATITUDE;
@@ -429,7 +459,7 @@ namespace apiERP.Controllers
             catch (Exception ex)
             {
                 objReturn.Success = false;
-                objReturn.Message += "Erro ao Sincronizar33!!!\n\n"+ex.Message;
+                objReturn.Message += "Erro ao Sincronizar!!!\n\n"+ex.Message;
                 return JObject.FromObject(objReturn);
                 //return JObject.Parse("{result: \"" + false + "\"}");
             }

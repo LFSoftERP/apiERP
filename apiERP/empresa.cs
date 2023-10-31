@@ -85,6 +85,10 @@ namespace apiERP
         public bool BOOL_LOJA { get; set; }
         public string TXT_FLO_ID { get; set; }
         public bool BOOL_MATRIZ { get; set; }
+        public bool BOOL_LANCANTO_COTABIL_FISCAL { get; set; }
+        public bool BOOL_BRFAIR { get; set; }
+        public string TXT_FTUSA_ID { get; set; }
+        public string TXT_RFA_ID { get; set; }
     
         public virtual ICollection<acc_com_hedge> acc_com_hedge { get; set; }
         public virtual ICollection<bebida_padrao> bebida_padrao { get; set; }

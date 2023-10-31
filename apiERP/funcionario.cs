@@ -47,6 +47,8 @@ namespace apiERP
             this.convenio_medico_guia2 = new HashSet<convenio_medico_guia>();
             this.convenio_titular = new HashSet<convenio_titular>();
             this.cooperado = new HashSet<cooperado>();
+            this.cooperado1 = new HashSet<cooperado>();
+            this.cooperado2 = new HashSet<cooperado>();
             this.cooperado_que_fazem_parte_do_mercado_futuro = new HashSet<cooperado_que_fazem_parte_do_mercado_futuro>();
             this.cooperado_que_fazem_parte_do_mercado_futuro1 = new HashSet<cooperado_que_fazem_parte_do_mercado_futuro>();
             this.cooperado_que_fazem_parte_do_mercado_futuro2 = new HashSet<cooperado_que_fazem_parte_do_mercado_futuro>();
@@ -117,7 +119,13 @@ namespace apiERP
             this.formulario_subitem_ref_criterio2 = new HashSet<formulario_subitem_ref_criterio>();
             this.hedge = new HashSet<hedge>();
             this.log_erro_do_sistema = new HashSet<log_erro_do_sistema>();
+            this.propriedade = new HashSet<propriedade>();
+            this.propriedade1 = new HashSet<propriedade>();
+            this.propriedade2 = new HashSet<propriedade>();
             this.rolagem = new HashSet<rolagem>();
+            this.talhao = new HashSet<talhao>();
+            this.talhao1 = new HashSet<talhao>();
+            this.talhao2 = new HashSet<talhao>();
             this.lancamento_extras_codigos_contabeis = new HashSet<lancamento_extras_codigos_contabeis>();
             this.instrucao_preparo = new HashSet<instrucao_preparo>();
             this.log_usuarios = new HashSet<log_usuarios>();
@@ -159,6 +167,15 @@ namespace apiERP
             this.ordem_de_producao_tempo5 = new HashSet<ordem_de_producao_tempo>();
             this.ordem_de_producao_tempo6 = new HashSet<ordem_de_producao_tempo>();
             this.ordem_de_producao_tempo7 = new HashSet<ordem_de_producao_tempo>();
+            this.ordem_reensaque = new HashSet<ordem_reensaque>();
+            this.ordem_reensaque1 = new HashSet<ordem_reensaque>();
+            this.ordem_reensaque2 = new HashSet<ordem_reensaque>();
+            this.ordem_reensaque3 = new HashSet<ordem_reensaque>();
+            this.ordem_reensaque_lotes = new HashSet<ordem_reensaque_lotes>();
+            this.ordem_reensaque_lotes1 = new HashSet<ordem_reensaque_lotes>();
+            this.ordem_reensaque_lotes2 = new HashSet<ordem_reensaque_lotes>();
+            this.ouvidoria = new HashSet<ouvidoria>();
+            this.ouvidoria_mensagem = new HashSet<ouvidoria_mensagem>();
             this.pedido_faturamento = new HashSet<pedido_faturamento>();
             this.pedido_faturamento1 = new HashSet<pedido_faturamento>();
             this.pedido_faturamento_produto = new HashSet<pedido_faturamento_produto>();
@@ -170,6 +187,9 @@ namespace apiERP
             this.plano_conversao1 = new HashSet<plano_conversao>();
             this.plano_conversao2 = new HashSet<plano_conversao>();
             this.procedimento = new HashSet<procedimento>();
+            this.projetos_realizados = new HashSet<projetos_realizados>();
+            this.projetos_realizados1 = new HashSet<projetos_realizados>();
+            this.projetos_realizados2 = new HashSet<projetos_realizados>();
             this.pronaf = new HashSet<pronaf>();
             this.pronaf1 = new HashSet<pronaf>();
             this.pronaf2 = new HashSet<pronaf>();
@@ -263,6 +283,8 @@ namespace apiERP
         public virtual ICollection<convenio_medico_guia> convenio_medico_guia2 { get; set; }
         public virtual ICollection<convenio_titular> convenio_titular { get; set; }
         public virtual ICollection<cooperado> cooperado { get; set; }
+        public virtual ICollection<cooperado> cooperado1 { get; set; }
+        public virtual ICollection<cooperado> cooperado2 { get; set; }
         public virtual ICollection<cooperado_que_fazem_parte_do_mercado_futuro> cooperado_que_fazem_parte_do_mercado_futuro { get; set; }
         public virtual ICollection<cooperado_que_fazem_parte_do_mercado_futuro> cooperado_que_fazem_parte_do_mercado_futuro1 { get; set; }
         public virtual ICollection<cooperado_que_fazem_parte_do_mercado_futuro> cooperado_que_fazem_parte_do_mercado_futuro2 { get; set; }
@@ -334,7 +356,13 @@ namespace apiERP
         public virtual ICollection<formulario_subitem_ref_criterio> formulario_subitem_ref_criterio2 { get; set; }
         public virtual ICollection<hedge> hedge { get; set; }
         public virtual ICollection<log_erro_do_sistema> log_erro_do_sistema { get; set; }
+        public virtual ICollection<propriedade> propriedade { get; set; }
+        public virtual ICollection<propriedade> propriedade1 { get; set; }
+        public virtual ICollection<propriedade> propriedade2 { get; set; }
         public virtual ICollection<rolagem> rolagem { get; set; }
+        public virtual ICollection<talhao> talhao { get; set; }
+        public virtual ICollection<talhao> talhao1 { get; set; }
+        public virtual ICollection<talhao> talhao2 { get; set; }
         public virtual ICollection<lancamento_extras_codigos_contabeis> lancamento_extras_codigos_contabeis { get; set; }
         public virtual ICollection<instrucao_preparo> instrucao_preparo { get; set; }
         public virtual ICollection<log_usuarios> log_usuarios { get; set; }
@@ -376,6 +404,15 @@ namespace apiERP
         public virtual ICollection<ordem_de_producao_tempo> ordem_de_producao_tempo5 { get; set; }
         public virtual ICollection<ordem_de_producao_tempo> ordem_de_producao_tempo6 { get; set; }
         public virtual ICollection<ordem_de_producao_tempo> ordem_de_producao_tempo7 { get; set; }
+        public virtual ICollection<ordem_reensaque> ordem_reensaque { get; set; }
+        public virtual ICollection<ordem_reensaque> ordem_reensaque1 { get; set; }
+        public virtual ICollection<ordem_reensaque> ordem_reensaque2 { get; set; }
+        public virtual ICollection<ordem_reensaque> ordem_reensaque3 { get; set; }
+        public virtual ICollection<ordem_reensaque_lotes> ordem_reensaque_lotes { get; set; }
+        public virtual ICollection<ordem_reensaque_lotes> ordem_reensaque_lotes1 { get; set; }
+        public virtual ICollection<ordem_reensaque_lotes> ordem_reensaque_lotes2 { get; set; }
+        public virtual ICollection<ouvidoria> ouvidoria { get; set; }
+        public virtual ICollection<ouvidoria_mensagem> ouvidoria_mensagem { get; set; }
         public virtual ICollection<pedido_faturamento> pedido_faturamento { get; set; }
         public virtual ICollection<pedido_faturamento> pedido_faturamento1 { get; set; }
         public virtual ICollection<pedido_faturamento_produto> pedido_faturamento_produto { get; set; }
@@ -387,6 +424,9 @@ namespace apiERP
         public virtual ICollection<plano_conversao> plano_conversao1 { get; set; }
         public virtual ICollection<plano_conversao> plano_conversao2 { get; set; }
         public virtual ICollection<procedimento> procedimento { get; set; }
+        public virtual ICollection<projetos_realizados> projetos_realizados { get; set; }
+        public virtual ICollection<projetos_realizados> projetos_realizados1 { get; set; }
+        public virtual ICollection<projetos_realizados> projetos_realizados2 { get; set; }
         public virtual ICollection<pronaf> pronaf { get; set; }
         public virtual ICollection<pronaf> pronaf1 { get; set; }
         public virtual ICollection<pronaf> pronaf2 { get; set; }

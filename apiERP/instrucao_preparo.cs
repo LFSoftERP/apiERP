@@ -59,6 +59,7 @@ namespace apiERP
         public Nullable<System.DateTime> DATE_FINALIZOU_CARREGAMENTO { get; set; }
         public Nullable<int> INT_ID_INICIOU_CARREGAMENTO { get; set; }
         public Nullable<int> INT_ID_FINALIZOU_CARREGAMENTO { get; set; }
+        public bool BOOL_LIBERADO_PARA_ARMAZEM { get; set; }
     
         public virtual almoxarifado almoxarifado { get; set; }
         public virtual cliente cliente { get; set; }

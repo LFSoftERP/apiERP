@@ -5,285 +5,303 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="4f86ac173bba492d81d1ba53cf71af33" Name="Diagram1">
-        <EntityTypeShape EntityType="db_coopfamModel.acc_com_hedge" Width="1.5" PointX="10.5" PointY="406" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_carga_descarga" Width="1.5" PointX="15.75" PointY="408.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_certificacao" Width="1.5" PointX="40.5" PointY="427.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_certificacao_itens_especificos" Width="1.5" PointX="30" PointY="421.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_cooperado" Width="1.5" PointX="26" PointY="430.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_esquema" Width="1.5" PointX="42.75" PointY="390.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_formulario_ser_aplicado" Width="1.5" PointX="46.75" PointY="413.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_situacao_norma" Width="1.5" PointX="28.25" PointY="388.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.agendamento_talhao_propriedade" Width="1.5" PointX="42.75" PointY="446.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.alas_do_armazem" Width="1.5" PointX="5.25" PointY="365" />
-        <EntityTypeShape EntityType="db_coopfamModel.alas_do_armazem_chip_rfid" Width="1.5" PointX="10.5" PointY="373" />
-        <EntityTypeShape EntityType="db_coopfamModel.alas_do_armazem_lotes" Width="1.5" PointX="47" PointY="404" />
-        <EntityTypeShape EntityType="db_coopfamModel.almoxarifado" Width="1.5" PointX="3" PointY="296.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.amostra_da_roca" Width="1.5" PointX="7.5" PointY="429.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.amostra_solo_foliar" Width="1.5" PointX="16.5" PointY="432.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.amostra_solo_foliar_lote" Width="1.5" PointX="24.75" PointY="439.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.amostra_solo_foliar_talhao" Width="1.5" PointX="23.75" PointY="435.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.aplicador_de_produtos_na_lavoura" Width="1.5" PointX="53.5" PointY="443" />
-        <EntityTypeShape EntityType="db_coopfamModel.arbitragem_cafe" Width="1.5" PointX="10.5" PointY="356.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_dev_cooperado" Width="1.5" PointX="24.5" PointY="413.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_generica" Width="1.5" PointX="20.25" PointY="394.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_lotes" Width="1.5" PointX="41" PointY="413" />
-        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_venda_exp" Width="1.5" PointX="22.5" PointY="448.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.baixa_valor_adiantado" Width="1.5" PointX="24" PointY="427.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.bebida" Width="1.5" PointX="5.25" PointY="402.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.bebida_padrao" Width="1.5" PointX="3" PointY="402.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.bolsa" Width="1.5" PointX="9" PointY="444.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.cadastro_entrada" Width="1.5" PointX="30.25" PointY="430.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.carregamento_para_armazem_terceiros" Width="1.5" PointX="22.5" PointY="403.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.carteira" Width="1.5" PointX="9" PointY="451" />
-        <EntityTypeShape EntityType="db_coopfamModel.categoria_de_emprestimo" Width="1.5" PointX="9.75" PointY="323.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.categoria_de_emprestimo_com_banco" Width="1.5" PointX="8.25" PointY="379.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.cepbr_bairro" Width="1.5" PointX="0.75" PointY="347.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.cepbr_cidade" Width="1.5" PointX="1.5" PointY="354.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.cepbr_enderecos" Width="1.5" PointX="3" PointY="346.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.cepbr_estado" Width="1.5" PointX="1.5" PointY="339.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.certificacao" Width="1.5" PointX="3" PointY="342" />
-        <EntityTypeShape EntityType="db_coopfamModel.cfop" Width="1.5" PointX="3" PointY="332.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.cliente" Width="1.5" PointX="5.25" PointY="352.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.cliente_conta_bancaria" Width="1.5" PointX="7.5" PointY="370.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.comercial_ativo" Width="1.5" PointX="10.5" PointY="386.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.complementacao" Width="1.5" PointX="13.5" PointY="465.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.complementacoes_lote" Width="1.5" PointX="37.75" PointY="462.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.composicao_amostra" Width="1.5" PointX="15" PointY="357.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.composicao_amostra_envio" Width="1.5" PointX="7.5" PointY="401.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.conciliacoes" Width="1.5" PointX="3" PointY="302.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.configuracao_nota_filial" Width="1.5" PointX="16.5" PointY="384.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.configuracao_plano_de_contas_nota" Width="1.5" PointX="10.5" PointY="398.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.acc_com_hedge" Width="1.5" PointX="7.5" PointY="429.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_carga_descarga" Width="1.5" PointX="18.75" PointY="430.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_certificacao" Width="1.5" PointX="53.5" PointY="434" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_certificacao_itens_especificos" Width="1.5" PointX="39" PointY="441.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_cooperado" Width="1.5" PointX="21" PointY="447.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_esquema" Width="1.5" PointX="55.75" PointY="405" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_formulario_ser_aplicado" Width="1.5" PointX="55.75" PointY="428.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_situacao_norma" Width="1.5" PointX="27.25" PointY="408" />
+        <EntityTypeShape EntityType="db_coopfamModel.agendamento_talhao_propriedade" Width="1.5" PointX="55.75" PointY="468.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.alas_do_armazem" Width="1.5" PointX="8.25" PointY="353" />
+        <EntityTypeShape EntityType="db_coopfamModel.alas_do_armazem_chip_rfid" Width="1.5" PointX="12.5" PointY="364" />
+        <EntityTypeShape EntityType="db_coopfamModel.alas_do_armazem_lotes" Width="1.5" PointX="48.25" PointY="401" />
+        <EntityTypeShape EntityType="db_coopfamModel.almoxarifado" Width="1.5" PointX="8.25" PointY="461.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.amostra_da_roca" Width="1.5" PointX="13.5" PointY="414.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.amostra_solo_foliar" Width="1.5" PointX="15.5" PointY="447.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.amostra_solo_foliar_lote" Width="1.5" PointX="25.75" PointY="453.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.amostra_solo_foliar_talhao" Width="1.5" PointX="25.75" PointY="449.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.aplicador_de_produtos_na_lavoura" Width="1.5" PointX="62.5" PointY="465.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.arbitragem_cafe" Width="1.5" PointX="8.25" PointY="392.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_dev_cooperado" Width="1.5" PointX="27.25" PointY="428.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_generica" Width="1.5" PointX="22" PointY="407.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_lotes" Width="1.5" PointX="45.25" PointY="406.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.autorizacao_venda_exp" Width="1.5" PointX="24.25" PointY="462.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.baixa_valor_adiantado" Width="1.5" PointX="30" PointY="421.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.bebida" Width="1.5" PointX="5.25" PointY="354.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.bebida_padrao" Width="1.5" PointX="3" PointY="355.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.bolsa" Width="1.5" PointX="3" PointY="424.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.cadastro_entrada" Width="1.5" PointX="37" PointY="413" />
+        <EntityTypeShape EntityType="db_coopfamModel.carregamento_para_armazem_terceiros" Width="1.5" PointX="27.25" PointY="411.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.carteira" Width="1.5" PointX="3" PointY="417" />
+        <EntityTypeShape EntityType="db_coopfamModel.categoria_de_emprestimo" Width="1.5" PointX="17.75" PointY="396.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.categoria_de_emprestimo_com_banco" Width="1.5" PointX="5.25" PointY="401.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.cepbr_bairro" Width="1.5" PointX="3.75" PointY="327.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.cepbr_cidade" Width="1.5" PointX="1.5" PointY="326.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.cepbr_enderecos" Width="1.5" PointX="6" PointY="326.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.cepbr_estado" Width="1.5" PointX="1.5" PointY="323.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.certificacao" Width="1.5" PointX="3" PointY="364.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.cfop" Width="1.5" PointX="3" PointY="350.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.cliente" Width="1.5" PointX="8.25" PointY="374.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.cliente_conta_bancaria" Width="1.5" PointX="10.5" PointY="384.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.comercial_ativo" Width="1.5" PointX="16.5" PointY="412.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.complementacao" Width="1.5" PointX="15.5" PointY="466.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.complementacoes_lote" Width="1.5" PointX="47.5" PointY="453.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.composicao_amostra" Width="1.5" PointX="12.75" PointY="391.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.composicao_amostra_envio" Width="1.5" PointX="13.5" PointY="408.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.conciliacoes" Width="1.5" PointX="3" PointY="389.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.configuracao_nota_filial" Width="1.5" PointX="18.5" PointY="401" />
+        <EntityTypeShape EntityType="db_coopfamModel.configuracao_plano_de_contas_nota" Width="1.5" PointX="27.5" PointY="416" />
         <EntityTypeShape EntityType="db_coopfamModel.configuracoes" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_despesas_contrato" Width="1.5" PointX="33" PointY="385.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_e_receber" Width="1.5" PointX="27.75" PointY="402.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_planejamento" Width="1.5" PointX="30" PointY="383.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_plano_de_contas" Width="1.5" PointX="30" PointY="412" />
-        <EntityTypeShape EntityType="db_coopfamModel.contas_bancarias_empresa" Width="1.5" PointX="5.25" PointY="391.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.contrato" Width="1.5" PointX="12.75" PointY="359.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.convenio_medico" Width="1.5" PointX="3" PointY="362.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.convenio_medico_guia" Width="1.5" PointX="7.5" PointY="408.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.convenio_plano_de_saude" Width="1.5" PointX="10.5" PointY="364.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.convenio_titular" Width="1.5" PointX="5.25" PointY="410.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.cooperado" Width="1.5" PointX="11.25" PointY="416.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.cooperado_que_fazem_parte_do_mercado_futura_situacao_norma" Width="1.5" PointX="26" PointY="383.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.cooperado_que_fazem_parte_do_mercado_futuro" Width="1.5" PointX="21.75" PointY="416.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.cotacao" Width="1.5" PointX="11.25" PointY="454.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.cotacao_compra" Width="1.5" PointX="13.5" PointY="403" />
-        <EntityTypeShape EntityType="db_coopfamModel.cotacao_compra_item" Width="1.5" PointX="21.75" PointY="424.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.cotacao_item" Width="1.5" PointX="13.5" PointY="429.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.cotacao_item_fornecedor" Width="1.5" PointX="20.75" PointY="391" />
-        <EntityTypeShape EntityType="db_coopfamModel.cotacao_resultado_itens" Width="1.5" PointX="28" PointY="392.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.criterios" Width="1.5" PointX="8.25" PointY="395.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.curso" Width="1.5" PointX="3" PointY="328.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.curso_ministrantes" Width="1.5" PointX="3" PointY="406.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.curso_realizados" Width="1.5" PointX="5.25" PointY="395.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.curso_relacionado" Width="1.5" PointX="5.25" PointY="329" />
-        <EntityTypeShape EntityType="db_coopfamModel.cursos_cooperados" Width="1.5" PointX="16.5" PointY="424.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.custo_da_formacao_de_preco" Width="1.5" PointX="33.25" PointY="463.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.dados_bancarios" Width="1.5" PointX="13.5" PointY="418" />
-        <EntityTypeShape EntityType="db_coopfamModel.dap" Width="1.5" PointX="13.5" PointY="458.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.defeito_cafe" Width="1.5" PointX="3" PointY="399.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.defeito_cafe_cadastro_lote" Width="1.5" PointX="37.5" PointY="420.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.dependentes_plano_de_saude" Width="1.5" PointX="13.5" PointY="441.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.descontos_acrescimos_pg_cafe" Width="1.5" PointX="16.5" PointY="440.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.despesas_realizadas_contas_a_pg_e_rec" Width="1.5" PointX="30" PointY="417.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.devolucao_de_compra" Width="1.5" PointX="40" PointY="458.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.documento_comprobatorio" Width="1.5" PointX="7.5" PointY="342" />
-        <EntityTypeShape EntityType="db_coopfamModel.email" Width="1.5" PointX="13.5" PointY="425.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.email_cliente" Width="1.5" PointX="7.5" PointY="353.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.empresa" Width="1.5" PointX="0.75" PointY="365.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.empresa_forn_prod_agricola" Width="1.5" PointX="46.75" PointY="443" />
-        <EntityTypeShape EntityType="db_coopfamModel.emprestimos" Width="1.5" PointX="19.5" PointY="442.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.estimativa" Width="1.5" PointX="26" PointY="489.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.estrutura_do_produto" Width="1.5" PointX="10.5" PointY="439.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.fechamento" Width="1.5" PointX="33.25" PointY="437.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.fechamento_mercado_futuro" Width="1.5" PointX="13.5" PointY="379.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.fluxo_de_caixa" Width="1.5" PointX="18" PointY="389" />
-        <EntityTypeShape EntityType="db_coopfamModel.fonte_de_recurso" Width="1.5" PointX="5.25" PointY="323.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.form_resposta_nc_criterio" Width="1.5" PointX="19.5" PointY="418.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.forma_de_pagamento" Width="1.5" PointX="10.5" PointY="351.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.formacao_de_preco" Width="1.5" PointX="33.25" PointY="460.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario" Width="1.5" PointX="11.25" PointY="392.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_aplicar" Width="1.5" PointX="49" PointY="421.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_aplicar_agendamento_talhao_propriedade" Width="1.5" PointX="51.25" PointY="434.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_aplicar_produtos_utilizados_na_lavoura" Width="1.5" PointX="51.25" PointY="441.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_checklist" Width="1.5" PointX="30" PointY="425.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_exercicio_rastreabilidade_balanco_massa" Width="1.5" PointX="35.5" PointY="442.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_item" Width="1.5" PointX="16.5" PointY="418.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_item_selecao" Width="1.5" PointX="49" PointY="441.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_resposta_documento_comprobatorio" Width="1.5" PointX="38.25" PointY="395" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_resposta_evidencia" Width="1.5" PointX="33.25" PointY="393.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_resposta_seletiva" Width="1.5" PointX="35.25" PointY="422.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_respostas" Width="1.5" PointX="31" PointY="389.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_seletiva" Width="1.5" PointX="22.5" PointY="468.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_sub_item" Width="1.5" PointX="24.75" PointY="419.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_subitem_rank" Width="1.5" PointX="27" PointY="419.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.formulario_subitem_ref_criterio" Width="1.5" PointX="16.5" PointY="403.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.frota" Width="1.5" PointX="11.25" PointY="458.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.funcionario" Width="1.5" PointX="3" PointY="419.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.gestao_risco" Width="1.5" PointX="10.5" PointY="359.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.grau_de_parentesco" Width="1.5" PointX="11.25" PointY="451.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.grupo_da_carteira" Width="1.5" PointX="6.75" PointY="451.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.grupo_de_imposto" Width="1.5" PointX="3" PointY="366.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.grupo_de_servico" Width="1.5" PointX="3" PointY="321.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.grupo_reuniao" Width="1.5" PointX="9" PointY="435.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.grupo_variedade" Width="1.5" PointX="30.75" PointY="460.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.hedge" Width="1.5" PointX="11.25" PointY="443.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.historico_de_alteracao_de_status" Width="1.5" PointX="13.5" PointY="468.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.historico_talhao" Width="1.5" PointX="27.75" PointY="437.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.informacao_adicional" Width="1.5" PointX="3" PointY="388.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.instituicao" Width="1.5" PointX="9" PointY="447.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.instrucao_lote_resultado_para_gerar" Width="1.5" PointX="25.5" PointY="361.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.instrucao_preparo" Width="1.5" PointX="23.25" PointY="392.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.integracao_contabil" Width="1.5" PointX="5.25" PointY="501.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.integracao_contabil_lancamentos" Width="1.5" PointX="32.25" PointY="457" />
-        <EntityTypeShape EntityType="db_coopfamModel.integrantes_grupo" Width="1.5" PointX="11.25" PointY="461.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.intervalo_da_forma_pagamento" Width="1.5" PointX="12.75" PointY="352.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.laboratorio" Width="1.5" PointX="3" PointY="463.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.lancamento_extras_codigos_contabeis" Width="1.5" PointX="13.5" PointY="436.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.liquidacao_contrato_de_cambio" Width="1.5" PointX="30.5" PointY="402.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.liquidacao_contrato_de_cambio_relacao_nf" Width="1.5" PointX="38.75" PointY="407.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.log_erro_do_sistema" Width="1.5" PointX="5.25" PointY="553.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.log_usuarios" Width="1.5" PointX="5.25" PointY="551.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_arm_terceiros_situacao_norma" Width="1.5" PointX="36" PointY="375.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_armazem_terceiros" Width="1.5" PointX="33.75" PointY="401.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_composicao" Width="1.5" PointX="41" PointY="398.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_instrucao" Width="1.5" PointX="44" PointY="410.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_nota_cancelada" Width="1.5" PointX="40" PointY="466.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_origem_do_result_reb" Width="1.5" PointX="44" PointY="414.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_para_analise_solo_foliar" Width="1.5" PointX="5.25" PointY="444.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_producao_rastreabilidade" Width="1.5" PointX="51.5" PointY="412.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_produto" Width="1.5" PointX="49.25" PointY="401.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_produto_situacaonorma" Width="1.5" PointX="51.5" PointY="376.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_resultado_rebeneficio" Width="1.5" PointX="38.75" PointY="386.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_resultado_rebeneficio_situacao_norma" Width="1.5" PointX="41" PointY="368.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.lote_situacaonorma" Width="1.5" PointX="33.5" PointY="398.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.lotes_compoe_carregamento" Width="1.5" PointX="37.5" PointY="427.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.lotes_do_fechamento_e_hedge" Width="1.5" PointX="35.5" PointY="431.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.lotes_origem_do_produto" Width="1.5" PointX="41" PointY="408.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.maquinario" Width="1.5" PointX="3" PointY="305.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.modalidade_entrega" Width="1.5" PointX="3" PointY="395.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.motorista" Width="1.5" PointX="35.75" PointY="379.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.motorista_autorizacao" Width="1.5" PointX="27.75" PointY="423" />
-        <EntityTypeShape EntityType="db_coopfamModel.movimento_bancario" Width="1.5" PointX="18.75" PointY="426.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.movimentos_produtos_contabeis" Width="1.5" PointX="36" PointY="386.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.norma" Width="1.5" PointX="5.25" PointY="346.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.norma_cooperado" Width="1.5" PointX="13.5" PointY="456.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.norma_talhao" Width="1.5" PointX="12.75" PointY="398.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.norma_talhao_historico" Width="1.5" PointX="15" PointY="399.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.normas_resultante_instrucao_preparo" Width="1.5" PointX="26.5" PointY="370.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.nota_fiscal" Width="1.5" PointX="25.5" PointY="391.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.notas_canceladas" Width="1.5" PointX="32.75" PointY="425.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.notas_de_origem" Width="1.5" PointX="32.5" PointY="506.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.notas_para_assinar" Width="1.5" PointX="13.5" PointY="453" />
-        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao" Width="1.5" PointX="23.5" PointY="372.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_embalagens" Width="1.5" PointX="27.75" PointY="365.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_produtos" Width="1.5" PointX="51.5" PointY="417.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_produtos_utilizados" Width="1.5" PointX="33" PointY="432.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_resultado" Width="1.5" PointX="30.75" PointY="406.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_situacaonorma" Width="1.5" PointX="28.75" PointY="369.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_tempo" Width="1.5" PointX="33.75" PointY="408.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.origem_do_produto" Width="1.5" PointX="25.5" PointY="405.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.origem_do_produto_nota_fiscal" Width="1.5" PointX="27.75" PointY="412.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.padrao_de_imposto_por_cfop" Width="1.5" PointX="8.25" PointY="357.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.pagamento_emprestimo" Width="1.5" PointX="24" PointY="481.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.pagamento_recebimento" Width="1.5" PointX="16.5" PointY="447.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.pagamento_recebimento_fluxo_de_caixa" Width="1.5" PointX="20.25" PointY="386.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.papel_das_partes_contrato_cafe" Width="1.5" PointX="10.5" PointY="376.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.parcela_emprestimo" Width="1.5" PointX="21.75" PointY="456.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.participante_dap" Width="1.5" PointX="15.75" PointY="459.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.pedido_faturamento" Width="1.5" PointX="38" PointY="411" />
-        <EntityTypeShape EntityType="db_coopfamModel.pedido_faturamento_parcelas" Width="1.5" PointX="40.25" PointY="403.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.pedido_faturamento_produto" Width="1.5" PointX="13.5" PointY="408.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.pilar" Width="1.5" PointX="3" PointY="309.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento" Width="1.5" PointX="7.5" PointY="323.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento_acoes_do_item" Width="1.5" PointX="5.25" PointY="333.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento_auto_avaliacao_impacto" Width="1.5" PointX="7.5" PointY="386.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento_categoria" Width="1.5" PointX="3" PointY="315" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento_data_realizacao" Width="1.5" PointX="9.75" PointY="326.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento_item" Width="1.5" PointX="3" PointY="358.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento_periodo" Width="1.5" PointX="5.25" PointY="315" />
-        <EntityTypeShape EntityType="db_coopfamModel.planejamento_responsavel" Width="1.5" PointX="5.25" PointY="407" />
-        <EntityTypeShape EntityType="db_coopfamModel.plano_conversao" Width="1.5" PointX="33" PointY="449" />
-        <EntityTypeShape EntityType="db_coopfamModel.plano_de_contas_contabil" Width="1.5" PointX="3" PointY="391" />
-        <EntityTypeShape EntityType="db_coopfamModel.ponto_critico" Width="1.5" PointX="5.25" PointY="338.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.portifolio_fornecedor" Width="1.5" PointX="10.5" PointY="369" />
-        <EntityTypeShape EntityType="db_coopfamModel.potencial_risco" Width="1.5" PointX="7.5" PointY="336.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.praga_doenca" Width="1.5" PointX="46.75" PointY="445.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.pre_financiamento" Width="1.5" PointX="10.5" PointY="379.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.premio_ft" Width="1.5" PointX="35" PointY="417.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.procedimento" Width="1.5" PointX="15.75" PointY="389.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.procedimento_critico_medida_precaucao" Width="1.5" PointX="7.5" PointY="339.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.procedimento_tipo" Width="1.5" PointX="3" PointY="312.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.produto_linha" Width="1.5" PointX="3" PointY="416.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.produtos_ccontabeis_referencia_terceiros" Width="1.5" PointX="7.5" PointY="382.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.produtos_contabeis" Width="1.5" PointX="5.25" PointY="414.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.pronaf" Width="1.5" PointX="22.5" PointY="441.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.pronaf_parcelas" Width="1.5" PointX="24.75" PointY="446" />
-        <EntityTypeShape EntityType="db_coopfamModel.pronaf_pronaf_tipo" Width="1.5" PointX="27.75" PointY="448.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.pronaf_tipo" Width="1.5" PointX="25.5" PointY="449.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.propriedade" Width="1.5" PointX="21.5" PointY="432.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.quebra_de_safra" Width="1.5" PointX="26" PointY="486.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.quebra_de_safra_estimativa" Width="1.5" PointX="28.25" PointY="490.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.rank" Width="1.5" PointX="28.75" PointY="398.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.rastrear_transferencias_entre_contas" Width="1.5" PointX="21" PointY="452.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.recibo" Width="1.5" PointX="5.25" PointY="547" />
-        <EntityTypeShape EntityType="db_coopfamModel.recibo_cancelado" Width="1.5" PointX="7.5" PointY="483.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.recibo_lotes" Width="1.5" PointX="40" PointY="489.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.referencia_comercial" Width="1.5" PointX="13.5" PointY="472.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.referencia_hedge" Width="1.5" PointX="18.75" PointY="407.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.referenciar_lotes_armazem_terceiros" Width="1.5" PointX="38" PointY="423.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.relacao_de_custos_da_formacao_de_preco" Width="1.5" PointX="35.5" PointY="460.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.relacao_de_notas_desc_acrescimo" Width="1.5" PointX="27.75" PointY="443.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.relacao_notas_descontoacrescimo_lotes_fechamento" Width="1.5" PointX="40" PointY="448.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.relacao_situacao_norma" Width="1.5" PointX="26.5" PointY="374.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.remocao_de_lotes" Width="1.5" PointX="49.25" PointY="411.75" />
-        <EntityTypeShape EntityType="db_coopfamModel.requisicao_compra" Width="1.5" PointX="5.25" PointY="438.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.requisito_compra_itens" Width="1.5" PointX="7.5" PointY="423.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.resultado_rebeneficio" Width="1.5" PointX="32.5" PointY="417.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.revisoes_pop" Width="1.5" PointX="18" PointY="379.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.rfid_chip" Width="1.5" PointX="3" PointY="372" />
-        <EntityTypeShape EntityType="db_coopfamModel.rolagem" Width="1.5" PointX="5.25" PointY="432" />
-        <EntityTypeShape EntityType="db_coopfamModel.setor" Width="1.5" PointX="5.25" PointY="320" />
-        <EntityTypeShape EntityType="db_coopfamModel.situacao_norma" Width="1.5" PointX="7.5" PointY="345" />
-        <EntityTypeShape EntityType="db_coopfamModel.situacaonorma_subtiponorma" Width="1.5" PointX="9.75" PointY="346.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_amostra" Width="1.5" PointX="8.25" PointY="438.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_amostra_lote" Width="1.5" PointX="41" PointY="421.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_retirada" Width="1.5" PointX="21.5" PointY="408.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_unificacao_divisao_de_talhoes" Width="1.5" PointX="5.25" PointY="491.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.solicitar_visita" Width="1.5" PointX="33.25" PointY="389.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.subtipo_norma" Width="1.5" PointX="7.5" PointY="330.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.tabela_codigo_produto_por_convenio" Width="1.5" PointX="17.75" PointY="396.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.tabela_icms" Width="1.5" PointX="3" PointY="318.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.talhao" Width="1.5" PointX="23.75" PointY="461.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.talhao_ultima_aplicao_produto_proibido" Width="1.5" PointX="30" PointY="445.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.talhao_unificar" Width="1.5" PointX="26" PointY="477.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.talhao_variedade" Width="1.5" PointX="33" PointY="442.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.telefone" Width="1.5" PointX="13.5" PointY="462.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.telefone_cliente" Width="1.5" PointX="7.5" PointY="374.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.termo_e_condicao_contrato_cafe_cru" Width="1.5" PointX="10.5" PointY="382" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_amostra" Width="1.5" PointX="14.25" PointY="446.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_cafe_rebeneficiado" Width="1.5" PointX="3" PointY="375.875" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_contato_com_cliente" Width="1.5" PointX="3" PointY="385.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_documento" Width="1.5" PointX="25.5" PointY="367.375" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_inspecao" Width="1.5" PointX="31" PointY="380" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_pagamento" Width="1.5" PointX="7.5" PointY="391.25" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_permissao_alas_do_armazem" Width="1.5" PointX="3" PointY="351.125" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_permissao_alas_do_armazem_normas" Width="1.5" PointX="9.75" PointY="402" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_procedimento" Width="1.5" PointX="3" PointY="369" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_lote_rebeneficio_para_gerar" Width="1.5" PointX="5.25" PointY="370.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_produto_agricola" Width="1.5" PointX="46.75" PointY="440.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.tipo_sacaria" Width="1.5" PointX="3" PointY="325" />
-        <EntityTypeShape EntityType="db_coopfamModel.transferencia_entre_almoxarifado" Width="1.5" PointX="8.25" PointY="417" />
-        <EntityTypeShape EntityType="db_coopfamModel.transferencia_produtos" Width="1.5" PointX="18.5" PointY="414.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.unidade_de_medida" Width="1.5" PointX="3" PointY="412.625" />
-        <EntityTypeShape EntityType="db_coopfamModel.valor_diario_de_cada_carteira" Width="1.5" PointX="9" PointY="455.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.variedades" Width="1.5" PointX="30.75" PointY="451.5" />
-        <EntityTypeShape EntityType="db_coopfamModel.venda_prestacao_servico" Width="1.5" PointX="43.25" PointY="402" />
+        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_despesas_contrato" Width="1.5" PointX="39.75" PointY="416.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_e_receber" Width="1.5" PointX="34.5" PointY="416.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_planejamento" Width="1.5" PointX="36.75" PointY="408.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.contas_a_pagar_plano_de_contas" Width="1.5" PointX="27" PointY="419.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.contas_bancarias_empresa" Width="1.5" PointX="5.25" PointY="404.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.contrato" Width="1.5" PointX="10.5" PointY="404.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.convenio_medico" Width="1.5" PointX="3" PointY="497.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.convenio_medico_guia" Width="1.5" PointX="17.75" PointY="460.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.convenio_plano_de_saude" Width="1.5" PointX="10.5" PointY="390.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.convenio_titular" Width="1.5" PointX="15.5" PointY="462.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.cooperado" Width="1.5" PointX="13.25" PointY="431.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.cooperado_que_fazem_parte_do_mercado_futura_situacao_norma" Width="1.5" PointX="21" PointY="404" />
+        <EntityTypeShape EntityType="db_coopfamModel.cooperado_que_fazem_parte_do_mercado_futuro" Width="1.5" PointX="18.75" PointY="444.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.cotacao" Width="1.5" PointX="9" PointY="483.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.cotacao_compra" Width="1.5" PointX="13.5" PointY="425.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.cotacao_compra_item" Width="1.5" PointX="20.75" PointY="453.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.cotacao_item" Width="1.5" PointX="11.25" PointY="456.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.cotacao_item_fornecedor" Width="1.5" PointX="18.5" PointY="425.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.cotacao_resultado_itens" Width="1.5" PointX="28.75" PointY="457" />
+        <EntityTypeShape EntityType="db_coopfamModel.criterios" Width="1.5" PointX="5.25" PointY="410.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.curso" Width="1.5" PointX="3" PointY="385.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.curso_ministrantes" Width="1.5" PointX="3" PointY="413.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.curso_realizados" Width="1.5" PointX="5.25" PointY="427.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.curso_relacionado" Width="1.5" PointX="5.25" PointY="386.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.cursos_cooperados" Width="1.5" PointX="21.5" PointY="443" />
+        <EntityTypeShape EntityType="db_coopfamModel.custo_da_formacao_de_preco" Width="1.5" PointX="43" PointY="455" />
+        <EntityTypeShape EntityType="db_coopfamModel.dados_bancarios" Width="1.5" PointX="15.5" PointY="486" />
+        <EntityTypeShape EntityType="db_coopfamModel.dap" Width="1.5" PointX="15.5" PointY="479.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.defeito_cafe" Width="1.5" PointX="3" PointY="340.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.defeito_cafe_cadastro_lote" Width="1.5" PointX="39.25" PointY="383" />
+        <EntityTypeShape EntityType="db_coopfamModel.dependentes_plano_de_saude" Width="1.5" PointX="25.75" PointY="457" />
+        <EntityTypeShape EntityType="db_coopfamModel.descontos_acrescimos_pg_cafe" Width="1.5" PointX="28" PointY="450.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.despesas_realizadas_contas_a_pg_e_rec" Width="1.5" PointX="39.75" PointY="429.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.devolucao_de_compra" Width="1.5" PointX="49.75" PointY="460.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.documento_comprobatorio" Width="1.5" PointX="7.5" PointY="361.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.email" Width="1.5" PointX="15.5" PointY="470.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.email_cliente" Width="1.5" PointX="10.5" PointY="382" />
+        <EntityTypeShape EntityType="db_coopfamModel.empresa" Width="1.5" PointX="0.75" PointY="395" />
+        <EntityTypeShape EntityType="db_coopfamModel.empresa_forn_prod_agricola" Width="1.5" PointX="55.75" PointY="460.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.emprestimos" Width="1.5" PointX="18.5" PointY="437.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.estimativa" Width="1.5" PointX="28" PointY="524.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.estrutura_do_produto" Width="1.5" PointX="8.25" PointY="449.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.fechamento" Width="1.5" PointX="43" PointY="434.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.fechamento_mercado_futuro" Width="1.5" PointX="7.5" PointY="405.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.fluxo_de_caixa" Width="1.5" PointX="15.75" PointY="406" />
+        <EntityTypeShape EntityType="db_coopfamModel.fonte_de_recurso" Width="1.5" PointX="13.25" PointY="387.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.form_resposta_nc_criterio" Width="1.5" PointX="10.5" PointY="443.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.forma_de_pagamento" Width="1.5" PointX="8.25" PointY="395.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.formacao_de_preco" Width="1.5" PointX="43" PointY="451.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario" Width="1.5" PointX="5.25" PointY="417" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_aplicar" Width="1.5" PointX="58" PointY="439.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_aplicar_agendamento_talhao_propriedade" Width="1.5" PointX="60.25" PointY="454.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_aplicar_produtos_utilizados_na_lavoura" Width="1.5" PointX="60.25" PointY="464.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_checklist" Width="1.5" PointX="36" PointY="449.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_exercicio_rastreabilidade_balanco_massa" Width="1.5" PointX="43.25" PointY="439.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_item" Width="1.5" PointX="18.5" PointY="453.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_item_selecao" Width="1.5" PointX="58" PointY="461.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_resposta_documento_comprobatorio" Width="1.5" PointX="48.25" PointY="412.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_resposta_evidencia" Width="1.5" PointX="42.25" PointY="399" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_resposta_seletiva" Width="1.5" PointX="46.25" PointY="438.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_respostas" Width="1.5" PointX="40" PointY="404" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_seletiva" Width="1.5" PointX="28.5" PointY="469.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_sub_item" Width="1.5" PointX="30.75" PointY="442.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_subitem_rank" Width="1.5" PointX="39" PointY="445.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.formulario_subitem_ref_criterio" Width="1.5" PointX="7.5" PointY="423.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.frota" Width="1.5" PointX="9" PointY="480.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.funcionario" Width="1.5" PointX="3" PointY="428" />
+        <EntityTypeShape EntityType="db_coopfamModel.gestao_risco" Width="1.5" PointX="8.25" PointY="470" />
+        <EntityTypeShape EntityType="db_coopfamModel.grau_de_parentesco" Width="1.5" PointX="23.5" PointY="459" />
+        <EntityTypeShape EntityType="db_coopfamModel.grupo_da_carteira" Width="1.5" PointX="0.75" PointY="417.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.grupo_de_imposto" Width="1.5" PointX="3" PointY="331.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.grupo_de_servico" Width="1.5" PointX="3" PointY="347.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.grupo_reuniao" Width="1.5" PointX="11" PointY="436" />
+        <EntityTypeShape EntityType="db_coopfamModel.grupo_variedade" Width="1.5" PointX="28.75" PointY="484.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.hedge" Width="1.5" PointX="5.25" PointY="447.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.historico_de_alteracao_de_status" Width="1.5" PointX="15.5" PointY="421.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.historico_talhao" Width="1.5" PointX="30.75" PointY="451" />
+        <EntityTypeShape EntityType="db_coopfamModel.informacao_adicional" Width="1.5" PointX="3" PointY="409" />
+        <EntityTypeShape EntityType="db_coopfamModel.instituicao" Width="1.5" PointX="3" PointY="421.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.instrucao_lote_resultado_para_gerar" Width="1.5" PointX="27.25" PointY="377.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.instrucao_preparo" Width="1.5" PointX="25" PointY="404.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.integracao_contabil" Width="1.5" PointX="5.25" PointY="536.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.integracao_contabil_lancamentos" Width="1.5" PointX="29.25" PointY="478.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.integrantes_grupo" Width="1.5" PointX="13.25" PointY="468.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.intervalo_da_forma_pagamento" Width="1.5" PointX="10.5" PointY="357" />
+        <EntityTypeShape EntityType="db_coopfamModel.laboratorio" Width="1.5" PointX="3" PointY="504.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.lancamento_extras_codigos_contabeis" Width="1.5" PointX="14.25" PointY="456.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.liquidacao_contrato_de_cambio" Width="1.5" PointX="37.25" PointY="435.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.liquidacao_contrato_de_cambio_relacao_nf" Width="1.5" PointX="44.5" PointY="446.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.log_erro_do_sistema" Width="1.5" PointX="5.25" PointY="567.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.log_usuarios" Width="1.5" PointX="5.25" PointY="560.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_arm_terceiros_situacao_norma" Width="1.5" PointX="34.75" PointY="386.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_armazem_terceiros" Width="1.5" PointX="32.5" PointY="408.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_composicao" Width="1.5" PointX="45.25" PointY="401.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_instrucao" Width="1.5" PointX="45.25" PointY="411.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_nota_cancelada" Width="1.5" PointX="49.75" PointY="454.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_origem_do_result_reb" Width="1.5" PointX="39.25" PointY="400" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_para_analise_solo_foliar" Width="1.5" PointX="5.25" PointY="441.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_producao_rastreabilidade" Width="1.5" PointX="50.75" PointY="416.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_produto" Width="1.5" PointX="48.5" PointY="438.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_produto_situacaonorma" Width="1.5" PointX="50.75" PointY="406.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_resultado_rebeneficio" Width="1.5" PointX="36.5" PointY="389.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_resultado_rebeneficio_situacao_norma" Width="1.5" PointX="38.75" PointY="379.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.lote_situacaonorma" Width="1.5" PointX="39.25" PointY="396.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.lotes_compoe_carregamento" Width="1.5" PointX="45.25" PointY="421.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.lotes_do_fechamento_e_hedge" Width="1.5" PointX="45.25" PointY="427.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.lotes_origem_do_produto" Width="1.5" PointX="45.25" PointY="416.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.maior_categoria" Width="1.5" PointX="0.75" PointY="382.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.maquinario" Width="1.5" PointX="3" PointY="493.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.menor_categoria" Width="1.5" PointX="3" PointY="382.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.modalidade_entrega" Width="1.5" PointX="3" PointY="480.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.motorista" Width="1.5" PointX="36.75" PointY="460" />
+        <EntityTypeShape EntityType="db_coopfamModel.motorista_autorizacao" Width="1.5" PointX="29.5" PointY="437.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.movimento_bancario" Width="1.5" PointX="24.75" PointY="416.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.movimentos_produtos_contabeis" Width="1.5" PointX="42.25" PointY="403.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.norma" Width="1.5" PointX="5.25" PointY="369" />
+        <EntityTypeShape EntityType="db_coopfamModel.norma_cooperado" Width="1.5" PointX="15.5" PointY="473.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.norma_talhao" Width="1.5" PointX="12.75" PointY="421.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.norma_talhao_historico" Width="1.5" PointX="18" PointY="422.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.normas_resultante_instrucao_preparo" Width="1.5" PointX="27.25" PointY="390.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.nota_fiscal" Width="1.5" PointX="30.25" PointY="399.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.notas_canceladas" Width="1.5" PointX="34.5" PointY="431.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.notas_de_origem" Width="1.5" PointX="39.25" PointY="495.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.notas_para_assinar" Width="1.5" PointX="15.5" PointY="482.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.ods" Width="1.5" PointX="0.75" PointY="391.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao" Width="1.5" PointX="32.25" PointY="418" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_embalagens" Width="1.5" PointX="34.5" PointY="455.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_produtos" Width="1.5" PointX="53.75" PointY="444.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_produtos_utilizados" Width="1.5" PointX="41.75" PointY="447.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_resultado" Width="1.5" PointX="37.5" PointY="429.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_situacaonorma" Width="1.5" PointX="34.5" PointY="400.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_de_producao_tempo" Width="1.5" PointX="36.5" PointY="440" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_reensaque" Width="1.5" PointX="15.75" PointY="425.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_reensaque_lotes" Width="1.5" PointX="42.25" PointY="428.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.ordem_servico_celular" Width="1.5" PointX="10.5" PointY="372.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.origem_do_produto" Width="1.5" PointX="29.25" PointY="432" />
+        <EntityTypeShape EntityType="db_coopfamModel.origem_do_produto_nota_fiscal" Width="1.5" PointX="31.5" PointY="456.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.ouvidoria" Width="1.5" PointX="5.25" PointY="563" />
+        <EntityTypeShape EntityType="db_coopfamModel.ouvidoria_mensagem" Width="1.5" PointX="7.5" PointY="495.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.padrao_de_imposto_por_cfop" Width="1.5" PointX="10.25" PointY="360.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.pagamento_emprestimo" Width="1.5" PointX="33" PointY="445" />
+        <EntityTypeShape EntityType="db_coopfamModel.pagamento_recebimento" Width="1.5" PointX="22.5" PointY="395.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.pagamento_recebimento_fluxo_de_caixa" Width="1.5" PointX="24" PointY="399.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.papel_das_partes_contrato_cafe" Width="1.5" PointX="8.25" PointY="467.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.parcela_emprestimo" Width="1.5" PointX="20.75" PointY="461.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.participante_dap" Width="1.5" PointX="17.75" PointY="479.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.pedido_faturamento" Width="1.5" PointX="39" PointY="448.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.pedido_faturamento_parcelas" Width="1.5" PointX="48.25" PointY="427.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.pedido_faturamento_produto" Width="1.5" PointX="19.5" PointY="414.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.pilar" Width="1.5" PointX="3" PointY="501" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento" Width="1.5" PointX="15.5" PointY="384.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_acoes_do_item" Width="1.5" PointX="10.25" PointY="439.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_acoes_do_item_participantes" Width="1.5" PointX="13.5" PointY="405.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_auto_avaliacao_impacto" Width="1.5" PointX="10.5" PointY="399.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_categoria" Width="1.5" PointX="3" PointY="334.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_data_realizacao" Width="1.5" PointX="17.75" PointY="385.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_item" Width="1.5" PointX="3" PointY="393" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_menor_categoria" Width="1.5" PointX="5.25" PointY="396.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_periodo" Width="1.5" PointX="5.25" PointY="334.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.planejamento_responsavel" Width="1.5" PointX="10.25" PointY="431.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.plano_conversao" Width="1.5" PointX="31" PointY="461.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.plano_de_contas_contabil" Width="1.5" PointX="3" PointY="402.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.ponto_critico" Width="1.5" PointX="5.25" PointY="361.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.portifolio_fornecedor" Width="1.5" PointX="16.5" PointY="418.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.potencial_risco" Width="1.5" PointX="7.5" PointY="364.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.praga_doenca" Width="1.5" PointX="55.75" PointY="465.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.pre_financiamento" Width="1.5" PointX="8.25" PointY="389.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.premio_ft" Width="1.5" PointX="39.25" PointY="423.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.procedimento" Width="1.5" PointX="21.75" PointY="427.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.procedimento_critico_medida_precaucao" Width="1.5" PointX="7.5" PointY="359" />
+        <EntityTypeShape EntityType="db_coopfamModel.procedimento_tipo" Width="1.5" PointX="3" PointY="490.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.produto_linha" Width="1.5" PointX="3" PointY="487.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.produtos_ccontabeis_referencia_terceiros" Width="1.5" PointX="18.5" PointY="408.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.produtos_contabeis" Width="1.5" PointX="16.25" PointY="434.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.projeto_cooperado" Width="1.5" PointX="15.5" PointY="431.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.projetos_da_empresa" Width="1.5" PointX="13.5" PointY="379.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.projetos_realizados" Width="1.5" PointX="10.5" PointY="424.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.pronaf" Width="1.5" PointX="24.5" PointY="441.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.pronaf_parcelas" Width="1.5" PointX="26.75" PointY="440.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.pronaf_pronaf_tipo" Width="1.5" PointX="31.75" PointY="439.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.pronaf_tipo" Width="1.5" PointX="29.5" PointY="425" />
+        <EntityTypeShape EntityType="db_coopfamModel.propriedade" Width="1.5" PointX="23.5" PointY="448" />
+        <EntityTypeShape EntityType="db_coopfamModel.quebra_de_safra" Width="1.5" PointX="28" PointY="521.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.quebra_de_safra_estimativa" Width="1.5" PointX="30.25" PointY="525.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.rank" Width="1.5" PointX="36.75" PointY="466.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.rastrear_transferencias_entre_contas" Width="1.5" PointX="27" PointY="435.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.recibo" Width="1.5" PointX="5.25" PointY="462.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.recibo_cancelado" Width="1.5" PointX="10.5" PointY="452.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.recibo_lotes" Width="1.5" PointX="50.75" PointY="446" />
+        <EntityTypeShape EntityType="db_coopfamModel.recurso_utilizado_outra_fonte" Width="1.5" PointX="42" PointY="395.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.referencia_comercial" Width="1.5" PointX="15.5" PointY="490.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.referencia_hedge" Width="1.5" PointX="21.75" PointY="434.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.referenciar_lotes_armazem_terceiros" Width="1.5" PointX="39.25" PointY="419.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.relacao_de_custos_da_formacao_de_preco" Width="1.5" PointX="45.25" PointY="451.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.relacao_de_notas_desc_acrescimo" Width="1.5" PointX="33.25" PointY="450.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.relacao_notas_descontoacrescimo_lotes_fechamento" Width="1.5" PointX="50.75" PointY="442.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.relacao_situacao_norma" Width="1.5" PointX="27.25" PointY="393.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.remocao_de_lotes" Width="1.5" PointX="50.5" PointY="411.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.requisicao_compra" Width="1.5" PointX="5.25" PointY="455.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.requisito_compra_itens" Width="1.5" PointX="27.5" PointY="444.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.resultado_rebeneficio" Width="1.5" PointX="34.25" PointY="436.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.revisoes_pop" Width="1.5" PointX="19.75" PointY="381.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.rfid_chip" Width="1.5" PointX="3" PointY="373.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.rolagem" Width="1.5" PointX="8.25" PointY="454.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.setor" Width="1.5" PointX="13.25" PointY="384.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.situacao_norma" Width="1.5" PointX="7.5" PointY="367.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.situacaonorma_subtiponorma" Width="1.5" PointX="12.75" PointY="369.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_amostra" Width="1.5" PointX="8.25" PointY="443.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_amostra_lote" Width="1.5" PointX="40.25" PointY="434.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_retirada" Width="1.5" PointX="24.5" PointY="430.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.solicitacao_de_unificacao_divisao_de_talhoes" Width="1.5" PointX="5.25" PointY="570.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.solicitar_visita" Width="1.5" PointX="48.25" PointY="409.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.subtipo_norma" Width="1.5" PointX="8.25" PointY="473" />
+        <EntityTypeShape EntityType="db_coopfamModel.tabela_codigo_produto_por_convenio" Width="1.5" PointX="22.5" PointY="421.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.tabela_icms" Width="1.5" PointX="3" PointY="474.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.talhao" Width="1.5" PointX="25.75" PointY="497.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.talhao_ultima_aplicao_produto_proibido" Width="1.5" PointX="28" PointY="464.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.talhao_unificar" Width="1.5" PointX="28" PointY="535.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.talhao_variedade" Width="1.5" PointX="31" PointY="467.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.telefone" Width="1.5" PointX="15.5" PointY="476.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.telefone_cliente" Width="1.5" PointX="10.5" PointY="395" />
+        <EntityTypeShape EntityType="db_coopfamModel.termo_e_condicao_contrato_cafe_cru" Width="1.5" PointX="8.25" PointY="477.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_amostra" Width="1.5" PointX="13.25" PointY="465" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_cafe_rebeneficiado" Width="1.5" PointX="3" PointY="343.625" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_contato_com_cliente" Width="1.5" PointX="3" PointY="484.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_criterio" Width="1.5" PointX="28.5" PointY="472.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_documento" Width="1.5" PointX="32.25" PointY="396.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_inspecao" Width="1.5" PointX="46" PointY="398.125" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_pagamento" Width="1.5" PointX="7.5" PointY="399.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_permissao_alas_do_armazem" Width="1.5" PointX="3" PointY="337.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_permissao_alas_do_armazem_normas" Width="1.5" PointX="12.75" PointY="401.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_de_procedimento" Width="1.5" PointX="3" PointY="477.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_lote_rebeneficio_para_gerar" Width="1.5" PointX="5.25" PointY="374.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_produto_agricola" Width="1.5" PointX="55.75" PointY="463" />
+        <EntityTypeShape EntityType="db_coopfamModel.tipo_sacaria" Width="1.5" PointX="3" PointY="377.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.transferencia_entre_almoxarifado" Width="1.5" PointX="5.25" PointY="433.75" />
+        <EntityTypeShape EntityType="db_coopfamModel.transferencia_produtos" Width="1.5" PointX="21.5" PointY="439.25" />
+        <EntityTypeShape EntityType="db_coopfamModel.transferencia_recurso_planejamento_utilizado" Width="1.5" PointX="20" PointY="388.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.transferencia_recursos" Width="1.5" PointX="17.75" PointY="392" />
+        <EntityTypeShape EntityType="db_coopfamModel.unidade_de_medida" Width="1.5" PointX="14" PointY="494.875" />
+        <EntityTypeShape EntityType="db_coopfamModel.valor_diario_de_cada_carteira" Width="1.5" PointX="3" PointY="370.5" />
+        <EntityTypeShape EntityType="db_coopfamModel.variedades" Width="1.5" PointX="28.75" PointY="481.375" />
+        <EntityTypeShape EntityType="db_coopfamModel.venda_prestacao_servico" Width="1.5" PointX="48.25" PointY="430.75" />
         <EntityTypeShape EntityType="db_coopfamModel.tabela_ibpt" Width="1.5" PointX="2.75" PointY="0.75" />
         <AssociationConnector Association="db_coopfamModel.acc_fk_categoria_emprestimo" />
         <AssociationConnector Association="db_coopfamModel.acc_fk_conta_bancaria" />
         <AssociationConnector Association="db_coopfamModel.acc_fk_empresa" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_ACC" />
         <AssociationConnector Association="db_coopfamModel.FK_acc_com_hedge_IB_FUNCIONARIO" />
         <AssociationConnector Association="db_coopfamModel.FK_acc_com_hedge_ib_instituicao" />
         <AssociationConnector Association="db_coopfamModel.FK_referencia_hedge_ib_acc" />
@@ -431,6 +449,7 @@
         <AssociationConnector Association="db_coopfamModel.LOTES_ORIGEM_IB_CADASTRO_ENTRADA" />
         <AssociationConnector Association="db_coopfamModel.mov_fk_cadastroEntrada" />
         <AssociationConnector Association="db_coopfamModel.mov_fk_cadastroEntradaNFFilial" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_lotes_fk_cadastro_entrada" />
         <AssociationConnector Association="db_coopfamModel.solicitacao_de_amostra_lote_fk_cadastro_entrada" />
         <AssociationConnector Association="db_coopfamModel.subtipo_ibFK_cadastroentrada" />
         <AssociationConnector Association="db_coopfamModel.talhao_ibFK_cadastrodeEntrada" />
@@ -439,8 +458,10 @@
         <AssociationConnector Association="db_coopfamModel.FK_carteira_ib_grupo_carteira" />
         <AssociationConnector Association="db_coopfamModel.FK_hedge_ib_carteira" />
         <AssociationConnector Association="db_coopfamModel.FK_rolagem_ib_carteira" />
+        <AssociationConnector Association="db_coopfamModel.categoria_de_emprestimo_fk_conta_contabil" />
         <AssociationConnector Association="db_coopfamModel.categoria_de_emprestimo_fk_planejamento" />
         <AssociationConnector Association="db_coopfamModel.emprestimo_ib_categoria" />
+        <AssociationConnector Association="db_coopfamModel.categoria_de_emprestimo_com_banco_fk_plano_de_contas" />
         <AssociationConnector Association="db_coopfamModel.bairro_cidade" />
         <AssociationConnector Association="db_coopfamModel.cependerecos_ib_bairro" />
         <AssociationConnector Association="db_coopfamModel.cependerecos_ib_cidades" />
@@ -474,11 +495,15 @@
         <AssociationConnector Association="db_coopfamModel.lote_produto_fk_cliente" />
         <AssociationConnector Association="db_coopfamModel.movimento_bancario_fk_fornecedor" />
         <AssociationConnector Association="db_coopfamModel.op_fk_clienteFornecedor" />
+        <AssociationConnector Association="db_coopfamModel.ordem_servico_celular_fk_cliente" />
         <AssociationConnector Association="db_coopfamModel.pedido_faturamento_fk_cliente" />
+        <AssociationConnector Association="db_coopfamModel.planejamento_acoes_do_item_participantes_participante" />
         <AssociationConnector Association="db_coopfamModel.portifolio_fornecedor_fk_fornecedor" />
         <AssociationConnector Association="db_coopfamModel.procedimento_fk_cliente" />
         <AssociationConnector Association="db_coopfamModel.procedimento_fk_medico" />
         <AssociationConnector Association="db_coopfamModel.produtos_ccontabeis_referencia_terceiros_fk_fornecedor" />
+        <AssociationConnector Association="db_coopfamModel.projetos_da_empresa_fk_cliente_fornecedor" />
+        <AssociationConnector Association="db_coopfamModel.projetos_realizados_fk_cliente" />
         <AssociationConnector Association="db_coopfamModel.solicitacao_de_retirada_fk_cliente" />
         <AssociationConnector Association="db_coopfamModel.venda_prestacao_servico_fk_cliente" />
         <AssociationConnector Association="db_coopfamModel.movimento_bancario_fk_conta_bancaria_fornecedor" />
@@ -491,6 +516,7 @@
         <AssociationConnector Association="db_coopfamModel.complementacao_lote_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.complementacao_lote_fk_lote_fechamento" />
         <AssociationConnector Association="db_coopfamModel.complementacao_lote_fk_notaOrigem" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_complementacaoLote" />
         <AssociationConnector Association="db_coopfamModel.devolucao_de_compra_fk_complementacao" />
         <AssociationConnector Association="db_coopfamModel.loteNFCancel_fk_lotecomplementacao" />
         <AssociationConnector Association="db_coopfamModel.mov_fk_complementacoes_lotes" />
@@ -520,6 +546,7 @@
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_fk_movimento_bancario" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_fk_notas" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_fk_ordem_servico_celular" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_fk_procedimento" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_fk_tipo_cotacao_compra" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_fk_tipo_doc" />
@@ -532,7 +559,13 @@
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_planejamento_fk_emprestimo" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_planejamento_fk_movimento_bancario" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_planejamento_fk_planejamento" />
+        <AssociationConnector Association="db_coopfamModel.recurso_utilizado_outra_fonte_fk_contas_a_pagar" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_emprestimo_cooperado" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_lotes_fechamento" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_movimento_bancario" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_nota_fiscal" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_notas_origem" />
+        <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_origem_do_produto" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_pg_rec_fluxo_de_caixa" />
         <AssociationConnector Association="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_plano_de_contas" />
         <AssociationConnector Association="db_coopfamModel.integracao_contabil_lancamentos_fk_contasAPagarPlanoDeContas" />
@@ -554,6 +587,7 @@
         <AssociationConnector Association="db_coopfamModel.FK_referencia_hedge_ib_contrato" />
         <AssociationConnector Association="db_coopfamModel.fluxo_de_caixa_fk_contrato" />
         <AssociationConnector Association="db_coopfamModel.liquidacao_contrato_de_cambio_fk_contrato" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_fk_contrato" />
         <AssociationConnector Association="db_coopfamModel.premio_ft_fk_contrato" />
         <AssociationConnector Association="db_coopfamModel.relacao_situacao_norma_fk_contrato" />
         <AssociationConnector Association="db_coopfamModel.sitNorma_fk_contrato" />
@@ -573,11 +607,14 @@
         <AssociationConnector Association="db_coopfamModel.convenio_participantes_fk_colaborador" />
         <AssociationConnector Association="db_coopfamModel.convenio_participantes_fk_cooperado" />
         <AssociationConnector Association="db_coopfamModel.dependentes_plano_de_saude_fk_participantes" />
+        <AssociationConnector Association="db_coopfamModel.cooperado_fk_funcionario_date_alt" />
+        <AssociationConnector Association="db_coopfamModel.cooperado_fk_funcionario_date_id_cad" />
         <AssociationConnector Association="db_coopfamModel.cooperado_FK_FUNCIONARIO_LANCOU_SUSP_BENEFICIOS" />
         <AssociationConnector Association="db_coopfamModel.cooperado_fk_planoDeConta" />
         <AssociationConnector Association="db_coopfamModel.cooperado_ib_cooperado" />
         <AssociationConnector Association="db_coopfamModel.cooperado_ib_grupo" />
         <AssociationConnector Association="db_coopfamModel.cooperado_ibfk_dadosBancarios" />
+        <AssociationConnector Association="db_coopfamModel.cooperado_projeto_cooperado" />
         <AssociationConnector Association="db_coopfamModel.curso_cooperado_fk_para_o_cooperado" />
         <AssociationConnector Association="db_coopfamModel.desc_acres_ib_coop" />
         <AssociationConnector Association="db_coopfamModel.emprestimo_fk_avalista" />
@@ -640,7 +677,6 @@
         <AssociationConnector Association="db_coopfamModel.form_resposta_nc_criterio_fk_criterios" />
         <AssociationConnector Association="db_coopfamModel.formulario_item_fk_criterio" />
         <AssociationConnector Association="db_coopfamModel.formulario_sub_item_fk_criterio" />
-        <AssociationConnector Association="db_coopfamModel.formulario_sub_item_fk_subitem_ref_criterio" />
         <AssociationConnector Association="db_coopfamModel.formulario_subitem_ref_criterio_fk_criterio" />
         <AssociationConnector Association="db_coopfamModel.curso_cooperado_fk_curso" />
         <AssociationConnector Association="db_coopfamModel.curso_fk_empresa" />
@@ -705,6 +741,7 @@
         <AssociationConnector Association="db_coopfamModel.formulario_item_selecao_fk_empresa" />
         <AssociationConnector Association="db_coopfamModel.emprestimo_fk_formaDePagamento" />
         <AssociationConnector Association="db_coopfamModel.emprestimo_ib_func" />
+        <AssociationConnector Association="db_coopfamModel.emprestimos_fk_fechamento_merc_futuro" />
         <AssociationConnector Association="db_coopfamModel.movimento_bancario_fk_emprestimo" />
         <AssociationConnector Association="db_coopfamModel.PARCELAS_FK_EMPRESTIMOS" />
         <AssociationConnector Association="db_coopfamModel.FK_estimativa" />
@@ -717,6 +754,7 @@
         <AssociationConnector Association="db_coopfamModel.fechamento_mercado_futuro_fk_cadastrou" />
         <AssociationConnector Association="db_coopfamModel.fechamento_mercado_futuro_fk_excluiu" />
         <AssociationConnector Association="db_coopfamModel.fechamento_mercado_futuro_fk_modalidade_entrega" />
+        <AssociationConnector Association="db_coopfamModel.fechamento_mercado_futuro_fk_pedido_faturamento" />
         <AssociationConnector Association="db_coopfamModel.fechamento_mercado_futuro_fk_peneira" />
         <AssociationConnector Association="db_coopfamModel.fechamento_mercado_futuro_fk_subtipo" />
         <AssociationConnector Association="db_coopfamModel.fechamento_mercado_futuro_fk_tipo_cafe" />
@@ -766,7 +804,7 @@
         <AssociationConnector Association="db_coopfamModel.formulario_item_cadastro_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.formulario_item_exclusao_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.formulario_sub_item_fk_formulario_item" />
-        <AssociationConnector Association="db_coopfamModel.formulario_item_selecao_fk_praga_doenca" />
+        <AssociationConnector Association="db_coopfamModel.formulario_item_selecao_fk_paga_doenca" />
         <AssociationConnector Association="db_coopfamModel.formulario_item_selecao_fk_seletiva" />
         <AssociationConnector Association="db_coopfamModel.formulario_item_selecao_fk_tipo_prod_agricola" />
         <AssociationConnector Association="db_coopfamModel.formulario_resposta_seletiva_fk_item_selecao" />
@@ -793,6 +831,7 @@
         <AssociationConnector Association="db_coopfamModel.formulario_sub_item_alteracao_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.formulario_sub_item_cadastro_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.formulario_sub_item_exclusao_fk_funcionario" />
+        <AssociationConnector Association="db_coopfamModel.formulario_sub_item_fk_tipo_de_criterio" />
         <AssociationConnector Association="db_coopfamModel.formulario_subitem_rank_fk_form_subitem" />
         <AssociationConnector Association="db_coopfamModel.formulario_subitem_rank_fk_rank" />
         <AssociationConnector Association="db_coopfamModel.formulario_subitem_ref_criterio_alteracao_fk_funcionario" />
@@ -801,7 +840,13 @@
         <AssociationConnector Association="db_coopfamModel.formulario_subitem_ref_criterio_fk_norma" />
         <AssociationConnector Association="db_coopfamModel.FK_hedge_ib_funcionario" />
         <AssociationConnector Association="db_coopfamModel.FK_log_erro_do_sistema_ib_funcionario" />
+        <AssociationConnector Association="db_coopfamModel.fk_propriedade_id_alt" />
+        <AssociationConnector Association="db_coopfamModel.fk_propriedade_id_cad" />
+        <AssociationConnector Association="db_coopfamModel.fk_propriedade_id_exclusao" />
         <AssociationConnector Association="db_coopfamModel.FK_rolagem_ib_funcionario" />
+        <AssociationConnector Association="db_coopfamModel.fk_talhao_id_alt" />
+        <AssociationConnector Association="db_coopfamModel.fk_talhao_id_cad" />
+        <AssociationConnector Association="db_coopfamModel.fk_talhao_id_exclusao" />
         <AssociationConnector Association="db_coopfamModel.func_ib_lancamento" />
         <AssociationConnector Association="db_coopfamModel.FUNCIONARIO_FK_INSTRUCAO" />
         <AssociationConnector Association="db_coopfamModel.funcionario_Fk_logUsuario" />
@@ -843,6 +888,15 @@
         <AssociationConnector Association="db_coopfamModel.ordem_de_producao_tempo_fk_func_ini_moagem" />
         <AssociationConnector Association="db_coopfamModel.ordem_de_producao_tempo_fk_func_ini_torra" />
         <AssociationConnector Association="db_coopfamModel.ordem_de_producao_tempo_fk_moega" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_fk_alterou" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_fk_excluiu" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_fk_lancou" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_fk_responsavel" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_lotes_fk_id_alterou" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_lotes_fk_id_excluiu" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_lotes_fk_id_lancou" />
+        <AssociationConnector Association="db_coopfamModel.ouvidoria_fk_funcionario" />
+        <AssociationConnector Association="db_coopfamModel.ouvidoria_mensagem_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.pedido_faturamento_fk_func_alteracao" />
         <AssociationConnector Association="db_coopfamModel.pedido_faturamento_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.pedido_faturamento_produto_fk_funcionario" />
@@ -854,6 +908,9 @@
         <AssociationConnector Association="db_coopfamModel.plano_conversao_cadastro_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.plano_conversao_exclusao_fk_funcionario" />
         <AssociationConnector Association="db_coopfamModel.procedimento_fk_funcionario" />
+        <AssociationConnector Association="db_coopfamModel.projetos_realizados_fk_funcionario_altera" />
+        <AssociationConnector Association="db_coopfamModel.projetos_realizados_fk_funcionario_cadastra" />
+        <AssociationConnector Association="db_coopfamModel.projetos_realizados_fk_funcionario_exclui" />
         <AssociationConnector Association="db_coopfamModel.pronaf_fk_funcionario_altera" />
         <AssociationConnector Association="db_coopfamModel.pronaf_fk_funcionario_cadastra" />
         <AssociationConnector Association="db_coopfamModel.pronaf_fk_funcionario_exclui" />
@@ -904,6 +961,7 @@
         <AssociationConnector Association="db_coopfamModel.padraCFOP_fk_informacao_adicional" />
         <AssociationConnector Association="db_coopfamModel.FK_rolagem_ib_instituicao" />
         <AssociationConnector Association="db_coopfamModel.instrucao_lote_resultado_para_gerar_fk_instrucao" />
+        <AssociationConnector Association="db_coopfamModel.instrucao_lote_resultado_para_gerar_fk_subtipo" />
         <AssociationConnector Association="db_coopfamModel.instrucao_lote_resultado_para_gerar_fk_tipo_cafe" />
         <AssociationConnector Association="db_coopfamModel.instrucao_lote_resultado_para_gerar_fk_tipo_sacaria" />
         <AssociationConnector Association="db_coopfamModel.instrucao_lote_resultado_para_gerar_tipo_lote" />
@@ -928,6 +986,7 @@
         <AssociationConnector Association="db_coopfamModel.loteArmTer_FK_loteOrigem" />
         <AssociationConnector Association="db_coopfamModel.loteArmTer_FK_RefLoteArmTerc" />
         <AssociationConnector Association="db_coopfamModel.loteArmTerc_FK_LoteInstrucao" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_lotes_fk_lote_armazem_terceiro" />
         <AssociationConnector Association="db_coopfamModel.solicitacao_de_amostra_lote_fk_lote_armazem_terceiro" />
         <AssociationConnector Association="db_coopfamModel.subtipo_FK_LoteArmTerc" />
         <AssociationConnector Association="db_coopfamModel.loteResultadoRebeneficio_fk_composicaoAmostra" />
@@ -954,6 +1013,7 @@
         <AssociationConnector Association="db_coopfamModel.lote_resultado_rebeneficio_fk_tipo" />
         <AssociationConnector Association="db_coopfamModel.loteResulRebeneficio_FK_loteOrigem" />
         <AssociationConnector Association="db_coopfamModel.loteResultReb_FK_sitNorma" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_lotes_fk_lote_resultado_beneficio" />
         <AssociationConnector Association="db_coopfamModel.resultadoReb_FK_LoteResultadoReb" />
         <AssociationConnector Association="db_coopfamModel.solicitacao_de_amostra_lote_fk_lote_resultado_rebeneficio" />
         <AssociationConnector Association="db_coopfamModel.subtipo_FK_ResultadoRebeneficio" />
@@ -964,9 +1024,11 @@
         <AssociationConnector Association="db_coopfamModel.recibo_lotes_ib_pedido_compra" />
         <AssociationConnector Association="db_coopfamModel.relacao_notas_lotes_do_fech" />
         <AssociationConnector Association="db_coopfamModel.LOTE_ORIGEM_IB_ORIGEM" />
+        <AssociationConnector Association="db_coopfamModel.menor_categoria_fk_maior_categoria" />
         <AssociationConnector Association="db_coopfamModel.op_fk_empacotadeira" />
         <AssociationConnector Association="db_coopfamModel.op_fk_maquinario" />
         <AssociationConnector Association="db_coopfamModel.ordem_de_producao_embalagens_fk_empacotadeira" />
+        <AssociationConnector Association="db_coopfamModel.planejamento_menor_categoria_fk_menor_categoria" />
         <AssociationConnector Association="db_coopfamModel.motorista__FK_motoristaAutorizacao" />
         <AssociationConnector Association="db_coopfamModel.nota_fiscal_fk_motorista" />
         <AssociationConnector Association="db_coopfamModel.pedido_faturamento_fk_motorista" />
@@ -988,6 +1050,7 @@
         <AssociationConnector Association="db_coopfamModel.mov_fk_transferencia_almoxarif_produtos" />
         <AssociationConnector Association="db_coopfamModel.mov_fk_transferencia_produto" />
         <AssociationConnector Association="db_coopfamModel.mov_fk_venda_prestacao_servico" />
+        <AssociationConnector Association="db_coopfamModel.premio_ft_fk_mov_prod" />
         <AssociationConnector Association="db_coopfamModel.prodContabil_ibFK_caadastroEntrada" />
         <AssociationConnector Association="db_coopfamModel.FK_situacao_norma_ib_norma" />
         <AssociationConnector Association="db_coopfamModel.FK_norma_talhao" />
@@ -997,6 +1060,7 @@
         <AssociationConnector Association="db_coopfamModel.nota_fiscal_fk_nota_fiscal" />
         <AssociationConnector Association="db_coopfamModel.nota_fiscal_fk_venda_prestacao" />
         <AssociationConnector Association="db_coopfamModel.notas_canceladas_fk_nota_fiscal" />
+        <AssociationConnector Association="db_coopfamModel.planejamento_fk_ods" />
         <AssociationConnector Association="db_coopfamModel.op_fk_produto_Contabil" />
         <AssociationConnector Association="db_coopfamModel.op_fk_revisao_pop" />
         <AssociationConnector Association="db_coopfamModel.op_fk_situacaoNorma" />
@@ -1013,9 +1077,12 @@
         <AssociationConnector Association="db_coopfamModel.ordem_de_producao_resultado_fk_revisao_pop" />
         <AssociationConnector Association="db_coopfamModel.ordem_de_producao_situacaonorma_fk_situacao_norma" />
         <AssociationConnector Association="db_coopfamModel.ordem_de_producao_tempo_fk_revisao_pop" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_fk_tipo_sacaria" />
+        <AssociationConnector Association="db_coopfamModel.ordem_reensaque_lotes_fk_ordem_reensaque" />
         <AssociationConnector Association="db_coopfamModel.origem_do_produto_fk_revisao_pop" />
         <AssociationConnector Association="db_coopfamModel.origemDoProduto_FK_origemNF" />
         <AssociationConnector Association="db_coopfamModel.premio_ft_fk_origem_do_produto_nota" />
+        <AssociationConnector Association="db_coopfamModel.ouvidoria_mensagem_fk_ouvidoria" />
         <AssociationConnector Association="db_coopfamModel.padraCFOP_fk_produto" />
         <AssociationConnector Association="db_coopfamModel.pedido_faturamento_produto_fk_cfop" />
         <AssociationConnector Association="db_coopfamModel.PG_EMP_FK_PARCELA" />
@@ -1036,12 +1103,20 @@
         <AssociationConnector Association="db_coopfamModel.planejamento_fk_setor" />
         <AssociationConnector Association="db_coopfamModel.planejamentoData_fk_planejamento" />
         <AssociationConnector Association="db_coopfamModel.planejamentoResponsavel_fk_planejamento" />
+        <AssociationConnector Association="db_coopfamModel.projetos_da_empresa_fk_planejamento" />
+        <AssociationConnector Association="db_coopfamModel.projetos_realizados_fk_planejamento" />
+        <AssociationConnector Association="db_coopfamModel.transferencia_recurso_planejamento_utilizado_fk_planejamento" />
+        <AssociationConnector Association="db_coopfamModel.transferencia_recursos_PLANEJAMENTO" />
         <AssociationConnector Association="db_coopfamModel.planAcoes_fk_item" />
+        <AssociationConnector Association="db_coopfamModel.planejamento_acoes_do_item_participantes_fk_plan_acao" />
         <AssociationConnector Association="db_coopfamModel.planejamento_auto_avaliacao_impacto_fk_items" />
         <AssociationConnector Association="db_coopfamModel.planejamento_auto_avaliacao_impacto_fk_periodo" />
         <AssociationConnector Association="db_coopfamModel.planejamentoPeriodo_fk_categoria" />
+        <AssociationConnector Association="db_coopfamModel.planejamento_menor_categoria_fk_planejamento" />
         <AssociationConnector Association="db_coopfamModel.planejamentoResponsavel_fk_planejamento_item" />
         <AssociationConnector Association="db_coopfamModel.plano_conversao_fk_talhao" />
+        <AssociationConnector Association="db_coopfamModel.produtos_contabeis_fk_plano_de_contas" />
+        <AssociationConnector Association="db_coopfamModel.tipo_de_pagamento_fk_plano_de_contas" />
         <AssociationConnector Association="db_coopfamModel.potencial_risco_fk_ponto_critico" />
         <AssociationConnector Association="db_coopfamModel.procedimento_critico_medida_precaucao_fk_ponto_critico" />
         <AssociationConnector Association="db_coopfamModel.portifolio_fornecedor_fk_linha_produto" />
@@ -1053,6 +1128,8 @@
         <AssociationConnector Association="db_coopfamModel.requisito_compra_itens_fk_produto" />
         <AssociationConnector Association="db_coopfamModel.tabela_codigo_produto_por_convenio_fk_prduto" />
         <AssociationConnector Association="db_coopfamModel.transferencia_produtos_fk_produto" />
+        <AssociationConnector Association="db_coopfamModel.cooperado_projeto_fk_projeto_realizado" />
+        <AssociationConnector Association="db_coopfamModel.projetos_realizados_fk_projeto_da_empresa" />
         <AssociationConnector Association="db_coopfamModel.pronaf_parcelas_fk_pronaf" />
         <AssociationConnector Association="db_coopfamModel.pronaf_pronaf_tipo__fk_pronaf" />
         <AssociationConnector Association="db_coopfamModel.pronaf_pronaf_tipo_fk_pronaf_tipo" />
@@ -1060,6 +1137,7 @@
         <AssociationConnector Association="db_coopfamModel.QUEBRA_FK_QUEBRA" />
         <AssociationConnector Association="db_coopfamModel.recibo_cancelado_fk_recibo" />
         <AssociationConnector Association="db_coopfamModel.recibo_lotes_ib_recibo" />
+        <AssociationConnector Association="db_coopfamModel.recurso_utilizado_outra_fonte_fk_transferencia" />
         <AssociationConnector Association="db_coopfamModel.relacao_notas_" />
         <AssociationConnector Association="db_coopfamModel.relacao_situacao_norma_fk_situacao_norma" />
         <AssociationConnector Association="db_coopfamModel.requisicao_compra_fk_setor" />
@@ -1067,6 +1145,7 @@
         <AssociationConnector Association="db_coopfamModel.requisito_compra_itens_fk_unidade_medida" />
         <AssociationConnector Association="db_coopfamModel.solicitacao_de_retirada_fk_revisao_pop" />
         <AssociationConnector Association="db_coopfamModel.transferencia_entre_almoxarifado_fk_revisao_pop" />
+        <AssociationConnector Association="db_coopfamModel.solicitacao_de_retirada_fk_setor" />
         <AssociationConnector Association="db_coopfamModel.sitNorma_fkStiNormaSubtipo" />
         <AssociationConnector Association="db_coopfamModel.tipo_de_permissao_alas_do_armazem_normas_fk_normas" />
         <AssociationConnector Association="db_coopfamModel.subtipoNorma_fk_sitNOrmaSubtipo" />
@@ -1082,6 +1161,7 @@
         <AssociationConnector Association="db_coopfamModel.tipo_lote_rebeneficio_para_gerar_fk_tipo" />
         <AssociationConnector Association="db_coopfamModel.tipo_de_permissao_alas_do_armazem_normas_fk_tipo_de_permissao" />
         <AssociationConnector Association="db_coopfamModel.transferencia_produtos_fk_transferencia" />
+        <AssociationConnector Association="db_coopfamModel.transferencia_recurso_planejamento_utilizado_fk_transferencia" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

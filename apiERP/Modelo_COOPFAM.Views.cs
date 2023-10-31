@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Data.Mapping.EntityViewGenerationAttribute(typeof(Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySetsA885A3DD846F5190DAB006D3C805F71D638B97C0F28351C2244BE84659EAA24C))]
+[assembly: System.Data.Mapping.EntityViewGenerationAttribute(typeof(Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySetsB9357AB51DDAEEEF3537A413BBCBFD580AD70AD5FDCFAB8EDFC6E14D874D3208))]
 
 namespace Edm_EntityMappingGeneratedViews
 {
@@ -17,19 +17,19 @@ namespace Edm_EntityMappingGeneratedViews
     /// <Summary>
     /// O tipo contém exibições para EntitySets e AssociationSets que foram gerados em tempo de design.
     /// </Summary>
-    public sealed class ViewsForBaseEntitySetsA885A3DD846F5190DAB006D3C805F71D638B97C0F28351C2244BE84659EAA24C : System.Data.Mapping.EntityViewContainer
+    public sealed class ViewsForBaseEntitySetsB9357AB51DDAEEEF3537A413BBCBFD580AD70AD5FDCFAB8EDFC6E14D874D3208 : System.Data.Mapping.EntityViewContainer
     {
         
         /// <Summary>
         /// O construtor armazena as exibições para as extensões e também os valores de hash gerados com base nos metadados e no fechamento e nas exibições do mapeamento.
         /// </Summary>
-        public ViewsForBaseEntitySetsA885A3DD846F5190DAB006D3C805F71D638B97C0F28351C2244BE84659EAA24C()
+        public ViewsForBaseEntitySetsB9357AB51DDAEEEF3537A413BBCBFD580AD70AD5FDCFAB8EDFC6E14D874D3208()
         {
             this.EdmEntityContainerName = "db_coopfamEntities";
             this.StoreEntityContainerName = "db_coopfamModelStoreContainer";
-            this.HashOverMappingClosure = "6314f644be32f3374ee4eb0ea44f0bbe0e8b205e4eafdd7f156885aa95d9fbe4";
-            this.HashOverAllExtentViews = "dad01dab377d929c1fb46cc4c0b1d069883f5aff5635eab79069da02b56f4889";
-            this.ViewCount = 552;
+            this.HashOverMappingClosure = "d00e1e327ed55344d9e9039163cc64d30841f0840712f481c6f541488be4daeb";
+            this.HashOverAllExtentViews = "25fb16955ec6c2d641c200fa28318d0de977991d1ff8f949d3e25597fc5fdb04";
+            this.ViewCount = 586;
         }
         
         /// <Summary>
@@ -2245,6 +2245,142 @@ namespace Edm_EntityMappingGeneratedViews
             {
                 return GetView551();
             }
+            if ((index == 552))
+            {
+                return GetView552();
+            }
+            if ((index == 553))
+            {
+                return GetView553();
+            }
+            if ((index == 554))
+            {
+                return GetView554();
+            }
+            if ((index == 555))
+            {
+                return GetView555();
+            }
+            if ((index == 556))
+            {
+                return GetView556();
+            }
+            if ((index == 557))
+            {
+                return GetView557();
+            }
+            if ((index == 558))
+            {
+                return GetView558();
+            }
+            if ((index == 559))
+            {
+                return GetView559();
+            }
+            if ((index == 560))
+            {
+                return GetView560();
+            }
+            if ((index == 561))
+            {
+                return GetView561();
+            }
+            if ((index == 562))
+            {
+                return GetView562();
+            }
+            if ((index == 563))
+            {
+                return GetView563();
+            }
+            if ((index == 564))
+            {
+                return GetView564();
+            }
+            if ((index == 565))
+            {
+                return GetView565();
+            }
+            if ((index == 566))
+            {
+                return GetView566();
+            }
+            if ((index == 567))
+            {
+                return GetView567();
+            }
+            if ((index == 568))
+            {
+                return GetView568();
+            }
+            if ((index == 569))
+            {
+                return GetView569();
+            }
+            if ((index == 570))
+            {
+                return GetView570();
+            }
+            if ((index == 571))
+            {
+                return GetView571();
+            }
+            if ((index == 572))
+            {
+                return GetView572();
+            }
+            if ((index == 573))
+            {
+                return GetView573();
+            }
+            if ((index == 574))
+            {
+                return GetView574();
+            }
+            if ((index == 575))
+            {
+                return GetView575();
+            }
+            if ((index == 576))
+            {
+                return GetView576();
+            }
+            if ((index == 577))
+            {
+                return GetView577();
+            }
+            if ((index == 578))
+            {
+                return GetView578();
+            }
+            if ((index == 579))
+            {
+                return GetView579();
+            }
+            if ((index == 580))
+            {
+                return GetView580();
+            }
+            if ((index == 581))
+            {
+                return GetView581();
+            }
+            if ((index == 582))
+            {
+                return GetView582();
+            }
+            if ((index == 583))
+            {
+                return GetView583();
+            }
+            if ((index == 584))
+            {
+                return GetView584();
+            }
+            if ((index == 585))
+            {
+                return GetView585();
+            }
             throw new System.IndexOutOfRangeException();
         }
         
@@ -2688,7 +2824,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView14()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3191);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3447);
             viewString.Append("\r\n    SELECT VALUE -- Constructing amostra_solo_foliar\r\n        [db_coopfamModel");
             viewString.Append(".Store.amostra_solo_foliar](T1.[amostra_solo_foliar.INT_ID], T1.[amostra_solo_fo");
             viewString.Append("liar.TXT_OBS_AMOSTRA], T1.[amostra_solo_foliar.DATE_CADASTRO], T1.[amostra_solo_");
@@ -2703,32 +2839,36 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("SULTADO_AMOSTRA], T1.[amostra_solo_foliar.TXT_NUM_AMOSTRA], T1.[amostra_solo_fol");
             viewString.Append("iar.BOOL_CUSTEIO_COOPFAM], T1.[amostra_solo_foliar.BOOL_ATIVO], T1.[amostra_solo");
             viewString.Append("_foliar.DATE_RECEBE_AMOSTRA], T1.[amostra_solo_foliar.INT_ID_AMOSTRA_CALCULADA],");
-            viewString.Append(" T1.[amostra_solo_foliar.DATE_AMOSTRA_CALCULADA])\r\n    FROM (\r\n        SELECT \r\n");
-            viewString.Append("            T.INT_ID AS [amostra_solo_foliar.INT_ID], \r\n            T.TXT_OBS_AM");
-            viewString.Append("OSTRA AS [amostra_solo_foliar.TXT_OBS_AMOSTRA], \r\n            T.DATE_CADASTRO AS");
-            viewString.Append(" [amostra_solo_foliar.DATE_CADASTRO], \r\n            T.DATE_ALTEROU AS [amostra_s");
-            viewString.Append("olo_foliar.DATE_ALTEROU], \r\n            T.DATE_EXCLUIU AS [amostra_solo_foliar.D");
-            viewString.Append("ATE_EXCLUIU], \r\n            T.INT_ID_CADASTRO AS [amostra_solo_foliar.INT_ID_CAD");
-            viewString.Append("ASTRO], \r\n            T.INT_ID_ALTEROU AS [amostra_solo_foliar.INT_ID_ALTEROU], ");
-            viewString.Append("\r\n            T.INT_ID_EXCLUIU AS [amostra_solo_foliar.INT_ID_EXCLUIU], \r\n      ");
-            viewString.Append("      T.TXT_STATUS AS [amostra_solo_foliar.TXT_STATUS], \r\n            T.DATE_RES");
-            viewString.Append("ULTADO_ENTREGUE_COOPERADO_DATA AS [amostra_solo_foliar.DATE_RESULTADO_ENTREGUE_C");
-            viewString.Append("OOPERADO_DATA], \r\n            T.INT_ID_RESULTADO_ENTREGUE_COOPERADO AS [amostra_");
-            viewString.Append("solo_foliar.INT_ID_RESULTADO_ENTREGUE_COOPERADO], \r\n            T.INT_ID_TIPO_AM");
-            viewString.Append("OSTRA AS [amostra_solo_foliar.INT_ID_TIPO_AMOSTRA], \r\n            T.INT_ID_PRODU");
-            viewString.Append("TOR AS [amostra_solo_foliar.INT_ID_PRODUTOR], \r\n            T.BOOL_TIPO_CULTIVO ");
-            viewString.Append("AS [amostra_solo_foliar.BOOL_TIPO_CULTIVO], \r\n            T.DECIMAL_ESTIMATIVA_S");
-            viewString.Append("AFRA_PROXIMO_ANO AS [amostra_solo_foliar.DECIMAL_ESTIMATIVA_SAFRA_PROXIMO_ANO], ");
-            viewString.Append("\r\n            T.DATE_RECEBE_RESULTADO_AMOSTRA AS [amostra_solo_foliar.DATE_RECEB");
-            viewString.Append("E_RESULTADO_AMOSTRA], \r\n            T.INT_ID_RECEBE_RESULTADO_AMOSTRA AS [amostr");
-            viewString.Append("a_solo_foliar.INT_ID_RECEBE_RESULTADO_AMOSTRA], \r\n            T.TXT_NUM_AMOSTRA ");
-            viewString.Append("AS [amostra_solo_foliar.TXT_NUM_AMOSTRA], \r\n            T.BOOL_CUSTEIO_COOPFAM A");
-            viewString.Append("S [amostra_solo_foliar.BOOL_CUSTEIO_COOPFAM], \r\n            T.BOOL_ATIVO AS [amo");
-            viewString.Append("stra_solo_foliar.BOOL_ATIVO], \r\n            T.DATE_RECEBE_AMOSTRA AS [amostra_so");
-            viewString.Append("lo_foliar.DATE_RECEBE_AMOSTRA], \r\n            T.INT_ID_AMOSTRA_CALCULADA AS [amo");
-            viewString.Append("stra_solo_foliar.INT_ID_AMOSTRA_CALCULADA], \r\n            T.DATE_AMOSTRA_CALCULA");
-            viewString.Append("DA AS [amostra_solo_foliar.DATE_AMOSTRA_CALCULADA], \r\n            True AS _from0");
-            viewString.Append("\r\n        FROM db_coopfamEntities.amostra_solo_foliar AS T\r\n    ) AS T1");
+            viewString.Append(" T1.[amostra_solo_foliar.DATE_AMOSTRA_CALCULADA], T1.[amostra_solo_foliar.TXT_TA");
+            viewString.Append("LHAO_SEM_CADASTRO], T1.[amostra_solo_foliar.TXT_CAMINHO_PDF])\r\n    FROM (\r\n     ");
+            viewString.Append("   SELECT \r\n            T.INT_ID AS [amostra_solo_foliar.INT_ID], \r\n            ");
+            viewString.Append("T.TXT_OBS_AMOSTRA AS [amostra_solo_foliar.TXT_OBS_AMOSTRA], \r\n            T.DATE");
+            viewString.Append("_CADASTRO AS [amostra_solo_foliar.DATE_CADASTRO], \r\n            T.DATE_ALTEROU A");
+            viewString.Append("S [amostra_solo_foliar.DATE_ALTEROU], \r\n            T.DATE_EXCLUIU AS [amostra_s");
+            viewString.Append("olo_foliar.DATE_EXCLUIU], \r\n            T.INT_ID_CADASTRO AS [amostra_solo_folia");
+            viewString.Append("r.INT_ID_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [amostra_solo_foliar.INT_I");
+            viewString.Append("D_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [amostra_solo_foliar.INT_ID_EXCLUI");
+            viewString.Append("U], \r\n            T.TXT_STATUS AS [amostra_solo_foliar.TXT_STATUS], \r\n          ");
+            viewString.Append("  T.DATE_RESULTADO_ENTREGUE_COOPERADO_DATA AS [amostra_solo_foliar.DATE_RESULTAD");
+            viewString.Append("O_ENTREGUE_COOPERADO_DATA], \r\n            T.INT_ID_RESULTADO_ENTREGUE_COOPERADO ");
+            viewString.Append("AS [amostra_solo_foliar.INT_ID_RESULTADO_ENTREGUE_COOPERADO], \r\n            T.IN");
+            viewString.Append("T_ID_TIPO_AMOSTRA AS [amostra_solo_foliar.INT_ID_TIPO_AMOSTRA], \r\n            T.");
+            viewString.Append("INT_ID_PRODUTOR AS [amostra_solo_foliar.INT_ID_PRODUTOR], \r\n            T.BOOL_T");
+            viewString.Append("IPO_CULTIVO AS [amostra_solo_foliar.BOOL_TIPO_CULTIVO], \r\n            T.DECIMAL_");
+            viewString.Append("ESTIMATIVA_SAFRA_PROXIMO_ANO AS [amostra_solo_foliar.DECIMAL_ESTIMATIVA_SAFRA_PR");
+            viewString.Append("OXIMO_ANO], \r\n            T.DATE_RECEBE_RESULTADO_AMOSTRA AS [amostra_solo_folia");
+            viewString.Append("r.DATE_RECEBE_RESULTADO_AMOSTRA], \r\n            T.INT_ID_RECEBE_RESULTADO_AMOSTR");
+            viewString.Append("A AS [amostra_solo_foliar.INT_ID_RECEBE_RESULTADO_AMOSTRA], \r\n            T.TXT_");
+            viewString.Append("NUM_AMOSTRA AS [amostra_solo_foliar.TXT_NUM_AMOSTRA], \r\n            T.BOOL_CUSTE");
+            viewString.Append("IO_COOPFAM AS [amostra_solo_foliar.BOOL_CUSTEIO_COOPFAM], \r\n            T.BOOL_A");
+            viewString.Append("TIVO AS [amostra_solo_foliar.BOOL_ATIVO], \r\n            T.DATE_RECEBE_AMOSTRA AS");
+            viewString.Append(" [amostra_solo_foliar.DATE_RECEBE_AMOSTRA], \r\n            T.INT_ID_AMOSTRA_CALCU");
+            viewString.Append("LADA AS [amostra_solo_foliar.INT_ID_AMOSTRA_CALCULADA], \r\n            T.DATE_AMO");
+            viewString.Append("STRA_CALCULADA AS [amostra_solo_foliar.DATE_AMOSTRA_CALCULADA], \r\n            T.");
+            viewString.Append("TXT_TALHAO_SEM_CADASTRO AS [amostra_solo_foliar.TXT_TALHAO_SEM_CADASTRO], \r\n    ");
+            viewString.Append("        T.TXT_CAMINHO_PDF AS [amostra_solo_foliar.TXT_CAMINHO_PDF], \r\n          ");
+            viewString.Append("  True AS _from0\r\n        FROM db_coopfamEntities.amostra_solo_foliar AS T\r\n    ");
+            viewString.Append(") AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.amostra_solo_foliar", viewString.ToString());
         }
         
@@ -3030,7 +3170,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView27()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4460);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4920);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cadastro_entrada\r\n        [db_coopfamModel.St");
             viewString.Append("ore.cadastro_entrada](T1.[cadastro_entrada.INT_ID], T1.[cadastro_entrada.INT_ID_");
             viewString.Append("COOPERADO], T1.[cadastro_entrada.TXT_LOTE], T1.[cadastro_entrada.FLOAT_QTD_SACAS");
@@ -3051,42 +3191,48 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("RADO], T1.[cadastro_entrada.TXT_OBS_CLASSIFICACAO], T1.[cadastro_entrada.DECIMAL");
             viewString.Append("_PESO_LIQUIDO_TOTAL], T1.[cadastro_entrada.BOOL_FINALIZOU_DESCARGA], T1.[cadastr");
             viewString.Append("o_entrada.TXT_CODIGO_DE_BARRAS], T1.[cadastro_entrada.BOOL_VINCULAR_NOTA_FILIAL]");
-            viewString.Append(")\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cadastro_entrada.INT_ID");
-            viewString.Append("], \r\n            T.INT_ID_COOPERADO AS [cadastro_entrada.INT_ID_COOPERADO], \r\n  ");
-            viewString.Append("          T.TXT_LOTE AS [cadastro_entrada.TXT_LOTE], \r\n            T.FLOAT_QTD_S");
-            viewString.Append("ACAS AS [cadastro_entrada.FLOAT_QTD_SACAS], \r\n            T.FLOAT_PESO_LIQ AS [c");
-            viewString.Append("adastro_entrada.FLOAT_PESO_LIQ], \r\n            T.INT_ID_BEBIDA AS [cadastro_entr");
-            viewString.Append("ada.INT_ID_BEBIDA], \r\n            T.FLOAT_TEOR_UMIDADE AS [cadastro_entrada.FLOA");
-            viewString.Append("T_TEOR_UMIDADE], \r\n            T.INT_CATACAO AS [cadastro_entrada.INT_CATACAO], ");
-            viewString.Append("\r\n            T.INT_NF AS [cadastro_entrada.INT_NF], \r\n            T.DATE_ENTRAD");
-            viewString.Append("A AS [cadastro_entrada.DATE_ENTRADA], \r\n            T.INT_ID_TALHAO AS [cadastro");
-            viewString.Append("_entrada.INT_ID_TALHAO], \r\n            T.INT_ID_SUBTIPO AS [cadastro_entrada.INT");
-            viewString.Append("_ID_SUBTIPO], \r\n            T.INT_ID_ALMOXARIFADO AS [cadastro_entrada.INT_ID_AL");
-            viewString.Append("MOXARIFADO], \r\n            T.INT_14UP AS [cadastro_entrada.INT_14UP], \r\n        ");
-            viewString.Append("    T.INT_16UP AS [cadastro_entrada.INT_16UP], \r\n            T.INT_17UP AS [cada");
-            viewString.Append("stro_entrada.INT_17UP], \r\n            T.FLOAT_PONTUACAO AS [cadastro_entrada.FLO");
-            viewString.Append("AT_PONTUACAO], \r\n            T.TXT_SAFRA AS [cadastro_entrada.TXT_SAFRA], \r\n    ");
-            viewString.Append("        T.BOOL_FLAG_MEXER_NMEXER AS [cadastro_entrada.BOOL_FLAG_MEXER_NMEXER], \r");
-            viewString.Append("\n            T.INT_18UP AS [cadastro_entrada.INT_18UP], \r\n            T.BOOL_TIP");
-            viewString.Append("O AS [cadastro_entrada.BOOL_TIPO], \r\n            T.BOOL_FLAG AS [cadastro_entrad");
-            viewString.Append("a.BOOL_FLAG], \r\n            T.DATE_LANCAMENTO AS [cadastro_entrada.DATE_LANCAMEN");
-            viewString.Append("TO], \r\n            T.DECIMAL_CATACAO_MERCADO AS [cadastro_entrada.DECIMAL_CATACA");
-            viewString.Append("O_MERCADO], \r\n            T.BOOL_TRANSICAO AS [cadastro_entrada.BOOL_TRANSICAO],");
-            viewString.Append(" \r\n            T.INT_FUNCIONARIO AS [cadastro_entrada.INT_FUNCIONARIO], \r\n      ");
-            viewString.Append("      T.FLOAT_SACAS_DEVOLVIDAS AS [cadastro_entrada.FLOAT_SACAS_DEVOLVIDAS], \r\n ");
-            viewString.Append("           T.DECIMAL_VALOR_UNITARIO_NF_ENTRADA AS [cadastro_entrada.DECIMAL_VALO");
-            viewString.Append("R_UNITARIO_NF_ENTRADA], \r\n            T.TXT_MOTIVO_DE_NAO_MEXER AS [cadastro_ent");
-            viewString.Append("rada.TXT_MOTIVO_DE_NAO_MEXER], \r\n            T.TXT_OBS AS [cadastro_entrada.TXT_");
-            viewString.Append("OBS], \r\n            T.INT_VAZAMENTO AS [cadastro_entrada.INT_VAZAMENTO], \r\n     ");
-            viewString.Append("       T.BOOL_CAFE_BORDADURA AS [cadastro_entrada.BOOL_CAFE_BORDADURA], \r\n      ");
-            viewString.Append("      T.INT_ID_AGENDAMENTO_COOPERADO AS [cadastro_entrada.INT_ID_AGENDAMENTO_COO");
-            viewString.Append("PERADO], \r\n            T.TXT_OBS_CLASSIFICACAO AS [cadastro_entrada.TXT_OBS_CLAS");
-            viewString.Append("SIFICACAO], \r\n            T.DECIMAL_PESO_LIQUIDO_TOTAL AS [cadastro_entrada.DECI");
-            viewString.Append("MAL_PESO_LIQUIDO_TOTAL], \r\n            T.BOOL_FINALIZOU_DESCARGA AS [cadastro_en");
-            viewString.Append("trada.BOOL_FINALIZOU_DESCARGA], \r\n            T.TXT_CODIGO_DE_BARRAS AS [cadastr");
-            viewString.Append("o_entrada.TXT_CODIGO_DE_BARRAS], \r\n            T.BOOL_VINCULAR_NOTA_FILIAL AS [c");
-            viewString.Append("adastro_entrada.BOOL_VINCULAR_NOTA_FILIAL], \r\n            True AS _from0\r\n      ");
-            viewString.Append("  FROM db_coopfamEntities.cadastro_entrada AS T\r\n    ) AS T1");
+            viewString.Append(", T1.[cadastro_entrada.TXT_ASPECTO], T1.[cadastro_entrada.INT_MK], T1.[cadastro_");
+            viewString.Append("entrada.TXT_TIPO], T1.[cadastro_entrada.TXT_NOTAS], T1.[cadastro_entrada.BOOL_ST");
+            viewString.Append("ATUS])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cadastro_entrada.I");
+            viewString.Append("NT_ID], \r\n            T.INT_ID_COOPERADO AS [cadastro_entrada.INT_ID_COOPERADO],");
+            viewString.Append(" \r\n            T.TXT_LOTE AS [cadastro_entrada.TXT_LOTE], \r\n            T.FLOAT_");
+            viewString.Append("QTD_SACAS AS [cadastro_entrada.FLOAT_QTD_SACAS], \r\n            T.FLOAT_PESO_LIQ ");
+            viewString.Append("AS [cadastro_entrada.FLOAT_PESO_LIQ], \r\n            T.INT_ID_BEBIDA AS [cadastro");
+            viewString.Append("_entrada.INT_ID_BEBIDA], \r\n            T.FLOAT_TEOR_UMIDADE AS [cadastro_entrada");
+            viewString.Append(".FLOAT_TEOR_UMIDADE], \r\n            T.INT_CATACAO AS [cadastro_entrada.INT_CATAC");
+            viewString.Append("AO], \r\n            T.INT_NF AS [cadastro_entrada.INT_NF], \r\n            T.DATE_E");
+            viewString.Append("NTRADA AS [cadastro_entrada.DATE_ENTRADA], \r\n            T.INT_ID_TALHAO AS [cad");
+            viewString.Append("astro_entrada.INT_ID_TALHAO], \r\n            T.INT_ID_SUBTIPO AS [cadastro_entrad");
+            viewString.Append("a.INT_ID_SUBTIPO], \r\n            T.INT_ID_ALMOXARIFADO AS [cadastro_entrada.INT_");
+            viewString.Append("ID_ALMOXARIFADO], \r\n            T.INT_14UP AS [cadastro_entrada.INT_14UP], \r\n   ");
+            viewString.Append("         T.INT_16UP AS [cadastro_entrada.INT_16UP], \r\n            T.INT_17UP AS ");
+            viewString.Append("[cadastro_entrada.INT_17UP], \r\n            T.FLOAT_PONTUACAO AS [cadastro_entrad");
+            viewString.Append("a.FLOAT_PONTUACAO], \r\n            T.TXT_SAFRA AS [cadastro_entrada.TXT_SAFRA], \r");
+            viewString.Append("\n            T.BOOL_FLAG_MEXER_NMEXER AS [cadastro_entrada.BOOL_FLAG_MEXER_NMEXE");
+            viewString.Append("R], \r\n            T.INT_18UP AS [cadastro_entrada.INT_18UP], \r\n            T.BOO");
+            viewString.Append("L_TIPO AS [cadastro_entrada.BOOL_TIPO], \r\n            T.BOOL_FLAG AS [cadastro_e");
+            viewString.Append("ntrada.BOOL_FLAG], \r\n            T.DATE_LANCAMENTO AS [cadastro_entrada.DATE_LAN");
+            viewString.Append("CAMENTO], \r\n            T.DECIMAL_CATACAO_MERCADO AS [cadastro_entrada.DECIMAL_C");
+            viewString.Append("ATACAO_MERCADO], \r\n            T.BOOL_TRANSICAO AS [cadastro_entrada.BOOL_TRANSI");
+            viewString.Append("CAO], \r\n            T.INT_FUNCIONARIO AS [cadastro_entrada.INT_FUNCIONARIO], \r\n ");
+            viewString.Append("           T.FLOAT_SACAS_DEVOLVIDAS AS [cadastro_entrada.FLOAT_SACAS_DEVOLVIDAS]");
+            viewString.Append(", \r\n            T.DECIMAL_VALOR_UNITARIO_NF_ENTRADA AS [cadastro_entrada.DECIMAL");
+            viewString.Append("_VALOR_UNITARIO_NF_ENTRADA], \r\n            T.TXT_MOTIVO_DE_NAO_MEXER AS [cadastr");
+            viewString.Append("o_entrada.TXT_MOTIVO_DE_NAO_MEXER], \r\n            T.TXT_OBS AS [cadastro_entrada");
+            viewString.Append(".TXT_OBS], \r\n            T.INT_VAZAMENTO AS [cadastro_entrada.INT_VAZAMENTO], \r\n");
+            viewString.Append("            T.BOOL_CAFE_BORDADURA AS [cadastro_entrada.BOOL_CAFE_BORDADURA], \r\n ");
+            viewString.Append("           T.INT_ID_AGENDAMENTO_COOPERADO AS [cadastro_entrada.INT_ID_AGENDAMENT");
+            viewString.Append("O_COOPERADO], \r\n            T.TXT_OBS_CLASSIFICACAO AS [cadastro_entrada.TXT_OBS");
+            viewString.Append("_CLASSIFICACAO], \r\n            T.DECIMAL_PESO_LIQUIDO_TOTAL AS [cadastro_entrada");
+            viewString.Append(".DECIMAL_PESO_LIQUIDO_TOTAL], \r\n            T.BOOL_FINALIZOU_DESCARGA AS [cadast");
+            viewString.Append("ro_entrada.BOOL_FINALIZOU_DESCARGA], \r\n            T.TXT_CODIGO_DE_BARRAS AS [ca");
+            viewString.Append("dastro_entrada.TXT_CODIGO_DE_BARRAS], \r\n            T.BOOL_VINCULAR_NOTA_FILIAL ");
+            viewString.Append("AS [cadastro_entrada.BOOL_VINCULAR_NOTA_FILIAL], \r\n            T.TXT_ASPECTO AS ");
+            viewString.Append("[cadastro_entrada.TXT_ASPECTO], \r\n            T.INT_MK AS [cadastro_entrada.INT_");
+            viewString.Append("MK], \r\n            T.TXT_TIPO AS [cadastro_entrada.TXT_TIPO], \r\n            T.TX");
+            viewString.Append("T_NOTAS AS [cadastro_entrada.TXT_NOTAS], \r\n            T.BOOL_STATUS AS [cadastr");
+            viewString.Append("o_entrada.BOOL_STATUS], \r\n            True AS _from0\r\n        FROM db_coopfamEnt");
+            viewString.Append("ities.cadastro_entrada AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.cadastro_entrada", viewString.ToString());
         }
         
@@ -3145,7 +3291,7 @@ namespace Edm_EntityMappingGeneratedViews
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.categoria_de_emprestimo", @"
     SELECT VALUE -- Constructing categoria_de_emprestimo
-        [db_coopfamModel.Store.categoria_de_emprestimo](T1.[categoria_de_emprestimo.INT_ID], T1.[categoria_de_emprestimo.TXT_CATEGORIA], T1.[categoria_de_emprestimo.CHAR_MODELO_DE_CONTRATO], T1.[categoria_de_emprestimo.INT_ID_PLANEJAMENTO], T1.[categoria_de_emprestimo.BOOL_FT_OUTRAS_FONTES])
+        [db_coopfamModel.Store.categoria_de_emprestimo](T1.[categoria_de_emprestimo.INT_ID], T1.[categoria_de_emprestimo.TXT_CATEGORIA], T1.[categoria_de_emprestimo.CHAR_MODELO_DE_CONTRATO], T1.[categoria_de_emprestimo.INT_ID_PLANEJAMENTO], T1.[categoria_de_emprestimo.BOOL_FT_OUTRAS_FONTES], T1.[categoria_de_emprestimo.INT_ID_CONTA_CONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [categoria_de_emprestimo.INT_ID], 
@@ -3153,6 +3299,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.CHAR_MODELO_DE_CONTRATO AS [categoria_de_emprestimo.CHAR_MODELO_DE_CONTRATO], 
             T.INT_ID_PLANEJAMENTO AS [categoria_de_emprestimo.INT_ID_PLANEJAMENTO], 
             T.BOOL_FT_OUTRAS_FONTES AS [categoria_de_emprestimo.BOOL_FT_OUTRAS_FONTES], 
+            T.INT_ID_CONTA_CONTABIL AS [categoria_de_emprestimo.INT_ID_CONTA_CONTABIL], 
             True AS _from0
         FROM db_coopfamEntities.categoria_de_emprestimo AS T
     ) AS T1");
@@ -3165,12 +3312,13 @@ namespace Edm_EntityMappingGeneratedViews
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.categoria_de_emprestimo_com_banco", @"
     SELECT VALUE -- Constructing categoria_de_emprestimo_com_banco
-        [db_coopfamModel.Store.categoria_de_emprestimo_com_banco](T1.[categoria_de_emprestimo_com_banco.INT_ID], T1.[categoria_de_emprestimo_com_banco.TXT_DESCRICAO], T1.[categoria_de_emprestimo_com_banco.BOOL_ATIVO])
+        [db_coopfamModel.Store.categoria_de_emprestimo_com_banco](T1.[categoria_de_emprestimo_com_banco.INT_ID], T1.[categoria_de_emprestimo_com_banco.TXT_DESCRICAO], T1.[categoria_de_emprestimo_com_banco.BOOL_ATIVO], T1.[categoria_de_emprestimo_com_banco.INT_ID_CONTA_CONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [categoria_de_emprestimo_com_banco.INT_ID], 
             T.TXT_DESCRICAO AS [categoria_de_emprestimo_com_banco.TXT_DESCRICAO], 
             T.BOOL_ATIVO AS [categoria_de_emprestimo_com_banco.BOOL_ATIVO], 
+            T.INT_ID_CONTA_CONTABIL AS [categoria_de_emprestimo_com_banco.INT_ID_CONTA_CONTABIL], 
             True AS _from0
         FROM db_coopfamEntities.categoria_de_emprestimo_com_banco AS T
     ) AS T1");
@@ -3302,7 +3450,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView38()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2393);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3450);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cliente\r\n        [db_coopfamModel.Store.clien");
             viewString.Append("te](T1.[cliente.INT_ID], T1.[cliente.TXT_NOME], T1.[cliente.TXT_PAIS], T1.[clien");
             viewString.Append("te.TXT_RUA], T1.[cliente.TXT_BAIRRO], T1.[cliente.TXT_NUM], T1.[cliente.TXT_COMP");
@@ -3312,27 +3460,41 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(", T1.[cliente.INT_FLO_ID], T1.[cliente.INT_ID_CEP_ENDERECO], T1.[cliente.INT_ID_");
             viewString.Append("GRUPO_SERVICO], T1.[cliente.TXT_PESSOA_DE_CONTATO], T1.[cliente.BOOL_CLIENTE], T");
             viewString.Append("1.[cliente.TXT_INDICADOR_IE], T1.[cliente.BOOL_FORNECEDOR], T1.[cliente.INT_ID_C");
-            viewString.Append("ODIGO_CONTABIL], T1.[cliente.BOOL_MEDICO], T1.[cliente.BOOL_BLOQUEAR_VENDAS])\r\n ");
-            viewString.Append("   FROM (\r\n        SELECT \r\n            T.INT_ID AS [cliente.INT_ID], \r\n        ");
-            viewString.Append("    T.TXT_NOME AS [cliente.TXT_NOME], \r\n            T.TXT_PAIS AS [cliente.TXT_P");
-            viewString.Append("AIS], \r\n            T.TXT_RUA AS [cliente.TXT_RUA], \r\n            T.TXT_BAIRRO A");
-            viewString.Append("S [cliente.TXT_BAIRRO], \r\n            T.TXT_NUM AS [cliente.TXT_NUM], \r\n        ");
-            viewString.Append("    T.TXT_COMPLEMENTO AS [cliente.TXT_COMPLEMENTO], \r\n            T.TXT_CEP AS [");
-            viewString.Append("cliente.TXT_CEP], \r\n            T.TXT_IM AS [cliente.TXT_IM], \r\n            T.TX");
-            viewString.Append("T_IE AS [cliente.TXT_IE], \r\n            T.BOOL_PESSOA_FIS_JURIDICA AS [cliente.B");
-            viewString.Append("OOL_PESSOA_FIS_JURIDICA], \r\n            T.TXT_CPF_CNPJ AS [cliente.TXT_CPF_CNPJ]");
-            viewString.Append(", \r\n            T.TXT_NOME_FANTASIA AS [cliente.TXT_NOME_FANTASIA], \r\n          ");
-            viewString.Append("  T.TXT_CIDADE AS [cliente.TXT_CIDADE], \r\n            T.TXT_UF AS [cliente.TXT_U");
-            viewString.Append("F], \r\n            T.BOOL_FLAG AS [cliente.BOOL_FLAG], \r\n            T.INT_FLO_ID");
-            viewString.Append(" AS [cliente.INT_FLO_ID], \r\n            T.INT_ID_CEP_ENDERECO AS [cliente.INT_ID");
-            viewString.Append("_CEP_ENDERECO], \r\n            T.INT_ID_GRUPO_SERVICO AS [cliente.INT_ID_GRUPO_SE");
-            viewString.Append("RVICO], \r\n            T.TXT_PESSOA_DE_CONTATO AS [cliente.TXT_PESSOA_DE_CONTATO]");
-            viewString.Append(", \r\n            T.BOOL_CLIENTE AS [cliente.BOOL_CLIENTE], \r\n            T.TXT_IN");
-            viewString.Append("DICADOR_IE AS [cliente.TXT_INDICADOR_IE], \r\n            T.BOOL_FORNECEDOR AS [cl");
-            viewString.Append("iente.BOOL_FORNECEDOR], \r\n            T.INT_ID_CODIGO_CONTABIL AS [cliente.INT_I");
-            viewString.Append("D_CODIGO_CONTABIL], \r\n            T.BOOL_MEDICO AS [cliente.BOOL_MEDICO], \r\n    ");
-            viewString.Append("        T.BOOL_BLOQUEAR_VENDAS AS [cliente.BOOL_BLOQUEAR_VENDAS], \r\n            ");
-            viewString.Append("True AS _from0\r\n        FROM db_coopfamEntities.cliente AS T\r\n    ) AS T1");
+            viewString.Append("ODIGO_CONTABIL], T1.[cliente.BOOL_MEDICO], T1.[cliente.BOOL_BLOQUEAR_VENDAS], T1");
+            viewString.Append(".[cliente.DECIMAL_LIMITE_CREDITO], T1.[cliente.BOOL_IGNORAR_LIMITE_DE_CREDITO], ");
+            viewString.Append("T1.[cliente.TXT_MOTIVO_BLOQUEIO], T1.[cliente.TXT_REFERENCIA_1], T1.[cliente.TXT");
+            viewString.Append("_CONTATO_1], T1.[cliente.TXT_REFERENCIA_2], T1.[cliente.TXT_CONTATO_2], T1.[clie");
+            viewString.Append("nte.TXT_CONTATO_3], T1.[cliente.TXT_REFERENCIA_3], T1.[cliente.TXT_ID_RFA], T1.[");
+            viewString.Append("cliente.TXT_FTUSA_ID])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cl");
+            viewString.Append("iente.INT_ID], \r\n            T.TXT_NOME AS [cliente.TXT_NOME], \r\n            T.T");
+            viewString.Append("XT_PAIS AS [cliente.TXT_PAIS], \r\n            T.TXT_RUA AS [cliente.TXT_RUA], \r\n ");
+            viewString.Append("           T.TXT_BAIRRO AS [cliente.TXT_BAIRRO], \r\n            T.TXT_NUM AS [cli");
+            viewString.Append("ente.TXT_NUM], \r\n            T.TXT_COMPLEMENTO AS [cliente.TXT_COMPLEMENTO], \r\n ");
+            viewString.Append("           T.TXT_CEP AS [cliente.TXT_CEP], \r\n            T.TXT_IM AS [cliente.TX");
+            viewString.Append("T_IM], \r\n            T.TXT_IE AS [cliente.TXT_IE], \r\n            T.BOOL_PESSOA_F");
+            viewString.Append("IS_JURIDICA AS [cliente.BOOL_PESSOA_FIS_JURIDICA], \r\n            T.TXT_CPF_CNPJ ");
+            viewString.Append("AS [cliente.TXT_CPF_CNPJ], \r\n            T.TXT_NOME_FANTASIA AS [cliente.TXT_NOM");
+            viewString.Append("E_FANTASIA], \r\n            T.TXT_CIDADE AS [cliente.TXT_CIDADE], \r\n            T");
+            viewString.Append(".TXT_UF AS [cliente.TXT_UF], \r\n            T.BOOL_FLAG AS [cliente.BOOL_FLAG], \r");
+            viewString.Append("\n            T.INT_FLO_ID AS [cliente.INT_FLO_ID], \r\n            T.INT_ID_CEP_EN");
+            viewString.Append("DERECO AS [cliente.INT_ID_CEP_ENDERECO], \r\n            T.INT_ID_GRUPO_SERVICO AS");
+            viewString.Append(" [cliente.INT_ID_GRUPO_SERVICO], \r\n            T.TXT_PESSOA_DE_CONTATO AS [clien");
+            viewString.Append("te.TXT_PESSOA_DE_CONTATO], \r\n            T.BOOL_CLIENTE AS [cliente.BOOL_CLIENTE");
+            viewString.Append("], \r\n            T.TXT_INDICADOR_IE AS [cliente.TXT_INDICADOR_IE], \r\n           ");
+            viewString.Append(" T.BOOL_FORNECEDOR AS [cliente.BOOL_FORNECEDOR], \r\n            T.INT_ID_CODIGO_C");
+            viewString.Append("ONTABIL AS [cliente.INT_ID_CODIGO_CONTABIL], \r\n            T.BOOL_MEDICO AS [cli");
+            viewString.Append("ente.BOOL_MEDICO], \r\n            T.BOOL_BLOQUEAR_VENDAS AS [cliente.BOOL_BLOQUEA");
+            viewString.Append("R_VENDAS], \r\n            T.DECIMAL_LIMITE_CREDITO AS [cliente.DECIMAL_LIMITE_CRE");
+            viewString.Append("DITO], \r\n            T.BOOL_IGNORAR_LIMITE_DE_CREDITO AS [cliente.BOOL_IGNORAR_L");
+            viewString.Append("IMITE_DE_CREDITO], \r\n            T.TXT_MOTIVO_BLOQUEIO AS [cliente.TXT_MOTIVO_BL");
+            viewString.Append("OQUEIO], \r\n            T.TXT_REFERENCIA_1 AS [cliente.TXT_REFERENCIA_1], \r\n     ");
+            viewString.Append("       T.TXT_CONTATO_1 AS [cliente.TXT_CONTATO_1], \r\n            T.TXT_REFERENCI");
+            viewString.Append("A_2 AS [cliente.TXT_REFERENCIA_2], \r\n            T.TXT_CONTATO_2 AS [cliente.TXT");
+            viewString.Append("_CONTATO_2], \r\n            T.TXT_CONTATO_3 AS [cliente.TXT_CONTATO_3], \r\n       ");
+            viewString.Append("     T.TXT_REFERENCIA_3 AS [cliente.TXT_REFERENCIA_3], \r\n            T.TXT_ID_RF");
+            viewString.Append("A AS [cliente.TXT_ID_RFA], \r\n            T.TXT_FTUSA_ID AS [cliente.TXT_FTUSA_ID");
+            viewString.Append("], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.cliente AS T\r\n ");
+            viewString.Append("   ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.cliente", viewString.ToString());
         }
         
@@ -3639,7 +3801,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView49()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3919);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4357);
             viewString.Append("\r\n    SELECT VALUE -- Constructing contas_a_pagar_e_receber\r\n        [db_coopfam");
             viewString.Append("Model.Store.contas_a_pagar_e_receber](T1.[contas_a_pagar_e_receber.INT_ID], T1.[");
             viewString.Append("contas_a_pagar_e_receber.INT_ID_FORNECEDOR], T1.[contas_a_pagar_e_receber.INT_ID");
@@ -3658,37 +3820,43 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("CONTAS_A_RECEBER], T1.[contas_a_pagar_e_receber.BOOL_REEMBOLSO], T1.[contas_a_pa");
             viewString.Append("gar_e_receber.INT_ID_PROCEDIMENTO], T1.[contas_a_pagar_e_receber.TXT_CHAVE_DE_AC");
             viewString.Append("ESSO], T1.[contas_a_pagar_e_receber.INT_ID_COTACAO_COMPRA], T1.[contas_a_pagar_e");
-            viewString.Append("_receber.BOOL_DEVOLUCAO_COTA])\r\n    FROM (\r\n        SELECT \r\n            T.INT_I");
-            viewString.Append("D AS [contas_a_pagar_e_receber.INT_ID], \r\n            T.INT_ID_FORNECEDOR AS [co");
-            viewString.Append("ntas_a_pagar_e_receber.INT_ID_FORNECEDOR], \r\n            T.INT_ID_TIPO_DOCUMENTO");
-            viewString.Append(" AS [contas_a_pagar_e_receber.INT_ID_TIPO_DOCUMENTO], \r\n            T.INT_ID_TIP");
-            viewString.Append("O_PAGAMENTO AS [contas_a_pagar_e_receber.INT_ID_TIPO_PAGAMENTO], \r\n            T");
-            viewString.Append(".INT_ID_EMPRESA AS [contas_a_pagar_e_receber.INT_ID_EMPRESA], \r\n            T.IN");
-            viewString.Append("T_ID_FUNCIONARIO AS [contas_a_pagar_e_receber.INT_ID_FUNCIONARIO], \r\n           ");
-            viewString.Append(" T.DECIMAL_VALOR AS [contas_a_pagar_e_receber.DECIMAL_VALOR], \r\n            T.TX");
-            viewString.Append("T_NUMERO_DOCUMENTO AS [contas_a_pagar_e_receber.TXT_NUMERO_DOCUMENTO], \r\n       ");
-            viewString.Append("     T.DATE_DOC AS [contas_a_pagar_e_receber.DATE_DOC], \r\n            T.TXT_DESC");
-            viewString.Append("RICAO AS [contas_a_pagar_e_receber.TXT_DESCRICAO], \r\n            T.DATE_LANCAMEN");
-            viewString.Append("TO AS [contas_a_pagar_e_receber.DATE_LANCAMENTO], \r\n            T.BOOL_ATIVO AS ");
-            viewString.Append("[contas_a_pagar_e_receber.BOOL_ATIVO], \r\n            T.INT_ID_MOVIMENTO AS [cont");
-            viewString.Append("as_a_pagar_e_receber.INT_ID_MOVIMENTO], \r\n            T.BOOL_ADIANTAMENTO AS [co");
-            viewString.Append("ntas_a_pagar_e_receber.BOOL_ADIANTAMENTO], \r\n            T.DECIMAL_VALOR_ABATIDO");
-            viewString.Append("_DO_ADIANTAMENTO AS [contas_a_pagar_e_receber.DECIMAL_VALOR_ABATIDO_DO_ADIANTAME");
-            viewString.Append("NTO], \r\n            T.BOOL_ATO_COOPERADO_NAO_COOPERADO AS [contas_a_pagar_e_rece");
-            viewString.Append("ber.BOOL_ATO_COOPERADO_NAO_COOPERADO], \r\n            T.DATA_RECEBIMENTO_DO_DOCUM");
-            viewString.Append("ENTO AS [contas_a_pagar_e_receber.DATA_RECEBIMENTO_DO_DOCUMENTO], \r\n            ");
-            viewString.Append("T.INT_ID_VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR AS [contas_a_pagar_e_receber.I");
-            viewString.Append("NT_ID_VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR], \r\n            T.INT_ID_VINCULO_");
-            viewString.Append("DE_ORIGEM_ENCARGO_NOTAS AS [contas_a_pagar_e_receber.INT_ID_VINCULO_DE_ORIGEM_EN");
-            viewString.Append("CARGO_NOTAS], \r\n            T.INT_ID_COOPERADO AS [contas_a_pagar_e_receber.INT_");
-            viewString.Append("ID_COOPERADO], \r\n            T.BOOL_CONTAS_A_RECEBER AS [contas_a_pagar_e_recebe");
-            viewString.Append("r.BOOL_CONTAS_A_RECEBER], \r\n            T.BOOL_REEMBOLSO AS [contas_a_pagar_e_re");
-            viewString.Append("ceber.BOOL_REEMBOLSO], \r\n            T.INT_ID_PROCEDIMENTO AS [contas_a_pagar_e_");
-            viewString.Append("receber.INT_ID_PROCEDIMENTO], \r\n            T.TXT_CHAVE_DE_ACESSO AS [contas_a_p");
-            viewString.Append("agar_e_receber.TXT_CHAVE_DE_ACESSO], \r\n            T.INT_ID_COTACAO_COMPRA AS [c");
-            viewString.Append("ontas_a_pagar_e_receber.INT_ID_COTACAO_COMPRA], \r\n            T.BOOL_DEVOLUCAO_C");
-            viewString.Append("OTA AS [contas_a_pagar_e_receber.BOOL_DEVOLUCAO_COTA], \r\n            True AS _fr");
-            viewString.Append("om0\r\n        FROM db_coopfamEntities.contas_a_pagar_e_receber AS T\r\n    ) AS T1");
+            viewString.Append("_receber.BOOL_DEVOLUCAO_COTA], T1.[contas_a_pagar_e_receber.DECIMAL_TAXA_DOLAR],");
+            viewString.Append(" T1.[contas_a_pagar_e_receber.DECIMAL_TOTAL_DOLAR], T1.[contas_a_pagar_e_receber");
+            viewString.Append(".INT_ID_ORDEM_SERVICO_CELULAR])\r\n    FROM (\r\n        SELECT \r\n            T.INT_");
+            viewString.Append("ID AS [contas_a_pagar_e_receber.INT_ID], \r\n            T.INT_ID_FORNECEDOR AS [c");
+            viewString.Append("ontas_a_pagar_e_receber.INT_ID_FORNECEDOR], \r\n            T.INT_ID_TIPO_DOCUMENT");
+            viewString.Append("O AS [contas_a_pagar_e_receber.INT_ID_TIPO_DOCUMENTO], \r\n            T.INT_ID_TI");
+            viewString.Append("PO_PAGAMENTO AS [contas_a_pagar_e_receber.INT_ID_TIPO_PAGAMENTO], \r\n            ");
+            viewString.Append("T.INT_ID_EMPRESA AS [contas_a_pagar_e_receber.INT_ID_EMPRESA], \r\n            T.I");
+            viewString.Append("NT_ID_FUNCIONARIO AS [contas_a_pagar_e_receber.INT_ID_FUNCIONARIO], \r\n          ");
+            viewString.Append("  T.DECIMAL_VALOR AS [contas_a_pagar_e_receber.DECIMAL_VALOR], \r\n            T.T");
+            viewString.Append("XT_NUMERO_DOCUMENTO AS [contas_a_pagar_e_receber.TXT_NUMERO_DOCUMENTO], \r\n      ");
+            viewString.Append("      T.DATE_DOC AS [contas_a_pagar_e_receber.DATE_DOC], \r\n            T.TXT_DES");
+            viewString.Append("CRICAO AS [contas_a_pagar_e_receber.TXT_DESCRICAO], \r\n            T.DATE_LANCAME");
+            viewString.Append("NTO AS [contas_a_pagar_e_receber.DATE_LANCAMENTO], \r\n            T.BOOL_ATIVO AS");
+            viewString.Append(" [contas_a_pagar_e_receber.BOOL_ATIVO], \r\n            T.INT_ID_MOVIMENTO AS [con");
+            viewString.Append("tas_a_pagar_e_receber.INT_ID_MOVIMENTO], \r\n            T.BOOL_ADIANTAMENTO AS [c");
+            viewString.Append("ontas_a_pagar_e_receber.BOOL_ADIANTAMENTO], \r\n            T.DECIMAL_VALOR_ABATID");
+            viewString.Append("O_DO_ADIANTAMENTO AS [contas_a_pagar_e_receber.DECIMAL_VALOR_ABATIDO_DO_ADIANTAM");
+            viewString.Append("ENTO], \r\n            T.BOOL_ATO_COOPERADO_NAO_COOPERADO AS [contas_a_pagar_e_rec");
+            viewString.Append("eber.BOOL_ATO_COOPERADO_NAO_COOPERADO], \r\n            T.DATA_RECEBIMENTO_DO_DOCU");
+            viewString.Append("MENTO AS [contas_a_pagar_e_receber.DATA_RECEBIMENTO_DO_DOCUMENTO], \r\n           ");
+            viewString.Append(" T.INT_ID_VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR AS [contas_a_pagar_e_receber.");
+            viewString.Append("INT_ID_VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR], \r\n            T.INT_ID_VINCULO");
+            viewString.Append("_DE_ORIGEM_ENCARGO_NOTAS AS [contas_a_pagar_e_receber.INT_ID_VINCULO_DE_ORIGEM_E");
+            viewString.Append("NCARGO_NOTAS], \r\n            T.INT_ID_COOPERADO AS [contas_a_pagar_e_receber.INT");
+            viewString.Append("_ID_COOPERADO], \r\n            T.BOOL_CONTAS_A_RECEBER AS [contas_a_pagar_e_receb");
+            viewString.Append("er.BOOL_CONTAS_A_RECEBER], \r\n            T.BOOL_REEMBOLSO AS [contas_a_pagar_e_r");
+            viewString.Append("eceber.BOOL_REEMBOLSO], \r\n            T.INT_ID_PROCEDIMENTO AS [contas_a_pagar_e");
+            viewString.Append("_receber.INT_ID_PROCEDIMENTO], \r\n            T.TXT_CHAVE_DE_ACESSO AS [contas_a_");
+            viewString.Append("pagar_e_receber.TXT_CHAVE_DE_ACESSO], \r\n            T.INT_ID_COTACAO_COMPRA AS [");
+            viewString.Append("contas_a_pagar_e_receber.INT_ID_COTACAO_COMPRA], \r\n            T.BOOL_DEVOLUCAO_");
+            viewString.Append("COTA AS [contas_a_pagar_e_receber.BOOL_DEVOLUCAO_COTA], \r\n            T.DECIMAL_");
+            viewString.Append("TAXA_DOLAR AS [contas_a_pagar_e_receber.DECIMAL_TAXA_DOLAR], \r\n            T.DEC");
+            viewString.Append("IMAL_TOTAL_DOLAR AS [contas_a_pagar_e_receber.DECIMAL_TOTAL_DOLAR], \r\n          ");
+            viewString.Append("  T.INT_ID_ORDEM_SERVICO_CELULAR AS [contas_a_pagar_e_receber.INT_ID_ORDEM_SERVI");
+            viewString.Append("CO_CELULAR], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.conta");
+            viewString.Append("s_a_pagar_e_receber AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.contas_a_pagar_e_receber", viewString.ToString());
         }
         
@@ -3725,29 +3893,47 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView51()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.contas_a_pagar_plano_de_contas", "\r\n    SELECT VALUE -- Constructing contas_a_pagar_plano_de_contas\r\n        [db_co" +
-                    "opfamModel.Store.contas_a_pagar_plano_de_contas](T1.[contas_a_pagar_plano_de_con" +
-                    "tas.INT_ID], T1.[contas_a_pagar_plano_de_contas.INT_ID_PLANO_DE_CONTAS], T1.[con" +
-                    "tas_a_pagar_plano_de_contas.INT_ID_CONTAS_A_PAGAR], T1.[contas_a_pagar_plano_de_" +
-                    "contas.INT_ID_MOVIMENTO_BANCARIO], T1.[contas_a_pagar_plano_de_contas.DECIMAL_VA" +
-                    "LOR], T1.[contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], T1.[contas_a_pagar_" +
-                    "plano_de_contas.BOOL_ATIVO], T1.[contas_a_pagar_plano_de_contas.BOOL_DEBITO_CRED" +
-                    "ITO], T1.[contas_a_pagar_plano_de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_C" +
-                    "AIXA], T1.[contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO_DE_CHEQUE])\r\n    FROM" +
-                    " (\r\n        SELECT \r\n            T.INT_ID AS [contas_a_pagar_plano_de_contas.INT" +
-                    "_ID], \r\n            T.INT_ID_PLANO_DE_CONTAS AS [contas_a_pagar_plano_de_contas." +
-                    "INT_ID_PLANO_DE_CONTAS], \r\n            T.INT_ID_CONTAS_A_PAGAR AS [contas_a_paga" +
-                    "r_plano_de_contas.INT_ID_CONTAS_A_PAGAR], \r\n            T.INT_ID_MOVIMENTO_BANCA" +
-                    "RIO AS [contas_a_pagar_plano_de_contas.INT_ID_MOVIMENTO_BANCARIO], \r\n           " +
-                    " T.DECIMAL_VALOR AS [contas_a_pagar_plano_de_contas.DECIMAL_VALOR], \r\n          " +
-                    "  T.BOOL_ADIANTAMENTO AS [contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], \r\n " +
-                    "           T.BOOL_ATIVO AS [contas_a_pagar_plano_de_contas.BOOL_ATIVO], \r\n      " +
-                    "      T.BOOL_DEBITO_CREDITO AS [contas_a_pagar_plano_de_contas.BOOL_DEBITO_CREDI" +
-                    "TO], \r\n            T.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA AS [contas_a_pa" +
-                    "gar_plano_de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], \r\n            " +
-                    "T.BOOL_COMPENSACAO_DE_CHEQUE AS [contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO" +
-                    "_DE_CHEQUE], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.conta" +
-                    "s_a_pagar_plano_de_contas AS T\r\n    ) AS T1");
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3061);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing contas_a_pagar_plano_de_contas\r\n        [db_c");
+            viewString.Append("oopfamModel.Store.contas_a_pagar_plano_de_contas](T1.[contas_a_pagar_plano_de_co");
+            viewString.Append("ntas.INT_ID], T1.[contas_a_pagar_plano_de_contas.INT_ID_PLANO_DE_CONTAS], T1.[co");
+            viewString.Append("ntas_a_pagar_plano_de_contas.INT_ID_CONTAS_A_PAGAR], T1.[contas_a_pagar_plano_de");
+            viewString.Append("_contas.INT_ID_MOVIMENTO_BANCARIO], T1.[contas_a_pagar_plano_de_contas.DECIMAL_V");
+            viewString.Append("ALOR], T1.[contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], T1.[contas_a_pagar");
+            viewString.Append("_plano_de_contas.BOOL_ATIVO], T1.[contas_a_pagar_plano_de_contas.BOOL_DEBITO_CRE");
+            viewString.Append("DITO], T1.[contas_a_pagar_plano_de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_");
+            viewString.Append("CAIXA], T1.[contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO_DE_CHEQUE], T1.[cont");
+            viewString.Append("as_a_pagar_plano_de_contas.TXT_TIPO_DE_MOVIMENTACAO], T1.[contas_a_pagar_plano_d");
+            viewString.Append("e_contas.INT_ID_LOTE_DO_FECHAMENTO], T1.[contas_a_pagar_plano_de_contas.INT_ID_N");
+            viewString.Append("OTAS_DE_ORIGEM], T1.[contas_a_pagar_plano_de_contas.INT_ID_NOTA_FISCAL], T1.[con");
+            viewString.Append("tas_a_pagar_plano_de_contas.INT_ID_ORIGEM_DO_PRODUTO], T1.[contas_a_pagar_plano_");
+            viewString.Append("de_contas.INT_ID_EMPRESTIMO_COOPERADO], T1.[contas_a_pagar_plano_de_contas.INT_I");
+            viewString.Append("D_COMPLEMENTACAO], T1.[contas_a_pagar_plano_de_contas.INT_ID_ACC])\r\n    FROM (\r\n");
+            viewString.Append("        SELECT \r\n            T.INT_ID AS [contas_a_pagar_plano_de_contas.INT_ID]");
+            viewString.Append(", \r\n            T.INT_ID_PLANO_DE_CONTAS AS [contas_a_pagar_plano_de_contas.INT_");
+            viewString.Append("ID_PLANO_DE_CONTAS], \r\n            T.INT_ID_CONTAS_A_PAGAR AS [contas_a_pagar_pl");
+            viewString.Append("ano_de_contas.INT_ID_CONTAS_A_PAGAR], \r\n            T.INT_ID_MOVIMENTO_BANCARIO ");
+            viewString.Append("AS [contas_a_pagar_plano_de_contas.INT_ID_MOVIMENTO_BANCARIO], \r\n            T.D");
+            viewString.Append("ECIMAL_VALOR AS [contas_a_pagar_plano_de_contas.DECIMAL_VALOR], \r\n            T.");
+            viewString.Append("BOOL_ADIANTAMENTO AS [contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], \r\n     ");
+            viewString.Append("       T.BOOL_ATIVO AS [contas_a_pagar_plano_de_contas.BOOL_ATIVO], \r\n          ");
+            viewString.Append("  T.BOOL_DEBITO_CREDITO AS [contas_a_pagar_plano_de_contas.BOOL_DEBITO_CREDITO],");
+            viewString.Append(" \r\n            T.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA AS [contas_a_pagar_");
+            viewString.Append("plano_de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], \r\n            T.BO");
+            viewString.Append("OL_COMPENSACAO_DE_CHEQUE AS [contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO_DE_");
+            viewString.Append("CHEQUE], \r\n            T.TXT_TIPO_DE_MOVIMENTACAO AS [contas_a_pagar_plano_de_co");
+            viewString.Append("ntas.TXT_TIPO_DE_MOVIMENTACAO], \r\n            T.INT_ID_LOTE_DO_FECHAMENTO AS [co");
+            viewString.Append("ntas_a_pagar_plano_de_contas.INT_ID_LOTE_DO_FECHAMENTO], \r\n            T.INT_ID_");
+            viewString.Append("NOTAS_DE_ORIGEM AS [contas_a_pagar_plano_de_contas.INT_ID_NOTAS_DE_ORIGEM], \r\n  ");
+            viewString.Append("          T.INT_ID_NOTA_FISCAL AS [contas_a_pagar_plano_de_contas.INT_ID_NOTA_FI");
+            viewString.Append("SCAL], \r\n            T.INT_ID_ORIGEM_DO_PRODUTO AS [contas_a_pagar_plano_de_cont");
+            viewString.Append("as.INT_ID_ORIGEM_DO_PRODUTO], \r\n            T.INT_ID_EMPRESTIMO_COOPERADO AS [co");
+            viewString.Append("ntas_a_pagar_plano_de_contas.INT_ID_EMPRESTIMO_COOPERADO], \r\n            T.INT_I");
+            viewString.Append("D_COMPLEMENTACAO AS [contas_a_pagar_plano_de_contas.INT_ID_COMPLEMENTACAO], \r\n  ");
+            viewString.Append("          T.INT_ID_ACC AS [contas_a_pagar_plano_de_contas.INT_ID_ACC], \r\n       ");
+            viewString.Append("     True AS _from0\r\n        FROM db_coopfamEntities.contas_a_pagar_plano_de_con");
+            viewString.Append("tas AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.contas_a_pagar_plano_de_contas", viewString.ToString());
         }
         
         /// <Summary>
@@ -3782,7 +3968,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView53()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(6268);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(6423);
             viewString.Append("\r\n    SELECT VALUE -- Constructing contrato\r\n        [db_coopfamModel.Store.cont");
             viewString.Append("rato](T1.[contrato.INT_ID], T1.[contrato.INT_ID_CLIENTE], T1.[contrato.TXT_CONTR");
             viewString.Append("ATO], T1.[contrato.TXT_SAFRA], T1.[contrato.INT_ID_BEBIDA], T1.[contrato.FLOAT_P");
@@ -3809,59 +3995,61 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("XT_OBS_INGLES], T1.[contrato.INT_ID_PRE_FINANCIAMENTO], T1.[contrato.INT_ID_GEST");
             viewString.Append("AO_RISCO], T1.[contrato.INT_ID_ARBITRAGEM], T1.[contrato.INT_ID_TIPO_DE_TERMO_CO");
             viewString.Append("NDICAO], T1.[contrato.INT_ID_PAPEL_DAS_PARTES], T1.[contrato.INT_ID_LOCAL_DE_EMB");
-            viewString.Append("ARQUE])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [contrato.INT_ID],");
-            viewString.Append(" \r\n            T.INT_ID_CLIENTE AS [contrato.INT_ID_CLIENTE], \r\n            T.TX");
-            viewString.Append("T_CONTRATO AS [contrato.TXT_CONTRATO], \r\n            T.TXT_SAFRA AS [contrato.TX");
-            viewString.Append("T_SAFRA], \r\n            T.INT_ID_BEBIDA AS [contrato.INT_ID_BEBIDA], \r\n         ");
-            viewString.Append("   T.FLOAT_PONTUACAO AS [contrato.FLOAT_PONTUACAO], \r\n            T.TXT_TIPO AS ");
-            viewString.Append("[contrato.TXT_TIPO], \r\n            T.DATE_ENTREGA AS [contrato.DATE_ENTREGA], \r\n");
-            viewString.Append("            T.INT_DEFEITOS AS [contrato.INT_DEFEITOS], \r\n            T.INT_ID_SI");
-            viewString.Append("TUACAONORMA AS [contrato.INT_ID_SITUACAONORMA], \r\n            T.TXT_OBS AS [cont");
-            viewString.Append("rato.TXT_OBS], \r\n            T.TXT_OIC AS [contrato.TXT_OIC], \r\n            T.TX");
-            viewString.Append("T_TIPO_SACARIA AS [contrato.TXT_TIPO_SACARIA], \r\n            T.TXT_PENEIRA AS [c");
-            viewString.Append("ontrato.TXT_PENEIRA], \r\n            T.TXT_INVOICE AS [contrato.TXT_INVOICE], \r\n ");
-            viewString.Append("           T.INT_QTD_SACAS AS [contrato.INT_QTD_SACAS], \r\n            T.FLOAT_PE");
-            viewString.Append("SO_LIQUIDO AS [contrato.FLOAT_PESO_LIQUIDO], \r\n            T.FLOAT_DIFERENCIAL A");
-            viewString.Append("S [contrato.FLOAT_DIFERENCIAL], \r\n            T.DATE_LANCAMENTO AS [contrato.DAT");
-            viewString.Append("E_LANCAMENTO], \r\n            T.INT_NF AS [contrato.INT_NF], \r\n            T.DATE");
-            viewString.Append("_FECHAMENTO AS [contrato.DATE_FECHAMENTO], \r\n            T.BOOL_AFIXAR AS [contr");
-            viewString.Append("ato.BOOL_AFIXAR], \r\n            T.FLOAT_PRECO AS [contrato.FLOAT_PRECO], \r\n     ");
-            viewString.Append("       T.INT_SUBTIPO_NORMA AS [contrato.INT_SUBTIPO_NORMA], \r\n            T.BOOL");
-            viewString.Append("_TIPO_CAFE AS [contrato.BOOL_TIPO_CAFE], \r\n            T.DATE_DATA_MAXIMA_ENTREG");
-            viewString.Append("A_DA_AMOSTRA AS [contrato.DATE_DATA_MAXIMA_ENTREGA_DA_AMOSTRA], \r\n            T.");
-            viewString.Append("FLOAT_DOLAR AS [contrato.FLOAT_DOLAR], \r\n            T.FLOAT_NY AS [contrato.FLO");
-            viewString.Append("AT_NY], \r\n            T.DATE_ENTREGA_AMOSTRA AS [contrato.DATE_ENTREGA_AMOSTRA],");
-            viewString.Append(" \r\n            T.BOOL_A_FIXAR_DOLAR AS [contrato.BOOL_A_FIXAR_DOLAR], \r\n        ");
-            viewString.Append("    T.BOOL_FT_NFT AS [contrato.BOOL_FT_NFT], \r\n            T.TXT_COM_HEDGE_PRECO");
-            viewString.Append("_MINIMO_INFERIOR AS [contrato.TXT_COM_HEDGE_PRECO_MINIMO_INFERIOR], \r\n          ");
-            viewString.Append("  T.FLOAT_QTD_COMPRADA_PRECO_MINIMO AS [contrato.FLOAT_QTD_COMPRADA_PRECO_MINIMO");
-            viewString.Append("], \r\n            T.DECIMAL_SCS_VENDIDAS_FT AS [contrato.DECIMAL_SCS_VENDIDAS_FT]");
-            viewString.Append(", \r\n            T.TXT_REFERENCIA_DO_COMPRADOR AS [contrato.TXT_REFERENCIA_DO_COM");
-            viewString.Append("PRADOR], \r\n            T.DECIMAL_TOTAL_EM_DOLAR_DO_CONTRATO AS [contrato.DECIMAL");
-            viewString.Append("_TOTAL_EM_DOLAR_DO_CONTRATO], \r\n            T.INT_ID_ALMOXARIFADO AS [contrato.I");
-            viewString.Append("NT_ID_ALMOXARIFADO], \r\n            T.INT_ID_TRANSPORTADORA AS [contrato.INT_ID_T");
-            viewString.Append("RANSPORTADORA], \r\n            T.TXT_OBS_LOGISTICA AS [contrato.TXT_OBS_LOGISTICA");
-            viewString.Append("], \r\n            T.TXT_OBS_CLASSIFICACAO AS [contrato.TXT_OBS_CLASSIFICACAO], \r\n");
-            viewString.Append("            T.INT_ID_PENEIRA AS [contrato.INT_ID_PENEIRA], \r\n            T.INT_I");
-            viewString.Append("D_SACARIA AS [contrato.INT_ID_SACARIA], \r\n            T.INT_ID_TIPO AS [contrato");
-            viewString.Append(".INT_ID_TIPO], \r\n            T.INT_ID_MODALIDADE_DE_ENTREGA AS [contrato.INT_ID_");
-            viewString.Append("MODALIDADE_DE_ENTREGA], \r\n            T.DATE_AGENDADO_EMBARQUE AS [contrato.DATE");
-            viewString.Append("_AGENDADO_EMBARQUE], \r\n            T.DATE_DE_FECHAMENTO_DO_CONTRATO AS [contrato");
-            viewString.Append(".DATE_DE_FECHAMENTO_DO_CONTRATO], \r\n            T.INT_ID_FORMA_PAGAMENTO AS [con");
-            viewString.Append("trato.INT_ID_FORMA_PAGAMENTO], \r\n            T.DATE_LIMITE_EMBARQUE AS [contrato");
-            viewString.Append(".DATE_LIMITE_EMBARQUE], \r\n            T.DATE_VENCIMENTO_PARA_HEDGE AS [contrato.");
-            viewString.Append("DATE_VENCIMENTO_PARA_HEDGE], \r\n            T.TXT_DESTINO AS [contrato.TXT_DESTIN");
-            viewString.Append("O], \r\n            T.TXT_DESCRICAO_QUALIDADE AS [contrato.TXT_DESCRICAO_QUALIDADE");
-            viewString.Append("], \r\n            T.TXT_DESCRICAO_PRECO AS [contrato.TXT_DESCRICAO_PRECO], \r\n    ");
-            viewString.Append("        T.BOOL_SEGURO AS [contrato.BOOL_SEGURO], \r\n            T.TXT_OBS_INGLES ");
-            viewString.Append("AS [contrato.TXT_OBS_INGLES], \r\n            T.INT_ID_PRE_FINANCIAMENTO AS [contr");
-            viewString.Append("ato.INT_ID_PRE_FINANCIAMENTO], \r\n            T.INT_ID_GESTAO_RISCO AS [contrato.");
-            viewString.Append("INT_ID_GESTAO_RISCO], \r\n            T.INT_ID_ARBITRAGEM AS [contrato.INT_ID_ARBI");
-            viewString.Append("TRAGEM], \r\n            T.INT_ID_TIPO_DE_TERMO_CONDICAO AS [contrato.INT_ID_TIPO_");
-            viewString.Append("DE_TERMO_CONDICAO], \r\n            T.INT_ID_PAPEL_DAS_PARTES AS [contrato.INT_ID_");
-            viewString.Append("PAPEL_DAS_PARTES], \r\n            T.INT_ID_LOCAL_DE_EMBARQUE AS [contrato.INT_ID_");
-            viewString.Append("LOCAL_DE_EMBARQUE], \r\n            True AS _from0\r\n        FROM db_coopfamEntitie");
-            viewString.Append("s.contrato AS T\r\n    ) AS T1");
+            viewString.Append("ARQUE], T1.[contrato.BOOL_FT_USA], T1.[contrato.BOOL_RFA])\r\n    FROM (\r\n        ");
+            viewString.Append("SELECT \r\n            T.INT_ID AS [contrato.INT_ID], \r\n            T.INT_ID_CLIEN");
+            viewString.Append("TE AS [contrato.INT_ID_CLIENTE], \r\n            T.TXT_CONTRATO AS [contrato.TXT_C");
+            viewString.Append("ONTRATO], \r\n            T.TXT_SAFRA AS [contrato.TXT_SAFRA], \r\n            T.INT");
+            viewString.Append("_ID_BEBIDA AS [contrato.INT_ID_BEBIDA], \r\n            T.FLOAT_PONTUACAO AS [cont");
+            viewString.Append("rato.FLOAT_PONTUACAO], \r\n            T.TXT_TIPO AS [contrato.TXT_TIPO], \r\n      ");
+            viewString.Append("      T.DATE_ENTREGA AS [contrato.DATE_ENTREGA], \r\n            T.INT_DEFEITOS AS");
+            viewString.Append(" [contrato.INT_DEFEITOS], \r\n            T.INT_ID_SITUACAONORMA AS [contrato.INT_");
+            viewString.Append("ID_SITUACAONORMA], \r\n            T.TXT_OBS AS [contrato.TXT_OBS], \r\n            ");
+            viewString.Append("T.TXT_OIC AS [contrato.TXT_OIC], \r\n            T.TXT_TIPO_SACARIA AS [contrato.T");
+            viewString.Append("XT_TIPO_SACARIA], \r\n            T.TXT_PENEIRA AS [contrato.TXT_PENEIRA], \r\n     ");
+            viewString.Append("       T.TXT_INVOICE AS [contrato.TXT_INVOICE], \r\n            T.INT_QTD_SACAS AS");
+            viewString.Append(" [contrato.INT_QTD_SACAS], \r\n            T.FLOAT_PESO_LIQUIDO AS [contrato.FLOAT");
+            viewString.Append("_PESO_LIQUIDO], \r\n            T.FLOAT_DIFERENCIAL AS [contrato.FLOAT_DIFERENCIAL");
+            viewString.Append("], \r\n            T.DATE_LANCAMENTO AS [contrato.DATE_LANCAMENTO], \r\n            ");
+            viewString.Append("T.INT_NF AS [contrato.INT_NF], \r\n            T.DATE_FECHAMENTO AS [contrato.DATE");
+            viewString.Append("_FECHAMENTO], \r\n            T.BOOL_AFIXAR AS [contrato.BOOL_AFIXAR], \r\n         ");
+            viewString.Append("   T.FLOAT_PRECO AS [contrato.FLOAT_PRECO], \r\n            T.INT_SUBTIPO_NORMA AS");
+            viewString.Append(" [contrato.INT_SUBTIPO_NORMA], \r\n            T.BOOL_TIPO_CAFE AS [contrato.BOOL_");
+            viewString.Append("TIPO_CAFE], \r\n            T.DATE_DATA_MAXIMA_ENTREGA_DA_AMOSTRA AS [contrato.DAT");
+            viewString.Append("E_DATA_MAXIMA_ENTREGA_DA_AMOSTRA], \r\n            T.FLOAT_DOLAR AS [contrato.FLOA");
+            viewString.Append("T_DOLAR], \r\n            T.FLOAT_NY AS [contrato.FLOAT_NY], \r\n            T.DATE_");
+            viewString.Append("ENTREGA_AMOSTRA AS [contrato.DATE_ENTREGA_AMOSTRA], \r\n            T.BOOL_A_FIXAR");
+            viewString.Append("_DOLAR AS [contrato.BOOL_A_FIXAR_DOLAR], \r\n            T.BOOL_FT_NFT AS [contrat");
+            viewString.Append("o.BOOL_FT_NFT], \r\n            T.TXT_COM_HEDGE_PRECO_MINIMO_INFERIOR AS [contrato");
+            viewString.Append(".TXT_COM_HEDGE_PRECO_MINIMO_INFERIOR], \r\n            T.FLOAT_QTD_COMPRADA_PRECO_");
+            viewString.Append("MINIMO AS [contrato.FLOAT_QTD_COMPRADA_PRECO_MINIMO], \r\n            T.DECIMAL_SC");
+            viewString.Append("S_VENDIDAS_FT AS [contrato.DECIMAL_SCS_VENDIDAS_FT], \r\n            T.TXT_REFEREN");
+            viewString.Append("CIA_DO_COMPRADOR AS [contrato.TXT_REFERENCIA_DO_COMPRADOR], \r\n            T.DECI");
+            viewString.Append("MAL_TOTAL_EM_DOLAR_DO_CONTRATO AS [contrato.DECIMAL_TOTAL_EM_DOLAR_DO_CONTRATO],");
+            viewString.Append(" \r\n            T.INT_ID_ALMOXARIFADO AS [contrato.INT_ID_ALMOXARIFADO], \r\n      ");
+            viewString.Append("      T.INT_ID_TRANSPORTADORA AS [contrato.INT_ID_TRANSPORTADORA], \r\n           ");
+            viewString.Append(" T.TXT_OBS_LOGISTICA AS [contrato.TXT_OBS_LOGISTICA], \r\n            T.TXT_OBS_CL");
+            viewString.Append("ASSIFICACAO AS [contrato.TXT_OBS_CLASSIFICACAO], \r\n            T.INT_ID_PENEIRA ");
+            viewString.Append("AS [contrato.INT_ID_PENEIRA], \r\n            T.INT_ID_SACARIA AS [contrato.INT_ID");
+            viewString.Append("_SACARIA], \r\n            T.INT_ID_TIPO AS [contrato.INT_ID_TIPO], \r\n            ");
+            viewString.Append("T.INT_ID_MODALIDADE_DE_ENTREGA AS [contrato.INT_ID_MODALIDADE_DE_ENTREGA], \r\n   ");
+            viewString.Append("         T.DATE_AGENDADO_EMBARQUE AS [contrato.DATE_AGENDADO_EMBARQUE], \r\n      ");
+            viewString.Append("      T.DATE_DE_FECHAMENTO_DO_CONTRATO AS [contrato.DATE_DE_FECHAMENTO_DO_CONTRA");
+            viewString.Append("TO], \r\n            T.INT_ID_FORMA_PAGAMENTO AS [contrato.INT_ID_FORMA_PAGAMENTO]");
+            viewString.Append(", \r\n            T.DATE_LIMITE_EMBARQUE AS [contrato.DATE_LIMITE_EMBARQUE], \r\n   ");
+            viewString.Append("         T.DATE_VENCIMENTO_PARA_HEDGE AS [contrato.DATE_VENCIMENTO_PARA_HEDGE], ");
+            viewString.Append("\r\n            T.TXT_DESTINO AS [contrato.TXT_DESTINO], \r\n            T.TXT_DESCR");
+            viewString.Append("ICAO_QUALIDADE AS [contrato.TXT_DESCRICAO_QUALIDADE], \r\n            T.TXT_DESCRI");
+            viewString.Append("CAO_PRECO AS [contrato.TXT_DESCRICAO_PRECO], \r\n            T.BOOL_SEGURO AS [con");
+            viewString.Append("trato.BOOL_SEGURO], \r\n            T.TXT_OBS_INGLES AS [contrato.TXT_OBS_INGLES],");
+            viewString.Append(" \r\n            T.INT_ID_PRE_FINANCIAMENTO AS [contrato.INT_ID_PRE_FINANCIAMENTO]");
+            viewString.Append(", \r\n            T.INT_ID_GESTAO_RISCO AS [contrato.INT_ID_GESTAO_RISCO], \r\n     ");
+            viewString.Append("       T.INT_ID_ARBITRAGEM AS [contrato.INT_ID_ARBITRAGEM], \r\n            T.INT_");
+            viewString.Append("ID_TIPO_DE_TERMO_CONDICAO AS [contrato.INT_ID_TIPO_DE_TERMO_CONDICAO], \r\n       ");
+            viewString.Append("     T.INT_ID_PAPEL_DAS_PARTES AS [contrato.INT_ID_PAPEL_DAS_PARTES], \r\n        ");
+            viewString.Append("    T.INT_ID_LOCAL_DE_EMBARQUE AS [contrato.INT_ID_LOCAL_DE_EMBARQUE], \r\n       ");
+            viewString.Append("     T.BOOL_FT_USA AS [contrato.BOOL_FT_USA], \r\n            T.BOOL_RFA AS [contr");
+            viewString.Append("ato.BOOL_RFA], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.con");
+            viewString.Append("trato AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.contrato", viewString.ToString());
         }
         
@@ -3983,7 +4171,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView58()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(7087);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(7654);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cooperado\r\n        [db_coopfamModel.Store.coo");
             viewString.Append("perado](T1.[cooperado.INT_ID], T1.[cooperado.INT_ADESAO], T1.[cooperado.TXT_NOME");
             viewString.Append("], T1.[cooperado.TXT_RG], T1.[cooperado.TXT_CPF_CNPJ], T1.[cooperado.TXT_TITULO_");
@@ -4013,66 +4201,73 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("operado.BOOL_SOCIO_FUNDADOR], T1.[cooperado.DATE_PRAZO_PERCA_BENEFICIOS], T1.[co");
             viewString.Append("operado.DATE_LANCAMENTO_DE_SUSPENSAO_BENEFICIOS], T1.[cooperado.INT_ID_QUEM_LANC");
             viewString.Append("OU_SUSPENSAO_BENEFICIOS], T1.[cooperado.TXT_FLO_ID], T1.[cooperado.DECIMAL_COTA]");
-            viewString.Append(", T1.[cooperado.BOOL_PERU], T1.[cooperado.BOOL_OLEIRICULTOR])\r\n    FROM (\r\n     ");
-            viewString.Append("   SELECT \r\n            T.INT_ID AS [cooperado.INT_ID], \r\n            T.INT_ADES");
-            viewString.Append("AO AS [cooperado.INT_ADESAO], \r\n            T.TXT_NOME AS [cooperado.TXT_NOME], ");
-            viewString.Append("\r\n            T.TXT_RG AS [cooperado.TXT_RG], \r\n            T.TXT_CPF_CNPJ AS [c");
-            viewString.Append("ooperado.TXT_CPF_CNPJ], \r\n            T.TXT_TITULO_ELEITOR AS [cooperado.TXT_TIT");
-            viewString.Append("ULO_ELEITOR], \r\n            T.DATE_NASCIMENTO AS [cooperado.DATE_NASCIMENTO], \r\n");
-            viewString.Append("            T.TXT_FILIACAO_PATERNA AS [cooperado.TXT_FILIACAO_PATERNA], \r\n      ");
-            viewString.Append("      T.TXT_FILIACAO_MATERNA AS [cooperado.TXT_FILIACAO_MATERNA], \r\n            ");
-            viewString.Append("T.CHAR_ESTADO_CIVIL AS [cooperado.CHAR_ESTADO_CIVIL], \r\n            T.TXT_NATURA");
-            viewString.Append("LIDADE AS [cooperado.TXT_NATURALIDADE], \r\n            T.TXT_NACIONALIDADE AS [co");
-            viewString.Append("operado.TXT_NACIONALIDADE], \r\n            T.TXT_PROFISSAO AS [cooperado.TXT_PROF");
-            viewString.Append("ISSAO], \r\n            T.BOOL_PESSOA_JUR_FIS AS [cooperado.BOOL_PESSOA_JUR_FIS], ");
-            viewString.Append("\r\n            T.TXT_IM AS [cooperado.TXT_IM], \r\n            T.TXT_IE AS [coopera");
-            viewString.Append("do.TXT_IE], \r\n            T.TXT_NOME_FANTASIA AS [cooperado.TXT_NOME_FANTASIA], ");
-            viewString.Append("\r\n            T.INT_ID_GRUPO_REUNIAO AS [cooperado.INT_ID_GRUPO_REUNIAO], \r\n    ");
-            viewString.Append("        T.TXT_REPRESENTANTE_LEGAL AS [cooperado.TXT_REPRESENTANTE_LEGAL], \r\n    ");
-            viewString.Append("        T.CHAR_STATUS AS [cooperado.CHAR_STATUS], \r\n            T.CHAR_SEXO AS [");
-            viewString.Append("cooperado.CHAR_SEXO], \r\n            T.DATE_POSSE AS [cooperado.DATE_POSSE], \r\n  ");
-            viewString.Append("          T.DATE_INDICACAO AS [cooperado.DATE_INDICACAO], \r\n            T.DATE_A");
-            viewString.Append("PROVACAO AS [cooperado.DATE_APROVACAO], \r\n            T.TXT_FOTO AS [cooperado.T");
-            viewString.Append("XT_FOTO], \r\n            T.BOOL_POSSUI_DAP AS [cooperado.BOOL_POSSUI_DAP], \r\n    ");
-            viewString.Append("        T.TXT_CPF_CONJUGE AS [cooperado.TXT_CPF_CONJUGE], \r\n            T.TXT_RG");
-            viewString.Append("_CONJUGE AS [cooperado.TXT_RG_CONJUGE], \r\n            T.TXT_TITULO_ELEITOR_CONJU");
-            viewString.Append("GE AS [cooperado.TXT_TITULO_ELEITOR_CONJUGE], \r\n            T.TXT_NOME_CONJUGE A");
-            viewString.Append("S [cooperado.TXT_NOME_CONJUGE], \r\n            T.DATE_NASC_CONJUGE AS [cooperado.");
-            viewString.Append("DATE_NASC_CONJUGE], \r\n            T.BOOL_POSSUI_SOCIO AS [cooperado.BOOL_POSSUI_");
-            viewString.Append("SOCIO], \r\n            T.TXT_OBS_SOCIO AS [cooperado.TXT_OBS_SOCIO], \r\n          ");
-            viewString.Append("  T.BOOL_POSSUI_PARCEIRO AS [cooperado.BOOL_POSSUI_PARCEIRO], \r\n            T.TX");
-            viewString.Append("T_OBS_PARCEIRO AS [cooperado.TXT_OBS_PARCEIRO], \r\n            T.BOOL_CONTRATO_TE");
-            viewString.Append("MP AS [cooperado.BOOL_CONTRATO_TEMP], \r\n            T.BOOL_CONTRATO_FIXO AS [coo");
-            viewString.Append("perado.BOOL_CONTRATO_FIXO], \r\n            T.BOOL_TIPO_CULTIVO AS [cooperado.BOOL");
-            viewString.Append("_TIPO_CULTIVO], \r\n            T.INT_QTD_CONT_FIXO AS [cooperado.INT_QTD_CONT_FIX");
-            viewString.Append("O], \r\n            T.INT_QTD_CONT_TEMP AS [cooperado.INT_QTD_CONT_TEMP], \r\n      ");
-            viewString.Append("      T.BOOL_COOP_NAO_COOP AS [cooperado.BOOL_COOP_NAO_COOP], \r\n            T.BO");
-            viewString.Append("OL_RECADASTRO AS [cooperado.BOOL_RECADASTRO], \r\n            T.TXT_DESCRICAO_DOC_");
-            viewString.Append("PENDENTE AS [cooperado.TXT_DESCRICAO_DOC_PENDENTE], \r\n            T.BOOL_POSSUI_");
-            viewString.Append("CONJUGE AS [cooperado.BOOL_POSSUI_CONJUGE], \r\n            T.DATE_INIT_COMERCIALI");
-            viewString.Append("ZAR AS [cooperado.DATE_INIT_COMERCIALIZAR], \r\n            T.BOOL_FILHO_MENOR_18 ");
-            viewString.Append("AS [cooperado.BOOL_FILHO_MENOR_18], \r\n            T.BOOL_FILHO_ESTUDA AS [cooper");
-            viewString.Append("ado.BOOL_FILHO_ESTUDA], \r\n            T.DECIMAL_QTD_FILHOS AS [cooperado.DECIMAL");
-            viewString.Append("_QTD_FILHOS], \r\n            T.INT_ID_CONJUGE AS [cooperado.INT_ID_CONJUGE], \r\n  ");
-            viewString.Append("          T.DATE_FILIACAO AS [cooperado.DATE_FILIACAO], \r\n            T.BOOL_FAM");
-            viewString.Append("ILIAR AS [cooperado.BOOL_FAMILIAR], \r\n            T.INT_ID_CONTA_CONTABIL AS [co");
-            viewString.Append("operado.INT_ID_CONTA_CONTABIL], \r\n            T.TXT_RUA AS [cooperado.TXT_RUA], ");
-            viewString.Append("\r\n            T.TXT_NR AS [cooperado.TXT_NR], \r\n            T.TXT_BAIRRO AS [coo");
-            viewString.Append("perado.TXT_BAIRRO], \r\n            T.TXT_CEP AS [cooperado.TXT_CEP], \r\n          ");
-            viewString.Append("  T.TXT_COMPLEMENTO AS [cooperado.TXT_COMPLEMENTO], \r\n            T.TXT_CIDADE A");
-            viewString.Append("S [cooperado.TXT_CIDADE], \r\n            T.TXT_UF AS [cooperado.TXT_UF], \r\n      ");
-            viewString.Append("      T.INT_ID_CEP_ENDERECO AS [cooperado.INT_ID_CEP_ENDERECO], \r\n            T.");
-            viewString.Append("BOOL_CAFE_FEMININO AS [cooperado.BOOL_CAFE_FEMININO], \r\n            T.BOOL_LISTA");
-            viewString.Append("_TRABALHO_ESCRAVO AS [cooperado.BOOL_LISTA_TRABALHO_ESCRAVO], \r\n            T.BO");
-            viewString.Append("OL_SOCIO_FUNDADOR AS [cooperado.BOOL_SOCIO_FUNDADOR], \r\n            T.DATE_PRAZO");
-            viewString.Append("_PERCA_BENEFICIOS AS [cooperado.DATE_PRAZO_PERCA_BENEFICIOS], \r\n            T.DA");
-            viewString.Append("TE_LANCAMENTO_DE_SUSPENSAO_BENEFICIOS AS [cooperado.DATE_LANCAMENTO_DE_SUSPENSAO");
-            viewString.Append("_BENEFICIOS], \r\n            T.INT_ID_QUEM_LANCOU_SUSPENSAO_BENEFICIOS AS [cooper");
-            viewString.Append("ado.INT_ID_QUEM_LANCOU_SUSPENSAO_BENEFICIOS], \r\n            T.TXT_FLO_ID AS [coo");
-            viewString.Append("perado.TXT_FLO_ID], \r\n            T.DECIMAL_COTA AS [cooperado.DECIMAL_COTA], \r\n");
-            viewString.Append("            T.BOOL_PERU AS [cooperado.BOOL_PERU], \r\n            T.BOOL_OLEIRICUL");
-            viewString.Append("TOR AS [cooperado.BOOL_OLEIRICULTOR], \r\n            True AS _from0\r\n        FROM");
-            viewString.Append(" db_coopfamEntities.cooperado AS T\r\n    ) AS T1");
+            viewString.Append(", T1.[cooperado.BOOL_PERU], T1.[cooperado.BOOL_OLEIRICULTOR], T1.[cooperado.TXT_");
+            viewString.Append("RFA_ID], T1.[cooperado.TXT_OBS_FILHO_MENOR_18], T1.[cooperado.INT_ID_CADASTROU],");
+            viewString.Append(" T1.[cooperado.INT_ID_ALTEROU], T1.[cooperado.DATE_CADASTRO], T1.[cooperado.DATE");
+            viewString.Append("_ALTEROU])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cooperado.INT_");
+            viewString.Append("ID], \r\n            T.INT_ADESAO AS [cooperado.INT_ADESAO], \r\n            T.TXT_N");
+            viewString.Append("OME AS [cooperado.TXT_NOME], \r\n            T.TXT_RG AS [cooperado.TXT_RG], \r\n   ");
+            viewString.Append("         T.TXT_CPF_CNPJ AS [cooperado.TXT_CPF_CNPJ], \r\n            T.TXT_TITULO_");
+            viewString.Append("ELEITOR AS [cooperado.TXT_TITULO_ELEITOR], \r\n            T.DATE_NASCIMENTO AS [c");
+            viewString.Append("ooperado.DATE_NASCIMENTO], \r\n            T.TXT_FILIACAO_PATERNA AS [cooperado.TX");
+            viewString.Append("T_FILIACAO_PATERNA], \r\n            T.TXT_FILIACAO_MATERNA AS [cooperado.TXT_FILI");
+            viewString.Append("ACAO_MATERNA], \r\n            T.CHAR_ESTADO_CIVIL AS [cooperado.CHAR_ESTADO_CIVIL");
+            viewString.Append("], \r\n            T.TXT_NATURALIDADE AS [cooperado.TXT_NATURALIDADE], \r\n         ");
+            viewString.Append("   T.TXT_NACIONALIDADE AS [cooperado.TXT_NACIONALIDADE], \r\n            T.TXT_PRO");
+            viewString.Append("FISSAO AS [cooperado.TXT_PROFISSAO], \r\n            T.BOOL_PESSOA_JUR_FIS AS [coo");
+            viewString.Append("perado.BOOL_PESSOA_JUR_FIS], \r\n            T.TXT_IM AS [cooperado.TXT_IM], \r\n   ");
+            viewString.Append("         T.TXT_IE AS [cooperado.TXT_IE], \r\n            T.TXT_NOME_FANTASIA AS [c");
+            viewString.Append("ooperado.TXT_NOME_FANTASIA], \r\n            T.INT_ID_GRUPO_REUNIAO AS [cooperado.");
+            viewString.Append("INT_ID_GRUPO_REUNIAO], \r\n            T.TXT_REPRESENTANTE_LEGAL AS [cooperado.TXT");
+            viewString.Append("_REPRESENTANTE_LEGAL], \r\n            T.CHAR_STATUS AS [cooperado.CHAR_STATUS], \r");
+            viewString.Append("\n            T.CHAR_SEXO AS [cooperado.CHAR_SEXO], \r\n            T.DATE_POSSE AS");
+            viewString.Append(" [cooperado.DATE_POSSE], \r\n            T.DATE_INDICACAO AS [cooperado.DATE_INDIC");
+            viewString.Append("ACAO], \r\n            T.DATE_APROVACAO AS [cooperado.DATE_APROVACAO], \r\n         ");
+            viewString.Append("   T.TXT_FOTO AS [cooperado.TXT_FOTO], \r\n            T.BOOL_POSSUI_DAP AS [coope");
+            viewString.Append("rado.BOOL_POSSUI_DAP], \r\n            T.TXT_CPF_CONJUGE AS [cooperado.TXT_CPF_CON");
+            viewString.Append("JUGE], \r\n            T.TXT_RG_CONJUGE AS [cooperado.TXT_RG_CONJUGE], \r\n         ");
+            viewString.Append("   T.TXT_TITULO_ELEITOR_CONJUGE AS [cooperado.TXT_TITULO_ELEITOR_CONJUGE], \r\n   ");
+            viewString.Append("         T.TXT_NOME_CONJUGE AS [cooperado.TXT_NOME_CONJUGE], \r\n            T.DAT");
+            viewString.Append("E_NASC_CONJUGE AS [cooperado.DATE_NASC_CONJUGE], \r\n            T.BOOL_POSSUI_SOC");
+            viewString.Append("IO AS [cooperado.BOOL_POSSUI_SOCIO], \r\n            T.TXT_OBS_SOCIO AS [cooperado");
+            viewString.Append(".TXT_OBS_SOCIO], \r\n            T.BOOL_POSSUI_PARCEIRO AS [cooperado.BOOL_POSSUI_");
+            viewString.Append("PARCEIRO], \r\n            T.TXT_OBS_PARCEIRO AS [cooperado.TXT_OBS_PARCEIRO], \r\n ");
+            viewString.Append("           T.BOOL_CONTRATO_TEMP AS [cooperado.BOOL_CONTRATO_TEMP], \r\n           ");
+            viewString.Append(" T.BOOL_CONTRATO_FIXO AS [cooperado.BOOL_CONTRATO_FIXO], \r\n            T.BOOL_TI");
+            viewString.Append("PO_CULTIVO AS [cooperado.BOOL_TIPO_CULTIVO], \r\n            T.INT_QTD_CONT_FIXO A");
+            viewString.Append("S [cooperado.INT_QTD_CONT_FIXO], \r\n            T.INT_QTD_CONT_TEMP AS [cooperado");
+            viewString.Append(".INT_QTD_CONT_TEMP], \r\n            T.BOOL_COOP_NAO_COOP AS [cooperado.BOOL_COOP_");
+            viewString.Append("NAO_COOP], \r\n            T.BOOL_RECADASTRO AS [cooperado.BOOL_RECADASTRO], \r\n   ");
+            viewString.Append("         T.TXT_DESCRICAO_DOC_PENDENTE AS [cooperado.TXT_DESCRICAO_DOC_PENDENTE],");
+            viewString.Append(" \r\n            T.BOOL_POSSUI_CONJUGE AS [cooperado.BOOL_POSSUI_CONJUGE], \r\n     ");
+            viewString.Append("       T.DATE_INIT_COMERCIALIZAR AS [cooperado.DATE_INIT_COMERCIALIZAR], \r\n     ");
+            viewString.Append("       T.BOOL_FILHO_MENOR_18 AS [cooperado.BOOL_FILHO_MENOR_18], \r\n            T");
+            viewString.Append(".BOOL_FILHO_ESTUDA AS [cooperado.BOOL_FILHO_ESTUDA], \r\n            T.DECIMAL_QTD");
+            viewString.Append("_FILHOS AS [cooperado.DECIMAL_QTD_FILHOS], \r\n            T.INT_ID_CONJUGE AS [co");
+            viewString.Append("operado.INT_ID_CONJUGE], \r\n            T.DATE_FILIACAO AS [cooperado.DATE_FILIAC");
+            viewString.Append("AO], \r\n            T.BOOL_FAMILIAR AS [cooperado.BOOL_FAMILIAR], \r\n            T");
+            viewString.Append(".INT_ID_CONTA_CONTABIL AS [cooperado.INT_ID_CONTA_CONTABIL], \r\n            T.TXT");
+            viewString.Append("_RUA AS [cooperado.TXT_RUA], \r\n            T.TXT_NR AS [cooperado.TXT_NR], \r\n   ");
+            viewString.Append("         T.TXT_BAIRRO AS [cooperado.TXT_BAIRRO], \r\n            T.TXT_CEP AS [coo");
+            viewString.Append("perado.TXT_CEP], \r\n            T.TXT_COMPLEMENTO AS [cooperado.TXT_COMPLEMENTO],");
+            viewString.Append(" \r\n            T.TXT_CIDADE AS [cooperado.TXT_CIDADE], \r\n            T.TXT_UF AS");
+            viewString.Append(" [cooperado.TXT_UF], \r\n            T.INT_ID_CEP_ENDERECO AS [cooperado.INT_ID_CE");
+            viewString.Append("P_ENDERECO], \r\n            T.BOOL_CAFE_FEMININO AS [cooperado.BOOL_CAFE_FEMININO");
+            viewString.Append("], \r\n            T.BOOL_LISTA_TRABALHO_ESCRAVO AS [cooperado.BOOL_LISTA_TRABALHO");
+            viewString.Append("_ESCRAVO], \r\n            T.BOOL_SOCIO_FUNDADOR AS [cooperado.BOOL_SOCIO_FUNDADOR");
+            viewString.Append("], \r\n            T.DATE_PRAZO_PERCA_BENEFICIOS AS [cooperado.DATE_PRAZO_PERCA_BE");
+            viewString.Append("NEFICIOS], \r\n            T.DATE_LANCAMENTO_DE_SUSPENSAO_BENEFICIOS AS [cooperado");
+            viewString.Append(".DATE_LANCAMENTO_DE_SUSPENSAO_BENEFICIOS], \r\n            T.INT_ID_QUEM_LANCOU_SU");
+            viewString.Append("SPENSAO_BENEFICIOS AS [cooperado.INT_ID_QUEM_LANCOU_SUSPENSAO_BENEFICIOS], \r\n   ");
+            viewString.Append("         T.TXT_FLO_ID AS [cooperado.TXT_FLO_ID], \r\n            T.DECIMAL_COTA AS");
+            viewString.Append(" [cooperado.DECIMAL_COTA], \r\n            T.BOOL_PERU AS [cooperado.BOOL_PERU], \r");
+            viewString.Append("\n            T.BOOL_OLEIRICULTOR AS [cooperado.BOOL_OLEIRICULTOR], \r\n           ");
+            viewString.Append(" T.TXT_RFA_ID AS [cooperado.TXT_RFA_ID], \r\n            T.TXT_OBS_FILHO_MENOR_18 ");
+            viewString.Append("AS [cooperado.TXT_OBS_FILHO_MENOR_18], \r\n            T.INT_ID_CADASTROU AS [coop");
+            viewString.Append("erado.INT_ID_CADASTROU], \r\n            T.INT_ID_ALTEROU AS [cooperado.INT_ID_ALT");
+            viewString.Append("EROU], \r\n            T.DATE_CADASTRO AS [cooperado.DATE_CADASTRO], \r\n           ");
+            viewString.Append(" T.DATE_ALTEROU AS [cooperado.DATE_ALTEROU], \r\n            True AS _from0\r\n     ");
+            viewString.Append("   FROM db_coopfamEntities.cooperado AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.cooperado", viewString.ToString());
         }
         
@@ -4101,7 +4296,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView60()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4345);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4524);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cooperado_que_fazem_parte_do_mercado_futuro\r\n");
             viewString.Append("        [db_coopfamModel.Store.cooperado_que_fazem_parte_do_mercado_futuro](T1.[");
             viewString.Append("cooperado_que_fazem_parte_do_mercado_futuro.INT_ID], T1.[cooperado_que_fazem_par");
@@ -4124,39 +4319,41 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(".[cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_ALTEROU], T1.[cooperado_que");
             viewString.Append("_fazem_parte_do_mercado_futuro.DATE_ALTEROU], T1.[cooperado_que_fazem_parte_do_m");
             viewString.Append("ercado_futuro.INT_ID_EXCLUIU], T1.[cooperado_que_fazem_parte_do_mercado_futuro.D");
-            viewString.Append("ATE_EXCLUIU])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cooperado_q");
-            viewString.Append("ue_fazem_parte_do_mercado_futuro.INT_ID], \r\n            T.INT_ID_COOPERADO AS [c");
-            viewString.Append("ooperado_que_fazem_parte_do_mercado_futuro.INT_ID_COOPERADO], \r\n            T.FL");
-            viewString.Append("OAT_CATACAO AS [cooperado_que_fazem_parte_do_mercado_futuro.FLOAT_CATACAO], \r\n  ");
-            viewString.Append("          T.FLOAT_QTD_SACAS_BICA AS [cooperado_que_fazem_parte_do_mercado_futuro");
-            viewString.Append(".FLOAT_QTD_SACAS_BICA], \r\n            T.FLOAT_QTD_SACAS_BOAS AS [cooperado_que_f");
-            viewString.Append("azem_parte_do_mercado_futuro.FLOAT_QTD_SACAS_BOAS], \r\n            T.INT_ID_FECHA");
-            viewString.Append("MENTO_MERCADO_FUTURO AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FECH");
-            viewString.Append("AMENTO_MERCADO_FUTURO], \r\n            T.TXT_OBS AS [cooperado_que_fazem_parte_do");
-            viewString.Append("_mercado_futuro.TXT_OBS], \r\n            T.FLOAT_VALOR_MINIMO AS [cooperado_que_f");
-            viewString.Append("azem_parte_do_mercado_futuro.FLOAT_VALOR_MINIMO], \r\n            T.DATE_LANCAMENT");
-            viewString.Append("O AS [cooperado_que_fazem_parte_do_mercado_futuro.DATE_LANCAMENTO], \r\n          ");
-            viewString.Append("  T.INT_ID_FUNC AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FUNC], \r\n");
-            viewString.Append("            T.BOOL_ORG_CONV AS [cooperado_que_fazem_parte_do_mercado_futuro.BOOL");
-            viewString.Append("_ORG_CONV], \r\n            T.DATE_MAXIMA_PARA_ENTREGA AS [cooperado_que_fazem_par");
-            viewString.Append("te_do_mercado_futuro.DATE_MAXIMA_PARA_ENTREGA], \r\n            T.BOOL_ATIVO AS [c");
-            viewString.Append("ooperado_que_fazem_parte_do_mercado_futuro.BOOL_ATIVO], \r\n            T.BOOL_EM_");
-            viewString.Append("TRANSICAO AS [cooperado_que_fazem_parte_do_mercado_futuro.BOOL_EM_TRANSICAO], \r\n");
-            viewString.Append("            T.DATE_PAGAMENTO AS [cooperado_que_fazem_parte_do_mercado_futuro.DAT");
-            viewString.Append("E_PAGAMENTO], \r\n            T.DECIMAL_PRECO_EM_REAIS AS [cooperado_que_fazem_par");
-            viewString.Append("te_do_mercado_futuro.DECIMAL_PRECO_EM_REAIS], \r\n            T.DECIMAL_PENEIRA141");
-            viewString.Append("5 AS [cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_PENEIRA1415], \r\n      ");
-            viewString.Append("      T.DECIMAL_PENEIRA16UP AS [cooperado_que_fazem_parte_do_mercado_futuro.DECI");
-            viewString.Append("MAL_PENEIRA16UP], \r\n            T.DATE_GEROU_CONTRATO AS [cooperado_que_fazem_pa");
-            viewString.Append("rte_do_mercado_futuro.DATE_GEROU_CONTRATO], \r\n            T.INT_ID_CONTA_PARA_PA");
-            viewString.Append("GAMENTO AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_CONTA_PARA_PAGAME");
-            viewString.Append("NTO], \r\n            T.INT_ID_ALTEROU AS [cooperado_que_fazem_parte_do_mercado_fu");
-            viewString.Append("turo.INT_ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [cooperado_que_fazem_parte");
-            viewString.Append("_do_mercado_futuro.DATE_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [cooperado_q");
-            viewString.Append("ue_fazem_parte_do_mercado_futuro.INT_ID_EXCLUIU], \r\n            T.DATE_EXCLUIU A");
-            viewString.Append("S [cooperado_que_fazem_parte_do_mercado_futuro.DATE_EXCLUIU], \r\n            True");
-            viewString.Append(" AS _from0\r\n        FROM db_coopfamEntities.cooperado_que_fazem_parte_do_mercado");
-            viewString.Append("_futuro AS T\r\n    ) AS T1");
+            viewString.Append("ATE_EXCLUIU], T1.[cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_SCS_WASH_O");
+            viewString.Append("UT])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cooperado_que_fazem_");
+            viewString.Append("parte_do_mercado_futuro.INT_ID], \r\n            T.INT_ID_COOPERADO AS [cooperado_");
+            viewString.Append("que_fazem_parte_do_mercado_futuro.INT_ID_COOPERADO], \r\n            T.FLOAT_CATAC");
+            viewString.Append("AO AS [cooperado_que_fazem_parte_do_mercado_futuro.FLOAT_CATACAO], \r\n           ");
+            viewString.Append(" T.FLOAT_QTD_SACAS_BICA AS [cooperado_que_fazem_parte_do_mercado_futuro.FLOAT_QT");
+            viewString.Append("D_SACAS_BICA], \r\n            T.FLOAT_QTD_SACAS_BOAS AS [cooperado_que_fazem_part");
+            viewString.Append("e_do_mercado_futuro.FLOAT_QTD_SACAS_BOAS], \r\n            T.INT_ID_FECHAMENTO_MER");
+            viewString.Append("CADO_FUTURO AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FECHAMENTO_ME");
+            viewString.Append("RCADO_FUTURO], \r\n            T.TXT_OBS AS [cooperado_que_fazem_parte_do_mercado_");
+            viewString.Append("futuro.TXT_OBS], \r\n            T.FLOAT_VALOR_MINIMO AS [cooperado_que_fazem_part");
+            viewString.Append("e_do_mercado_futuro.FLOAT_VALOR_MINIMO], \r\n            T.DATE_LANCAMENTO AS [coo");
+            viewString.Append("perado_que_fazem_parte_do_mercado_futuro.DATE_LANCAMENTO], \r\n            T.INT_I");
+            viewString.Append("D_FUNC AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FUNC], \r\n         ");
+            viewString.Append("   T.BOOL_ORG_CONV AS [cooperado_que_fazem_parte_do_mercado_futuro.BOOL_ORG_CONV");
+            viewString.Append("], \r\n            T.DATE_MAXIMA_PARA_ENTREGA AS [cooperado_que_fazem_parte_do_mer");
+            viewString.Append("cado_futuro.DATE_MAXIMA_PARA_ENTREGA], \r\n            T.BOOL_ATIVO AS [cooperado_");
+            viewString.Append("que_fazem_parte_do_mercado_futuro.BOOL_ATIVO], \r\n            T.BOOL_EM_TRANSICAO");
+            viewString.Append(" AS [cooperado_que_fazem_parte_do_mercado_futuro.BOOL_EM_TRANSICAO], \r\n         ");
+            viewString.Append("   T.DATE_PAGAMENTO AS [cooperado_que_fazem_parte_do_mercado_futuro.DATE_PAGAMEN");
+            viewString.Append("TO], \r\n            T.DECIMAL_PRECO_EM_REAIS AS [cooperado_que_fazem_parte_do_mer");
+            viewString.Append("cado_futuro.DECIMAL_PRECO_EM_REAIS], \r\n            T.DECIMAL_PENEIRA1415 AS [coo");
+            viewString.Append("perado_que_fazem_parte_do_mercado_futuro.DECIMAL_PENEIRA1415], \r\n            T.D");
+            viewString.Append("ECIMAL_PENEIRA16UP AS [cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_PENEI");
+            viewString.Append("RA16UP], \r\n            T.DATE_GEROU_CONTRATO AS [cooperado_que_fazem_parte_do_me");
+            viewString.Append("rcado_futuro.DATE_GEROU_CONTRATO], \r\n            T.INT_ID_CONTA_PARA_PAGAMENTO A");
+            viewString.Append("S [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_CONTA_PARA_PAGAMENTO], \r\n ");
+            viewString.Append("           T.INT_ID_ALTEROU AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_");
+            viewString.Append("ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [cooperado_que_fazem_parte_do_merca");
+            viewString.Append("do_futuro.DATE_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [cooperado_que_fazem_");
+            viewString.Append("parte_do_mercado_futuro.INT_ID_EXCLUIU], \r\n            T.DATE_EXCLUIU AS [cooper");
+            viewString.Append("ado_que_fazem_parte_do_mercado_futuro.DATE_EXCLUIU], \r\n            T.DECIMAL_SCS");
+            viewString.Append("_WASH_OUT AS [cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_SCS_WASH_OUT],");
+            viewString.Append(" \r\n            True AS _from0\r\n        FROM db_coopfamEntities.cooperado_que_faz");
+            viewString.Append("em_parte_do_mercado_futuro AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.cooperado_que_fazem_parte_do_mercado_futuro", viewString.ToString());
         }
         
@@ -4359,7 +4556,7 @@ namespace Edm_EntityMappingGeneratedViews
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.criterios", @"
     SELECT VALUE -- Constructing criterios
-        [db_coopfamModel.Store.criterios](T1.[criterios.INT_ID], T1.[criterios.TXT_DESCRICAO], T1.[criterios.TXT_NR_NORMA], T1.[criterios.BOOL_ATIVO], T1.[criterios.INT_ID_CERTIFICACAO], T1.[criterios.INT_ID_CADASTRO], T1.[criterios.DATE_CADASTRO], T1.[criterios.INT_ID_ALTERACAO], T1.[criterios.DATE_ALTERACAO], T1.[criterios.INT_ID_EXCLUSAO], T1.[criterios.DATE_EXCLUSAO])
+        [db_coopfamModel.Store.criterios](T1.[criterios.INT_ID], T1.[criterios.TXT_DESCRICAO], T1.[criterios.TXT_NR_NORMA], T1.[criterios.BOOL_ATIVO], T1.[criterios.INT_ID_CERTIFICACAO], T1.[criterios.INT_ID_CADASTRO], T1.[criterios.DATE_CADASTRO], T1.[criterios.INT_ID_ALTERACAO], T1.[criterios.DATE_ALTERACAO], T1.[criterios.INT_ID_EXCLUSAO], T1.[criterios.DATE_EXCLUSAO], T1.[criterios.TXT_NORMA_COMPLETA])
     FROM (
         SELECT 
             T.INT_ID AS [criterios.INT_ID], 
@@ -4373,6 +4570,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.DATE_ALTERACAO AS [criterios.DATE_ALTERACAO], 
             T.INT_ID_EXCLUSAO AS [criterios.INT_ID_EXCLUSAO], 
             T.DATE_EXCLUSAO AS [criterios.DATE_EXCLUSAO], 
+            T.TXT_NORMA_COMPLETA AS [criterios.TXT_NORMA_COMPLETA], 
             True AS _from0
         FROM db_coopfamEntities.criterios AS T
     ) AS T1");
@@ -4789,7 +4987,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView85()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2339);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2710);
             viewString.Append("\r\n    SELECT VALUE -- Constructing empresa\r\n        [db_coopfamModel.Store.empre");
             viewString.Append("sa](T1.[empresa.INT_ID_EMPRESA], T1.[empresa.TXT_NOME_FANTASIA], T1.[empresa.TXT");
             viewString.Append("_RAZAO_SOCIAL], T1.[empresa.TXT_IE], T1.[empresa.TXT_IM], T1.[empresa.TXT_RUA], ");
@@ -4799,27 +4997,31 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("presa.INT_CRT], T1.[empresa.INT_COD_UF], T1.[empresa.TXT_CEP], T1.[empresa.TXT_T");
             viewString.Append("OKEN_IBPT], T1.[empresa.TXT_TOKEN_NFEMAIL], T1.[empresa.DECIMAL_VALOR_DO_PREMIO_");
             viewString.Append("FAIR_TRADE], T1.[empresa.BOOL_CAFE], T1.[empresa.BOOL_HOSPITAL], T1.[empresa.BOO");
-            viewString.Append("L_LOJA], T1.[empresa.TXT_FLO_ID], T1.[empresa.BOOL_MATRIZ])\r\n    FROM (\r\n       ");
-            viewString.Append(" SELECT \r\n            T.INT_ID_EMPRESA AS [empresa.INT_ID_EMPRESA], \r\n          ");
-            viewString.Append("  T.TXT_NOME_FANTASIA AS [empresa.TXT_NOME_FANTASIA], \r\n            T.TXT_RAZAO_");
-            viewString.Append("SOCIAL AS [empresa.TXT_RAZAO_SOCIAL], \r\n            T.TXT_IE AS [empresa.TXT_IE]");
-            viewString.Append(", \r\n            T.TXT_IM AS [empresa.TXT_IM], \r\n            T.TXT_RUA AS [empres");
-            viewString.Append("a.TXT_RUA], \r\n            T.TXT_NR AS [empresa.TXT_NR], \r\n            T.TXT_BAIR");
-            viewString.Append("RO AS [empresa.TXT_BAIRRO], \r\n            T.TXT_MUNICIPIO AS [empresa.TXT_MUNICI");
-            viewString.Append("PIO], \r\n            T.TXT_UF AS [empresa.TXT_UF], \r\n            T.INT_COD_PAIS_I");
-            viewString.Append("BGE AS [empresa.INT_COD_PAIS_IBGE], \r\n            T.INT_COD_CIDADE_IBGE AS [empr");
-            viewString.Append("esa.INT_COD_CIDADE_IBGE], \r\n            T.TXT_CNPJ AS [empresa.TXT_CNPJ], \r\n    ");
-            viewString.Append("        T.TXT_PAIS AS [empresa.TXT_PAIS], \r\n            T.TXT_TELEFONE AS [empre");
-            viewString.Append("sa.TXT_TELEFONE], \r\n            T.INT_CRT AS [empresa.INT_CRT], \r\n            T.");
-            viewString.Append("INT_COD_UF AS [empresa.INT_COD_UF], \r\n            T.TXT_CEP AS [empresa.TXT_CEP]");
-            viewString.Append(", \r\n            T.TXT_TOKEN_IBPT AS [empresa.TXT_TOKEN_IBPT], \r\n            T.TX");
-            viewString.Append("T_TOKEN_NFEMAIL AS [empresa.TXT_TOKEN_NFEMAIL], \r\n            T.DECIMAL_VALOR_DO");
-            viewString.Append("_PREMIO_FAIR_TRADE AS [empresa.DECIMAL_VALOR_DO_PREMIO_FAIR_TRADE], \r\n          ");
-            viewString.Append("  T.BOOL_CAFE AS [empresa.BOOL_CAFE], \r\n            T.BOOL_HOSPITAL AS [empresa.");
-            viewString.Append("BOOL_HOSPITAL], \r\n            T.BOOL_LOJA AS [empresa.BOOL_LOJA], \r\n            ");
-            viewString.Append("T.TXT_FLO_ID AS [empresa.TXT_FLO_ID], \r\n            T.BOOL_MATRIZ AS [empresa.BO");
-            viewString.Append("OL_MATRIZ], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.empres");
-            viewString.Append("a AS T\r\n    ) AS T1");
+            viewString.Append("L_LOJA], T1.[empresa.TXT_FLO_ID], T1.[empresa.BOOL_MATRIZ], T1.[empresa.BOOL_LAN");
+            viewString.Append("CANTO_COTABIL_FISCAL], T1.[empresa.BOOL_BRFAIR], T1.[empresa.TXT_FTUSA_ID], T1.[");
+            viewString.Append("empresa.TXT_RFA_ID])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID_EMPRESA ");
+            viewString.Append("AS [empresa.INT_ID_EMPRESA], \r\n            T.TXT_NOME_FANTASIA AS [empresa.TXT_N");
+            viewString.Append("OME_FANTASIA], \r\n            T.TXT_RAZAO_SOCIAL AS [empresa.TXT_RAZAO_SOCIAL], \r");
+            viewString.Append("\n            T.TXT_IE AS [empresa.TXT_IE], \r\n            T.TXT_IM AS [empresa.TX");
+            viewString.Append("T_IM], \r\n            T.TXT_RUA AS [empresa.TXT_RUA], \r\n            T.TXT_NR AS [");
+            viewString.Append("empresa.TXT_NR], \r\n            T.TXT_BAIRRO AS [empresa.TXT_BAIRRO], \r\n         ");
+            viewString.Append("   T.TXT_MUNICIPIO AS [empresa.TXT_MUNICIPIO], \r\n            T.TXT_UF AS [empres");
+            viewString.Append("a.TXT_UF], \r\n            T.INT_COD_PAIS_IBGE AS [empresa.INT_COD_PAIS_IBGE], \r\n ");
+            viewString.Append("           T.INT_COD_CIDADE_IBGE AS [empresa.INT_COD_CIDADE_IBGE], \r\n           ");
+            viewString.Append(" T.TXT_CNPJ AS [empresa.TXT_CNPJ], \r\n            T.TXT_PAIS AS [empresa.TXT_PAIS");
+            viewString.Append("], \r\n            T.TXT_TELEFONE AS [empresa.TXT_TELEFONE], \r\n            T.INT_C");
+            viewString.Append("RT AS [empresa.INT_CRT], \r\n            T.INT_COD_UF AS [empresa.INT_COD_UF], \r\n ");
+            viewString.Append("           T.TXT_CEP AS [empresa.TXT_CEP], \r\n            T.TXT_TOKEN_IBPT AS [em");
+            viewString.Append("presa.TXT_TOKEN_IBPT], \r\n            T.TXT_TOKEN_NFEMAIL AS [empresa.TXT_TOKEN_N");
+            viewString.Append("FEMAIL], \r\n            T.DECIMAL_VALOR_DO_PREMIO_FAIR_TRADE AS [empresa.DECIMAL_");
+            viewString.Append("VALOR_DO_PREMIO_FAIR_TRADE], \r\n            T.BOOL_CAFE AS [empresa.BOOL_CAFE], \r");
+            viewString.Append("\n            T.BOOL_HOSPITAL AS [empresa.BOOL_HOSPITAL], \r\n            T.BOOL_LO");
+            viewString.Append("JA AS [empresa.BOOL_LOJA], \r\n            T.TXT_FLO_ID AS [empresa.TXT_FLO_ID], \r");
+            viewString.Append("\n            T.BOOL_MATRIZ AS [empresa.BOOL_MATRIZ], \r\n            T.BOOL_LANCAN");
+            viewString.Append("TO_COTABIL_FISCAL AS [empresa.BOOL_LANCANTO_COTABIL_FISCAL], \r\n            T.BOO");
+            viewString.Append("L_BRFAIR AS [empresa.BOOL_BRFAIR], \r\n            T.TXT_FTUSA_ID AS [empresa.TXT_");
+            viewString.Append("FTUSA_ID], \r\n            T.TXT_RFA_ID AS [empresa.TXT_RFA_ID], \r\n            Tru");
+            viewString.Append("e AS _from0\r\n        FROM db_coopfamEntities.empresa AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.empresa", viewString.ToString());
         }
         
@@ -4846,32 +5048,36 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView87()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.emprestimos", "\r\n    SELECT VALUE -- Constructing emprestimos\r\n        [db_coopfamModel.Store.em" +
-                    "prestimos](T1.[emprestimos.INT_ID], T1.[emprestimos.INT_ID_COOPERADO], T1.[empre" +
-                    "stimos.INT_ID_CATEGORIA], T1.[emprestimos.DATE_LANCAMENTO], T1.[emprestimos.INT_" +
-                    "ID_FUNC], T1.[emprestimos.INT_ID_AVALISTA], T1.[emprestimos.INT_ID_FORMA_DE_PAGA" +
-                    "MENTO], T1.[emprestimos.BOOL_JUROS_AA_AM], T1.[emprestimos.DECIMAL_PERCENTUAL_JU" +
-                    "ROS], T1.[emprestimos.DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO], T1.[emprestimos" +
-                    ".TXT_FINALIDADE], T1.[emprestimos.DECIMAL_VALOR], T1.[emprestimos.DATE_AGENDAR_T" +
-                    "RANSFERENCIA], T1.[emprestimos.TXT_OBS], T1.[emprestimos.BOOL_ATIVO], T1.[empres" +
-                    "timos.INT_ID_SEGUNDO_AVALISTA], T1.[emprestimos.DECIMAL_VALOR_MUDAS])\r\n    FROM " +
-                    "(\r\n        SELECT \r\n            T.INT_ID AS [emprestimos.INT_ID], \r\n            " +
-                    "T.INT_ID_COOPERADO AS [emprestimos.INT_ID_COOPERADO], \r\n            T.INT_ID_CAT" +
-                    "EGORIA AS [emprestimos.INT_ID_CATEGORIA], \r\n            T.DATE_LANCAMENTO AS [em" +
-                    "prestimos.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNC AS [emprestimos.INT_ID_F" +
-                    "UNC], \r\n            T.INT_ID_AVALISTA AS [emprestimos.INT_ID_AVALISTA], \r\n      " +
-                    "      T.INT_ID_FORMA_DE_PAGAMENTO AS [emprestimos.INT_ID_FORMA_DE_PAGAMENTO], \r\n" +
-                    "            T.BOOL_JUROS_AA_AM AS [emprestimos.BOOL_JUROS_AA_AM], \r\n            " +
-                    "T.DECIMAL_PERCENTUAL_JUROS AS [emprestimos.DECIMAL_PERCENTUAL_JUROS], \r\n        " +
-                    "    T.DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO AS [emprestimos.DECIMAL_PERCENTUA" +
-                    "L_JUROS_APOS_VENCIMENTO], \r\n            T.TXT_FINALIDADE AS [emprestimos.TXT_FIN" +
-                    "ALIDADE], \r\n            T.DECIMAL_VALOR AS [emprestimos.DECIMAL_VALOR], \r\n      " +
-                    "      T.DATE_AGENDAR_TRANSFERENCIA AS [emprestimos.DATE_AGENDAR_TRANSFERENCIA], " +
-                    "\r\n            T.TXT_OBS AS [emprestimos.TXT_OBS], \r\n            T.BOOL_ATIVO AS " +
-                    "[emprestimos.BOOL_ATIVO], \r\n            T.INT_ID_SEGUNDO_AVALISTA AS [emprestimo" +
-                    "s.INT_ID_SEGUNDO_AVALISTA], \r\n            T.DECIMAL_VALOR_MUDAS AS [emprestimos." +
-                    "DECIMAL_VALOR_MUDAS], \r\n            True AS _from0\r\n        FROM db_coopfamEntit" +
-                    "ies.emprestimos AS T\r\n    ) AS T1");
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2176);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing emprestimos\r\n        [db_coopfamModel.Store.e");
+            viewString.Append("mprestimos](T1.[emprestimos.INT_ID], T1.[emprestimos.INT_ID_COOPERADO], T1.[empr");
+            viewString.Append("estimos.INT_ID_CATEGORIA], T1.[emprestimos.DATE_LANCAMENTO], T1.[emprestimos.INT");
+            viewString.Append("_ID_FUNC], T1.[emprestimos.INT_ID_AVALISTA], T1.[emprestimos.INT_ID_FORMA_DE_PAG");
+            viewString.Append("AMENTO], T1.[emprestimos.BOOL_JUROS_AA_AM], T1.[emprestimos.DECIMAL_PERCENTUAL_J");
+            viewString.Append("UROS], T1.[emprestimos.DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO], T1.[emprestimo");
+            viewString.Append("s.TXT_FINALIDADE], T1.[emprestimos.DECIMAL_VALOR], T1.[emprestimos.DATE_AGENDAR_");
+            viewString.Append("TRANSFERENCIA], T1.[emprestimos.TXT_OBS], T1.[emprestimos.BOOL_ATIVO], T1.[empre");
+            viewString.Append("stimos.INT_ID_SEGUNDO_AVALISTA], T1.[emprestimos.DECIMAL_VALOR_MUDAS], T1.[empre");
+            viewString.Append("stimos.INT_ID_FECHAMENTO_MERC_FUTURO])\r\n    FROM (\r\n        SELECT \r\n           ");
+            viewString.Append(" T.INT_ID AS [emprestimos.INT_ID], \r\n            T.INT_ID_COOPERADO AS [empresti");
+            viewString.Append("mos.INT_ID_COOPERADO], \r\n            T.INT_ID_CATEGORIA AS [emprestimos.INT_ID_C");
+            viewString.Append("ATEGORIA], \r\n            T.DATE_LANCAMENTO AS [emprestimos.DATE_LANCAMENTO], \r\n ");
+            viewString.Append("           T.INT_ID_FUNC AS [emprestimos.INT_ID_FUNC], \r\n            T.INT_ID_AV");
+            viewString.Append("ALISTA AS [emprestimos.INT_ID_AVALISTA], \r\n            T.INT_ID_FORMA_DE_PAGAMEN");
+            viewString.Append("TO AS [emprestimos.INT_ID_FORMA_DE_PAGAMENTO], \r\n            T.BOOL_JUROS_AA_AM ");
+            viewString.Append("AS [emprestimos.BOOL_JUROS_AA_AM], \r\n            T.DECIMAL_PERCENTUAL_JUROS AS [");
+            viewString.Append("emprestimos.DECIMAL_PERCENTUAL_JUROS], \r\n            T.DECIMAL_PERCENTUAL_JUROS_");
+            viewString.Append("APOS_VENCIMENTO AS [emprestimos.DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO], \r\n   ");
+            viewString.Append("         T.TXT_FINALIDADE AS [emprestimos.TXT_FINALIDADE], \r\n            T.DECIM");
+            viewString.Append("AL_VALOR AS [emprestimos.DECIMAL_VALOR], \r\n            T.DATE_AGENDAR_TRANSFEREN");
+            viewString.Append("CIA AS [emprestimos.DATE_AGENDAR_TRANSFERENCIA], \r\n            T.TXT_OBS AS [emp");
+            viewString.Append("restimos.TXT_OBS], \r\n            T.BOOL_ATIVO AS [emprestimos.BOOL_ATIVO], \r\n   ");
+            viewString.Append("         T.INT_ID_SEGUNDO_AVALISTA AS [emprestimos.INT_ID_SEGUNDO_AVALISTA], \r\n ");
+            viewString.Append("           T.DECIMAL_VALOR_MUDAS AS [emprestimos.DECIMAL_VALOR_MUDAS], \r\n       ");
+            viewString.Append("     T.INT_ID_FECHAMENTO_MERC_FUTURO AS [emprestimos.INT_ID_FECHAMENTO_MERC_FUTU");
+            viewString.Append("RO], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.emprestimos A");
+            viewString.Append("S T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.emprestimos", viewString.ToString());
         }
         
         /// <Summary>
@@ -4946,7 +5152,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView91()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(8372);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(9215);
             viewString.Append("\r\n    SELECT VALUE -- Constructing fechamento_mercado_futuro\r\n        [db_coopfa");
             viewString.Append("mModel.Store.fechamento_mercado_futuro](T1.[fechamento_mercado_futuro.INT_ID], T");
             viewString.Append("1.[fechamento_mercado_futuro.TXT_DESCRICAO], T1.[fechamento_mercado_futuro.TXT_S");
@@ -4986,72 +5192,83 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("RCEIRO], T1.[fechamento_mercado_futuro.DECIMAL_VALOR_EM_REAIS], T1.[fechamento_m");
             viewString.Append("ercado_futuro.DECIMAL_VALOR_PREMIO_EM_REAIS], T1.[fechamento_mercado_futuro.BOOL");
             viewString.Append("_FT], T1.[fechamento_mercado_futuro.DATA_LIMITE_PARA_FIXAR], T1.[fechamento_merc");
-            viewString.Append("ado_futuro.BOOL_NY])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [fech");
-            viewString.Append("amento_mercado_futuro.INT_ID], \r\n            T.TXT_DESCRICAO AS [fechamento_merc");
-            viewString.Append("ado_futuro.TXT_DESCRICAO], \r\n            T.TXT_SAFRA AS [fechamento_mercado_futu");
-            viewString.Append("ro.TXT_SAFRA], \r\n            T.TXT_STATUS AS [fechamento_mercado_futuro.TXT_STAT");
-            viewString.Append("US], \r\n            T.DATE_INICIO_MERC_FUT AS [fechamento_mercado_futuro.DATE_INI");
-            viewString.Append("CIO_MERC_FUT], \r\n            T.FLOAT_NY AS [fechamento_mercado_futuro.FLOAT_NY],");
-            viewString.Append(" \r\n            T.FLOAT_DOLAR AS [fechamento_mercado_futuro.FLOAT_DOLAR], \r\n     ");
-            viewString.Append("       T.BOOL_FUT_ANTECIPADA AS [fechamento_mercado_futuro.BOOL_FUT_ANTECIPADA],");
-            viewString.Append(" \r\n            T.DECIMAL_DIFERENCIAL_1415 AS [fechamento_mercado_futuro.DECIMAL_");
-            viewString.Append("DIFERENCIAL_1415], \r\n            T.DECIMAL_NY_16UP AS [fechamento_mercado_futuro");
-            viewString.Append(".DECIMAL_NY_16UP], \r\n            T.DECIMAL_DIFERENCIAL_16UP AS [fechamento_merca");
-            viewString.Append("do_futuro.DECIMAL_DIFERENCIAL_16UP], \r\n            T.DECIMAL_NY_RESIDUO AS [fech");
-            viewString.Append("amento_mercado_futuro.DECIMAL_NY_RESIDUO], \r\n            T.DECIMAL_DIFERENCIAL_R");
-            viewString.Append("ESIDUO AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_RESIDUO], \r\n           ");
-            viewString.Append(" T.CHAR_TIPO_DE_CALCULO_SACAS_HEDGE AS [fechamento_mercado_futuro.CHAR_TIPO_DE_C");
-            viewString.Append("ALCULO_SACAS_HEDGE], \r\n            T.INT_ID_PENEIRA AS [fechamento_mercado_futur");
-            viewString.Append("o.INT_ID_PENEIRA], \r\n            T.INT_ID_TIPO AS [fechamento_mercado_futuro.INT");
-            viewString.Append("_ID_TIPO], \r\n            T.TXT_DEFEITO AS [fechamento_mercado_futuro.TXT_DEFEITO");
-            viewString.Append("], \r\n            T.INT_ID_SUBTIPO AS [fechamento_mercado_futuro.INT_ID_SUBTIPO],");
-            viewString.Append(" \r\n            T.INT_ID_BEBIDA AS [fechamento_mercado_futuro.INT_ID_BEBIDA], \r\n ");
-            viewString.Append("           T.INT_ID_MODALIDADE_ENTREGA AS [fechamento_mercado_futuro.INT_ID_MODA");
-            viewString.Append("LIDADE_ENTREGA], \r\n            T.INT_ID_ARBITRAGEM AS [fechamento_mercado_futuro");
-            viewString.Append(".INT_ID_ARBITRAGEM], \r\n            T.INT_ID_ALMOXARIFADO_ENTREGA AS [fechamento_");
-            viewString.Append("mercado_futuro.INT_ID_ALMOXARIFADO_ENTREGA], \r\n            T.INT_ID_ASSOCIACAO_R");
-            viewString.Append("ECEBE_PREMIO AS [fechamento_mercado_futuro.INT_ID_ASSOCIACAO_RECEBE_PREMIO], \r\n ");
-            viewString.Append("           T.INT_ID_CONTA_BANCARIA_RECEBEDORA_PREMIO AS [fechamento_mercado_futu");
-            viewString.Append("ro.INT_ID_CONTA_BANCARIA_RECEBEDORA_PREMIO], \r\n            T.BOOL_PG_PREMIO AS [");
-            viewString.Append("fechamento_mercado_futuro.BOOL_PG_PREMIO], \r\n            T.TXT_REFERENCIA_FORNEC");
-            viewString.Append("EDOR AS [fechamento_mercado_futuro.TXT_REFERENCIA_FORNECEDOR], \r\n            T.D");
-            viewString.Append("ECIMAL_MULTA AS [fechamento_mercado_futuro.DECIMAL_MULTA], \r\n            T.DECIM");
-            viewString.Append("AL_JUROS AS [fechamento_mercado_futuro.DECIMAL_JUROS], \r\n            T.BOOL_TRAN");
-            viewString.Append("SPORTE_POR_CONTA AS [fechamento_mercado_futuro.BOOL_TRANSPORTE_POR_CONTA], \r\n   ");
-            viewString.Append("         T.INT_ID_TIPO_SACARIA AS [fechamento_mercado_futuro.INT_ID_TIPO_SACARIA");
-            viewString.Append("], \r\n            T.TXT_LOCAL_RETIRADA AS [fechamento_mercado_futuro.TXT_LOCAL_RE");
-            viewString.Append("TIRADA], \r\n            T.BOOL_ENTREGA_A_RETIRAR AS [fechamento_mercado_futuro.BO");
-            viewString.Append("OL_ENTREGA_A_RETIRAR], \r\n            T.DATE_VENCIMENTO_HEDGE AS [fechamento_merc");
-            viewString.Append("ado_futuro.DATE_VENCIMENTO_HEDGE], \r\n            T.BOOL_A_FIXAR_CAFE AS [fechame");
-            viewString.Append("nto_mercado_futuro.BOOL_A_FIXAR_CAFE], \r\n            T.BOOL_A_FIXAR_DOLAR AS [fe");
-            viewString.Append("chamento_mercado_futuro.BOOL_A_FIXAR_DOLAR], \r\n            T.BOOL_INCLUSO_FUNRUR");
-            viewString.Append("AL AS [fechamento_mercado_futuro.BOOL_INCLUSO_FUNRURAL], \r\n            T.DECIMAL");
-            viewString.Append("_FUNRURAL AS [fechamento_mercado_futuro.DECIMAL_FUNRURAL], \r\n            T.TXT_D");
-            viewString.Append("ESCRICAO_FORMACAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCRICAO_FORMACAO_PRE");
-            viewString.Append("CO], \r\n            T.TXT_DESCRICAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCR");
-            viewString.Append("ICAO_PRECO], \r\n            T.TXT_DESCRICAO_QUALIDADE AS [fechamento_mercado_futu");
-            viewString.Append("ro.TXT_DESCRICAO_QUALIDADE], \r\n            T.INT_ID_CADASTROU AS [fechamento_mer");
-            viewString.Append("cado_futuro.INT_ID_CADASTROU], \r\n            T.DATE_CADASTRO AS [fechamento_merc");
-            viewString.Append("ado_futuro.DATE_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [fechamento_mercado");
-            viewString.Append("_futuro.INT_ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [fechamento_mercado_fut");
-            viewString.Append("uro.DATE_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [fechamento_mercado_futuro.");
-            viewString.Append("INT_ID_EXCLUIU], \r\n            T.DATE_EXCLUIU AS [fechamento_mercado_futuro.DATE");
-            viewString.Append("_EXCLUIU], \r\n            T.TXT_DESCRICAO_PAGAMENTO AS [fechamento_mercado_futuro");
-            viewString.Append(".TXT_DESCRICAO_PAGAMENTO], \r\n            T.BOOL_REAIS_BOLSA_NA AS [fechamento_me");
-            viewString.Append("rcado_futuro.BOOL_REAIS_BOLSA_NA], \r\n            T.DECIMAL_BOLSA AS [fechamento_");
-            viewString.Append("mercado_futuro.DECIMAL_BOLSA], \r\n            T.DECIMAL_DIFERENCIAL_QUALIDADE AS ");
-            viewString.Append("[fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_QUALIDADE], \r\n            T.DECIM");
-            viewString.Append("AL_PREMIO AS [fechamento_mercado_futuro.DECIMAL_PREMIO], \r\n            T.DECIMAL");
-            viewString.Append("_DIFERENCIAL_PAIS AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_PAIS], \r\n   ");
-            viewString.Append("         T.DECIMAL_CHARGE AS [fechamento_mercado_futuro.DECIMAL_CHARGE], \r\n     ");
-            viewString.Append("       T.BOOL_COMPRA_TERCEIRO AS [fechamento_mercado_futuro.BOOL_COMPRA_TERCEIRO");
-            viewString.Append("], \r\n            T.DECIMAL_VALOR_EM_REAIS AS [fechamento_mercado_futuro.DECIMAL_");
-            viewString.Append("VALOR_EM_REAIS], \r\n            T.DECIMAL_VALOR_PREMIO_EM_REAIS AS [fechamento_me");
-            viewString.Append("rcado_futuro.DECIMAL_VALOR_PREMIO_EM_REAIS], \r\n            T.BOOL_FT AS [fechame");
-            viewString.Append("nto_mercado_futuro.BOOL_FT], \r\n            T.DATA_LIMITE_PARA_FIXAR AS [fechamen");
-            viewString.Append("to_mercado_futuro.DATA_LIMITE_PARA_FIXAR], \r\n            T.BOOL_NY AS [fechament");
-            viewString.Append("o_mercado_futuro.BOOL_NY], \r\n            True AS _from0\r\n        FROM db_coopfam");
-            viewString.Append("Entities.fechamento_mercado_futuro AS T\r\n    ) AS T1");
+            viewString.Append("ado_futuro.BOOL_NY], T1.[fechamento_mercado_futuro.DECIMAL_SCS_FT], T1.[fechamen");
+            viewString.Append("to_mercado_futuro.DECIMAL_VALOR_FT_REAIS], T1.[fechamento_mercado_futuro.DECIMAL");
+            viewString.Append("_VALOR_RESIDUO_REAIS], T1.[fechamento_mercado_futuro.DECIMAL_SCS_RESIDUO], T1.[f");
+            viewString.Append("echamento_mercado_futuro.BOOL_RFA], T1.[fechamento_mercado_futuro.INT_ID_PEDIDO_");
+            viewString.Append("FATURAMENTO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [fechamento_");
+            viewString.Append("mercado_futuro.INT_ID], \r\n            T.TXT_DESCRICAO AS [fechamento_mercado_fut");
+            viewString.Append("uro.TXT_DESCRICAO], \r\n            T.TXT_SAFRA AS [fechamento_mercado_futuro.TXT_");
+            viewString.Append("SAFRA], \r\n            T.TXT_STATUS AS [fechamento_mercado_futuro.TXT_STATUS], \r\n");
+            viewString.Append("            T.DATE_INICIO_MERC_FUT AS [fechamento_mercado_futuro.DATE_INICIO_MER");
+            viewString.Append("C_FUT], \r\n            T.FLOAT_NY AS [fechamento_mercado_futuro.FLOAT_NY], \r\n    ");
+            viewString.Append("        T.FLOAT_DOLAR AS [fechamento_mercado_futuro.FLOAT_DOLAR], \r\n            ");
+            viewString.Append("T.BOOL_FUT_ANTECIPADA AS [fechamento_mercado_futuro.BOOL_FUT_ANTECIPADA], \r\n    ");
+            viewString.Append("        T.DECIMAL_DIFERENCIAL_1415 AS [fechamento_mercado_futuro.DECIMAL_DIFEREN");
+            viewString.Append("CIAL_1415], \r\n            T.DECIMAL_NY_16UP AS [fechamento_mercado_futuro.DECIMA");
+            viewString.Append("L_NY_16UP], \r\n            T.DECIMAL_DIFERENCIAL_16UP AS [fechamento_mercado_futu");
+            viewString.Append("ro.DECIMAL_DIFERENCIAL_16UP], \r\n            T.DECIMAL_NY_RESIDUO AS [fechamento_");
+            viewString.Append("mercado_futuro.DECIMAL_NY_RESIDUO], \r\n            T.DECIMAL_DIFERENCIAL_RESIDUO ");
+            viewString.Append("AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_RESIDUO], \r\n            T.CHAR");
+            viewString.Append("_TIPO_DE_CALCULO_SACAS_HEDGE AS [fechamento_mercado_futuro.CHAR_TIPO_DE_CALCULO_");
+            viewString.Append("SACAS_HEDGE], \r\n            T.INT_ID_PENEIRA AS [fechamento_mercado_futuro.INT_I");
+            viewString.Append("D_PENEIRA], \r\n            T.INT_ID_TIPO AS [fechamento_mercado_futuro.INT_ID_TIP");
+            viewString.Append("O], \r\n            T.TXT_DEFEITO AS [fechamento_mercado_futuro.TXT_DEFEITO], \r\n  ");
+            viewString.Append("          T.INT_ID_SUBTIPO AS [fechamento_mercado_futuro.INT_ID_SUBTIPO], \r\n    ");
+            viewString.Append("        T.INT_ID_BEBIDA AS [fechamento_mercado_futuro.INT_ID_BEBIDA], \r\n        ");
+            viewString.Append("    T.INT_ID_MODALIDADE_ENTREGA AS [fechamento_mercado_futuro.INT_ID_MODALIDADE_");
+            viewString.Append("ENTREGA], \r\n            T.INT_ID_ARBITRAGEM AS [fechamento_mercado_futuro.INT_ID");
+            viewString.Append("_ARBITRAGEM], \r\n            T.INT_ID_ALMOXARIFADO_ENTREGA AS [fechamento_mercado");
+            viewString.Append("_futuro.INT_ID_ALMOXARIFADO_ENTREGA], \r\n            T.INT_ID_ASSOCIACAO_RECEBE_P");
+            viewString.Append("REMIO AS [fechamento_mercado_futuro.INT_ID_ASSOCIACAO_RECEBE_PREMIO], \r\n        ");
+            viewString.Append("    T.INT_ID_CONTA_BANCARIA_RECEBEDORA_PREMIO AS [fechamento_mercado_futuro.INT_");
+            viewString.Append("ID_CONTA_BANCARIA_RECEBEDORA_PREMIO], \r\n            T.BOOL_PG_PREMIO AS [fechame");
+            viewString.Append("nto_mercado_futuro.BOOL_PG_PREMIO], \r\n            T.TXT_REFERENCIA_FORNECEDOR AS");
+            viewString.Append(" [fechamento_mercado_futuro.TXT_REFERENCIA_FORNECEDOR], \r\n            T.DECIMAL_");
+            viewString.Append("MULTA AS [fechamento_mercado_futuro.DECIMAL_MULTA], \r\n            T.DECIMAL_JURO");
+            viewString.Append("S AS [fechamento_mercado_futuro.DECIMAL_JUROS], \r\n            T.BOOL_TRANSPORTE_");
+            viewString.Append("POR_CONTA AS [fechamento_mercado_futuro.BOOL_TRANSPORTE_POR_CONTA], \r\n          ");
+            viewString.Append("  T.INT_ID_TIPO_SACARIA AS [fechamento_mercado_futuro.INT_ID_TIPO_SACARIA], \r\n  ");
+            viewString.Append("          T.TXT_LOCAL_RETIRADA AS [fechamento_mercado_futuro.TXT_LOCAL_RETIRADA]");
+            viewString.Append(", \r\n            T.BOOL_ENTREGA_A_RETIRAR AS [fechamento_mercado_futuro.BOOL_ENTR");
+            viewString.Append("EGA_A_RETIRAR], \r\n            T.DATE_VENCIMENTO_HEDGE AS [fechamento_mercado_fut");
+            viewString.Append("uro.DATE_VENCIMENTO_HEDGE], \r\n            T.BOOL_A_FIXAR_CAFE AS [fechamento_mer");
+            viewString.Append("cado_futuro.BOOL_A_FIXAR_CAFE], \r\n            T.BOOL_A_FIXAR_DOLAR AS [fechament");
+            viewString.Append("o_mercado_futuro.BOOL_A_FIXAR_DOLAR], \r\n            T.BOOL_INCLUSO_FUNRURAL AS [");
+            viewString.Append("fechamento_mercado_futuro.BOOL_INCLUSO_FUNRURAL], \r\n            T.DECIMAL_FUNRUR");
+            viewString.Append("AL AS [fechamento_mercado_futuro.DECIMAL_FUNRURAL], \r\n            T.TXT_DESCRICA");
+            viewString.Append("O_FORMACAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCRICAO_FORMACAO_PRECO], \r\n");
+            viewString.Append("            T.TXT_DESCRICAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCRICAO_PR");
+            viewString.Append("ECO], \r\n            T.TXT_DESCRICAO_QUALIDADE AS [fechamento_mercado_futuro.TXT_");
+            viewString.Append("DESCRICAO_QUALIDADE], \r\n            T.INT_ID_CADASTROU AS [fechamento_mercado_fu");
+            viewString.Append("turo.INT_ID_CADASTROU], \r\n            T.DATE_CADASTRO AS [fechamento_mercado_fut");
+            viewString.Append("uro.DATE_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [fechamento_mercado_futuro");
+            viewString.Append(".INT_ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [fechamento_mercado_futuro.DAT");
+            viewString.Append("E_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [fechamento_mercado_futuro.INT_ID_");
+            viewString.Append("EXCLUIU], \r\n            T.DATE_EXCLUIU AS [fechamento_mercado_futuro.DATE_EXCLUI");
+            viewString.Append("U], \r\n            T.TXT_DESCRICAO_PAGAMENTO AS [fechamento_mercado_futuro.TXT_DE");
+            viewString.Append("SCRICAO_PAGAMENTO], \r\n            T.BOOL_REAIS_BOLSA_NA AS [fechamento_mercado_f");
+            viewString.Append("uturo.BOOL_REAIS_BOLSA_NA], \r\n            T.DECIMAL_BOLSA AS [fechamento_mercado");
+            viewString.Append("_futuro.DECIMAL_BOLSA], \r\n            T.DECIMAL_DIFERENCIAL_QUALIDADE AS [fecham");
+            viewString.Append("ento_mercado_futuro.DECIMAL_DIFERENCIAL_QUALIDADE], \r\n            T.DECIMAL_PREM");
+            viewString.Append("IO AS [fechamento_mercado_futuro.DECIMAL_PREMIO], \r\n            T.DECIMAL_DIFERE");
+            viewString.Append("NCIAL_PAIS AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_PAIS], \r\n          ");
+            viewString.Append("  T.DECIMAL_CHARGE AS [fechamento_mercado_futuro.DECIMAL_CHARGE], \r\n            ");
+            viewString.Append("T.BOOL_COMPRA_TERCEIRO AS [fechamento_mercado_futuro.BOOL_COMPRA_TERCEIRO], \r\n  ");
+            viewString.Append("          T.DECIMAL_VALOR_EM_REAIS AS [fechamento_mercado_futuro.DECIMAL_VALOR_E");
+            viewString.Append("M_REAIS], \r\n            T.DECIMAL_VALOR_PREMIO_EM_REAIS AS [fechamento_mercado_f");
+            viewString.Append("uturo.DECIMAL_VALOR_PREMIO_EM_REAIS], \r\n            T.BOOL_FT AS [fechamento_mer");
+            viewString.Append("cado_futuro.BOOL_FT], \r\n            T.DATA_LIMITE_PARA_FIXAR AS [fechamento_merc");
+            viewString.Append("ado_futuro.DATA_LIMITE_PARA_FIXAR], \r\n            T.BOOL_NY AS [fechamento_merca");
+            viewString.Append("do_futuro.BOOL_NY], \r\n            T.DECIMAL_SCS_FT AS [fechamento_mercado_futuro");
+            viewString.Append(".DECIMAL_SCS_FT], \r\n            T.DECIMAL_VALOR_FT_REAIS AS [fechamento_mercado_");
+            viewString.Append("futuro.DECIMAL_VALOR_FT_REAIS], \r\n            T.DECIMAL_VALOR_RESIDUO_REAIS AS [");
+            viewString.Append("fechamento_mercado_futuro.DECIMAL_VALOR_RESIDUO_REAIS], \r\n            T.DECIMAL_");
+            viewString.Append("SCS_RESIDUO AS [fechamento_mercado_futuro.DECIMAL_SCS_RESIDUO], \r\n            T.");
+            viewString.Append("BOOL_RFA AS [fechamento_mercado_futuro.BOOL_RFA], \r\n            T.INT_ID_PEDIDO_");
+            viewString.Append("FATURAMENTO AS [fechamento_mercado_futuro.INT_ID_PEDIDO_FATURAMENTO], \r\n        ");
+            viewString.Append("    True AS _from0\r\n        FROM db_coopfamEntities.fechamento_mercado_futuro AS");
+            viewString.Append(" T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.fechamento_mercado_futuro", viewString.ToString());
         }
         
@@ -5199,7 +5416,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView98()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(5770);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(6058);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_aplicar\r\n        [db_coopfamModel.");
             viewString.Append("Store.formulario_aplicar](T1.[formulario_aplicar.INT_ID], T1.[formulario_aplicar");
             viewString.Append(".INT_ID_COOPERADO], T1.[formulario_aplicar.INT_ID_APLICOU], T1.[formulario_aplic");
@@ -5225,54 +5442,57 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(", T1.[formulario_aplicar.BOOL_AROVADO_ANALISTA_SCI], T1.[formulario_aplicar.TXT_");
             viewString.Append("OBS_ANALISTA_SCI], T1.[formulario_aplicar.BOOL_APROVADO_GESTOR], T1.[formulario_");
             viewString.Append("aplicar.TXT_OBS_GESTOR], T1.[formulario_aplicar.TXT_CONTATACAO], T1.[formulario_");
-            viewString.Append("aplicar.TXT_RECOMENDACAO], T1.[formulario_aplicar.TXT_OBS_AVALIACAO_CLIENTE])\r\n ");
-            viewString.Append("   FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_aplicar.INT_ID],");
-            viewString.Append(" \r\n            T.INT_ID_COOPERADO AS [formulario_aplicar.INT_ID_COOPERADO], \r\n  ");
-            viewString.Append("          T.INT_ID_APLICOU AS [formulario_aplicar.INT_ID_APLICOU], \r\n           ");
-            viewString.Append(" T.DATE_INI AS [formulario_aplicar.DATE_INI], \r\n            T.DATE_FIM AS [formu");
-            viewString.Append("lario_aplicar.DATE_FIM], \r\n            T.TXT_OBS AS [formulario_aplicar.TXT_OBS]");
-            viewString.Append(", \r\n            T.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRANSICAO AS [formulario_");
-            viewString.Append("aplicar.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRANSICAO], \r\n            T.BOOL_CO");
-            viewString.Append("LETA_AMOSTRA AS [formulario_aplicar.BOOL_COLETA_AMOSTRA], \r\n            T.BOOL_S");
-            viewString.Append("OLICITACAO_REDUCAO_TEMPO_TRANSICAO AS [formulario_aplicar.BOOL_SOLICITACAO_REDUC");
-            viewString.Append("AO_TEMPO_TRANSICAO], \r\n            T.DECIMAL_TEMPO_CONVERSAO AS [formulario_apli");
-            viewString.Append("car.DECIMAL_TEMPO_CONVERSAO], \r\n            T.BOOL_CADERNO_CAMPO_ATUALIZADO AS [");
-            viewString.Append("formulario_aplicar.BOOL_CADERNO_CAMPO_ATUALIZADO], \r\n            T.INT_ID_CADAST");
-            viewString.Append("RO AS [formulario_aplicar.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO AS [fo");
-            viewString.Append("rmulario_aplicar.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACACAO AS [formular");
-            viewString.Append("io_aplicar.INT_ID_ALTERACACAO], \r\n            T.DATE_ALTERACAO AS [formulario_ap");
-            viewString.Append("licar.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_aplicar.IN");
-            viewString.Append("T_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formulario_aplicar.DATE_EXCLUS");
-            viewString.Append("AO], \r\n            T.INT_ID_AGENDAMENTO_FORMULARIO_SER_APLICADO AS [formulario_a");
-            viewString.Append("plicar.INT_ID_AGENDAMENTO_FORMULARIO_SER_APLICADO], \r\n            T.INT_ID_FORMU");
-            viewString.Append("LARIO AS [formulario_aplicar.INT_ID_FORMULARIO], \r\n            T.TXT_OBS_REDUCAO");
-            viewString.Append("_TEMPO_TRANSICAO AS [formulario_aplicar.TXT_OBS_REDUCAO_TEMPO_TRANSICAO], \r\n    ");
-            viewString.Append("        T.BOOL_CONSEGUIU_FAZER_RASTREABILIDADE AS [formulario_aplicar.BOOL_CONSE");
-            viewString.Append("GUIU_FAZER_RASTREABILIDADE], \r\n            T.TXT_DESCRICAO_RASTREABILIDADE AS [f");
-            viewString.Append("ormulario_aplicar.TXT_DESCRICAO_RASTREABILIDADE], \r\n            T.TXT_DESCRICAO_");
-            viewString.Append("BALANCO_MASSA AS [formulario_aplicar.TXT_DESCRICAO_BALANCO_MASSA], \r\n           ");
-            viewString.Append(" T.CHAR_VERSAO AS [formulario_aplicar.CHAR_VERSAO], \r\n            T.INT_ID_FORMU");
-            viewString.Append("LARIO_APLICAR_RASTREAR AS [formulario_aplicar.INT_ID_FORMULARIO_APLICAR_RASTREAR");
-            viewString.Append("], \r\n            T.BOOL_AVALIACAO_PELO_CLIENTE AS [formulario_aplicar.BOOL_AVALI");
-            viewString.Append("ACAO_PELO_CLIENTE], \r\n            T.CHAR_RESULTADO AS [formulario_aplicar.CHAR_R");
-            viewString.Append("ESULTADO], \r\n            T.BOOL_MAPA_CONFORME AS [formulario_aplicar.BOOL_MAPA_C");
-            viewString.Append("ONFORME], \r\n            T.TXT_OBS_MAPA AS [formulario_aplicar.TXT_OBS_MAPA], \r\n ");
-            viewString.Append("           T.TXT_OBS_CADASTRO AS [formulario_aplicar.TXT_OBS_CADASTRO], \r\n      ");
-            viewString.Append("      T.BOOL_CERTIFICADO_POR_OUTRA_CERTIFICADORA AS [formulario_aplicar.BOOL_CER");
-            viewString.Append("TIFICADO_POR_OUTRA_CERTIFICADORA], \r\n            T.TXT_DESCRICAO_CERTIFICADORA A");
-            viewString.Append("S [formulario_aplicar.TXT_DESCRICAO_CERTIFICADORA], \r\n            T.BOOL_PLANO_C");
-            viewString.Append("ONVERSAO_C_NC_NA AS [formulario_aplicar.BOOL_PLANO_CONVERSAO_C_NC_NA], \r\n       ");
-            viewString.Append("     T.TXT_OBS_PLANO_CONVERSAO AS [formulario_aplicar.TXT_OBS_PLANO_CONVERSAO], ");
-            viewString.Append("\r\n            T.BOOL_ATIVO AS [formulario_aplicar.BOOL_ATIVO], \r\n            T.B");
-            viewString.Append("OOL_AROVADO_ANALISTA_SCI AS [formulario_aplicar.BOOL_AROVADO_ANALISTA_SCI], \r\n  ");
-            viewString.Append("          T.TXT_OBS_ANALISTA_SCI AS [formulario_aplicar.TXT_OBS_ANALISTA_SCI], \r");
-            viewString.Append("\n            T.BOOL_APROVADO_GESTOR AS [formulario_aplicar.BOOL_APROVADO_GESTOR]");
-            viewString.Append(", \r\n            T.TXT_OBS_GESTOR AS [formulario_aplicar.TXT_OBS_GESTOR], \r\n     ");
-            viewString.Append("       T.TXT_CONTATACAO AS [formulario_aplicar.TXT_CONTATACAO], \r\n            T.");
-            viewString.Append("TXT_RECOMENDACAO AS [formulario_aplicar.TXT_RECOMENDACAO], \r\n            T.TXT_O");
-            viewString.Append("BS_AVALIACAO_CLIENTE AS [formulario_aplicar.TXT_OBS_AVALIACAO_CLIENTE], \r\n      ");
-            viewString.Append("      True AS _from0\r\n        FROM db_coopfamEntities.formulario_aplicar AS T\r\n ");
-            viewString.Append("   ) AS T1");
+            viewString.Append("aplicar.TXT_RECOMENDACAO], T1.[formulario_aplicar.TXT_OBS_AVALIACAO_CLIENTE], T1");
+            viewString.Append(".[formulario_aplicar.TXT_ASSINATURA], T1.[formulario_aplicar.TXT_MOTIVO_DE_NAO_C");
+            viewString.Append("OLETAR_ASSINATURA])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formu");
+            viewString.Append("lario_aplicar.INT_ID], \r\n            T.INT_ID_COOPERADO AS [formulario_aplicar.I");
+            viewString.Append("NT_ID_COOPERADO], \r\n            T.INT_ID_APLICOU AS [formulario_aplicar.INT_ID_A");
+            viewString.Append("PLICOU], \r\n            T.DATE_INI AS [formulario_aplicar.DATE_INI], \r\n          ");
+            viewString.Append("  T.DATE_FIM AS [formulario_aplicar.DATE_FIM], \r\n            T.TXT_OBS AS [formu");
+            viewString.Append("lario_aplicar.TXT_OBS], \r\n            T.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRA");
+            viewString.Append("NSICAO AS [formulario_aplicar.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRANSICAO], \r");
+            viewString.Append("\n            T.BOOL_COLETA_AMOSTRA AS [formulario_aplicar.BOOL_COLETA_AMOSTRA], ");
+            viewString.Append("\r\n            T.BOOL_SOLICITACAO_REDUCAO_TEMPO_TRANSICAO AS [formulario_aplicar.");
+            viewString.Append("BOOL_SOLICITACAO_REDUCAO_TEMPO_TRANSICAO], \r\n            T.DECIMAL_TEMPO_CONVERS");
+            viewString.Append("AO AS [formulario_aplicar.DECIMAL_TEMPO_CONVERSAO], \r\n            T.BOOL_CADERNO");
+            viewString.Append("_CAMPO_ATUALIZADO AS [formulario_aplicar.BOOL_CADERNO_CAMPO_ATUALIZADO], \r\n     ");
+            viewString.Append("       T.INT_ID_CADASTRO AS [formulario_aplicar.INT_ID_CADASTRO], \r\n            ");
+            viewString.Append("T.DATE_CADASTRO AS [formulario_aplicar.DATE_CADASTRO], \r\n            T.INT_ID_AL");
+            viewString.Append("TERACACAO AS [formulario_aplicar.INT_ID_ALTERACACAO], \r\n            T.DATE_ALTER");
+            viewString.Append("ACAO AS [formulario_aplicar.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS ");
+            viewString.Append("[formulario_aplicar.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formular");
+            viewString.Append("io_aplicar.DATE_EXCLUSAO], \r\n            T.INT_ID_AGENDAMENTO_FORMULARIO_SER_APL");
+            viewString.Append("ICADO AS [formulario_aplicar.INT_ID_AGENDAMENTO_FORMULARIO_SER_APLICADO], \r\n    ");
+            viewString.Append("        T.INT_ID_FORMULARIO AS [formulario_aplicar.INT_ID_FORMULARIO], \r\n       ");
+            viewString.Append("     T.TXT_OBS_REDUCAO_TEMPO_TRANSICAO AS [formulario_aplicar.TXT_OBS_REDUCAO_TE");
+            viewString.Append("MPO_TRANSICAO], \r\n            T.BOOL_CONSEGUIU_FAZER_RASTREABILIDADE AS [formula");
+            viewString.Append("rio_aplicar.BOOL_CONSEGUIU_FAZER_RASTREABILIDADE], \r\n            T.TXT_DESCRICAO");
+            viewString.Append("_RASTREABILIDADE AS [formulario_aplicar.TXT_DESCRICAO_RASTREABILIDADE], \r\n      ");
+            viewString.Append("      T.TXT_DESCRICAO_BALANCO_MASSA AS [formulario_aplicar.TXT_DESCRICAO_BALANCO");
+            viewString.Append("_MASSA], \r\n            T.CHAR_VERSAO AS [formulario_aplicar.CHAR_VERSAO], \r\n    ");
+            viewString.Append("        T.INT_ID_FORMULARIO_APLICAR_RASTREAR AS [formulario_aplicar.INT_ID_FORMU");
+            viewString.Append("LARIO_APLICAR_RASTREAR], \r\n            T.BOOL_AVALIACAO_PELO_CLIENTE AS [formula");
+            viewString.Append("rio_aplicar.BOOL_AVALIACAO_PELO_CLIENTE], \r\n            T.CHAR_RESULTADO AS [for");
+            viewString.Append("mulario_aplicar.CHAR_RESULTADO], \r\n            T.BOOL_MAPA_CONFORME AS [formular");
+            viewString.Append("io_aplicar.BOOL_MAPA_CONFORME], \r\n            T.TXT_OBS_MAPA AS [formulario_apli");
+            viewString.Append("car.TXT_OBS_MAPA], \r\n            T.TXT_OBS_CADASTRO AS [formulario_aplicar.TXT_O");
+            viewString.Append("BS_CADASTRO], \r\n            T.BOOL_CERTIFICADO_POR_OUTRA_CERTIFICADORA AS [formu");
+            viewString.Append("lario_aplicar.BOOL_CERTIFICADO_POR_OUTRA_CERTIFICADORA], \r\n            T.TXT_DES");
+            viewString.Append("CRICAO_CERTIFICADORA AS [formulario_aplicar.TXT_DESCRICAO_CERTIFICADORA], \r\n    ");
+            viewString.Append("        T.BOOL_PLANO_CONVERSAO_C_NC_NA AS [formulario_aplicar.BOOL_PLANO_CONVERS");
+            viewString.Append("AO_C_NC_NA], \r\n            T.TXT_OBS_PLANO_CONVERSAO AS [formulario_aplicar.TXT_");
+            viewString.Append("OBS_PLANO_CONVERSAO], \r\n            T.BOOL_ATIVO AS [formulario_aplicar.BOOL_ATI");
+            viewString.Append("VO], \r\n            T.BOOL_AROVADO_ANALISTA_SCI AS [formulario_aplicar.BOOL_AROVA");
+            viewString.Append("DO_ANALISTA_SCI], \r\n            T.TXT_OBS_ANALISTA_SCI AS [formulario_aplicar.TX");
+            viewString.Append("T_OBS_ANALISTA_SCI], \r\n            T.BOOL_APROVADO_GESTOR AS [formulario_aplicar");
+            viewString.Append(".BOOL_APROVADO_GESTOR], \r\n            T.TXT_OBS_GESTOR AS [formulario_aplicar.TX");
+            viewString.Append("T_OBS_GESTOR], \r\n            T.TXT_CONTATACAO AS [formulario_aplicar.TXT_CONTATA");
+            viewString.Append("CAO], \r\n            T.TXT_RECOMENDACAO AS [formulario_aplicar.TXT_RECOMENDACAO],");
+            viewString.Append(" \r\n            T.TXT_OBS_AVALIACAO_CLIENTE AS [formulario_aplicar.TXT_OBS_AVALIA");
+            viewString.Append("CAO_CLIENTE], \r\n            T.TXT_ASSINATURA AS [formulario_aplicar.TXT_ASSINATU");
+            viewString.Append("RA], \r\n            T.TXT_MOTIVO_DE_NAO_COLETAR_ASSINATURA AS [formulario_aplicar");
+            viewString.Append(".TXT_MOTIVO_DE_NAO_COLETAR_ASSINATURA], \r\n            True AS _from0\r\n        FR");
+            viewString.Append("OM db_coopfamEntities.formulario_aplicar AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.formulario_aplicar", viewString.ToString());
         }
         
@@ -5587,7 +5807,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView108()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4985);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(5042);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_respostas\r\n        [db_coopfamMode");
             viewString.Append("l.Store.formulario_respostas](T1.[formulario_respostas.INT_ID], T1.[formulario_r");
             viewString.Append("espostas.INT_ID_FORMULARIO_APP], T1.[formulario_respostas.INT_ID_FORM_SUB_ITEM],");
@@ -5610,47 +5830,48 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("ITICO], T1.[formulario_respostas.INT_ID_POTENCIAL_RISCO], T1.[formulario_respost");
             viewString.Append("as.INT_ID_PROCEDIMENTO_CRITICO], T1.[formulario_respostas.TXT_OBS_PONTO_CRITICO]");
             viewString.Append(", T1.[formulario_respostas.TXT_OBS_PROCEDIMENTO_CRITICO], T1.[formulario_respost");
-            viewString.Append("as.TXT_OBS_POTENCIAL_RISCO], T1.[formulario_respostas.INT_ID_RANK])\r\n    FROM (\r");
-            viewString.Append("\n        SELECT \r\n            T.INT_ID AS [formulario_respostas.INT_ID], \r\n     ");
-            viewString.Append("       T.INT_ID_FORMULARIO_APP AS [formulario_respostas.INT_ID_FORMULARIO_APP], ");
-            viewString.Append("\r\n            T.INT_ID_FORM_SUB_ITEM AS [formulario_respostas.INT_ID_FORM_SUB_IT");
-            viewString.Append("EM], \r\n            T.BOOL_C_NC_NA_ AS [formulario_respostas.BOOL_C_NC_NA_], \r\n  ");
-            viewString.Append("          T.DECIMAL_NOTA AS [formulario_respostas.DECIMAL_NOTA], \r\n            T");
-            viewString.Append(".TXT_CONSTATACAO_INSPETOR AS [formulario_respostas.TXT_CONSTATACAO_INSPETOR], \r\n");
-            viewString.Append("            T.TXT_RESPOSTA_PMO AS [formulario_respostas.TXT_RESPOSTA_PMO], \r\n   ");
-            viewString.Append("         T.TXT_OBS AS [formulario_respostas.TXT_OBS], \r\n            T.DECIMAL_NO");
-            viewString.Append("TA_TOTAL AS [formulario_respostas.DECIMAL_NOTA_TOTAL], \r\n            T.TXT_LATIT");
-            viewString.Append("UDE AS [formulario_respostas.TXT_LATITUDE], \r\n            T.TXT_LONGITUDE AS [fo");
-            viewString.Append("rmulario_respostas.TXT_LONGITUDE], \r\n            T.INT_ID_CADASTRO AS [formulari");
-            viewString.Append("o_respostas.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO AS [formulario_respo");
-            viewString.Append("stas.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACAO AS [formulario_respostas.I");
-            viewString.Append("NT_ID_ALTERACAO], \r\n            T.DATE_ALTERACAO AS [formulario_respostas.DATE_A");
-            viewString.Append("LTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_respostas.INT_ID_EXCLU");
-            viewString.Append("SAO], \r\n            T.DATE_EXCLUSAO AS [formulario_respostas.DATE_EXCLUSAO], \r\n ");
-            viewString.Append("           T.TXT_ACAO_CORRETIVA AS [formulario_respostas.TXT_ACAO_CORRETIVA], \r\n");
-            viewString.Append("            T.DATE_PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI AS [formulario_respostas");
-            viewString.Append(".DATE_PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI], \r\n            T.BOOL_RESOLVIDO AS [");
-            viewString.Append("formulario_respostas.BOOL_RESOLVIDO], \r\n            T.DATA_PRAZO_RESOLVER_NC AS ");
-            viewString.Append("[formulario_respostas.DATA_PRAZO_RESOLVER_NC], \r\n            T.DATE_RESOLVIDO AS");
-            viewString.Append(" [formulario_respostas.DATE_RESOLVIDO], \r\n            T.BOOL_REINCIDENTE AS [for");
-            viewString.Append("mulario_respostas.BOOL_REINCIDENTE], \r\n            T.BOOL_MANTIDA_PELO_ANALISTA_");
-            viewString.Append("SCI AS [formulario_respostas.BOOL_MANTIDA_PELO_ANALISTA_SCI], \r\n            T.TX");
-            viewString.Append("T_OBS_ANALISTA_SCI AS [formulario_respostas.TXT_OBS_ANALISTA_SCI], \r\n           ");
-            viewString.Append(" T.BOOL_MANTIDA_PELO_GESTOR_SCI AS [formulario_respostas.BOOL_MANTIDA_PELO_GESTO");
-            viewString.Append("R_SCI], \r\n            T.TXT_OBS_MANTIDA_PELO_GESTOR_SCI AS [formulario_respostas");
-            viewString.Append(".TXT_OBS_MANTIDA_PELO_GESTOR_SCI], \r\n            T.BOOL_ATIVO AS [formulario_res");
-            viewString.Append("postas.BOOL_ATIVO], \r\n            T.TXT_OBS_RESOLUCAO AS [formulario_respostas.T");
-            viewString.Append("XT_OBS_RESOLUCAO], \r\n            T.BOOL_MEDIDA_PRECAUCAO AS [formulario_resposta");
-            viewString.Append("s.BOOL_MEDIDA_PRECAUCAO], \r\n            T.INT_ID_PONTO_CRITICO AS [formulario_re");
-            viewString.Append("spostas.INT_ID_PONTO_CRITICO], \r\n            T.INT_ID_POTENCIAL_RISCO AS [formul");
-            viewString.Append("ario_respostas.INT_ID_POTENCIAL_RISCO], \r\n            T.INT_ID_PROCEDIMENTO_CRIT");
-            viewString.Append("ICO AS [formulario_respostas.INT_ID_PROCEDIMENTO_CRITICO], \r\n            T.TXT_O");
-            viewString.Append("BS_PONTO_CRITICO AS [formulario_respostas.TXT_OBS_PONTO_CRITICO], \r\n            ");
-            viewString.Append("T.TXT_OBS_PROCEDIMENTO_CRITICO AS [formulario_respostas.TXT_OBS_PROCEDIMENTO_CRI");
-            viewString.Append("TICO], \r\n            T.TXT_OBS_POTENCIAL_RISCO AS [formulario_respostas.TXT_OBS_");
-            viewString.Append("POTENCIAL_RISCO], \r\n            T.INT_ID_RANK AS [formulario_respostas.INT_ID_RA");
-            viewString.Append("NK], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.formulario_re");
-            viewString.Append("spostas AS T\r\n    ) AS T1");
+            viewString.Append("as.TXT_OBS_POTENCIAL_RISCO], T1.[formulario_respostas.INT_ID_FORMULARIO_SUBITEM_");
+            viewString.Append("RANK])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_respost");
+            viewString.Append("as.INT_ID], \r\n            T.INT_ID_FORMULARIO_APP AS [formulario_respostas.INT_I");
+            viewString.Append("D_FORMULARIO_APP], \r\n            T.INT_ID_FORM_SUB_ITEM AS [formulario_respostas");
+            viewString.Append(".INT_ID_FORM_SUB_ITEM], \r\n            T.BOOL_C_NC_NA_ AS [formulario_respostas.B");
+            viewString.Append("OOL_C_NC_NA_], \r\n            T.DECIMAL_NOTA AS [formulario_respostas.DECIMAL_NOT");
+            viewString.Append("A], \r\n            T.TXT_CONSTATACAO_INSPETOR AS [formulario_respostas.TXT_CONSTA");
+            viewString.Append("TACAO_INSPETOR], \r\n            T.TXT_RESPOSTA_PMO AS [formulario_respostas.TXT_R");
+            viewString.Append("ESPOSTA_PMO], \r\n            T.TXT_OBS AS [formulario_respostas.TXT_OBS], \r\n     ");
+            viewString.Append("       T.DECIMAL_NOTA_TOTAL AS [formulario_respostas.DECIMAL_NOTA_TOTAL], \r\n    ");
+            viewString.Append("        T.TXT_LATITUDE AS [formulario_respostas.TXT_LATITUDE], \r\n            T.T");
+            viewString.Append("XT_LONGITUDE AS [formulario_respostas.TXT_LONGITUDE], \r\n            T.INT_ID_CAD");
+            viewString.Append("ASTRO AS [formulario_respostas.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO A");
+            viewString.Append("S [formulario_respostas.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACAO AS [for");
+            viewString.Append("mulario_respostas.INT_ID_ALTERACAO], \r\n            T.DATE_ALTERACAO AS [formular");
+            viewString.Append("io_respostas.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_res");
+            viewString.Append("postas.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formulario_respostas.");
+            viewString.Append("DATE_EXCLUSAO], \r\n            T.TXT_ACAO_CORRETIVA AS [formulario_respostas.TXT_");
+            viewString.Append("ACAO_CORRETIVA], \r\n            T.DATE_PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI AS [f");
+            viewString.Append("ormulario_respostas.DATE_PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI], \r\n            T.");
+            viewString.Append("BOOL_RESOLVIDO AS [formulario_respostas.BOOL_RESOLVIDO], \r\n            T.DATA_PR");
+            viewString.Append("AZO_RESOLVER_NC AS [formulario_respostas.DATA_PRAZO_RESOLVER_NC], \r\n            ");
+            viewString.Append("T.DATE_RESOLVIDO AS [formulario_respostas.DATE_RESOLVIDO], \r\n            T.BOOL_");
+            viewString.Append("REINCIDENTE AS [formulario_respostas.BOOL_REINCIDENTE], \r\n            T.BOOL_MAN");
+            viewString.Append("TIDA_PELO_ANALISTA_SCI AS [formulario_respostas.BOOL_MANTIDA_PELO_ANALISTA_SCI],");
+            viewString.Append(" \r\n            T.TXT_OBS_ANALISTA_SCI AS [formulario_respostas.TXT_OBS_ANALISTA_");
+            viewString.Append("SCI], \r\n            T.BOOL_MANTIDA_PELO_GESTOR_SCI AS [formulario_respostas.BOOL");
+            viewString.Append("_MANTIDA_PELO_GESTOR_SCI], \r\n            T.TXT_OBS_MANTIDA_PELO_GESTOR_SCI AS [f");
+            viewString.Append("ormulario_respostas.TXT_OBS_MANTIDA_PELO_GESTOR_SCI], \r\n            T.BOOL_ATIVO");
+            viewString.Append(" AS [formulario_respostas.BOOL_ATIVO], \r\n            T.TXT_OBS_RESOLUCAO AS [for");
+            viewString.Append("mulario_respostas.TXT_OBS_RESOLUCAO], \r\n            T.BOOL_MEDIDA_PRECAUCAO AS [");
+            viewString.Append("formulario_respostas.BOOL_MEDIDA_PRECAUCAO], \r\n            T.INT_ID_PONTO_CRITIC");
+            viewString.Append("O AS [formulario_respostas.INT_ID_PONTO_CRITICO], \r\n            T.INT_ID_POTENCI");
+            viewString.Append("AL_RISCO AS [formulario_respostas.INT_ID_POTENCIAL_RISCO], \r\n            T.INT_I");
+            viewString.Append("D_PROCEDIMENTO_CRITICO AS [formulario_respostas.INT_ID_PROCEDIMENTO_CRITICO], \r\n");
+            viewString.Append("            T.TXT_OBS_PONTO_CRITICO AS [formulario_respostas.TXT_OBS_PONTO_CRITI");
+            viewString.Append("CO], \r\n            T.TXT_OBS_PROCEDIMENTO_CRITICO AS [formulario_respostas.TXT_O");
+            viewString.Append("BS_PROCEDIMENTO_CRITICO], \r\n            T.TXT_OBS_POTENCIAL_RISCO AS [formulario");
+            viewString.Append("_respostas.TXT_OBS_POTENCIAL_RISCO], \r\n            T.INT_ID_FORMULARIO_SUBITEM_R");
+            viewString.Append("ANK AS [formulario_respostas.INT_ID_FORMULARIO_SUBITEM_RANK], \r\n            True");
+            viewString.Append(" AS _from0\r\n        FROM db_coopfamEntities.formulario_respostas AS T\r\n    ) AS ");
+            viewString.Append("T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.formulario_respostas", viewString.ToString());
         }
         
@@ -5678,7 +5899,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView110()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2409);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2629);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_sub_item\r\n        [db_coopfamModel");
             viewString.Append(".Store.formulario_sub_item](T1.[formulario_sub_item.INT_ID], T1.[formulario_sub_");
             viewString.Append("item.INT_ID_ITEM], T1.[formulario_sub_item.TXT_EXPLICACAO], T1.[formulario_sub_i");
@@ -5690,7 +5911,8 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("CAO], T1.[formulario_sub_item.INT_ID_EXCLUSAO], T1.[formulario_sub_item.DATE_EXC");
             viewString.Append("LUSAO], T1.[formulario_sub_item.TXT_COR], T1.[formulario_sub_item.BOOL_ELIMINATO");
             viewString.Append("RIA], T1.[formulario_sub_item.INT_ID_SUBITEM_REF_CRITERIO], T1.[formulario_sub_i");
-            viewString.Append("tem.BOOL_RANK])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulari");
+            viewString.Append("tem.BOOL_RANK], T1.[formulario_sub_item.TXT_NR], T1.[formulario_sub_item.INT_ID_");
+            viewString.Append("TIPO_CRITERIO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulari");
             viewString.Append("o_sub_item.INT_ID], \r\n            T.INT_ID_ITEM AS [formulario_sub_item.INT_ID_I");
             viewString.Append("TEM], \r\n            T.TXT_EXPLICACAO AS [formulario_sub_item.TXT_EXPLICACAO], \r\n");
             viewString.Append("            T.TXT_DESCRICAO AS [formulario_sub_item.TXT_DESCRICAO], \r\n          ");
@@ -5708,8 +5930,9 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("      T.BOOL_ELIMINATORIA AS [formulario_sub_item.BOOL_ELIMINATORIA], \r\n        ");
             viewString.Append("    T.INT_ID_SUBITEM_REF_CRITERIO AS [formulario_sub_item.INT_ID_SUBITEM_REF_CRI");
             viewString.Append("TERIO], \r\n            T.BOOL_RANK AS [formulario_sub_item.BOOL_RANK], \r\n        ");
-            viewString.Append("    True AS _from0\r\n        FROM db_coopfamEntities.formulario_sub_item AS T\r\n  ");
-            viewString.Append("  ) AS T1");
+            viewString.Append("    T.TXT_NR AS [formulario_sub_item.TXT_NR], \r\n            T.INT_ID_TIPO_CRITER");
+            viewString.Append("IO AS [formulario_sub_item.INT_ID_TIPO_CRITERIO], \r\n            True AS _from0\r\n");
+            viewString.Append("        FROM db_coopfamEntities.formulario_sub_item AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.formulario_sub_item", viewString.ToString());
         }
         
@@ -6092,21 +6315,23 @@ namespace Edm_EntityMappingGeneratedViews
                     "trucao_lote_resultado_para_gerar.INT_DEFEITO], T1.[instrucao_lote_resultado_para" +
                     "_gerar.INT_ID_TIPO_SACARIA], T1.[instrucao_lote_resultado_para_gerar.TXT_OIC], T" +
                     "1.[instrucao_lote_resultado_para_gerar.DECIMAL_QTD_ESTIMADA], T1.[instrucao_lote" +
-                    "_resultado_para_gerar.INT_ID_TIPO_CAFE])\r\n    FROM (\r\n        SELECT \r\n         " +
-                    "   T.INT_ID AS [instrucao_lote_resultado_para_gerar.INT_ID], \r\n            T.INT" +
-                    "_ID_INSTRUCAO AS [instrucao_lote_resultado_para_gerar.INT_ID_INSTRUCAO], \r\n     " +
-                    "       T.INT_ID_TIPO_LOTE AS [instrucao_lote_resultado_para_gerar.INT_ID_TIPO_LO" +
-                    "TE], \r\n            T.TXT_LOTE_SERA_GERADO AS [instrucao_lote_resultado_para_gera" +
-                    "r.TXT_LOTE_SERA_GERADO], \r\n            T.BOOL_ATIVO AS [instrucao_lote_resultado" +
-                    "_para_gerar.BOOL_ATIVO], \r\n            T.TXT_TIPO AS [instrucao_lote_resultado_p" +
-                    "ara_gerar.TXT_TIPO], \r\n            T.INT_DEFEITO AS [instrucao_lote_resultado_pa" +
-                    "ra_gerar.INT_DEFEITO], \r\n            T.INT_ID_TIPO_SACARIA AS [instrucao_lote_re" +
-                    "sultado_para_gerar.INT_ID_TIPO_SACARIA], \r\n            T.TXT_OIC AS [instrucao_l" +
-                    "ote_resultado_para_gerar.TXT_OIC], \r\n            T.DECIMAL_QTD_ESTIMADA AS [inst" +
-                    "rucao_lote_resultado_para_gerar.DECIMAL_QTD_ESTIMADA], \r\n            T.INT_ID_TI" +
-                    "PO_CAFE AS [instrucao_lote_resultado_para_gerar.INT_ID_TIPO_CAFE], \r\n           " +
-                    " True AS _from0\r\n        FROM db_coopfamEntities.instrucao_lote_resultado_para_g" +
-                    "erar AS T\r\n    ) AS T1");
+                    "_resultado_para_gerar.INT_ID_TIPO_CAFE], T1.[instrucao_lote_resultado_para_gerar" +
+                    ".INT_ID_SUBTIPO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [instruc" +
+                    "ao_lote_resultado_para_gerar.INT_ID], \r\n            T.INT_ID_INSTRUCAO AS [instr" +
+                    "ucao_lote_resultado_para_gerar.INT_ID_INSTRUCAO], \r\n            T.INT_ID_TIPO_LO" +
+                    "TE AS [instrucao_lote_resultado_para_gerar.INT_ID_TIPO_LOTE], \r\n            T.TX" +
+                    "T_LOTE_SERA_GERADO AS [instrucao_lote_resultado_para_gerar.TXT_LOTE_SERA_GERADO]" +
+                    ", \r\n            T.BOOL_ATIVO AS [instrucao_lote_resultado_para_gerar.BOOL_ATIVO]" +
+                    ", \r\n            T.TXT_TIPO AS [instrucao_lote_resultado_para_gerar.TXT_TIPO], \r\n" +
+                    "            T.INT_DEFEITO AS [instrucao_lote_resultado_para_gerar.INT_DEFEITO], " +
+                    "\r\n            T.INT_ID_TIPO_SACARIA AS [instrucao_lote_resultado_para_gerar.INT_" +
+                    "ID_TIPO_SACARIA], \r\n            T.TXT_OIC AS [instrucao_lote_resultado_para_gera" +
+                    "r.TXT_OIC], \r\n            T.DECIMAL_QTD_ESTIMADA AS [instrucao_lote_resultado_pa" +
+                    "ra_gerar.DECIMAL_QTD_ESTIMADA], \r\n            T.INT_ID_TIPO_CAFE AS [instrucao_l" +
+                    "ote_resultado_para_gerar.INT_ID_TIPO_CAFE], \r\n            T.INT_ID_SUBTIPO AS [i" +
+                    "nstrucao_lote_resultado_para_gerar.INT_ID_SUBTIPO], \r\n            True AS _from0" +
+                    "\r\n        FROM db_coopfamEntities.instrucao_lote_resultado_para_gerar AS T\r\n    " +
+                    ") AS T1");
         }
         
         /// <Summary>
@@ -6114,7 +6339,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView128()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4525);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4670);
             viewString.Append("\r\n    SELECT VALUE -- Constructing instrucao_preparo\r\n        [db_coopfamModel.S");
             viewString.Append("tore.instrucao_preparo](T1.[instrucao_preparo.INT_ID], T1.[instrucao_preparo.INT");
             viewString.Append("_ID_CONTRATO], T1.[instrucao_preparo.INT_ID_ALMOXARIFADO], T1.[instrucao_preparo");
@@ -6135,43 +6360,45 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("O], T1.[instrucao_preparo.BOOL_TRANSICAO_LOTE_QUE_SERA_GERADO], T1.[instrucao_pr");
             viewString.Append("eparo.DATE_INICIOU_CARREGAMENTO], T1.[instrucao_preparo.DATE_FINALIZOU_CARREGAME");
             viewString.Append("NTO], T1.[instrucao_preparo.INT_ID_INICIOU_CARREGAMENTO], T1.[instrucao_preparo.");
-            viewString.Append("INT_ID_FINALIZOU_CARREGAMENTO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_");
-            viewString.Append("ID AS [instrucao_preparo.INT_ID], \r\n            T.INT_ID_CONTRATO AS [instrucao_");
-            viewString.Append("preparo.INT_ID_CONTRATO], \r\n            T.INT_ID_ALMOXARIFADO AS [instrucao_prep");
-            viewString.Append("aro.INT_ID_ALMOXARIFADO], \r\n            T.TXT_INSTRUCAO AS [instrucao_preparo.TX");
-            viewString.Append("T_INSTRUCAO], \r\n            T.INT_ID_SIT_NORMA AS [instrucao_preparo.INT_ID_SIT_");
-            viewString.Append("NORMA], \r\n            T.BOOL_BATER_PILHA AS [instrucao_preparo.BOOL_BATER_PILHA]");
-            viewString.Append(", \r\n            T.BOOL_VENTILACAO AS [instrucao_preparo.BOOL_VENTILACAO], \r\n    ");
-            viewString.Append("        T.BOOL_CATACAO_ELETRONICA AS [instrucao_preparo.BOOL_CATACAO_ELETRONICA]");
-            viewString.Append(", \r\n            T.BOOL_CATADOR_PEDRA AS [instrucao_preparo.BOOL_CATADOR_PEDRA], ");
-            viewString.Append("\r\n            T.BOOL_REBENEFICIO_PENEIRAS AS [instrucao_preparo.BOOL_REBENEFICIO");
-            viewString.Append("_PENEIRAS], \r\n            T.TXT_PENEIRAS AS [instrucao_preparo.TXT_PENEIRAS], \r\n");
-            viewString.Append("            T.TXT_TIPO AS [instrucao_preparo.TXT_TIPO], \r\n            T.INT_DEFE");
-            viewString.Append("ITOS AS [instrucao_preparo.INT_DEFEITOS], \r\n            T.TXT_MOCA AS [instrucao");
-            viewString.Append("_preparo.TXT_MOCA], \r\n            T.TXT_FUNDO AS [instrucao_preparo.TXT_FUNDO], ");
-            viewString.Append("\r\n            T.DATE_DATA_INSTRUCAO AS [instrucao_preparo.DATE_DATA_INSTRUCAO], ");
-            viewString.Append("\r\n            T.TXT_TIPO_SACARIA AS [instrucao_preparo.TXT_TIPO_SACARIA], \r\n    ");
-            viewString.Append("        T.TXT_OIC AS [instrucao_preparo.TXT_OIC], \r\n            T.TXT_OBS AS [in");
-            viewString.Append("strucao_preparo.TXT_OBS], \r\n            T.TXT_SAFRA AS [instrucao_preparo.TXT_SA");
-            viewString.Append("FRA], \r\n            T.BOOL_TIPO_CAFE AS [instrucao_preparo.BOOL_TIPO_CAFE], \r\n  ");
-            viewString.Append("          T.INT_ID_SUBTIPO AS [instrucao_preparo.INT_ID_SUBTIPO], \r\n            ");
-            viewString.Append("T.CHAR_TIPO_SACARIA AS [instrucao_preparo.CHAR_TIPO_SACARIA], \r\n            T.IN");
-            viewString.Append("T_ID_CLIENTE AS [instrucao_preparo.INT_ID_CLIENTE], \r\n            T.BOOL_FLAG_AT");
-            viewString.Append("IVO_EXCLUIDO AS [instrucao_preparo.BOOL_FLAG_ATIVO_EXCLUIDO], \r\n            T.IN");
-            viewString.Append("T_ID_AMOSTRA AS [instrucao_preparo.INT_ID_AMOSTRA], \r\n            T.INT_ID_FUNCI");
-            viewString.Append("ONARIO AS [instrucao_preparo.INT_ID_FUNCIONARIO], \r\n            T.DATE_PREVISAO_");
-            viewString.Append("TERMINO AS [instrucao_preparo.DATE_PREVISAO_TERMINO], \r\n            T.BOOL_PREST");
-            viewString.Append("ACAO_SERVICOS AS [instrucao_preparo.BOOL_PRESTACAO_SERVICOS], \r\n            T.DA");
-            viewString.Append("TE_LANCAMENTO AS [instrucao_preparo.DATE_LANCAMENTO], \r\n            T.BOOL_TIPO_");
-            viewString.Append("CULTIVO_LOTE_QUE_SERA_GERADO AS [instrucao_preparo.BOOL_TIPO_CULTIVO_LOTE_QUE_SE");
-            viewString.Append("RA_GERADO], \r\n            T.BOOL_TRANSICAO_LOTE_QUE_SERA_GERADO AS [instrucao_pr");
-            viewString.Append("eparo.BOOL_TRANSICAO_LOTE_QUE_SERA_GERADO], \r\n            T.DATE_INICIOU_CARREGA");
-            viewString.Append("MENTO AS [instrucao_preparo.DATE_INICIOU_CARREGAMENTO], \r\n            T.DATE_FIN");
-            viewString.Append("ALIZOU_CARREGAMENTO AS [instrucao_preparo.DATE_FINALIZOU_CARREGAMENTO], \r\n      ");
-            viewString.Append("      T.INT_ID_INICIOU_CARREGAMENTO AS [instrucao_preparo.INT_ID_INICIOU_CARREGA");
-            viewString.Append("MENTO], \r\n            T.INT_ID_FINALIZOU_CARREGAMENTO AS [instrucao_preparo.INT_");
-            viewString.Append("ID_FINALIZOU_CARREGAMENTO], \r\n            True AS _from0\r\n        FROM db_coopfa");
-            viewString.Append("mEntities.instrucao_preparo AS T\r\n    ) AS T1");
+            viewString.Append("INT_ID_FINALIZOU_CARREGAMENTO], T1.[instrucao_preparo.BOOL_LIBERADO_PARA_ARMAZEM");
+            viewString.Append("])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [instrucao_preparo.INT_");
+            viewString.Append("ID], \r\n            T.INT_ID_CONTRATO AS [instrucao_preparo.INT_ID_CONTRATO], \r\n ");
+            viewString.Append("           T.INT_ID_ALMOXARIFADO AS [instrucao_preparo.INT_ID_ALMOXARIFADO], \r\n ");
+            viewString.Append("           T.TXT_INSTRUCAO AS [instrucao_preparo.TXT_INSTRUCAO], \r\n            T");
+            viewString.Append(".INT_ID_SIT_NORMA AS [instrucao_preparo.INT_ID_SIT_NORMA], \r\n            T.BOOL_");
+            viewString.Append("BATER_PILHA AS [instrucao_preparo.BOOL_BATER_PILHA], \r\n            T.BOOL_VENTIL");
+            viewString.Append("ACAO AS [instrucao_preparo.BOOL_VENTILACAO], \r\n            T.BOOL_CATACAO_ELETRO");
+            viewString.Append("NICA AS [instrucao_preparo.BOOL_CATACAO_ELETRONICA], \r\n            T.BOOL_CATADO");
+            viewString.Append("R_PEDRA AS [instrucao_preparo.BOOL_CATADOR_PEDRA], \r\n            T.BOOL_REBENEFI");
+            viewString.Append("CIO_PENEIRAS AS [instrucao_preparo.BOOL_REBENEFICIO_PENEIRAS], \r\n            T.T");
+            viewString.Append("XT_PENEIRAS AS [instrucao_preparo.TXT_PENEIRAS], \r\n            T.TXT_TIPO AS [in");
+            viewString.Append("strucao_preparo.TXT_TIPO], \r\n            T.INT_DEFEITOS AS [instrucao_preparo.IN");
+            viewString.Append("T_DEFEITOS], \r\n            T.TXT_MOCA AS [instrucao_preparo.TXT_MOCA], \r\n       ");
+            viewString.Append("     T.TXT_FUNDO AS [instrucao_preparo.TXT_FUNDO], \r\n            T.DATE_DATA_INS");
+            viewString.Append("TRUCAO AS [instrucao_preparo.DATE_DATA_INSTRUCAO], \r\n            T.TXT_TIPO_SACA");
+            viewString.Append("RIA AS [instrucao_preparo.TXT_TIPO_SACARIA], \r\n            T.TXT_OIC AS [instruc");
+            viewString.Append("ao_preparo.TXT_OIC], \r\n            T.TXT_OBS AS [instrucao_preparo.TXT_OBS], \r\n ");
+            viewString.Append("           T.TXT_SAFRA AS [instrucao_preparo.TXT_SAFRA], \r\n            T.BOOL_TI");
+            viewString.Append("PO_CAFE AS [instrucao_preparo.BOOL_TIPO_CAFE], \r\n            T.INT_ID_SUBTIPO AS");
+            viewString.Append(" [instrucao_preparo.INT_ID_SUBTIPO], \r\n            T.CHAR_TIPO_SACARIA AS [instr");
+            viewString.Append("ucao_preparo.CHAR_TIPO_SACARIA], \r\n            T.INT_ID_CLIENTE AS [instrucao_pr");
+            viewString.Append("eparo.INT_ID_CLIENTE], \r\n            T.BOOL_FLAG_ATIVO_EXCLUIDO AS [instrucao_pr");
+            viewString.Append("eparo.BOOL_FLAG_ATIVO_EXCLUIDO], \r\n            T.INT_ID_AMOSTRA AS [instrucao_pr");
+            viewString.Append("eparo.INT_ID_AMOSTRA], \r\n            T.INT_ID_FUNCIONARIO AS [instrucao_preparo.");
+            viewString.Append("INT_ID_FUNCIONARIO], \r\n            T.DATE_PREVISAO_TERMINO AS [instrucao_preparo");
+            viewString.Append(".DATE_PREVISAO_TERMINO], \r\n            T.BOOL_PRESTACAO_SERVICOS AS [instrucao_p");
+            viewString.Append("reparo.BOOL_PRESTACAO_SERVICOS], \r\n            T.DATE_LANCAMENTO AS [instrucao_p");
+            viewString.Append("reparo.DATE_LANCAMENTO], \r\n            T.BOOL_TIPO_CULTIVO_LOTE_QUE_SERA_GERADO ");
+            viewString.Append("AS [instrucao_preparo.BOOL_TIPO_CULTIVO_LOTE_QUE_SERA_GERADO], \r\n            T.B");
+            viewString.Append("OOL_TRANSICAO_LOTE_QUE_SERA_GERADO AS [instrucao_preparo.BOOL_TRANSICAO_LOTE_QUE");
+            viewString.Append("_SERA_GERADO], \r\n            T.DATE_INICIOU_CARREGAMENTO AS [instrucao_preparo.D");
+            viewString.Append("ATE_INICIOU_CARREGAMENTO], \r\n            T.DATE_FINALIZOU_CARREGAMENTO AS [instr");
+            viewString.Append("ucao_preparo.DATE_FINALIZOU_CARREGAMENTO], \r\n            T.INT_ID_INICIOU_CARREG");
+            viewString.Append("AMENTO AS [instrucao_preparo.INT_ID_INICIOU_CARREGAMENTO], \r\n            T.INT_I");
+            viewString.Append("D_FINALIZOU_CARREGAMENTO AS [instrucao_preparo.INT_ID_FINALIZOU_CARREGAMENTO], \r");
+            viewString.Append("\n            T.BOOL_LIBERADO_PARA_ARMAZEM AS [instrucao_preparo.BOOL_LIBERADO_PA");
+            viewString.Append("RA_ARMAZEM], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.instr");
+            viewString.Append("ucao_preparo AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.instrucao_preparo", viewString.ToString());
         }
         
@@ -6591,7 +6818,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView147()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2833);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2986);
             viewString.Append("\r\n    SELECT VALUE -- Constructing lote_produto\r\n        [db_coopfamModel.Store.");
             viewString.Append("lote_produto](T1.[lote_produto.INT_ID], T1.[lote_produto.INT_ID_PRODUTO_CONTABIL");
             viewString.Append("], T1.[lote_produto.INT_ID_EMPRESA], T1.[lote_produto.INT_ID_ALMOXARIFADO], T1.[");
@@ -6604,30 +6831,32 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("lote_produto.BOOL_ATIVO], T1.[lote_produto.INT_ID_LINHA], T1.[lote_produto.INT_I");
             viewString.Append("D_TALHAO], T1.[lote_produto.INT_ID_VOLUME], T1.[lote_produto.INT_ID_AUTORIZACAO_");
             viewString.Append("LOTE], T1.[lote_produto.INT_NF], T1.[lote_produto.INT_ID_NOTA_CANCELADA], T1.[lo");
-            viewString.Append("te_produto.INT_ID_REVISAO_POP])\r\n    FROM (\r\n        SELECT \r\n            T.INT_");
-            viewString.Append("ID AS [lote_produto.INT_ID], \r\n            T.INT_ID_PRODUTO_CONTABIL AS [lote_pr");
-            viewString.Append("oduto.INT_ID_PRODUTO_CONTABIL], \r\n            T.INT_ID_EMPRESA AS [lote_produto.");
-            viewString.Append("INT_ID_EMPRESA], \r\n            T.INT_ID_ALMOXARIFADO AS [lote_produto.INT_ID_ALM");
-            viewString.Append("OXARIFADO], \r\n            T.INT_ID_RESULTADO_OP AS [lote_produto.INT_ID_RESULTAD");
-            viewString.Append("O_OP], \r\n            T.INT_ID_CLIENTE_FORNECEDOR AS [lote_produto.INT_ID_CLIENTE");
-            viewString.Append("_FORNECEDOR], \r\n            T.INT_ID_COOPERADO AS [lote_produto.INT_ID_COOPERADO");
-            viewString.Append("], \r\n            T.INT_ID_FUNCIONARIO AS [lote_produto.INT_ID_FUNCIONARIO], \r\n  ");
-            viewString.Append("          T.TXT_LOTE AS [lote_produto.TXT_LOTE], \r\n            T.DECIMAL_QUANTID");
-            viewString.Append("ADE AS [lote_produto.DECIMAL_QUANTIDADE], \r\n            T.DATE_LANCAMENTO AS [lo");
-            viewString.Append("te_produto.DATE_LANCAMENTO], \r\n            T.DATE_VALIDADE AS [lote_produto.DATE");
-            viewString.Append("_VALIDADE], \r\n            T.DATE_FABRICACAO AS [lote_produto.DATE_FABRICACAO], \r");
-            viewString.Append("\n            T.DECIMAL_VLR_UNITARIO AS [lote_produto.DECIMAL_VLR_UNITARIO], \r\n  ");
-            viewString.Append("          T.BOOL_MATERIA_PRIMA AS [lote_produto.BOOL_MATERIA_PRIMA], \r\n         ");
-            viewString.Append("   T.BOOL_PRESTACAO_SERVICO AS [lote_produto.BOOL_PRESTACAO_SERVICO], \r\n        ");
-            viewString.Append("    T.BOOL_ORG_CONV AS [lote_produto.BOOL_ORG_CONV], \r\n            T.BOOL_ATIVO ");
-            viewString.Append("AS [lote_produto.BOOL_ATIVO], \r\n            T.INT_ID_LINHA AS [lote_produto.INT_");
-            viewString.Append("ID_LINHA], \r\n            T.INT_ID_TALHAO AS [lote_produto.INT_ID_TALHAO], \r\n    ");
-            viewString.Append("        T.INT_ID_VOLUME AS [lote_produto.INT_ID_VOLUME], \r\n            T.INT_ID_");
-            viewString.Append("AUTORIZACAO_LOTE AS [lote_produto.INT_ID_AUTORIZACAO_LOTE], \r\n            T.INT_");
-            viewString.Append("NF AS [lote_produto.INT_NF], \r\n            T.INT_ID_NOTA_CANCELADA AS [lote_prod");
-            viewString.Append("uto.INT_ID_NOTA_CANCELADA], \r\n            T.INT_ID_REVISAO_POP AS [lote_produto.");
-            viewString.Append("INT_ID_REVISAO_POP], \r\n            True AS _from0\r\n        FROM db_coopfamEntiti");
-            viewString.Append("es.lote_produto AS T\r\n    ) AS T1");
+            viewString.Append("te_produto.INT_ID_REVISAO_POP], T1.[lote_produto.DECIMAL_VALOR_PREMIO_POR_UNIDAD");
+            viewString.Append("E])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [lote_produto.INT_ID],");
+            viewString.Append(" \r\n            T.INT_ID_PRODUTO_CONTABIL AS [lote_produto.INT_ID_PRODUTO_CONTABI");
+            viewString.Append("L], \r\n            T.INT_ID_EMPRESA AS [lote_produto.INT_ID_EMPRESA], \r\n         ");
+            viewString.Append("   T.INT_ID_ALMOXARIFADO AS [lote_produto.INT_ID_ALMOXARIFADO], \r\n            T.");
+            viewString.Append("INT_ID_RESULTADO_OP AS [lote_produto.INT_ID_RESULTADO_OP], \r\n            T.INT_I");
+            viewString.Append("D_CLIENTE_FORNECEDOR AS [lote_produto.INT_ID_CLIENTE_FORNECEDOR], \r\n            ");
+            viewString.Append("T.INT_ID_COOPERADO AS [lote_produto.INT_ID_COOPERADO], \r\n            T.INT_ID_FU");
+            viewString.Append("NCIONARIO AS [lote_produto.INT_ID_FUNCIONARIO], \r\n            T.TXT_LOTE AS [lot");
+            viewString.Append("e_produto.TXT_LOTE], \r\n            T.DECIMAL_QUANTIDADE AS [lote_produto.DECIMAL");
+            viewString.Append("_QUANTIDADE], \r\n            T.DATE_LANCAMENTO AS [lote_produto.DATE_LANCAMENTO],");
+            viewString.Append(" \r\n            T.DATE_VALIDADE AS [lote_produto.DATE_VALIDADE], \r\n            T.");
+            viewString.Append("DATE_FABRICACAO AS [lote_produto.DATE_FABRICACAO], \r\n            T.DECIMAL_VLR_U");
+            viewString.Append("NITARIO AS [lote_produto.DECIMAL_VLR_UNITARIO], \r\n            T.BOOL_MATERIA_PRI");
+            viewString.Append("MA AS [lote_produto.BOOL_MATERIA_PRIMA], \r\n            T.BOOL_PRESTACAO_SERVICO ");
+            viewString.Append("AS [lote_produto.BOOL_PRESTACAO_SERVICO], \r\n            T.BOOL_ORG_CONV AS [lote");
+            viewString.Append("_produto.BOOL_ORG_CONV], \r\n            T.BOOL_ATIVO AS [lote_produto.BOOL_ATIVO]");
+            viewString.Append(", \r\n            T.INT_ID_LINHA AS [lote_produto.INT_ID_LINHA], \r\n            T.I");
+            viewString.Append("NT_ID_TALHAO AS [lote_produto.INT_ID_TALHAO], \r\n            T.INT_ID_VOLUME AS [");
+            viewString.Append("lote_produto.INT_ID_VOLUME], \r\n            T.INT_ID_AUTORIZACAO_LOTE AS [lote_pr");
+            viewString.Append("oduto.INT_ID_AUTORIZACAO_LOTE], \r\n            T.INT_NF AS [lote_produto.INT_NF],");
+            viewString.Append(" \r\n            T.INT_ID_NOTA_CANCELADA AS [lote_produto.INT_ID_NOTA_CANCELADA], ");
+            viewString.Append("\r\n            T.INT_ID_REVISAO_POP AS [lote_produto.INT_ID_REVISAO_POP], \r\n     ");
+            viewString.Append("       T.DECIMAL_VALOR_PREMIO_POR_UNIDADE AS [lote_produto.DECIMAL_VALOR_PREMIO_");
+            viewString.Append("POR_UNIDADE], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.lote");
+            viewString.Append("_produto AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.lote_produto", viewString.ToString());
         }
         
@@ -6857,9 +7086,27 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
-        /// exibição de retorno para db_coopfamModelStoreContainer.maquinario
+        /// exibição de retorno para db_coopfamModelStoreContainer.maior_categoria
         /// </Summary>
         private System.Collections.Generic.KeyValuePair<string, string> GetView155()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.maior_categoria", @"
+    SELECT VALUE -- Constructing maior_categoria
+        [db_coopfamModel.Store.maior_categoria](T1.[maior_categoria.INT_ID], T1.[maior_categoria.TXT_DESCRICAO], T1.[maior_categoria.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [maior_categoria.INT_ID], 
+            T.TXT_DESCRICAO AS [maior_categoria.TXT_DESCRICAO], 
+            T.BOOL_ATIVO AS [maior_categoria.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamEntities.maior_categoria AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.maquinario
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView156()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.maquinario", @"
     SELECT VALUE -- Constructing maquinario
@@ -6878,9 +7125,28 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.menor_categoria
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView157()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.menor_categoria", @"
+    SELECT VALUE -- Constructing menor_categoria
+        [db_coopfamModel.Store.menor_categoria](T1.[menor_categoria.INT_ID], T1.[menor_categoria.INT_ID_MAIOR_CATEGORIA], T1.[menor_categoria.TXT_DESCRICAO], T1.[menor_categoria.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [menor_categoria.INT_ID], 
+            T.INT_ID_MAIOR_CATEGORIA AS [menor_categoria.INT_ID_MAIOR_CATEGORIA], 
+            T.TXT_DESCRICAO AS [menor_categoria.TXT_DESCRICAO], 
+            T.BOOL_ATIVO AS [menor_categoria.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamEntities.menor_categoria AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.modalidade_entrega
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView156()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView158()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.modalidade_entrega", @"
     SELECT VALUE -- Constructing modalidade_entrega
@@ -6899,7 +7165,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.motorista
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView157()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView159()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.motorista", @"
     SELECT VALUE -- Constructing motorista
@@ -6929,7 +7195,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.motorista_autorizacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView158()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView160()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.motorista_autorizacao", "\r\n    SELECT VALUE -- Constructing motorista_autorizacao\r\n        [db_coopfamMode" +
                     "l.Store.motorista_autorizacao](T1.[motorista_autorizacao.INT_ID], T1.[motorista_" +
@@ -6957,7 +7223,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.movimento_bancario
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView159()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView161()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(5134);
             viewString.Append("\r\n    SELECT VALUE -- Constructing movimento_bancario\r\n        [db_coopfamModel.");
@@ -7031,9 +7297,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.movimentos_produtos_contabeis
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView160()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView162()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(13599);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(13759);
             viewString.Append("\r\n    SELECT VALUE -- Constructing movimentos_produtos_contabeis\r\n        [db_co");
             viewString.Append("opfamModel.Store.movimentos_produtos_contabeis](T1.[movimentos_produtos_contabei");
             viewString.Append("s.INT_ID], T1.[movimentos_produtos_contabeis.INT_CODIGO_CONTABIL], T1.[movimento");
@@ -7098,111 +7364,113 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(" T1.[movimentos_produtos_contabeis.INT_ID_COTACAO_ITEM], T1.[movimentos_produtos");
             viewString.Append("_contabeis.INT_ID_RESULTADO_REBENEFICIO_NOTA_FILIAL], T1.[movimentos_produtos_co");
             viewString.Append("ntabeis.INT_ID_LOTE_ENTRADA_NOTA_FILIAL], T1.[movimentos_produtos_contabeis.INT_");
-            viewString.Append("ID_AUTORIZACAO_DE _CARREGAMENTO_NOTA_FILIAL])\r\n    FROM (\r\n        SELECT \r\n    ");
-            viewString.Append("        T.INT_ID AS [movimentos_produtos_contabeis.INT_ID], \r\n            T.INT_");
-            viewString.Append("CODIGO_CONTABIL AS [movimentos_produtos_contabeis.INT_CODIGO_CONTABIL], \r\n      ");
-            viewString.Append("      T.DATE_DATA_NF AS [movimentos_produtos_contabeis.DATE_DATA_NF], \r\n        ");
-            viewString.Append("    T.INT_NF AS [movimentos_produtos_contabeis.INT_NF], \r\n            T.BOOL_ENT");
-            viewString.Append("RADA_SAIDA AS [movimentos_produtos_contabeis.BOOL_ENTRADA_SAIDA], \r\n            ");
-            viewString.Append("T.INT_ID_DOC AS [movimentos_produtos_contabeis.INT_ID_DOC], \r\n            T.CHAR");
-            viewString.Append("_DOC AS [movimentos_produtos_contabeis.CHAR_DOC], \r\n            T.BOOL_ATIVO_EXC");
-            viewString.Append("LUIDO AS [movimentos_produtos_contabeis.BOOL_ATIVO_EXCLUIDO], \r\n            T.BO");
-            viewString.Append("OL_COMPRA_COMPL AS [movimentos_produtos_contabeis.BOOL_COMPRA_COMPL], \r\n        ");
-            viewString.Append("    T.INT_ID_LANCAMENTO_EXTRA AS [movimentos_produtos_contabeis.INT_ID_LANCAMENT");
-            viewString.Append("O_EXTRA], \r\n            T.INT_ID_AUTORIZACAO_DEV_COOP AS [movimentos_produtos_co");
-            viewString.Append("ntabeis.INT_ID_AUTORIZACAO_DEV_COOP], \r\n            T.INT_ID_LOTE_DO_FECHAMENTO ");
-            viewString.Append("AS [movimentos_produtos_contabeis.INT_ID_LOTE_DO_FECHAMENTO], \r\n            T.IN");
-            viewString.Append("T_ID_NOTA_DE_ORIGEM AS [movimentos_produtos_contabeis.INT_ID_NOTA_DE_ORIGEM], \r\n");
-            viewString.Append("            T.INT_ID_CADASTRO_ENTRADA AS [movimentos_produtos_contabeis.INT_ID_C");
-            viewString.Append("ADASTRO_ENTRADA], \r\n            T.INT_ORIGEM_DO_PRODUTO AS [movimentos_produtos_");
-            viewString.Append("contabeis.INT_ORIGEM_DO_PRODUTO], \r\n            T.INT_ID_COMPLEMENTACOES_LOTE AS");
-            viewString.Append(" [movimentos_produtos_contabeis.INT_ID_COMPLEMENTACOES_LOTE], \r\n            T.IN");
-            viewString.Append("T_ID_LOTE_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_LOTE_PRODUTO], \r\n    ");
-            viewString.Append("        T.DECIMAL_QTD AS [movimentos_produtos_contabeis.DECIMAL_QTD], \r\n        ");
-            viewString.Append("    T.INT_ID_MATERIA_PRIMA_UTILIZADA AS [movimentos_produtos_contabeis.INT_ID_MA");
-            viewString.Append("TERIA_PRIMA_UTILIZADA], \r\n            T.INT_ID_CONTAS_A_PAGAR AS [movimentos_pro");
-            viewString.Append("dutos_contabeis.INT_ID_CONTAS_A_PAGAR], \r\n            T.DECIMAL_VALOR AS [movime");
-            viewString.Append("ntos_produtos_contabeis.DECIMAL_VALOR], \r\n            T.INT_ID_VENDA_PRESTACAO A");
-            viewString.Append("S [movimentos_produtos_contabeis.INT_ID_VENDA_PRESTACAO], \r\n            T.DATA_L");
-            viewString.Append("ANCAMENTO AS [movimentos_produtos_contabeis.DATA_LANCAMENTO], \r\n            T.IN");
-            viewString.Append("T_ID_FUNCIONARIO AS [movimentos_produtos_contabeis.INT_ID_FUNCIONARIO], \r\n      ");
-            viewString.Append("      T.INT_ID_EMPRESA AS [movimentos_produtos_contabeis.INT_ID_EMPRESA], \r\n    ");
-            viewString.Append("        T.INT_ID_CFOP AS [movimentos_produtos_contabeis.INT_ID_CFOP], \r\n        ");
-            viewString.Append("    T.DECIMAL_PIS AS [movimentos_produtos_contabeis.DECIMAL_PIS], \r\n            ");
-            viewString.Append("T.DECIMAL_COFINS AS [movimentos_produtos_contabeis.DECIMAL_COFINS], \r\n          ");
-            viewString.Append("  T.DECIMAL_ICMS AS [movimentos_produtos_contabeis.DECIMAL_ICMS], \r\n            ");
-            viewString.Append("T.DECIMAL_PISST AS [movimentos_produtos_contabeis.DECIMAL_PISST], \r\n            ");
-            viewString.Append("T.DECIMAL_COFINSST AS [movimentos_produtos_contabeis.DECIMAL_COFINSST], \r\n      ");
-            viewString.Append("      T.DECIMAL_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_ICMSST], \r\n    ");
-            viewString.Append("        T.DECIMAL_IPI AS [movimentos_produtos_contabeis.DECIMAL_IPI], \r\n        ");
-            viewString.Append("    T.DECIMAL_ICMS_PARTILHA AS [movimentos_produtos_contabeis.DECIMAL_ICMS_PARTI");
-            viewString.Append("LHA], \r\n            T.TXT_ICMS_CST AS [movimentos_produtos_contabeis.TXT_ICMS_CS");
-            viewString.Append("T], \r\n            T.TXT_ORIGEM_ICMS AS [movimentos_produtos_contabeis.TXT_ORIGEM");
-            viewString.Append("_ICMS], \r\n            T.TXT_ICMS_DESONERACAO AS [movimentos_produtos_contabeis.T");
-            viewString.Append("XT_ICMS_DESONERACAO], \r\n            T.TXT_MODALIDADE_DA_BC AS [movimentos_produt");
-            viewString.Append("os_contabeis.TXT_MODALIDADE_DA_BC], \r\n            T.DECIMAL_ALIQUOTA_ICMS AS [mo");
-            viewString.Append("vimentos_produtos_contabeis.DECIMAL_ALIQUOTA_ICMS], \r\n            T.DECIMAL_REDU");
-            viewString.Append("CAO_BC_ICMS AS [movimentos_produtos_contabeis.DECIMAL_REDUCAO_BC_ICMS], \r\n      ");
-            viewString.Append("      T.DECIMAL_BC_OPERACAO_PROPRIA AS [movimentos_produtos_contabeis.DECIMAL_BC");
-            viewString.Append("_OPERACAO_PROPRIA], \r\n            T.TXT_MODALIDADE_DE_DET_DA_BC_ICMSST AS [movim");
-            viewString.Append("entos_produtos_contabeis.TXT_MODALIDADE_DE_DET_DA_BC_ICMSST], \r\n            T.DE");
-            viewString.Append("CIMAL_ALIQUOTA_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_ICMSST]");
-            viewString.Append(", \r\n            T.DECIMAL_REDUCAO_BC_ICMSST AS [movimentos_produtos_contabeis.DE");
-            viewString.Append("CIMAL_REDUCAO_BC_ICMSST], \r\n            T.DECIMAL_MVA AS [movimentos_produtos_co");
-            viewString.Append("ntabeis.DECIMAL_MVA], \r\n            T.TXT_PIS_CST AS [movimentos_produtos_contab");
-            viewString.Append("eis.TXT_PIS_CST], \r\n            T.DECIMAL_ALIQUOTA_PIS AS [movimentos_produtos_c");
-            viewString.Append("ontabeis.DECIMAL_ALIQUOTA_PIS], \r\n            T.DECIMAL_VLR_UN_PIS AS [movimento");
-            viewString.Append("s_produtos_contabeis.DECIMAL_VLR_UN_PIS], \r\n            T.BOOL_PISST AS [movimen");
-            viewString.Append("tos_produtos_contabeis.BOOL_PISST], \r\n            T.DECIMAL_ALIQUOTA_PISST AS [m");
-            viewString.Append("ovimentos_produtos_contabeis.DECIMAL_ALIQUOTA_PISST], \r\n            T.DECIMAL_VL");
-            viewString.Append("R_UN_PISST AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_PISST], \r\n          ");
-            viewString.Append("  T.TXT_CST_COFINS AS [movimentos_produtos_contabeis.TXT_CST_COFINS], \r\n        ");
-            viewString.Append("    T.DECIMAL_ALIQUOTA_COFINS AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA");
-            viewString.Append("_COFINS], \r\n            T.DECIMAL_VLR_UN_COFINS AS [movimentos_produtos_contabei");
-            viewString.Append("s.DECIMAL_VLR_UN_COFINS], \r\n            T.BOOL_COFINSST AS [movimentos_produtos_");
-            viewString.Append("contabeis.BOOL_COFINSST], \r\n            T.DECIMAL_ALIQUOTA_COFINSST AS [moviment");
-            viewString.Append("os_produtos_contabeis.DECIMAL_ALIQUOTA_COFINSST], \r\n            T.DECIMAL_VLR_UN");
-            viewString.Append("_COFINSST AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_COFINSST], \r\n        ");
-            viewString.Append("    T.DECIMAL_ALIQUOTA_IPI AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_IP");
-            viewString.Append("I], \r\n            T.DECIMAL_VLR_UN_IPI AS [movimentos_produtos_contabeis.DECIMAL");
-            viewString.Append("_VLR_UN_IPI], \r\n            T.TXT_ENQUADRAMENTO_IPI AS [movimentos_produtos_cont");
-            viewString.Append("abeis.TXT_ENQUADRAMENTO_IPI], \r\n            T.DECIMAL_MULTA AS [movimentos_produ");
-            viewString.Append("tos_contabeis.DECIMAL_MULTA], \r\n            T.DECIMAL_SEGURO AS [movimentos_prod");
-            viewString.Append("utos_contabeis.DECIMAL_SEGURO], \r\n            T.DECIMAL_JUROS AS [movimentos_pro");
-            viewString.Append("dutos_contabeis.DECIMAL_JUROS], \r\n            T.DECIMAL_DESCONTO AS [movimentos_");
-            viewString.Append("produtos_contabeis.DECIMAL_DESCONTO], \r\n            T.DECIMAL_FRETE AS [moviment");
-            viewString.Append("os_produtos_contabeis.DECIMAL_FRETE], \r\n            T.DECIMAL_VLR_UN AS [movimen");
-            viewString.Append("tos_produtos_contabeis.DECIMAL_VLR_UN], \r\n            T.TXT_NATUREZA_DA_RECEITA ");
-            viewString.Append("AS [movimentos_produtos_contabeis.TXT_NATUREZA_DA_RECEITA], \r\n            T.INT_");
-            viewString.Append("ID_NOTA_FISCAL AS [movimentos_produtos_contabeis.INT_ID_NOTA_FISCAL], \r\n        ");
-            viewString.Append("    T.DECIMAL_BC_ICMS AS [movimentos_produtos_contabeis.DECIMAL_BC_ICMS], \r\n    ");
-            viewString.Append("        T.DECIMAL_BC_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_BC_ICMSST]");
-            viewString.Append(", \r\n            T.TXT_CST_IPI AS [movimentos_produtos_contabeis.TXT_CST_IPI], \r\n");
-            viewString.Append("            T.DECIMAL_ALIQUOTA_INTERNA_PARA_CALCULO_DIFAL AS [movimentos_produto");
-            viewString.Append("s_contabeis.DECIMAL_ALIQUOTA_INTERNA_PARA_CALCULO_DIFAL], \r\n            T.BOOL_R");
-            viewString.Append("ETORNO_INDUSTRIALIZACAO AS [movimentos_produtos_contabeis.BOOL_RETORNO_INDUSTRIA");
-            viewString.Append("LIZACAO], \r\n            T.INT_ID_LOTE_REMESSA_RASTREAR_RETORNO AS [movimentos_pr");
-            viewString.Append("odutos_contabeis.INT_ID_LOTE_REMESSA_RASTREAR_RETORNO], \r\n            T.INT_ID_N");
-            viewString.Append("OTA_CANCELADA AS [movimentos_produtos_contabeis.INT_ID_NOTA_CANCELADA], \r\n      ");
-            viewString.Append("      T.INT_ID_NOTA_ORIGEM_DO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_N");
-            viewString.Append("OTA_ORIGEM_DO_PRODUTO], \r\n            T.TXT_IND_ADD_PROD AS [movimentos_produtos");
-            viewString.Append("_contabeis.TXT_IND_ADD_PROD], \r\n            T.INT_ID_SOLICITACAO_RETIRADA AS [mo");
-            viewString.Append("vimentos_produtos_contabeis.INT_ID_SOLICITACAO_RETIRADA], \r\n            T.DECIMA");
-            viewString.Append("L_TAXA_DOLAR AS [movimentos_produtos_contabeis.DECIMAL_TAXA_DOLAR], \r\n          ");
-            viewString.Append("  T.INT_ID_ALMOXARIFADO AS [movimentos_produtos_contabeis.INT_ID_ALMOXARIFADO], ");
-            viewString.Append("\r\n            T.INT_ID_TRANSFERENCIA_PRODUTO AS [movimentos_produtos_contabeis.I");
-            viewString.Append("NT_ID_TRANSFERENCIA_PRODUTO], \r\n            T.INT_ID_PROCEDIMENTO AS [movimentos");
-            viewString.Append("_produtos_contabeis.INT_ID_PROCEDIMENTO], \r\n            T.INT_ID_DEVOLUCAO_COMPR");
-            viewString.Append("A AS [movimentos_produtos_contabeis.INT_ID_DEVOLUCAO_COMPRA], \r\n            T.IN");
-            viewString.Append("T_ID_TRANSFERENCIA_ALMOXARIFADO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID");
-            viewString.Append("_TRANSFERENCIA_ALMOXARIFADO_PRODUTO], \r\n            T.CHAR_TIPO_NOTA AS [movimen");
-            viewString.Append("tos_produtos_contabeis.CHAR_TIPO_NOTA], \r\n            T.INT_ID_COTACAO_ITEM AS [");
-            viewString.Append("movimentos_produtos_contabeis.INT_ID_COTACAO_ITEM], \r\n            T.INT_ID_RESUL");
-            viewString.Append("TADO_REBENEFICIO_NOTA_FILIAL AS [movimentos_produtos_contabeis.INT_ID_RESULTADO_");
-            viewString.Append("REBENEFICIO_NOTA_FILIAL], \r\n            T.INT_ID_LOTE_ENTRADA_NOTA_FILIAL AS [mo");
-            viewString.Append("vimentos_produtos_contabeis.INT_ID_LOTE_ENTRADA_NOTA_FILIAL], \r\n            T.IN");
-            viewString.Append("T_ID_AUTORIZACAO_DE__CARREGAMENTO_NOTA_FILIAL AS [movimentos_produtos_contabeis.");
-            viewString.Append("INT_ID_AUTORIZACAO_DE _CARREGAMENTO_NOTA_FILIAL], \r\n            True AS _from0\r\n");
+            viewString.Append("ID_AUTORIZACAO_DE _CARREGAMENTO_NOTA_FILIAL], T1.[movimentos_produtos_contabeis.");
+            viewString.Append("DECIMAL_VALOR_PREMIO_FT])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS ");
+            viewString.Append("[movimentos_produtos_contabeis.INT_ID], \r\n            T.INT_CODIGO_CONTABIL AS [");
+            viewString.Append("movimentos_produtos_contabeis.INT_CODIGO_CONTABIL], \r\n            T.DATE_DATA_NF");
+            viewString.Append(" AS [movimentos_produtos_contabeis.DATE_DATA_NF], \r\n            T.INT_NF AS [mov");
+            viewString.Append("imentos_produtos_contabeis.INT_NF], \r\n            T.BOOL_ENTRADA_SAIDA AS [movim");
+            viewString.Append("entos_produtos_contabeis.BOOL_ENTRADA_SAIDA], \r\n            T.INT_ID_DOC AS [mov");
+            viewString.Append("imentos_produtos_contabeis.INT_ID_DOC], \r\n            T.CHAR_DOC AS [movimentos_");
+            viewString.Append("produtos_contabeis.CHAR_DOC], \r\n            T.BOOL_ATIVO_EXCLUIDO AS [movimentos");
+            viewString.Append("_produtos_contabeis.BOOL_ATIVO_EXCLUIDO], \r\n            T.BOOL_COMPRA_COMPL AS [");
+            viewString.Append("movimentos_produtos_contabeis.BOOL_COMPRA_COMPL], \r\n            T.INT_ID_LANCAME");
+            viewString.Append("NTO_EXTRA AS [movimentos_produtos_contabeis.INT_ID_LANCAMENTO_EXTRA], \r\n        ");
+            viewString.Append("    T.INT_ID_AUTORIZACAO_DEV_COOP AS [movimentos_produtos_contabeis.INT_ID_AUTOR");
+            viewString.Append("IZACAO_DEV_COOP], \r\n            T.INT_ID_LOTE_DO_FECHAMENTO AS [movimentos_produ");
+            viewString.Append("tos_contabeis.INT_ID_LOTE_DO_FECHAMENTO], \r\n            T.INT_ID_NOTA_DE_ORIGEM ");
+            viewString.Append("AS [movimentos_produtos_contabeis.INT_ID_NOTA_DE_ORIGEM], \r\n            T.INT_ID");
+            viewString.Append("_CADASTRO_ENTRADA AS [movimentos_produtos_contabeis.INT_ID_CADASTRO_ENTRADA], \r\n");
+            viewString.Append("            T.INT_ORIGEM_DO_PRODUTO AS [movimentos_produtos_contabeis.INT_ORIGEM");
+            viewString.Append("_DO_PRODUTO], \r\n            T.INT_ID_COMPLEMENTACOES_LOTE AS [movimentos_produto");
+            viewString.Append("s_contabeis.INT_ID_COMPLEMENTACOES_LOTE], \r\n            T.INT_ID_LOTE_PRODUTO AS");
+            viewString.Append(" [movimentos_produtos_contabeis.INT_ID_LOTE_PRODUTO], \r\n            T.DECIMAL_QT");
+            viewString.Append("D AS [movimentos_produtos_contabeis.DECIMAL_QTD], \r\n            T.INT_ID_MATERIA");
+            viewString.Append("_PRIMA_UTILIZADA AS [movimentos_produtos_contabeis.INT_ID_MATERIA_PRIMA_UTILIZAD");
+            viewString.Append("A], \r\n            T.INT_ID_CONTAS_A_PAGAR AS [movimentos_produtos_contabeis.INT_");
+            viewString.Append("ID_CONTAS_A_PAGAR], \r\n            T.DECIMAL_VALOR AS [movimentos_produtos_contab");
+            viewString.Append("eis.DECIMAL_VALOR], \r\n            T.INT_ID_VENDA_PRESTACAO AS [movimentos_produt");
+            viewString.Append("os_contabeis.INT_ID_VENDA_PRESTACAO], \r\n            T.DATA_LANCAMENTO AS [movime");
+            viewString.Append("ntos_produtos_contabeis.DATA_LANCAMENTO], \r\n            T.INT_ID_FUNCIONARIO AS ");
+            viewString.Append("[movimentos_produtos_contabeis.INT_ID_FUNCIONARIO], \r\n            T.INT_ID_EMPRE");
+            viewString.Append("SA AS [movimentos_produtos_contabeis.INT_ID_EMPRESA], \r\n            T.INT_ID_CFO");
+            viewString.Append("P AS [movimentos_produtos_contabeis.INT_ID_CFOP], \r\n            T.DECIMAL_PIS AS");
+            viewString.Append(" [movimentos_produtos_contabeis.DECIMAL_PIS], \r\n            T.DECIMAL_COFINS AS ");
+            viewString.Append("[movimentos_produtos_contabeis.DECIMAL_COFINS], \r\n            T.DECIMAL_ICMS AS ");
+            viewString.Append("[movimentos_produtos_contabeis.DECIMAL_ICMS], \r\n            T.DECIMAL_PISST AS [");
+            viewString.Append("movimentos_produtos_contabeis.DECIMAL_PISST], \r\n            T.DECIMAL_COFINSST A");
+            viewString.Append("S [movimentos_produtos_contabeis.DECIMAL_COFINSST], \r\n            T.DECIMAL_ICMS");
+            viewString.Append("ST AS [movimentos_produtos_contabeis.DECIMAL_ICMSST], \r\n            T.DECIMAL_IP");
+            viewString.Append("I AS [movimentos_produtos_contabeis.DECIMAL_IPI], \r\n            T.DECIMAL_ICMS_P");
+            viewString.Append("ARTILHA AS [movimentos_produtos_contabeis.DECIMAL_ICMS_PARTILHA], \r\n            ");
+            viewString.Append("T.TXT_ICMS_CST AS [movimentos_produtos_contabeis.TXT_ICMS_CST], \r\n            T.");
+            viewString.Append("TXT_ORIGEM_ICMS AS [movimentos_produtos_contabeis.TXT_ORIGEM_ICMS], \r\n          ");
+            viewString.Append("  T.TXT_ICMS_DESONERACAO AS [movimentos_produtos_contabeis.TXT_ICMS_DESONERACAO]");
+            viewString.Append(", \r\n            T.TXT_MODALIDADE_DA_BC AS [movimentos_produtos_contabeis.TXT_MOD");
+            viewString.Append("ALIDADE_DA_BC], \r\n            T.DECIMAL_ALIQUOTA_ICMS AS [movimentos_produtos_co");
+            viewString.Append("ntabeis.DECIMAL_ALIQUOTA_ICMS], \r\n            T.DECIMAL_REDUCAO_BC_ICMS AS [movi");
+            viewString.Append("mentos_produtos_contabeis.DECIMAL_REDUCAO_BC_ICMS], \r\n            T.DECIMAL_BC_O");
+            viewString.Append("PERACAO_PROPRIA AS [movimentos_produtos_contabeis.DECIMAL_BC_OPERACAO_PROPRIA], ");
+            viewString.Append("\r\n            T.TXT_MODALIDADE_DE_DET_DA_BC_ICMSST AS [movimentos_produtos_conta");
+            viewString.Append("beis.TXT_MODALIDADE_DE_DET_DA_BC_ICMSST], \r\n            T.DECIMAL_ALIQUOTA_ICMSS");
+            viewString.Append("T AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_ICMSST], \r\n            T.DE");
+            viewString.Append("CIMAL_REDUCAO_BC_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_REDUCAO_BC_ICM");
+            viewString.Append("SST], \r\n            T.DECIMAL_MVA AS [movimentos_produtos_contabeis.DECIMAL_MVA]");
+            viewString.Append(", \r\n            T.TXT_PIS_CST AS [movimentos_produtos_contabeis.TXT_PIS_CST], \r\n");
+            viewString.Append("            T.DECIMAL_ALIQUOTA_PIS AS [movimentos_produtos_contabeis.DECIMAL_ALI");
+            viewString.Append("QUOTA_PIS], \r\n            T.DECIMAL_VLR_UN_PIS AS [movimentos_produtos_contabeis");
+            viewString.Append(".DECIMAL_VLR_UN_PIS], \r\n            T.BOOL_PISST AS [movimentos_produtos_contabe");
+            viewString.Append("is.BOOL_PISST], \r\n            T.DECIMAL_ALIQUOTA_PISST AS [movimentos_produtos_c");
+            viewString.Append("ontabeis.DECIMAL_ALIQUOTA_PISST], \r\n            T.DECIMAL_VLR_UN_PISST AS [movim");
+            viewString.Append("entos_produtos_contabeis.DECIMAL_VLR_UN_PISST], \r\n            T.TXT_CST_COFINS A");
+            viewString.Append("S [movimentos_produtos_contabeis.TXT_CST_COFINS], \r\n            T.DECIMAL_ALIQUO");
+            viewString.Append("TA_COFINS AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_COFINS], \r\n        ");
+            viewString.Append("    T.DECIMAL_VLR_UN_COFINS AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_COF");
+            viewString.Append("INS], \r\n            T.BOOL_COFINSST AS [movimentos_produtos_contabeis.BOOL_COFIN");
+            viewString.Append("SST], \r\n            T.DECIMAL_ALIQUOTA_COFINSST AS [movimentos_produtos_contabei");
+            viewString.Append("s.DECIMAL_ALIQUOTA_COFINSST], \r\n            T.DECIMAL_VLR_UN_COFINSST AS [movime");
+            viewString.Append("ntos_produtos_contabeis.DECIMAL_VLR_UN_COFINSST], \r\n            T.DECIMAL_ALIQUO");
+            viewString.Append("TA_IPI AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_IPI], \r\n            T.");
+            viewString.Append("DECIMAL_VLR_UN_IPI AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_IPI], \r\n    ");
+            viewString.Append("        T.TXT_ENQUADRAMENTO_IPI AS [movimentos_produtos_contabeis.TXT_ENQUADRAME");
+            viewString.Append("NTO_IPI], \r\n            T.DECIMAL_MULTA AS [movimentos_produtos_contabeis.DECIMA");
+            viewString.Append("L_MULTA], \r\n            T.DECIMAL_SEGURO AS [movimentos_produtos_contabeis.DECIM");
+            viewString.Append("AL_SEGURO], \r\n            T.DECIMAL_JUROS AS [movimentos_produtos_contabeis.DECI");
+            viewString.Append("MAL_JUROS], \r\n            T.DECIMAL_DESCONTO AS [movimentos_produtos_contabeis.D");
+            viewString.Append("ECIMAL_DESCONTO], \r\n            T.DECIMAL_FRETE AS [movimentos_produtos_contabei");
+            viewString.Append("s.DECIMAL_FRETE], \r\n            T.DECIMAL_VLR_UN AS [movimentos_produtos_contabe");
+            viewString.Append("is.DECIMAL_VLR_UN], \r\n            T.TXT_NATUREZA_DA_RECEITA AS [movimentos_produ");
+            viewString.Append("tos_contabeis.TXT_NATUREZA_DA_RECEITA], \r\n            T.INT_ID_NOTA_FISCAL AS [m");
+            viewString.Append("ovimentos_produtos_contabeis.INT_ID_NOTA_FISCAL], \r\n            T.DECIMAL_BC_ICM");
+            viewString.Append("S AS [movimentos_produtos_contabeis.DECIMAL_BC_ICMS], \r\n            T.DECIMAL_BC");
+            viewString.Append("_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_BC_ICMSST], \r\n            T.TX");
+            viewString.Append("T_CST_IPI AS [movimentos_produtos_contabeis.TXT_CST_IPI], \r\n            T.DECIMA");
+            viewString.Append("L_ALIQUOTA_INTERNA_PARA_CALCULO_DIFAL AS [movimentos_produtos_contabeis.DECIMAL_");
+            viewString.Append("ALIQUOTA_INTERNA_PARA_CALCULO_DIFAL], \r\n            T.BOOL_RETORNO_INDUSTRIALIZA");
+            viewString.Append("CAO AS [movimentos_produtos_contabeis.BOOL_RETORNO_INDUSTRIALIZACAO], \r\n        ");
+            viewString.Append("    T.INT_ID_LOTE_REMESSA_RASTREAR_RETORNO AS [movimentos_produtos_contabeis.INT");
+            viewString.Append("_ID_LOTE_REMESSA_RASTREAR_RETORNO], \r\n            T.INT_ID_NOTA_CANCELADA AS [mo");
+            viewString.Append("vimentos_produtos_contabeis.INT_ID_NOTA_CANCELADA], \r\n            T.INT_ID_NOTA_");
+            viewString.Append("ORIGEM_DO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_NOTA_ORIGEM_DO_PRODUT");
+            viewString.Append("O], \r\n            T.TXT_IND_ADD_PROD AS [movimentos_produtos_contabeis.TXT_IND_A");
+            viewString.Append("DD_PROD], \r\n            T.INT_ID_SOLICITACAO_RETIRADA AS [movimentos_produtos_co");
+            viewString.Append("ntabeis.INT_ID_SOLICITACAO_RETIRADA], \r\n            T.DECIMAL_TAXA_DOLAR AS [mov");
+            viewString.Append("imentos_produtos_contabeis.DECIMAL_TAXA_DOLAR], \r\n            T.INT_ID_ALMOXARIF");
+            viewString.Append("ADO AS [movimentos_produtos_contabeis.INT_ID_ALMOXARIFADO], \r\n            T.INT_");
+            viewString.Append("ID_TRANSFERENCIA_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_TRANSFERENCIA_");
+            viewString.Append("PRODUTO], \r\n            T.INT_ID_PROCEDIMENTO AS [movimentos_produtos_contabeis.");
+            viewString.Append("INT_ID_PROCEDIMENTO], \r\n            T.INT_ID_DEVOLUCAO_COMPRA AS [movimentos_pro");
+            viewString.Append("dutos_contabeis.INT_ID_DEVOLUCAO_COMPRA], \r\n            T.INT_ID_TRANSFERENCIA_A");
+            viewString.Append("LMOXARIFADO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_TRANSFERENCIA_ALMOX");
+            viewString.Append("ARIFADO_PRODUTO], \r\n            T.CHAR_TIPO_NOTA AS [movimentos_produtos_contabe");
+            viewString.Append("is.CHAR_TIPO_NOTA], \r\n            T.INT_ID_COTACAO_ITEM AS [movimentos_produtos_");
+            viewString.Append("contabeis.INT_ID_COTACAO_ITEM], \r\n            T.INT_ID_RESULTADO_REBENEFICIO_NOT");
+            viewString.Append("A_FILIAL AS [movimentos_produtos_contabeis.INT_ID_RESULTADO_REBENEFICIO_NOTA_FIL");
+            viewString.Append("IAL], \r\n            T.INT_ID_LOTE_ENTRADA_NOTA_FILIAL AS [movimentos_produtos_co");
+            viewString.Append("ntabeis.INT_ID_LOTE_ENTRADA_NOTA_FILIAL], \r\n            T.INT_ID_AUTORIZACAO_DE_");
+            viewString.Append("_CARREGAMENTO_NOTA_FILIAL AS [movimentos_produtos_contabeis.INT_ID_AUTORIZACAO_D");
+            viewString.Append("E _CARREGAMENTO_NOTA_FILIAL], \r\n            T.DECIMAL_VALOR_PREMIO_FT AS [movime");
+            viewString.Append("ntos_produtos_contabeis.DECIMAL_VALOR_PREMIO_FT], \r\n            True AS _from0\r\n");
             viewString.Append("        FROM db_coopfamEntities.movimentos_produtos_contabeis AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.movimentos_produtos_contabeis", viewString.ToString());
         }
@@ -7210,7 +7478,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView161()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView163()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.norma", @"
     SELECT VALUE -- Constructing norma
@@ -7231,7 +7499,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.norma_cooperado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView162()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView164()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.norma_cooperado", @"
     SELECT VALUE -- Constructing norma_cooperado
@@ -7249,7 +7517,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.norma_talhao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView163()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView165()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.norma_talhao", @"
     SELECT VALUE -- Constructing norma_talhao
@@ -7272,7 +7540,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.norma_talhao_historico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView164()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView166()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.norma_talhao_historico", @"
     SELECT VALUE -- Constructing norma_talhao_historico
@@ -7290,7 +7558,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.normas_resultante_instrucao_preparo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView165()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView167()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.normas_resultante_instrucao_preparo", @"
     SELECT VALUE -- Constructing normas_resultante_instrucao_preparo
@@ -7309,7 +7577,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.nota_fiscal
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView166()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView168()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(5266);
             viewString.Append("\r\n    SELECT VALUE -- Constructing nota_fiscal\r\n        [db_coopfamModel.Store.n");
@@ -7384,7 +7652,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.notas_canceladas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView167()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView169()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.notas_canceladas", "\r\n    SELECT VALUE -- Constructing notas_canceladas\r\n        [db_coopfamModel.Sto" +
                     "re.notas_canceladas](T1.[notas_canceladas.INT_ID], T1.[notas_canceladas.INT_NOTA" +
@@ -7412,7 +7680,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.notas_de_origem
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView168()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView170()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.notas_de_origem", @"
     SELECT VALUE -- Constructing notas_de_origem
@@ -7437,7 +7705,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.notas_para_assinar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView169()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView171()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.notas_para_assinar", @"
     SELECT VALUE -- Constructing notas_para_assinar
@@ -7457,11 +7725,30 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.ods
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView172()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ods", @"
+    SELECT VALUE -- Constructing ods
+        [db_coopfamModel.Store.ods](T1.[ods.INT_ID], T1.[ods.TXT_DESCRICAO], T1.[ods.TXT_EXPLICACAO], T1.[ods.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [ods.INT_ID], 
+            T.TXT_DESCRICAO AS [ods.TXT_DESCRICAO], 
+            T.TXT_EXPLICACAO AS [ods.TXT_EXPLICACAO], 
+            T.BOOL_ATIVO AS [ods.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamEntities.ods AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ordem_de_producao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView170()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView173()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(8083);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(8316);
             viewString.Append("\r\n    SELECT VALUE -- Constructing ordem_de_producao\r\n        [db_coopfamModel.S");
             viewString.Append("tore.ordem_de_producao](T1.[ordem_de_producao.INT_ID], T1.[ordem_de_producao.INT");
             viewString.Append("_ID_CLIENTE_FORNECEDOR], T1.[ordem_de_producao.TXT_NUMERO_OP], T1.[ordem_de_prod");
@@ -7498,79 +7785,81 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("ERADO], T1.[ordem_de_producao.BOOL_SELECIONAR_LOTE_EM_ESTOQUE], T1.[ordem_de_pro");
             viewString.Append("ducao.TXT_TIPO_SERVICO], T1.[ordem_de_producao.BOOL_NAO_SERA_NECESSARIO_ROTULAR]");
             viewString.Append(", T1.[ordem_de_producao.INT_ID_EMPACOTADEIRA], T1.[ordem_de_producao.INT_ID_REVI");
-            viewString.Append("SAO_POP])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [ordem_de_produc");
-            viewString.Append("ao.INT_ID], \r\n            T.INT_ID_CLIENTE_FORNECEDOR AS [ordem_de_producao.INT_");
-            viewString.Append("ID_CLIENTE_FORNECEDOR], \r\n            T.TXT_NUMERO_OP AS [ordem_de_producao.TXT_");
-            viewString.Append("NUMERO_OP], \r\n            T.BOOL_COOPERADO AS [ordem_de_producao.BOOL_COOPERADO]");
-            viewString.Append(", \r\n            T.INT_ID_COOPERAD AS [ordem_de_producao.INT_ID_COOPERAD], \r\n    ");
-            viewString.Append("        T.BOOL_ORG_CONV AS [ordem_de_producao.BOOL_ORG_CONV], \r\n            T.IN");
-            viewString.Append("T_ID_SUBTIPO AS [ordem_de_producao.INT_ID_SUBTIPO], \r\n            T.DECIMAL_QTD ");
-            viewString.Append("AS [ordem_de_producao.DECIMAL_QTD], \r\n            T.DATE_LANCAMENTO AS [ordem_de");
-            viewString.Append("_producao.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNCIONARIO AS [ordem_de_prod");
-            viewString.Append("ucao.INT_ID_FUNCIONARIO], \r\n            T.DATE_ORDEM_PRODUCAO AS [ordem_de_produ");
-            viewString.Append("cao.DATE_ORDEM_PRODUCAO], \r\n            T.DATE_FINALIZOU AS [ordem_de_producao.D");
-            viewString.Append("ATE_FINALIZOU], \r\n            T.BOOL_LIMPEZA AS [ordem_de_producao.BOOL_LIMPEZA]");
-            viewString.Append(", \r\n            T.TXT_OBS_LIMPEZA AS [ordem_de_producao.TXT_OBS_LIMPEZA], \r\n    ");
-            viewString.Append("        T.INT_ID_RESPONSAVEL_LIMPEZA AS [ordem_de_producao.INT_ID_RESPONSAVEL_LI");
-            viewString.Append("MPEZA], \r\n            T.DATE_INI_TORRA AS [ordem_de_producao.DATE_INI_TORRA], \r\n");
-            viewString.Append("            T.DATE_FIM_TORRA AS [ordem_de_producao.DATE_FIM_TORRA], \r\n          ");
-            viewString.Append("  T.DATE_INI_MOINHO AS [ordem_de_producao.DATE_INI_MOINHO], \r\n            T.DATE");
-            viewString.Append("_FIM_MOINHO AS [ordem_de_producao.DATE_FIM_MOINHO], \r\n            T.BOOL_TORRADO");
-            viewString.Append("_MOIDO_ESPRESSO AS [ordem_de_producao.BOOL_TORRADO_MOIDO_ESPRESSO], \r\n          ");
-            viewString.Append("  T.DATE_INI_EMPACOTADEIRA AS [ordem_de_producao.DATE_INI_EMPACOTADEIRA], \r\n    ");
-            viewString.Append("        T.DATE_FIM_EMPACOTADEIRA AS [ordem_de_producao.DATE_FIM_EMPACOTADEIRA], ");
-            viewString.Append("\r\n            T.DATE_INI_ROTULAGEM AS [ordem_de_producao.DATE_INI_ROTULAGEM], \r\n");
-            viewString.Append("            T.DATE_FIM_ROTULAGEM AS [ordem_de_producao.DATE_FIM_ROTULAGEM], \r\n  ");
-            viewString.Append("          T.DATE_ESTIMADO_FINALIZAR AS [ordem_de_producao.DATE_ESTIMADO_FINALIZA");
-            viewString.Append("R], \r\n            T.INT_ID_RESPONSAVEL_INDUSTRIALIZACAO AS [ordem_de_producao.IN");
-            viewString.Append("T_ID_RESPONSAVEL_INDUSTRIALIZACAO], \r\n            T.INT_ID_RESPONSAVEL_ROTULAGEM");
-            viewString.Append("_EMBALAGEM AS [ordem_de_producao.INT_ID_RESPONSAVEL_ROTULAGEM_EMBALAGEM], \r\n    ");
-            viewString.Append("        T.INT_ID_REPONSAVEL_GERAL_PELA_IND AS [ordem_de_producao.INT_ID_REPONSAV");
-            viewString.Append("EL_GERAL_PELA_IND], \r\n            T.TXT_OBS AS [ordem_de_producao.TXT_OBS], \r\n  ");
-            viewString.Append("          T.BOOL_LIMPEZA_PERIODICA AS [ordem_de_producao.BOOL_LIMPEZA_PERIODICA]");
-            viewString.Append(", \r\n            T.BOOL_LIMPEZA_iNDUSTRIA AS [ordem_de_producao.BOOL_LIMPEZA_iNDU");
-            viewString.Append("STRIA], \r\n            T.BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV AS [ordem_de_pro");
-            viewString.Append("ducao.BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV], \r\n            T.BOOL_TORRAR AS [");
-            viewString.Append("ordem_de_producao.BOOL_TORRAR], \r\n            T.BOOL_MOER AS [ordem_de_producao.");
-            viewString.Append("BOOL_MOER], \r\n            T.BOOL_EMPACOTAR AS [ordem_de_producao.BOOL_EMPACOTAR]");
-            viewString.Append(", \r\n            T.BOOL_ROTULAGEM AS [ordem_de_producao.BOOL_ROTULAGEM], \r\n      ");
-            viewString.Append("      T.INT_ID_MAQUINARIO AS [ordem_de_producao.INT_ID_MAQUINARIO], \r\n          ");
-            viewString.Append("  T.BOOL_ATIVO AS [ordem_de_producao.BOOL_ATIVO], \r\n            T.BOOL_TORRA_CLA");
-            viewString.Append("RA AS [ordem_de_producao.BOOL_TORRA_CLARA], \r\n            T.BOOL_TORRA_MEDIA AS ");
-            viewString.Append("[ordem_de_producao.BOOL_TORRA_MEDIA], \r\n            T.BOOL_TORRA_ESCURA AS [orde");
-            viewString.Append("m_de_producao.BOOL_TORRA_ESCURA], \r\n            T.TXT_DESCRICAO_DO_SERVICO AS [o");
-            viewString.Append("rdem_de_producao.TXT_DESCRICAO_DO_SERVICO], \r\n            T.TXT_STATUS AS [ordem");
-            viewString.Append("_de_producao.TXT_STATUS], \r\n            T.DATE_AVISADO AS [ordem_de_producao.DAT");
-            viewString.Append("E_AVISADO], \r\n            T.DATE_ENTREGUE AS [ordem_de_producao.DATE_ENTREGUE], ");
-            viewString.Append("\r\n            T.INT_ID_EMPRESA AS [ordem_de_producao.INT_ID_EMPRESA], \r\n        ");
-            viewString.Append("    T.INT_ID_LINHA AS [ordem_de_producao.INT_ID_LINHA], \r\n            T.INT_ID_A");
-            viewString.Append("UTORIZACAO_GENERICA AS [ordem_de_producao.INT_ID_AUTORIZACAO_GENERICA], \r\n      ");
-            viewString.Append("      T.DATE_INI_RESFRIAR AS [ordem_de_producao.DATE_INI_RESFRIAR], \r\n          ");
-            viewString.Append("  T.DATE_FIM_RESFRIAR AS [ordem_de_producao.DATE_FIM_RESFRIAR], \r\n            T.");
-            viewString.Append("INT_ID_RESPONSAVEL_RESFRIAR AS [ordem_de_producao.INT_ID_RESPONSAVEL_RESFRIAR], ");
-            viewString.Append("\r\n            T.DECIMAL_TEMPERATURA_MEDIA AS [ordem_de_producao.DECIMAL_TEMPERAT");
-            viewString.Append("URA_MEDIA], \r\n            T.DECIMAL_QTD_RESULTANTE AS [ordem_de_producao.DECIMAL");
-            viewString.Append("_QTD_RESULTANTE], \r\n            T.INT_ID_RESPONSAVEL_TORRA AS [ordem_de_producao");
-            viewString.Append(".INT_ID_RESPONSAVEL_TORRA], \r\n            T.INT_ID_RESPONSAVEL_MOAGEM AS [ordem_");
-            viewString.Append("de_producao.INT_ID_RESPONSAVEL_MOAGEM], \r\n            T.INT_ID_RESPONSAVEL_EMPAC");
-            viewString.Append("OTAR AS [ordem_de_producao.INT_ID_RESPONSAVEL_EMPACOTAR], \r\n            T.INT_ID");
-            viewString.Append("_SITUACAO_NORMA AS [ordem_de_producao.INT_ID_SITUACAO_NORMA], \r\n            T.IN");
-            viewString.Append("T_ID_PRODUTO_CONTABIL_QUE_SERA_GERADO AS [ordem_de_producao.INT_ID_PRODUTO_CONTA");
-            viewString.Append("BIL_QUE_SERA_GERADO], \r\n            T.BOOL_SELECIONAR_LOTE_EM_ESTOQUE AS [ordem_");
-            viewString.Append("de_producao.BOOL_SELECIONAR_LOTE_EM_ESTOQUE], \r\n            T.TXT_TIPO_SERVICO A");
-            viewString.Append("S [ordem_de_producao.TXT_TIPO_SERVICO], \r\n            T.BOOL_NAO_SERA_NECESSARIO");
-            viewString.Append("_ROTULAR AS [ordem_de_producao.BOOL_NAO_SERA_NECESSARIO_ROTULAR], \r\n            ");
-            viewString.Append("T.INT_ID_EMPACOTADEIRA AS [ordem_de_producao.INT_ID_EMPACOTADEIRA], \r\n          ");
-            viewString.Append("  T.INT_ID_REVISAO_POP AS [ordem_de_producao.INT_ID_REVISAO_POP], \r\n            ");
-            viewString.Append("True AS _from0\r\n        FROM db_coopfamEntities.ordem_de_producao AS T\r\n    ) AS");
-            viewString.Append(" T1");
+            viewString.Append("SAO_POP], T1.[ordem_de_producao.BOOL_FT], T1.[ordem_de_producao.DECIMAL_TAXA_DOL");
+            viewString.Append("AR_CALC_FT])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [ordem_de_pro");
+            viewString.Append("ducao.INT_ID], \r\n            T.INT_ID_CLIENTE_FORNECEDOR AS [ordem_de_producao.I");
+            viewString.Append("NT_ID_CLIENTE_FORNECEDOR], \r\n            T.TXT_NUMERO_OP AS [ordem_de_producao.T");
+            viewString.Append("XT_NUMERO_OP], \r\n            T.BOOL_COOPERADO AS [ordem_de_producao.BOOL_COOPERA");
+            viewString.Append("DO], \r\n            T.INT_ID_COOPERAD AS [ordem_de_producao.INT_ID_COOPERAD], \r\n ");
+            viewString.Append("           T.BOOL_ORG_CONV AS [ordem_de_producao.BOOL_ORG_CONV], \r\n            T");
+            viewString.Append(".INT_ID_SUBTIPO AS [ordem_de_producao.INT_ID_SUBTIPO], \r\n            T.DECIMAL_Q");
+            viewString.Append("TD AS [ordem_de_producao.DECIMAL_QTD], \r\n            T.DATE_LANCAMENTO AS [ordem");
+            viewString.Append("_de_producao.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNCIONARIO AS [ordem_de_p");
+            viewString.Append("roducao.INT_ID_FUNCIONARIO], \r\n            T.DATE_ORDEM_PRODUCAO AS [ordem_de_pr");
+            viewString.Append("oducao.DATE_ORDEM_PRODUCAO], \r\n            T.DATE_FINALIZOU AS [ordem_de_produca");
+            viewString.Append("o.DATE_FINALIZOU], \r\n            T.BOOL_LIMPEZA AS [ordem_de_producao.BOOL_LIMPE");
+            viewString.Append("ZA], \r\n            T.TXT_OBS_LIMPEZA AS [ordem_de_producao.TXT_OBS_LIMPEZA], \r\n ");
+            viewString.Append("           T.INT_ID_RESPONSAVEL_LIMPEZA AS [ordem_de_producao.INT_ID_RESPONSAVEL");
+            viewString.Append("_LIMPEZA], \r\n            T.DATE_INI_TORRA AS [ordem_de_producao.DATE_INI_TORRA],");
+            viewString.Append(" \r\n            T.DATE_FIM_TORRA AS [ordem_de_producao.DATE_FIM_TORRA], \r\n       ");
+            viewString.Append("     T.DATE_INI_MOINHO AS [ordem_de_producao.DATE_INI_MOINHO], \r\n            T.D");
+            viewString.Append("ATE_FIM_MOINHO AS [ordem_de_producao.DATE_FIM_MOINHO], \r\n            T.BOOL_TORR");
+            viewString.Append("ADO_MOIDO_ESPRESSO AS [ordem_de_producao.BOOL_TORRADO_MOIDO_ESPRESSO], \r\n       ");
+            viewString.Append("     T.DATE_INI_EMPACOTADEIRA AS [ordem_de_producao.DATE_INI_EMPACOTADEIRA], \r\n ");
+            viewString.Append("           T.DATE_FIM_EMPACOTADEIRA AS [ordem_de_producao.DATE_FIM_EMPACOTADEIRA");
+            viewString.Append("], \r\n            T.DATE_INI_ROTULAGEM AS [ordem_de_producao.DATE_INI_ROTULAGEM],");
+            viewString.Append(" \r\n            T.DATE_FIM_ROTULAGEM AS [ordem_de_producao.DATE_FIM_ROTULAGEM], \r");
+            viewString.Append("\n            T.DATE_ESTIMADO_FINALIZAR AS [ordem_de_producao.DATE_ESTIMADO_FINAL");
+            viewString.Append("IZAR], \r\n            T.INT_ID_RESPONSAVEL_INDUSTRIALIZACAO AS [ordem_de_producao");
+            viewString.Append(".INT_ID_RESPONSAVEL_INDUSTRIALIZACAO], \r\n            T.INT_ID_RESPONSAVEL_ROTULA");
+            viewString.Append("GEM_EMBALAGEM AS [ordem_de_producao.INT_ID_RESPONSAVEL_ROTULAGEM_EMBALAGEM], \r\n ");
+            viewString.Append("           T.INT_ID_REPONSAVEL_GERAL_PELA_IND AS [ordem_de_producao.INT_ID_REPON");
+            viewString.Append("SAVEL_GERAL_PELA_IND], \r\n            T.TXT_OBS AS [ordem_de_producao.TXT_OBS], \r");
+            viewString.Append("\n            T.BOOL_LIMPEZA_PERIODICA AS [ordem_de_producao.BOOL_LIMPEZA_PERIODI");
+            viewString.Append("CA], \r\n            T.BOOL_LIMPEZA_iNDUSTRIA AS [ordem_de_producao.BOOL_LIMPEZA_i");
+            viewString.Append("NDUSTRIA], \r\n            T.BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV AS [ordem_de_");
+            viewString.Append("producao.BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV], \r\n            T.BOOL_TORRAR A");
+            viewString.Append("S [ordem_de_producao.BOOL_TORRAR], \r\n            T.BOOL_MOER AS [ordem_de_produc");
+            viewString.Append("ao.BOOL_MOER], \r\n            T.BOOL_EMPACOTAR AS [ordem_de_producao.BOOL_EMPACOT");
+            viewString.Append("AR], \r\n            T.BOOL_ROTULAGEM AS [ordem_de_producao.BOOL_ROTULAGEM], \r\n   ");
+            viewString.Append("         T.INT_ID_MAQUINARIO AS [ordem_de_producao.INT_ID_MAQUINARIO], \r\n       ");
+            viewString.Append("     T.BOOL_ATIVO AS [ordem_de_producao.BOOL_ATIVO], \r\n            T.BOOL_TORRA_");
+            viewString.Append("CLARA AS [ordem_de_producao.BOOL_TORRA_CLARA], \r\n            T.BOOL_TORRA_MEDIA ");
+            viewString.Append("AS [ordem_de_producao.BOOL_TORRA_MEDIA], \r\n            T.BOOL_TORRA_ESCURA AS [o");
+            viewString.Append("rdem_de_producao.BOOL_TORRA_ESCURA], \r\n            T.TXT_DESCRICAO_DO_SERVICO AS");
+            viewString.Append(" [ordem_de_producao.TXT_DESCRICAO_DO_SERVICO], \r\n            T.TXT_STATUS AS [or");
+            viewString.Append("dem_de_producao.TXT_STATUS], \r\n            T.DATE_AVISADO AS [ordem_de_producao.");
+            viewString.Append("DATE_AVISADO], \r\n            T.DATE_ENTREGUE AS [ordem_de_producao.DATE_ENTREGUE");
+            viewString.Append("], \r\n            T.INT_ID_EMPRESA AS [ordem_de_producao.INT_ID_EMPRESA], \r\n     ");
+            viewString.Append("       T.INT_ID_LINHA AS [ordem_de_producao.INT_ID_LINHA], \r\n            T.INT_I");
+            viewString.Append("D_AUTORIZACAO_GENERICA AS [ordem_de_producao.INT_ID_AUTORIZACAO_GENERICA], \r\n   ");
+            viewString.Append("         T.DATE_INI_RESFRIAR AS [ordem_de_producao.DATE_INI_RESFRIAR], \r\n       ");
+            viewString.Append("     T.DATE_FIM_RESFRIAR AS [ordem_de_producao.DATE_FIM_RESFRIAR], \r\n           ");
+            viewString.Append(" T.INT_ID_RESPONSAVEL_RESFRIAR AS [ordem_de_producao.INT_ID_RESPONSAVEL_RESFRIAR");
+            viewString.Append("], \r\n            T.DECIMAL_TEMPERATURA_MEDIA AS [ordem_de_producao.DECIMAL_TEMPE");
+            viewString.Append("RATURA_MEDIA], \r\n            T.DECIMAL_QTD_RESULTANTE AS [ordem_de_producao.DECI");
+            viewString.Append("MAL_QTD_RESULTANTE], \r\n            T.INT_ID_RESPONSAVEL_TORRA AS [ordem_de_produ");
+            viewString.Append("cao.INT_ID_RESPONSAVEL_TORRA], \r\n            T.INT_ID_RESPONSAVEL_MOAGEM AS [ord");
+            viewString.Append("em_de_producao.INT_ID_RESPONSAVEL_MOAGEM], \r\n            T.INT_ID_RESPONSAVEL_EM");
+            viewString.Append("PACOTAR AS [ordem_de_producao.INT_ID_RESPONSAVEL_EMPACOTAR], \r\n            T.INT");
+            viewString.Append("_ID_SITUACAO_NORMA AS [ordem_de_producao.INT_ID_SITUACAO_NORMA], \r\n            T");
+            viewString.Append(".INT_ID_PRODUTO_CONTABIL_QUE_SERA_GERADO AS [ordem_de_producao.INT_ID_PRODUTO_CO");
+            viewString.Append("NTABIL_QUE_SERA_GERADO], \r\n            T.BOOL_SELECIONAR_LOTE_EM_ESTOQUE AS [ord");
+            viewString.Append("em_de_producao.BOOL_SELECIONAR_LOTE_EM_ESTOQUE], \r\n            T.TXT_TIPO_SERVIC");
+            viewString.Append("O AS [ordem_de_producao.TXT_TIPO_SERVICO], \r\n            T.BOOL_NAO_SERA_NECESSA");
+            viewString.Append("RIO_ROTULAR AS [ordem_de_producao.BOOL_NAO_SERA_NECESSARIO_ROTULAR], \r\n         ");
+            viewString.Append("   T.INT_ID_EMPACOTADEIRA AS [ordem_de_producao.INT_ID_EMPACOTADEIRA], \r\n       ");
+            viewString.Append("     T.INT_ID_REVISAO_POP AS [ordem_de_producao.INT_ID_REVISAO_POP], \r\n         ");
+            viewString.Append("   T.BOOL_FT AS [ordem_de_producao.BOOL_FT], \r\n            T.DECIMAL_TAXA_DOLAR_");
+            viewString.Append("CALC_FT AS [ordem_de_producao.DECIMAL_TAXA_DOLAR_CALC_FT], \r\n            True AS");
+            viewString.Append(" _from0\r\n        FROM db_coopfamEntities.ordem_de_producao AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_de_producao", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ordem_de_producao_embalagens
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView171()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView174()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_de_producao_embalagens", @"
     SELECT VALUE -- Constructing ordem_de_producao_embalagens
@@ -7593,7 +7882,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ordem_de_producao_produtos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView172()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView175()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_de_producao_produtos", @"
     SELECT VALUE -- Constructing ordem_de_producao_produtos
@@ -7616,7 +7905,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ordem_de_producao_produtos_utilizados
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView173()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView176()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_de_producao_produtos_utilizados", "\r\n    SELECT VALUE -- Constructing ordem_de_producao_produtos_utilizados\r\n       " +
                     " [db_coopfamModel.Store.ordem_de_producao_produtos_utilizados](T1.[ordem_de_prod" +
@@ -7644,7 +7933,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ordem_de_producao_resultado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView174()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView177()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_de_producao_resultado", "\r\n    SELECT VALUE -- Constructing ordem_de_producao_resultado\r\n        [db_coopf" +
                     "amModel.Store.ordem_de_producao_resultado](T1.[ordem_de_producao_resultado.INT_I" +
@@ -7674,7 +7963,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ordem_de_producao_situacaonorma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView175()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView178()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_de_producao_situacaonorma", @"
     SELECT VALUE -- Constructing ordem_de_producao_situacaonorma
@@ -7693,7 +7982,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ordem_de_producao_tempo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView176()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView179()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3549);
             viewString.Append("\r\n    SELECT VALUE -- Constructing ordem_de_producao_tempo\r\n        [db_coopfamM");
@@ -7745,9 +8034,133 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.ordem_reensaque
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView180()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_reensaque", "\r\n    SELECT VALUE -- Constructing ordem_reensaque\r\n        [db_coopfamModel.Stor" +
+                    "e.ordem_reensaque](T1.[ordem_reensaque.INT_ID], T1.[ordem_reensaque.TXT_NR_ORDEM" +
+                    "], T1.[ordem_reensaque.TXT_SAFRA], T1.[ordem_reensaque.INT_ID_RESPONSAVEL], T1.[" +
+                    "ordem_reensaque.BOOL_ATIVO], T1.[ordem_reensaque.INT_ID_TIPO_SACARIA], T1.[ordem" +
+                    "_reensaque.INT_ID_CONTRATO], T1.[ordem_reensaque.INT_ID_LANCOU], T1.[ordem_reens" +
+                    "aque.DATE_LANCAMENTO], T1.[ordem_reensaque.INT_ID_ALTEROU], T1.[ordem_reensaque." +
+                    "DATE_ALTEROU], T1.[ordem_reensaque.INT_ID_EXCLUIU], T1.[ordem_reensaque.DATE_EXC" +
+                    "LUIU], T1.[ordem_reensaque.TXT_OBS], T1.[ordem_reensaque.TXT_STATUS], T1.[ordem_" +
+                    "reensaque.DATE_ORDEM])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [or" +
+                    "dem_reensaque.INT_ID], \r\n            T.TXT_NR_ORDEM AS [ordem_reensaque.TXT_NR_O" +
+                    "RDEM], \r\n            T.TXT_SAFRA AS [ordem_reensaque.TXT_SAFRA], \r\n            T" +
+                    ".INT_ID_RESPONSAVEL AS [ordem_reensaque.INT_ID_RESPONSAVEL], \r\n            T.BOO" +
+                    "L_ATIVO AS [ordem_reensaque.BOOL_ATIVO], \r\n            T.INT_ID_TIPO_SACARIA AS " +
+                    "[ordem_reensaque.INT_ID_TIPO_SACARIA], \r\n            T.INT_ID_CONTRATO AS [ordem" +
+                    "_reensaque.INT_ID_CONTRATO], \r\n            T.INT_ID_LANCOU AS [ordem_reensaque.I" +
+                    "NT_ID_LANCOU], \r\n            T.DATE_LANCAMENTO AS [ordem_reensaque.DATE_LANCAMEN" +
+                    "TO], \r\n            T.INT_ID_ALTEROU AS [ordem_reensaque.INT_ID_ALTEROU], \r\n     " +
+                    "       T.DATE_ALTEROU AS [ordem_reensaque.DATE_ALTEROU], \r\n            T.INT_ID_" +
+                    "EXCLUIU AS [ordem_reensaque.INT_ID_EXCLUIU], \r\n            T.DATE_EXCLUIU AS [or" +
+                    "dem_reensaque.DATE_EXCLUIU], \r\n            T.TXT_OBS AS [ordem_reensaque.TXT_OBS" +
+                    "], \r\n            T.TXT_STATUS AS [ordem_reensaque.TXT_STATUS], \r\n            T.D" +
+                    "ATE_ORDEM AS [ordem_reensaque.DATE_ORDEM], \r\n            True AS _from0\r\n       " +
+                    " FROM db_coopfamEntities.ordem_reensaque AS T\r\n    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.ordem_reensaque_lotes
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView181()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_reensaque_lotes", "\r\n    SELECT VALUE -- Constructing ordem_reensaque_lotes\r\n        [db_coopfamMode" +
+                    "l.Store.ordem_reensaque_lotes](T1.[ordem_reensaque_lotes.INT_ID], T1.[ordem_reen" +
+                    "saque_lotes.INT_ID_ORDEM_REENSAQUE], T1.[ordem_reensaque_lotes.INT_ID_CADASTRO_E" +
+                    "NTRADA], T1.[ordem_reensaque_lotes.INT_ID_LOTE_ARMAZEN_TERCEIROS], T1.[ordem_ree" +
+                    "nsaque_lotes.INT_ID_LOTE_RESULTADO_REBENEFICIO], T1.[ordem_reensaque_lotes.DECIM" +
+                    "AL_SCS], T1.[ordem_reensaque_lotes.BOOL_ATIVO], T1.[ordem_reensaque_lotes.INT_ID" +
+                    "_LANCOU], T1.[ordem_reensaque_lotes.DATE_LANCAMENTO], T1.[ordem_reensaque_lotes." +
+                    "INT_ID_ALTEROU], T1.[ordem_reensaque_lotes.DATE_ALTEROU], T1.[ordem_reensaque_lo" +
+                    "tes.INT_ID_EXCLUIU], T1.[ordem_reensaque_lotes.DATE_EXCLUIU])\r\n    FROM (\r\n     " +
+                    "   SELECT \r\n            T.INT_ID AS [ordem_reensaque_lotes.INT_ID], \r\n          " +
+                    "  T.INT_ID_ORDEM_REENSAQUE AS [ordem_reensaque_lotes.INT_ID_ORDEM_REENSAQUE], \r\n" +
+                    "            T.INT_ID_CADASTRO_ENTRADA AS [ordem_reensaque_lotes.INT_ID_CADASTRO_" +
+                    "ENTRADA], \r\n            T.INT_ID_LOTE_ARMAZEN_TERCEIROS AS [ordem_reensaque_lote" +
+                    "s.INT_ID_LOTE_ARMAZEN_TERCEIROS], \r\n            T.INT_ID_LOTE_RESULTADO_REBENEFI" +
+                    "CIO AS [ordem_reensaque_lotes.INT_ID_LOTE_RESULTADO_REBENEFICIO], \r\n            " +
+                    "T.DECIMAL_SCS AS [ordem_reensaque_lotes.DECIMAL_SCS], \r\n            T.BOOL_ATIVO" +
+                    " AS [ordem_reensaque_lotes.BOOL_ATIVO], \r\n            T.INT_ID_LANCOU AS [ordem_" +
+                    "reensaque_lotes.INT_ID_LANCOU], \r\n            T.DATE_LANCAMENTO AS [ordem_reensa" +
+                    "que_lotes.DATE_LANCAMENTO], \r\n            T.INT_ID_ALTEROU AS [ordem_reensaque_l" +
+                    "otes.INT_ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [ordem_reensaque_lotes.DAT" +
+                    "E_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [ordem_reensaque_lotes.INT_ID_EXCL" +
+                    "UIU], \r\n            T.DATE_EXCLUIU AS [ordem_reensaque_lotes.DATE_EXCLUIU], \r\n  " +
+                    "          True AS _from0\r\n        FROM db_coopfamEntities.ordem_reensaque_lotes " +
+                    "AS T\r\n    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.ordem_servico_celular
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView182()
+        {
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4261);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing ordem_servico_celular\r\n        [db_coopfamMod");
+            viewString.Append("el.Store.ordem_servico_celular](T1.[ordem_servico_celular.INT_ID], T1.[ordem_ser");
+            viewString.Append("vico_celular.INT_ID_CLIENTE], T1.[ordem_servico_celular.TXT_MODELO], T1.[ordem_s");
+            viewString.Append("ervico_celular.TXT_MARCA], T1.[ordem_servico_celular.TXT_IMEI], T1.[ordem_servic");
+            viewString.Append("o_celular.TXT_DEFEITO_RECLAMADO], T1.[ordem_servico_celular.TXT_DEFEITO_CONSTATA");
+            viewString.Append("DO], T1.[ordem_servico_celular.TXT_SENHA], T1.[ordem_servico_celular.TXT_DETALHE");
+            viewString.Append("S_OBS], T1.[ordem_servico_celular.DATE_ENTRADA], T1.[ordem_servico_celular.DATE_");
+            viewString.Append("RETIRADA], T1.[ordem_servico_celular.TXT_GARANTIA], T1.[ordem_servico_celular.DA");
+            viewString.Append("TE_FINALIZADO], T1.[ordem_servico_celular.INT_ID_CADASTRO], T1.[ordem_servico_ce");
+            viewString.Append("lular.DATE_CADASTRO], T1.[ordem_servico_celular.INT_ID_ALTERA], T1.[ordem_servic");
+            viewString.Append("o_celular.DATE_ALTERA], T1.[ordem_servico_celular.INT_ID_EXLCLUI], T1.[ordem_ser");
+            viewString.Append("vico_celular.DATE_EXCLUI], T1.[ordem_servico_celular.INT_ID_FINALIZOU], T1.[orde");
+            viewString.Append("m_servico_celular.INT_ID_AVISOU], T1.[ordem_servico_celular.INT_ID_ENTREGOU], T1");
+            viewString.Append(".[ordem_servico_celular.DATE_AVISOU], T1.[ordem_servico_celular.BOOL_ATIVO], T1.");
+            viewString.Append("[ordem_servico_celular.TXT_NUM_ORDEM], T1.[ordem_servico_celular.TXT_ACESSORIOS]");
+            viewString.Append(", T1.[ordem_servico_celular.DECIMAL_VALOR], T1.[ordem_servico_celular.TXT_NOME_C");
+            viewString.Append("LIENTE], T1.[ordem_servico_celular.TXT_CPF_CNPJ], T1.[ordem_servico_celular.TXT_");
+            viewString.Append("RUA], T1.[ordem_servico_celular.TXT_APELIDO], T1.[ordem_servico_celular.TXT_OBS]");
+            viewString.Append(", T1.[ordem_servico_celular.BOOL_PF_PJ], T1.[ordem_servico_celular.TXT_BAIRRO], ");
+            viewString.Append("T1.[ordem_servico_celular.TXT_NR], T1.[ordem_servico_celular.TXT_TELEFONE])\r\n   ");
+            viewString.Append(" FROM (\r\n        SELECT \r\n            T.INT_ID AS [ordem_servico_celular.INT_ID]");
+            viewString.Append(", \r\n            T.INT_ID_CLIENTE AS [ordem_servico_celular.INT_ID_CLIENTE], \r\n  ");
+            viewString.Append("          T.TXT_MODELO AS [ordem_servico_celular.TXT_MODELO], \r\n            T.TX");
+            viewString.Append("T_MARCA AS [ordem_servico_celular.TXT_MARCA], \r\n            T.TXT_IMEI AS [ordem");
+            viewString.Append("_servico_celular.TXT_IMEI], \r\n            T.TXT_DEFEITO_RECLAMADO AS [ordem_serv");
+            viewString.Append("ico_celular.TXT_DEFEITO_RECLAMADO], \r\n            T.TXT_DEFEITO_CONSTATADO AS [o");
+            viewString.Append("rdem_servico_celular.TXT_DEFEITO_CONSTATADO], \r\n            T.TXT_SENHA AS [orde");
+            viewString.Append("m_servico_celular.TXT_SENHA], \r\n            T.TXT_DETALHES_OBS AS [ordem_servico");
+            viewString.Append("_celular.TXT_DETALHES_OBS], \r\n            T.DATE_ENTRADA AS [ordem_servico_celul");
+            viewString.Append("ar.DATE_ENTRADA], \r\n            T.DATE_RETIRADA AS [ordem_servico_celular.DATE_R");
+            viewString.Append("ETIRADA], \r\n            T.TXT_GARANTIA AS [ordem_servico_celular.TXT_GARANTIA], ");
+            viewString.Append("\r\n            T.DATE_FINALIZADO AS [ordem_servico_celular.DATE_FINALIZADO], \r\n  ");
+            viewString.Append("          T.INT_ID_CADASTRO AS [ordem_servico_celular.INT_ID_CADASTRO], \r\n      ");
+            viewString.Append("      T.DATE_CADASTRO AS [ordem_servico_celular.DATE_CADASTRO], \r\n            T.");
+            viewString.Append("INT_ID_ALTERA AS [ordem_servico_celular.INT_ID_ALTERA], \r\n            T.DATE_ALT");
+            viewString.Append("ERA AS [ordem_servico_celular.DATE_ALTERA], \r\n            T.INT_ID_EXLCLUI AS [o");
+            viewString.Append("rdem_servico_celular.INT_ID_EXLCLUI], \r\n            T.DATE_EXCLUI AS [ordem_serv");
+            viewString.Append("ico_celular.DATE_EXCLUI], \r\n            T.INT_ID_FINALIZOU AS [ordem_servico_cel");
+            viewString.Append("ular.INT_ID_FINALIZOU], \r\n            T.INT_ID_AVISOU AS [ordem_servico_celular.");
+            viewString.Append("INT_ID_AVISOU], \r\n            T.INT_ID_ENTREGOU AS [ordem_servico_celular.INT_ID");
+            viewString.Append("_ENTREGOU], \r\n            T.DATE_AVISOU AS [ordem_servico_celular.DATE_AVISOU], ");
+            viewString.Append("\r\n            T.BOOL_ATIVO AS [ordem_servico_celular.BOOL_ATIVO], \r\n            ");
+            viewString.Append("T.TXT_NUM_ORDEM AS [ordem_servico_celular.TXT_NUM_ORDEM], \r\n            T.TXT_AC");
+            viewString.Append("ESSORIOS AS [ordem_servico_celular.TXT_ACESSORIOS], \r\n            T.DECIMAL_VALO");
+            viewString.Append("R AS [ordem_servico_celular.DECIMAL_VALOR], \r\n            T.TXT_NOME_CLIENTE AS ");
+            viewString.Append("[ordem_servico_celular.TXT_NOME_CLIENTE], \r\n            T.TXT_CPF_CNPJ AS [ordem");
+            viewString.Append("_servico_celular.TXT_CPF_CNPJ], \r\n            T.TXT_RUA AS [ordem_servico_celula");
+            viewString.Append("r.TXT_RUA], \r\n            T.TXT_APELIDO AS [ordem_servico_celular.TXT_APELIDO], ");
+            viewString.Append("\r\n            T.TXT_OBS AS [ordem_servico_celular.TXT_OBS], \r\n            T.BOOL");
+            viewString.Append("_PF_PJ AS [ordem_servico_celular.BOOL_PF_PJ], \r\n            T.TXT_BAIRRO AS [ord");
+            viewString.Append("em_servico_celular.TXT_BAIRRO], \r\n            T.TXT_NR AS [ordem_servico_celular");
+            viewString.Append(".TXT_NR], \r\n            T.TXT_TELEFONE AS [ordem_servico_celular.TXT_TELEFONE], ");
+            viewString.Append("\r\n            True AS _from0\r\n        FROM db_coopfamEntities.ordem_servico_celu");
+            viewString.Append("lar AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ordem_servico_celular", viewString.ToString());
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.origem_do_produto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView177()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView183()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.origem_do_produto", @"
     SELECT VALUE -- Constructing origem_do_produto
@@ -7770,7 +8183,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.origem_do_produto_nota_fiscal
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView178()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView184()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.origem_do_produto_nota_fiscal", "\r\n    SELECT VALUE -- Constructing origem_do_produto_nota_fiscal\r\n        [db_coo" +
                     "pfamModel.Store.origem_do_produto_nota_fiscal](T1.[origem_do_produto_nota_fiscal" +
@@ -7794,9 +8207,57 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.ouvidoria
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView185()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ouvidoria", @"
+    SELECT VALUE -- Constructing ouvidoria
+        [db_coopfamModel.Store.ouvidoria](T1.[ouvidoria.INT_ID], T1.[ouvidoria.INT_ID_SOLICITANTE], T1.[ouvidoria.TXT_SETOR], T1.[ouvidoria.BOOL_ANONIMO], T1.[ouvidoria.TXT_DESCRICAO], T1.[ouvidoria.TXT_STATUS], T1.[ouvidoria.DATE_LANCAMENTO], T1.[ouvidoria.BOOL_GENERO], T1.[ouvidoria.BOOL_QUEIXA], T1.[ouvidoria.BOOL_ATIVO], T1.[ouvidoria.BOOL_RH])
+    FROM (
+        SELECT 
+            T.INT_ID AS [ouvidoria.INT_ID], 
+            T.INT_ID_SOLICITANTE AS [ouvidoria.INT_ID_SOLICITANTE], 
+            T.TXT_SETOR AS [ouvidoria.TXT_SETOR], 
+            T.BOOL_ANONIMO AS [ouvidoria.BOOL_ANONIMO], 
+            T.TXT_DESCRICAO AS [ouvidoria.TXT_DESCRICAO], 
+            T.TXT_STATUS AS [ouvidoria.TXT_STATUS], 
+            T.DATE_LANCAMENTO AS [ouvidoria.DATE_LANCAMENTO], 
+            T.BOOL_GENERO AS [ouvidoria.BOOL_GENERO], 
+            T.BOOL_QUEIXA AS [ouvidoria.BOOL_QUEIXA], 
+            T.BOOL_ATIVO AS [ouvidoria.BOOL_ATIVO], 
+            T.BOOL_RH AS [ouvidoria.BOOL_RH], 
+            True AS _from0
+        FROM db_coopfamEntities.ouvidoria AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.ouvidoria_mensagem
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView186()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ouvidoria_mensagem", @"
+    SELECT VALUE -- Constructing ouvidoria_mensagem
+        [db_coopfamModel.Store.ouvidoria_mensagem](T1.[ouvidoria_mensagem.INT_ID], T1.[ouvidoria_mensagem.INT_ID_RESPONDEU], T1.[ouvidoria_mensagem.DATE_RESPONDEU], T1.[ouvidoria_mensagem.BOOL_VISUALIZADO], T1.[ouvidoria_mensagem.TXT_DESCRICAO], T1.[ouvidoria_mensagem.INT_ID_OUVIDORIA], T1.[ouvidoria_mensagem.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [ouvidoria_mensagem.INT_ID], 
+            T.INT_ID_RESPONDEU AS [ouvidoria_mensagem.INT_ID_RESPONDEU], 
+            T.DATE_RESPONDEU AS [ouvidoria_mensagem.DATE_RESPONDEU], 
+            T.BOOL_VISUALIZADO AS [ouvidoria_mensagem.BOOL_VISUALIZADO], 
+            T.TXT_DESCRICAO AS [ouvidoria_mensagem.TXT_DESCRICAO], 
+            T.INT_ID_OUVIDORIA AS [ouvidoria_mensagem.INT_ID_OUVIDORIA], 
+            T.BOOL_ATIVO AS [ouvidoria_mensagem.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamEntities.ouvidoria_mensagem AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.padrao_de_imposto_por_cfop
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView179()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView187()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(7398);
             viewString.Append("\r\n    SELECT VALUE -- Constructing padrao_de_imposto_por_cfop\r\n        [db_coopf");
@@ -7898,7 +8359,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pagamento_emprestimo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView180()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView188()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pagamento_emprestimo", "\r\n    SELECT VALUE -- Constructing pagamento_emprestimo\r\n        [db_coopfamModel" +
                     ".Store.pagamento_emprestimo](T1.[pagamento_emprestimo.INT_ID], T1.[pagamento_emp" +
@@ -7925,7 +8386,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pagamento_recebimento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView181()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView189()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pagamento_recebimento", @"
     SELECT VALUE -- Constructing pagamento_recebimento
@@ -7949,7 +8410,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pagamento_recebimento_fluxo_de_caixa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView182()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView190()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pagamento_recebimento_fluxo_de_caixa", "\r\n    SELECT VALUE -- Constructing pagamento_recebimento_fluxo_de_caixa\r\n        " +
                     "[db_coopfamModel.Store.pagamento_recebimento_fluxo_de_caixa](T1.[pagamento_receb" +
@@ -7977,7 +8438,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.papel_das_partes_contrato_cafe
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView183()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView191()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.papel_das_partes_contrato_cafe", @"
     SELECT VALUE -- Constructing papel_das_partes_contrato_cafe
@@ -7996,7 +8457,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.parcela_emprestimo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView184()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView192()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.parcela_emprestimo", @"
     SELECT VALUE -- Constructing parcela_emprestimo
@@ -8017,7 +8478,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.participante_dap
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView185()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView193()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.participante_dap", @"
     SELECT VALUE -- Constructing participante_dap
@@ -8036,9 +8497,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pedido_faturamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView186()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView194()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3376);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3478);
             viewString.Append("\r\n    SELECT VALUE -- Constructing pedido_faturamento\r\n        [db_coopfamModel.");
             viewString.Append("Store.pedido_faturamento](T1.[pedido_faturamento.INT_ID], T1.[pedido_faturamento");
             viewString.Append(".INT_ID_COOPERADO], T1.[pedido_faturamento.INT_ID_CLIENTE], T1.[pedido_faturamen");
@@ -8054,41 +8515,42 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(" T1.[pedido_faturamento.INT_VOLUMES], T1.[pedido_faturamento.DECIMAL_PESO_LIQUID");
             viewString.Append("O], T1.[pedido_faturamento.DECIMAL_PESO_BRUTO], T1.[pedido_faturamento.INT_ID_SE");
             viewString.Append("TOR], T1.[pedido_faturamento.BOOL_ATIVO], T1.[pedido_faturamento.TXT_NR_PEDIDO],");
-            viewString.Append(" T1.[pedido_faturamento.TXT_ESPECIE])\r\n    FROM (\r\n        SELECT \r\n            ");
-            viewString.Append("T.INT_ID AS [pedido_faturamento.INT_ID], \r\n            T.INT_ID_COOPERADO AS [pe");
-            viewString.Append("dido_faturamento.INT_ID_COOPERADO], \r\n            T.INT_ID_CLIENTE AS [pedido_fa");
-            viewString.Append("turamento.INT_ID_CLIENTE], \r\n            T.DATE_AGENDAMENTO AS [pedido_faturamen");
-            viewString.Append("to.DATE_AGENDAMENTO], \r\n            T.BOOL_DOACAO AS [pedido_faturamento.BOOL_DO");
-            viewString.Append("ACAO], \r\n            T.BOOL_PERMUTA AS [pedido_faturamento.BOOL_PERMUTA], \r\n    ");
-            viewString.Append("        T.BOOL_ECOMMERCE AS [pedido_faturamento.BOOL_ECOMMERCE], \r\n            T");
-            viewString.Append(".TXT_OBS AS [pedido_faturamento.TXT_OBS], \r\n            T.TXT_INFORMACOES_ADD AS");
-            viewString.Append(" [pedido_faturamento.TXT_INFORMACOES_ADD], \r\n            T.INT_ID_FUNCIONARIO AS");
-            viewString.Append(" [pedido_faturamento.INT_ID_FUNCIONARIO], \r\n            T.DATE_LANCAMENTO AS [pe");
-            viewString.Append("dido_faturamento.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNC_ULTIMA_EDICAO AS ");
-            viewString.Append("[pedido_faturamento.INT_ID_FUNC_ULTIMA_EDICAO], \r\n            T.DATE_ULTIMA_EDIC");
-            viewString.Append("AO AS [pedido_faturamento.DATE_ULTIMA_EDICAO], \r\n            T.INT_ID_EMPRESA AS");
-            viewString.Append(" [pedido_faturamento.INT_ID_EMPRESA], \r\n            T.INT_ID_TALHAO AS [pedido_f");
-            viewString.Append("aturamento.INT_ID_TALHAO], \r\n            T.TXT_MODALIDADE_FRETE AS [pedido_fatur");
-            viewString.Append("amento.TXT_MODALIDADE_FRETE], \r\n            T.INT_INDEX_MODALIDADE_FRETE AS [ped");
-            viewString.Append("ido_faturamento.INT_INDEX_MODALIDADE_FRETE], \r\n            T.INT_ID_MOTORISTA AS");
-            viewString.Append(" [pedido_faturamento.INT_ID_MOTORISTA], \r\n            T.TXT_PLACA AS [pedido_fat");
-            viewString.Append("uramento.TXT_PLACA], \r\n            T.TXT_UF_PLACA AS [pedido_faturamento.TXT_UF_");
-            viewString.Append("PLACA], \r\n            T.TXT_ANTT AS [pedido_faturamento.TXT_ANTT], \r\n           ");
-            viewString.Append(" T.INT_VOLUMES AS [pedido_faturamento.INT_VOLUMES], \r\n            T.DECIMAL_PESO");
-            viewString.Append("_LIQUIDO AS [pedido_faturamento.DECIMAL_PESO_LIQUIDO], \r\n            T.DECIMAL_P");
-            viewString.Append("ESO_BRUTO AS [pedido_faturamento.DECIMAL_PESO_BRUTO], \r\n            T.INT_ID_SET");
-            viewString.Append("OR AS [pedido_faturamento.INT_ID_SETOR], \r\n            T.BOOL_ATIVO AS [pedido_f");
-            viewString.Append("aturamento.BOOL_ATIVO], \r\n            T.TXT_NR_PEDIDO AS [pedido_faturamento.TXT");
-            viewString.Append("_NR_PEDIDO], \r\n            T.TXT_ESPECIE AS [pedido_faturamento.TXT_ESPECIE], \r\n");
-            viewString.Append("            True AS _from0\r\n        FROM db_coopfamEntities.pedido_faturamento A");
-            viewString.Append("S T\r\n    ) AS T1");
+            viewString.Append(" T1.[pedido_faturamento.TXT_ESPECIE], T1.[pedido_faturamento.BOOL_BARTER])\r\n    ");
+            viewString.Append("FROM (\r\n        SELECT \r\n            T.INT_ID AS [pedido_faturamento.INT_ID], \r\n");
+            viewString.Append("            T.INT_ID_COOPERADO AS [pedido_faturamento.INT_ID_COOPERADO], \r\n     ");
+            viewString.Append("       T.INT_ID_CLIENTE AS [pedido_faturamento.INT_ID_CLIENTE], \r\n            T.");
+            viewString.Append("DATE_AGENDAMENTO AS [pedido_faturamento.DATE_AGENDAMENTO], \r\n            T.BOOL_");
+            viewString.Append("DOACAO AS [pedido_faturamento.BOOL_DOACAO], \r\n            T.BOOL_PERMUTA AS [ped");
+            viewString.Append("ido_faturamento.BOOL_PERMUTA], \r\n            T.BOOL_ECOMMERCE AS [pedido_faturam");
+            viewString.Append("ento.BOOL_ECOMMERCE], \r\n            T.TXT_OBS AS [pedido_faturamento.TXT_OBS], \r");
+            viewString.Append("\n            T.TXT_INFORMACOES_ADD AS [pedido_faturamento.TXT_INFORMACOES_ADD], ");
+            viewString.Append("\r\n            T.INT_ID_FUNCIONARIO AS [pedido_faturamento.INT_ID_FUNCIONARIO], \r");
+            viewString.Append("\n            T.DATE_LANCAMENTO AS [pedido_faturamento.DATE_LANCAMENTO], \r\n      ");
+            viewString.Append("      T.INT_ID_FUNC_ULTIMA_EDICAO AS [pedido_faturamento.INT_ID_FUNC_ULTIMA_EDIC");
+            viewString.Append("AO], \r\n            T.DATE_ULTIMA_EDICAO AS [pedido_faturamento.DATE_ULTIMA_EDICA");
+            viewString.Append("O], \r\n            T.INT_ID_EMPRESA AS [pedido_faturamento.INT_ID_EMPRESA], \r\n   ");
+            viewString.Append("         T.INT_ID_TALHAO AS [pedido_faturamento.INT_ID_TALHAO], \r\n            T.");
+            viewString.Append("TXT_MODALIDADE_FRETE AS [pedido_faturamento.TXT_MODALIDADE_FRETE], \r\n           ");
+            viewString.Append(" T.INT_INDEX_MODALIDADE_FRETE AS [pedido_faturamento.INT_INDEX_MODALIDADE_FRETE]");
+            viewString.Append(", \r\n            T.INT_ID_MOTORISTA AS [pedido_faturamento.INT_ID_MOTORISTA], \r\n ");
+            viewString.Append("           T.TXT_PLACA AS [pedido_faturamento.TXT_PLACA], \r\n            T.TXT_UF");
+            viewString.Append("_PLACA AS [pedido_faturamento.TXT_UF_PLACA], \r\n            T.TXT_ANTT AS [pedido");
+            viewString.Append("_faturamento.TXT_ANTT], \r\n            T.INT_VOLUMES AS [pedido_faturamento.INT_V");
+            viewString.Append("OLUMES], \r\n            T.DECIMAL_PESO_LIQUIDO AS [pedido_faturamento.DECIMAL_PES");
+            viewString.Append("O_LIQUIDO], \r\n            T.DECIMAL_PESO_BRUTO AS [pedido_faturamento.DECIMAL_PE");
+            viewString.Append("SO_BRUTO], \r\n            T.INT_ID_SETOR AS [pedido_faturamento.INT_ID_SETOR], \r\n");
+            viewString.Append("            T.BOOL_ATIVO AS [pedido_faturamento.BOOL_ATIVO], \r\n            T.TXT");
+            viewString.Append("_NR_PEDIDO AS [pedido_faturamento.TXT_NR_PEDIDO], \r\n            T.TXT_ESPECIE AS");
+            viewString.Append(" [pedido_faturamento.TXT_ESPECIE], \r\n            T.BOOL_BARTER AS [pedido_fatura");
+            viewString.Append("mento.BOOL_BARTER], \r\n            True AS _from0\r\n        FROM db_coopfamEntitie");
+            viewString.Append("s.pedido_faturamento AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pedido_faturamento", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pedido_faturamento_parcelas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView187()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView195()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pedido_faturamento_parcelas", @"
     SELECT VALUE -- Constructing pedido_faturamento_parcelas
@@ -8109,7 +8571,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pedido_faturamento_produto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView188()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView196()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3223);
             viewString.Append("\r\n    SELECT VALUE -- Constructing pedido_faturamento_produto\r\n        [db_coopf");
@@ -8159,7 +8621,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pilar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView189()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView197()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pilar", @"
     SELECT VALUE -- Constructing pilar
@@ -8178,39 +8640,47 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView190()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView198()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento", "\r\n    SELECT VALUE -- Constructing planejamento\r\n        [db_coopfamModel.Store.p" +
-                    "lanejamento](T1.[planejamento.INT_ID], T1.[planejamento.INT_ID_PERIODO], T1.[pla" +
-                    "nejamento.INT_ID_ACAO], T1.[planejamento.DECIMAL_ORCAMENTO_FT], T1.[planejamento" +
-                    ".DECIMAL_ORCADO_OUTRAS_FONTES], T1.[planejamento.DECIMAL_ORCADO_EMPRESA], T1.[pl" +
-                    "anejamento.DECIMAL_ORCAMENTO_TOTAL], T1.[planejamento.CHAR_TIPO_ORCAMENTO], T1.[" +
-                    "planejamento.TXT_AUTO_AVALIACAO], T1.[planejamento.TXT_IMPACTO], T1.[planejament" +
-                    "o.BOOL_ATIVO], T1.[planejamento.TXT_DESCRICAO], T1.[planejamento.INT_ID_SETOR], " +
-                    "T1.[planejamento.INT_ID_FONTE_DE_RECURSO], T1.[planejamento.DECIMAL_REALIZADO_OU" +
-                    "TRAS_FONTES], T1.[planejamento.BOOL_SALARIO])\r\n    FROM (\r\n        SELECT \r\n    " +
-                    "        T.INT_ID AS [planejamento.INT_ID], \r\n            T.INT_ID_PERIODO AS [pl" +
-                    "anejamento.INT_ID_PERIODO], \r\n            T.INT_ID_ACAO AS [planejamento.INT_ID_" +
-                    "ACAO], \r\n            T.DECIMAL_ORCAMENTO_FT AS [planejamento.DECIMAL_ORCAMENTO_F" +
-                    "T], \r\n            T.DECIMAL_ORCADO_OUTRAS_FONTES AS [planejamento.DECIMAL_ORCADO" +
-                    "_OUTRAS_FONTES], \r\n            T.DECIMAL_ORCADO_EMPRESA AS [planejamento.DECIMAL" +
-                    "_ORCADO_EMPRESA], \r\n            T.DECIMAL_ORCAMENTO_TOTAL AS [planejamento.DECIM" +
-                    "AL_ORCAMENTO_TOTAL], \r\n            T.CHAR_TIPO_ORCAMENTO AS [planejamento.CHAR_T" +
-                    "IPO_ORCAMENTO], \r\n            T.TXT_AUTO_AVALIACAO AS [planejamento.TXT_AUTO_AVA" +
-                    "LIACAO], \r\n            T.TXT_IMPACTO AS [planejamento.TXT_IMPACTO], \r\n          " +
-                    "  T.BOOL_ATIVO AS [planejamento.BOOL_ATIVO], \r\n            T.TXT_DESCRICAO AS [p" +
-                    "lanejamento.TXT_DESCRICAO], \r\n            T.INT_ID_SETOR AS [planejamento.INT_ID" +
-                    "_SETOR], \r\n            T.INT_ID_FONTE_DE_RECURSO AS [planejamento.INT_ID_FONTE_D" +
-                    "E_RECURSO], \r\n            T.DECIMAL_REALIZADO_OUTRAS_FONTES AS [planejamento.DEC" +
-                    "IMAL_REALIZADO_OUTRAS_FONTES], \r\n            T.BOOL_SALARIO AS [planejamento.BOO" +
-                    "L_SALARIO], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.planej" +
-                    "amento AS T\r\n    ) AS T1");
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2440);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing planejamento\r\n        [db_coopfamModel.Store.");
+            viewString.Append("planejamento](T1.[planejamento.INT_ID], T1.[planejamento.INT_ID_PERIODO], T1.[pl");
+            viewString.Append("anejamento.INT_ID_ACAO], T1.[planejamento.DECIMAL_ORCAMENTO_FT], T1.[planejament");
+            viewString.Append("o.DECIMAL_ORCADO_OUTRAS_FONTES], T1.[planejamento.DECIMAL_ORCADO_EMPRESA], T1.[p");
+            viewString.Append("lanejamento.DECIMAL_ORCAMENTO_TOTAL], T1.[planejamento.CHAR_TIPO_ORCAMENTO], T1.");
+            viewString.Append("[planejamento.TXT_AUTO_AVALIACAO], T1.[planejamento.TXT_IMPACTO], T1.[planejamen");
+            viewString.Append("to.BOOL_ATIVO], T1.[planejamento.TXT_DESCRICAO], T1.[planejamento.INT_ID_SETOR],");
+            viewString.Append(" T1.[planejamento.INT_ID_FONTE_DE_RECURSO], T1.[planejamento.DECIMAL_REALIZADO_O");
+            viewString.Append("UTRAS_FONTES], T1.[planejamento.BOOL_SALARIO], T1.[planejamento.DECIMAL_TAXA_DOL");
+            viewString.Append("AR_MEDIA], T1.[planejamento.DECIMAL_TOTAL_EM_DOLAR], T1.[planejamento.DECIMAL_SA");
+            viewString.Append("LDO_INICIAL], T1.[planejamento.DECIMAL_SALDO_EM_DOLAR])\r\n    FROM (\r\n        SEL");
+            viewString.Append("ECT \r\n            T.INT_ID AS [planejamento.INT_ID], \r\n            T.INT_ID_PERI");
+            viewString.Append("ODO AS [planejamento.INT_ID_PERIODO], \r\n            T.INT_ID_ACAO AS [planejamen");
+            viewString.Append("to.INT_ID_ACAO], \r\n            T.DECIMAL_ORCAMENTO_FT AS [planejamento.DECIMAL_O");
+            viewString.Append("RCAMENTO_FT], \r\n            T.DECIMAL_ORCADO_OUTRAS_FONTES AS [planejamento.DECI");
+            viewString.Append("MAL_ORCADO_OUTRAS_FONTES], \r\n            T.DECIMAL_ORCADO_EMPRESA AS [planejamen");
+            viewString.Append("to.DECIMAL_ORCADO_EMPRESA], \r\n            T.DECIMAL_ORCAMENTO_TOTAL AS [planejam");
+            viewString.Append("ento.DECIMAL_ORCAMENTO_TOTAL], \r\n            T.CHAR_TIPO_ORCAMENTO AS [planejame");
+            viewString.Append("nto.CHAR_TIPO_ORCAMENTO], \r\n            T.TXT_AUTO_AVALIACAO AS [planejamento.TX");
+            viewString.Append("T_AUTO_AVALIACAO], \r\n            T.TXT_IMPACTO AS [planejamento.TXT_IMPACTO], \r\n");
+            viewString.Append("            T.BOOL_ATIVO AS [planejamento.BOOL_ATIVO], \r\n            T.TXT_DESCR");
+            viewString.Append("ICAO AS [planejamento.TXT_DESCRICAO], \r\n            T.INT_ID_SETOR AS [planejame");
+            viewString.Append("nto.INT_ID_SETOR], \r\n            T.INT_ID_FONTE_DE_RECURSO AS [planejamento.INT_");
+            viewString.Append("ID_FONTE_DE_RECURSO], \r\n            T.DECIMAL_REALIZADO_OUTRAS_FONTES AS [planej");
+            viewString.Append("amento.DECIMAL_REALIZADO_OUTRAS_FONTES], \r\n            T.BOOL_SALARIO AS [planej");
+            viewString.Append("amento.BOOL_SALARIO], \r\n            T.DECIMAL_TAXA_DOLAR_MEDIA AS [planejamento.");
+            viewString.Append("DECIMAL_TAXA_DOLAR_MEDIA], \r\n            T.DECIMAL_TOTAL_EM_DOLAR AS [planejamen");
+            viewString.Append("to.DECIMAL_TOTAL_EM_DOLAR], \r\n            T.DECIMAL_SALDO_INICIAL AS [planejamen");
+            viewString.Append("to.DECIMAL_SALDO_INICIAL], \r\n            T.DECIMAL_SALDO_EM_DOLAR AS [planejamen");
+            viewString.Append("to.DECIMAL_SALDO_EM_DOLAR], \r\n            True AS _from0\r\n        FROM db_coopfa");
+            viewString.Append("mEntities.planejamento AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_acoes_do_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView191()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView199()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_acoes_do_item", @"
     SELECT VALUE -- Constructing planejamento_acoes_do_item
@@ -8231,9 +8701,28 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_acoes_do_item_participantes
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView200()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_acoes_do_item_participantes", @"
+    SELECT VALUE -- Constructing planejamento_acoes_do_item_participantes
+        [db_coopfamModel.Store.planejamento_acoes_do_item_participantes](T1.[planejamento_acoes_do_item_participantes.INT_ID], T1.[planejamento_acoes_do_item_participantes.INT_ID_PLANEJAMENTO_ACAO], T1.[planejamento_acoes_do_item_participantes.INT_ID_PARTICIPANTE], T1.[planejamento_acoes_do_item_participantes.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [planejamento_acoes_do_item_participantes.INT_ID], 
+            T.INT_ID_PLANEJAMENTO_ACAO AS [planejamento_acoes_do_item_participantes.INT_ID_PLANEJAMENTO_ACAO], 
+            T.INT_ID_PARTICIPANTE AS [planejamento_acoes_do_item_participantes.INT_ID_PARTICIPANTE], 
+            T.BOOL_ATIVO AS [planejamento_acoes_do_item_participantes.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamEntities.planejamento_acoes_do_item_participantes AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_auto_avaliacao_impacto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView192()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView201()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_auto_avaliacao_impacto", "\r\n    SELECT VALUE -- Constructing planejamento_auto_avaliacao_impacto\r\n        [" +
                     "db_coopfamModel.Store.planejamento_auto_avaliacao_impacto](T1.[planejamento_auto" +
@@ -8263,7 +8752,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_categoria
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView193()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView202()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_categoria", @"
     SELECT VALUE -- Constructing planejamento_categoria
@@ -8284,7 +8773,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_data_realizacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView194()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView203()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_data_realizacao", @"
     SELECT VALUE -- Constructing planejamento_data_realizacao
@@ -8304,28 +8793,101 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView195()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView204()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_item", @"
-    SELECT VALUE -- Constructing planejamento_item
-        [db_coopfamModel.Store.planejamento_item](T1.[planejamento_item.INT_ID], T1.[planejamento_item.TXT_DESCRICAO], T1.[planejamento_item.INT_ID_EMPRESA], T1.[planejamento_item.INT_NUMERO_DO_ITEM], T1.[planejamento_item.BOOL_ATIVO], T1.[planejamento_item.BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO])
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(5234);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing planejamento_item\r\n        [db_coopfamModel.S");
+            viewString.Append("tore.planejamento_item](T1.[planejamento_item.INT_ID], T1.[planejamento_item.INT");
+            viewString.Append("_ID_ODS], T1.[planejamento_item.TXT_BENEFICIOS_ESPERADOS], T1.[planejamento_item");
+            viewString.Append(".TXT_PROBLEMAS_DESAFIO_INICIAR], T1.[planejamento_item.INT_PRODUTORES_ESPERADO],");
+            viewString.Append(" T1.[planejamento_item.INT_PRODUTORAS_ESPERADO], T1.[planejamento_item.INT_PRODU");
+            viewString.Append("TORES_BENEFICIADOS], T1.[planejamento_item.INT_PRODUTORAS_BENEFICIADAS], T1.[pla");
+            viewString.Append("nejamento_item.INT_TRABALHADORES_RURAIS_ESPERADO], T1.[planejamento_item.INT_TRA");
+            viewString.Append("BALHADORAS_RURAIS_ESPERADO], T1.[planejamento_item.INT_TRABALHADORES_RURAIS_BENE");
+            viewString.Append("FICIADOS], T1.[planejamento_item.INT_TRABALHADORAS_RURAIS_BENEFICIADAS], T1.[pla");
+            viewString.Append("nejamento_item.INT_EMPREGADOS_OP_ESPERADO], T1.[planejamento_item.INT_EMPREGADAS");
+            viewString.Append("_OP_ESPERADO], T1.[planejamento_item.INT_EMPREGADOS_OP_BENEFICIADOS], T1.[planej");
+            viewString.Append("amento_item.INT_EMPREGADAS_OP_BENEFICIADAS], T1.[planejamento_item.INT_FAMILIA_H");
+            viewString.Append("OMENS_ESPERADOS], T1.[planejamento_item.INT_FAMILIA_MULHERES_ESPERADAS], T1.[pla");
+            viewString.Append("nejamento_item.INT_FAMILIA_HOMENS_BENEFICIADOS], T1.[planejamento_item.INT_FAMIL");
+            viewString.Append("IA_MULHERES_BENEFICIADAS], T1.[planejamento_item.INT_COMUNIDADE_HOMENS_ESPERADOS");
+            viewString.Append("], T1.[planejamento_item.INT_COMUNIDADE_MULHERES_ESPERADAS], T1.[planejamento_it");
+            viewString.Append("em.INT_COMUNIDADE_HOMENS_BENEFICIADOS], T1.[planejamento_item.INT_COMUNIDADE_MUL");
+            viewString.Append("HERES_BENEFICIADAS], T1.[planejamento_item.INT_OUTROS_HOMENS_ESPERADOS], T1.[pla");
+            viewString.Append("nejamento_item.INT_OUTROS_MULHERES_ESPERADAS], T1.[planejamento_item.INT_OUTROS_");
+            viewString.Append("HOMENS_BENEFICIADOS], T1.[planejamento_item.INT_OUTROS_MULHERES_BENEFICIADAS], T");
+            viewString.Append("1.[planejamento_item.TXT_DESCRICAO_OUTROS], T1.[planejamento_item.TXT_DESCRICAO]");
+            viewString.Append(", T1.[planejamento_item.INT_ID_EMPRESA], T1.[planejamento_item.INT_NUMERO_DO_ITE");
+            viewString.Append("M], T1.[planejamento_item.BOOL_ATIVO], T1.[planejamento_item.BOOL_CONSIDERAR_PAR");
+            viewString.Append("A_GERAR_PLANEJAMENTO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [pl");
+            viewString.Append("anejamento_item.INT_ID], \r\n            T.INT_ID_ODS AS [planejamento_item.INT_ID");
+            viewString.Append("_ODS], \r\n            T.TXT_BENEFICIOS_ESPERADOS AS [planejamento_item.TXT_BENEFI");
+            viewString.Append("CIOS_ESPERADOS], \r\n            T.TXT_PROBLEMAS_DESAFIO_INICIAR AS [planejamento_");
+            viewString.Append("item.TXT_PROBLEMAS_DESAFIO_INICIAR], \r\n            T.INT_PRODUTORES_ESPERADO AS ");
+            viewString.Append("[planejamento_item.INT_PRODUTORES_ESPERADO], \r\n            T.INT_PRODUTORAS_ESPE");
+            viewString.Append("RADO AS [planejamento_item.INT_PRODUTORAS_ESPERADO], \r\n            T.INT_PRODUTO");
+            viewString.Append("RES_BENEFICIADOS AS [planejamento_item.INT_PRODUTORES_BENEFICIADOS], \r\n         ");
+            viewString.Append("   T.INT_PRODUTORAS_BENEFICIADAS AS [planejamento_item.INT_PRODUTORAS_BENEFICIAD");
+            viewString.Append("AS], \r\n            T.INT_TRABALHADORES_RURAIS_ESPERADO AS [planejamento_item.INT");
+            viewString.Append("_TRABALHADORES_RURAIS_ESPERADO], \r\n            T.INT_TRABALHADORAS_RURAIS_ESPERA");
+            viewString.Append("DO AS [planejamento_item.INT_TRABALHADORAS_RURAIS_ESPERADO], \r\n            T.INT");
+            viewString.Append("_TRABALHADORES_RURAIS_BENEFICIADOS AS [planejamento_item.INT_TRABALHADORES_RURAI");
+            viewString.Append("S_BENEFICIADOS], \r\n            T.INT_TRABALHADORAS_RURAIS_BENEFICIADAS AS [plane");
+            viewString.Append("jamento_item.INT_TRABALHADORAS_RURAIS_BENEFICIADAS], \r\n            T.INT_EMPREGA");
+            viewString.Append("DOS_OP_ESPERADO AS [planejamento_item.INT_EMPREGADOS_OP_ESPERADO], \r\n           ");
+            viewString.Append(" T.INT_EMPREGADAS_OP_ESPERADO AS [planejamento_item.INT_EMPREGADAS_OP_ESPERADO],");
+            viewString.Append(" \r\n            T.INT_EMPREGADOS_OP_BENEFICIADOS AS [planejamento_item.INT_EMPREG");
+            viewString.Append("ADOS_OP_BENEFICIADOS], \r\n            T.INT_EMPREGADAS_OP_BENEFICIADAS AS [planej");
+            viewString.Append("amento_item.INT_EMPREGADAS_OP_BENEFICIADAS], \r\n            T.INT_FAMILIA_HOMENS_");
+            viewString.Append("ESPERADOS AS [planejamento_item.INT_FAMILIA_HOMENS_ESPERADOS], \r\n            T.I");
+            viewString.Append("NT_FAMILIA_MULHERES_ESPERADAS AS [planejamento_item.INT_FAMILIA_MULHERES_ESPERAD");
+            viewString.Append("AS], \r\n            T.INT_FAMILIA_HOMENS_BENEFICIADOS AS [planejamento_item.INT_F");
+            viewString.Append("AMILIA_HOMENS_BENEFICIADOS], \r\n            T.INT_FAMILIA_MULHERES_BENEFICIADAS A");
+            viewString.Append("S [planejamento_item.INT_FAMILIA_MULHERES_BENEFICIADAS], \r\n            T.INT_COM");
+            viewString.Append("UNIDADE_HOMENS_ESPERADOS AS [planejamento_item.INT_COMUNIDADE_HOMENS_ESPERADOS],");
+            viewString.Append(" \r\n            T.INT_COMUNIDADE_MULHERES_ESPERADAS AS [planejamento_item.INT_COM");
+            viewString.Append("UNIDADE_MULHERES_ESPERADAS], \r\n            T.INT_COMUNIDADE_HOMENS_BENEFICIADOS ");
+            viewString.Append("AS [planejamento_item.INT_COMUNIDADE_HOMENS_BENEFICIADOS], \r\n            T.INT_C");
+            viewString.Append("OMUNIDADE_MULHERES_BENEFICIADAS AS [planejamento_item.INT_COMUNIDADE_MULHERES_BE");
+            viewString.Append("NEFICIADAS], \r\n            T.INT_OUTROS_HOMENS_ESPERADOS AS [planejamento_item.I");
+            viewString.Append("NT_OUTROS_HOMENS_ESPERADOS], \r\n            T.INT_OUTROS_MULHERES_ESPERADAS AS [p");
+            viewString.Append("lanejamento_item.INT_OUTROS_MULHERES_ESPERADAS], \r\n            T.INT_OUTROS_HOME");
+            viewString.Append("NS_BENEFICIADOS AS [planejamento_item.INT_OUTROS_HOMENS_BENEFICIADOS], \r\n       ");
+            viewString.Append("     T.INT_OUTROS_MULHERES_BENEFICIADAS AS [planejamento_item.INT_OUTROS_MULHERE");
+            viewString.Append("S_BENEFICIADAS], \r\n            T.TXT_DESCRICAO_OUTROS AS [planejamento_item.TXT_");
+            viewString.Append("DESCRICAO_OUTROS], \r\n            T.TXT_DESCRICAO AS [planejamento_item.TXT_DESCR");
+            viewString.Append("ICAO], \r\n            T.INT_ID_EMPRESA AS [planejamento_item.INT_ID_EMPRESA], \r\n ");
+            viewString.Append("           T.INT_NUMERO_DO_ITEM AS [planejamento_item.INT_NUMERO_DO_ITEM], \r\n   ");
+            viewString.Append("         T.BOOL_ATIVO AS [planejamento_item.BOOL_ATIVO], \r\n            T.BOOL_CO");
+            viewString.Append("NSIDERAR_PARA_GERAR_PLANEJAMENTO AS [planejamento_item.BOOL_CONSIDERAR_PARA_GERA");
+            viewString.Append("R_PLANEJAMENTO], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.p");
+            viewString.Append("lanejamento_item AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_item", viewString.ToString());
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_menor_categoria
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView205()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_menor_categoria", @"
+    SELECT VALUE -- Constructing planejamento_menor_categoria
+        [db_coopfamModel.Store.planejamento_menor_categoria](T1.[planejamento_menor_categoria.INT_ID], T1.[planejamento_menor_categoria.INT_ID_MENOR_CATEGORIA], T1.[planejamento_menor_categoria.BOOL_ATIVO], T1.[planejamento_menor_categoria.INT_ID_PLANEJAMENTO])
     FROM (
         SELECT 
-            T.INT_ID AS [planejamento_item.INT_ID], 
-            T.TXT_DESCRICAO AS [planejamento_item.TXT_DESCRICAO], 
-            T.INT_ID_EMPRESA AS [planejamento_item.INT_ID_EMPRESA], 
-            T.INT_NUMERO_DO_ITEM AS [planejamento_item.INT_NUMERO_DO_ITEM], 
-            T.BOOL_ATIVO AS [planejamento_item.BOOL_ATIVO], 
-            T.BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO AS [planejamento_item.BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO], 
+            T.INT_ID AS [planejamento_menor_categoria.INT_ID], 
+            T.INT_ID_MENOR_CATEGORIA AS [planejamento_menor_categoria.INT_ID_MENOR_CATEGORIA], 
+            T.BOOL_ATIVO AS [planejamento_menor_categoria.BOOL_ATIVO], 
+            T.INT_ID_PLANEJAMENTO AS [planejamento_menor_categoria.INT_ID_PLANEJAMENTO], 
             True AS _from0
-        FROM db_coopfamEntities.planejamento_item AS T
+        FROM db_coopfamEntities.planejamento_menor_categoria AS T
     ) AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_periodo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView196()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView206()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_periodo", @"
     SELECT VALUE -- Constructing planejamento_periodo
@@ -8345,7 +8907,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.planejamento_responsavel
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView197()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView207()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.planejamento_responsavel", @"
     SELECT VALUE -- Constructing planejamento_responsavel
@@ -8365,33 +8927,34 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.plano_conversao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView198()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView208()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.plano_conversao", @"
-    SELECT VALUE -- Constructing plano_conversao
-        [db_coopfamModel.Store.plano_conversao](T1.[plano_conversao.INT_ID], T1.[plano_conversao.INT_ID_TALHAO], T1.[plano_conversao.DATA_INICIO], T1.[plano_conversao.BOOL_ATIVO], T1.[plano_conversao.TXT_OBS], T1.[plano_conversao.INT_ID_CADASTRO], T1.[plano_conversao.DATE_CADASTRO], T1.[plano_conversao.INT_ID_ALTERACAO], T1.[plano_conversao.DATE_ALTERACAO], T1.[plano_conversao.INT_ID_EXCLUSAO], T1.[plano_conversao.DATE_EXCLUSAO])
-    FROM (
-        SELECT 
-            T.INT_ID AS [plano_conversao.INT_ID], 
-            T.INT_ID_TALHAO AS [plano_conversao.INT_ID_TALHAO], 
-            T.DATA_INICIO AS [plano_conversao.DATA_INICIO], 
-            T.BOOL_ATIVO AS [plano_conversao.BOOL_ATIVO], 
-            T.TXT_OBS AS [plano_conversao.TXT_OBS], 
-            T.INT_ID_CADASTRO AS [plano_conversao.INT_ID_CADASTRO], 
-            T.DATE_CADASTRO AS [plano_conversao.DATE_CADASTRO], 
-            T.INT_ID_ALTERACAO AS [plano_conversao.INT_ID_ALTERACAO], 
-            T.DATE_ALTERACAO AS [plano_conversao.DATE_ALTERACAO], 
-            T.INT_ID_EXCLUSAO AS [plano_conversao.INT_ID_EXCLUSAO], 
-            T.DATE_EXCLUSAO AS [plano_conversao.DATE_EXCLUSAO], 
-            True AS _from0
-        FROM db_coopfamEntities.plano_conversao AS T
-    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.plano_conversao", "\r\n    SELECT VALUE -- Constructing plano_conversao\r\n        [db_coopfamModel.Stor" +
+                    "e.plano_conversao](T1.[plano_conversao.INT_ID], T1.[plano_conversao.INT_ID_TALHA" +
+                    "O], T1.[plano_conversao.DATA_INICIO], T1.[plano_conversao.BOOL_ATIVO], T1.[plano" +
+                    "_conversao.TXT_OBS], T1.[plano_conversao.INT_ID_CADASTRO], T1.[plano_conversao.D" +
+                    "ATE_CADASTRO], T1.[plano_conversao.INT_ID_ALTERACAO], T1.[plano_conversao.DATE_A" +
+                    "LTERACAO], T1.[plano_conversao.INT_ID_EXCLUSAO], T1.[plano_conversao.DATE_EXCLUS" +
+                    "AO], T1.[plano_conversao.BOOL_INICIOU_CONVERSAO], T1.[plano_conversao.DATA_INICI" +
+                    "O_CONVERSAO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [plano_conve" +
+                    "rsao.INT_ID], \r\n            T.INT_ID_TALHAO AS [plano_conversao.INT_ID_TALHAO], " +
+                    "\r\n            T.DATA_INICIO AS [plano_conversao.DATA_INICIO], \r\n            T.BO" +
+                    "OL_ATIVO AS [plano_conversao.BOOL_ATIVO], \r\n            T.TXT_OBS AS [plano_conv" +
+                    "ersao.TXT_OBS], \r\n            T.INT_ID_CADASTRO AS [plano_conversao.INT_ID_CADAS" +
+                    "TRO], \r\n            T.DATE_CADASTRO AS [plano_conversao.DATE_CADASTRO], \r\n      " +
+                    "      T.INT_ID_ALTERACAO AS [plano_conversao.INT_ID_ALTERACAO], \r\n            T." +
+                    "DATE_ALTERACAO AS [plano_conversao.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLU" +
+                    "SAO AS [plano_conversao.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [plan" +
+                    "o_conversao.DATE_EXCLUSAO], \r\n            T.BOOL_INICIOU_CONVERSAO AS [plano_con" +
+                    "versao.BOOL_INICIOU_CONVERSAO], \r\n            T.DATA_INICIO_CONVERSAO AS [plano_" +
+                    "conversao.DATA_INICIO_CONVERSAO], \r\n            True AS _from0\r\n        FROM db_" +
+                    "coopfamEntities.plano_conversao AS T\r\n    ) AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.plano_de_contas_contabil
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView199()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView209()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.plano_de_contas_contabil", @"
     SELECT VALUE -- Constructing plano_de_contas_contabil
@@ -8415,7 +8978,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.ponto_critico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView200()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView210()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.ponto_critico", @"
     SELECT VALUE -- Constructing ponto_critico
@@ -8434,7 +8997,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.portifolio_fornecedor
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView201()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView211()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.portifolio_fornecedor", @"
     SELECT VALUE -- Constructing portifolio_fornecedor
@@ -8454,7 +9017,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.potencial_risco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView202()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView212()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.potencial_risco", @"
     SELECT VALUE -- Constructing potencial_risco
@@ -8473,7 +9036,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.praga_doenca
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView203()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView213()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.praga_doenca", @"
     SELECT VALUE -- Constructing praga_doenca
@@ -8491,7 +9054,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pre_financiamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView204()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView214()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pre_financiamento", @"
     SELECT VALUE -- Constructing pre_financiamento
@@ -8511,11 +9074,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.premio_ft
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView205()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView215()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.premio_ft", @"
     SELECT VALUE -- Constructing premio_ft
-        [db_coopfamModel.Store.premio_ft](T1.[premio_ft.INT_ID], T1.[premio_ft.INT_ID_CONTRATO], T1.[premio_ft.DECIMAL_VALOR_FT], T1.[premio_ft.BOOL_SALDO_INICIAL], T1.[premio_ft.DATE], T1.[premio_ft.BOOL_ATIVO], T1.[premio_ft.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], T1.[premio_ft.BOOL_CC_PG_FLUXO_CAIXA], T1.[premio_ft.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO], T1.[premio_ft.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL])
+        [db_coopfamModel.Store.premio_ft](T1.[premio_ft.INT_ID], T1.[premio_ft.INT_ID_CONTRATO], T1.[premio_ft.DECIMAL_VALOR_FT], T1.[premio_ft.BOOL_SALDO_INICIAL], T1.[premio_ft.DATE], T1.[premio_ft.BOOL_ATIVO], T1.[premio_ft.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], T1.[premio_ft.BOOL_CC_PG_FLUXO_CAIXA], T1.[premio_ft.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO], T1.[premio_ft.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL], T1.[premio_ft.INT_ID_MOVIMENTO_PRODUTOcONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [premio_ft.INT_ID], 
@@ -8528,6 +9091,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.BOOL_CC_PG_FLUXO_CAIXA AS [premio_ft.BOOL_CC_PG_FLUXO_CAIXA], 
             T.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO AS [premio_ft.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO], 
             T.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL AS [premio_ft.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL], 
+            T.INT_ID_MOVIMENTO_PRODUTOcONTABIL AS [premio_ft.INT_ID_MOVIMENTO_PRODUTOcONTABIL], 
             True AS _from0
         FROM db_coopfamEntities.premio_ft AS T
     ) AS T1");
@@ -8536,7 +9100,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.procedimento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView206()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView216()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.procedimento", "\r\n    SELECT VALUE -- Constructing procedimento\r\n        [db_coopfamModel.Store.p" +
                     "rocedimento](T1.[procedimento.INT_ID], T1.[procedimento.INT_ID_CONVENIO], T1.[pr" +
@@ -8567,7 +9131,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.procedimento_critico_medida_precaucao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView207()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView217()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.procedimento_critico_medida_precaucao", @"
     SELECT VALUE -- Constructing procedimento_critico_medida_precaucao
@@ -8586,7 +9150,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.procedimento_tipo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView208()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView218()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.procedimento_tipo", @"
     SELECT VALUE -- Constructing procedimento_tipo
@@ -8605,7 +9169,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.produto_linha
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView209()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView219()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.produto_linha", @"
     SELECT VALUE -- Constructing produto_linha
@@ -8624,7 +9188,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.produtos_ccontabeis_referencia_terceiros
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView210()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView220()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.produtos_ccontabeis_referencia_terceiros", @"
     SELECT VALUE -- Constructing produtos_ccontabeis_referencia_terceiros
@@ -8644,9 +9208,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.produtos_contabeis
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView211()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView221()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3271);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3541);
             viewString.Append("\r\n    SELECT VALUE -- Constructing produtos_contabeis\r\n        [db_coopfamModel.");
             viewString.Append("Store.produtos_contabeis](T1.[produtos_contabeis.INT_ID], T1.[produtos_contabeis");
             viewString.Append(".TXT_CODIGO_CONTABIL], T1.[produtos_contabeis.TXT_DESCRICAO_DO_PRODUTO], T1.[pro");
@@ -8661,40 +9225,125 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("ESO_BRUTO], T1.[produtos_contabeis.TXT_CODIGO_DE_BARRAS], T1.[produtos_contabeis");
             viewString.Append(".TXT_UN], T1.[produtos_contabeis.BOOL_PARAMETRIZAR], T1.[produtos_contabeis.INT_");
             viewString.Append("ID_LINHA_DO_PRODUTO], T1.[produtos_contabeis.BOOL_PRODUTO_SERVICO], T1.[produtos");
-            viewString.Append("_contabeis.DECIMAL_VLR_MINIMO], T1.[produtos_contabeis.INT_ID_UN_MEDIDA])\r\n    F");
-            viewString.Append("ROM (\r\n        SELECT \r\n            T.INT_ID AS [produtos_contabeis.INT_ID], \r\n ");
-            viewString.Append("           T.TXT_CODIGO_CONTABIL AS [produtos_contabeis.TXT_CODIGO_CONTABIL], \r\n");
-            viewString.Append("            T.TXT_DESCRICAO_DO_PRODUTO AS [produtos_contabeis.TXT_DESCRICAO_DO_P");
-            viewString.Append("RODUTO], \r\n            T.FLOAT_SALDO_INICIAL AS [produtos_contabeis.FLOAT_SALDO_");
-            viewString.Append("INICIAL], \r\n            T.BOOL_REMESSA_RETORNO AS [produtos_contabeis.BOOL_REMES");
-            viewString.Append("SA_RETORNO], \r\n            T.DECIMAL_VLR_UNITARIO AS [produtos_contabeis.DECIMAL");
-            viewString.Append("_VLR_UNITARIO], \r\n            T.INT_ID_COD_CONTABIL_COMPRA_VENDA AS [produtos_co");
-            viewString.Append("ntabeis.INT_ID_COD_CONTABIL_COMPRA_VENDA], \r\n            T.CHAR_CATEGORIA_DO_PRO");
-            viewString.Append("DUTO AS [produtos_contabeis.CHAR_CATEGORIA_DO_PRODUTO], \r\n            T.TXT_CEST");
-            viewString.Append(" AS [produtos_contabeis.TXT_CEST], \r\n            T.TXT_NCM AS [produtos_contabei");
-            viewString.Append("s.TXT_NCM], \r\n            T.TXT_GTIN AS [produtos_contabeis.TXT_GTIN], \r\n       ");
-            viewString.Append("     T.DECIMAL_QTD_MAXIMA AS [produtos_contabeis.DECIMAL_QTD_MAXIMA], \r\n        ");
-            viewString.Append("    T.DECIMAL_QTD_MINIMA AS [produtos_contabeis.DECIMAL_QTD_MINIMA], \r\n         ");
-            viewString.Append("   T.BOOL_MATERIA_PRIMA AS [produtos_contabeis.BOOL_MATERIA_PRIMA], \r\n          ");
-            viewString.Append("  T.INT_NUMERO_DE_CASAS_DECIMAIS AS [produtos_contabeis.INT_NUMERO_DE_CASAS_DECI");
-            viewString.Append("MAIS], \r\n            T.BOOL_ATIVO AS [produtos_contabeis.BOOL_ATIVO], \r\n        ");
-            viewString.Append("    T.DECIMAL_PESO_LIQUIDO AS [produtos_contabeis.DECIMAL_PESO_LIQUIDO], \r\n     ");
-            viewString.Append("       T.DECIMAL_PESO_BRUTO AS [produtos_contabeis.DECIMAL_PESO_BRUTO], \r\n      ");
-            viewString.Append("      T.TXT_CODIGO_DE_BARRAS AS [produtos_contabeis.TXT_CODIGO_DE_BARRAS], \r\n   ");
-            viewString.Append("         T.TXT_UN AS [produtos_contabeis.TXT_UN], \r\n            T.BOOL_PARAMETRI");
-            viewString.Append("ZAR AS [produtos_contabeis.BOOL_PARAMETRIZAR], \r\n            T.INT_ID_LINHA_DO_P");
-            viewString.Append("RODUTO AS [produtos_contabeis.INT_ID_LINHA_DO_PRODUTO], \r\n            T.BOOL_PRO");
-            viewString.Append("DUTO_SERVICO AS [produtos_contabeis.BOOL_PRODUTO_SERVICO], \r\n            T.DECIM");
-            viewString.Append("AL_VLR_MINIMO AS [produtos_contabeis.DECIMAL_VLR_MINIMO], \r\n            T.INT_ID");
-            viewString.Append("_UN_MEDIDA AS [produtos_contabeis.INT_ID_UN_MEDIDA], \r\n            True AS _from");
-            viewString.Append("0\r\n        FROM db_coopfamEntities.produtos_contabeis AS T\r\n    ) AS T1");
+            viewString.Append("_contabeis.DECIMAL_VLR_MINIMO], T1.[produtos_contabeis.INT_ID_UN_MEDIDA], T1.[pr");
+            viewString.Append("odutos_contabeis.INT_ID_CONTA_CONTABIL], T1.[produtos_contabeis.BOOL_COOPERADO_T");
+            viewString.Append("ERCEIRO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [produtos_contab");
+            viewString.Append("eis.INT_ID], \r\n            T.TXT_CODIGO_CONTABIL AS [produtos_contabeis.TXT_CODI");
+            viewString.Append("GO_CONTABIL], \r\n            T.TXT_DESCRICAO_DO_PRODUTO AS [produtos_contabeis.TX");
+            viewString.Append("T_DESCRICAO_DO_PRODUTO], \r\n            T.FLOAT_SALDO_INICIAL AS [produtos_contab");
+            viewString.Append("eis.FLOAT_SALDO_INICIAL], \r\n            T.BOOL_REMESSA_RETORNO AS [produtos_cont");
+            viewString.Append("abeis.BOOL_REMESSA_RETORNO], \r\n            T.DECIMAL_VLR_UNITARIO AS [produtos_c");
+            viewString.Append("ontabeis.DECIMAL_VLR_UNITARIO], \r\n            T.INT_ID_COD_CONTABIL_COMPRA_VENDA");
+            viewString.Append(" AS [produtos_contabeis.INT_ID_COD_CONTABIL_COMPRA_VENDA], \r\n            T.CHAR_");
+            viewString.Append("CATEGORIA_DO_PRODUTO AS [produtos_contabeis.CHAR_CATEGORIA_DO_PRODUTO], \r\n      ");
+            viewString.Append("      T.TXT_CEST AS [produtos_contabeis.TXT_CEST], \r\n            T.TXT_NCM AS [p");
+            viewString.Append("rodutos_contabeis.TXT_NCM], \r\n            T.TXT_GTIN AS [produtos_contabeis.TXT_");
+            viewString.Append("GTIN], \r\n            T.DECIMAL_QTD_MAXIMA AS [produtos_contabeis.DECIMAL_QTD_MAX");
+            viewString.Append("IMA], \r\n            T.DECIMAL_QTD_MINIMA AS [produtos_contabeis.DECIMAL_QTD_MINI");
+            viewString.Append("MA], \r\n            T.BOOL_MATERIA_PRIMA AS [produtos_contabeis.BOOL_MATERIA_PRIM");
+            viewString.Append("A], \r\n            T.INT_NUMERO_DE_CASAS_DECIMAIS AS [produtos_contabeis.INT_NUME");
+            viewString.Append("RO_DE_CASAS_DECIMAIS], \r\n            T.BOOL_ATIVO AS [produtos_contabeis.BOOL_AT");
+            viewString.Append("IVO], \r\n            T.DECIMAL_PESO_LIQUIDO AS [produtos_contabeis.DECIMAL_PESO_L");
+            viewString.Append("IQUIDO], \r\n            T.DECIMAL_PESO_BRUTO AS [produtos_contabeis.DECIMAL_PESO_");
+            viewString.Append("BRUTO], \r\n            T.TXT_CODIGO_DE_BARRAS AS [produtos_contabeis.TXT_CODIGO_D");
+            viewString.Append("E_BARRAS], \r\n            T.TXT_UN AS [produtos_contabeis.TXT_UN], \r\n            ");
+            viewString.Append("T.BOOL_PARAMETRIZAR AS [produtos_contabeis.BOOL_PARAMETRIZAR], \r\n            T.I");
+            viewString.Append("NT_ID_LINHA_DO_PRODUTO AS [produtos_contabeis.INT_ID_LINHA_DO_PRODUTO], \r\n      ");
+            viewString.Append("      T.BOOL_PRODUTO_SERVICO AS [produtos_contabeis.BOOL_PRODUTO_SERVICO], \r\n   ");
+            viewString.Append("         T.DECIMAL_VLR_MINIMO AS [produtos_contabeis.DECIMAL_VLR_MINIMO], \r\n    ");
+            viewString.Append("        T.INT_ID_UN_MEDIDA AS [produtos_contabeis.INT_ID_UN_MEDIDA], \r\n         ");
+            viewString.Append("   T.INT_ID_CONTA_CONTABIL AS [produtos_contabeis.INT_ID_CONTA_CONTABIL], \r\n    ");
+            viewString.Append("        T.BOOL_COOPERADO_TERCEIRO AS [produtos_contabeis.BOOL_COOPERADO_TERCEIRO");
+            viewString.Append("], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.produtos_contab");
+            viewString.Append("eis AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.produtos_contabeis", viewString.ToString());
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.projeto_cooperado
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView222()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.projeto_cooperado", @"
+    SELECT VALUE -- Constructing projeto_cooperado
+        [db_coopfamModel.Store.projeto_cooperado](T1.[projeto_cooperado.INT_ID], T1.[projeto_cooperado.INT_ID_PROJETO_REALIZADO], T1.[projeto_cooperado.INT_ID_COOPERADO], T1.[projeto_cooperado.BOOL_PRINCIPAL], T1.[projeto_cooperado.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [projeto_cooperado.INT_ID], 
+            T.INT_ID_PROJETO_REALIZADO AS [projeto_cooperado.INT_ID_PROJETO_REALIZADO], 
+            T.INT_ID_COOPERADO AS [projeto_cooperado.INT_ID_COOPERADO], 
+            T.BOOL_PRINCIPAL AS [projeto_cooperado.BOOL_PRINCIPAL], 
+            T.BOOL_ATIVO AS [projeto_cooperado.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamEntities.projeto_cooperado AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.projetos_da_empresa
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView223()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.projetos_da_empresa", @"
+    SELECT VALUE -- Constructing projetos_da_empresa
+        [db_coopfamModel.Store.projetos_da_empresa](T1.[projetos_da_empresa.INT_ID], T1.[projetos_da_empresa.TXT_DESCRICAO], T1.[projetos_da_empresa.INT_ID_PLANEJAMENTO], T1.[projetos_da_empresa.INT_ID_CLIENTE_FONTE_RESCURSO], T1.[projetos_da_empresa.BOOL_ATIVO], T1.[projetos_da_empresa.TXT_OBS])
+    FROM (
+        SELECT 
+            T.INT_ID AS [projetos_da_empresa.INT_ID], 
+            T.TXT_DESCRICAO AS [projetos_da_empresa.TXT_DESCRICAO], 
+            T.INT_ID_PLANEJAMENTO AS [projetos_da_empresa.INT_ID_PLANEJAMENTO], 
+            T.INT_ID_CLIENTE_FONTE_RESCURSO AS [projetos_da_empresa.INT_ID_CLIENTE_FONTE_RESCURSO], 
+            T.BOOL_ATIVO AS [projetos_da_empresa.BOOL_ATIVO], 
+            T.TXT_OBS AS [projetos_da_empresa.TXT_OBS], 
+            True AS _from0
+        FROM db_coopfamEntities.projetos_da_empresa AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.projetos_realizados
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView224()
+        {
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2401);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing projetos_realizados\r\n        [db_coopfamModel");
+            viewString.Append(".Store.projetos_realizados](T1.[projetos_realizados.INT_ID], T1.[projetos_realiz");
+            viewString.Append("ados.INT_ID_PROJETO_DA_EMPRESA], T1.[projetos_realizados.DECIMAL_VALOR], T1.[pro");
+            viewString.Append("jetos_realizados.INT_QUANTIDADE_PESSOAS_IMPACTADAS], T1.[projetos_realizados.INT");
+            viewString.Append("_ID_PLANEJAMENTO], T1.[projetos_realizados.INT_ID_CLIENTE_FONTE_RESCURSO], T1.[p");
+            viewString.Append("rojetos_realizados.TXT_IMPACTO], T1.[projetos_realizados.TXT_OBS], T1.[projetos_");
+            viewString.Append("realizados.BOOL_ATIVO], T1.[projetos_realizados.DATE_REALIZACAO], T1.[projetos_r");
+            viewString.Append("ealizados.INT_ID_CADASTRO], T1.[projetos_realizados.DATE_CADASTRO], T1.[projetos");
+            viewString.Append("_realizados.INT_ID_ALTERACAO], T1.[projetos_realizados.DATE_ALTERACAO], T1.[proj");
+            viewString.Append("etos_realizados.INT_ID_EXCLUSAO], T1.[projetos_realizados.DATE_EXCLUSAO], T1.[pr");
+            viewString.Append("ojetos_realizados.TXT_CAMINHO_ARQUIVO], T1.[projetos_realizados.TXT_CAMINHO_ARQU");
+            viewString.Append("IVO_PDF])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [projetos_realiz");
+            viewString.Append("ados.INT_ID], \r\n            T.INT_ID_PROJETO_DA_EMPRESA AS [projetos_realizados.");
+            viewString.Append("INT_ID_PROJETO_DA_EMPRESA], \r\n            T.DECIMAL_VALOR AS [projetos_realizado");
+            viewString.Append("s.DECIMAL_VALOR], \r\n            T.INT_QUANTIDADE_PESSOAS_IMPACTADAS AS [projetos");
+            viewString.Append("_realizados.INT_QUANTIDADE_PESSOAS_IMPACTADAS], \r\n            T.INT_ID_PLANEJAME");
+            viewString.Append("NTO AS [projetos_realizados.INT_ID_PLANEJAMENTO], \r\n            T.INT_ID_CLIENTE");
+            viewString.Append("_FONTE_RESCURSO AS [projetos_realizados.INT_ID_CLIENTE_FONTE_RESCURSO], \r\n      ");
+            viewString.Append("      T.TXT_IMPACTO AS [projetos_realizados.TXT_IMPACTO], \r\n            T.TXT_OB");
+            viewString.Append("S AS [projetos_realizados.TXT_OBS], \r\n            T.BOOL_ATIVO AS [projetos_real");
+            viewString.Append("izados.BOOL_ATIVO], \r\n            T.DATE_REALIZACAO AS [projetos_realizados.DATE");
+            viewString.Append("_REALIZACAO], \r\n            T.INT_ID_CADASTRO AS [projetos_realizados.INT_ID_CAD");
+            viewString.Append("ASTRO], \r\n            T.DATE_CADASTRO AS [projetos_realizados.DATE_CADASTRO], \r\n");
+            viewString.Append("            T.INT_ID_ALTERACAO AS [projetos_realizados.INT_ID_ALTERACAO], \r\n    ");
+            viewString.Append("        T.DATE_ALTERACAO AS [projetos_realizados.DATE_ALTERACAO], \r\n            ");
+            viewString.Append("T.INT_ID_EXCLUSAO AS [projetos_realizados.INT_ID_EXCLUSAO], \r\n            T.DATE");
+            viewString.Append("_EXCLUSAO AS [projetos_realizados.DATE_EXCLUSAO], \r\n            T.TXT_CAMINHO_AR");
+            viewString.Append("QUIVO AS [projetos_realizados.TXT_CAMINHO_ARQUIVO], \r\n            T.TXT_CAMINHO_");
+            viewString.Append("ARQUIVO_PDF AS [projetos_realizados.TXT_CAMINHO_ARQUIVO_PDF], \r\n            True");
+            viewString.Append(" AS _from0\r\n        FROM db_coopfamEntities.projetos_realizados AS T\r\n    ) AS T");
+            viewString.Append("1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.projetos_realizados", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pronaf
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView212()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView225()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pronaf", "\r\n    SELECT VALUE -- Constructing pronaf\r\n        [db_coopfamModel.Store.pronaf]" +
                     "(T1.[pronaf.INT_ID], T1.[pronaf.DATE_EXCLUSAO], T1.[pronaf.INT_ID_EXCLUIU], T1.[" +
@@ -8722,7 +9371,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pronaf_parcelas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView213()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView226()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pronaf_parcelas", @"
     SELECT VALUE -- Constructing pronaf_parcelas
@@ -8743,7 +9392,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pronaf_pronaf_tipo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView214()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView227()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pronaf_pronaf_tipo", @"
     SELECT VALUE -- Constructing pronaf_pronaf_tipo
@@ -8762,7 +9411,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.pronaf_tipo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView215()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView228()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.pronaf_tipo", @"
     SELECT VALUE -- Constructing pronaf_tipo
@@ -8781,9 +9430,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.propriedade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView216()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView229()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3465);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4035);
             viewString.Append("\r\n    SELECT VALUE -- Constructing propriedade\r\n        [db_coopfamModel.Store.p");
             viewString.Append("ropriedade](T1.[propriedade.INT_ID], T1.[propriedade.TXT_IE], T1.[propriedade.IN");
             viewString.Append("T_ID_COOPERADO], T1.[propriedade.TXT_AREA_PASTO], T1.[propriedade.TXT_AREA_TOTAL");
@@ -8798,43 +9447,50 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("], T1.[propriedade.FLOAT_PERCENTUAL_DA_PROPRIEDADE], T1.[propriedade.FLOAT_OUTRA");
             viewString.Append("S_AREAS], T1.[propriedade.DATE_DATA_VALIDADE_CONTRATO], T1.[propriedade.TXT_OBS]");
             viewString.Append(", T1.[propriedade.TXT_CAR], T1.[propriedade.BOOL_RESIDENCIA], T1.[propriedade.TX");
-            viewString.Append("T_CAMINHO_MAPEAMENTO_PDF], T1.[propriedade.TXT_DESCREVER_ACESSO_PROPRIEDADE])\r\n ");
-            viewString.Append("   FROM (\r\n        SELECT \r\n            T.INT_ID AS [propriedade.INT_ID], \r\n    ");
-            viewString.Append("        T.TXT_IE AS [propriedade.TXT_IE], \r\n            T.INT_ID_COOPERADO AS [p");
-            viewString.Append("ropriedade.INT_ID_COOPERADO], \r\n            T.TXT_AREA_PASTO AS [propriedade.TXT");
-            viewString.Append("_AREA_PASTO], \r\n            T.TXT_AREA_TOTAL AS [propriedade.TXT_AREA_TOTAL], \r\n");
-            viewString.Append("            T.TXT_AREA_PRODUCAO AS [propriedade.TXT_AREA_PRODUCAO], \r\n          ");
-            viewString.Append("  T.TXT_AREA_RESERVA_LEGAL AS [propriedade.TXT_AREA_RESERVA_LEGAL], \r\n          ");
-            viewString.Append("  T.TXT_AREA_VEGETACAO AS [propriedade.TXT_AREA_VEGETACAO], \r\n            T.TXT_");
-            viewString.Append("AREA_APP AS [propriedade.TXT_AREA_APP], \r\n            T.TXT_AREA_OUTROS_CULTIVOS");
-            viewString.Append(" AS [propriedade.TXT_AREA_OUTROS_CULTIVOS], \r\n            T.TXT_LATITUDE AS [pro");
-            viewString.Append("priedade.TXT_LATITUDE], \r\n            T.TXT_LONGITUDE AS [propriedade.TXT_LONGIT");
-            viewString.Append("UDE], \r\n            T.FLOAT_ALTITUDE AS [propriedade.FLOAT_ALTITUDE], \r\n        ");
-            viewString.Append("    T.CHAR_SITUACAO_PROPRIEDADE AS [propriedade.CHAR_SITUACAO_PROPRIEDADE], \r\n  ");
-            viewString.Append("          T.TXT_BAIRRO AS [propriedade.TXT_BAIRRO], \r\n            T.TXT_CEP AS [");
-            viewString.Append("propriedade.TXT_CEP], \r\n            T.TXT_CIDADE AS [propriedade.TXT_CIDADE], \r\n");
-            viewString.Append("            T.TXT_RUA AS [propriedade.TXT_RUA], \r\n            T.TXT_COMPLEMENTO ");
-            viewString.Append("AS [propriedade.TXT_COMPLEMENTO], \r\n            T.INT_NUMERO AS [propriedade.INT");
-            viewString.Append("_NUMERO], \r\n            T.BOOL_END_PRINC AS [propriedade.BOOL_END_PRINC], \r\n    ");
-            viewString.Append("        T.TXT_UF AS [propriedade.TXT_UF], \r\n            T.BOOL_FLAG_ATIVO_EXCLUI");
-            viewString.Append("DO AS [propriedade.BOOL_FLAG_ATIVO_EXCLUIDO], \r\n            T.INT_ID_CEP_ENDEREC");
-            viewString.Append("O AS [propriedade.INT_ID_CEP_ENDERECO], \r\n            T.FLOAT_PERCENTUAL_DA_PROP");
-            viewString.Append("RIEDADE AS [propriedade.FLOAT_PERCENTUAL_DA_PROPRIEDADE], \r\n            T.FLOAT_");
-            viewString.Append("OUTRAS_AREAS AS [propriedade.FLOAT_OUTRAS_AREAS], \r\n            T.DATE_DATA_VALI");
-            viewString.Append("DADE_CONTRATO AS [propriedade.DATE_DATA_VALIDADE_CONTRATO], \r\n            T.TXT_");
-            viewString.Append("OBS AS [propriedade.TXT_OBS], \r\n            T.TXT_CAR AS [propriedade.TXT_CAR], ");
-            viewString.Append("\r\n            T.BOOL_RESIDENCIA AS [propriedade.BOOL_RESIDENCIA], \r\n            ");
-            viewString.Append("T.TXT_CAMINHO_MAPEAMENTO_PDF AS [propriedade.TXT_CAMINHO_MAPEAMENTO_PDF], \r\n    ");
-            viewString.Append("        T.TXT_DESCREVER_ACESSO_PROPRIEDADE AS [propriedade.TXT_DESCREVER_ACESSO_");
-            viewString.Append("PROPRIEDADE], \r\n            True AS _from0\r\n        FROM db_coopfamEntities.prop");
-            viewString.Append("riedade AS T\r\n    ) AS T1");
+            viewString.Append("T_CAMINHO_MAPEAMENTO_PDF], T1.[propriedade.TXT_DESCREVER_ACESSO_PROPRIEDADE], T1");
+            viewString.Append(".[propriedade.INT_ID_CADASTRO], T1.[propriedade.INT_ID_ALTEROU], T1.[propriedade");
+            viewString.Append(".INT_ID_EXCLUIU], T1.[propriedade.DATE_CADASTRO], T1.[propriedade.DATE_ALTEROU],");
+            viewString.Append(" T1.[propriedade.DATE_EXCLUIU])\r\n    FROM (\r\n        SELECT \r\n            T.INT_");
+            viewString.Append("ID AS [propriedade.INT_ID], \r\n            T.TXT_IE AS [propriedade.TXT_IE], \r\n  ");
+            viewString.Append("          T.INT_ID_COOPERADO AS [propriedade.INT_ID_COOPERADO], \r\n            T.");
+            viewString.Append("TXT_AREA_PASTO AS [propriedade.TXT_AREA_PASTO], \r\n            T.TXT_AREA_TOTAL A");
+            viewString.Append("S [propriedade.TXT_AREA_TOTAL], \r\n            T.TXT_AREA_PRODUCAO AS [propriedad");
+            viewString.Append("e.TXT_AREA_PRODUCAO], \r\n            T.TXT_AREA_RESERVA_LEGAL AS [propriedade.TXT");
+            viewString.Append("_AREA_RESERVA_LEGAL], \r\n            T.TXT_AREA_VEGETACAO AS [propriedade.TXT_ARE");
+            viewString.Append("A_VEGETACAO], \r\n            T.TXT_AREA_APP AS [propriedade.TXT_AREA_APP], \r\n    ");
+            viewString.Append("        T.TXT_AREA_OUTROS_CULTIVOS AS [propriedade.TXT_AREA_OUTROS_CULTIVOS], \r\n");
+            viewString.Append("            T.TXT_LATITUDE AS [propriedade.TXT_LATITUDE], \r\n            T.TXT_LO");
+            viewString.Append("NGITUDE AS [propriedade.TXT_LONGITUDE], \r\n            T.FLOAT_ALTITUDE AS [propr");
+            viewString.Append("iedade.FLOAT_ALTITUDE], \r\n            T.CHAR_SITUACAO_PROPRIEDADE AS [propriedad");
+            viewString.Append("e.CHAR_SITUACAO_PROPRIEDADE], \r\n            T.TXT_BAIRRO AS [propriedade.TXT_BAI");
+            viewString.Append("RRO], \r\n            T.TXT_CEP AS [propriedade.TXT_CEP], \r\n            T.TXT_CIDA");
+            viewString.Append("DE AS [propriedade.TXT_CIDADE], \r\n            T.TXT_RUA AS [propriedade.TXT_RUA]");
+            viewString.Append(", \r\n            T.TXT_COMPLEMENTO AS [propriedade.TXT_COMPLEMENTO], \r\n          ");
+            viewString.Append("  T.INT_NUMERO AS [propriedade.INT_NUMERO], \r\n            T.BOOL_END_PRINC AS [p");
+            viewString.Append("ropriedade.BOOL_END_PRINC], \r\n            T.TXT_UF AS [propriedade.TXT_UF], \r\n  ");
+            viewString.Append("          T.BOOL_FLAG_ATIVO_EXCLUIDO AS [propriedade.BOOL_FLAG_ATIVO_EXCLUIDO], ");
+            viewString.Append("\r\n            T.INT_ID_CEP_ENDERECO AS [propriedade.INT_ID_CEP_ENDERECO], \r\n    ");
+            viewString.Append("        T.FLOAT_PERCENTUAL_DA_PROPRIEDADE AS [propriedade.FLOAT_PERCENTUAL_DA_PR");
+            viewString.Append("OPRIEDADE], \r\n            T.FLOAT_OUTRAS_AREAS AS [propriedade.FLOAT_OUTRAS_AREA");
+            viewString.Append("S], \r\n            T.DATE_DATA_VALIDADE_CONTRATO AS [propriedade.DATE_DATA_VALIDA");
+            viewString.Append("DE_CONTRATO], \r\n            T.TXT_OBS AS [propriedade.TXT_OBS], \r\n            T.");
+            viewString.Append("TXT_CAR AS [propriedade.TXT_CAR], \r\n            T.BOOL_RESIDENCIA AS [propriedad");
+            viewString.Append("e.BOOL_RESIDENCIA], \r\n            T.TXT_CAMINHO_MAPEAMENTO_PDF AS [propriedade.T");
+            viewString.Append("XT_CAMINHO_MAPEAMENTO_PDF], \r\n            T.TXT_DESCREVER_ACESSO_PROPRIEDADE AS ");
+            viewString.Append("[propriedade.TXT_DESCREVER_ACESSO_PROPRIEDADE], \r\n            T.INT_ID_CADASTRO ");
+            viewString.Append("AS [propriedade.INT_ID_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [propriedade");
+            viewString.Append(".INT_ID_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [propriedade.INT_ID_EXCLUIU]");
+            viewString.Append(", \r\n            T.DATE_CADASTRO AS [propriedade.DATE_CADASTRO], \r\n            T.");
+            viewString.Append("DATE_ALTEROU AS [propriedade.DATE_ALTEROU], \r\n            T.DATE_EXCLUIU AS [pro");
+            viewString.Append("priedade.DATE_EXCLUIU], \r\n            True AS _from0\r\n        FROM db_coopfamEnt");
+            viewString.Append("ities.propriedade AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.propriedade", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.quebra_de_safra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView217()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView230()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.quebra_de_safra", @"
     SELECT VALUE -- Constructing quebra_de_safra
@@ -8852,7 +9508,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.quebra_de_safra_estimativa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView218()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView231()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.quebra_de_safra_estimativa", @"
     SELECT VALUE -- Constructing quebra_de_safra_estimativa
@@ -8873,7 +9529,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.rank
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView219()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView232()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.rank", @"
     SELECT VALUE -- Constructing rank
@@ -8892,7 +9548,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.rastrear_transferencias_entre_contas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView220()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView233()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.rastrear_transferencias_entre_contas", @"
     SELECT VALUE -- Constructing rastrear_transferencias_entre_contas
@@ -8913,7 +9569,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.recibo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView221()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView234()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.recibo", @"
     SELECT VALUE -- Constructing recibo
@@ -8935,7 +9591,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.recibo_cancelado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView222()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView235()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.recibo_cancelado", @"
     SELECT VALUE -- Constructing recibo_cancelado
@@ -8955,7 +9611,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.recibo_lotes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView223()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView236()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.recibo_lotes", @"
     SELECT VALUE -- Constructing recibo_lotes
@@ -8977,9 +9633,29 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.recurso_utilizado_outra_fonte
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView237()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.recurso_utilizado_outra_fonte", @"
+    SELECT VALUE -- Constructing recurso_utilizado_outra_fonte
+        [db_coopfamModel.Store.recurso_utilizado_outra_fonte](T1.[recurso_utilizado_outra_fonte.INT_ID], T1.[recurso_utilizado_outra_fonte.INT_ID_CONTAS_A_PAGAR_PLANEJAMENTO], T1.[recurso_utilizado_outra_fonte.INT_ID_TRANSFERENCIA_RECURSO_PLANEJAMENTO_UTILIZADO], T1.[recurso_utilizado_outra_fonte.DECIMAL_TOTAL_REAIS], T1.[recurso_utilizado_outra_fonte.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [recurso_utilizado_outra_fonte.INT_ID], 
+            T.INT_ID_CONTAS_A_PAGAR_PLANEJAMENTO AS [recurso_utilizado_outra_fonte.INT_ID_CONTAS_A_PAGAR_PLANEJAMENTO], 
+            T.INT_ID_TRANSFERENCIA_RECURSO_PLANEJAMENTO_UTILIZADO AS [recurso_utilizado_outra_fonte.INT_ID_TRANSFERENCIA_RECURSO_PLANEJAMENTO_UTILIZADO], 
+            T.DECIMAL_TOTAL_REAIS AS [recurso_utilizado_outra_fonte.DECIMAL_TOTAL_REAIS], 
+            T.BOOL_ATIVO AS [recurso_utilizado_outra_fonte.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamEntities.recurso_utilizado_outra_fonte AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.referencia_comercial
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView224()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView238()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.referencia_comercial", @"
     SELECT VALUE -- Constructing referencia_comercial
@@ -9000,7 +9676,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.referencia_hedge
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView225()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView239()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.referencia_hedge", @"
     SELECT VALUE -- Constructing referencia_hedge
@@ -9025,7 +9701,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.referenciar_lotes_armazem_terceiros
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView226()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView240()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.referenciar_lotes_armazem_terceiros", @"
     SELECT VALUE -- Constructing referenciar_lotes_armazem_terceiros
@@ -9046,7 +9722,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.relacao_de_custos_da_formacao_de_preco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView227()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView241()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.relacao_de_custos_da_formacao_de_preco", @"
     SELECT VALUE -- Constructing relacao_de_custos_da_formacao_de_preco
@@ -9067,7 +9743,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.relacao_de_notas_desc_acrescimo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView228()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView242()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.relacao_de_notas_desc_acrescimo", "\r\n    SELECT VALUE -- Constructing relacao_de_notas_desc_acrescimo\r\n        [db_c" +
                     "oopfamModel.Store.relacao_de_notas_desc_acrescimo](T1.[relacao_de_notas_desc_acr" +
@@ -9097,7 +9773,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.relacao_notas_descontoacrescimo_lotes_fechamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView229()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView243()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.relacao_notas_descontoacrescimo_lotes_fechamento", @"
     SELECT VALUE -- Constructing relacao_notas_descontoacrescimo_lotes_fechamento
@@ -9117,7 +9793,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.relacao_situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView230()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView244()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.relacao_situacao_norma", @"
     SELECT VALUE -- Constructing relacao_situacao_norma
@@ -9139,7 +9815,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.remocao_de_lotes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView231()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView245()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.remocao_de_lotes", @"
     SELECT VALUE -- Constructing remocao_de_lotes
@@ -9163,7 +9839,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.requisicao_compra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView232()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView246()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.requisicao_compra", "\r\n    SELECT VALUE -- Constructing requisicao_compra\r\n        [db_coopfamModel.St" +
                     "ore.requisicao_compra](T1.[requisicao_compra.INT_ID], T1.[requisicao_compra.TXT_" +
@@ -9192,7 +9868,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.requisito_compra_itens
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView233()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView247()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.requisito_compra_itens", "\r\n    SELECT VALUE -- Constructing requisito_compra_itens\r\n        [db_coopfamMod" +
                     "el.Store.requisito_compra_itens](T1.[requisito_compra_itens.INT_ID], T1.[requisi" +
@@ -9225,7 +9901,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.resultado_rebeneficio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView234()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView248()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2995);
             viewString.Append("\r\n    SELECT VALUE -- Constructing resultado_rebeneficio\r\n        [db_coopfamMod");
@@ -9272,7 +9948,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.revisoes_pop
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView235()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView249()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.revisoes_pop", @"
     SELECT VALUE -- Constructing revisoes_pop
@@ -9291,7 +9967,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.rfid_chip
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView236()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView250()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.rfid_chip", @"
     SELECT VALUE -- Constructing rfid_chip
@@ -9313,7 +9989,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.rolagem
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView237()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView251()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2491);
             viewString.Append("\r\n    SELECT VALUE -- Constructing rolagem\r\n        [db_coopfamModel.Store.rolag");
@@ -9354,7 +10030,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.setor
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView238()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView252()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.setor", @"
     SELECT VALUE -- Constructing setor
@@ -9372,7 +10048,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView239()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView253()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.situacao_norma", @"
     SELECT VALUE -- Constructing situacao_norma
@@ -9392,7 +10068,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.situacaonorma_subtiponorma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView240()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView254()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.situacaonorma_subtiponorma", @"
     SELECT VALUE -- Constructing situacaonorma_subtiponorma
@@ -9411,7 +10087,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.solicitacao_de_amostra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView241()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView255()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.solicitacao_de_amostra", "\r\n    SELECT VALUE -- Constructing solicitacao_de_amostra\r\n        [db_coopfamMod" +
                     "el.Store.solicitacao_de_amostra](T1.[solicitacao_de_amostra.INT_ID], T1.[solicit" +
@@ -9441,7 +10117,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.solicitacao_de_amostra_lote
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView242()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView256()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2455);
             viewString.Append("\r\n    SELECT VALUE -- Constructing solicitacao_de_amostra_lote\r\n        [db_coop");
@@ -9481,7 +10157,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.solicitacao_de_retirada
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView243()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView257()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.solicitacao_de_retirada", "\r\n    SELECT VALUE -- Constructing solicitacao_de_retirada\r\n        [db_coopfamMo" +
                     "del.Store.solicitacao_de_retirada](T1.[solicitacao_de_retirada.INT_ID], T1.[soli" +
@@ -9490,25 +10166,29 @@ namespace Edm_EntityMappingGeneratedViews
                     "LICITACAO], T1.[solicitacao_de_retirada.INT_ID_CLIENTE], T1.[solicitacao_de_reti" +
                     "rada.INT_ID_COOPERADO], T1.[solicitacao_de_retirada.INT_ID_SOLICITANTE], T1.[sol" +
                     "icitacao_de_retirada.INT_ID_AUTORIZADO], T1.[solicitacao_de_retirada.BOOL_ATIVO]" +
-                    ", T1.[solicitacao_de_retirada.INT_ID_REVISAO_POP])\r\n    FROM (\r\n        SELECT \r" +
-                    "\n            T.INT_ID AS [solicitacao_de_retirada.INT_ID], \r\n            T.TXT_S" +
-                    "OLICITACAO AS [solicitacao_de_retirada.TXT_SOLICITACAO], \r\n            T.TXT_MOT" +
-                    "IVO AS [solicitacao_de_retirada.TXT_MOTIVO], \r\n            T.DATE_LANCAMENTO AS " +
-                    "[solicitacao_de_retirada.DATE_LANCAMENTO], \r\n            T.DATE_SOLICITACAO AS [" +
-                    "solicitacao_de_retirada.DATE_SOLICITACAO], \r\n            T.INT_ID_CLIENTE AS [so" +
-                    "licitacao_de_retirada.INT_ID_CLIENTE], \r\n            T.INT_ID_COOPERADO AS [soli" +
-                    "citacao_de_retirada.INT_ID_COOPERADO], \r\n            T.INT_ID_SOLICITANTE AS [so" +
-                    "licitacao_de_retirada.INT_ID_SOLICITANTE], \r\n            T.INT_ID_AUTORIZADO AS " +
-                    "[solicitacao_de_retirada.INT_ID_AUTORIZADO], \r\n            T.BOOL_ATIVO AS [soli" +
-                    "citacao_de_retirada.BOOL_ATIVO], \r\n            T.INT_ID_REVISAO_POP AS [solicita" +
-                    "cao_de_retirada.INT_ID_REVISAO_POP], \r\n            True AS _from0\r\n        FROM " +
-                    "db_coopfamEntities.solicitacao_de_retirada AS T\r\n    ) AS T1");
+                    ", T1.[solicitacao_de_retirada.INT_ID_REVISAO_POP], T1.[solicitacao_de_retirada.I" +
+                    "NT_ID_SETOR], T1.[solicitacao_de_retirada.TXT_PLANEJAMENTO_PROJETO])\r\n    FROM (" +
+                    "\r\n        SELECT \r\n            T.INT_ID AS [solicitacao_de_retirada.INT_ID], \r\n " +
+                    "           T.TXT_SOLICITACAO AS [solicitacao_de_retirada.TXT_SOLICITACAO], \r\n   " +
+                    "         T.TXT_MOTIVO AS [solicitacao_de_retirada.TXT_MOTIVO], \r\n            T.D" +
+                    "ATE_LANCAMENTO AS [solicitacao_de_retirada.DATE_LANCAMENTO], \r\n            T.DAT" +
+                    "E_SOLICITACAO AS [solicitacao_de_retirada.DATE_SOLICITACAO], \r\n            T.INT" +
+                    "_ID_CLIENTE AS [solicitacao_de_retirada.INT_ID_CLIENTE], \r\n            T.INT_ID_" +
+                    "COOPERADO AS [solicitacao_de_retirada.INT_ID_COOPERADO], \r\n            T.INT_ID_" +
+                    "SOLICITANTE AS [solicitacao_de_retirada.INT_ID_SOLICITANTE], \r\n            T.INT" +
+                    "_ID_AUTORIZADO AS [solicitacao_de_retirada.INT_ID_AUTORIZADO], \r\n            T.B" +
+                    "OOL_ATIVO AS [solicitacao_de_retirada.BOOL_ATIVO], \r\n            T.INT_ID_REVISA" +
+                    "O_POP AS [solicitacao_de_retirada.INT_ID_REVISAO_POP], \r\n            T.INT_ID_SE" +
+                    "TOR AS [solicitacao_de_retirada.INT_ID_SETOR], \r\n            T.TXT_PLANEJAMENTO_" +
+                    "PROJETO AS [solicitacao_de_retirada.TXT_PLANEJAMENTO_PROJETO], \r\n            Tru" +
+                    "e AS _from0\r\n        FROM db_coopfamEntities.solicitacao_de_retirada AS T\r\n    )" +
+                    " AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.solicitacao_de_unificacao_divisao_de_talhoes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView244()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView258()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2770);
             viewString.Append("\r\n    SELECT VALUE -- Constructing solicitacao_de_unificacao_divisao_de_talhoes\r");
@@ -9552,7 +10232,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.solicitar_visita
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView245()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView259()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.solicitar_visita", @"
     SELECT VALUE -- Constructing solicitar_visita
@@ -9572,7 +10252,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.subtipo_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView246()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView260()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.subtipo_norma", @"
     SELECT VALUE -- Constructing subtipo_norma
@@ -9590,7 +10270,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tabela_codigo_produto_por_convenio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView247()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView261()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tabela_codigo_produto_por_convenio", @"
     SELECT VALUE -- Constructing tabela_codigo_produto_por_convenio
@@ -9612,7 +10292,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tabela_icms
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView248()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView262()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tabela_icms", @"
     SELECT VALUE -- Constructing tabela_icms
@@ -9633,35 +10313,39 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.talhao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView249()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView263()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.talhao", @"
-    SELECT VALUE -- Constructing talhao
-        [db_coopfamModel.Store.talhao](T1.[talhao.INT_ID], T1.[talhao.INT_ID_PROPRIEDADE], T1.[talhao.FLOAT_NUMERO_PES], T1.[talhao.FLOAT_ESPACAMENTO_X], T1.[talhao.TXT_NOME_TALHAO], T1.[talhao.TXT_AREA_PRODUCAO], T1.[talhao.FLOAT_ESPACAMENTO_Y], T1.[talhao.BOOL_FLAG_ATIVO_EXCLUIDO], T1.[talhao.TXT_OBS], T1.[talhao.BOOL_STATUS], T1.[talhao.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO], T1.[talhao.TXT_ALTERACOES_TALHAO], T1.[talhao.DATE_ENTRADA_CERTIFICACAO])
-    FROM (
-        SELECT 
-            T.INT_ID AS [talhao.INT_ID], 
-            T.INT_ID_PROPRIEDADE AS [talhao.INT_ID_PROPRIEDADE], 
-            T.FLOAT_NUMERO_PES AS [talhao.FLOAT_NUMERO_PES], 
-            T.FLOAT_ESPACAMENTO_X AS [talhao.FLOAT_ESPACAMENTO_X], 
-            T.TXT_NOME_TALHAO AS [talhao.TXT_NOME_TALHAO], 
-            T.TXT_AREA_PRODUCAO AS [talhao.TXT_AREA_PRODUCAO], 
-            T.FLOAT_ESPACAMENTO_Y AS [talhao.FLOAT_ESPACAMENTO_Y], 
-            T.BOOL_FLAG_ATIVO_EXCLUIDO AS [talhao.BOOL_FLAG_ATIVO_EXCLUIDO], 
-            T.TXT_OBS AS [talhao.TXT_OBS], 
-            T.BOOL_STATUS AS [talhao.BOOL_STATUS], 
-            T.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO AS [talhao.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO], 
-            T.TXT_ALTERACOES_TALHAO AS [talhao.TXT_ALTERACOES_TALHAO], 
-            T.DATE_ENTRADA_CERTIFICACAO AS [talhao.DATE_ENTRADA_CERTIFICACAO], 
-            True AS _from0
-        FROM db_coopfamEntities.talhao AS T
-    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.talhao", "\r\n    SELECT VALUE -- Constructing talhao\r\n        [db_coopfamModel.Store.talhao]" +
+                    "(T1.[talhao.INT_ID], T1.[talhao.INT_ID_PROPRIEDADE], T1.[talhao.FLOAT_NUMERO_PES" +
+                    "], T1.[talhao.FLOAT_ESPACAMENTO_X], T1.[talhao.TXT_NOME_TALHAO], T1.[talhao.TXT_" +
+                    "AREA_PRODUCAO], T1.[talhao.FLOAT_ESPACAMENTO_Y], T1.[talhao.BOOL_FLAG_ATIVO_EXCL" +
+                    "UIDO], T1.[talhao.TXT_OBS], T1.[talhao.BOOL_STATUS], T1.[talhao.INT_ID_SOLICTACA" +
+                    "O_UNIFICACAO_TALHAO], T1.[talhao.TXT_ALTERACOES_TALHAO], T1.[talhao.DATE_ENTRADA" +
+                    "_CERTIFICACAO], T1.[talhao.INT_ID_CADASTRO], T1.[talhao.INT_ID_ALTEROU], T1.[tal" +
+                    "hao.INT_ID_EXCLUSAO], T1.[talhao.DATE_CADASTRO], T1.[talhao.DATE_ALTEROU], T1.[t" +
+                    "alhao.DATE_EXCLUSAO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [tal" +
+                    "hao.INT_ID], \r\n            T.INT_ID_PROPRIEDADE AS [talhao.INT_ID_PROPRIEDADE], " +
+                    "\r\n            T.FLOAT_NUMERO_PES AS [talhao.FLOAT_NUMERO_PES], \r\n            T.F" +
+                    "LOAT_ESPACAMENTO_X AS [talhao.FLOAT_ESPACAMENTO_X], \r\n            T.TXT_NOME_TAL" +
+                    "HAO AS [talhao.TXT_NOME_TALHAO], \r\n            T.TXT_AREA_PRODUCAO AS [talhao.TX" +
+                    "T_AREA_PRODUCAO], \r\n            T.FLOAT_ESPACAMENTO_Y AS [talhao.FLOAT_ESPACAMEN" +
+                    "TO_Y], \r\n            T.BOOL_FLAG_ATIVO_EXCLUIDO AS [talhao.BOOL_FLAG_ATIVO_EXCLU" +
+                    "IDO], \r\n            T.TXT_OBS AS [talhao.TXT_OBS], \r\n            T.BOOL_STATUS A" +
+                    "S [talhao.BOOL_STATUS], \r\n            T.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO AS [" +
+                    "talhao.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO], \r\n            T.TXT_ALTERACOES_TALH" +
+                    "AO AS [talhao.TXT_ALTERACOES_TALHAO], \r\n            T.DATE_ENTRADA_CERTIFICACAO " +
+                    "AS [talhao.DATE_ENTRADA_CERTIFICACAO], \r\n            T.INT_ID_CADASTRO AS [talha" +
+                    "o.INT_ID_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [talhao.INT_ID_ALTEROU], \r" +
+                    "\n            T.INT_ID_EXCLUSAO AS [talhao.INT_ID_EXCLUSAO], \r\n            T.DATE" +
+                    "_CADASTRO AS [talhao.DATE_CADASTRO], \r\n            T.DATE_ALTEROU AS [talhao.DAT" +
+                    "E_ALTEROU], \r\n            T.DATE_EXCLUSAO AS [talhao.DATE_EXCLUSAO], \r\n         " +
+                    "   True AS _from0\r\n        FROM db_coopfamEntities.talhao AS T\r\n    ) AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.talhao_ultima_aplicao_produto_proibido
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView250()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView264()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.talhao_ultima_aplicao_produto_proibido", "\r\n    SELECT VALUE -- Constructing talhao_ultima_aplicao_produto_proibido\r\n      " +
                     "  [db_coopfamModel.Store.talhao_ultima_aplicao_produto_proibido](T1.[talhao_ulti" +
@@ -9693,7 +10377,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.talhao_unificar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView251()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView265()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.talhao_unificar", @"
     SELECT VALUE -- Constructing talhao_unificar
@@ -9712,7 +10396,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.talhao_variedade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView252()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView266()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.talhao_variedade", "\r\n    SELECT VALUE -- Constructing talhao_variedade\r\n        [db_coopfamModel.Sto" +
                     "re.talhao_variedade](T1.[talhao_variedade.INT_ID], T1.[talhao_variedade.INT_ID_T" +
@@ -9739,7 +10423,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.telefone
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView253()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView267()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.telefone", @"
     SELECT VALUE -- Constructing telefone
@@ -9759,7 +10443,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.telefone_cliente
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView254()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView268()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.telefone_cliente", @"
     SELECT VALUE -- Constructing telefone_cliente
@@ -9779,7 +10463,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.termo_e_condicao_contrato_cafe_cru
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView255()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView269()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.termo_e_condicao_contrato_cafe_cru", @"
     SELECT VALUE -- Constructing termo_e_condicao_contrato_cafe_cru
@@ -9799,16 +10483,17 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_amostra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView256()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView270()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_amostra", @"
     SELECT VALUE -- Constructing tipo_amostra
-        [db_coopfamModel.Store.tipo_amostra](T1.[tipo_amostra.INT_ID], T1.[tipo_amostra.TXT_DESCRICAO], T1.[tipo_amostra.BOOL_ATIVO])
+        [db_coopfamModel.Store.tipo_amostra](T1.[tipo_amostra.INT_ID], T1.[tipo_amostra.TXT_DESCRICAO], T1.[tipo_amostra.BOOL_ATIVO], T1.[tipo_amostra.BOOL_SOLO_FOLIAR])
     FROM (
         SELECT 
             T.INT_ID AS [tipo_amostra.INT_ID], 
             T.TXT_DESCRICAO AS [tipo_amostra.TXT_DESCRICAO], 
             T.BOOL_ATIVO AS [tipo_amostra.BOOL_ATIVO], 
+            T.BOOL_SOLO_FOLIAR AS [tipo_amostra.BOOL_SOLO_FOLIAR], 
             True AS _from0
         FROM db_coopfamEntities.tipo_amostra AS T
     ) AS T1");
@@ -9817,7 +10502,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_cafe_rebeneficiado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView257()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView271()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_cafe_rebeneficiado", @"
     SELECT VALUE -- Constructing tipo_cafe_rebeneficiado
@@ -9836,7 +10521,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_contato_com_cliente
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView258()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView272()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_contato_com_cliente", @"
     SELECT VALUE -- Constructing tipo_de_contato_com_cliente
@@ -9853,19 +10538,40 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_criterio
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView273()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_criterio", @"
+    SELECT VALUE -- Constructing tipo_de_criterio
+        [db_coopfamModel.Store.tipo_de_criterio](T1.[tipo_de_criterio.INT_ID], T1.[tipo_de_criterio.TXT_DESCRICAO], T1.[tipo_de_criterio.BOOL_ELIMINATORIO], T1.[tipo_de_criterio.BOOL_ATIVO], T1.[tipo_de_criterio.DECIMAL_PESO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [tipo_de_criterio.INT_ID], 
+            T.TXT_DESCRICAO AS [tipo_de_criterio.TXT_DESCRICAO], 
+            T.BOOL_ELIMINATORIO AS [tipo_de_criterio.BOOL_ELIMINATORIO], 
+            T.BOOL_ATIVO AS [tipo_de_criterio.BOOL_ATIVO], 
+            T.DECIMAL_PESO AS [tipo_de_criterio.DECIMAL_PESO], 
+            True AS _from0
+        FROM db_coopfamEntities.tipo_de_criterio AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_documento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView259()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView274()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_documento", @"
     SELECT VALUE -- Constructing tipo_de_documento
-        [db_coopfamModel.Store.tipo_de_documento](T1.[tipo_de_documento.INT_ID], T1.[tipo_de_documento.TXT_DESCRICAO], T1.[tipo_de_documento.BOOL_ATIVO], T1.[tipo_de_documento.BOOL_SALRIO])
+        [db_coopfamModel.Store.tipo_de_documento](T1.[tipo_de_documento.INT_ID], T1.[tipo_de_documento.TXT_DESCRICAO], T1.[tipo_de_documento.BOOL_ATIVO], T1.[tipo_de_documento.BOOL_SALRIO], T1.[tipo_de_documento.BOOL_LANCAMENTO_CONTABIL_OBRIGATORIO])
     FROM (
         SELECT 
             T.INT_ID AS [tipo_de_documento.INT_ID], 
             T.TXT_DESCRICAO AS [tipo_de_documento.TXT_DESCRICAO], 
             T.BOOL_ATIVO AS [tipo_de_documento.BOOL_ATIVO], 
             T.BOOL_SALRIO AS [tipo_de_documento.BOOL_SALRIO], 
+            T.BOOL_LANCAMENTO_CONTABIL_OBRIGATORIO AS [tipo_de_documento.BOOL_LANCAMENTO_CONTABIL_OBRIGATORIO], 
             True AS _from0
         FROM db_coopfamEntities.tipo_de_documento AS T
     ) AS T1");
@@ -9874,7 +10580,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_inspecao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView260()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView275()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_inspecao", @"
     SELECT VALUE -- Constructing tipo_de_inspecao
@@ -9893,11 +10599,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_pagamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView261()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView276()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_pagamento", @"
     SELECT VALUE -- Constructing tipo_de_pagamento
-        [db_coopfamModel.Store.tipo_de_pagamento](T1.[tipo_de_pagamento.INT_ID], T1.[tipo_de_pagamento.TXT_DESCRICAO], T1.[tipo_de_pagamento.BOOL_ATIVO], T1.[tipo_de_pagamento.BOOL_CHEQUE], T1.[tipo_de_pagamento.DECIMAL_JUROS], T1.[tipo_de_pagamento.INT_ID_BANCO_PARA_MOVIMENTAR], T1.[tipo_de_pagamento.INT_D], T1.[tipo_de_pagamento.CHAR_TIPO_PAGAMENTO], T1.[tipo_de_pagamento.DECIMAL_TAXA])
+        [db_coopfamModel.Store.tipo_de_pagamento](T1.[tipo_de_pagamento.INT_ID], T1.[tipo_de_pagamento.TXT_DESCRICAO], T1.[tipo_de_pagamento.BOOL_ATIVO], T1.[tipo_de_pagamento.BOOL_CHEQUE], T1.[tipo_de_pagamento.DECIMAL_JUROS], T1.[tipo_de_pagamento.INT_ID_BANCO_PARA_MOVIMENTAR], T1.[tipo_de_pagamento.INT_D], T1.[tipo_de_pagamento.CHAR_TIPO_PAGAMENTO], T1.[tipo_de_pagamento.DECIMAL_TAXA], T1.[tipo_de_pagamento.INT_ID_CONTA_CONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [tipo_de_pagamento.INT_ID], 
@@ -9909,6 +10615,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.INT_D AS [tipo_de_pagamento.INT_D], 
             T.CHAR_TIPO_PAGAMENTO AS [tipo_de_pagamento.CHAR_TIPO_PAGAMENTO], 
             T.DECIMAL_TAXA AS [tipo_de_pagamento.DECIMAL_TAXA], 
+            T.INT_ID_CONTA_CONTABIL AS [tipo_de_pagamento.INT_ID_CONTA_CONTABIL], 
             True AS _from0
         FROM db_coopfamEntities.tipo_de_pagamento AS T
     ) AS T1");
@@ -9917,7 +10624,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_permissao_alas_do_armazem
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView262()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView277()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_permissao_alas_do_armazem", @"
     SELECT VALUE -- Constructing tipo_de_permissao_alas_do_armazem
@@ -9937,7 +10644,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_permissao_alas_do_armazem_normas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView263()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView278()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_permissao_alas_do_armazem_normas", @"
     SELECT VALUE -- Constructing tipo_de_permissao_alas_do_armazem_normas
@@ -9959,7 +10666,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_de_procedimento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView264()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView279()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_de_procedimento", @"
     SELECT VALUE -- Constructing tipo_de_procedimento
@@ -9978,7 +10685,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_lote_rebeneficio_para_gerar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView265()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView280()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_lote_rebeneficio_para_gerar", "\r\n    SELECT VALUE -- Constructing tipo_lote_rebeneficio_para_gerar\r\n        [db_" +
                     "coopfamModel.Store.tipo_lote_rebeneficio_para_gerar](T1.[tipo_lote_rebeneficio_p" +
@@ -10004,7 +10711,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_produto_agricola
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView266()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView281()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_produto_agricola", @"
     SELECT VALUE -- Constructing tipo_produto_agricola
@@ -10022,7 +10729,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tipo_sacaria
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView267()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView282()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tipo_sacaria", @"
     SELECT VALUE -- Constructing tipo_sacaria
@@ -10043,7 +10750,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.transferencia_entre_almoxarifado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView268()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView283()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2681);
             viewString.Append("\r\n    SELECT VALUE -- Constructing transferencia_entre_almoxarifado\r\n        [db");
@@ -10086,7 +10793,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.transferencia_produtos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView269()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView284()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.transferencia_produtos", @"
     SELECT VALUE -- Constructing transferencia_produtos
@@ -10104,9 +10811,59 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.transferencia_recurso_planejamento_utilizado
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView285()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.transferencia_recurso_planejamento_utilizado", "\r\n    SELECT VALUE -- Constructing transferencia_recurso_planejamento_utilizado\r\n" +
+                    "        [db_coopfamModel.Store.transferencia_recurso_planejamento_utilizado](T1." +
+                    "[transferencia_recurso_planejamento_utilizado.INT_ID], T1.[transferencia_recurso" +
+                    "_planejamento_utilizado.INT_ID_TRANSFERENCIA_RECURSO], T1.[transferencia_recurso" +
+                    "_planejamento_utilizado.INT_ID_PLANEJAMENTO], T1.[transferencia_recurso_planejam" +
+                    "ento_utilizado.DECIMAL_TAXA_DOLAR], T1.[transferencia_recurso_planejamento_utili" +
+                    "zado.DECIMAL_TOTAL_DOLAR], T1.[transferencia_recurso_planejamento_utilizado.DECI" +
+                    "MAL_TOTAL_REAIS], T1.[transferencia_recurso_planejamento_utilizado.BOOL_ATIVO])\r" +
+                    "\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [transferencia_recurso_pla" +
+                    "nejamento_utilizado.INT_ID], \r\n            T.INT_ID_TRANSFERENCIA_RECURSO AS [tr" +
+                    "ansferencia_recurso_planejamento_utilizado.INT_ID_TRANSFERENCIA_RECURSO], \r\n    " +
+                    "        T.INT_ID_PLANEJAMENTO AS [transferencia_recurso_planejamento_utilizado.I" +
+                    "NT_ID_PLANEJAMENTO], \r\n            T.DECIMAL_TAXA_DOLAR AS [transferencia_recurs" +
+                    "o_planejamento_utilizado.DECIMAL_TAXA_DOLAR], \r\n            T.DECIMAL_TOTAL_DOLA" +
+                    "R AS [transferencia_recurso_planejamento_utilizado.DECIMAL_TOTAL_DOLAR], \r\n     " +
+                    "       T.DECIMAL_TOTAL_REAIS AS [transferencia_recurso_planejamento_utilizado.DE" +
+                    "CIMAL_TOTAL_REAIS], \r\n            T.BOOL_ATIVO AS [transferencia_recurso_planeja" +
+                    "mento_utilizado.BOOL_ATIVO], \r\n            True AS _from0\r\n        FROM db_coopf" +
+                    "amEntities.transferencia_recurso_planejamento_utilizado AS T\r\n    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamModelStoreContainer.transferencia_recursos
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView286()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.transferencia_recursos", @"
+    SELECT VALUE -- Constructing transferencia_recursos
+        [db_coopfamModel.Store.transferencia_recursos](T1.[transferencia_recursos.INT_ID], T1.[transferencia_recursos.INT_ID_NOVO_PLANEJAMENTO], T1.[transferencia_recursos.DECIMAL_TAXA_DOLAR_MEDIA], T1.[transferencia_recursos.DECIMAL_TOTAL_DOLAR], T1.[transferencia_recursos.DECIMAL_TOTAL_REAIS], T1.[transferencia_recursos.DATE_TRANSFERENCIA], T1.[transferencia_recursos.TXT_OBS], T1.[transferencia_recursos.BOOL_ATIVO], T1.[transferencia_recursos.BOOL_SALDO_INICIAL])
+    FROM (
+        SELECT 
+            T.INT_ID AS [transferencia_recursos.INT_ID], 
+            T.INT_ID_NOVO_PLANEJAMENTO AS [transferencia_recursos.INT_ID_NOVO_PLANEJAMENTO], 
+            T.DECIMAL_TAXA_DOLAR_MEDIA AS [transferencia_recursos.DECIMAL_TAXA_DOLAR_MEDIA], 
+            T.DECIMAL_TOTAL_DOLAR AS [transferencia_recursos.DECIMAL_TOTAL_DOLAR], 
+            T.DECIMAL_TOTAL_REAIS AS [transferencia_recursos.DECIMAL_TOTAL_REAIS], 
+            T.DATE_TRANSFERENCIA AS [transferencia_recursos.DATE_TRANSFERENCIA], 
+            T.TXT_OBS AS [transferencia_recursos.TXT_OBS], 
+            T.BOOL_ATIVO AS [transferencia_recursos.BOOL_ATIVO], 
+            T.BOOL_SALDO_INICIAL AS [transferencia_recursos.BOOL_SALDO_INICIAL], 
+            True AS _from0
+        FROM db_coopfamEntities.transferencia_recursos AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.unidade_de_medida
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView270()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView287()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.unidade_de_medida", @"
     SELECT VALUE -- Constructing unidade_de_medida
@@ -10125,7 +10882,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.valor_diario_de_cada_carteira
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView271()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView288()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.valor_diario_de_cada_carteira", @"
     SELECT VALUE -- Constructing valor_diario_de_cada_carteira
@@ -10147,7 +10904,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.variedades
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView272()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView289()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.variedades", @"
     SELECT VALUE -- Constructing variedades
@@ -10166,7 +10923,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.venda_prestacao_servico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView273()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView290()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2688);
             viewString.Append("\r\n    SELECT VALUE -- Constructing venda_prestacao_servico\r\n        [db_coopfamM");
@@ -10209,7 +10966,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.acc_com_hedge
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView274()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView291()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3910);
             viewString.Append("\r\n    SELECT VALUE -- Constructing acc_com_hedge\r\n        [db_coopfamModel.acc_c");
@@ -10267,7 +11024,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_carga_descarga
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView275()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView292()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2888);
             viewString.Append("\r\n    SELECT VALUE -- Constructing agendamento_carga_descarga\r\n        [db_coopf");
@@ -10313,7 +11070,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_certificacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView276()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView293()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(4152);
             viewString.Append("\r\n    SELECT VALUE -- Constructing agendamento_certificacao\r\n        [db_coopfam");
@@ -10374,7 +11131,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_certificacao_itens_especificos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView277()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView294()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.agendamento_certificacao_itens_especificos", @"
     SELECT VALUE -- Constructing agendamento_certificacao_itens_especificos
@@ -10394,7 +11151,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_cooperado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView278()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView295()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.agendamento_cooperado", "\r\n    SELECT VALUE -- Constructing agendamento_cooperado\r\n        [db_coopfamMode" +
                     "l.agendamento_cooperado](T1.[agendamento_cooperado.INT_ID], T1.[agendamento_coop" +
@@ -10425,7 +11182,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_esquema
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView279()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView296()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.agendamento_esquema", @"
     SELECT VALUE -- Constructing agendamento_esquema
@@ -10444,7 +11201,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_formulario_ser_aplicado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView280()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView297()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.agendamento_formulario_ser_aplicado", @"
     SELECT VALUE -- Constructing agendamento_formulario_ser_aplicado
@@ -10463,7 +11220,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView281()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView298()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.agendamento_situacao_norma", @"
     SELECT VALUE -- Constructing agendamento_situacao_norma
@@ -10482,7 +11239,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.agendamento_talhao_propriedade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView282()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView299()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.agendamento_talhao_propriedade", @"
     SELECT VALUE -- Constructing agendamento_talhao_propriedade
@@ -10502,7 +11259,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.alas_do_armazem
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView283()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView300()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.alas_do_armazem", @"
     SELECT VALUE -- Constructing alas_do_armazem
@@ -10526,7 +11283,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.alas_do_armazem_chip_rfid
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView284()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView301()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.alas_do_armazem_chip_rfid", @"
     SELECT VALUE -- Constructing alas_do_armazem_chip_rfid
@@ -10545,7 +11302,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.alas_do_armazem_lotes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView285()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView302()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2934);
             viewString.Append("\r\n    SELECT VALUE -- Constructing alas_do_armazem_lotes\r\n        [db_coopfamMod");
@@ -10591,7 +11348,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.almoxarifado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView286()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView303()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.almoxarifado", @"
     SELECT VALUE -- Constructing almoxarifado
@@ -10612,7 +11369,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.amostra_da_roca
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView287()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView304()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.amostra_da_roca", "\r\n    SELECT VALUE -- Constructing amostra_da_roca\r\n        [db_coopfamModel.amos" +
                     "tra_da_roca](T1.[amostra_da_roca.INT_ID], T1.[amostra_da_roca.INT_ID_COOPERADO]," +
@@ -10645,9 +11402,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.amostra_solo_foliar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView288()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView305()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3196);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3452);
             viewString.Append("\r\n    SELECT VALUE -- Constructing amostra_solo_foliar\r\n        [db_coopfamModel");
             viewString.Append(".amostra_solo_foliar](T1.[amostra_solo_foliar.INT_ID], T1.[amostra_solo_foliar.T");
             viewString.Append("XT_OBS_AMOSTRA], T1.[amostra_solo_foliar.DATE_CADASTRO], T1.[amostra_solo_foliar");
@@ -10662,39 +11419,43 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("O_AMOSTRA], T1.[amostra_solo_foliar.TXT_NUM_AMOSTRA], T1.[amostra_solo_foliar.BO");
             viewString.Append("OL_CUSTEIO_COOPFAM], T1.[amostra_solo_foliar.BOOL_ATIVO], T1.[amostra_solo_folia");
             viewString.Append("r.DATE_RECEBE_AMOSTRA], T1.[amostra_solo_foliar.INT_ID_AMOSTRA_CALCULADA], T1.[a");
-            viewString.Append("mostra_solo_foliar.DATE_AMOSTRA_CALCULADA])\r\n    FROM (\r\n        SELECT \r\n      ");
-            viewString.Append("      T.INT_ID AS [amostra_solo_foliar.INT_ID], \r\n            T.TXT_OBS_AMOSTRA ");
-            viewString.Append("AS [amostra_solo_foliar.TXT_OBS_AMOSTRA], \r\n            T.DATE_CADASTRO AS [amos");
-            viewString.Append("tra_solo_foliar.DATE_CADASTRO], \r\n            T.DATE_ALTEROU AS [amostra_solo_fo");
-            viewString.Append("liar.DATE_ALTEROU], \r\n            T.DATE_EXCLUIU AS [amostra_solo_foliar.DATE_EX");
-            viewString.Append("CLUIU], \r\n            T.INT_ID_CADASTRO AS [amostra_solo_foliar.INT_ID_CADASTRO]");
-            viewString.Append(", \r\n            T.INT_ID_ALTEROU AS [amostra_solo_foliar.INT_ID_ALTEROU], \r\n    ");
-            viewString.Append("        T.INT_ID_EXCLUIU AS [amostra_solo_foliar.INT_ID_EXCLUIU], \r\n            ");
-            viewString.Append("T.TXT_STATUS AS [amostra_solo_foliar.TXT_STATUS], \r\n            T.DATE_RESULTADO");
-            viewString.Append("_ENTREGUE_COOPERADO_DATA AS [amostra_solo_foliar.DATE_RESULTADO_ENTREGUE_COOPERA");
-            viewString.Append("DO_DATA], \r\n            T.INT_ID_RESULTADO_ENTREGUE_COOPERADO AS [amostra_solo_f");
-            viewString.Append("oliar.INT_ID_RESULTADO_ENTREGUE_COOPERADO], \r\n            T.INT_ID_TIPO_AMOSTRA ");
-            viewString.Append("AS [amostra_solo_foliar.INT_ID_TIPO_AMOSTRA], \r\n            T.INT_ID_PRODUTOR AS");
-            viewString.Append(" [amostra_solo_foliar.INT_ID_PRODUTOR], \r\n            T.BOOL_TIPO_CULTIVO AS [am");
-            viewString.Append("ostra_solo_foliar.BOOL_TIPO_CULTIVO], \r\n            T.DECIMAL_ESTIMATIVA_SAFRA_P");
-            viewString.Append("ROXIMO_ANO AS [amostra_solo_foliar.DECIMAL_ESTIMATIVA_SAFRA_PROXIMO_ANO], \r\n    ");
-            viewString.Append("        T.DATE_RECEBE_RESULTADO_AMOSTRA AS [amostra_solo_foliar.DATE_RECEBE_RESU");
-            viewString.Append("LTADO_AMOSTRA], \r\n            T.INT_ID_RECEBE_RESULTADO_AMOSTRA AS [amostra_solo");
-            viewString.Append("_foliar.INT_ID_RECEBE_RESULTADO_AMOSTRA], \r\n            T.TXT_NUM_AMOSTRA AS [am");
-            viewString.Append("ostra_solo_foliar.TXT_NUM_AMOSTRA], \r\n            T.BOOL_CUSTEIO_COOPFAM AS [amo");
-            viewString.Append("stra_solo_foliar.BOOL_CUSTEIO_COOPFAM], \r\n            T.BOOL_ATIVO AS [amostra_s");
-            viewString.Append("olo_foliar.BOOL_ATIVO], \r\n            T.DATE_RECEBE_AMOSTRA AS [amostra_solo_fol");
-            viewString.Append("iar.DATE_RECEBE_AMOSTRA], \r\n            T.INT_ID_AMOSTRA_CALCULADA AS [amostra_s");
-            viewString.Append("olo_foliar.INT_ID_AMOSTRA_CALCULADA], \r\n            T.DATE_AMOSTRA_CALCULADA AS ");
-            viewString.Append("[amostra_solo_foliar.DATE_AMOSTRA_CALCULADA], \r\n            True AS _from0\r\n    ");
-            viewString.Append("    FROM db_coopfamModelStoreContainer.amostra_solo_foliar AS T\r\n    ) AS T1");
+            viewString.Append("mostra_solo_foliar.DATE_AMOSTRA_CALCULADA], T1.[amostra_solo_foliar.TXT_TALHAO_S");
+            viewString.Append("EM_CADASTRO], T1.[amostra_solo_foliar.TXT_CAMINHO_PDF])\r\n    FROM (\r\n        SEL");
+            viewString.Append("ECT \r\n            T.INT_ID AS [amostra_solo_foliar.INT_ID], \r\n            T.TXT_");
+            viewString.Append("OBS_AMOSTRA AS [amostra_solo_foliar.TXT_OBS_AMOSTRA], \r\n            T.DATE_CADAS");
+            viewString.Append("TRO AS [amostra_solo_foliar.DATE_CADASTRO], \r\n            T.DATE_ALTEROU AS [amo");
+            viewString.Append("stra_solo_foliar.DATE_ALTEROU], \r\n            T.DATE_EXCLUIU AS [amostra_solo_fo");
+            viewString.Append("liar.DATE_EXCLUIU], \r\n            T.INT_ID_CADASTRO AS [amostra_solo_foliar.INT_");
+            viewString.Append("ID_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [amostra_solo_foliar.INT_ID_ALTE");
+            viewString.Append("ROU], \r\n            T.INT_ID_EXCLUIU AS [amostra_solo_foliar.INT_ID_EXCLUIU], \r\n");
+            viewString.Append("            T.TXT_STATUS AS [amostra_solo_foliar.TXT_STATUS], \r\n            T.DA");
+            viewString.Append("TE_RESULTADO_ENTREGUE_COOPERADO_DATA AS [amostra_solo_foliar.DATE_RESULTADO_ENTR");
+            viewString.Append("EGUE_COOPERADO_DATA], \r\n            T.INT_ID_RESULTADO_ENTREGUE_COOPERADO AS [am");
+            viewString.Append("ostra_solo_foliar.INT_ID_RESULTADO_ENTREGUE_COOPERADO], \r\n            T.INT_ID_T");
+            viewString.Append("IPO_AMOSTRA AS [amostra_solo_foliar.INT_ID_TIPO_AMOSTRA], \r\n            T.INT_ID");
+            viewString.Append("_PRODUTOR AS [amostra_solo_foliar.INT_ID_PRODUTOR], \r\n            T.BOOL_TIPO_CU");
+            viewString.Append("LTIVO AS [amostra_solo_foliar.BOOL_TIPO_CULTIVO], \r\n            T.DECIMAL_ESTIMA");
+            viewString.Append("TIVA_SAFRA_PROXIMO_ANO AS [amostra_solo_foliar.DECIMAL_ESTIMATIVA_SAFRA_PROXIMO_");
+            viewString.Append("ANO], \r\n            T.DATE_RECEBE_RESULTADO_AMOSTRA AS [amostra_solo_foliar.DATE");
+            viewString.Append("_RECEBE_RESULTADO_AMOSTRA], \r\n            T.INT_ID_RECEBE_RESULTADO_AMOSTRA AS [");
+            viewString.Append("amostra_solo_foliar.INT_ID_RECEBE_RESULTADO_AMOSTRA], \r\n            T.TXT_NUM_AM");
+            viewString.Append("OSTRA AS [amostra_solo_foliar.TXT_NUM_AMOSTRA], \r\n            T.BOOL_CUSTEIO_COO");
+            viewString.Append("PFAM AS [amostra_solo_foliar.BOOL_CUSTEIO_COOPFAM], \r\n            T.BOOL_ATIVO A");
+            viewString.Append("S [amostra_solo_foliar.BOOL_ATIVO], \r\n            T.DATE_RECEBE_AMOSTRA AS [amos");
+            viewString.Append("tra_solo_foliar.DATE_RECEBE_AMOSTRA], \r\n            T.INT_ID_AMOSTRA_CALCULADA A");
+            viewString.Append("S [amostra_solo_foliar.INT_ID_AMOSTRA_CALCULADA], \r\n            T.DATE_AMOSTRA_C");
+            viewString.Append("ALCULADA AS [amostra_solo_foliar.DATE_AMOSTRA_CALCULADA], \r\n            T.TXT_TA");
+            viewString.Append("LHAO_SEM_CADASTRO AS [amostra_solo_foliar.TXT_TALHAO_SEM_CADASTRO], \r\n          ");
+            viewString.Append("  T.TXT_CAMINHO_PDF AS [amostra_solo_foliar.TXT_CAMINHO_PDF], \r\n            True");
+            viewString.Append(" AS _from0\r\n        FROM db_coopfamModelStoreContainer.amostra_solo_foliar AS T\r");
+            viewString.Append("\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.amostra_solo_foliar", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.amostra_solo_foliar_lote
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView289()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView306()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.amostra_solo_foliar_lote", @"
     SELECT VALUE -- Constructing amostra_solo_foliar_lote
@@ -10713,7 +11474,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.amostra_solo_foliar_talhao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView290()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView307()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.amostra_solo_foliar_talhao", @"
     SELECT VALUE -- Constructing amostra_solo_foliar_talhao
@@ -10732,7 +11493,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.aplicador_de_produtos_na_lavoura
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView291()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView308()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.aplicador_de_produtos_na_lavoura", @"
     SELECT VALUE -- Constructing aplicador_de_produtos_na_lavoura
@@ -10751,7 +11512,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.arbitragem_cafe
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView292()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView309()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.arbitragem_cafe", @"
     SELECT VALUE -- Constructing arbitragem_cafe
@@ -10770,7 +11531,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.autorizacao_dev_cooperado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView293()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView310()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.autorizacao_dev_cooperado", @"
     SELECT VALUE -- Constructing autorizacao_dev_cooperado
@@ -10789,7 +11550,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.autorizacao_generica
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView294()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView311()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(4977);
             viewString.Append("\r\n    SELECT VALUE -- Constructing autorizacao_generica\r\n        [db_coopfamMode");
@@ -10861,7 +11622,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.autorizacao_lotes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView295()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView312()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.autorizacao_lotes", @"
     SELECT VALUE -- Constructing autorizacao_lotes
@@ -10885,7 +11646,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.autorizacao_venda_exp
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView296()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView313()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.autorizacao_venda_exp", @"
     SELECT VALUE -- Constructing autorizacao_venda_exp
@@ -10909,7 +11670,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.baixa_valor_adiantado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView297()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView314()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.baixa_valor_adiantado", @"
     SELECT VALUE -- Constructing baixa_valor_adiantado
@@ -10929,7 +11690,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.bebida
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView298()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView315()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.bebida", @"
     SELECT VALUE -- Constructing bebida
@@ -10949,7 +11710,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.bebida_padrao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView299()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView316()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.bebida_padrao", @"
     SELECT VALUE -- Constructing bebida_padrao
@@ -10968,7 +11729,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.bolsa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView300()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView317()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.bolsa", @"
     SELECT VALUE -- Constructing bolsa
@@ -10987,9 +11748,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cadastro_entrada
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView301()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView318()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4465);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4925);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cadastro_entrada\r\n        [db_coopfamModel.ca");
             viewString.Append("dastro_entrada](T1.[cadastro_entrada.INT_ID], T1.[cadastro_entrada.INT_ID_COOPER");
             viewString.Append("ADO], T1.[cadastro_entrada.TXT_LOTE], T1.[cadastro_entrada.FLOAT_QTD_SACAS], T1.");
@@ -11009,50 +11770,56 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("ntrada.BOOL_CAFE_BORDADURA], T1.[cadastro_entrada.INT_ID_AGENDAMENTO_COOPERADO],");
             viewString.Append(" T1.[cadastro_entrada.TXT_OBS_CLASSIFICACAO], T1.[cadastro_entrada.DECIMAL_PESO_");
             viewString.Append("LIQUIDO_TOTAL], T1.[cadastro_entrada.BOOL_FINALIZOU_DESCARGA], T1.[cadastro_entr");
-            viewString.Append("ada.TXT_CODIGO_DE_BARRAS], T1.[cadastro_entrada.BOOL_VINCULAR_NOTA_FILIAL])\r\n   ");
-            viewString.Append(" FROM (\r\n        SELECT \r\n            T.INT_ID AS [cadastro_entrada.INT_ID], \r\n ");
-            viewString.Append("           T.INT_ID_COOPERADO AS [cadastro_entrada.INT_ID_COOPERADO], \r\n        ");
-            viewString.Append("    T.TXT_LOTE AS [cadastro_entrada.TXT_LOTE], \r\n            T.FLOAT_QTD_SACAS A");
-            viewString.Append("S [cadastro_entrada.FLOAT_QTD_SACAS], \r\n            T.FLOAT_PESO_LIQ AS [cadastr");
-            viewString.Append("o_entrada.FLOAT_PESO_LIQ], \r\n            T.INT_ID_BEBIDA AS [cadastro_entrada.IN");
-            viewString.Append("T_ID_BEBIDA], \r\n            T.FLOAT_TEOR_UMIDADE AS [cadastro_entrada.FLOAT_TEOR");
-            viewString.Append("_UMIDADE], \r\n            T.INT_CATACAO AS [cadastro_entrada.INT_CATACAO], \r\n    ");
-            viewString.Append("        T.INT_NF AS [cadastro_entrada.INT_NF], \r\n            T.DATE_ENTRADA AS [");
-            viewString.Append("cadastro_entrada.DATE_ENTRADA], \r\n            T.INT_ID_TALHAO AS [cadastro_entra");
-            viewString.Append("da.INT_ID_TALHAO], \r\n            T.INT_ID_SUBTIPO AS [cadastro_entrada.INT_ID_SU");
-            viewString.Append("BTIPO], \r\n            T.INT_ID_ALMOXARIFADO AS [cadastro_entrada.INT_ID_ALMOXARI");
-            viewString.Append("FADO], \r\n            T.INT_14UP AS [cadastro_entrada.INT_14UP], \r\n            T.");
-            viewString.Append("INT_16UP AS [cadastro_entrada.INT_16UP], \r\n            T.INT_17UP AS [cadastro_e");
-            viewString.Append("ntrada.INT_17UP], \r\n            T.FLOAT_PONTUACAO AS [cadastro_entrada.FLOAT_PON");
-            viewString.Append("TUACAO], \r\n            T.TXT_SAFRA AS [cadastro_entrada.TXT_SAFRA], \r\n          ");
-            viewString.Append("  T.BOOL_FLAG_MEXER_NMEXER AS [cadastro_entrada.BOOL_FLAG_MEXER_NMEXER], \r\n     ");
-            viewString.Append("       T.INT_18UP AS [cadastro_entrada.INT_18UP], \r\n            T.BOOL_TIPO AS [");
-            viewString.Append("cadastro_entrada.BOOL_TIPO], \r\n            T.BOOL_FLAG AS [cadastro_entrada.BOOL");
-            viewString.Append("_FLAG], \r\n            T.DATE_LANCAMENTO AS [cadastro_entrada.DATE_LANCAMENTO], \r");
-            viewString.Append("\n            T.DECIMAL_CATACAO_MERCADO AS [cadastro_entrada.DECIMAL_CATACAO_MERC");
-            viewString.Append("ADO], \r\n            T.BOOL_TRANSICAO AS [cadastro_entrada.BOOL_TRANSICAO], \r\n   ");
-            viewString.Append("         T.INT_FUNCIONARIO AS [cadastro_entrada.INT_FUNCIONARIO], \r\n            ");
-            viewString.Append("T.FLOAT_SACAS_DEVOLVIDAS AS [cadastro_entrada.FLOAT_SACAS_DEVOLVIDAS], \r\n       ");
-            viewString.Append("     T.DECIMAL_VALOR_UNITARIO_NF_ENTRADA AS [cadastro_entrada.DECIMAL_VALOR_UNIT");
-            viewString.Append("ARIO_NF_ENTRADA], \r\n            T.TXT_MOTIVO_DE_NAO_MEXER AS [cadastro_entrada.T");
-            viewString.Append("XT_MOTIVO_DE_NAO_MEXER], \r\n            T.TXT_OBS AS [cadastro_entrada.TXT_OBS], ");
-            viewString.Append("\r\n            T.INT_VAZAMENTO AS [cadastro_entrada.INT_VAZAMENTO], \r\n           ");
-            viewString.Append(" T.BOOL_CAFE_BORDADURA AS [cadastro_entrada.BOOL_CAFE_BORDADURA], \r\n            ");
-            viewString.Append("T.INT_ID_AGENDAMENTO_COOPERADO AS [cadastro_entrada.INT_ID_AGENDAMENTO_COOPERADO");
-            viewString.Append("], \r\n            T.TXT_OBS_CLASSIFICACAO AS [cadastro_entrada.TXT_OBS_CLASSIFICA");
-            viewString.Append("CAO], \r\n            T.DECIMAL_PESO_LIQUIDO_TOTAL AS [cadastro_entrada.DECIMAL_PE");
-            viewString.Append("SO_LIQUIDO_TOTAL], \r\n            T.BOOL_FINALIZOU_DESCARGA AS [cadastro_entrada.");
-            viewString.Append("BOOL_FINALIZOU_DESCARGA], \r\n            T.TXT_CODIGO_DE_BARRAS AS [cadastro_entr");
-            viewString.Append("ada.TXT_CODIGO_DE_BARRAS], \r\n            T.BOOL_VINCULAR_NOTA_FILIAL AS [cadastr");
-            viewString.Append("o_entrada.BOOL_VINCULAR_NOTA_FILIAL], \r\n            True AS _from0\r\n        FROM");
-            viewString.Append(" db_coopfamModelStoreContainer.cadastro_entrada AS T\r\n    ) AS T1");
+            viewString.Append("ada.TXT_CODIGO_DE_BARRAS], T1.[cadastro_entrada.BOOL_VINCULAR_NOTA_FILIAL], T1.[");
+            viewString.Append("cadastro_entrada.TXT_ASPECTO], T1.[cadastro_entrada.INT_MK], T1.[cadastro_entrad");
+            viewString.Append("a.TXT_TIPO], T1.[cadastro_entrada.TXT_NOTAS], T1.[cadastro_entrada.BOOL_STATUS])");
+            viewString.Append("\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cadastro_entrada.INT_ID]");
+            viewString.Append(", \r\n            T.INT_ID_COOPERADO AS [cadastro_entrada.INT_ID_COOPERADO], \r\n   ");
+            viewString.Append("         T.TXT_LOTE AS [cadastro_entrada.TXT_LOTE], \r\n            T.FLOAT_QTD_SA");
+            viewString.Append("CAS AS [cadastro_entrada.FLOAT_QTD_SACAS], \r\n            T.FLOAT_PESO_LIQ AS [ca");
+            viewString.Append("dastro_entrada.FLOAT_PESO_LIQ], \r\n            T.INT_ID_BEBIDA AS [cadastro_entra");
+            viewString.Append("da.INT_ID_BEBIDA], \r\n            T.FLOAT_TEOR_UMIDADE AS [cadastro_entrada.FLOAT");
+            viewString.Append("_TEOR_UMIDADE], \r\n            T.INT_CATACAO AS [cadastro_entrada.INT_CATACAO], \r");
+            viewString.Append("\n            T.INT_NF AS [cadastro_entrada.INT_NF], \r\n            T.DATE_ENTRADA");
+            viewString.Append(" AS [cadastro_entrada.DATE_ENTRADA], \r\n            T.INT_ID_TALHAO AS [cadastro_");
+            viewString.Append("entrada.INT_ID_TALHAO], \r\n            T.INT_ID_SUBTIPO AS [cadastro_entrada.INT_");
+            viewString.Append("ID_SUBTIPO], \r\n            T.INT_ID_ALMOXARIFADO AS [cadastro_entrada.INT_ID_ALM");
+            viewString.Append("OXARIFADO], \r\n            T.INT_14UP AS [cadastro_entrada.INT_14UP], \r\n         ");
+            viewString.Append("   T.INT_16UP AS [cadastro_entrada.INT_16UP], \r\n            T.INT_17UP AS [cadas");
+            viewString.Append("tro_entrada.INT_17UP], \r\n            T.FLOAT_PONTUACAO AS [cadastro_entrada.FLOA");
+            viewString.Append("T_PONTUACAO], \r\n            T.TXT_SAFRA AS [cadastro_entrada.TXT_SAFRA], \r\n     ");
+            viewString.Append("       T.BOOL_FLAG_MEXER_NMEXER AS [cadastro_entrada.BOOL_FLAG_MEXER_NMEXER], \r\n");
+            viewString.Append("            T.INT_18UP AS [cadastro_entrada.INT_18UP], \r\n            T.BOOL_TIPO");
+            viewString.Append(" AS [cadastro_entrada.BOOL_TIPO], \r\n            T.BOOL_FLAG AS [cadastro_entrada");
+            viewString.Append(".BOOL_FLAG], \r\n            T.DATE_LANCAMENTO AS [cadastro_entrada.DATE_LANCAMENT");
+            viewString.Append("O], \r\n            T.DECIMAL_CATACAO_MERCADO AS [cadastro_entrada.DECIMAL_CATACAO");
+            viewString.Append("_MERCADO], \r\n            T.BOOL_TRANSICAO AS [cadastro_entrada.BOOL_TRANSICAO], ");
+            viewString.Append("\r\n            T.INT_FUNCIONARIO AS [cadastro_entrada.INT_FUNCIONARIO], \r\n       ");
+            viewString.Append("     T.FLOAT_SACAS_DEVOLVIDAS AS [cadastro_entrada.FLOAT_SACAS_DEVOLVIDAS], \r\n  ");
+            viewString.Append("          T.DECIMAL_VALOR_UNITARIO_NF_ENTRADA AS [cadastro_entrada.DECIMAL_VALOR");
+            viewString.Append("_UNITARIO_NF_ENTRADA], \r\n            T.TXT_MOTIVO_DE_NAO_MEXER AS [cadastro_entr");
+            viewString.Append("ada.TXT_MOTIVO_DE_NAO_MEXER], \r\n            T.TXT_OBS AS [cadastro_entrada.TXT_O");
+            viewString.Append("BS], \r\n            T.INT_VAZAMENTO AS [cadastro_entrada.INT_VAZAMENTO], \r\n      ");
+            viewString.Append("      T.BOOL_CAFE_BORDADURA AS [cadastro_entrada.BOOL_CAFE_BORDADURA], \r\n       ");
+            viewString.Append("     T.INT_ID_AGENDAMENTO_COOPERADO AS [cadastro_entrada.INT_ID_AGENDAMENTO_COOP");
+            viewString.Append("ERADO], \r\n            T.TXT_OBS_CLASSIFICACAO AS [cadastro_entrada.TXT_OBS_CLASS");
+            viewString.Append("IFICACAO], \r\n            T.DECIMAL_PESO_LIQUIDO_TOTAL AS [cadastro_entrada.DECIM");
+            viewString.Append("AL_PESO_LIQUIDO_TOTAL], \r\n            T.BOOL_FINALIZOU_DESCARGA AS [cadastro_ent");
+            viewString.Append("rada.BOOL_FINALIZOU_DESCARGA], \r\n            T.TXT_CODIGO_DE_BARRAS AS [cadastro");
+            viewString.Append("_entrada.TXT_CODIGO_DE_BARRAS], \r\n            T.BOOL_VINCULAR_NOTA_FILIAL AS [ca");
+            viewString.Append("dastro_entrada.BOOL_VINCULAR_NOTA_FILIAL], \r\n            T.TXT_ASPECTO AS [cadas");
+            viewString.Append("tro_entrada.TXT_ASPECTO], \r\n            T.INT_MK AS [cadastro_entrada.INT_MK], \r");
+            viewString.Append("\n            T.TXT_TIPO AS [cadastro_entrada.TXT_TIPO], \r\n            T.TXT_NOTA");
+            viewString.Append("S AS [cadastro_entrada.TXT_NOTAS], \r\n            T.BOOL_STATUS AS [cadastro_entr");
+            viewString.Append("ada.BOOL_STATUS], \r\n            True AS _from0\r\n        FROM db_coopfamModelStor");
+            viewString.Append("eContainer.cadastro_entrada AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cadastro_entrada", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.carregamento_para_armazem_terceiros
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView302()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView319()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.carregamento_para_armazem_terceiros", @"
     SELECT VALUE -- Constructing carregamento_para_armazem_terceiros
@@ -11075,7 +11842,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.carteira
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView303()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView320()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.carteira", @"
     SELECT VALUE -- Constructing carteira
@@ -11100,11 +11867,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.categoria_de_emprestimo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView304()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView321()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.categoria_de_emprestimo", @"
     SELECT VALUE -- Constructing categoria_de_emprestimo
-        [db_coopfamModel.categoria_de_emprestimo](T1.[categoria_de_emprestimo.INT_ID], T1.[categoria_de_emprestimo.TXT_CATEGORIA], T1.[categoria_de_emprestimo.CHAR_MODELO_DE_CONTRATO], T1.[categoria_de_emprestimo.INT_ID_PLANEJAMENTO], T1.[categoria_de_emprestimo.BOOL_FT_OUTRAS_FONTES])
+        [db_coopfamModel.categoria_de_emprestimo](T1.[categoria_de_emprestimo.INT_ID], T1.[categoria_de_emprestimo.TXT_CATEGORIA], T1.[categoria_de_emprestimo.CHAR_MODELO_DE_CONTRATO], T1.[categoria_de_emprestimo.INT_ID_PLANEJAMENTO], T1.[categoria_de_emprestimo.BOOL_FT_OUTRAS_FONTES], T1.[categoria_de_emprestimo.INT_ID_CONTA_CONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [categoria_de_emprestimo.INT_ID], 
@@ -11112,6 +11879,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.CHAR_MODELO_DE_CONTRATO AS [categoria_de_emprestimo.CHAR_MODELO_DE_CONTRATO], 
             T.INT_ID_PLANEJAMENTO AS [categoria_de_emprestimo.INT_ID_PLANEJAMENTO], 
             T.BOOL_FT_OUTRAS_FONTES AS [categoria_de_emprestimo.BOOL_FT_OUTRAS_FONTES], 
+            T.INT_ID_CONTA_CONTABIL AS [categoria_de_emprestimo.INT_ID_CONTA_CONTABIL], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.categoria_de_emprestimo AS T
     ) AS T1");
@@ -11120,16 +11888,17 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.categoria_de_emprestimo_com_banco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView305()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView322()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.categoria_de_emprestimo_com_banco", @"
     SELECT VALUE -- Constructing categoria_de_emprestimo_com_banco
-        [db_coopfamModel.categoria_de_emprestimo_com_banco](T1.[categoria_de_emprestimo_com_banco.INT_ID], T1.[categoria_de_emprestimo_com_banco.TXT_DESCRICAO], T1.[categoria_de_emprestimo_com_banco.BOOL_ATIVO])
+        [db_coopfamModel.categoria_de_emprestimo_com_banco](T1.[categoria_de_emprestimo_com_banco.INT_ID], T1.[categoria_de_emprestimo_com_banco.TXT_DESCRICAO], T1.[categoria_de_emprestimo_com_banco.BOOL_ATIVO], T1.[categoria_de_emprestimo_com_banco.INT_ID_CONTA_CONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [categoria_de_emprestimo_com_banco.INT_ID], 
             T.TXT_DESCRICAO AS [categoria_de_emprestimo_com_banco.TXT_DESCRICAO], 
             T.BOOL_ATIVO AS [categoria_de_emprestimo_com_banco.BOOL_ATIVO], 
+            T.INT_ID_CONTA_CONTABIL AS [categoria_de_emprestimo_com_banco.INT_ID_CONTA_CONTABIL], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.categoria_de_emprestimo_com_banco AS T
     ) AS T1");
@@ -11138,7 +11907,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cepbr_bairro
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView306()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView323()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cepbr_bairro", @"
     SELECT VALUE -- Constructing cepbr_bairro
@@ -11156,7 +11925,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cepbr_cidade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView307()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView324()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cepbr_cidade", @"
     SELECT VALUE -- Constructing cepbr_cidade
@@ -11177,7 +11946,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cepbr_enderecos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView308()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView325()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cepbr_enderecos", @"
     SELECT VALUE -- Constructing cepbr_enderecos
@@ -11200,7 +11969,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cepbr_estado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView309()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView326()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cepbr_estado", @"
     SELECT VALUE -- Constructing cepbr_estado
@@ -11218,7 +11987,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.certificacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView310()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView327()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.certificacao", @"
     SELECT VALUE -- Constructing certificacao
@@ -11237,7 +12006,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cfop
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView311()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView328()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cfop", @"
     SELECT VALUE -- Constructing cfop
@@ -11259,9 +12028,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cliente
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView312()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView329()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2398);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3455);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cliente\r\n        [db_coopfamModel.cliente](T1");
             viewString.Append(".[cliente.INT_ID], T1.[cliente.TXT_NOME], T1.[cliente.TXT_PAIS], T1.[cliente.TXT");
             viewString.Append("_RUA], T1.[cliente.TXT_BAIRRO], T1.[cliente.TXT_NUM], T1.[cliente.TXT_COMPLEMENT");
@@ -11271,34 +12040,48 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("cliente.INT_FLO_ID], T1.[cliente.INT_ID_CEP_ENDERECO], T1.[cliente.INT_ID_GRUPO_");
             viewString.Append("SERVICO], T1.[cliente.TXT_PESSOA_DE_CONTATO], T1.[cliente.BOOL_CLIENTE], T1.[cli");
             viewString.Append("ente.TXT_INDICADOR_IE], T1.[cliente.BOOL_FORNECEDOR], T1.[cliente.INT_ID_CODIGO_");
-            viewString.Append("CONTABIL], T1.[cliente.BOOL_MEDICO], T1.[cliente.BOOL_BLOQUEAR_VENDAS])\r\n    FRO");
-            viewString.Append("M (\r\n        SELECT \r\n            T.INT_ID AS [cliente.INT_ID], \r\n            T.");
-            viewString.Append("TXT_NOME AS [cliente.TXT_NOME], \r\n            T.TXT_PAIS AS [cliente.TXT_PAIS], ");
-            viewString.Append("\r\n            T.TXT_RUA AS [cliente.TXT_RUA], \r\n            T.TXT_BAIRRO AS [cli");
-            viewString.Append("ente.TXT_BAIRRO], \r\n            T.TXT_NUM AS [cliente.TXT_NUM], \r\n            T.");
-            viewString.Append("TXT_COMPLEMENTO AS [cliente.TXT_COMPLEMENTO], \r\n            T.TXT_CEP AS [client");
-            viewString.Append("e.TXT_CEP], \r\n            T.TXT_IM AS [cliente.TXT_IM], \r\n            T.TXT_IE A");
-            viewString.Append("S [cliente.TXT_IE], \r\n            T.BOOL_PESSOA_FIS_JURIDICA AS [cliente.BOOL_PE");
-            viewString.Append("SSOA_FIS_JURIDICA], \r\n            T.TXT_CPF_CNPJ AS [cliente.TXT_CPF_CNPJ], \r\n  ");
-            viewString.Append("          T.TXT_NOME_FANTASIA AS [cliente.TXT_NOME_FANTASIA], \r\n            T.TX");
-            viewString.Append("T_CIDADE AS [cliente.TXT_CIDADE], \r\n            T.TXT_UF AS [cliente.TXT_UF], \r\n");
-            viewString.Append("            T.BOOL_FLAG AS [cliente.BOOL_FLAG], \r\n            T.INT_FLO_ID AS [c");
-            viewString.Append("liente.INT_FLO_ID], \r\n            T.INT_ID_CEP_ENDERECO AS [cliente.INT_ID_CEP_E");
-            viewString.Append("NDERECO], \r\n            T.INT_ID_GRUPO_SERVICO AS [cliente.INT_ID_GRUPO_SERVICO]");
-            viewString.Append(", \r\n            T.TXT_PESSOA_DE_CONTATO AS [cliente.TXT_PESSOA_DE_CONTATO], \r\n  ");
-            viewString.Append("          T.BOOL_CLIENTE AS [cliente.BOOL_CLIENTE], \r\n            T.TXT_INDICADO");
-            viewString.Append("R_IE AS [cliente.TXT_INDICADOR_IE], \r\n            T.BOOL_FORNECEDOR AS [cliente.");
-            viewString.Append("BOOL_FORNECEDOR], \r\n            T.INT_ID_CODIGO_CONTABIL AS [cliente.INT_ID_CODI");
-            viewString.Append("GO_CONTABIL], \r\n            T.BOOL_MEDICO AS [cliente.BOOL_MEDICO], \r\n          ");
-            viewString.Append("  T.BOOL_BLOQUEAR_VENDAS AS [cliente.BOOL_BLOQUEAR_VENDAS], \r\n            True A");
-            viewString.Append("S _from0\r\n        FROM db_coopfamModelStoreContainer.cliente AS T\r\n    ) AS T1");
+            viewString.Append("CONTABIL], T1.[cliente.BOOL_MEDICO], T1.[cliente.BOOL_BLOQUEAR_VENDAS], T1.[clie");
+            viewString.Append("nte.DECIMAL_LIMITE_CREDITO], T1.[cliente.BOOL_IGNORAR_LIMITE_DE_CREDITO], T1.[cl");
+            viewString.Append("iente.TXT_MOTIVO_BLOQUEIO], T1.[cliente.TXT_REFERENCIA_1], T1.[cliente.TXT_CONTA");
+            viewString.Append("TO_1], T1.[cliente.TXT_REFERENCIA_2], T1.[cliente.TXT_CONTATO_2], T1.[cliente.TX");
+            viewString.Append("T_CONTATO_3], T1.[cliente.TXT_REFERENCIA_3], T1.[cliente.TXT_ID_RFA], T1.[client");
+            viewString.Append("e.TXT_FTUSA_ID])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cliente.");
+            viewString.Append("INT_ID], \r\n            T.TXT_NOME AS [cliente.TXT_NOME], \r\n            T.TXT_PAI");
+            viewString.Append("S AS [cliente.TXT_PAIS], \r\n            T.TXT_RUA AS [cliente.TXT_RUA], \r\n       ");
+            viewString.Append("     T.TXT_BAIRRO AS [cliente.TXT_BAIRRO], \r\n            T.TXT_NUM AS [cliente.T");
+            viewString.Append("XT_NUM], \r\n            T.TXT_COMPLEMENTO AS [cliente.TXT_COMPLEMENTO], \r\n       ");
+            viewString.Append("     T.TXT_CEP AS [cliente.TXT_CEP], \r\n            T.TXT_IM AS [cliente.TXT_IM],");
+            viewString.Append(" \r\n            T.TXT_IE AS [cliente.TXT_IE], \r\n            T.BOOL_PESSOA_FIS_JUR");
+            viewString.Append("IDICA AS [cliente.BOOL_PESSOA_FIS_JURIDICA], \r\n            T.TXT_CPF_CNPJ AS [cl");
+            viewString.Append("iente.TXT_CPF_CNPJ], \r\n            T.TXT_NOME_FANTASIA AS [cliente.TXT_NOME_FANT");
+            viewString.Append("ASIA], \r\n            T.TXT_CIDADE AS [cliente.TXT_CIDADE], \r\n            T.TXT_U");
+            viewString.Append("F AS [cliente.TXT_UF], \r\n            T.BOOL_FLAG AS [cliente.BOOL_FLAG], \r\n     ");
+            viewString.Append("       T.INT_FLO_ID AS [cliente.INT_FLO_ID], \r\n            T.INT_ID_CEP_ENDERECO");
+            viewString.Append(" AS [cliente.INT_ID_CEP_ENDERECO], \r\n            T.INT_ID_GRUPO_SERVICO AS [clie");
+            viewString.Append("nte.INT_ID_GRUPO_SERVICO], \r\n            T.TXT_PESSOA_DE_CONTATO AS [cliente.TXT");
+            viewString.Append("_PESSOA_DE_CONTATO], \r\n            T.BOOL_CLIENTE AS [cliente.BOOL_CLIENTE], \r\n ");
+            viewString.Append("           T.TXT_INDICADOR_IE AS [cliente.TXT_INDICADOR_IE], \r\n            T.BOO");
+            viewString.Append("L_FORNECEDOR AS [cliente.BOOL_FORNECEDOR], \r\n            T.INT_ID_CODIGO_CONTABI");
+            viewString.Append("L AS [cliente.INT_ID_CODIGO_CONTABIL], \r\n            T.BOOL_MEDICO AS [cliente.B");
+            viewString.Append("OOL_MEDICO], \r\n            T.BOOL_BLOQUEAR_VENDAS AS [cliente.BOOL_BLOQUEAR_VEND");
+            viewString.Append("AS], \r\n            T.DECIMAL_LIMITE_CREDITO AS [cliente.DECIMAL_LIMITE_CREDITO],");
+            viewString.Append(" \r\n            T.BOOL_IGNORAR_LIMITE_DE_CREDITO AS [cliente.BOOL_IGNORAR_LIMITE_");
+            viewString.Append("DE_CREDITO], \r\n            T.TXT_MOTIVO_BLOQUEIO AS [cliente.TXT_MOTIVO_BLOQUEIO");
+            viewString.Append("], \r\n            T.TXT_REFERENCIA_1 AS [cliente.TXT_REFERENCIA_1], \r\n           ");
+            viewString.Append(" T.TXT_CONTATO_1 AS [cliente.TXT_CONTATO_1], \r\n            T.TXT_REFERENCIA_2 AS");
+            viewString.Append(" [cliente.TXT_REFERENCIA_2], \r\n            T.TXT_CONTATO_2 AS [cliente.TXT_CONTA");
+            viewString.Append("TO_2], \r\n            T.TXT_CONTATO_3 AS [cliente.TXT_CONTATO_3], \r\n            T");
+            viewString.Append(".TXT_REFERENCIA_3 AS [cliente.TXT_REFERENCIA_3], \r\n            T.TXT_ID_RFA AS [");
+            viewString.Append("cliente.TXT_ID_RFA], \r\n            T.TXT_FTUSA_ID AS [cliente.TXT_FTUSA_ID], \r\n ");
+            viewString.Append("           True AS _from0\r\n        FROM db_coopfamModelStoreContainer.cliente AS");
+            viewString.Append(" T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cliente", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cliente_conta_bancaria
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView313()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView330()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cliente_conta_bancaria", "\r\n    SELECT VALUE -- Constructing cliente_conta_bancaria\r\n        [db_coopfamMod" +
                     "el.cliente_conta_bancaria](T1.[cliente_conta_bancaria.INT_ID], T1.[cliente_conta" +
@@ -11327,7 +12110,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.comercial_ativo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView314()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView331()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.comercial_ativo", "\r\n    SELECT VALUE -- Constructing comercial_ativo\r\n        [db_coopfamModel.come" +
                     "rcial_ativo](T1.[comercial_ativo.INT_ID], T1.[comercial_ativo.INT_ID_CLIENTE], T" +
@@ -11358,7 +12141,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.complementacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView315()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView332()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.complementacao", @"
     SELECT VALUE -- Constructing complementacao
@@ -11379,7 +12162,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.complementacoes_lote
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView316()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView333()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2219);
             viewString.Append("\r\n    SELECT VALUE -- Constructing complementacoes_lote\r\n        [db_coopfamMode");
@@ -11416,7 +12199,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.composicao_amostra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView317()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView334()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3678);
             viewString.Append("\r\n    SELECT VALUE -- Constructing composicao_amostra\r\n        [db_coopfamModel.");
@@ -11471,7 +12254,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.composicao_amostra_envio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView318()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView335()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2448);
             viewString.Append("\r\n    SELECT VALUE -- Constructing composicao_amostra_envio\r\n        [db_coopfam");
@@ -11511,7 +12294,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.conciliacoes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView319()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView336()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.conciliacoes", @"
     SELECT VALUE -- Constructing conciliacoes
@@ -11530,7 +12313,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.configuracao_nota_filial
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView320()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView337()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.configuracao_nota_filial", "\r\n    SELECT VALUE -- Constructing configuracao_nota_filial\r\n        [db_coopfamM" +
                     "odel.configuracao_nota_filial](T1.[configuracao_nota_filial.INT_ID], T1.[configu" +
@@ -11556,7 +12339,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.configuracao_plano_de_contas_nota
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView321()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView338()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.configuracao_plano_de_contas_nota", @"
     SELECT VALUE -- Constructing configuracao_plano_de_contas_nota
@@ -11575,7 +12358,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.contas_a_pagar_despesas_contrato
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView322()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView339()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.contas_a_pagar_despesas_contrato", @"
     SELECT VALUE -- Constructing contas_a_pagar_despesas_contrato
@@ -11596,9 +12379,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.contas_a_pagar_e_receber
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView323()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView340()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3924);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4362);
             viewString.Append("\r\n    SELECT VALUE -- Constructing contas_a_pagar_e_receber\r\n        [db_coopfam");
             viewString.Append("Model.contas_a_pagar_e_receber](T1.[contas_a_pagar_e_receber.INT_ID], T1.[contas");
             viewString.Append("_a_pagar_e_receber.INT_ID_FORNECEDOR], T1.[contas_a_pagar_e_receber.INT_ID_TIPO_");
@@ -11617,45 +12400,50 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("_A_RECEBER], T1.[contas_a_pagar_e_receber.BOOL_REEMBOLSO], T1.[contas_a_pagar_e_");
             viewString.Append("receber.INT_ID_PROCEDIMENTO], T1.[contas_a_pagar_e_receber.TXT_CHAVE_DE_ACESSO],");
             viewString.Append(" T1.[contas_a_pagar_e_receber.INT_ID_COTACAO_COMPRA], T1.[contas_a_pagar_e_receb");
-            viewString.Append("er.BOOL_DEVOLUCAO_COTA])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [");
-            viewString.Append("contas_a_pagar_e_receber.INT_ID], \r\n            T.INT_ID_FORNECEDOR AS [contas_a");
-            viewString.Append("_pagar_e_receber.INT_ID_FORNECEDOR], \r\n            T.INT_ID_TIPO_DOCUMENTO AS [c");
-            viewString.Append("ontas_a_pagar_e_receber.INT_ID_TIPO_DOCUMENTO], \r\n            T.INT_ID_TIPO_PAGA");
-            viewString.Append("MENTO AS [contas_a_pagar_e_receber.INT_ID_TIPO_PAGAMENTO], \r\n            T.INT_I");
-            viewString.Append("D_EMPRESA AS [contas_a_pagar_e_receber.INT_ID_EMPRESA], \r\n            T.INT_ID_F");
-            viewString.Append("UNCIONARIO AS [contas_a_pagar_e_receber.INT_ID_FUNCIONARIO], \r\n            T.DEC");
-            viewString.Append("IMAL_VALOR AS [contas_a_pagar_e_receber.DECIMAL_VALOR], \r\n            T.TXT_NUME");
-            viewString.Append("RO_DOCUMENTO AS [contas_a_pagar_e_receber.TXT_NUMERO_DOCUMENTO], \r\n            T");
-            viewString.Append(".DATE_DOC AS [contas_a_pagar_e_receber.DATE_DOC], \r\n            T.TXT_DESCRICAO ");
-            viewString.Append("AS [contas_a_pagar_e_receber.TXT_DESCRICAO], \r\n            T.DATE_LANCAMENTO AS ");
-            viewString.Append("[contas_a_pagar_e_receber.DATE_LANCAMENTO], \r\n            T.BOOL_ATIVO AS [conta");
-            viewString.Append("s_a_pagar_e_receber.BOOL_ATIVO], \r\n            T.INT_ID_MOVIMENTO AS [contas_a_p");
-            viewString.Append("agar_e_receber.INT_ID_MOVIMENTO], \r\n            T.BOOL_ADIANTAMENTO AS [contas_a");
-            viewString.Append("_pagar_e_receber.BOOL_ADIANTAMENTO], \r\n            T.DECIMAL_VALOR_ABATIDO_DO_AD");
-            viewString.Append("IANTAMENTO AS [contas_a_pagar_e_receber.DECIMAL_VALOR_ABATIDO_DO_ADIANTAMENTO], ");
-            viewString.Append("\r\n            T.BOOL_ATO_COOPERADO_NAO_COOPERADO AS [contas_a_pagar_e_receber.BO");
-            viewString.Append("OL_ATO_COOPERADO_NAO_COOPERADO], \r\n            T.DATA_RECEBIMENTO_DO_DOCUMENTO A");
-            viewString.Append("S [contas_a_pagar_e_receber.DATA_RECEBIMENTO_DO_DOCUMENTO], \r\n            T.INT_");
-            viewString.Append("ID_VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR AS [contas_a_pagar_e_receber.INT_ID_");
-            viewString.Append("VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR], \r\n            T.INT_ID_VINCULO_DE_ORI");
-            viewString.Append("GEM_ENCARGO_NOTAS AS [contas_a_pagar_e_receber.INT_ID_VINCULO_DE_ORIGEM_ENCARGO_");
-            viewString.Append("NOTAS], \r\n            T.INT_ID_COOPERADO AS [contas_a_pagar_e_receber.INT_ID_COO");
-            viewString.Append("PERADO], \r\n            T.BOOL_CONTAS_A_RECEBER AS [contas_a_pagar_e_receber.BOOL");
-            viewString.Append("_CONTAS_A_RECEBER], \r\n            T.BOOL_REEMBOLSO AS [contas_a_pagar_e_receber.");
-            viewString.Append("BOOL_REEMBOLSO], \r\n            T.INT_ID_PROCEDIMENTO AS [contas_a_pagar_e_recebe");
-            viewString.Append("r.INT_ID_PROCEDIMENTO], \r\n            T.TXT_CHAVE_DE_ACESSO AS [contas_a_pagar_e");
-            viewString.Append("_receber.TXT_CHAVE_DE_ACESSO], \r\n            T.INT_ID_COTACAO_COMPRA AS [contas_");
-            viewString.Append("a_pagar_e_receber.INT_ID_COTACAO_COMPRA], \r\n            T.BOOL_DEVOLUCAO_COTA AS");
-            viewString.Append(" [contas_a_pagar_e_receber.BOOL_DEVOLUCAO_COTA], \r\n            True AS _from0\r\n ");
-            viewString.Append("       FROM db_coopfamModelStoreContainer.contas_a_pagar_e_receber AS T\r\n    ) A");
-            viewString.Append("S T1");
+            viewString.Append("er.BOOL_DEVOLUCAO_COTA], T1.[contas_a_pagar_e_receber.DECIMAL_TAXA_DOLAR], T1.[c");
+            viewString.Append("ontas_a_pagar_e_receber.DECIMAL_TOTAL_DOLAR], T1.[contas_a_pagar_e_receber.INT_I");
+            viewString.Append("D_ORDEM_SERVICO_CELULAR])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS ");
+            viewString.Append("[contas_a_pagar_e_receber.INT_ID], \r\n            T.INT_ID_FORNECEDOR AS [contas_");
+            viewString.Append("a_pagar_e_receber.INT_ID_FORNECEDOR], \r\n            T.INT_ID_TIPO_DOCUMENTO AS [");
+            viewString.Append("contas_a_pagar_e_receber.INT_ID_TIPO_DOCUMENTO], \r\n            T.INT_ID_TIPO_PAG");
+            viewString.Append("AMENTO AS [contas_a_pagar_e_receber.INT_ID_TIPO_PAGAMENTO], \r\n            T.INT_");
+            viewString.Append("ID_EMPRESA AS [contas_a_pagar_e_receber.INT_ID_EMPRESA], \r\n            T.INT_ID_");
+            viewString.Append("FUNCIONARIO AS [contas_a_pagar_e_receber.INT_ID_FUNCIONARIO], \r\n            T.DE");
+            viewString.Append("CIMAL_VALOR AS [contas_a_pagar_e_receber.DECIMAL_VALOR], \r\n            T.TXT_NUM");
+            viewString.Append("ERO_DOCUMENTO AS [contas_a_pagar_e_receber.TXT_NUMERO_DOCUMENTO], \r\n            ");
+            viewString.Append("T.DATE_DOC AS [contas_a_pagar_e_receber.DATE_DOC], \r\n            T.TXT_DESCRICAO");
+            viewString.Append(" AS [contas_a_pagar_e_receber.TXT_DESCRICAO], \r\n            T.DATE_LANCAMENTO AS");
+            viewString.Append(" [contas_a_pagar_e_receber.DATE_LANCAMENTO], \r\n            T.BOOL_ATIVO AS [cont");
+            viewString.Append("as_a_pagar_e_receber.BOOL_ATIVO], \r\n            T.INT_ID_MOVIMENTO AS [contas_a_");
+            viewString.Append("pagar_e_receber.INT_ID_MOVIMENTO], \r\n            T.BOOL_ADIANTAMENTO AS [contas_");
+            viewString.Append("a_pagar_e_receber.BOOL_ADIANTAMENTO], \r\n            T.DECIMAL_VALOR_ABATIDO_DO_A");
+            viewString.Append("DIANTAMENTO AS [contas_a_pagar_e_receber.DECIMAL_VALOR_ABATIDO_DO_ADIANTAMENTO],");
+            viewString.Append(" \r\n            T.BOOL_ATO_COOPERADO_NAO_COOPERADO AS [contas_a_pagar_e_receber.B");
+            viewString.Append("OOL_ATO_COOPERADO_NAO_COOPERADO], \r\n            T.DATA_RECEBIMENTO_DO_DOCUMENTO ");
+            viewString.Append("AS [contas_a_pagar_e_receber.DATA_RECEBIMENTO_DO_DOCUMENTO], \r\n            T.INT");
+            viewString.Append("_ID_VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR AS [contas_a_pagar_e_receber.INT_ID");
+            viewString.Append("_VINCULO_DE_ORIGEM_ENCARGO_CONTAS_A_PAGAR], \r\n            T.INT_ID_VINCULO_DE_OR");
+            viewString.Append("IGEM_ENCARGO_NOTAS AS [contas_a_pagar_e_receber.INT_ID_VINCULO_DE_ORIGEM_ENCARGO");
+            viewString.Append("_NOTAS], \r\n            T.INT_ID_COOPERADO AS [contas_a_pagar_e_receber.INT_ID_CO");
+            viewString.Append("OPERADO], \r\n            T.BOOL_CONTAS_A_RECEBER AS [contas_a_pagar_e_receber.BOO");
+            viewString.Append("L_CONTAS_A_RECEBER], \r\n            T.BOOL_REEMBOLSO AS [contas_a_pagar_e_receber");
+            viewString.Append(".BOOL_REEMBOLSO], \r\n            T.INT_ID_PROCEDIMENTO AS [contas_a_pagar_e_receb");
+            viewString.Append("er.INT_ID_PROCEDIMENTO], \r\n            T.TXT_CHAVE_DE_ACESSO AS [contas_a_pagar_");
+            viewString.Append("e_receber.TXT_CHAVE_DE_ACESSO], \r\n            T.INT_ID_COTACAO_COMPRA AS [contas");
+            viewString.Append("_a_pagar_e_receber.INT_ID_COTACAO_COMPRA], \r\n            T.BOOL_DEVOLUCAO_COTA A");
+            viewString.Append("S [contas_a_pagar_e_receber.BOOL_DEVOLUCAO_COTA], \r\n            T.DECIMAL_TAXA_D");
+            viewString.Append("OLAR AS [contas_a_pagar_e_receber.DECIMAL_TAXA_DOLAR], \r\n            T.DECIMAL_T");
+            viewString.Append("OTAL_DOLAR AS [contas_a_pagar_e_receber.DECIMAL_TOTAL_DOLAR], \r\n            T.IN");
+            viewString.Append("T_ID_ORDEM_SERVICO_CELULAR AS [contas_a_pagar_e_receber.INT_ID_ORDEM_SERVICO_CEL");
+            viewString.Append("ULAR], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer.");
+            viewString.Append("contas_a_pagar_e_receber AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.contas_a_pagar_e_receber", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.contas_a_pagar_planejamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView324()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView341()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.contas_a_pagar_planejamento", "\r\n    SELECT VALUE -- Constructing contas_a_pagar_planejamento\r\n        [db_coopf" +
                     "amModel.contas_a_pagar_planejamento](T1.[contas_a_pagar_planejamento.INT_ID], T1" +
@@ -11683,37 +12471,55 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.contas_a_pagar_plano_de_contas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView325()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView342()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.contas_a_pagar_plano_de_contas", "\r\n    SELECT VALUE -- Constructing contas_a_pagar_plano_de_contas\r\n        [db_co" +
-                    "opfamModel.contas_a_pagar_plano_de_contas](T1.[contas_a_pagar_plano_de_contas.IN" +
-                    "T_ID], T1.[contas_a_pagar_plano_de_contas.INT_ID_PLANO_DE_CONTAS], T1.[contas_a_" +
-                    "pagar_plano_de_contas.INT_ID_CONTAS_A_PAGAR], T1.[contas_a_pagar_plano_de_contas" +
-                    ".INT_ID_MOVIMENTO_BANCARIO], T1.[contas_a_pagar_plano_de_contas.DECIMAL_VALOR], " +
-                    "T1.[contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], T1.[contas_a_pagar_plano_" +
-                    "de_contas.BOOL_ATIVO], T1.[contas_a_pagar_plano_de_contas.BOOL_DEBITO_CREDITO], " +
-                    "T1.[contas_a_pagar_plano_de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA]," +
-                    " T1.[contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO_DE_CHEQUE])\r\n    FROM (\r\n  " +
-                    "      SELECT \r\n            T.INT_ID AS [contas_a_pagar_plano_de_contas.INT_ID], " +
-                    "\r\n            T.INT_ID_PLANO_DE_CONTAS AS [contas_a_pagar_plano_de_contas.INT_ID" +
-                    "_PLANO_DE_CONTAS], \r\n            T.INT_ID_CONTAS_A_PAGAR AS [contas_a_pagar_plan" +
-                    "o_de_contas.INT_ID_CONTAS_A_PAGAR], \r\n            T.INT_ID_MOVIMENTO_BANCARIO AS" +
-                    " [contas_a_pagar_plano_de_contas.INT_ID_MOVIMENTO_BANCARIO], \r\n            T.DEC" +
-                    "IMAL_VALOR AS [contas_a_pagar_plano_de_contas.DECIMAL_VALOR], \r\n            T.BO" +
-                    "OL_ADIANTAMENTO AS [contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], \r\n       " +
-                    "     T.BOOL_ATIVO AS [contas_a_pagar_plano_de_contas.BOOL_ATIVO], \r\n            " +
-                    "T.BOOL_DEBITO_CREDITO AS [contas_a_pagar_plano_de_contas.BOOL_DEBITO_CREDITO], \r" +
-                    "\n            T.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA AS [contas_a_pagar_pl" +
-                    "ano_de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], \r\n            T.BOOL" +
-                    "_COMPENSACAO_DE_CHEQUE AS [contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO_DE_CH" +
-                    "EQUE], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer." +
-                    "contas_a_pagar_plano_de_contas AS T\r\n    ) AS T1");
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3066);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing contas_a_pagar_plano_de_contas\r\n        [db_c");
+            viewString.Append("oopfamModel.contas_a_pagar_plano_de_contas](T1.[contas_a_pagar_plano_de_contas.I");
+            viewString.Append("NT_ID], T1.[contas_a_pagar_plano_de_contas.INT_ID_PLANO_DE_CONTAS], T1.[contas_a");
+            viewString.Append("_pagar_plano_de_contas.INT_ID_CONTAS_A_PAGAR], T1.[contas_a_pagar_plano_de_conta");
+            viewString.Append("s.INT_ID_MOVIMENTO_BANCARIO], T1.[contas_a_pagar_plano_de_contas.DECIMAL_VALOR],");
+            viewString.Append(" T1.[contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], T1.[contas_a_pagar_plano");
+            viewString.Append("_de_contas.BOOL_ATIVO], T1.[contas_a_pagar_plano_de_contas.BOOL_DEBITO_CREDITO],");
+            viewString.Append(" T1.[contas_a_pagar_plano_de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA]");
+            viewString.Append(", T1.[contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO_DE_CHEQUE], T1.[contas_a_p");
+            viewString.Append("agar_plano_de_contas.TXT_TIPO_DE_MOVIMENTACAO], T1.[contas_a_pagar_plano_de_cont");
+            viewString.Append("as.INT_ID_LOTE_DO_FECHAMENTO], T1.[contas_a_pagar_plano_de_contas.INT_ID_NOTAS_D");
+            viewString.Append("E_ORIGEM], T1.[contas_a_pagar_plano_de_contas.INT_ID_NOTA_FISCAL], T1.[contas_a_");
+            viewString.Append("pagar_plano_de_contas.INT_ID_ORIGEM_DO_PRODUTO], T1.[contas_a_pagar_plano_de_con");
+            viewString.Append("tas.INT_ID_EMPRESTIMO_COOPERADO], T1.[contas_a_pagar_plano_de_contas.INT_ID_COMP");
+            viewString.Append("LEMENTACAO], T1.[contas_a_pagar_plano_de_contas.INT_ID_ACC])\r\n    FROM (\r\n      ");
+            viewString.Append("  SELECT \r\n            T.INT_ID AS [contas_a_pagar_plano_de_contas.INT_ID], \r\n  ");
+            viewString.Append("          T.INT_ID_PLANO_DE_CONTAS AS [contas_a_pagar_plano_de_contas.INT_ID_PLA");
+            viewString.Append("NO_DE_CONTAS], \r\n            T.INT_ID_CONTAS_A_PAGAR AS [contas_a_pagar_plano_de");
+            viewString.Append("_contas.INT_ID_CONTAS_A_PAGAR], \r\n            T.INT_ID_MOVIMENTO_BANCARIO AS [co");
+            viewString.Append("ntas_a_pagar_plano_de_contas.INT_ID_MOVIMENTO_BANCARIO], \r\n            T.DECIMAL");
+            viewString.Append("_VALOR AS [contas_a_pagar_plano_de_contas.DECIMAL_VALOR], \r\n            T.BOOL_A");
+            viewString.Append("DIANTAMENTO AS [contas_a_pagar_plano_de_contas.BOOL_ADIANTAMENTO], \r\n           ");
+            viewString.Append(" T.BOOL_ATIVO AS [contas_a_pagar_plano_de_contas.BOOL_ATIVO], \r\n            T.BO");
+            viewString.Append("OL_DEBITO_CREDITO AS [contas_a_pagar_plano_de_contas.BOOL_DEBITO_CREDITO], \r\n   ");
+            viewString.Append("         T.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA AS [contas_a_pagar_plano_");
+            viewString.Append("de_contas.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], \r\n            T.BOOL_COM");
+            viewString.Append("PENSACAO_DE_CHEQUE AS [contas_a_pagar_plano_de_contas.BOOL_COMPENSACAO_DE_CHEQUE");
+            viewString.Append("], \r\n            T.TXT_TIPO_DE_MOVIMENTACAO AS [contas_a_pagar_plano_de_contas.T");
+            viewString.Append("XT_TIPO_DE_MOVIMENTACAO], \r\n            T.INT_ID_LOTE_DO_FECHAMENTO AS [contas_a");
+            viewString.Append("_pagar_plano_de_contas.INT_ID_LOTE_DO_FECHAMENTO], \r\n            T.INT_ID_NOTAS_");
+            viewString.Append("DE_ORIGEM AS [contas_a_pagar_plano_de_contas.INT_ID_NOTAS_DE_ORIGEM], \r\n        ");
+            viewString.Append("    T.INT_ID_NOTA_FISCAL AS [contas_a_pagar_plano_de_contas.INT_ID_NOTA_FISCAL],");
+            viewString.Append(" \r\n            T.INT_ID_ORIGEM_DO_PRODUTO AS [contas_a_pagar_plano_de_contas.INT");
+            viewString.Append("_ID_ORIGEM_DO_PRODUTO], \r\n            T.INT_ID_EMPRESTIMO_COOPERADO AS [contas_a");
+            viewString.Append("_pagar_plano_de_contas.INT_ID_EMPRESTIMO_COOPERADO], \r\n            T.INT_ID_COMP");
+            viewString.Append("LEMENTACAO AS [contas_a_pagar_plano_de_contas.INT_ID_COMPLEMENTACAO], \r\n        ");
+            viewString.Append("    T.INT_ID_ACC AS [contas_a_pagar_plano_de_contas.INT_ID_ACC], \r\n            T");
+            viewString.Append("rue AS _from0\r\n        FROM db_coopfamModelStoreContainer.contas_a_pagar_plano_d");
+            viewString.Append("e_contas AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.contas_a_pagar_plano_de_contas", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.contas_bancarias_empresa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView326()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView343()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.contas_bancarias_empresa", "\r\n    SELECT VALUE -- Constructing contas_bancarias_empresa\r\n        [db_coopfamM" +
                     "odel.contas_bancarias_empresa](T1.[contas_bancarias_empresa.INT_ID], T1.[contas_" +
@@ -11740,9 +12546,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.contrato
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView327()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView344()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(6273);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(6428);
             viewString.Append("\r\n    SELECT VALUE -- Constructing contrato\r\n        [db_coopfamModel.contrato](");
             viewString.Append("T1.[contrato.INT_ID], T1.[contrato.INT_ID_CLIENTE], T1.[contrato.TXT_CONTRATO], ");
             viewString.Append("T1.[contrato.TXT_SAFRA], T1.[contrato.INT_ID_BEBIDA], T1.[contrato.FLOAT_PONTUAC");
@@ -11769,66 +12575,68 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("_INGLES], T1.[contrato.INT_ID_PRE_FINANCIAMENTO], T1.[contrato.INT_ID_GESTAO_RIS");
             viewString.Append("CO], T1.[contrato.INT_ID_ARBITRAGEM], T1.[contrato.INT_ID_TIPO_DE_TERMO_CONDICAO");
             viewString.Append("], T1.[contrato.INT_ID_PAPEL_DAS_PARTES], T1.[contrato.INT_ID_LOCAL_DE_EMBARQUE]");
-            viewString.Append(")\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [contrato.INT_ID], \r\n   ");
-            viewString.Append("         T.INT_ID_CLIENTE AS [contrato.INT_ID_CLIENTE], \r\n            T.TXT_CONT");
-            viewString.Append("RATO AS [contrato.TXT_CONTRATO], \r\n            T.TXT_SAFRA AS [contrato.TXT_SAFR");
-            viewString.Append("A], \r\n            T.INT_ID_BEBIDA AS [contrato.INT_ID_BEBIDA], \r\n            T.F");
-            viewString.Append("LOAT_PONTUACAO AS [contrato.FLOAT_PONTUACAO], \r\n            T.TXT_TIPO AS [contr");
-            viewString.Append("ato.TXT_TIPO], \r\n            T.DATE_ENTREGA AS [contrato.DATE_ENTREGA], \r\n      ");
-            viewString.Append("      T.INT_DEFEITOS AS [contrato.INT_DEFEITOS], \r\n            T.INT_ID_SITUACAO");
-            viewString.Append("NORMA AS [contrato.INT_ID_SITUACAONORMA], \r\n            T.TXT_OBS AS [contrato.T");
-            viewString.Append("XT_OBS], \r\n            T.TXT_OIC AS [contrato.TXT_OIC], \r\n            T.TXT_TIPO");
-            viewString.Append("_SACARIA AS [contrato.TXT_TIPO_SACARIA], \r\n            T.TXT_PENEIRA AS [contrat");
-            viewString.Append("o.TXT_PENEIRA], \r\n            T.TXT_INVOICE AS [contrato.TXT_INVOICE], \r\n       ");
-            viewString.Append("     T.INT_QTD_SACAS AS [contrato.INT_QTD_SACAS], \r\n            T.FLOAT_PESO_LIQ");
-            viewString.Append("UIDO AS [contrato.FLOAT_PESO_LIQUIDO], \r\n            T.FLOAT_DIFERENCIAL AS [con");
-            viewString.Append("trato.FLOAT_DIFERENCIAL], \r\n            T.DATE_LANCAMENTO AS [contrato.DATE_LANC");
-            viewString.Append("AMENTO], \r\n            T.INT_NF AS [contrato.INT_NF], \r\n            T.DATE_FECHA");
-            viewString.Append("MENTO AS [contrato.DATE_FECHAMENTO], \r\n            T.BOOL_AFIXAR AS [contrato.BO");
-            viewString.Append("OL_AFIXAR], \r\n            T.FLOAT_PRECO AS [contrato.FLOAT_PRECO], \r\n           ");
-            viewString.Append(" T.INT_SUBTIPO_NORMA AS [contrato.INT_SUBTIPO_NORMA], \r\n            T.BOOL_TIPO_");
-            viewString.Append("CAFE AS [contrato.BOOL_TIPO_CAFE], \r\n            T.DATE_DATA_MAXIMA_ENTREGA_DA_A");
-            viewString.Append("MOSTRA AS [contrato.DATE_DATA_MAXIMA_ENTREGA_DA_AMOSTRA], \r\n            T.FLOAT_");
-            viewString.Append("DOLAR AS [contrato.FLOAT_DOLAR], \r\n            T.FLOAT_NY AS [contrato.FLOAT_NY]");
-            viewString.Append(", \r\n            T.DATE_ENTREGA_AMOSTRA AS [contrato.DATE_ENTREGA_AMOSTRA], \r\n   ");
-            viewString.Append("         T.BOOL_A_FIXAR_DOLAR AS [contrato.BOOL_A_FIXAR_DOLAR], \r\n            T.");
-            viewString.Append("BOOL_FT_NFT AS [contrato.BOOL_FT_NFT], \r\n            T.TXT_COM_HEDGE_PRECO_MINIM");
-            viewString.Append("O_INFERIOR AS [contrato.TXT_COM_HEDGE_PRECO_MINIMO_INFERIOR], \r\n            T.FL");
-            viewString.Append("OAT_QTD_COMPRADA_PRECO_MINIMO AS [contrato.FLOAT_QTD_COMPRADA_PRECO_MINIMO], \r\n ");
-            viewString.Append("           T.DECIMAL_SCS_VENDIDAS_FT AS [contrato.DECIMAL_SCS_VENDIDAS_FT], \r\n  ");
-            viewString.Append("          T.TXT_REFERENCIA_DO_COMPRADOR AS [contrato.TXT_REFERENCIA_DO_COMPRADOR");
-            viewString.Append("], \r\n            T.DECIMAL_TOTAL_EM_DOLAR_DO_CONTRATO AS [contrato.DECIMAL_TOTAL");
-            viewString.Append("_EM_DOLAR_DO_CONTRATO], \r\n            T.INT_ID_ALMOXARIFADO AS [contrato.INT_ID_");
-            viewString.Append("ALMOXARIFADO], \r\n            T.INT_ID_TRANSPORTADORA AS [contrato.INT_ID_TRANSPO");
-            viewString.Append("RTADORA], \r\n            T.TXT_OBS_LOGISTICA AS [contrato.TXT_OBS_LOGISTICA], \r\n ");
-            viewString.Append("           T.TXT_OBS_CLASSIFICACAO AS [contrato.TXT_OBS_CLASSIFICACAO], \r\n      ");
-            viewString.Append("      T.INT_ID_PENEIRA AS [contrato.INT_ID_PENEIRA], \r\n            T.INT_ID_SACA");
-            viewString.Append("RIA AS [contrato.INT_ID_SACARIA], \r\n            T.INT_ID_TIPO AS [contrato.INT_I");
-            viewString.Append("D_TIPO], \r\n            T.INT_ID_MODALIDADE_DE_ENTREGA AS [contrato.INT_ID_MODALI");
-            viewString.Append("DADE_DE_ENTREGA], \r\n            T.DATE_AGENDADO_EMBARQUE AS [contrato.DATE_AGEND");
-            viewString.Append("ADO_EMBARQUE], \r\n            T.DATE_DE_FECHAMENTO_DO_CONTRATO AS [contrato.DATE_");
-            viewString.Append("DE_FECHAMENTO_DO_CONTRATO], \r\n            T.INT_ID_FORMA_PAGAMENTO AS [contrato.");
-            viewString.Append("INT_ID_FORMA_PAGAMENTO], \r\n            T.DATE_LIMITE_EMBARQUE AS [contrato.DATE_");
-            viewString.Append("LIMITE_EMBARQUE], \r\n            T.DATE_VENCIMENTO_PARA_HEDGE AS [contrato.DATE_V");
-            viewString.Append("ENCIMENTO_PARA_HEDGE], \r\n            T.TXT_DESTINO AS [contrato.TXT_DESTINO], \r\n");
-            viewString.Append("            T.TXT_DESCRICAO_QUALIDADE AS [contrato.TXT_DESCRICAO_QUALIDADE], \r\n ");
-            viewString.Append("           T.TXT_DESCRICAO_PRECO AS [contrato.TXT_DESCRICAO_PRECO], \r\n          ");
-            viewString.Append("  T.BOOL_SEGURO AS [contrato.BOOL_SEGURO], \r\n            T.TXT_OBS_INGLES AS [co");
-            viewString.Append("ntrato.TXT_OBS_INGLES], \r\n            T.INT_ID_PRE_FINANCIAMENTO AS [contrato.IN");
-            viewString.Append("T_ID_PRE_FINANCIAMENTO], \r\n            T.INT_ID_GESTAO_RISCO AS [contrato.INT_ID");
-            viewString.Append("_GESTAO_RISCO], \r\n            T.INT_ID_ARBITRAGEM AS [contrato.INT_ID_ARBITRAGEM");
-            viewString.Append("], \r\n            T.INT_ID_TIPO_DE_TERMO_CONDICAO AS [contrato.INT_ID_TIPO_DE_TER");
-            viewString.Append("MO_CONDICAO], \r\n            T.INT_ID_PAPEL_DAS_PARTES AS [contrato.INT_ID_PAPEL_");
-            viewString.Append("DAS_PARTES], \r\n            T.INT_ID_LOCAL_DE_EMBARQUE AS [contrato.INT_ID_LOCAL_");
-            viewString.Append("DE_EMBARQUE], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreCon");
-            viewString.Append("tainer.contrato AS T\r\n    ) AS T1");
+            viewString.Append(", T1.[contrato.BOOL_FT_USA], T1.[contrato.BOOL_RFA])\r\n    FROM (\r\n        SELECT");
+            viewString.Append(" \r\n            T.INT_ID AS [contrato.INT_ID], \r\n            T.INT_ID_CLIENTE AS ");
+            viewString.Append("[contrato.INT_ID_CLIENTE], \r\n            T.TXT_CONTRATO AS [contrato.TXT_CONTRAT");
+            viewString.Append("O], \r\n            T.TXT_SAFRA AS [contrato.TXT_SAFRA], \r\n            T.INT_ID_BE");
+            viewString.Append("BIDA AS [contrato.INT_ID_BEBIDA], \r\n            T.FLOAT_PONTUACAO AS [contrato.F");
+            viewString.Append("LOAT_PONTUACAO], \r\n            T.TXT_TIPO AS [contrato.TXT_TIPO], \r\n            ");
+            viewString.Append("T.DATE_ENTREGA AS [contrato.DATE_ENTREGA], \r\n            T.INT_DEFEITOS AS [cont");
+            viewString.Append("rato.INT_DEFEITOS], \r\n            T.INT_ID_SITUACAONORMA AS [contrato.INT_ID_SIT");
+            viewString.Append("UACAONORMA], \r\n            T.TXT_OBS AS [contrato.TXT_OBS], \r\n            T.TXT_");
+            viewString.Append("OIC AS [contrato.TXT_OIC], \r\n            T.TXT_TIPO_SACARIA AS [contrato.TXT_TIP");
+            viewString.Append("O_SACARIA], \r\n            T.TXT_PENEIRA AS [contrato.TXT_PENEIRA], \r\n           ");
+            viewString.Append(" T.TXT_INVOICE AS [contrato.TXT_INVOICE], \r\n            T.INT_QTD_SACAS AS [cont");
+            viewString.Append("rato.INT_QTD_SACAS], \r\n            T.FLOAT_PESO_LIQUIDO AS [contrato.FLOAT_PESO_");
+            viewString.Append("LIQUIDO], \r\n            T.FLOAT_DIFERENCIAL AS [contrato.FLOAT_DIFERENCIAL], \r\n ");
+            viewString.Append("           T.DATE_LANCAMENTO AS [contrato.DATE_LANCAMENTO], \r\n            T.INT_");
+            viewString.Append("NF AS [contrato.INT_NF], \r\n            T.DATE_FECHAMENTO AS [contrato.DATE_FECHA");
+            viewString.Append("MENTO], \r\n            T.BOOL_AFIXAR AS [contrato.BOOL_AFIXAR], \r\n            T.F");
+            viewString.Append("LOAT_PRECO AS [contrato.FLOAT_PRECO], \r\n            T.INT_SUBTIPO_NORMA AS [cont");
+            viewString.Append("rato.INT_SUBTIPO_NORMA], \r\n            T.BOOL_TIPO_CAFE AS [contrato.BOOL_TIPO_C");
+            viewString.Append("AFE], \r\n            T.DATE_DATA_MAXIMA_ENTREGA_DA_AMOSTRA AS [contrato.DATE_DATA");
+            viewString.Append("_MAXIMA_ENTREGA_DA_AMOSTRA], \r\n            T.FLOAT_DOLAR AS [contrato.FLOAT_DOLA");
+            viewString.Append("R], \r\n            T.FLOAT_NY AS [contrato.FLOAT_NY], \r\n            T.DATE_ENTREG");
+            viewString.Append("A_AMOSTRA AS [contrato.DATE_ENTREGA_AMOSTRA], \r\n            T.BOOL_A_FIXAR_DOLAR");
+            viewString.Append(" AS [contrato.BOOL_A_FIXAR_DOLAR], \r\n            T.BOOL_FT_NFT AS [contrato.BOOL");
+            viewString.Append("_FT_NFT], \r\n            T.TXT_COM_HEDGE_PRECO_MINIMO_INFERIOR AS [contrato.TXT_C");
+            viewString.Append("OM_HEDGE_PRECO_MINIMO_INFERIOR], \r\n            T.FLOAT_QTD_COMPRADA_PRECO_MINIMO");
+            viewString.Append(" AS [contrato.FLOAT_QTD_COMPRADA_PRECO_MINIMO], \r\n            T.DECIMAL_SCS_VEND");
+            viewString.Append("IDAS_FT AS [contrato.DECIMAL_SCS_VENDIDAS_FT], \r\n            T.TXT_REFERENCIA_DO");
+            viewString.Append("_COMPRADOR AS [contrato.TXT_REFERENCIA_DO_COMPRADOR], \r\n            T.DECIMAL_TO");
+            viewString.Append("TAL_EM_DOLAR_DO_CONTRATO AS [contrato.DECIMAL_TOTAL_EM_DOLAR_DO_CONTRATO], \r\n   ");
+            viewString.Append("         T.INT_ID_ALMOXARIFADO AS [contrato.INT_ID_ALMOXARIFADO], \r\n            ");
+            viewString.Append("T.INT_ID_TRANSPORTADORA AS [contrato.INT_ID_TRANSPORTADORA], \r\n            T.TXT");
+            viewString.Append("_OBS_LOGISTICA AS [contrato.TXT_OBS_LOGISTICA], \r\n            T.TXT_OBS_CLASSIFI");
+            viewString.Append("CACAO AS [contrato.TXT_OBS_CLASSIFICACAO], \r\n            T.INT_ID_PENEIRA AS [co");
+            viewString.Append("ntrato.INT_ID_PENEIRA], \r\n            T.INT_ID_SACARIA AS [contrato.INT_ID_SACAR");
+            viewString.Append("IA], \r\n            T.INT_ID_TIPO AS [contrato.INT_ID_TIPO], \r\n            T.INT_");
+            viewString.Append("ID_MODALIDADE_DE_ENTREGA AS [contrato.INT_ID_MODALIDADE_DE_ENTREGA], \r\n         ");
+            viewString.Append("   T.DATE_AGENDADO_EMBARQUE AS [contrato.DATE_AGENDADO_EMBARQUE], \r\n            ");
+            viewString.Append("T.DATE_DE_FECHAMENTO_DO_CONTRATO AS [contrato.DATE_DE_FECHAMENTO_DO_CONTRATO], \r");
+            viewString.Append("\n            T.INT_ID_FORMA_PAGAMENTO AS [contrato.INT_ID_FORMA_PAGAMENTO], \r\n  ");
+            viewString.Append("          T.DATE_LIMITE_EMBARQUE AS [contrato.DATE_LIMITE_EMBARQUE], \r\n         ");
+            viewString.Append("   T.DATE_VENCIMENTO_PARA_HEDGE AS [contrato.DATE_VENCIMENTO_PARA_HEDGE], \r\n    ");
+            viewString.Append("        T.TXT_DESTINO AS [contrato.TXT_DESTINO], \r\n            T.TXT_DESCRICAO_Q");
+            viewString.Append("UALIDADE AS [contrato.TXT_DESCRICAO_QUALIDADE], \r\n            T.TXT_DESCRICAO_PR");
+            viewString.Append("ECO AS [contrato.TXT_DESCRICAO_PRECO], \r\n            T.BOOL_SEGURO AS [contrato.");
+            viewString.Append("BOOL_SEGURO], \r\n            T.TXT_OBS_INGLES AS [contrato.TXT_OBS_INGLES], \r\n   ");
+            viewString.Append("         T.INT_ID_PRE_FINANCIAMENTO AS [contrato.INT_ID_PRE_FINANCIAMENTO], \r\n  ");
+            viewString.Append("          T.INT_ID_GESTAO_RISCO AS [contrato.INT_ID_GESTAO_RISCO], \r\n           ");
+            viewString.Append(" T.INT_ID_ARBITRAGEM AS [contrato.INT_ID_ARBITRAGEM], \r\n            T.INT_ID_TIP");
+            viewString.Append("O_DE_TERMO_CONDICAO AS [contrato.INT_ID_TIPO_DE_TERMO_CONDICAO], \r\n            T");
+            viewString.Append(".INT_ID_PAPEL_DAS_PARTES AS [contrato.INT_ID_PAPEL_DAS_PARTES], \r\n            T.");
+            viewString.Append("INT_ID_LOCAL_DE_EMBARQUE AS [contrato.INT_ID_LOCAL_DE_EMBARQUE], \r\n            T");
+            viewString.Append(".BOOL_FT_USA AS [contrato.BOOL_FT_USA], \r\n            T.BOOL_RFA AS [contrato.BO");
+            viewString.Append("OL_RFA], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContaine");
+            viewString.Append("r.contrato AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.contrato", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.convenio_medico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView328()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView345()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.convenio_medico", @"
     SELECT VALUE -- Constructing convenio_medico
@@ -11851,7 +12659,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.convenio_medico_guia
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView329()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView346()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3033);
             viewString.Append("\r\n    SELECT VALUE -- Constructing convenio_medico_guia\r\n        [db_coopfamMode");
@@ -11898,7 +12706,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.convenio_plano_de_saude
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView330()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView347()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.convenio_plano_de_saude", @"
     SELECT VALUE -- Constructing convenio_plano_de_saude
@@ -11921,7 +12729,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.convenio_titular
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView331()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView348()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.convenio_titular", @"
     SELECT VALUE -- Constructing convenio_titular
@@ -11941,9 +12749,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cooperado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView332()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView349()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(7092);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(7659);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cooperado\r\n        [db_coopfamModel.cooperado");
             viewString.Append("](T1.[cooperado.INT_ID], T1.[cooperado.INT_ADESAO], T1.[cooperado.TXT_NOME], T1.");
             viewString.Append("[cooperado.TXT_RG], T1.[cooperado.TXT_CPF_CNPJ], T1.[cooperado.TXT_TITULO_ELEITO");
@@ -11973,73 +12781,80 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("o.BOOL_SOCIO_FUNDADOR], T1.[cooperado.DATE_PRAZO_PERCA_BENEFICIOS], T1.[cooperad");
             viewString.Append("o.DATE_LANCAMENTO_DE_SUSPENSAO_BENEFICIOS], T1.[cooperado.INT_ID_QUEM_LANCOU_SUS");
             viewString.Append("PENSAO_BENEFICIOS], T1.[cooperado.TXT_FLO_ID], T1.[cooperado.DECIMAL_COTA], T1.[");
-            viewString.Append("cooperado.BOOL_PERU], T1.[cooperado.BOOL_OLEIRICULTOR])\r\n    FROM (\r\n        SEL");
-            viewString.Append("ECT \r\n            T.INT_ID AS [cooperado.INT_ID], \r\n            T.INT_ADESAO AS ");
-            viewString.Append("[cooperado.INT_ADESAO], \r\n            T.TXT_NOME AS [cooperado.TXT_NOME], \r\n    ");
-            viewString.Append("        T.TXT_RG AS [cooperado.TXT_RG], \r\n            T.TXT_CPF_CNPJ AS [coopera");
-            viewString.Append("do.TXT_CPF_CNPJ], \r\n            T.TXT_TITULO_ELEITOR AS [cooperado.TXT_TITULO_EL");
-            viewString.Append("EITOR], \r\n            T.DATE_NASCIMENTO AS [cooperado.DATE_NASCIMENTO], \r\n      ");
-            viewString.Append("      T.TXT_FILIACAO_PATERNA AS [cooperado.TXT_FILIACAO_PATERNA], \r\n            ");
-            viewString.Append("T.TXT_FILIACAO_MATERNA AS [cooperado.TXT_FILIACAO_MATERNA], \r\n            T.CHAR");
-            viewString.Append("_ESTADO_CIVIL AS [cooperado.CHAR_ESTADO_CIVIL], \r\n            T.TXT_NATURALIDADE");
-            viewString.Append(" AS [cooperado.TXT_NATURALIDADE], \r\n            T.TXT_NACIONALIDADE AS [cooperad");
-            viewString.Append("o.TXT_NACIONALIDADE], \r\n            T.TXT_PROFISSAO AS [cooperado.TXT_PROFISSAO]");
-            viewString.Append(", \r\n            T.BOOL_PESSOA_JUR_FIS AS [cooperado.BOOL_PESSOA_JUR_FIS], \r\n    ");
-            viewString.Append("        T.TXT_IM AS [cooperado.TXT_IM], \r\n            T.TXT_IE AS [cooperado.TXT");
-            viewString.Append("_IE], \r\n            T.TXT_NOME_FANTASIA AS [cooperado.TXT_NOME_FANTASIA], \r\n    ");
-            viewString.Append("        T.INT_ID_GRUPO_REUNIAO AS [cooperado.INT_ID_GRUPO_REUNIAO], \r\n          ");
-            viewString.Append("  T.TXT_REPRESENTANTE_LEGAL AS [cooperado.TXT_REPRESENTANTE_LEGAL], \r\n          ");
-            viewString.Append("  T.CHAR_STATUS AS [cooperado.CHAR_STATUS], \r\n            T.CHAR_SEXO AS [cooper");
-            viewString.Append("ado.CHAR_SEXO], \r\n            T.DATE_POSSE AS [cooperado.DATE_POSSE], \r\n        ");
-            viewString.Append("    T.DATE_INDICACAO AS [cooperado.DATE_INDICACAO], \r\n            T.DATE_APROVAC");
-            viewString.Append("AO AS [cooperado.DATE_APROVACAO], \r\n            T.TXT_FOTO AS [cooperado.TXT_FOT");
-            viewString.Append("O], \r\n            T.BOOL_POSSUI_DAP AS [cooperado.BOOL_POSSUI_DAP], \r\n          ");
-            viewString.Append("  T.TXT_CPF_CONJUGE AS [cooperado.TXT_CPF_CONJUGE], \r\n            T.TXT_RG_CONJU");
-            viewString.Append("GE AS [cooperado.TXT_RG_CONJUGE], \r\n            T.TXT_TITULO_ELEITOR_CONJUGE AS ");
-            viewString.Append("[cooperado.TXT_TITULO_ELEITOR_CONJUGE], \r\n            T.TXT_NOME_CONJUGE AS [coo");
-            viewString.Append("perado.TXT_NOME_CONJUGE], \r\n            T.DATE_NASC_CONJUGE AS [cooperado.DATE_N");
-            viewString.Append("ASC_CONJUGE], \r\n            T.BOOL_POSSUI_SOCIO AS [cooperado.BOOL_POSSUI_SOCIO]");
-            viewString.Append(", \r\n            T.TXT_OBS_SOCIO AS [cooperado.TXT_OBS_SOCIO], \r\n            T.BO");
-            viewString.Append("OL_POSSUI_PARCEIRO AS [cooperado.BOOL_POSSUI_PARCEIRO], \r\n            T.TXT_OBS_");
-            viewString.Append("PARCEIRO AS [cooperado.TXT_OBS_PARCEIRO], \r\n            T.BOOL_CONTRATO_TEMP AS ");
-            viewString.Append("[cooperado.BOOL_CONTRATO_TEMP], \r\n            T.BOOL_CONTRATO_FIXO AS [cooperado");
-            viewString.Append(".BOOL_CONTRATO_FIXO], \r\n            T.BOOL_TIPO_CULTIVO AS [cooperado.BOOL_TIPO_");
-            viewString.Append("CULTIVO], \r\n            T.INT_QTD_CONT_FIXO AS [cooperado.INT_QTD_CONT_FIXO], \r\n");
-            viewString.Append("            T.INT_QTD_CONT_TEMP AS [cooperado.INT_QTD_CONT_TEMP], \r\n            ");
-            viewString.Append("T.BOOL_COOP_NAO_COOP AS [cooperado.BOOL_COOP_NAO_COOP], \r\n            T.BOOL_REC");
-            viewString.Append("ADASTRO AS [cooperado.BOOL_RECADASTRO], \r\n            T.TXT_DESCRICAO_DOC_PENDEN");
-            viewString.Append("TE AS [cooperado.TXT_DESCRICAO_DOC_PENDENTE], \r\n            T.BOOL_POSSUI_CONJUG");
-            viewString.Append("E AS [cooperado.BOOL_POSSUI_CONJUGE], \r\n            T.DATE_INIT_COMERCIALIZAR AS");
-            viewString.Append(" [cooperado.DATE_INIT_COMERCIALIZAR], \r\n            T.BOOL_FILHO_MENOR_18 AS [co");
-            viewString.Append("operado.BOOL_FILHO_MENOR_18], \r\n            T.BOOL_FILHO_ESTUDA AS [cooperado.BO");
-            viewString.Append("OL_FILHO_ESTUDA], \r\n            T.DECIMAL_QTD_FILHOS AS [cooperado.DECIMAL_QTD_F");
-            viewString.Append("ILHOS], \r\n            T.INT_ID_CONJUGE AS [cooperado.INT_ID_CONJUGE], \r\n        ");
-            viewString.Append("    T.DATE_FILIACAO AS [cooperado.DATE_FILIACAO], \r\n            T.BOOL_FAMILIAR ");
-            viewString.Append("AS [cooperado.BOOL_FAMILIAR], \r\n            T.INT_ID_CONTA_CONTABIL AS [cooperad");
-            viewString.Append("o.INT_ID_CONTA_CONTABIL], \r\n            T.TXT_RUA AS [cooperado.TXT_RUA], \r\n    ");
-            viewString.Append("        T.TXT_NR AS [cooperado.TXT_NR], \r\n            T.TXT_BAIRRO AS [cooperado");
-            viewString.Append(".TXT_BAIRRO], \r\n            T.TXT_CEP AS [cooperado.TXT_CEP], \r\n            T.TX");
-            viewString.Append("T_COMPLEMENTO AS [cooperado.TXT_COMPLEMENTO], \r\n            T.TXT_CIDADE AS [coo");
-            viewString.Append("perado.TXT_CIDADE], \r\n            T.TXT_UF AS [cooperado.TXT_UF], \r\n            ");
-            viewString.Append("T.INT_ID_CEP_ENDERECO AS [cooperado.INT_ID_CEP_ENDERECO], \r\n            T.BOOL_C");
-            viewString.Append("AFE_FEMININO AS [cooperado.BOOL_CAFE_FEMININO], \r\n            T.BOOL_LISTA_TRABA");
-            viewString.Append("LHO_ESCRAVO AS [cooperado.BOOL_LISTA_TRABALHO_ESCRAVO], \r\n            T.BOOL_SOC");
-            viewString.Append("IO_FUNDADOR AS [cooperado.BOOL_SOCIO_FUNDADOR], \r\n            T.DATE_PRAZO_PERCA");
-            viewString.Append("_BENEFICIOS AS [cooperado.DATE_PRAZO_PERCA_BENEFICIOS], \r\n            T.DATE_LAN");
-            viewString.Append("CAMENTO_DE_SUSPENSAO_BENEFICIOS AS [cooperado.DATE_LANCAMENTO_DE_SUSPENSAO_BENEF");
-            viewString.Append("ICIOS], \r\n            T.INT_ID_QUEM_LANCOU_SUSPENSAO_BENEFICIOS AS [cooperado.IN");
-            viewString.Append("T_ID_QUEM_LANCOU_SUSPENSAO_BENEFICIOS], \r\n            T.TXT_FLO_ID AS [cooperado");
-            viewString.Append(".TXT_FLO_ID], \r\n            T.DECIMAL_COTA AS [cooperado.DECIMAL_COTA], \r\n      ");
-            viewString.Append("      T.BOOL_PERU AS [cooperado.BOOL_PERU], \r\n            T.BOOL_OLEIRICULTOR AS");
-            viewString.Append(" [cooperado.BOOL_OLEIRICULTOR], \r\n            True AS _from0\r\n        FROM db_co");
-            viewString.Append("opfamModelStoreContainer.cooperado AS T\r\n    ) AS T1");
+            viewString.Append("cooperado.BOOL_PERU], T1.[cooperado.BOOL_OLEIRICULTOR], T1.[cooperado.TXT_RFA_ID");
+            viewString.Append("], T1.[cooperado.TXT_OBS_FILHO_MENOR_18], T1.[cooperado.INT_ID_CADASTROU], T1.[c");
+            viewString.Append("ooperado.INT_ID_ALTEROU], T1.[cooperado.DATE_CADASTRO], T1.[cooperado.DATE_ALTER");
+            viewString.Append("OU])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cooperado.INT_ID], \r");
+            viewString.Append("\n            T.INT_ADESAO AS [cooperado.INT_ADESAO], \r\n            T.TXT_NOME AS");
+            viewString.Append(" [cooperado.TXT_NOME], \r\n            T.TXT_RG AS [cooperado.TXT_RG], \r\n         ");
+            viewString.Append("   T.TXT_CPF_CNPJ AS [cooperado.TXT_CPF_CNPJ], \r\n            T.TXT_TITULO_ELEITO");
+            viewString.Append("R AS [cooperado.TXT_TITULO_ELEITOR], \r\n            T.DATE_NASCIMENTO AS [coopera");
+            viewString.Append("do.DATE_NASCIMENTO], \r\n            T.TXT_FILIACAO_PATERNA AS [cooperado.TXT_FILI");
+            viewString.Append("ACAO_PATERNA], \r\n            T.TXT_FILIACAO_MATERNA AS [cooperado.TXT_FILIACAO_M");
+            viewString.Append("ATERNA], \r\n            T.CHAR_ESTADO_CIVIL AS [cooperado.CHAR_ESTADO_CIVIL], \r\n ");
+            viewString.Append("           T.TXT_NATURALIDADE AS [cooperado.TXT_NATURALIDADE], \r\n            T.T");
+            viewString.Append("XT_NACIONALIDADE AS [cooperado.TXT_NACIONALIDADE], \r\n            T.TXT_PROFISSAO");
+            viewString.Append(" AS [cooperado.TXT_PROFISSAO], \r\n            T.BOOL_PESSOA_JUR_FIS AS [cooperado");
+            viewString.Append(".BOOL_PESSOA_JUR_FIS], \r\n            T.TXT_IM AS [cooperado.TXT_IM], \r\n         ");
+            viewString.Append("   T.TXT_IE AS [cooperado.TXT_IE], \r\n            T.TXT_NOME_FANTASIA AS [coopera");
+            viewString.Append("do.TXT_NOME_FANTASIA], \r\n            T.INT_ID_GRUPO_REUNIAO AS [cooperado.INT_ID");
+            viewString.Append("_GRUPO_REUNIAO], \r\n            T.TXT_REPRESENTANTE_LEGAL AS [cooperado.TXT_REPRE");
+            viewString.Append("SENTANTE_LEGAL], \r\n            T.CHAR_STATUS AS [cooperado.CHAR_STATUS], \r\n     ");
+            viewString.Append("       T.CHAR_SEXO AS [cooperado.CHAR_SEXO], \r\n            T.DATE_POSSE AS [coop");
+            viewString.Append("erado.DATE_POSSE], \r\n            T.DATE_INDICACAO AS [cooperado.DATE_INDICACAO],");
+            viewString.Append(" \r\n            T.DATE_APROVACAO AS [cooperado.DATE_APROVACAO], \r\n            T.T");
+            viewString.Append("XT_FOTO AS [cooperado.TXT_FOTO], \r\n            T.BOOL_POSSUI_DAP AS [cooperado.B");
+            viewString.Append("OOL_POSSUI_DAP], \r\n            T.TXT_CPF_CONJUGE AS [cooperado.TXT_CPF_CONJUGE],");
+            viewString.Append(" \r\n            T.TXT_RG_CONJUGE AS [cooperado.TXT_RG_CONJUGE], \r\n            T.T");
+            viewString.Append("XT_TITULO_ELEITOR_CONJUGE AS [cooperado.TXT_TITULO_ELEITOR_CONJUGE], \r\n         ");
+            viewString.Append("   T.TXT_NOME_CONJUGE AS [cooperado.TXT_NOME_CONJUGE], \r\n            T.DATE_NASC");
+            viewString.Append("_CONJUGE AS [cooperado.DATE_NASC_CONJUGE], \r\n            T.BOOL_POSSUI_SOCIO AS ");
+            viewString.Append("[cooperado.BOOL_POSSUI_SOCIO], \r\n            T.TXT_OBS_SOCIO AS [cooperado.TXT_O");
+            viewString.Append("BS_SOCIO], \r\n            T.BOOL_POSSUI_PARCEIRO AS [cooperado.BOOL_POSSUI_PARCEI");
+            viewString.Append("RO], \r\n            T.TXT_OBS_PARCEIRO AS [cooperado.TXT_OBS_PARCEIRO], \r\n       ");
+            viewString.Append("     T.BOOL_CONTRATO_TEMP AS [cooperado.BOOL_CONTRATO_TEMP], \r\n            T.BOO");
+            viewString.Append("L_CONTRATO_FIXO AS [cooperado.BOOL_CONTRATO_FIXO], \r\n            T.BOOL_TIPO_CUL");
+            viewString.Append("TIVO AS [cooperado.BOOL_TIPO_CULTIVO], \r\n            T.INT_QTD_CONT_FIXO AS [coo");
+            viewString.Append("perado.INT_QTD_CONT_FIXO], \r\n            T.INT_QTD_CONT_TEMP AS [cooperado.INT_Q");
+            viewString.Append("TD_CONT_TEMP], \r\n            T.BOOL_COOP_NAO_COOP AS [cooperado.BOOL_COOP_NAO_CO");
+            viewString.Append("OP], \r\n            T.BOOL_RECADASTRO AS [cooperado.BOOL_RECADASTRO], \r\n         ");
+            viewString.Append("   T.TXT_DESCRICAO_DOC_PENDENTE AS [cooperado.TXT_DESCRICAO_DOC_PENDENTE], \r\n   ");
+            viewString.Append("         T.BOOL_POSSUI_CONJUGE AS [cooperado.BOOL_POSSUI_CONJUGE], \r\n           ");
+            viewString.Append(" T.DATE_INIT_COMERCIALIZAR AS [cooperado.DATE_INIT_COMERCIALIZAR], \r\n           ");
+            viewString.Append(" T.BOOL_FILHO_MENOR_18 AS [cooperado.BOOL_FILHO_MENOR_18], \r\n            T.BOOL_");
+            viewString.Append("FILHO_ESTUDA AS [cooperado.BOOL_FILHO_ESTUDA], \r\n            T.DECIMAL_QTD_FILHO");
+            viewString.Append("S AS [cooperado.DECIMAL_QTD_FILHOS], \r\n            T.INT_ID_CONJUGE AS [cooperad");
+            viewString.Append("o.INT_ID_CONJUGE], \r\n            T.DATE_FILIACAO AS [cooperado.DATE_FILIACAO], \r");
+            viewString.Append("\n            T.BOOL_FAMILIAR AS [cooperado.BOOL_FAMILIAR], \r\n            T.INT_I");
+            viewString.Append("D_CONTA_CONTABIL AS [cooperado.INT_ID_CONTA_CONTABIL], \r\n            T.TXT_RUA A");
+            viewString.Append("S [cooperado.TXT_RUA], \r\n            T.TXT_NR AS [cooperado.TXT_NR], \r\n         ");
+            viewString.Append("   T.TXT_BAIRRO AS [cooperado.TXT_BAIRRO], \r\n            T.TXT_CEP AS [cooperado");
+            viewString.Append(".TXT_CEP], \r\n            T.TXT_COMPLEMENTO AS [cooperado.TXT_COMPLEMENTO], \r\n   ");
+            viewString.Append("         T.TXT_CIDADE AS [cooperado.TXT_CIDADE], \r\n            T.TXT_UF AS [coop");
+            viewString.Append("erado.TXT_UF], \r\n            T.INT_ID_CEP_ENDERECO AS [cooperado.INT_ID_CEP_ENDE");
+            viewString.Append("RECO], \r\n            T.BOOL_CAFE_FEMININO AS [cooperado.BOOL_CAFE_FEMININO], \r\n ");
+            viewString.Append("           T.BOOL_LISTA_TRABALHO_ESCRAVO AS [cooperado.BOOL_LISTA_TRABALHO_ESCRA");
+            viewString.Append("VO], \r\n            T.BOOL_SOCIO_FUNDADOR AS [cooperado.BOOL_SOCIO_FUNDADOR], \r\n ");
+            viewString.Append("           T.DATE_PRAZO_PERCA_BENEFICIOS AS [cooperado.DATE_PRAZO_PERCA_BENEFICI");
+            viewString.Append("OS], \r\n            T.DATE_LANCAMENTO_DE_SUSPENSAO_BENEFICIOS AS [cooperado.DATE_");
+            viewString.Append("LANCAMENTO_DE_SUSPENSAO_BENEFICIOS], \r\n            T.INT_ID_QUEM_LANCOU_SUSPENSA");
+            viewString.Append("O_BENEFICIOS AS [cooperado.INT_ID_QUEM_LANCOU_SUSPENSAO_BENEFICIOS], \r\n         ");
+            viewString.Append("   T.TXT_FLO_ID AS [cooperado.TXT_FLO_ID], \r\n            T.DECIMAL_COTA AS [coop");
+            viewString.Append("erado.DECIMAL_COTA], \r\n            T.BOOL_PERU AS [cooperado.BOOL_PERU], \r\n     ");
+            viewString.Append("       T.BOOL_OLEIRICULTOR AS [cooperado.BOOL_OLEIRICULTOR], \r\n            T.TXT");
+            viewString.Append("_RFA_ID AS [cooperado.TXT_RFA_ID], \r\n            T.TXT_OBS_FILHO_MENOR_18 AS [co");
+            viewString.Append("operado.TXT_OBS_FILHO_MENOR_18], \r\n            T.INT_ID_CADASTROU AS [cooperado.");
+            viewString.Append("INT_ID_CADASTROU], \r\n            T.INT_ID_ALTEROU AS [cooperado.INT_ID_ALTEROU],");
+            viewString.Append(" \r\n            T.DATE_CADASTRO AS [cooperado.DATE_CADASTRO], \r\n            T.DAT");
+            viewString.Append("E_ALTEROU AS [cooperado.DATE_ALTEROU], \r\n            True AS _from0\r\n        FRO");
+            viewString.Append("M db_coopfamModelStoreContainer.cooperado AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cooperado", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cooperado_que_fazem_parte_do_mercado_futura_situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView333()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView350()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cooperado_que_fazem_parte_do_mercado_futura_situacao_norma", @"
     SELECT VALUE -- Constructing cooperado_que_fazem_parte_do_mercado_futura_situacao_norma
@@ -12058,9 +12873,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cooperado_que_fazem_parte_do_mercado_futuro
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView334()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView351()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4350);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4529);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cooperado_que_fazem_parte_do_mercado_futuro\r\n");
             viewString.Append("        [db_coopfamModel.cooperado_que_fazem_parte_do_mercado_futuro](T1.[cooper");
             viewString.Append("ado_que_fazem_parte_do_mercado_futuro.INT_ID], T1.[cooperado_que_fazem_parte_do_");
@@ -12083,46 +12898,48 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("erado_que_fazem_parte_do_mercado_futuro.INT_ID_ALTEROU], T1.[cooperado_que_fazem");
             viewString.Append("_parte_do_mercado_futuro.DATE_ALTEROU], T1.[cooperado_que_fazem_parte_do_mercado");
             viewString.Append("_futuro.INT_ID_EXCLUIU], T1.[cooperado_que_fazem_parte_do_mercado_futuro.DATE_EX");
-            viewString.Append("CLUIU])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cooperado_que_faz");
-            viewString.Append("em_parte_do_mercado_futuro.INT_ID], \r\n            T.INT_ID_COOPERADO AS [coopera");
-            viewString.Append("do_que_fazem_parte_do_mercado_futuro.INT_ID_COOPERADO], \r\n            T.FLOAT_CA");
-            viewString.Append("TACAO AS [cooperado_que_fazem_parte_do_mercado_futuro.FLOAT_CATACAO], \r\n        ");
-            viewString.Append("    T.FLOAT_QTD_SACAS_BICA AS [cooperado_que_fazem_parte_do_mercado_futuro.FLOAT");
-            viewString.Append("_QTD_SACAS_BICA], \r\n            T.FLOAT_QTD_SACAS_BOAS AS [cooperado_que_fazem_p");
-            viewString.Append("arte_do_mercado_futuro.FLOAT_QTD_SACAS_BOAS], \r\n            T.INT_ID_FECHAMENTO_");
-            viewString.Append("MERCADO_FUTURO AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FECHAMENTO");
-            viewString.Append("_MERCADO_FUTURO], \r\n            T.TXT_OBS AS [cooperado_que_fazem_parte_do_merca");
-            viewString.Append("do_futuro.TXT_OBS], \r\n            T.FLOAT_VALOR_MINIMO AS [cooperado_que_fazem_p");
-            viewString.Append("arte_do_mercado_futuro.FLOAT_VALOR_MINIMO], \r\n            T.DATE_LANCAMENTO AS [");
-            viewString.Append("cooperado_que_fazem_parte_do_mercado_futuro.DATE_LANCAMENTO], \r\n            T.IN");
-            viewString.Append("T_ID_FUNC AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FUNC], \r\n      ");
-            viewString.Append("      T.BOOL_ORG_CONV AS [cooperado_que_fazem_parte_do_mercado_futuro.BOOL_ORG_C");
-            viewString.Append("ONV], \r\n            T.DATE_MAXIMA_PARA_ENTREGA AS [cooperado_que_fazem_parte_do_");
-            viewString.Append("mercado_futuro.DATE_MAXIMA_PARA_ENTREGA], \r\n            T.BOOL_ATIVO AS [coopera");
-            viewString.Append("do_que_fazem_parte_do_mercado_futuro.BOOL_ATIVO], \r\n            T.BOOL_EM_TRANSI");
-            viewString.Append("CAO AS [cooperado_que_fazem_parte_do_mercado_futuro.BOOL_EM_TRANSICAO], \r\n      ");
-            viewString.Append("      T.DATE_PAGAMENTO AS [cooperado_que_fazem_parte_do_mercado_futuro.DATE_PAGA");
-            viewString.Append("MENTO], \r\n            T.DECIMAL_PRECO_EM_REAIS AS [cooperado_que_fazem_parte_do_");
-            viewString.Append("mercado_futuro.DECIMAL_PRECO_EM_REAIS], \r\n            T.DECIMAL_PENEIRA1415 AS [");
-            viewString.Append("cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_PENEIRA1415], \r\n            ");
-            viewString.Append("T.DECIMAL_PENEIRA16UP AS [cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_PE");
-            viewString.Append("NEIRA16UP], \r\n            T.DATE_GEROU_CONTRATO AS [cooperado_que_fazem_parte_do");
-            viewString.Append("_mercado_futuro.DATE_GEROU_CONTRATO], \r\n            T.INT_ID_CONTA_PARA_PAGAMENT");
-            viewString.Append("O AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_CONTA_PARA_PAGAMENTO], ");
-            viewString.Append("\r\n            T.INT_ID_ALTEROU AS [cooperado_que_fazem_parte_do_mercado_futuro.I");
-            viewString.Append("NT_ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [cooperado_que_fazem_parte_do_me");
-            viewString.Append("rcado_futuro.DATE_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [cooperado_que_faz");
-            viewString.Append("em_parte_do_mercado_futuro.INT_ID_EXCLUIU], \r\n            T.DATE_EXCLUIU AS [coo");
-            viewString.Append("perado_que_fazem_parte_do_mercado_futuro.DATE_EXCLUIU], \r\n            True AS _f");
-            viewString.Append("rom0\r\n        FROM db_coopfamModelStoreContainer.cooperado_que_fazem_parte_do_me");
-            viewString.Append("rcado_futuro AS T\r\n    ) AS T1");
+            viewString.Append("CLUIU], T1.[cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_SCS_WASH_OUT])\r\n");
+            viewString.Append("    FROM (\r\n        SELECT \r\n            T.INT_ID AS [cooperado_que_fazem_parte_");
+            viewString.Append("do_mercado_futuro.INT_ID], \r\n            T.INT_ID_COOPERADO AS [cooperado_que_fa");
+            viewString.Append("zem_parte_do_mercado_futuro.INT_ID_COOPERADO], \r\n            T.FLOAT_CATACAO AS ");
+            viewString.Append("[cooperado_que_fazem_parte_do_mercado_futuro.FLOAT_CATACAO], \r\n            T.FLO");
+            viewString.Append("AT_QTD_SACAS_BICA AS [cooperado_que_fazem_parte_do_mercado_futuro.FLOAT_QTD_SACA");
+            viewString.Append("S_BICA], \r\n            T.FLOAT_QTD_SACAS_BOAS AS [cooperado_que_fazem_parte_do_m");
+            viewString.Append("ercado_futuro.FLOAT_QTD_SACAS_BOAS], \r\n            T.INT_ID_FECHAMENTO_MERCADO_F");
+            viewString.Append("UTURO AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FECHAMENTO_MERCADO_");
+            viewString.Append("FUTURO], \r\n            T.TXT_OBS AS [cooperado_que_fazem_parte_do_mercado_futuro");
+            viewString.Append(".TXT_OBS], \r\n            T.FLOAT_VALOR_MINIMO AS [cooperado_que_fazem_parte_do_m");
+            viewString.Append("ercado_futuro.FLOAT_VALOR_MINIMO], \r\n            T.DATE_LANCAMENTO AS [cooperado");
+            viewString.Append("_que_fazem_parte_do_mercado_futuro.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNC");
+            viewString.Append(" AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_FUNC], \r\n            T.B");
+            viewString.Append("OOL_ORG_CONV AS [cooperado_que_fazem_parte_do_mercado_futuro.BOOL_ORG_CONV], \r\n ");
+            viewString.Append("           T.DATE_MAXIMA_PARA_ENTREGA AS [cooperado_que_fazem_parte_do_mercado_f");
+            viewString.Append("uturo.DATE_MAXIMA_PARA_ENTREGA], \r\n            T.BOOL_ATIVO AS [cooperado_que_fa");
+            viewString.Append("zem_parte_do_mercado_futuro.BOOL_ATIVO], \r\n            T.BOOL_EM_TRANSICAO AS [c");
+            viewString.Append("ooperado_que_fazem_parte_do_mercado_futuro.BOOL_EM_TRANSICAO], \r\n            T.D");
+            viewString.Append("ATE_PAGAMENTO AS [cooperado_que_fazem_parte_do_mercado_futuro.DATE_PAGAMENTO], \r");
+            viewString.Append("\n            T.DECIMAL_PRECO_EM_REAIS AS [cooperado_que_fazem_parte_do_mercado_f");
+            viewString.Append("uturo.DECIMAL_PRECO_EM_REAIS], \r\n            T.DECIMAL_PENEIRA1415 AS [cooperado");
+            viewString.Append("_que_fazem_parte_do_mercado_futuro.DECIMAL_PENEIRA1415], \r\n            T.DECIMAL");
+            viewString.Append("_PENEIRA16UP AS [cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_PENEIRA16UP");
+            viewString.Append("], \r\n            T.DATE_GEROU_CONTRATO AS [cooperado_que_fazem_parte_do_mercado_");
+            viewString.Append("futuro.DATE_GEROU_CONTRATO], \r\n            T.INT_ID_CONTA_PARA_PAGAMENTO AS [coo");
+            viewString.Append("perado_que_fazem_parte_do_mercado_futuro.INT_ID_CONTA_PARA_PAGAMENTO], \r\n       ");
+            viewString.Append("     T.INT_ID_ALTEROU AS [cooperado_que_fazem_parte_do_mercado_futuro.INT_ID_ALT");
+            viewString.Append("EROU], \r\n            T.DATE_ALTEROU AS [cooperado_que_fazem_parte_do_mercado_fut");
+            viewString.Append("uro.DATE_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [cooperado_que_fazem_parte_");
+            viewString.Append("do_mercado_futuro.INT_ID_EXCLUIU], \r\n            T.DATE_EXCLUIU AS [cooperado_qu");
+            viewString.Append("e_fazem_parte_do_mercado_futuro.DATE_EXCLUIU], \r\n            T.DECIMAL_SCS_WASH_");
+            viewString.Append("OUT AS [cooperado_que_fazem_parte_do_mercado_futuro.DECIMAL_SCS_WASH_OUT], \r\n   ");
+            viewString.Append("         True AS _from0\r\n        FROM db_coopfamModelStoreContainer.cooperado_qu");
+            viewString.Append("e_fazem_parte_do_mercado_futuro AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cooperado_que_fazem_parte_do_mercado_futuro", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cotacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView335()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView352()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cotacao", @"
     SELECT VALUE -- Constructing cotacao
@@ -12150,7 +12967,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cotacao_compra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView336()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView353()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cotacao_compra", @"
     SELECT VALUE -- Constructing cotacao_compra
@@ -12177,7 +12994,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cotacao_compra_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView337()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView354()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2896);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cotacao_compra_item\r\n        [db_coopfamModel");
@@ -12223,7 +13040,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cotacao_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView338()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView355()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cotacao_item", "\r\n    SELECT VALUE -- Constructing cotacao_item\r\n        [db_coopfamModel.cotacao" +
                     "_item](T1.[cotacao_item.INT_ID], T1.[cotacao_item.INT_ID_PRODUTO], T1.[cotacao_i" +
@@ -12256,7 +13073,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cotacao_item_fornecedor
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView339()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView356()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cotacao_item_fornecedor", @"
     SELECT VALUE -- Constructing cotacao_item_fornecedor
@@ -12275,7 +13092,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cotacao_resultado_itens
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView340()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView357()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2381);
             viewString.Append("\r\n    SELECT VALUE -- Constructing cotacao_resultado_itens\r\n        [db_coopfamM");
@@ -12314,11 +13131,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.criterios
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView341()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView358()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.criterios", @"
     SELECT VALUE -- Constructing criterios
-        [db_coopfamModel.criterios](T1.[criterios.INT_ID], T1.[criterios.TXT_DESCRICAO], T1.[criterios.TXT_NR_NORMA], T1.[criterios.BOOL_ATIVO], T1.[criterios.INT_ID_CERTIFICACAO], T1.[criterios.INT_ID_CADASTRO], T1.[criterios.DATE_CADASTRO], T1.[criterios.INT_ID_ALTERACAO], T1.[criterios.DATE_ALTERACAO], T1.[criterios.INT_ID_EXCLUSAO], T1.[criterios.DATE_EXCLUSAO])
+        [db_coopfamModel.criterios](T1.[criterios.INT_ID], T1.[criterios.TXT_DESCRICAO], T1.[criterios.TXT_NR_NORMA], T1.[criterios.BOOL_ATIVO], T1.[criterios.INT_ID_CERTIFICACAO], T1.[criterios.INT_ID_CADASTRO], T1.[criterios.DATE_CADASTRO], T1.[criterios.INT_ID_ALTERACAO], T1.[criterios.DATE_ALTERACAO], T1.[criterios.INT_ID_EXCLUSAO], T1.[criterios.DATE_EXCLUSAO], T1.[criterios.TXT_NORMA_COMPLETA])
     FROM (
         SELECT 
             T.INT_ID AS [criterios.INT_ID], 
@@ -12332,6 +13149,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.DATE_ALTERACAO AS [criterios.DATE_ALTERACAO], 
             T.INT_ID_EXCLUSAO AS [criterios.INT_ID_EXCLUSAO], 
             T.DATE_EXCLUSAO AS [criterios.DATE_EXCLUSAO], 
+            T.TXT_NORMA_COMPLETA AS [criterios.TXT_NORMA_COMPLETA], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.criterios AS T
     ) AS T1");
@@ -12340,7 +13158,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.curso
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView342()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView359()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.curso", @"
     SELECT VALUE -- Constructing curso
@@ -12361,7 +13179,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.curso_ministrantes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView343()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView360()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.curso_ministrantes", @"
     SELECT VALUE -- Constructing curso_ministrantes
@@ -12381,7 +13199,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.curso_realizados
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView344()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView361()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.curso_realizados", "\r\n    SELECT VALUE -- Constructing curso_realizados\r\n        [db_coopfamModel.cur" +
                     "so_realizados](T1.[curso_realizados.INT_ID], T1.[curso_realizados.INT_ID_CURSO]," +
@@ -12410,7 +13228,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.curso_relacionado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView345()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView362()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.curso_relacionado", @"
     SELECT VALUE -- Constructing curso_relacionado
@@ -12429,7 +13247,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.cursos_cooperados
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView346()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView363()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.cursos_cooperados", @"
     SELECT VALUE -- Constructing cursos_cooperados
@@ -12452,7 +13270,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.custo_da_formacao_de_preco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView347()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView364()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.custo_da_formacao_de_preco", @"
     SELECT VALUE -- Constructing custo_da_formacao_de_preco
@@ -12470,7 +13288,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.dados_bancarios
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView348()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView365()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.dados_bancarios", @"
     SELECT VALUE -- Constructing dados_bancarios
@@ -12497,7 +13315,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.dap
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView349()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView366()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.dap", @"
     SELECT VALUE -- Constructing dap
@@ -12519,7 +13337,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.defeito_cafe
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView350()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView367()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.defeito_cafe", @"
     SELECT VALUE -- Constructing defeito_cafe
@@ -12538,7 +13356,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.defeito_cafe_cadastro_lote
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView351()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView368()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.defeito_cafe_cadastro_lote", @"
     SELECT VALUE -- Constructing defeito_cafe_cadastro_lote
@@ -12557,7 +13375,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.dependentes_plano_de_saude
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView352()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView369()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.dependentes_plano_de_saude", @"
     SELECT VALUE -- Constructing dependentes_plano_de_saude
@@ -12582,7 +13400,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.descontos_acrescimos_pg_cafe
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView353()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView370()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2324);
             viewString.Append("\r\n    SELECT VALUE -- Constructing descontos_acrescimos_pg_cafe\r\n        [db_coo");
@@ -12621,7 +13439,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.despesas_realizadas_contas_a_pg_e_rec
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView354()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView371()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.despesas_realizadas_contas_a_pg_e_rec", @"
     SELECT VALUE -- Constructing despesas_realizadas_contas_a_pg_e_rec
@@ -12642,7 +13460,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.devolucao_de_compra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView355()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView372()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2924);
             viewString.Append("\r\n    SELECT VALUE -- Constructing devolucao_de_compra\r\n        [db_coopfamModel");
@@ -12688,7 +13506,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.documento_comprobatorio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView356()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView373()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.documento_comprobatorio", @"
     SELECT VALUE -- Constructing documento_comprobatorio
@@ -12707,7 +13525,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.email
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView357()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView374()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.email", @"
     SELECT VALUE -- Constructing email
@@ -12727,7 +13545,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.email_cliente
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView358()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView375()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.email_cliente", @"
     SELECT VALUE -- Constructing email_cliente
@@ -12747,9 +13565,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.empresa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView359()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView376()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2344);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2715);
             viewString.Append("\r\n    SELECT VALUE -- Constructing empresa\r\n        [db_coopfamModel.empresa](T1");
             viewString.Append(".[empresa.INT_ID_EMPRESA], T1.[empresa.TXT_NOME_FANTASIA], T1.[empresa.TXT_RAZAO");
             viewString.Append("_SOCIAL], T1.[empresa.TXT_IE], T1.[empresa.TXT_IM], T1.[empresa.TXT_RUA], T1.[em");
@@ -12759,34 +13577,38 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("INT_CRT], T1.[empresa.INT_COD_UF], T1.[empresa.TXT_CEP], T1.[empresa.TXT_TOKEN_I");
             viewString.Append("BPT], T1.[empresa.TXT_TOKEN_NFEMAIL], T1.[empresa.DECIMAL_VALOR_DO_PREMIO_FAIR_T");
             viewString.Append("RADE], T1.[empresa.BOOL_CAFE], T1.[empresa.BOOL_HOSPITAL], T1.[empresa.BOOL_LOJA");
-            viewString.Append("], T1.[empresa.TXT_FLO_ID], T1.[empresa.BOOL_MATRIZ])\r\n    FROM (\r\n        SELEC");
-            viewString.Append("T \r\n            T.INT_ID_EMPRESA AS [empresa.INT_ID_EMPRESA], \r\n            T.TX");
-            viewString.Append("T_NOME_FANTASIA AS [empresa.TXT_NOME_FANTASIA], \r\n            T.TXT_RAZAO_SOCIAL");
-            viewString.Append(" AS [empresa.TXT_RAZAO_SOCIAL], \r\n            T.TXT_IE AS [empresa.TXT_IE], \r\n  ");
-            viewString.Append("          T.TXT_IM AS [empresa.TXT_IM], \r\n            T.TXT_RUA AS [empresa.TXT_");
-            viewString.Append("RUA], \r\n            T.TXT_NR AS [empresa.TXT_NR], \r\n            T.TXT_BAIRRO AS ");
-            viewString.Append("[empresa.TXT_BAIRRO], \r\n            T.TXT_MUNICIPIO AS [empresa.TXT_MUNICIPIO], ");
-            viewString.Append("\r\n            T.TXT_UF AS [empresa.TXT_UF], \r\n            T.INT_COD_PAIS_IBGE AS");
-            viewString.Append(" [empresa.INT_COD_PAIS_IBGE], \r\n            T.INT_COD_CIDADE_IBGE AS [empresa.IN");
-            viewString.Append("T_COD_CIDADE_IBGE], \r\n            T.TXT_CNPJ AS [empresa.TXT_CNPJ], \r\n          ");
-            viewString.Append("  T.TXT_PAIS AS [empresa.TXT_PAIS], \r\n            T.TXT_TELEFONE AS [empresa.TXT");
-            viewString.Append("_TELEFONE], \r\n            T.INT_CRT AS [empresa.INT_CRT], \r\n            T.INT_CO");
-            viewString.Append("D_UF AS [empresa.INT_COD_UF], \r\n            T.TXT_CEP AS [empresa.TXT_CEP], \r\n  ");
-            viewString.Append("          T.TXT_TOKEN_IBPT AS [empresa.TXT_TOKEN_IBPT], \r\n            T.TXT_TOKE");
-            viewString.Append("N_NFEMAIL AS [empresa.TXT_TOKEN_NFEMAIL], \r\n            T.DECIMAL_VALOR_DO_PREMI");
-            viewString.Append("O_FAIR_TRADE AS [empresa.DECIMAL_VALOR_DO_PREMIO_FAIR_TRADE], \r\n            T.BO");
-            viewString.Append("OL_CAFE AS [empresa.BOOL_CAFE], \r\n            T.BOOL_HOSPITAL AS [empresa.BOOL_H");
-            viewString.Append("OSPITAL], \r\n            T.BOOL_LOJA AS [empresa.BOOL_LOJA], \r\n            T.TXT_");
-            viewString.Append("FLO_ID AS [empresa.TXT_FLO_ID], \r\n            T.BOOL_MATRIZ AS [empresa.BOOL_MAT");
-            viewString.Append("RIZ], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer.e");
-            viewString.Append("mpresa AS T\r\n    ) AS T1");
+            viewString.Append("], T1.[empresa.TXT_FLO_ID], T1.[empresa.BOOL_MATRIZ], T1.[empresa.BOOL_LANCANTO_");
+            viewString.Append("COTABIL_FISCAL], T1.[empresa.BOOL_BRFAIR], T1.[empresa.TXT_FTUSA_ID], T1.[empres");
+            viewString.Append("a.TXT_RFA_ID])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID_EMPRESA AS [em");
+            viewString.Append("presa.INT_ID_EMPRESA], \r\n            T.TXT_NOME_FANTASIA AS [empresa.TXT_NOME_FA");
+            viewString.Append("NTASIA], \r\n            T.TXT_RAZAO_SOCIAL AS [empresa.TXT_RAZAO_SOCIAL], \r\n     ");
+            viewString.Append("       T.TXT_IE AS [empresa.TXT_IE], \r\n            T.TXT_IM AS [empresa.TXT_IM],");
+            viewString.Append(" \r\n            T.TXT_RUA AS [empresa.TXT_RUA], \r\n            T.TXT_NR AS [empres");
+            viewString.Append("a.TXT_NR], \r\n            T.TXT_BAIRRO AS [empresa.TXT_BAIRRO], \r\n            T.T");
+            viewString.Append("XT_MUNICIPIO AS [empresa.TXT_MUNICIPIO], \r\n            T.TXT_UF AS [empresa.TXT_");
+            viewString.Append("UF], \r\n            T.INT_COD_PAIS_IBGE AS [empresa.INT_COD_PAIS_IBGE], \r\n       ");
+            viewString.Append("     T.INT_COD_CIDADE_IBGE AS [empresa.INT_COD_CIDADE_IBGE], \r\n            T.TXT");
+            viewString.Append("_CNPJ AS [empresa.TXT_CNPJ], \r\n            T.TXT_PAIS AS [empresa.TXT_PAIS], \r\n ");
+            viewString.Append("           T.TXT_TELEFONE AS [empresa.TXT_TELEFONE], \r\n            T.INT_CRT AS ");
+            viewString.Append("[empresa.INT_CRT], \r\n            T.INT_COD_UF AS [empresa.INT_COD_UF], \r\n       ");
+            viewString.Append("     T.TXT_CEP AS [empresa.TXT_CEP], \r\n            T.TXT_TOKEN_IBPT AS [empresa.");
+            viewString.Append("TXT_TOKEN_IBPT], \r\n            T.TXT_TOKEN_NFEMAIL AS [empresa.TXT_TOKEN_NFEMAIL");
+            viewString.Append("], \r\n            T.DECIMAL_VALOR_DO_PREMIO_FAIR_TRADE AS [empresa.DECIMAL_VALOR_");
+            viewString.Append("DO_PREMIO_FAIR_TRADE], \r\n            T.BOOL_CAFE AS [empresa.BOOL_CAFE], \r\n     ");
+            viewString.Append("       T.BOOL_HOSPITAL AS [empresa.BOOL_HOSPITAL], \r\n            T.BOOL_LOJA AS ");
+            viewString.Append("[empresa.BOOL_LOJA], \r\n            T.TXT_FLO_ID AS [empresa.TXT_FLO_ID], \r\n     ");
+            viewString.Append("       T.BOOL_MATRIZ AS [empresa.BOOL_MATRIZ], \r\n            T.BOOL_LANCANTO_COT");
+            viewString.Append("ABIL_FISCAL AS [empresa.BOOL_LANCANTO_COTABIL_FISCAL], \r\n            T.BOOL_BRFA");
+            viewString.Append("IR AS [empresa.BOOL_BRFAIR], \r\n            T.TXT_FTUSA_ID AS [empresa.TXT_FTUSA_");
+            viewString.Append("ID], \r\n            T.TXT_RFA_ID AS [empresa.TXT_RFA_ID], \r\n            True AS _");
+            viewString.Append("from0\r\n        FROM db_coopfamModelStoreContainer.empresa AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.empresa", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.empresa_forn_prod_agricola
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView360()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView377()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.empresa_forn_prod_agricola", @"
     SELECT VALUE -- Constructing empresa_forn_prod_agricola
@@ -12804,40 +13626,44 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.emprestimos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView361()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView378()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.emprestimos", "\r\n    SELECT VALUE -- Constructing emprestimos\r\n        [db_coopfamModel.empresti" +
-                    "mos](T1.[emprestimos.INT_ID], T1.[emprestimos.INT_ID_COOPERADO], T1.[emprestimos" +
-                    ".INT_ID_CATEGORIA], T1.[emprestimos.DATE_LANCAMENTO], T1.[emprestimos.INT_ID_FUN" +
-                    "C], T1.[emprestimos.INT_ID_AVALISTA], T1.[emprestimos.INT_ID_FORMA_DE_PAGAMENTO]" +
-                    ", T1.[emprestimos.BOOL_JUROS_AA_AM], T1.[emprestimos.DECIMAL_PERCENTUAL_JUROS], " +
-                    "T1.[emprestimos.DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO], T1.[emprestimos.TXT_F" +
-                    "INALIDADE], T1.[emprestimos.DECIMAL_VALOR], T1.[emprestimos.DATE_AGENDAR_TRANSFE" +
-                    "RENCIA], T1.[emprestimos.TXT_OBS], T1.[emprestimos.BOOL_ATIVO], T1.[emprestimos." +
-                    "INT_ID_SEGUNDO_AVALISTA], T1.[emprestimos.DECIMAL_VALOR_MUDAS])\r\n    FROM (\r\n   " +
-                    "     SELECT \r\n            T.INT_ID AS [emprestimos.INT_ID], \r\n            T.INT_" +
-                    "ID_COOPERADO AS [emprestimos.INT_ID_COOPERADO], \r\n            T.INT_ID_CATEGORIA" +
-                    " AS [emprestimos.INT_ID_CATEGORIA], \r\n            T.DATE_LANCAMENTO AS [empresti" +
-                    "mos.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNC AS [emprestimos.INT_ID_FUNC], " +
-                    "\r\n            T.INT_ID_AVALISTA AS [emprestimos.INT_ID_AVALISTA], \r\n            " +
-                    "T.INT_ID_FORMA_DE_PAGAMENTO AS [emprestimos.INT_ID_FORMA_DE_PAGAMENTO], \r\n      " +
-                    "      T.BOOL_JUROS_AA_AM AS [emprestimos.BOOL_JUROS_AA_AM], \r\n            T.DECI" +
-                    "MAL_PERCENTUAL_JUROS AS [emprestimos.DECIMAL_PERCENTUAL_JUROS], \r\n            T." +
-                    "DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO AS [emprestimos.DECIMAL_PERCENTUAL_JURO" +
-                    "S_APOS_VENCIMENTO], \r\n            T.TXT_FINALIDADE AS [emprestimos.TXT_FINALIDAD" +
-                    "E], \r\n            T.DECIMAL_VALOR AS [emprestimos.DECIMAL_VALOR], \r\n            " +
-                    "T.DATE_AGENDAR_TRANSFERENCIA AS [emprestimos.DATE_AGENDAR_TRANSFERENCIA], \r\n    " +
-                    "        T.TXT_OBS AS [emprestimos.TXT_OBS], \r\n            T.BOOL_ATIVO AS [empre" +
-                    "stimos.BOOL_ATIVO], \r\n            T.INT_ID_SEGUNDO_AVALISTA AS [emprestimos.INT_" +
-                    "ID_SEGUNDO_AVALISTA], \r\n            T.DECIMAL_VALOR_MUDAS AS [emprestimos.DECIMA" +
-                    "L_VALOR_MUDAS], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreC" +
-                    "ontainer.emprestimos AS T\r\n    ) AS T1");
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2181);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing emprestimos\r\n        [db_coopfamModel.emprest");
+            viewString.Append("imos](T1.[emprestimos.INT_ID], T1.[emprestimos.INT_ID_COOPERADO], T1.[emprestimo");
+            viewString.Append("s.INT_ID_CATEGORIA], T1.[emprestimos.DATE_LANCAMENTO], T1.[emprestimos.INT_ID_FU");
+            viewString.Append("NC], T1.[emprestimos.INT_ID_AVALISTA], T1.[emprestimos.INT_ID_FORMA_DE_PAGAMENTO");
+            viewString.Append("], T1.[emprestimos.BOOL_JUROS_AA_AM], T1.[emprestimos.DECIMAL_PERCENTUAL_JUROS],");
+            viewString.Append(" T1.[emprestimos.DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO], T1.[emprestimos.TXT_");
+            viewString.Append("FINALIDADE], T1.[emprestimos.DECIMAL_VALOR], T1.[emprestimos.DATE_AGENDAR_TRANSF");
+            viewString.Append("ERENCIA], T1.[emprestimos.TXT_OBS], T1.[emprestimos.BOOL_ATIVO], T1.[emprestimos");
+            viewString.Append(".INT_ID_SEGUNDO_AVALISTA], T1.[emprestimos.DECIMAL_VALOR_MUDAS], T1.[emprestimos");
+            viewString.Append(".INT_ID_FECHAMENTO_MERC_FUTURO])\r\n    FROM (\r\n        SELECT \r\n            T.INT");
+            viewString.Append("_ID AS [emprestimos.INT_ID], \r\n            T.INT_ID_COOPERADO AS [emprestimos.IN");
+            viewString.Append("T_ID_COOPERADO], \r\n            T.INT_ID_CATEGORIA AS [emprestimos.INT_ID_CATEGOR");
+            viewString.Append("IA], \r\n            T.DATE_LANCAMENTO AS [emprestimos.DATE_LANCAMENTO], \r\n       ");
+            viewString.Append("     T.INT_ID_FUNC AS [emprestimos.INT_ID_FUNC], \r\n            T.INT_ID_AVALISTA");
+            viewString.Append(" AS [emprestimos.INT_ID_AVALISTA], \r\n            T.INT_ID_FORMA_DE_PAGAMENTO AS ");
+            viewString.Append("[emprestimos.INT_ID_FORMA_DE_PAGAMENTO], \r\n            T.BOOL_JUROS_AA_AM AS [em");
+            viewString.Append("prestimos.BOOL_JUROS_AA_AM], \r\n            T.DECIMAL_PERCENTUAL_JUROS AS [empres");
+            viewString.Append("timos.DECIMAL_PERCENTUAL_JUROS], \r\n            T.DECIMAL_PERCENTUAL_JUROS_APOS_V");
+            viewString.Append("ENCIMENTO AS [emprestimos.DECIMAL_PERCENTUAL_JUROS_APOS_VENCIMENTO], \r\n         ");
+            viewString.Append("   T.TXT_FINALIDADE AS [emprestimos.TXT_FINALIDADE], \r\n            T.DECIMAL_VAL");
+            viewString.Append("OR AS [emprestimos.DECIMAL_VALOR], \r\n            T.DATE_AGENDAR_TRANSFERENCIA AS");
+            viewString.Append(" [emprestimos.DATE_AGENDAR_TRANSFERENCIA], \r\n            T.TXT_OBS AS [emprestim");
+            viewString.Append("os.TXT_OBS], \r\n            T.BOOL_ATIVO AS [emprestimos.BOOL_ATIVO], \r\n         ");
+            viewString.Append("   T.INT_ID_SEGUNDO_AVALISTA AS [emprestimos.INT_ID_SEGUNDO_AVALISTA], \r\n       ");
+            viewString.Append("     T.DECIMAL_VALOR_MUDAS AS [emprestimos.DECIMAL_VALOR_MUDAS], \r\n            T");
+            viewString.Append(".INT_ID_FECHAMENTO_MERC_FUTURO AS [emprestimos.INT_ID_FECHAMENTO_MERC_FUTURO], \r");
+            viewString.Append("\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer.empresti");
+            viewString.Append("mos AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.emprestimos", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.estimativa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView362()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView379()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.estimativa", "\r\n    SELECT VALUE -- Constructing estimativa\r\n        [db_coopfamModel.estimativ" +
                     "a](T1.[estimativa.INT_ID], T1.[estimativa.INT_ID_TALHAO], T1.[estimativa.INT_EST" +
@@ -12864,7 +13690,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.estrutura_do_produto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView363()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView380()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.estrutura_do_produto", @"
     SELECT VALUE -- Constructing estrutura_do_produto
@@ -12886,7 +13712,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.fechamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView364()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView381()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.fechamento", @"
     SELECT VALUE -- Constructing fechamento
@@ -12904,9 +13730,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.fechamento_mercado_futuro
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView365()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView382()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(8377);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(9220);
             viewString.Append("\r\n    SELECT VALUE -- Constructing fechamento_mercado_futuro\r\n        [db_coopfa");
             viewString.Append("mModel.fechamento_mercado_futuro](T1.[fechamento_mercado_futuro.INT_ID], T1.[fec");
             viewString.Append("hamento_mercado_futuro.TXT_DESCRICAO], T1.[fechamento_mercado_futuro.TXT_SAFRA],");
@@ -12946,79 +13772,90 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("], T1.[fechamento_mercado_futuro.DECIMAL_VALOR_EM_REAIS], T1.[fechamento_mercado");
             viewString.Append("_futuro.DECIMAL_VALOR_PREMIO_EM_REAIS], T1.[fechamento_mercado_futuro.BOOL_FT], ");
             viewString.Append("T1.[fechamento_mercado_futuro.DATA_LIMITE_PARA_FIXAR], T1.[fechamento_mercado_fu");
-            viewString.Append("turo.BOOL_NY])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [fechamento");
-            viewString.Append("_mercado_futuro.INT_ID], \r\n            T.TXT_DESCRICAO AS [fechamento_mercado_fu");
-            viewString.Append("turo.TXT_DESCRICAO], \r\n            T.TXT_SAFRA AS [fechamento_mercado_futuro.TXT");
-            viewString.Append("_SAFRA], \r\n            T.TXT_STATUS AS [fechamento_mercado_futuro.TXT_STATUS], \r");
-            viewString.Append("\n            T.DATE_INICIO_MERC_FUT AS [fechamento_mercado_futuro.DATE_INICIO_ME");
-            viewString.Append("RC_FUT], \r\n            T.FLOAT_NY AS [fechamento_mercado_futuro.FLOAT_NY], \r\n   ");
-            viewString.Append("         T.FLOAT_DOLAR AS [fechamento_mercado_futuro.FLOAT_DOLAR], \r\n           ");
-            viewString.Append(" T.BOOL_FUT_ANTECIPADA AS [fechamento_mercado_futuro.BOOL_FUT_ANTECIPADA], \r\n   ");
-            viewString.Append("         T.DECIMAL_DIFERENCIAL_1415 AS [fechamento_mercado_futuro.DECIMAL_DIFERE");
-            viewString.Append("NCIAL_1415], \r\n            T.DECIMAL_NY_16UP AS [fechamento_mercado_futuro.DECIM");
-            viewString.Append("AL_NY_16UP], \r\n            T.DECIMAL_DIFERENCIAL_16UP AS [fechamento_mercado_fut");
-            viewString.Append("uro.DECIMAL_DIFERENCIAL_16UP], \r\n            T.DECIMAL_NY_RESIDUO AS [fechamento");
-            viewString.Append("_mercado_futuro.DECIMAL_NY_RESIDUO], \r\n            T.DECIMAL_DIFERENCIAL_RESIDUO");
-            viewString.Append(" AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_RESIDUO], \r\n            T.CHA");
-            viewString.Append("R_TIPO_DE_CALCULO_SACAS_HEDGE AS [fechamento_mercado_futuro.CHAR_TIPO_DE_CALCULO");
-            viewString.Append("_SACAS_HEDGE], \r\n            T.INT_ID_PENEIRA AS [fechamento_mercado_futuro.INT_");
-            viewString.Append("ID_PENEIRA], \r\n            T.INT_ID_TIPO AS [fechamento_mercado_futuro.INT_ID_TI");
-            viewString.Append("PO], \r\n            T.TXT_DEFEITO AS [fechamento_mercado_futuro.TXT_DEFEITO], \r\n ");
-            viewString.Append("           T.INT_ID_SUBTIPO AS [fechamento_mercado_futuro.INT_ID_SUBTIPO], \r\n   ");
-            viewString.Append("         T.INT_ID_BEBIDA AS [fechamento_mercado_futuro.INT_ID_BEBIDA], \r\n       ");
-            viewString.Append("     T.INT_ID_MODALIDADE_ENTREGA AS [fechamento_mercado_futuro.INT_ID_MODALIDADE");
-            viewString.Append("_ENTREGA], \r\n            T.INT_ID_ARBITRAGEM AS [fechamento_mercado_futuro.INT_I");
-            viewString.Append("D_ARBITRAGEM], \r\n            T.INT_ID_ALMOXARIFADO_ENTREGA AS [fechamento_mercad");
-            viewString.Append("o_futuro.INT_ID_ALMOXARIFADO_ENTREGA], \r\n            T.INT_ID_ASSOCIACAO_RECEBE_");
-            viewString.Append("PREMIO AS [fechamento_mercado_futuro.INT_ID_ASSOCIACAO_RECEBE_PREMIO], \r\n       ");
-            viewString.Append("     T.INT_ID_CONTA_BANCARIA_RECEBEDORA_PREMIO AS [fechamento_mercado_futuro.INT");
-            viewString.Append("_ID_CONTA_BANCARIA_RECEBEDORA_PREMIO], \r\n            T.BOOL_PG_PREMIO AS [fecham");
-            viewString.Append("ento_mercado_futuro.BOOL_PG_PREMIO], \r\n            T.TXT_REFERENCIA_FORNECEDOR A");
-            viewString.Append("S [fechamento_mercado_futuro.TXT_REFERENCIA_FORNECEDOR], \r\n            T.DECIMAL");
-            viewString.Append("_MULTA AS [fechamento_mercado_futuro.DECIMAL_MULTA], \r\n            T.DECIMAL_JUR");
-            viewString.Append("OS AS [fechamento_mercado_futuro.DECIMAL_JUROS], \r\n            T.BOOL_TRANSPORTE");
-            viewString.Append("_POR_CONTA AS [fechamento_mercado_futuro.BOOL_TRANSPORTE_POR_CONTA], \r\n         ");
-            viewString.Append("   T.INT_ID_TIPO_SACARIA AS [fechamento_mercado_futuro.INT_ID_TIPO_SACARIA], \r\n ");
-            viewString.Append("           T.TXT_LOCAL_RETIRADA AS [fechamento_mercado_futuro.TXT_LOCAL_RETIRADA");
-            viewString.Append("], \r\n            T.BOOL_ENTREGA_A_RETIRAR AS [fechamento_mercado_futuro.BOOL_ENT");
-            viewString.Append("REGA_A_RETIRAR], \r\n            T.DATE_VENCIMENTO_HEDGE AS [fechamento_mercado_fu");
-            viewString.Append("turo.DATE_VENCIMENTO_HEDGE], \r\n            T.BOOL_A_FIXAR_CAFE AS [fechamento_me");
-            viewString.Append("rcado_futuro.BOOL_A_FIXAR_CAFE], \r\n            T.BOOL_A_FIXAR_DOLAR AS [fechamen");
-            viewString.Append("to_mercado_futuro.BOOL_A_FIXAR_DOLAR], \r\n            T.BOOL_INCLUSO_FUNRURAL AS ");
-            viewString.Append("[fechamento_mercado_futuro.BOOL_INCLUSO_FUNRURAL], \r\n            T.DECIMAL_FUNRU");
-            viewString.Append("RAL AS [fechamento_mercado_futuro.DECIMAL_FUNRURAL], \r\n            T.TXT_DESCRIC");
-            viewString.Append("AO_FORMACAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCRICAO_FORMACAO_PRECO], \r");
-            viewString.Append("\n            T.TXT_DESCRICAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCRICAO_P");
-            viewString.Append("RECO], \r\n            T.TXT_DESCRICAO_QUALIDADE AS [fechamento_mercado_futuro.TXT");
-            viewString.Append("_DESCRICAO_QUALIDADE], \r\n            T.INT_ID_CADASTROU AS [fechamento_mercado_f");
-            viewString.Append("uturo.INT_ID_CADASTROU], \r\n            T.DATE_CADASTRO AS [fechamento_mercado_fu");
-            viewString.Append("turo.DATE_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [fechamento_mercado_futur");
-            viewString.Append("o.INT_ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [fechamento_mercado_futuro.DA");
-            viewString.Append("TE_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [fechamento_mercado_futuro.INT_ID");
-            viewString.Append("_EXCLUIU], \r\n            T.DATE_EXCLUIU AS [fechamento_mercado_futuro.DATE_EXCLU");
-            viewString.Append("IU], \r\n            T.TXT_DESCRICAO_PAGAMENTO AS [fechamento_mercado_futuro.TXT_D");
-            viewString.Append("ESCRICAO_PAGAMENTO], \r\n            T.BOOL_REAIS_BOLSA_NA AS [fechamento_mercado_");
-            viewString.Append("futuro.BOOL_REAIS_BOLSA_NA], \r\n            T.DECIMAL_BOLSA AS [fechamento_mercad");
-            viewString.Append("o_futuro.DECIMAL_BOLSA], \r\n            T.DECIMAL_DIFERENCIAL_QUALIDADE AS [fecha");
-            viewString.Append("mento_mercado_futuro.DECIMAL_DIFERENCIAL_QUALIDADE], \r\n            T.DECIMAL_PRE");
-            viewString.Append("MIO AS [fechamento_mercado_futuro.DECIMAL_PREMIO], \r\n            T.DECIMAL_DIFER");
-            viewString.Append("ENCIAL_PAIS AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_PAIS], \r\n         ");
-            viewString.Append("   T.DECIMAL_CHARGE AS [fechamento_mercado_futuro.DECIMAL_CHARGE], \r\n           ");
-            viewString.Append(" T.BOOL_COMPRA_TERCEIRO AS [fechamento_mercado_futuro.BOOL_COMPRA_TERCEIRO], \r\n ");
-            viewString.Append("           T.DECIMAL_VALOR_EM_REAIS AS [fechamento_mercado_futuro.DECIMAL_VALOR_");
-            viewString.Append("EM_REAIS], \r\n            T.DECIMAL_VALOR_PREMIO_EM_REAIS AS [fechamento_mercado_");
-            viewString.Append("futuro.DECIMAL_VALOR_PREMIO_EM_REAIS], \r\n            T.BOOL_FT AS [fechamento_me");
-            viewString.Append("rcado_futuro.BOOL_FT], \r\n            T.DATA_LIMITE_PARA_FIXAR AS [fechamento_mer");
-            viewString.Append("cado_futuro.DATA_LIMITE_PARA_FIXAR], \r\n            T.BOOL_NY AS [fechamento_merc");
-            viewString.Append("ado_futuro.BOOL_NY], \r\n            True AS _from0\r\n        FROM db_coopfamModelS");
-            viewString.Append("toreContainer.fechamento_mercado_futuro AS T\r\n    ) AS T1");
+            viewString.Append("turo.BOOL_NY], T1.[fechamento_mercado_futuro.DECIMAL_SCS_FT], T1.[fechamento_mer");
+            viewString.Append("cado_futuro.DECIMAL_VALOR_FT_REAIS], T1.[fechamento_mercado_futuro.DECIMAL_VALOR");
+            viewString.Append("_RESIDUO_REAIS], T1.[fechamento_mercado_futuro.DECIMAL_SCS_RESIDUO], T1.[fechame");
+            viewString.Append("nto_mercado_futuro.BOOL_RFA], T1.[fechamento_mercado_futuro.INT_ID_PEDIDO_FATURA");
+            viewString.Append("MENTO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [fechamento_mercad");
+            viewString.Append("o_futuro.INT_ID], \r\n            T.TXT_DESCRICAO AS [fechamento_mercado_futuro.TX");
+            viewString.Append("T_DESCRICAO], \r\n            T.TXT_SAFRA AS [fechamento_mercado_futuro.TXT_SAFRA]");
+            viewString.Append(", \r\n            T.TXT_STATUS AS [fechamento_mercado_futuro.TXT_STATUS], \r\n      ");
+            viewString.Append("      T.DATE_INICIO_MERC_FUT AS [fechamento_mercado_futuro.DATE_INICIO_MERC_FUT]");
+            viewString.Append(", \r\n            T.FLOAT_NY AS [fechamento_mercado_futuro.FLOAT_NY], \r\n          ");
+            viewString.Append("  T.FLOAT_DOLAR AS [fechamento_mercado_futuro.FLOAT_DOLAR], \r\n            T.BOOL");
+            viewString.Append("_FUT_ANTECIPADA AS [fechamento_mercado_futuro.BOOL_FUT_ANTECIPADA], \r\n          ");
+            viewString.Append("  T.DECIMAL_DIFERENCIAL_1415 AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_1");
+            viewString.Append("415], \r\n            T.DECIMAL_NY_16UP AS [fechamento_mercado_futuro.DECIMAL_NY_1");
+            viewString.Append("6UP], \r\n            T.DECIMAL_DIFERENCIAL_16UP AS [fechamento_mercado_futuro.DEC");
+            viewString.Append("IMAL_DIFERENCIAL_16UP], \r\n            T.DECIMAL_NY_RESIDUO AS [fechamento_mercad");
+            viewString.Append("o_futuro.DECIMAL_NY_RESIDUO], \r\n            T.DECIMAL_DIFERENCIAL_RESIDUO AS [fe");
+            viewString.Append("chamento_mercado_futuro.DECIMAL_DIFERENCIAL_RESIDUO], \r\n            T.CHAR_TIPO_");
+            viewString.Append("DE_CALCULO_SACAS_HEDGE AS [fechamento_mercado_futuro.CHAR_TIPO_DE_CALCULO_SACAS_");
+            viewString.Append("HEDGE], \r\n            T.INT_ID_PENEIRA AS [fechamento_mercado_futuro.INT_ID_PENE");
+            viewString.Append("IRA], \r\n            T.INT_ID_TIPO AS [fechamento_mercado_futuro.INT_ID_TIPO], \r\n");
+            viewString.Append("            T.TXT_DEFEITO AS [fechamento_mercado_futuro.TXT_DEFEITO], \r\n        ");
+            viewString.Append("    T.INT_ID_SUBTIPO AS [fechamento_mercado_futuro.INT_ID_SUBTIPO], \r\n          ");
+            viewString.Append("  T.INT_ID_BEBIDA AS [fechamento_mercado_futuro.INT_ID_BEBIDA], \r\n            T.");
+            viewString.Append("INT_ID_MODALIDADE_ENTREGA AS [fechamento_mercado_futuro.INT_ID_MODALIDADE_ENTREG");
+            viewString.Append("A], \r\n            T.INT_ID_ARBITRAGEM AS [fechamento_mercado_futuro.INT_ID_ARBIT");
+            viewString.Append("RAGEM], \r\n            T.INT_ID_ALMOXARIFADO_ENTREGA AS [fechamento_mercado_futur");
+            viewString.Append("o.INT_ID_ALMOXARIFADO_ENTREGA], \r\n            T.INT_ID_ASSOCIACAO_RECEBE_PREMIO ");
+            viewString.Append("AS [fechamento_mercado_futuro.INT_ID_ASSOCIACAO_RECEBE_PREMIO], \r\n            T.");
+            viewString.Append("INT_ID_CONTA_BANCARIA_RECEBEDORA_PREMIO AS [fechamento_mercado_futuro.INT_ID_CON");
+            viewString.Append("TA_BANCARIA_RECEBEDORA_PREMIO], \r\n            T.BOOL_PG_PREMIO AS [fechamento_me");
+            viewString.Append("rcado_futuro.BOOL_PG_PREMIO], \r\n            T.TXT_REFERENCIA_FORNECEDOR AS [fech");
+            viewString.Append("amento_mercado_futuro.TXT_REFERENCIA_FORNECEDOR], \r\n            T.DECIMAL_MULTA ");
+            viewString.Append("AS [fechamento_mercado_futuro.DECIMAL_MULTA], \r\n            T.DECIMAL_JUROS AS [");
+            viewString.Append("fechamento_mercado_futuro.DECIMAL_JUROS], \r\n            T.BOOL_TRANSPORTE_POR_CO");
+            viewString.Append("NTA AS [fechamento_mercado_futuro.BOOL_TRANSPORTE_POR_CONTA], \r\n            T.IN");
+            viewString.Append("T_ID_TIPO_SACARIA AS [fechamento_mercado_futuro.INT_ID_TIPO_SACARIA], \r\n        ");
+            viewString.Append("    T.TXT_LOCAL_RETIRADA AS [fechamento_mercado_futuro.TXT_LOCAL_RETIRADA], \r\n  ");
+            viewString.Append("          T.BOOL_ENTREGA_A_RETIRAR AS [fechamento_mercado_futuro.BOOL_ENTREGA_A_");
+            viewString.Append("RETIRAR], \r\n            T.DATE_VENCIMENTO_HEDGE AS [fechamento_mercado_futuro.DA");
+            viewString.Append("TE_VENCIMENTO_HEDGE], \r\n            T.BOOL_A_FIXAR_CAFE AS [fechamento_mercado_f");
+            viewString.Append("uturo.BOOL_A_FIXAR_CAFE], \r\n            T.BOOL_A_FIXAR_DOLAR AS [fechamento_merc");
+            viewString.Append("ado_futuro.BOOL_A_FIXAR_DOLAR], \r\n            T.BOOL_INCLUSO_FUNRURAL AS [fecham");
+            viewString.Append("ento_mercado_futuro.BOOL_INCLUSO_FUNRURAL], \r\n            T.DECIMAL_FUNRURAL AS ");
+            viewString.Append("[fechamento_mercado_futuro.DECIMAL_FUNRURAL], \r\n            T.TXT_DESCRICAO_FORM");
+            viewString.Append("ACAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCRICAO_FORMACAO_PRECO], \r\n      ");
+            viewString.Append("      T.TXT_DESCRICAO_PRECO AS [fechamento_mercado_futuro.TXT_DESCRICAO_PRECO], ");
+            viewString.Append("\r\n            T.TXT_DESCRICAO_QUALIDADE AS [fechamento_mercado_futuro.TXT_DESCRI");
+            viewString.Append("CAO_QUALIDADE], \r\n            T.INT_ID_CADASTROU AS [fechamento_mercado_futuro.I");
+            viewString.Append("NT_ID_CADASTROU], \r\n            T.DATE_CADASTRO AS [fechamento_mercado_futuro.DA");
+            viewString.Append("TE_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [fechamento_mercado_futuro.INT_I");
+            viewString.Append("D_ALTEROU], \r\n            T.DATE_ALTEROU AS [fechamento_mercado_futuro.DATE_ALTE");
+            viewString.Append("ROU], \r\n            T.INT_ID_EXCLUIU AS [fechamento_mercado_futuro.INT_ID_EXCLUI");
+            viewString.Append("U], \r\n            T.DATE_EXCLUIU AS [fechamento_mercado_futuro.DATE_EXCLUIU], \r\n");
+            viewString.Append("            T.TXT_DESCRICAO_PAGAMENTO AS [fechamento_mercado_futuro.TXT_DESCRICA");
+            viewString.Append("O_PAGAMENTO], \r\n            T.BOOL_REAIS_BOLSA_NA AS [fechamento_mercado_futuro.");
+            viewString.Append("BOOL_REAIS_BOLSA_NA], \r\n            T.DECIMAL_BOLSA AS [fechamento_mercado_futur");
+            viewString.Append("o.DECIMAL_BOLSA], \r\n            T.DECIMAL_DIFERENCIAL_QUALIDADE AS [fechamento_m");
+            viewString.Append("ercado_futuro.DECIMAL_DIFERENCIAL_QUALIDADE], \r\n            T.DECIMAL_PREMIO AS ");
+            viewString.Append("[fechamento_mercado_futuro.DECIMAL_PREMIO], \r\n            T.DECIMAL_DIFERENCIAL_");
+            viewString.Append("PAIS AS [fechamento_mercado_futuro.DECIMAL_DIFERENCIAL_PAIS], \r\n            T.DE");
+            viewString.Append("CIMAL_CHARGE AS [fechamento_mercado_futuro.DECIMAL_CHARGE], \r\n            T.BOOL");
+            viewString.Append("_COMPRA_TERCEIRO AS [fechamento_mercado_futuro.BOOL_COMPRA_TERCEIRO], \r\n        ");
+            viewString.Append("    T.DECIMAL_VALOR_EM_REAIS AS [fechamento_mercado_futuro.DECIMAL_VALOR_EM_REAI");
+            viewString.Append("S], \r\n            T.DECIMAL_VALOR_PREMIO_EM_REAIS AS [fechamento_mercado_futuro.");
+            viewString.Append("DECIMAL_VALOR_PREMIO_EM_REAIS], \r\n            T.BOOL_FT AS [fechamento_mercado_f");
+            viewString.Append("uturo.BOOL_FT], \r\n            T.DATA_LIMITE_PARA_FIXAR AS [fechamento_mercado_fu");
+            viewString.Append("turo.DATA_LIMITE_PARA_FIXAR], \r\n            T.BOOL_NY AS [fechamento_mercado_fut");
+            viewString.Append("uro.BOOL_NY], \r\n            T.DECIMAL_SCS_FT AS [fechamento_mercado_futuro.DECIM");
+            viewString.Append("AL_SCS_FT], \r\n            T.DECIMAL_VALOR_FT_REAIS AS [fechamento_mercado_futuro");
+            viewString.Append(".DECIMAL_VALOR_FT_REAIS], \r\n            T.DECIMAL_VALOR_RESIDUO_REAIS AS [fecham");
+            viewString.Append("ento_mercado_futuro.DECIMAL_VALOR_RESIDUO_REAIS], \r\n            T.DECIMAL_SCS_RE");
+            viewString.Append("SIDUO AS [fechamento_mercado_futuro.DECIMAL_SCS_RESIDUO], \r\n            T.BOOL_R");
+            viewString.Append("FA AS [fechamento_mercado_futuro.BOOL_RFA], \r\n            T.INT_ID_PEDIDO_FATURA");
+            viewString.Append("MENTO AS [fechamento_mercado_futuro.INT_ID_PEDIDO_FATURAMENTO], \r\n            Tr");
+            viewString.Append("ue AS _from0\r\n        FROM db_coopfamModelStoreContainer.fechamento_mercado_futu");
+            viewString.Append("ro AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.fechamento_mercado_futuro", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.fluxo_de_caixa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView366()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView383()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.fluxo_de_caixa", "\r\n    SELECT VALUE -- Constructing fluxo_de_caixa\r\n        [db_coopfamModel.fluxo" +
                     "_de_caixa](T1.[fluxo_de_caixa.INT_ID], T1.[fluxo_de_caixa.INT_ID_CONTAS_A_PAGAR]" +
@@ -13046,7 +13883,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.fonte_de_recurso
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView367()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView384()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.fonte_de_recurso", @"
     SELECT VALUE -- Constructing fonte_de_recurso
@@ -13064,7 +13901,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.form_resposta_nc_criterio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView368()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView385()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.form_resposta_nc_criterio", @"
     SELECT VALUE -- Constructing form_resposta_nc_criterio
@@ -13089,7 +13926,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.forma_de_pagamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView369()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView386()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.forma_de_pagamento", @"
     SELECT VALUE -- Constructing forma_de_pagamento
@@ -13109,7 +13946,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formacao_de_preco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView370()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView387()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formacao_de_preco", @"
     SELECT VALUE -- Constructing formacao_de_preco
@@ -13130,7 +13967,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView371()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView388()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario", @"
     SELECT VALUE -- Constructing formulario
@@ -13157,9 +13994,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_aplicar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView372()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView389()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(5775);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(6063);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_aplicar\r\n        [db_coopfamModel.");
             viewString.Append("formulario_aplicar](T1.[formulario_aplicar.INT_ID], T1.[formulario_aplicar.INT_I");
             viewString.Append("D_COOPERADO], T1.[formulario_aplicar.INT_ID_APLICOU], T1.[formulario_aplicar.DAT");
@@ -13185,61 +14022,64 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("formulario_aplicar.BOOL_AROVADO_ANALISTA_SCI], T1.[formulario_aplicar.TXT_OBS_AN");
             viewString.Append("ALISTA_SCI], T1.[formulario_aplicar.BOOL_APROVADO_GESTOR], T1.[formulario_aplica");
             viewString.Append("r.TXT_OBS_GESTOR], T1.[formulario_aplicar.TXT_CONTATACAO], T1.[formulario_aplica");
-            viewString.Append("r.TXT_RECOMENDACAO], T1.[formulario_aplicar.TXT_OBS_AVALIACAO_CLIENTE])\r\n    FRO");
-            viewString.Append("M (\r\n        SELECT \r\n            T.INT_ID AS [formulario_aplicar.INT_ID], \r\n   ");
-            viewString.Append("         T.INT_ID_COOPERADO AS [formulario_aplicar.INT_ID_COOPERADO], \r\n        ");
-            viewString.Append("    T.INT_ID_APLICOU AS [formulario_aplicar.INT_ID_APLICOU], \r\n            T.DAT");
-            viewString.Append("E_INI AS [formulario_aplicar.DATE_INI], \r\n            T.DATE_FIM AS [formulario_");
-            viewString.Append("aplicar.DATE_FIM], \r\n            T.TXT_OBS AS [formulario_aplicar.TXT_OBS], \r\n  ");
-            viewString.Append("          T.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRANSICAO AS [formulario_aplica");
-            viewString.Append("r.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRANSICAO], \r\n            T.BOOL_COLETA_A");
-            viewString.Append("MOSTRA AS [formulario_aplicar.BOOL_COLETA_AMOSTRA], \r\n            T.BOOL_SOLICIT");
-            viewString.Append("ACAO_REDUCAO_TEMPO_TRANSICAO AS [formulario_aplicar.BOOL_SOLICITACAO_REDUCAO_TEM");
-            viewString.Append("PO_TRANSICAO], \r\n            T.DECIMAL_TEMPO_CONVERSAO AS [formulario_aplicar.DE");
-            viewString.Append("CIMAL_TEMPO_CONVERSAO], \r\n            T.BOOL_CADERNO_CAMPO_ATUALIZADO AS [formul");
-            viewString.Append("ario_aplicar.BOOL_CADERNO_CAMPO_ATUALIZADO], \r\n            T.INT_ID_CADASTRO AS ");
-            viewString.Append("[formulario_aplicar.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO AS [formular");
-            viewString.Append("io_aplicar.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACACAO AS [formulario_apl");
-            viewString.Append("icar.INT_ID_ALTERACACAO], \r\n            T.DATE_ALTERACAO AS [formulario_aplicar.");
-            viewString.Append("DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_aplicar.INT_ID_E");
-            viewString.Append("XCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formulario_aplicar.DATE_EXCLUSAO], \r");
-            viewString.Append("\n            T.INT_ID_AGENDAMENTO_FORMULARIO_SER_APLICADO AS [formulario_aplicar");
-            viewString.Append(".INT_ID_AGENDAMENTO_FORMULARIO_SER_APLICADO], \r\n            T.INT_ID_FORMULARIO ");
-            viewString.Append("AS [formulario_aplicar.INT_ID_FORMULARIO], \r\n            T.TXT_OBS_REDUCAO_TEMPO");
-            viewString.Append("_TRANSICAO AS [formulario_aplicar.TXT_OBS_REDUCAO_TEMPO_TRANSICAO], \r\n          ");
-            viewString.Append("  T.BOOL_CONSEGUIU_FAZER_RASTREABILIDADE AS [formulario_aplicar.BOOL_CONSEGUIU_F");
-            viewString.Append("AZER_RASTREABILIDADE], \r\n            T.TXT_DESCRICAO_RASTREABILIDADE AS [formula");
-            viewString.Append("rio_aplicar.TXT_DESCRICAO_RASTREABILIDADE], \r\n            T.TXT_DESCRICAO_BALANC");
-            viewString.Append("O_MASSA AS [formulario_aplicar.TXT_DESCRICAO_BALANCO_MASSA], \r\n            T.CHA");
-            viewString.Append("R_VERSAO AS [formulario_aplicar.CHAR_VERSAO], \r\n            T.INT_ID_FORMULARIO_");
-            viewString.Append("APLICAR_RASTREAR AS [formulario_aplicar.INT_ID_FORMULARIO_APLICAR_RASTREAR], \r\n ");
-            viewString.Append("           T.BOOL_AVALIACAO_PELO_CLIENTE AS [formulario_aplicar.BOOL_AVALIACAO_P");
-            viewString.Append("ELO_CLIENTE], \r\n            T.CHAR_RESULTADO AS [formulario_aplicar.CHAR_RESULTA");
-            viewString.Append("DO], \r\n            T.BOOL_MAPA_CONFORME AS [formulario_aplicar.BOOL_MAPA_CONFORM");
-            viewString.Append("E], \r\n            T.TXT_OBS_MAPA AS [formulario_aplicar.TXT_OBS_MAPA], \r\n       ");
-            viewString.Append("     T.TXT_OBS_CADASTRO AS [formulario_aplicar.TXT_OBS_CADASTRO], \r\n            ");
-            viewString.Append("T.BOOL_CERTIFICADO_POR_OUTRA_CERTIFICADORA AS [formulario_aplicar.BOOL_CERTIFICA");
-            viewString.Append("DO_POR_OUTRA_CERTIFICADORA], \r\n            T.TXT_DESCRICAO_CERTIFICADORA AS [for");
-            viewString.Append("mulario_aplicar.TXT_DESCRICAO_CERTIFICADORA], \r\n            T.BOOL_PLANO_CONVERS");
-            viewString.Append("AO_C_NC_NA AS [formulario_aplicar.BOOL_PLANO_CONVERSAO_C_NC_NA], \r\n            T");
-            viewString.Append(".TXT_OBS_PLANO_CONVERSAO AS [formulario_aplicar.TXT_OBS_PLANO_CONVERSAO], \r\n    ");
-            viewString.Append("        T.BOOL_ATIVO AS [formulario_aplicar.BOOL_ATIVO], \r\n            T.BOOL_AR");
-            viewString.Append("OVADO_ANALISTA_SCI AS [formulario_aplicar.BOOL_AROVADO_ANALISTA_SCI], \r\n        ");
-            viewString.Append("    T.TXT_OBS_ANALISTA_SCI AS [formulario_aplicar.TXT_OBS_ANALISTA_SCI], \r\n     ");
-            viewString.Append("       T.BOOL_APROVADO_GESTOR AS [formulario_aplicar.BOOL_APROVADO_GESTOR], \r\n  ");
-            viewString.Append("          T.TXT_OBS_GESTOR AS [formulario_aplicar.TXT_OBS_GESTOR], \r\n           ");
-            viewString.Append(" T.TXT_CONTATACAO AS [formulario_aplicar.TXT_CONTATACAO], \r\n            T.TXT_RE");
-            viewString.Append("COMENDACAO AS [formulario_aplicar.TXT_RECOMENDACAO], \r\n            T.TXT_OBS_AVA");
-            viewString.Append("LIACAO_CLIENTE AS [formulario_aplicar.TXT_OBS_AVALIACAO_CLIENTE], \r\n            ");
-            viewString.Append("True AS _from0\r\n        FROM db_coopfamModelStoreContainer.formulario_aplicar AS");
-            viewString.Append(" T\r\n    ) AS T1");
+            viewString.Append("r.TXT_RECOMENDACAO], T1.[formulario_aplicar.TXT_OBS_AVALIACAO_CLIENTE], T1.[form");
+            viewString.Append("ulario_aplicar.TXT_ASSINATURA], T1.[formulario_aplicar.TXT_MOTIVO_DE_NAO_COLETAR");
+            viewString.Append("_ASSINATURA])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_");
+            viewString.Append("aplicar.INT_ID], \r\n            T.INT_ID_COOPERADO AS [formulario_aplicar.INT_ID_");
+            viewString.Append("COOPERADO], \r\n            T.INT_ID_APLICOU AS [formulario_aplicar.INT_ID_APLICOU");
+            viewString.Append("], \r\n            T.DATE_INI AS [formulario_aplicar.DATE_INI], \r\n            T.DA");
+            viewString.Append("TE_FIM AS [formulario_aplicar.DATE_FIM], \r\n            T.TXT_OBS AS [formulario_");
+            viewString.Append("aplicar.TXT_OBS], \r\n            T.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRANSICAO");
+            viewString.Append(" AS [formulario_aplicar.TXT_CAMINHO_ANEXAR_DOC_REDUCAO_TEMPO_TRANSICAO], \r\n     ");
+            viewString.Append("       T.BOOL_COLETA_AMOSTRA AS [formulario_aplicar.BOOL_COLETA_AMOSTRA], \r\n    ");
+            viewString.Append("        T.BOOL_SOLICITACAO_REDUCAO_TEMPO_TRANSICAO AS [formulario_aplicar.BOOL_S");
+            viewString.Append("OLICITACAO_REDUCAO_TEMPO_TRANSICAO], \r\n            T.DECIMAL_TEMPO_CONVERSAO AS ");
+            viewString.Append("[formulario_aplicar.DECIMAL_TEMPO_CONVERSAO], \r\n            T.BOOL_CADERNO_CAMPO");
+            viewString.Append("_ATUALIZADO AS [formulario_aplicar.BOOL_CADERNO_CAMPO_ATUALIZADO], \r\n           ");
+            viewString.Append(" T.INT_ID_CADASTRO AS [formulario_aplicar.INT_ID_CADASTRO], \r\n            T.DATE");
+            viewString.Append("_CADASTRO AS [formulario_aplicar.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACA");
+            viewString.Append("CAO AS [formulario_aplicar.INT_ID_ALTERACACAO], \r\n            T.DATE_ALTERACAO A");
+            viewString.Append("S [formulario_aplicar.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formu");
+            viewString.Append("lario_aplicar.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formulario_apl");
+            viewString.Append("icar.DATE_EXCLUSAO], \r\n            T.INT_ID_AGENDAMENTO_FORMULARIO_SER_APLICADO ");
+            viewString.Append("AS [formulario_aplicar.INT_ID_AGENDAMENTO_FORMULARIO_SER_APLICADO], \r\n          ");
+            viewString.Append("  T.INT_ID_FORMULARIO AS [formulario_aplicar.INT_ID_FORMULARIO], \r\n            T");
+            viewString.Append(".TXT_OBS_REDUCAO_TEMPO_TRANSICAO AS [formulario_aplicar.TXT_OBS_REDUCAO_TEMPO_TR");
+            viewString.Append("ANSICAO], \r\n            T.BOOL_CONSEGUIU_FAZER_RASTREABILIDADE AS [formulario_ap");
+            viewString.Append("licar.BOOL_CONSEGUIU_FAZER_RASTREABILIDADE], \r\n            T.TXT_DESCRICAO_RASTR");
+            viewString.Append("EABILIDADE AS [formulario_aplicar.TXT_DESCRICAO_RASTREABILIDADE], \r\n            ");
+            viewString.Append("T.TXT_DESCRICAO_BALANCO_MASSA AS [formulario_aplicar.TXT_DESCRICAO_BALANCO_MASSA");
+            viewString.Append("], \r\n            T.CHAR_VERSAO AS [formulario_aplicar.CHAR_VERSAO], \r\n          ");
+            viewString.Append("  T.INT_ID_FORMULARIO_APLICAR_RASTREAR AS [formulario_aplicar.INT_ID_FORMULARIO_");
+            viewString.Append("APLICAR_RASTREAR], \r\n            T.BOOL_AVALIACAO_PELO_CLIENTE AS [formulario_ap");
+            viewString.Append("licar.BOOL_AVALIACAO_PELO_CLIENTE], \r\n            T.CHAR_RESULTADO AS [formulari");
+            viewString.Append("o_aplicar.CHAR_RESULTADO], \r\n            T.BOOL_MAPA_CONFORME AS [formulario_apl");
+            viewString.Append("icar.BOOL_MAPA_CONFORME], \r\n            T.TXT_OBS_MAPA AS [formulario_aplicar.TX");
+            viewString.Append("T_OBS_MAPA], \r\n            T.TXT_OBS_CADASTRO AS [formulario_aplicar.TXT_OBS_CAD");
+            viewString.Append("ASTRO], \r\n            T.BOOL_CERTIFICADO_POR_OUTRA_CERTIFICADORA AS [formulario_");
+            viewString.Append("aplicar.BOOL_CERTIFICADO_POR_OUTRA_CERTIFICADORA], \r\n            T.TXT_DESCRICAO");
+            viewString.Append("_CERTIFICADORA AS [formulario_aplicar.TXT_DESCRICAO_CERTIFICADORA], \r\n          ");
+            viewString.Append("  T.BOOL_PLANO_CONVERSAO_C_NC_NA AS [formulario_aplicar.BOOL_PLANO_CONVERSAO_C_N");
+            viewString.Append("C_NA], \r\n            T.TXT_OBS_PLANO_CONVERSAO AS [formulario_aplicar.TXT_OBS_PL");
+            viewString.Append("ANO_CONVERSAO], \r\n            T.BOOL_ATIVO AS [formulario_aplicar.BOOL_ATIVO], \r");
+            viewString.Append("\n            T.BOOL_AROVADO_ANALISTA_SCI AS [formulario_aplicar.BOOL_AROVADO_ANA");
+            viewString.Append("LISTA_SCI], \r\n            T.TXT_OBS_ANALISTA_SCI AS [formulario_aplicar.TXT_OBS_");
+            viewString.Append("ANALISTA_SCI], \r\n            T.BOOL_APROVADO_GESTOR AS [formulario_aplicar.BOOL_");
+            viewString.Append("APROVADO_GESTOR], \r\n            T.TXT_OBS_GESTOR AS [formulario_aplicar.TXT_OBS_");
+            viewString.Append("GESTOR], \r\n            T.TXT_CONTATACAO AS [formulario_aplicar.TXT_CONTATACAO], ");
+            viewString.Append("\r\n            T.TXT_RECOMENDACAO AS [formulario_aplicar.TXT_RECOMENDACAO], \r\n   ");
+            viewString.Append("         T.TXT_OBS_AVALIACAO_CLIENTE AS [formulario_aplicar.TXT_OBS_AVALIACAO_CL");
+            viewString.Append("IENTE], \r\n            T.TXT_ASSINATURA AS [formulario_aplicar.TXT_ASSINATURA], \r");
+            viewString.Append("\n            T.TXT_MOTIVO_DE_NAO_COLETAR_ASSINATURA AS [formulario_aplicar.TXT_M");
+            viewString.Append("OTIVO_DE_NAO_COLETAR_ASSINATURA], \r\n            True AS _from0\r\n        FROM db_");
+            viewString.Append("coopfamModelStoreContainer.formulario_aplicar AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_aplicar", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_aplicar_agendamento_talhao_propriedade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView373()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView390()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_aplicar_agendamento_talhao_propriedade", @"
     SELECT VALUE -- Constructing formulario_aplicar_agendamento_talhao_propriedade
@@ -13258,7 +14098,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_aplicar_produtos_utilizados_na_lavoura
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView374()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView391()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2827);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_aplicar_produtos_utilizados_na_lav");
@@ -13303,7 +14143,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_checklist
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView375()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView392()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_checklist", @"
     SELECT VALUE -- Constructing formulario_checklist
@@ -13328,7 +14168,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_exercicio_rastreabilidade_balanco_massa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView376()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView393()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(4185);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_exercicio_rastreabilidade_balanco_");
@@ -13390,7 +14230,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView377()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView394()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_item", @"
     SELECT VALUE -- Constructing formulario_item
@@ -13416,7 +14256,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_item_selecao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView378()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView395()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2211);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_item_selecao\r\n        [db_coopfamM");
@@ -13453,7 +14293,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_resposta_documento_comprobatorio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView379()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView396()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2128);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_resposta_documento_comprobatorio\r\n");
@@ -13489,7 +14329,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_resposta_evidencia
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView380()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView397()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_resposta_evidencia", @"
     SELECT VALUE -- Constructing formulario_resposta_evidencia
@@ -13513,7 +14353,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_resposta_seletiva
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView381()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView398()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_resposta_seletiva", "\r\n    SELECT VALUE -- Constructing formulario_resposta_seletiva\r\n        [db_coop" +
                     "famModel.formulario_resposta_seletiva](T1.[formulario_resposta_seletiva.INT_ID]," +
@@ -13545,9 +14385,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_respostas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView382()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView399()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4990);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(5047);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_respostas\r\n        [db_coopfamMode");
             viewString.Append("l.formulario_respostas](T1.[formulario_respostas.INT_ID], T1.[formulario_respost");
             viewString.Append("as.INT_ID_FORMULARIO_APP], T1.[formulario_respostas.INT_ID_FORM_SUB_ITEM], T1.[f");
@@ -13570,54 +14410,55 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(", T1.[formulario_respostas.INT_ID_POTENCIAL_RISCO], T1.[formulario_respostas.INT");
             viewString.Append("_ID_PROCEDIMENTO_CRITICO], T1.[formulario_respostas.TXT_OBS_PONTO_CRITICO], T1.[");
             viewString.Append("formulario_respostas.TXT_OBS_PROCEDIMENTO_CRITICO], T1.[formulario_respostas.TXT");
-            viewString.Append("_OBS_POTENCIAL_RISCO], T1.[formulario_respostas.INT_ID_RANK])\r\n    FROM (\r\n     ");
-            viewString.Append("   SELECT \r\n            T.INT_ID AS [formulario_respostas.INT_ID], \r\n           ");
-            viewString.Append(" T.INT_ID_FORMULARIO_APP AS [formulario_respostas.INT_ID_FORMULARIO_APP], \r\n    ");
-            viewString.Append("        T.INT_ID_FORM_SUB_ITEM AS [formulario_respostas.INT_ID_FORM_SUB_ITEM], \r");
-            viewString.Append("\n            T.BOOL_C_NC_NA_ AS [formulario_respostas.BOOL_C_NC_NA_], \r\n        ");
-            viewString.Append("    T.DECIMAL_NOTA AS [formulario_respostas.DECIMAL_NOTA], \r\n            T.TXT_C");
-            viewString.Append("ONSTATACAO_INSPETOR AS [formulario_respostas.TXT_CONSTATACAO_INSPETOR], \r\n      ");
-            viewString.Append("      T.TXT_RESPOSTA_PMO AS [formulario_respostas.TXT_RESPOSTA_PMO], \r\n         ");
-            viewString.Append("   T.TXT_OBS AS [formulario_respostas.TXT_OBS], \r\n            T.DECIMAL_NOTA_TOT");
-            viewString.Append("AL AS [formulario_respostas.DECIMAL_NOTA_TOTAL], \r\n            T.TXT_LATITUDE AS");
-            viewString.Append(" [formulario_respostas.TXT_LATITUDE], \r\n            T.TXT_LONGITUDE AS [formular");
-            viewString.Append("io_respostas.TXT_LONGITUDE], \r\n            T.INT_ID_CADASTRO AS [formulario_resp");
-            viewString.Append("ostas.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO AS [formulario_respostas.D");
-            viewString.Append("ATE_CADASTRO], \r\n            T.INT_ID_ALTERACAO AS [formulario_respostas.INT_ID_");
-            viewString.Append("ALTERACAO], \r\n            T.DATE_ALTERACAO AS [formulario_respostas.DATE_ALTERAC");
-            viewString.Append("AO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_respostas.INT_ID_EXCLUSAO], ");
-            viewString.Append("\r\n            T.DATE_EXCLUSAO AS [formulario_respostas.DATE_EXCLUSAO], \r\n       ");
-            viewString.Append("     T.TXT_ACAO_CORRETIVA AS [formulario_respostas.TXT_ACAO_CORRETIVA], \r\n      ");
-            viewString.Append("      T.DATE_PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI AS [formulario_respostas.DATE_");
-            viewString.Append("PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI], \r\n            T.BOOL_RESOLVIDO AS [formul");
-            viewString.Append("ario_respostas.BOOL_RESOLVIDO], \r\n            T.DATA_PRAZO_RESOLVER_NC AS [formu");
-            viewString.Append("lario_respostas.DATA_PRAZO_RESOLVER_NC], \r\n            T.DATE_RESOLVIDO AS [form");
-            viewString.Append("ulario_respostas.DATE_RESOLVIDO], \r\n            T.BOOL_REINCIDENTE AS [formulari");
-            viewString.Append("o_respostas.BOOL_REINCIDENTE], \r\n            T.BOOL_MANTIDA_PELO_ANALISTA_SCI AS");
-            viewString.Append(" [formulario_respostas.BOOL_MANTIDA_PELO_ANALISTA_SCI], \r\n            T.TXT_OBS_");
-            viewString.Append("ANALISTA_SCI AS [formulario_respostas.TXT_OBS_ANALISTA_SCI], \r\n            T.BOO");
-            viewString.Append("L_MANTIDA_PELO_GESTOR_SCI AS [formulario_respostas.BOOL_MANTIDA_PELO_GESTOR_SCI]");
-            viewString.Append(", \r\n            T.TXT_OBS_MANTIDA_PELO_GESTOR_SCI AS [formulario_respostas.TXT_O");
-            viewString.Append("BS_MANTIDA_PELO_GESTOR_SCI], \r\n            T.BOOL_ATIVO AS [formulario_respostas");
-            viewString.Append(".BOOL_ATIVO], \r\n            T.TXT_OBS_RESOLUCAO AS [formulario_respostas.TXT_OBS");
-            viewString.Append("_RESOLUCAO], \r\n            T.BOOL_MEDIDA_PRECAUCAO AS [formulario_respostas.BOOL");
-            viewString.Append("_MEDIDA_PRECAUCAO], \r\n            T.INT_ID_PONTO_CRITICO AS [formulario_resposta");
-            viewString.Append("s.INT_ID_PONTO_CRITICO], \r\n            T.INT_ID_POTENCIAL_RISCO AS [formulario_r");
-            viewString.Append("espostas.INT_ID_POTENCIAL_RISCO], \r\n            T.INT_ID_PROCEDIMENTO_CRITICO AS");
-            viewString.Append(" [formulario_respostas.INT_ID_PROCEDIMENTO_CRITICO], \r\n            T.TXT_OBS_PON");
-            viewString.Append("TO_CRITICO AS [formulario_respostas.TXT_OBS_PONTO_CRITICO], \r\n            T.TXT_");
-            viewString.Append("OBS_PROCEDIMENTO_CRITICO AS [formulario_respostas.TXT_OBS_PROCEDIMENTO_CRITICO],");
-            viewString.Append(" \r\n            T.TXT_OBS_POTENCIAL_RISCO AS [formulario_respostas.TXT_OBS_POTENC");
-            viewString.Append("IAL_RISCO], \r\n            T.INT_ID_RANK AS [formulario_respostas.INT_ID_RANK], \r");
-            viewString.Append("\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer.formular");
-            viewString.Append("io_respostas AS T\r\n    ) AS T1");
+            viewString.Append("_OBS_POTENCIAL_RISCO], T1.[formulario_respostas.INT_ID_FORMULARIO_SUBITEM_RANK])");
+            viewString.Append("\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_respostas.INT");
+            viewString.Append("_ID], \r\n            T.INT_ID_FORMULARIO_APP AS [formulario_respostas.INT_ID_FORM");
+            viewString.Append("ULARIO_APP], \r\n            T.INT_ID_FORM_SUB_ITEM AS [formulario_respostas.INT_I");
+            viewString.Append("D_FORM_SUB_ITEM], \r\n            T.BOOL_C_NC_NA_ AS [formulario_respostas.BOOL_C_");
+            viewString.Append("NC_NA_], \r\n            T.DECIMAL_NOTA AS [formulario_respostas.DECIMAL_NOTA], \r\n");
+            viewString.Append("            T.TXT_CONSTATACAO_INSPETOR AS [formulario_respostas.TXT_CONSTATACAO_");
+            viewString.Append("INSPETOR], \r\n            T.TXT_RESPOSTA_PMO AS [formulario_respostas.TXT_RESPOST");
+            viewString.Append("A_PMO], \r\n            T.TXT_OBS AS [formulario_respostas.TXT_OBS], \r\n           ");
+            viewString.Append(" T.DECIMAL_NOTA_TOTAL AS [formulario_respostas.DECIMAL_NOTA_TOTAL], \r\n          ");
+            viewString.Append("  T.TXT_LATITUDE AS [formulario_respostas.TXT_LATITUDE], \r\n            T.TXT_LON");
+            viewString.Append("GITUDE AS [formulario_respostas.TXT_LONGITUDE], \r\n            T.INT_ID_CADASTRO ");
+            viewString.Append("AS [formulario_respostas.INT_ID_CADASTRO], \r\n            T.DATE_CADASTRO AS [for");
+            viewString.Append("mulario_respostas.DATE_CADASTRO], \r\n            T.INT_ID_ALTERACAO AS [formulari");
+            viewString.Append("o_respostas.INT_ID_ALTERACAO], \r\n            T.DATE_ALTERACAO AS [formulario_res");
+            viewString.Append("postas.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS [formulario_respostas");
+            viewString.Append(".INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [formulario_respostas.DATE_E");
+            viewString.Append("XCLUSAO], \r\n            T.TXT_ACAO_CORRETIVA AS [formulario_respostas.TXT_ACAO_C");
+            viewString.Append("ORRETIVA], \r\n            T.DATE_PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI AS [formula");
+            viewString.Append("rio_respostas.DATE_PRAZO_ENTRAR_EM_CONTATO_ANALISTA_SCI], \r\n            T.BOOL_R");
+            viewString.Append("ESOLVIDO AS [formulario_respostas.BOOL_RESOLVIDO], \r\n            T.DATA_PRAZO_RE");
+            viewString.Append("SOLVER_NC AS [formulario_respostas.DATA_PRAZO_RESOLVER_NC], \r\n            T.DATE");
+            viewString.Append("_RESOLVIDO AS [formulario_respostas.DATE_RESOLVIDO], \r\n            T.BOOL_REINCI");
+            viewString.Append("DENTE AS [formulario_respostas.BOOL_REINCIDENTE], \r\n            T.BOOL_MANTIDA_P");
+            viewString.Append("ELO_ANALISTA_SCI AS [formulario_respostas.BOOL_MANTIDA_PELO_ANALISTA_SCI], \r\n   ");
+            viewString.Append("         T.TXT_OBS_ANALISTA_SCI AS [formulario_respostas.TXT_OBS_ANALISTA_SCI], ");
+            viewString.Append("\r\n            T.BOOL_MANTIDA_PELO_GESTOR_SCI AS [formulario_respostas.BOOL_MANTI");
+            viewString.Append("DA_PELO_GESTOR_SCI], \r\n            T.TXT_OBS_MANTIDA_PELO_GESTOR_SCI AS [formula");
+            viewString.Append("rio_respostas.TXT_OBS_MANTIDA_PELO_GESTOR_SCI], \r\n            T.BOOL_ATIVO AS [f");
+            viewString.Append("ormulario_respostas.BOOL_ATIVO], \r\n            T.TXT_OBS_RESOLUCAO AS [formulari");
+            viewString.Append("o_respostas.TXT_OBS_RESOLUCAO], \r\n            T.BOOL_MEDIDA_PRECAUCAO AS [formul");
+            viewString.Append("ario_respostas.BOOL_MEDIDA_PRECAUCAO], \r\n            T.INT_ID_PONTO_CRITICO AS [");
+            viewString.Append("formulario_respostas.INT_ID_PONTO_CRITICO], \r\n            T.INT_ID_POTENCIAL_RIS");
+            viewString.Append("CO AS [formulario_respostas.INT_ID_POTENCIAL_RISCO], \r\n            T.INT_ID_PROC");
+            viewString.Append("EDIMENTO_CRITICO AS [formulario_respostas.INT_ID_PROCEDIMENTO_CRITICO], \r\n      ");
+            viewString.Append("      T.TXT_OBS_PONTO_CRITICO AS [formulario_respostas.TXT_OBS_PONTO_CRITICO], \r");
+            viewString.Append("\n            T.TXT_OBS_PROCEDIMENTO_CRITICO AS [formulario_respostas.TXT_OBS_PRO");
+            viewString.Append("CEDIMENTO_CRITICO], \r\n            T.TXT_OBS_POTENCIAL_RISCO AS [formulario_respo");
+            viewString.Append("stas.TXT_OBS_POTENCIAL_RISCO], \r\n            T.INT_ID_FORMULARIO_SUBITEM_RANK AS");
+            viewString.Append(" [formulario_respostas.INT_ID_FORMULARIO_SUBITEM_RANK], \r\n            True AS _f");
+            viewString.Append("rom0\r\n        FROM db_coopfamModelStoreContainer.formulario_respostas AS T\r\n    ");
+            viewString.Append(") AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_respostas", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_seletiva
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView383()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView400()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_seletiva", @"
     SELECT VALUE -- Constructing formulario_seletiva
@@ -13636,9 +14477,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_sub_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView384()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView401()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2414);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2634);
             viewString.Append("\r\n    SELECT VALUE -- Constructing formulario_sub_item\r\n        [db_coopfamModel");
             viewString.Append(".formulario_sub_item](T1.[formulario_sub_item.INT_ID], T1.[formulario_sub_item.I");
             viewString.Append("NT_ID_ITEM], T1.[formulario_sub_item.TXT_EXPLICACAO], T1.[formulario_sub_item.TX");
@@ -13650,7 +14491,8 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("T1.[formulario_sub_item.INT_ID_EXCLUSAO], T1.[formulario_sub_item.DATE_EXCLUSAO]");
             viewString.Append(", T1.[formulario_sub_item.TXT_COR], T1.[formulario_sub_item.BOOL_ELIMINATORIA], ");
             viewString.Append("T1.[formulario_sub_item.INT_ID_SUBITEM_REF_CRITERIO], T1.[formulario_sub_item.BO");
-            viewString.Append("OL_RANK])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_sub_");
+            viewString.Append("OL_RANK], T1.[formulario_sub_item.TXT_NR], T1.[formulario_sub_item.INT_ID_TIPO_C");
+            viewString.Append("RITERIO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [formulario_sub_");
             viewString.Append("item.INT_ID], \r\n            T.INT_ID_ITEM AS [formulario_sub_item.INT_ID_ITEM], ");
             viewString.Append("\r\n            T.TXT_EXPLICACAO AS [formulario_sub_item.TXT_EXPLICACAO], \r\n      ");
             viewString.Append("      T.TXT_DESCRICAO AS [formulario_sub_item.TXT_DESCRICAO], \r\n            T.BO");
@@ -13667,16 +14509,17 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("LUSAO], \r\n            T.TXT_COR AS [formulario_sub_item.TXT_COR], \r\n            ");
             viewString.Append("T.BOOL_ELIMINATORIA AS [formulario_sub_item.BOOL_ELIMINATORIA], \r\n            T.");
             viewString.Append("INT_ID_SUBITEM_REF_CRITERIO AS [formulario_sub_item.INT_ID_SUBITEM_REF_CRITERIO]");
-            viewString.Append(", \r\n            T.BOOL_RANK AS [formulario_sub_item.BOOL_RANK], \r\n            Tr");
-            viewString.Append("ue AS _from0\r\n        FROM db_coopfamModelStoreContainer.formulario_sub_item AS ");
-            viewString.Append("T\r\n    ) AS T1");
+            viewString.Append(", \r\n            T.BOOL_RANK AS [formulario_sub_item.BOOL_RANK], \r\n            T.");
+            viewString.Append("TXT_NR AS [formulario_sub_item.TXT_NR], \r\n            T.INT_ID_TIPO_CRITERIO AS ");
+            viewString.Append("[formulario_sub_item.INT_ID_TIPO_CRITERIO], \r\n            True AS _from0\r\n      ");
+            viewString.Append("  FROM db_coopfamModelStoreContainer.formulario_sub_item AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_sub_item", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_subitem_rank
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView385()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView402()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_subitem_rank", @"
     SELECT VALUE -- Constructing formulario_subitem_rank
@@ -13696,7 +14539,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.formulario_subitem_ref_criterio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView386()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView403()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.formulario_subitem_ref_criterio", "\r\n    SELECT VALUE -- Constructing formulario_subitem_ref_criterio\r\n        [db_c" +
                     "oopfamModel.formulario_subitem_ref_criterio](T1.[formulario_subitem_ref_criterio" +
@@ -13725,7 +14568,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.frota
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView387()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView404()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.frota", @"
     SELECT VALUE -- Constructing frota
@@ -13744,7 +14587,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.funcionario
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView388()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView405()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2461);
             viewString.Append("\r\n    SELECT VALUE -- Constructing funcionario\r\n        [db_coopfamModel.funcion");
@@ -13784,7 +14627,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.gestao_risco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView389()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView406()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.gestao_risco", @"
     SELECT VALUE -- Constructing gestao_risco
@@ -13804,7 +14647,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.grau_de_parentesco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView390()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView407()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.grau_de_parentesco", @"
     SELECT VALUE -- Constructing grau_de_parentesco
@@ -13823,7 +14666,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.grupo_da_carteira
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView391()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView408()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.grupo_da_carteira", @"
     SELECT VALUE -- Constructing grupo_da_carteira
@@ -13840,7 +14683,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.grupo_de_imposto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView392()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView409()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.grupo_de_imposto", @"
     SELECT VALUE -- Constructing grupo_de_imposto
@@ -13859,7 +14702,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.grupo_de_servico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView393()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView410()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.grupo_de_servico", @"
     SELECT VALUE -- Constructing grupo_de_servico
@@ -13878,7 +14721,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.grupo_reuniao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView394()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView411()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.grupo_reuniao", @"
     SELECT VALUE -- Constructing grupo_reuniao
@@ -13899,7 +14742,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.grupo_variedade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView395()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView412()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.grupo_variedade", @"
     SELECT VALUE -- Constructing grupo_variedade
@@ -13917,7 +14760,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.hedge
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView396()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView413()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2375);
             viewString.Append("\r\n    SELECT VALUE -- Constructing hedge\r\n        [db_coopfamModel.hedge](T1.[he");
@@ -13956,7 +14799,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.historico_de_alteracao_de_status
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView397()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView414()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.historico_de_alteracao_de_status", @"
     SELECT VALUE -- Constructing historico_de_alteracao_de_status
@@ -13979,7 +14822,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.historico_talhao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView398()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView415()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.historico_talhao", @"
     SELECT VALUE -- Constructing historico_talhao
@@ -14005,7 +14848,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.informacao_adicional
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView399()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView416()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.informacao_adicional", @"
     SELECT VALUE -- Constructing informacao_adicional
@@ -14024,7 +14867,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.instituicao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView400()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView417()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.instituicao", @"
     SELECT VALUE -- Constructing instituicao
@@ -14041,7 +14884,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.instrucao_lote_resultado_para_gerar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView401()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView418()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.instrucao_lote_resultado_para_gerar", "\r\n    SELECT VALUE -- Constructing instrucao_lote_resultado_para_gerar\r\n        [" +
                     "db_coopfamModel.instrucao_lote_resultado_para_gerar](T1.[instrucao_lote_resultad" +
@@ -14052,29 +14895,31 @@ namespace Edm_EntityMappingGeneratedViews
                     "_lote_resultado_para_gerar.INT_DEFEITO], T1.[instrucao_lote_resultado_para_gerar" +
                     ".INT_ID_TIPO_SACARIA], T1.[instrucao_lote_resultado_para_gerar.TXT_OIC], T1.[ins" +
                     "trucao_lote_resultado_para_gerar.DECIMAL_QTD_ESTIMADA], T1.[instrucao_lote_resul" +
-                    "tado_para_gerar.INT_ID_TIPO_CAFE])\r\n    FROM (\r\n        SELECT \r\n            T.I" +
-                    "NT_ID AS [instrucao_lote_resultado_para_gerar.INT_ID], \r\n            T.INT_ID_IN" +
-                    "STRUCAO AS [instrucao_lote_resultado_para_gerar.INT_ID_INSTRUCAO], \r\n           " +
-                    " T.INT_ID_TIPO_LOTE AS [instrucao_lote_resultado_para_gerar.INT_ID_TIPO_LOTE], \r" +
-                    "\n            T.TXT_LOTE_SERA_GERADO AS [instrucao_lote_resultado_para_gerar.TXT_" +
-                    "LOTE_SERA_GERADO], \r\n            T.BOOL_ATIVO AS [instrucao_lote_resultado_para_" +
-                    "gerar.BOOL_ATIVO], \r\n            T.TXT_TIPO AS [instrucao_lote_resultado_para_ge" +
-                    "rar.TXT_TIPO], \r\n            T.INT_DEFEITO AS [instrucao_lote_resultado_para_ger" +
-                    "ar.INT_DEFEITO], \r\n            T.INT_ID_TIPO_SACARIA AS [instrucao_lote_resultad" +
-                    "o_para_gerar.INT_ID_TIPO_SACARIA], \r\n            T.TXT_OIC AS [instrucao_lote_re" +
-                    "sultado_para_gerar.TXT_OIC], \r\n            T.DECIMAL_QTD_ESTIMADA AS [instrucao_" +
-                    "lote_resultado_para_gerar.DECIMAL_QTD_ESTIMADA], \r\n            T.INT_ID_TIPO_CAF" +
-                    "E AS [instrucao_lote_resultado_para_gerar.INT_ID_TIPO_CAFE], \r\n            True " +
-                    "AS _from0\r\n        FROM db_coopfamModelStoreContainer.instrucao_lote_resultado_p" +
-                    "ara_gerar AS T\r\n    ) AS T1");
+                    "tado_para_gerar.INT_ID_TIPO_CAFE], T1.[instrucao_lote_resultado_para_gerar.INT_I" +
+                    "D_SUBTIPO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [instrucao_lot" +
+                    "e_resultado_para_gerar.INT_ID], \r\n            T.INT_ID_INSTRUCAO AS [instrucao_l" +
+                    "ote_resultado_para_gerar.INT_ID_INSTRUCAO], \r\n            T.INT_ID_TIPO_LOTE AS " +
+                    "[instrucao_lote_resultado_para_gerar.INT_ID_TIPO_LOTE], \r\n            T.TXT_LOTE" +
+                    "_SERA_GERADO AS [instrucao_lote_resultado_para_gerar.TXT_LOTE_SERA_GERADO], \r\n  " +
+                    "          T.BOOL_ATIVO AS [instrucao_lote_resultado_para_gerar.BOOL_ATIVO], \r\n  " +
+                    "          T.TXT_TIPO AS [instrucao_lote_resultado_para_gerar.TXT_TIPO], \r\n      " +
+                    "      T.INT_DEFEITO AS [instrucao_lote_resultado_para_gerar.INT_DEFEITO], \r\n    " +
+                    "        T.INT_ID_TIPO_SACARIA AS [instrucao_lote_resultado_para_gerar.INT_ID_TIP" +
+                    "O_SACARIA], \r\n            T.TXT_OIC AS [instrucao_lote_resultado_para_gerar.TXT_" +
+                    "OIC], \r\n            T.DECIMAL_QTD_ESTIMADA AS [instrucao_lote_resultado_para_ger" +
+                    "ar.DECIMAL_QTD_ESTIMADA], \r\n            T.INT_ID_TIPO_CAFE AS [instrucao_lote_re" +
+                    "sultado_para_gerar.INT_ID_TIPO_CAFE], \r\n            T.INT_ID_SUBTIPO AS [instruc" +
+                    "ao_lote_resultado_para_gerar.INT_ID_SUBTIPO], \r\n            True AS _from0\r\n    " +
+                    "    FROM db_coopfamModelStoreContainer.instrucao_lote_resultado_para_gerar AS T\r" +
+                    "\n    ) AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.instrucao_preparo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView402()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView419()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4530);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4675);
             viewString.Append("\r\n    SELECT VALUE -- Constructing instrucao_preparo\r\n        [db_coopfamModel.i");
             viewString.Append("nstrucao_preparo](T1.[instrucao_preparo.INT_ID], T1.[instrucao_preparo.INT_ID_CO");
             viewString.Append("NTRATO], T1.[instrucao_preparo.INT_ID_ALMOXARIFADO], T1.[instrucao_preparo.TXT_I");
@@ -14095,50 +14940,52 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(".[instrucao_preparo.BOOL_TRANSICAO_LOTE_QUE_SERA_GERADO], T1.[instrucao_preparo.");
             viewString.Append("DATE_INICIOU_CARREGAMENTO], T1.[instrucao_preparo.DATE_FINALIZOU_CARREGAMENTO], ");
             viewString.Append("T1.[instrucao_preparo.INT_ID_INICIOU_CARREGAMENTO], T1.[instrucao_preparo.INT_ID");
-            viewString.Append("_FINALIZOU_CARREGAMENTO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS ");
-            viewString.Append("[instrucao_preparo.INT_ID], \r\n            T.INT_ID_CONTRATO AS [instrucao_prepar");
-            viewString.Append("o.INT_ID_CONTRATO], \r\n            T.INT_ID_ALMOXARIFADO AS [instrucao_preparo.IN");
-            viewString.Append("T_ID_ALMOXARIFADO], \r\n            T.TXT_INSTRUCAO AS [instrucao_preparo.TXT_INST");
-            viewString.Append("RUCAO], \r\n            T.INT_ID_SIT_NORMA AS [instrucao_preparo.INT_ID_SIT_NORMA]");
-            viewString.Append(", \r\n            T.BOOL_BATER_PILHA AS [instrucao_preparo.BOOL_BATER_PILHA], \r\n  ");
-            viewString.Append("          T.BOOL_VENTILACAO AS [instrucao_preparo.BOOL_VENTILACAO], \r\n          ");
-            viewString.Append("  T.BOOL_CATACAO_ELETRONICA AS [instrucao_preparo.BOOL_CATACAO_ELETRONICA], \r\n  ");
-            viewString.Append("          T.BOOL_CATADOR_PEDRA AS [instrucao_preparo.BOOL_CATADOR_PEDRA], \r\n    ");
-            viewString.Append("        T.BOOL_REBENEFICIO_PENEIRAS AS [instrucao_preparo.BOOL_REBENEFICIO_PENEI");
-            viewString.Append("RAS], \r\n            T.TXT_PENEIRAS AS [instrucao_preparo.TXT_PENEIRAS], \r\n      ");
-            viewString.Append("      T.TXT_TIPO AS [instrucao_preparo.TXT_TIPO], \r\n            T.INT_DEFEITOS A");
-            viewString.Append("S [instrucao_preparo.INT_DEFEITOS], \r\n            T.TXT_MOCA AS [instrucao_prepa");
-            viewString.Append("ro.TXT_MOCA], \r\n            T.TXT_FUNDO AS [instrucao_preparo.TXT_FUNDO], \r\n    ");
-            viewString.Append("        T.DATE_DATA_INSTRUCAO AS [instrucao_preparo.DATE_DATA_INSTRUCAO], \r\n    ");
-            viewString.Append("        T.TXT_TIPO_SACARIA AS [instrucao_preparo.TXT_TIPO_SACARIA], \r\n          ");
-            viewString.Append("  T.TXT_OIC AS [instrucao_preparo.TXT_OIC], \r\n            T.TXT_OBS AS [instruca");
-            viewString.Append("o_preparo.TXT_OBS], \r\n            T.TXT_SAFRA AS [instrucao_preparo.TXT_SAFRA], ");
-            viewString.Append("\r\n            T.BOOL_TIPO_CAFE AS [instrucao_preparo.BOOL_TIPO_CAFE], \r\n        ");
-            viewString.Append("    T.INT_ID_SUBTIPO AS [instrucao_preparo.INT_ID_SUBTIPO], \r\n            T.CHAR");
-            viewString.Append("_TIPO_SACARIA AS [instrucao_preparo.CHAR_TIPO_SACARIA], \r\n            T.INT_ID_C");
-            viewString.Append("LIENTE AS [instrucao_preparo.INT_ID_CLIENTE], \r\n            T.BOOL_FLAG_ATIVO_EX");
-            viewString.Append("CLUIDO AS [instrucao_preparo.BOOL_FLAG_ATIVO_EXCLUIDO], \r\n            T.INT_ID_A");
-            viewString.Append("MOSTRA AS [instrucao_preparo.INT_ID_AMOSTRA], \r\n            T.INT_ID_FUNCIONARIO");
-            viewString.Append(" AS [instrucao_preparo.INT_ID_FUNCIONARIO], \r\n            T.DATE_PREVISAO_TERMIN");
-            viewString.Append("O AS [instrucao_preparo.DATE_PREVISAO_TERMINO], \r\n            T.BOOL_PRESTACAO_S");
-            viewString.Append("ERVICOS AS [instrucao_preparo.BOOL_PRESTACAO_SERVICOS], \r\n            T.DATE_LAN");
-            viewString.Append("CAMENTO AS [instrucao_preparo.DATE_LANCAMENTO], \r\n            T.BOOL_TIPO_CULTIV");
-            viewString.Append("O_LOTE_QUE_SERA_GERADO AS [instrucao_preparo.BOOL_TIPO_CULTIVO_LOTE_QUE_SERA_GER");
-            viewString.Append("ADO], \r\n            T.BOOL_TRANSICAO_LOTE_QUE_SERA_GERADO AS [instrucao_preparo.");
-            viewString.Append("BOOL_TRANSICAO_LOTE_QUE_SERA_GERADO], \r\n            T.DATE_INICIOU_CARREGAMENTO ");
-            viewString.Append("AS [instrucao_preparo.DATE_INICIOU_CARREGAMENTO], \r\n            T.DATE_FINALIZOU");
-            viewString.Append("_CARREGAMENTO AS [instrucao_preparo.DATE_FINALIZOU_CARREGAMENTO], \r\n            ");
-            viewString.Append("T.INT_ID_INICIOU_CARREGAMENTO AS [instrucao_preparo.INT_ID_INICIOU_CARREGAMENTO]");
-            viewString.Append(", \r\n            T.INT_ID_FINALIZOU_CARREGAMENTO AS [instrucao_preparo.INT_ID_FIN");
-            viewString.Append("ALIZOU_CARREGAMENTO], \r\n            True AS _from0\r\n        FROM db_coopfamModel");
-            viewString.Append("StoreContainer.instrucao_preparo AS T\r\n    ) AS T1");
+            viewString.Append("_FINALIZOU_CARREGAMENTO], T1.[instrucao_preparo.BOOL_LIBERADO_PARA_ARMAZEM])\r\n  ");
+            viewString.Append("  FROM (\r\n        SELECT \r\n            T.INT_ID AS [instrucao_preparo.INT_ID], \r");
+            viewString.Append("\n            T.INT_ID_CONTRATO AS [instrucao_preparo.INT_ID_CONTRATO], \r\n       ");
+            viewString.Append("     T.INT_ID_ALMOXARIFADO AS [instrucao_preparo.INT_ID_ALMOXARIFADO], \r\n       ");
+            viewString.Append("     T.TXT_INSTRUCAO AS [instrucao_preparo.TXT_INSTRUCAO], \r\n            T.INT_I");
+            viewString.Append("D_SIT_NORMA AS [instrucao_preparo.INT_ID_SIT_NORMA], \r\n            T.BOOL_BATER_");
+            viewString.Append("PILHA AS [instrucao_preparo.BOOL_BATER_PILHA], \r\n            T.BOOL_VENTILACAO A");
+            viewString.Append("S [instrucao_preparo.BOOL_VENTILACAO], \r\n            T.BOOL_CATACAO_ELETRONICA A");
+            viewString.Append("S [instrucao_preparo.BOOL_CATACAO_ELETRONICA], \r\n            T.BOOL_CATADOR_PEDR");
+            viewString.Append("A AS [instrucao_preparo.BOOL_CATADOR_PEDRA], \r\n            T.BOOL_REBENEFICIO_PE");
+            viewString.Append("NEIRAS AS [instrucao_preparo.BOOL_REBENEFICIO_PENEIRAS], \r\n            T.TXT_PEN");
+            viewString.Append("EIRAS AS [instrucao_preparo.TXT_PENEIRAS], \r\n            T.TXT_TIPO AS [instruca");
+            viewString.Append("o_preparo.TXT_TIPO], \r\n            T.INT_DEFEITOS AS [instrucao_preparo.INT_DEFE");
+            viewString.Append("ITOS], \r\n            T.TXT_MOCA AS [instrucao_preparo.TXT_MOCA], \r\n            T");
+            viewString.Append(".TXT_FUNDO AS [instrucao_preparo.TXT_FUNDO], \r\n            T.DATE_DATA_INSTRUCAO");
+            viewString.Append(" AS [instrucao_preparo.DATE_DATA_INSTRUCAO], \r\n            T.TXT_TIPO_SACARIA AS");
+            viewString.Append(" [instrucao_preparo.TXT_TIPO_SACARIA], \r\n            T.TXT_OIC AS [instrucao_pre");
+            viewString.Append("paro.TXT_OIC], \r\n            T.TXT_OBS AS [instrucao_preparo.TXT_OBS], \r\n       ");
+            viewString.Append("     T.TXT_SAFRA AS [instrucao_preparo.TXT_SAFRA], \r\n            T.BOOL_TIPO_CAF");
+            viewString.Append("E AS [instrucao_preparo.BOOL_TIPO_CAFE], \r\n            T.INT_ID_SUBTIPO AS [inst");
+            viewString.Append("rucao_preparo.INT_ID_SUBTIPO], \r\n            T.CHAR_TIPO_SACARIA AS [instrucao_p");
+            viewString.Append("reparo.CHAR_TIPO_SACARIA], \r\n            T.INT_ID_CLIENTE AS [instrucao_preparo.");
+            viewString.Append("INT_ID_CLIENTE], \r\n            T.BOOL_FLAG_ATIVO_EXCLUIDO AS [instrucao_preparo.");
+            viewString.Append("BOOL_FLAG_ATIVO_EXCLUIDO], \r\n            T.INT_ID_AMOSTRA AS [instrucao_preparo.");
+            viewString.Append("INT_ID_AMOSTRA], \r\n            T.INT_ID_FUNCIONARIO AS [instrucao_preparo.INT_ID");
+            viewString.Append("_FUNCIONARIO], \r\n            T.DATE_PREVISAO_TERMINO AS [instrucao_preparo.DATE_");
+            viewString.Append("PREVISAO_TERMINO], \r\n            T.BOOL_PRESTACAO_SERVICOS AS [instrucao_preparo");
+            viewString.Append(".BOOL_PRESTACAO_SERVICOS], \r\n            T.DATE_LANCAMENTO AS [instrucao_preparo");
+            viewString.Append(".DATE_LANCAMENTO], \r\n            T.BOOL_TIPO_CULTIVO_LOTE_QUE_SERA_GERADO AS [in");
+            viewString.Append("strucao_preparo.BOOL_TIPO_CULTIVO_LOTE_QUE_SERA_GERADO], \r\n            T.BOOL_TR");
+            viewString.Append("ANSICAO_LOTE_QUE_SERA_GERADO AS [instrucao_preparo.BOOL_TRANSICAO_LOTE_QUE_SERA_");
+            viewString.Append("GERADO], \r\n            T.DATE_INICIOU_CARREGAMENTO AS [instrucao_preparo.DATE_IN");
+            viewString.Append("ICIOU_CARREGAMENTO], \r\n            T.DATE_FINALIZOU_CARREGAMENTO AS [instrucao_p");
+            viewString.Append("reparo.DATE_FINALIZOU_CARREGAMENTO], \r\n            T.INT_ID_INICIOU_CARREGAMENTO");
+            viewString.Append(" AS [instrucao_preparo.INT_ID_INICIOU_CARREGAMENTO], \r\n            T.INT_ID_FINA");
+            viewString.Append("LIZOU_CARREGAMENTO AS [instrucao_preparo.INT_ID_FINALIZOU_CARREGAMENTO], \r\n     ");
+            viewString.Append("       T.BOOL_LIBERADO_PARA_ARMAZEM AS [instrucao_preparo.BOOL_LIBERADO_PARA_ARM");
+            viewString.Append("AZEM], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer.");
+            viewString.Append("instrucao_preparo AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.instrucao_preparo", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.integracao_contabil
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView403()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView420()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.integracao_contabil", @"
     SELECT VALUE -- Constructing integracao_contabil
@@ -14160,7 +15007,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.integracao_contabil_lancamentos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView404()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView421()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.integracao_contabil_lancamentos", @"
     SELECT VALUE -- Constructing integracao_contabil_lancamentos
@@ -14179,7 +15026,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.integrantes_grupo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView405()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView422()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.integrantes_grupo", @"
     SELECT VALUE -- Constructing integrantes_grupo
@@ -14197,7 +15044,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.intervalo_da_forma_pagamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView406()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView423()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.intervalo_da_forma_pagamento", @"
     SELECT VALUE -- Constructing intervalo_da_forma_pagamento
@@ -14216,7 +15063,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.laboratorio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView407()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView424()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.laboratorio", @"
     SELECT VALUE -- Constructing laboratorio
@@ -14234,7 +15081,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lancamento_extras_codigos_contabeis
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView408()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView425()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lancamento_extras_codigos_contabeis", "\r\n    SELECT VALUE -- Constructing lancamento_extras_codigos_contabeis\r\n        [" +
                     "db_coopfamModel.lancamento_extras_codigos_contabeis](T1.[lancamento_extras_codig" +
@@ -14263,7 +15110,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.liquidacao_contrato_de_cambio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView409()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView426()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.liquidacao_contrato_de_cambio", @"
     SELECT VALUE -- Constructing liquidacao_contrato_de_cambio
@@ -14285,7 +15132,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.liquidacao_contrato_de_cambio_relacao_nf
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView410()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView427()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.liquidacao_contrato_de_cambio_relacao_nf", @"
     SELECT VALUE -- Constructing liquidacao_contrato_de_cambio_relacao_nf
@@ -14305,7 +15152,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.log_erro_do_sistema
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView411()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView428()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.log_erro_do_sistema", @"
     SELECT VALUE -- Constructing log_erro_do_sistema
@@ -14325,7 +15172,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.log_usuarios
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView412()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView429()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.log_usuarios", @"
     SELECT VALUE -- Constructing log_usuarios
@@ -14344,7 +15191,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_arm_terceiros_situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView413()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView430()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_arm_terceiros_situacao_norma", @"
     SELECT VALUE -- Constructing lote_arm_terceiros_situacao_norma
@@ -14363,7 +15210,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_armazem_terceiros
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView414()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView431()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_armazem_terceiros", "\r\n    SELECT VALUE -- Constructing lote_armazem_terceiros\r\n        [db_coopfamMod" +
                     "el.lote_armazem_terceiros](T1.[lote_armazem_terceiros.INT_ID], T1.[lote_armazem_" +
@@ -14395,7 +15242,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_composicao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView415()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView432()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_composicao", @"
     SELECT VALUE -- Constructing lote_composicao
@@ -14419,7 +15266,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_instrucao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView416()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView433()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_instrucao", @"
     SELECT VALUE -- Constructing lote_instrucao
@@ -14443,7 +15290,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_nota_cancelada
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView417()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView434()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_nota_cancelada", @"
     SELECT VALUE -- Constructing lote_nota_cancelada
@@ -14465,7 +15312,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_origem_do_result_reb
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView418()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView435()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_origem_do_result_reb", @"
     SELECT VALUE -- Constructing lote_origem_do_result_reb
@@ -14488,7 +15335,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_para_analise_solo_foliar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView419()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView436()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_para_analise_solo_foliar", "\r\n    SELECT VALUE -- Constructing lote_para_analise_solo_foliar\r\n        [db_coo" +
                     "pfamModel.lote_para_analise_solo_foliar](T1.[lote_para_analise_solo_foliar.INT_I" +
@@ -14519,7 +15366,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_producao_rastreabilidade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView420()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView437()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_producao_rastreabilidade", "\r\n    SELECT VALUE -- Constructing lote_producao_rastreabilidade\r\n        [db_coo" +
                     "pfamModel.lote_producao_rastreabilidade](T1.[lote_producao_rastreabilidade.INT_I" +
@@ -14549,9 +15396,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_produto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView421()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView438()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2838);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2991);
             viewString.Append("\r\n    SELECT VALUE -- Constructing lote_produto\r\n        [db_coopfamModel.lote_p");
             viewString.Append("roduto](T1.[lote_produto.INT_ID], T1.[lote_produto.INT_ID_PRODUTO_CONTABIL], T1.");
             viewString.Append("[lote_produto.INT_ID_EMPRESA], T1.[lote_produto.INT_ID_ALMOXARIFADO], T1.[lote_p");
@@ -14564,37 +15411,39 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("roduto.BOOL_ATIVO], T1.[lote_produto.INT_ID_LINHA], T1.[lote_produto.INT_ID_TALH");
             viewString.Append("AO], T1.[lote_produto.INT_ID_VOLUME], T1.[lote_produto.INT_ID_AUTORIZACAO_LOTE],");
             viewString.Append(" T1.[lote_produto.INT_NF], T1.[lote_produto.INT_ID_NOTA_CANCELADA], T1.[lote_pro");
-            viewString.Append("duto.INT_ID_REVISAO_POP])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS ");
-            viewString.Append("[lote_produto.INT_ID], \r\n            T.INT_ID_PRODUTO_CONTABIL AS [lote_produto.");
-            viewString.Append("INT_ID_PRODUTO_CONTABIL], \r\n            T.INT_ID_EMPRESA AS [lote_produto.INT_ID");
-            viewString.Append("_EMPRESA], \r\n            T.INT_ID_ALMOXARIFADO AS [lote_produto.INT_ID_ALMOXARIF");
-            viewString.Append("ADO], \r\n            T.INT_ID_RESULTADO_OP AS [lote_produto.INT_ID_RESULTADO_OP],");
-            viewString.Append(" \r\n            T.INT_ID_CLIENTE_FORNECEDOR AS [lote_produto.INT_ID_CLIENTE_FORNE");
-            viewString.Append("CEDOR], \r\n            T.INT_ID_COOPERADO AS [lote_produto.INT_ID_COOPERADO], \r\n ");
-            viewString.Append("           T.INT_ID_FUNCIONARIO AS [lote_produto.INT_ID_FUNCIONARIO], \r\n        ");
-            viewString.Append("    T.TXT_LOTE AS [lote_produto.TXT_LOTE], \r\n            T.DECIMAL_QUANTIDADE AS");
-            viewString.Append(" [lote_produto.DECIMAL_QUANTIDADE], \r\n            T.DATE_LANCAMENTO AS [lote_pro");
-            viewString.Append("duto.DATE_LANCAMENTO], \r\n            T.DATE_VALIDADE AS [lote_produto.DATE_VALID");
-            viewString.Append("ADE], \r\n            T.DATE_FABRICACAO AS [lote_produto.DATE_FABRICACAO], \r\n     ");
-            viewString.Append("       T.DECIMAL_VLR_UNITARIO AS [lote_produto.DECIMAL_VLR_UNITARIO], \r\n        ");
-            viewString.Append("    T.BOOL_MATERIA_PRIMA AS [lote_produto.BOOL_MATERIA_PRIMA], \r\n            T.B");
-            viewString.Append("OOL_PRESTACAO_SERVICO AS [lote_produto.BOOL_PRESTACAO_SERVICO], \r\n            T.");
-            viewString.Append("BOOL_ORG_CONV AS [lote_produto.BOOL_ORG_CONV], \r\n            T.BOOL_ATIVO AS [lo");
-            viewString.Append("te_produto.BOOL_ATIVO], \r\n            T.INT_ID_LINHA AS [lote_produto.INT_ID_LIN");
-            viewString.Append("HA], \r\n            T.INT_ID_TALHAO AS [lote_produto.INT_ID_TALHAO], \r\n          ");
-            viewString.Append("  T.INT_ID_VOLUME AS [lote_produto.INT_ID_VOLUME], \r\n            T.INT_ID_AUTORI");
-            viewString.Append("ZACAO_LOTE AS [lote_produto.INT_ID_AUTORIZACAO_LOTE], \r\n            T.INT_NF AS ");
-            viewString.Append("[lote_produto.INT_NF], \r\n            T.INT_ID_NOTA_CANCELADA AS [lote_produto.IN");
-            viewString.Append("T_ID_NOTA_CANCELADA], \r\n            T.INT_ID_REVISAO_POP AS [lote_produto.INT_ID");
-            viewString.Append("_REVISAO_POP], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreCo");
-            viewString.Append("ntainer.lote_produto AS T\r\n    ) AS T1");
+            viewString.Append("duto.INT_ID_REVISAO_POP], T1.[lote_produto.DECIMAL_VALOR_PREMIO_POR_UNIDADE])\r\n ");
+            viewString.Append("   FROM (\r\n        SELECT \r\n            T.INT_ID AS [lote_produto.INT_ID], \r\n   ");
+            viewString.Append("         T.INT_ID_PRODUTO_CONTABIL AS [lote_produto.INT_ID_PRODUTO_CONTABIL], \r\n");
+            viewString.Append("            T.INT_ID_EMPRESA AS [lote_produto.INT_ID_EMPRESA], \r\n            T.I");
+            viewString.Append("NT_ID_ALMOXARIFADO AS [lote_produto.INT_ID_ALMOXARIFADO], \r\n            T.INT_ID");
+            viewString.Append("_RESULTADO_OP AS [lote_produto.INT_ID_RESULTADO_OP], \r\n            T.INT_ID_CLIE");
+            viewString.Append("NTE_FORNECEDOR AS [lote_produto.INT_ID_CLIENTE_FORNECEDOR], \r\n            T.INT_");
+            viewString.Append("ID_COOPERADO AS [lote_produto.INT_ID_COOPERADO], \r\n            T.INT_ID_FUNCIONA");
+            viewString.Append("RIO AS [lote_produto.INT_ID_FUNCIONARIO], \r\n            T.TXT_LOTE AS [lote_prod");
+            viewString.Append("uto.TXT_LOTE], \r\n            T.DECIMAL_QUANTIDADE AS [lote_produto.DECIMAL_QUANT");
+            viewString.Append("IDADE], \r\n            T.DATE_LANCAMENTO AS [lote_produto.DATE_LANCAMENTO], \r\n   ");
+            viewString.Append("         T.DATE_VALIDADE AS [lote_produto.DATE_VALIDADE], \r\n            T.DATE_F");
+            viewString.Append("ABRICACAO AS [lote_produto.DATE_FABRICACAO], \r\n            T.DECIMAL_VLR_UNITARI");
+            viewString.Append("O AS [lote_produto.DECIMAL_VLR_UNITARIO], \r\n            T.BOOL_MATERIA_PRIMA AS ");
+            viewString.Append("[lote_produto.BOOL_MATERIA_PRIMA], \r\n            T.BOOL_PRESTACAO_SERVICO AS [lo");
+            viewString.Append("te_produto.BOOL_PRESTACAO_SERVICO], \r\n            T.BOOL_ORG_CONV AS [lote_produ");
+            viewString.Append("to.BOOL_ORG_CONV], \r\n            T.BOOL_ATIVO AS [lote_produto.BOOL_ATIVO], \r\n  ");
+            viewString.Append("          T.INT_ID_LINHA AS [lote_produto.INT_ID_LINHA], \r\n            T.INT_ID_");
+            viewString.Append("TALHAO AS [lote_produto.INT_ID_TALHAO], \r\n            T.INT_ID_VOLUME AS [lote_p");
+            viewString.Append("roduto.INT_ID_VOLUME], \r\n            T.INT_ID_AUTORIZACAO_LOTE AS [lote_produto.");
+            viewString.Append("INT_ID_AUTORIZACAO_LOTE], \r\n            T.INT_NF AS [lote_produto.INT_NF], \r\n   ");
+            viewString.Append("         T.INT_ID_NOTA_CANCELADA AS [lote_produto.INT_ID_NOTA_CANCELADA], \r\n    ");
+            viewString.Append("        T.INT_ID_REVISAO_POP AS [lote_produto.INT_ID_REVISAO_POP], \r\n           ");
+            viewString.Append(" T.DECIMAL_VALOR_PREMIO_POR_UNIDADE AS [lote_produto.DECIMAL_VALOR_PREMIO_POR_UN");
+            viewString.Append("IDADE], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer");
+            viewString.Append(".lote_produto AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_produto", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_produto_situacaonorma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView422()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView439()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_produto_situacaonorma", @"
     SELECT VALUE -- Constructing lote_produto_situacaonorma
@@ -14613,7 +15462,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_resultado_rebeneficio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView423()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView440()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3221);
             viewString.Append("\r\n    SELECT VALUE -- Constructing lote_resultado_rebeneficio\r\n        [db_coopf");
@@ -14663,7 +15512,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_resultado_rebeneficio_situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView424()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView441()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_resultado_rebeneficio_situacao_norma", @"
     SELECT VALUE -- Constructing lote_resultado_rebeneficio_situacao_norma
@@ -14682,7 +15531,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lote_situacaonorma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView425()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView442()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lote_situacaonorma", @"
     SELECT VALUE -- Constructing lote_situacaonorma
@@ -14701,7 +15550,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lotes_compoe_carregamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView426()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView443()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lotes_compoe_carregamento", @"
     SELECT VALUE -- Constructing lotes_compoe_carregamento
@@ -14721,7 +15570,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lotes_do_fechamento_e_hedge
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView427()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView444()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(5211);
             viewString.Append("\r\n    SELECT VALUE -- Constructing lotes_do_fechamento_e_hedge\r\n        [db_coop");
@@ -14796,7 +15645,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.lotes_origem_do_produto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView428()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView445()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.lotes_origem_do_produto", @"
     SELECT VALUE -- Constructing lotes_origem_do_produto
@@ -14817,9 +15666,27 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.maior_categoria
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView446()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.maior_categoria", @"
+    SELECT VALUE -- Constructing maior_categoria
+        [db_coopfamModel.maior_categoria](T1.[maior_categoria.INT_ID], T1.[maior_categoria.TXT_DESCRICAO], T1.[maior_categoria.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [maior_categoria.INT_ID], 
+            T.TXT_DESCRICAO AS [maior_categoria.TXT_DESCRICAO], 
+            T.BOOL_ATIVO AS [maior_categoria.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.maior_categoria AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.maquinario
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView429()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView447()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.maquinario", @"
     SELECT VALUE -- Constructing maquinario
@@ -14838,9 +15705,28 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.menor_categoria
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView448()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.menor_categoria", @"
+    SELECT VALUE -- Constructing menor_categoria
+        [db_coopfamModel.menor_categoria](T1.[menor_categoria.INT_ID], T1.[menor_categoria.INT_ID_MAIOR_CATEGORIA], T1.[menor_categoria.TXT_DESCRICAO], T1.[menor_categoria.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [menor_categoria.INT_ID], 
+            T.INT_ID_MAIOR_CATEGORIA AS [menor_categoria.INT_ID_MAIOR_CATEGORIA], 
+            T.TXT_DESCRICAO AS [menor_categoria.TXT_DESCRICAO], 
+            T.BOOL_ATIVO AS [menor_categoria.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.menor_categoria AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.modalidade_entrega
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView430()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView449()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.modalidade_entrega", @"
     SELECT VALUE -- Constructing modalidade_entrega
@@ -14859,7 +15745,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.motorista
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView431()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView450()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.motorista", @"
     SELECT VALUE -- Constructing motorista
@@ -14889,7 +15775,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.motorista_autorizacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView432()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView451()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.motorista_autorizacao", "\r\n    SELECT VALUE -- Constructing motorista_autorizacao\r\n        [db_coopfamMode" +
                     "l.motorista_autorizacao](T1.[motorista_autorizacao.INT_ID], T1.[motorista_autori" +
@@ -14917,7 +15803,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.movimento_bancario
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView433()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView452()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(5139);
             viewString.Append("\r\n    SELECT VALUE -- Constructing movimento_bancario\r\n        [db_coopfamModel.");
@@ -14991,9 +15877,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.movimentos_produtos_contabeis
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView434()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView453()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(13606);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(13766);
             viewString.Append("\r\n    SELECT VALUE -- Constructing movimentos_produtos_contabeis\r\n        [db_co");
             viewString.Append("opfamModel.movimentos_produtos_contabeis](T1.[movimentos_produtos_contabeis.INT_");
             viewString.Append("ID], T1.[movimentos_produtos_contabeis.INT_CODIGO_CONTABIL], T1.[movimentos_prod");
@@ -15058,111 +15944,113 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("ovimentos_produtos_contabeis.INT_ID_COTACAO_ITEM], T1.[movimentos_produtos_conta");
             viewString.Append("beis.INT_ID_RESULTADO_REBENEFICIO_NOTA_FILIAL], T1.[movimentos_produtos_contabei");
             viewString.Append("s.INT_ID_LOTE_ENTRADA_NOTA_FILIAL], T1.[movimentos_produtos_contabeis.INT_ID_AUT");
-            viewString.Append("ORIZACAO_DE__CARREGAMENTO_NOTA_FILIAL])\r\n    FROM (\r\n        SELECT \r\n          ");
-            viewString.Append("  T.INT_ID AS [movimentos_produtos_contabeis.INT_ID], \r\n            T.INT_CODIGO");
-            viewString.Append("_CONTABIL AS [movimentos_produtos_contabeis.INT_CODIGO_CONTABIL], \r\n            ");
-            viewString.Append("T.DATE_DATA_NF AS [movimentos_produtos_contabeis.DATE_DATA_NF], \r\n            T.");
-            viewString.Append("INT_NF AS [movimentos_produtos_contabeis.INT_NF], \r\n            T.BOOL_ENTRADA_S");
-            viewString.Append("AIDA AS [movimentos_produtos_contabeis.BOOL_ENTRADA_SAIDA], \r\n            T.INT_");
-            viewString.Append("ID_DOC AS [movimentos_produtos_contabeis.INT_ID_DOC], \r\n            T.CHAR_DOC A");
-            viewString.Append("S [movimentos_produtos_contabeis.CHAR_DOC], \r\n            T.BOOL_ATIVO_EXCLUIDO ");
-            viewString.Append("AS [movimentos_produtos_contabeis.BOOL_ATIVO_EXCLUIDO], \r\n            T.BOOL_COM");
-            viewString.Append("PRA_COMPL AS [movimentos_produtos_contabeis.BOOL_COMPRA_COMPL], \r\n            T.");
-            viewString.Append("INT_ID_LANCAMENTO_EXTRA AS [movimentos_produtos_contabeis.INT_ID_LANCAMENTO_EXTR");
-            viewString.Append("A], \r\n            T.INT_ID_AUTORIZACAO_DEV_COOP AS [movimentos_produtos_contabei");
-            viewString.Append("s.INT_ID_AUTORIZACAO_DEV_COOP], \r\n            T.INT_ID_LOTE_DO_FECHAMENTO AS [mo");
-            viewString.Append("vimentos_produtos_contabeis.INT_ID_LOTE_DO_FECHAMENTO], \r\n            T.INT_ID_N");
-            viewString.Append("OTA_DE_ORIGEM AS [movimentos_produtos_contabeis.INT_ID_NOTA_DE_ORIGEM], \r\n      ");
-            viewString.Append("      T.INT_ID_CADASTRO_ENTRADA AS [movimentos_produtos_contabeis.INT_ID_CADASTR");
-            viewString.Append("O_ENTRADA], \r\n            T.INT_ORIGEM_DO_PRODUTO AS [movimentos_produtos_contab");
-            viewString.Append("eis.INT_ORIGEM_DO_PRODUTO], \r\n            T.INT_ID_COMPLEMENTACOES_LOTE AS [movi");
-            viewString.Append("mentos_produtos_contabeis.INT_ID_COMPLEMENTACOES_LOTE], \r\n            T.INT_ID_L");
-            viewString.Append("OTE_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_LOTE_PRODUTO], \r\n          ");
-            viewString.Append("  T.DECIMAL_QTD AS [movimentos_produtos_contabeis.DECIMAL_QTD], \r\n            T.");
-            viewString.Append("INT_ID_MATERIA_PRIMA_UTILIZADA AS [movimentos_produtos_contabeis.INT_ID_MATERIA_");
-            viewString.Append("PRIMA_UTILIZADA], \r\n            T.INT_ID_CONTAS_A_PAGAR AS [movimentos_produtos_");
-            viewString.Append("contabeis.INT_ID_CONTAS_A_PAGAR], \r\n            T.DECIMAL_VALOR AS [movimentos_p");
-            viewString.Append("rodutos_contabeis.DECIMAL_VALOR], \r\n            T.INT_ID_VENDA_PRESTACAO AS [mov");
-            viewString.Append("imentos_produtos_contabeis.INT_ID_VENDA_PRESTACAO], \r\n            T.DATA_LANCAME");
-            viewString.Append("NTO AS [movimentos_produtos_contabeis.DATA_LANCAMENTO], \r\n            T.INT_ID_F");
-            viewString.Append("UNCIONARIO AS [movimentos_produtos_contabeis.INT_ID_FUNCIONARIO], \r\n            ");
-            viewString.Append("T.INT_ID_EMPRESA AS [movimentos_produtos_contabeis.INT_ID_EMPRESA], \r\n          ");
-            viewString.Append("  T.INT_ID_CFOP AS [movimentos_produtos_contabeis.INT_ID_CFOP], \r\n            T.");
-            viewString.Append("DECIMAL_PIS AS [movimentos_produtos_contabeis.DECIMAL_PIS], \r\n            T.DECI");
-            viewString.Append("MAL_COFINS AS [movimentos_produtos_contabeis.DECIMAL_COFINS], \r\n            T.DE");
-            viewString.Append("CIMAL_ICMS AS [movimentos_produtos_contabeis.DECIMAL_ICMS], \r\n            T.DECI");
-            viewString.Append("MAL_PISST AS [movimentos_produtos_contabeis.DECIMAL_PISST], \r\n            T.DECI");
-            viewString.Append("MAL_COFINSST AS [movimentos_produtos_contabeis.DECIMAL_COFINSST], \r\n            ");
-            viewString.Append("T.DECIMAL_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_ICMSST], \r\n          ");
-            viewString.Append("  T.DECIMAL_IPI AS [movimentos_produtos_contabeis.DECIMAL_IPI], \r\n            T.");
-            viewString.Append("DECIMAL_ICMS_PARTILHA AS [movimentos_produtos_contabeis.DECIMAL_ICMS_PARTILHA], ");
-            viewString.Append("\r\n            T.TXT_ICMS_CST AS [movimentos_produtos_contabeis.TXT_ICMS_CST], \r\n");
-            viewString.Append("            T.TXT_ORIGEM_ICMS AS [movimentos_produtos_contabeis.TXT_ORIGEM_ICMS]");
-            viewString.Append(", \r\n            T.TXT_ICMS_DESONERACAO AS [movimentos_produtos_contabeis.TXT_ICM");
-            viewString.Append("S_DESONERACAO], \r\n            T.TXT_MODALIDADE_DA_BC AS [movimentos_produtos_con");
-            viewString.Append("tabeis.TXT_MODALIDADE_DA_BC], \r\n            T.DECIMAL_ALIQUOTA_ICMS AS [moviment");
-            viewString.Append("os_produtos_contabeis.DECIMAL_ALIQUOTA_ICMS], \r\n            T.DECIMAL_REDUCAO_BC");
-            viewString.Append("_ICMS AS [movimentos_produtos_contabeis.DECIMAL_REDUCAO_BC_ICMS], \r\n            ");
-            viewString.Append("T.DECIMAL_BC_OPERACAO_PROPRIA AS [movimentos_produtos_contabeis.DECIMAL_BC_OPERA");
-            viewString.Append("CAO_PROPRIA], \r\n            T.TXT_MODALIDADE_DE_DET_DA_BC_ICMSST AS [movimentos_");
-            viewString.Append("produtos_contabeis.TXT_MODALIDADE_DE_DET_DA_BC_ICMSST], \r\n            T.DECIMAL_");
-            viewString.Append("ALIQUOTA_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_ICMSST], \r\n  ");
-            viewString.Append("          T.DECIMAL_REDUCAO_BC_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_");
-            viewString.Append("REDUCAO_BC_ICMSST], \r\n            T.DECIMAL_MVA AS [movimentos_produtos_contabei");
-            viewString.Append("s.DECIMAL_MVA], \r\n            T.TXT_PIS_CST AS [movimentos_produtos_contabeis.TX");
-            viewString.Append("T_PIS_CST], \r\n            T.DECIMAL_ALIQUOTA_PIS AS [movimentos_produtos_contabe");
-            viewString.Append("is.DECIMAL_ALIQUOTA_PIS], \r\n            T.DECIMAL_VLR_UN_PIS AS [movimentos_prod");
-            viewString.Append("utos_contabeis.DECIMAL_VLR_UN_PIS], \r\n            T.BOOL_PISST AS [movimentos_pr");
-            viewString.Append("odutos_contabeis.BOOL_PISST], \r\n            T.DECIMAL_ALIQUOTA_PISST AS [movimen");
-            viewString.Append("tos_produtos_contabeis.DECIMAL_ALIQUOTA_PISST], \r\n            T.DECIMAL_VLR_UN_P");
-            viewString.Append("ISST AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_PISST], \r\n            T.TX");
-            viewString.Append("T_CST_COFINS AS [movimentos_produtos_contabeis.TXT_CST_COFINS], \r\n            T.");
-            viewString.Append("DECIMAL_ALIQUOTA_COFINS AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_COFIN");
-            viewString.Append("S], \r\n            T.DECIMAL_VLR_UN_COFINS AS [movimentos_produtos_contabeis.DECI");
-            viewString.Append("MAL_VLR_UN_COFINS], \r\n            T.BOOL_COFINSST AS [movimentos_produtos_contab");
-            viewString.Append("eis.BOOL_COFINSST], \r\n            T.DECIMAL_ALIQUOTA_COFINSST AS [movimentos_pro");
-            viewString.Append("dutos_contabeis.DECIMAL_ALIQUOTA_COFINSST], \r\n            T.DECIMAL_VLR_UN_COFIN");
-            viewString.Append("SST AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_COFINSST], \r\n            T.");
-            viewString.Append("DECIMAL_ALIQUOTA_IPI AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_IPI], \r\n");
-            viewString.Append("            T.DECIMAL_VLR_UN_IPI AS [movimentos_produtos_contabeis.DECIMAL_VLR_U");
-            viewString.Append("N_IPI], \r\n            T.TXT_ENQUADRAMENTO_IPI AS [movimentos_produtos_contabeis.");
-            viewString.Append("TXT_ENQUADRAMENTO_IPI], \r\n            T.DECIMAL_MULTA AS [movimentos_produtos_co");
-            viewString.Append("ntabeis.DECIMAL_MULTA], \r\n            T.DECIMAL_SEGURO AS [movimentos_produtos_c");
-            viewString.Append("ontabeis.DECIMAL_SEGURO], \r\n            T.DECIMAL_JUROS AS [movimentos_produtos_");
-            viewString.Append("contabeis.DECIMAL_JUROS], \r\n            T.DECIMAL_DESCONTO AS [movimentos_produt");
-            viewString.Append("os_contabeis.DECIMAL_DESCONTO], \r\n            T.DECIMAL_FRETE AS [movimentos_pro");
-            viewString.Append("dutos_contabeis.DECIMAL_FRETE], \r\n            T.DECIMAL_VLR_UN AS [movimentos_pr");
-            viewString.Append("odutos_contabeis.DECIMAL_VLR_UN], \r\n            T.TXT_NATUREZA_DA_RECEITA AS [mo");
-            viewString.Append("vimentos_produtos_contabeis.TXT_NATUREZA_DA_RECEITA], \r\n            T.INT_ID_NOT");
-            viewString.Append("A_FISCAL AS [movimentos_produtos_contabeis.INT_ID_NOTA_FISCAL], \r\n            T.");
-            viewString.Append("DECIMAL_BC_ICMS AS [movimentos_produtos_contabeis.DECIMAL_BC_ICMS], \r\n          ");
-            viewString.Append("  T.DECIMAL_BC_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_BC_ICMSST], \r\n  ");
-            viewString.Append("          T.TXT_CST_IPI AS [movimentos_produtos_contabeis.TXT_CST_IPI], \r\n      ");
-            viewString.Append("      T.DECIMAL_ALIQUOTA_INTERNA_PARA_CALCULO_DIFAL AS [movimentos_produtos_cont");
-            viewString.Append("abeis.DECIMAL_ALIQUOTA_INTERNA_PARA_CALCULO_DIFAL], \r\n            T.BOOL_RETORNO");
-            viewString.Append("_INDUSTRIALIZACAO AS [movimentos_produtos_contabeis.BOOL_RETORNO_INDUSTRIALIZACA");
-            viewString.Append("O], \r\n            T.INT_ID_LOTE_REMESSA_RASTREAR_RETORNO AS [movimentos_produtos");
-            viewString.Append("_contabeis.INT_ID_LOTE_REMESSA_RASTREAR_RETORNO], \r\n            T.INT_ID_NOTA_CA");
-            viewString.Append("NCELADA AS [movimentos_produtos_contabeis.INT_ID_NOTA_CANCELADA], \r\n            ");
-            viewString.Append("T.INT_ID_NOTA_ORIGEM_DO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_NOTA_OR");
-            viewString.Append("IGEM_DO_PRODUTO], \r\n            T.TXT_IND_ADD_PROD AS [movimentos_produtos_conta");
-            viewString.Append("beis.TXT_IND_ADD_PROD], \r\n            T.INT_ID_SOLICITACAO_RETIRADA AS [moviment");
-            viewString.Append("os_produtos_contabeis.INT_ID_SOLICITACAO_RETIRADA], \r\n            T.DECIMAL_TAXA");
-            viewString.Append("_DOLAR AS [movimentos_produtos_contabeis.DECIMAL_TAXA_DOLAR], \r\n            T.IN");
-            viewString.Append("T_ID_ALMOXARIFADO AS [movimentos_produtos_contabeis.INT_ID_ALMOXARIFADO], \r\n    ");
-            viewString.Append("        T.INT_ID_TRANSFERENCIA_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_");
-            viewString.Append("TRANSFERENCIA_PRODUTO], \r\n            T.INT_ID_PROCEDIMENTO AS [movimentos_produ");
-            viewString.Append("tos_contabeis.INT_ID_PROCEDIMENTO], \r\n            T.INT_ID_DEVOLUCAO_COMPRA AS [");
-            viewString.Append("movimentos_produtos_contabeis.INT_ID_DEVOLUCAO_COMPRA], \r\n            T.INT_ID_T");
-            viewString.Append("RANSFERENCIA_ALMOXARIFADO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_TRANS");
-            viewString.Append("FERENCIA_ALMOXARIFADO_PRODUTO], \r\n            T.CHAR_TIPO_NOTA AS [movimentos_pr");
-            viewString.Append("odutos_contabeis.CHAR_TIPO_NOTA], \r\n            T.INT_ID_COTACAO_ITEM AS [movime");
-            viewString.Append("ntos_produtos_contabeis.INT_ID_COTACAO_ITEM], \r\n            T.INT_ID_RESULTADO_R");
-            viewString.Append("EBENEFICIO_NOTA_FILIAL AS [movimentos_produtos_contabeis.INT_ID_RESULTADO_REBENE");
-            viewString.Append("FICIO_NOTA_FILIAL], \r\n            T.INT_ID_LOTE_ENTRADA_NOTA_FILIAL AS [moviment");
-            viewString.Append("os_produtos_contabeis.INT_ID_LOTE_ENTRADA_NOTA_FILIAL], \r\n            T.[INT_ID_");
-            viewString.Append("AUTORIZACAO_DE _CARREGAMENTO_NOTA_FILIAL] AS [movimentos_produtos_contabeis.INT_");
-            viewString.Append("ID_AUTORIZACAO_DE__CARREGAMENTO_NOTA_FILIAL], \r\n            True AS _from0\r\n    ");
+            viewString.Append("ORIZACAO_DE__CARREGAMENTO_NOTA_FILIAL], T1.[movimentos_produtos_contabeis.DECIMA");
+            viewString.Append("L_VALOR_PREMIO_FT])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [movim");
+            viewString.Append("entos_produtos_contabeis.INT_ID], \r\n            T.INT_CODIGO_CONTABIL AS [movime");
+            viewString.Append("ntos_produtos_contabeis.INT_CODIGO_CONTABIL], \r\n            T.DATE_DATA_NF AS [m");
+            viewString.Append("ovimentos_produtos_contabeis.DATE_DATA_NF], \r\n            T.INT_NF AS [movimento");
+            viewString.Append("s_produtos_contabeis.INT_NF], \r\n            T.BOOL_ENTRADA_SAIDA AS [movimentos_");
+            viewString.Append("produtos_contabeis.BOOL_ENTRADA_SAIDA], \r\n            T.INT_ID_DOC AS [movimento");
+            viewString.Append("s_produtos_contabeis.INT_ID_DOC], \r\n            T.CHAR_DOC AS [movimentos_produt");
+            viewString.Append("os_contabeis.CHAR_DOC], \r\n            T.BOOL_ATIVO_EXCLUIDO AS [movimentos_produ");
+            viewString.Append("tos_contabeis.BOOL_ATIVO_EXCLUIDO], \r\n            T.BOOL_COMPRA_COMPL AS [movime");
+            viewString.Append("ntos_produtos_contabeis.BOOL_COMPRA_COMPL], \r\n            T.INT_ID_LANCAMENTO_EX");
+            viewString.Append("TRA AS [movimentos_produtos_contabeis.INT_ID_LANCAMENTO_EXTRA], \r\n            T.");
+            viewString.Append("INT_ID_AUTORIZACAO_DEV_COOP AS [movimentos_produtos_contabeis.INT_ID_AUTORIZACAO");
+            viewString.Append("_DEV_COOP], \r\n            T.INT_ID_LOTE_DO_FECHAMENTO AS [movimentos_produtos_co");
+            viewString.Append("ntabeis.INT_ID_LOTE_DO_FECHAMENTO], \r\n            T.INT_ID_NOTA_DE_ORIGEM AS [mo");
+            viewString.Append("vimentos_produtos_contabeis.INT_ID_NOTA_DE_ORIGEM], \r\n            T.INT_ID_CADAS");
+            viewString.Append("TRO_ENTRADA AS [movimentos_produtos_contabeis.INT_ID_CADASTRO_ENTRADA], \r\n      ");
+            viewString.Append("      T.INT_ORIGEM_DO_PRODUTO AS [movimentos_produtos_contabeis.INT_ORIGEM_DO_PR");
+            viewString.Append("ODUTO], \r\n            T.INT_ID_COMPLEMENTACOES_LOTE AS [movimentos_produtos_cont");
+            viewString.Append("abeis.INT_ID_COMPLEMENTACOES_LOTE], \r\n            T.INT_ID_LOTE_PRODUTO AS [movi");
+            viewString.Append("mentos_produtos_contabeis.INT_ID_LOTE_PRODUTO], \r\n            T.DECIMAL_QTD AS [");
+            viewString.Append("movimentos_produtos_contabeis.DECIMAL_QTD], \r\n            T.INT_ID_MATERIA_PRIMA");
+            viewString.Append("_UTILIZADA AS [movimentos_produtos_contabeis.INT_ID_MATERIA_PRIMA_UTILIZADA], \r\n");
+            viewString.Append("            T.INT_ID_CONTAS_A_PAGAR AS [movimentos_produtos_contabeis.INT_ID_CON");
+            viewString.Append("TAS_A_PAGAR], \r\n            T.DECIMAL_VALOR AS [movimentos_produtos_contabeis.DE");
+            viewString.Append("CIMAL_VALOR], \r\n            T.INT_ID_VENDA_PRESTACAO AS [movimentos_produtos_con");
+            viewString.Append("tabeis.INT_ID_VENDA_PRESTACAO], \r\n            T.DATA_LANCAMENTO AS [movimentos_p");
+            viewString.Append("rodutos_contabeis.DATA_LANCAMENTO], \r\n            T.INT_ID_FUNCIONARIO AS [movim");
+            viewString.Append("entos_produtos_contabeis.INT_ID_FUNCIONARIO], \r\n            T.INT_ID_EMPRESA AS ");
+            viewString.Append("[movimentos_produtos_contabeis.INT_ID_EMPRESA], \r\n            T.INT_ID_CFOP AS [");
+            viewString.Append("movimentos_produtos_contabeis.INT_ID_CFOP], \r\n            T.DECIMAL_PIS AS [movi");
+            viewString.Append("mentos_produtos_contabeis.DECIMAL_PIS], \r\n            T.DECIMAL_COFINS AS [movim");
+            viewString.Append("entos_produtos_contabeis.DECIMAL_COFINS], \r\n            T.DECIMAL_ICMS AS [movim");
+            viewString.Append("entos_produtos_contabeis.DECIMAL_ICMS], \r\n            T.DECIMAL_PISST AS [movime");
+            viewString.Append("ntos_produtos_contabeis.DECIMAL_PISST], \r\n            T.DECIMAL_COFINSST AS [mov");
+            viewString.Append("imentos_produtos_contabeis.DECIMAL_COFINSST], \r\n            T.DECIMAL_ICMSST AS ");
+            viewString.Append("[movimentos_produtos_contabeis.DECIMAL_ICMSST], \r\n            T.DECIMAL_IPI AS [");
+            viewString.Append("movimentos_produtos_contabeis.DECIMAL_IPI], \r\n            T.DECIMAL_ICMS_PARTILH");
+            viewString.Append("A AS [movimentos_produtos_contabeis.DECIMAL_ICMS_PARTILHA], \r\n            T.TXT_");
+            viewString.Append("ICMS_CST AS [movimentos_produtos_contabeis.TXT_ICMS_CST], \r\n            T.TXT_OR");
+            viewString.Append("IGEM_ICMS AS [movimentos_produtos_contabeis.TXT_ORIGEM_ICMS], \r\n            T.TX");
+            viewString.Append("T_ICMS_DESONERACAO AS [movimentos_produtos_contabeis.TXT_ICMS_DESONERACAO], \r\n  ");
+            viewString.Append("          T.TXT_MODALIDADE_DA_BC AS [movimentos_produtos_contabeis.TXT_MODALIDAD");
+            viewString.Append("E_DA_BC], \r\n            T.DECIMAL_ALIQUOTA_ICMS AS [movimentos_produtos_contabei");
+            viewString.Append("s.DECIMAL_ALIQUOTA_ICMS], \r\n            T.DECIMAL_REDUCAO_BC_ICMS AS [movimentos");
+            viewString.Append("_produtos_contabeis.DECIMAL_REDUCAO_BC_ICMS], \r\n            T.DECIMAL_BC_OPERACA");
+            viewString.Append("O_PROPRIA AS [movimentos_produtos_contabeis.DECIMAL_BC_OPERACAO_PROPRIA], \r\n    ");
+            viewString.Append("        T.TXT_MODALIDADE_DE_DET_DA_BC_ICMSST AS [movimentos_produtos_contabeis.T");
+            viewString.Append("XT_MODALIDADE_DE_DET_DA_BC_ICMSST], \r\n            T.DECIMAL_ALIQUOTA_ICMSST AS [");
+            viewString.Append("movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_ICMSST], \r\n            T.DECIMAL_");
+            viewString.Append("REDUCAO_BC_ICMSST AS [movimentos_produtos_contabeis.DECIMAL_REDUCAO_BC_ICMSST], ");
+            viewString.Append("\r\n            T.DECIMAL_MVA AS [movimentos_produtos_contabeis.DECIMAL_MVA], \r\n  ");
+            viewString.Append("          T.TXT_PIS_CST AS [movimentos_produtos_contabeis.TXT_PIS_CST], \r\n      ");
+            viewString.Append("      T.DECIMAL_ALIQUOTA_PIS AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_");
+            viewString.Append("PIS], \r\n            T.DECIMAL_VLR_UN_PIS AS [movimentos_produtos_contabeis.DECIM");
+            viewString.Append("AL_VLR_UN_PIS], \r\n            T.BOOL_PISST AS [movimentos_produtos_contabeis.BOO");
+            viewString.Append("L_PISST], \r\n            T.DECIMAL_ALIQUOTA_PISST AS [movimentos_produtos_contabe");
+            viewString.Append("is.DECIMAL_ALIQUOTA_PISST], \r\n            T.DECIMAL_VLR_UN_PISST AS [movimentos_");
+            viewString.Append("produtos_contabeis.DECIMAL_VLR_UN_PISST], \r\n            T.TXT_CST_COFINS AS [mov");
+            viewString.Append("imentos_produtos_contabeis.TXT_CST_COFINS], \r\n            T.DECIMAL_ALIQUOTA_COF");
+            viewString.Append("INS AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_COFINS], \r\n            T.");
+            viewString.Append("DECIMAL_VLR_UN_COFINS AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_COFINS], ");
+            viewString.Append("\r\n            T.BOOL_COFINSST AS [movimentos_produtos_contabeis.BOOL_COFINSST], ");
+            viewString.Append("\r\n            T.DECIMAL_ALIQUOTA_COFINSST AS [movimentos_produtos_contabeis.DECI");
+            viewString.Append("MAL_ALIQUOTA_COFINSST], \r\n            T.DECIMAL_VLR_UN_COFINSST AS [movimentos_p");
+            viewString.Append("rodutos_contabeis.DECIMAL_VLR_UN_COFINSST], \r\n            T.DECIMAL_ALIQUOTA_IPI");
+            viewString.Append(" AS [movimentos_produtos_contabeis.DECIMAL_ALIQUOTA_IPI], \r\n            T.DECIMA");
+            viewString.Append("L_VLR_UN_IPI AS [movimentos_produtos_contabeis.DECIMAL_VLR_UN_IPI], \r\n          ");
+            viewString.Append("  T.TXT_ENQUADRAMENTO_IPI AS [movimentos_produtos_contabeis.TXT_ENQUADRAMENTO_IP");
+            viewString.Append("I], \r\n            T.DECIMAL_MULTA AS [movimentos_produtos_contabeis.DECIMAL_MULT");
+            viewString.Append("A], \r\n            T.DECIMAL_SEGURO AS [movimentos_produtos_contabeis.DECIMAL_SEG");
+            viewString.Append("URO], \r\n            T.DECIMAL_JUROS AS [movimentos_produtos_contabeis.DECIMAL_JU");
+            viewString.Append("ROS], \r\n            T.DECIMAL_DESCONTO AS [movimentos_produtos_contabeis.DECIMAL");
+            viewString.Append("_DESCONTO], \r\n            T.DECIMAL_FRETE AS [movimentos_produtos_contabeis.DECI");
+            viewString.Append("MAL_FRETE], \r\n            T.DECIMAL_VLR_UN AS [movimentos_produtos_contabeis.DEC");
+            viewString.Append("IMAL_VLR_UN], \r\n            T.TXT_NATUREZA_DA_RECEITA AS [movimentos_produtos_co");
+            viewString.Append("ntabeis.TXT_NATUREZA_DA_RECEITA], \r\n            T.INT_ID_NOTA_FISCAL AS [movimen");
+            viewString.Append("tos_produtos_contabeis.INT_ID_NOTA_FISCAL], \r\n            T.DECIMAL_BC_ICMS AS [");
+            viewString.Append("movimentos_produtos_contabeis.DECIMAL_BC_ICMS], \r\n            T.DECIMAL_BC_ICMSS");
+            viewString.Append("T AS [movimentos_produtos_contabeis.DECIMAL_BC_ICMSST], \r\n            T.TXT_CST_");
+            viewString.Append("IPI AS [movimentos_produtos_contabeis.TXT_CST_IPI], \r\n            T.DECIMAL_ALIQ");
+            viewString.Append("UOTA_INTERNA_PARA_CALCULO_DIFAL AS [movimentos_produtos_contabeis.DECIMAL_ALIQUO");
+            viewString.Append("TA_INTERNA_PARA_CALCULO_DIFAL], \r\n            T.BOOL_RETORNO_INDUSTRIALIZACAO AS");
+            viewString.Append(" [movimentos_produtos_contabeis.BOOL_RETORNO_INDUSTRIALIZACAO], \r\n            T.");
+            viewString.Append("INT_ID_LOTE_REMESSA_RASTREAR_RETORNO AS [movimentos_produtos_contabeis.INT_ID_LO");
+            viewString.Append("TE_REMESSA_RASTREAR_RETORNO], \r\n            T.INT_ID_NOTA_CANCELADA AS [moviment");
+            viewString.Append("os_produtos_contabeis.INT_ID_NOTA_CANCELADA], \r\n            T.INT_ID_NOTA_ORIGEM");
+            viewString.Append("_DO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_NOTA_ORIGEM_DO_PRODUTO], \r\n");
+            viewString.Append("            T.TXT_IND_ADD_PROD AS [movimentos_produtos_contabeis.TXT_IND_ADD_PRO");
+            viewString.Append("D], \r\n            T.INT_ID_SOLICITACAO_RETIRADA AS [movimentos_produtos_contabei");
+            viewString.Append("s.INT_ID_SOLICITACAO_RETIRADA], \r\n            T.DECIMAL_TAXA_DOLAR AS [movimento");
+            viewString.Append("s_produtos_contabeis.DECIMAL_TAXA_DOLAR], \r\n            T.INT_ID_ALMOXARIFADO AS");
+            viewString.Append(" [movimentos_produtos_contabeis.INT_ID_ALMOXARIFADO], \r\n            T.INT_ID_TRA");
+            viewString.Append("NSFERENCIA_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_TRANSFERENCIA_PRODUT");
+            viewString.Append("O], \r\n            T.INT_ID_PROCEDIMENTO AS [movimentos_produtos_contabeis.INT_ID");
+            viewString.Append("_PROCEDIMENTO], \r\n            T.INT_ID_DEVOLUCAO_COMPRA AS [movimentos_produtos_");
+            viewString.Append("contabeis.INT_ID_DEVOLUCAO_COMPRA], \r\n            T.INT_ID_TRANSFERENCIA_ALMOXAR");
+            viewString.Append("IFADO_PRODUTO AS [movimentos_produtos_contabeis.INT_ID_TRANSFERENCIA_ALMOXARIFAD");
+            viewString.Append("O_PRODUTO], \r\n            T.CHAR_TIPO_NOTA AS [movimentos_produtos_contabeis.CHA");
+            viewString.Append("R_TIPO_NOTA], \r\n            T.INT_ID_COTACAO_ITEM AS [movimentos_produtos_contab");
+            viewString.Append("eis.INT_ID_COTACAO_ITEM], \r\n            T.INT_ID_RESULTADO_REBENEFICIO_NOTA_FILI");
+            viewString.Append("AL AS [movimentos_produtos_contabeis.INT_ID_RESULTADO_REBENEFICIO_NOTA_FILIAL], ");
+            viewString.Append("\r\n            T.INT_ID_LOTE_ENTRADA_NOTA_FILIAL AS [movimentos_produtos_contabei");
+            viewString.Append("s.INT_ID_LOTE_ENTRADA_NOTA_FILIAL], \r\n            T.[INT_ID_AUTORIZACAO_DE _CARR");
+            viewString.Append("EGAMENTO_NOTA_FILIAL] AS [movimentos_produtos_contabeis.INT_ID_AUTORIZACAO_DE__C");
+            viewString.Append("ARREGAMENTO_NOTA_FILIAL], \r\n            T.DECIMAL_VALOR_PREMIO_FT AS [movimentos");
+            viewString.Append("_produtos_contabeis.DECIMAL_VALOR_PREMIO_FT], \r\n            True AS _from0\r\n    ");
             viewString.Append("    FROM db_coopfamModelStoreContainer.movimentos_produtos_contabeis AS T\r\n    )");
             viewString.Append(" AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.movimentos_produtos_contabeis", viewString.ToString());
@@ -15171,7 +16059,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView435()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView454()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.norma", @"
     SELECT VALUE -- Constructing norma
@@ -15192,7 +16080,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.norma_cooperado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView436()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView455()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.norma_cooperado", @"
     SELECT VALUE -- Constructing norma_cooperado
@@ -15210,7 +16098,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.norma_talhao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView437()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView456()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.norma_talhao", @"
     SELECT VALUE -- Constructing norma_talhao
@@ -15233,7 +16121,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.norma_talhao_historico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView438()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView457()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.norma_talhao_historico", @"
     SELECT VALUE -- Constructing norma_talhao_historico
@@ -15251,7 +16139,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.normas_resultante_instrucao_preparo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView439()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView458()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.normas_resultante_instrucao_preparo", @"
     SELECT VALUE -- Constructing normas_resultante_instrucao_preparo
@@ -15270,7 +16158,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.nota_fiscal
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView440()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView459()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(5271);
             viewString.Append("\r\n    SELECT VALUE -- Constructing nota_fiscal\r\n        [db_coopfamModel.nota_fi");
@@ -15345,7 +16233,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.notas_canceladas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView441()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView460()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.notas_canceladas", "\r\n    SELECT VALUE -- Constructing notas_canceladas\r\n        [db_coopfamModel.not" +
                     "as_canceladas](T1.[notas_canceladas.INT_ID], T1.[notas_canceladas.INT_NOTA_COMP]" +
@@ -15373,7 +16261,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.notas_de_origem
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView442()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView461()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.notas_de_origem", @"
     SELECT VALUE -- Constructing notas_de_origem
@@ -15398,7 +16286,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.notas_para_assinar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView443()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView462()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.notas_para_assinar", @"
     SELECT VALUE -- Constructing notas_para_assinar
@@ -15418,11 +16306,30 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.ods
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView463()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ods", @"
+    SELECT VALUE -- Constructing ods
+        [db_coopfamModel.ods](T1.[ods.INT_ID], T1.[ods.TXT_DESCRICAO], T1.[ods.TXT_EXPLICACAO], T1.[ods.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [ods.INT_ID], 
+            T.TXT_DESCRICAO AS [ods.TXT_DESCRICAO], 
+            T.TXT_EXPLICACAO AS [ods.TXT_EXPLICACAO], 
+            T.BOOL_ATIVO AS [ods.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.ods AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ordem_de_producao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView444()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView464()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(8088);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(8321);
             viewString.Append("\r\n    SELECT VALUE -- Constructing ordem_de_producao\r\n        [db_coopfamModel.o");
             viewString.Append("rdem_de_producao](T1.[ordem_de_producao.INT_ID], T1.[ordem_de_producao.INT_ID_CL");
             viewString.Append("IENTE_FORNECEDOR], T1.[ordem_de_producao.TXT_NUMERO_OP], T1.[ordem_de_producao.B");
@@ -15459,79 +16366,82 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append(", T1.[ordem_de_producao.BOOL_SELECIONAR_LOTE_EM_ESTOQUE], T1.[ordem_de_producao.");
             viewString.Append("TXT_TIPO_SERVICO], T1.[ordem_de_producao.BOOL_NAO_SERA_NECESSARIO_ROTULAR], T1.[");
             viewString.Append("ordem_de_producao.INT_ID_EMPACOTADEIRA], T1.[ordem_de_producao.INT_ID_REVISAO_PO");
-            viewString.Append("P])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [ordem_de_producao.INT");
-            viewString.Append("_ID], \r\n            T.INT_ID_CLIENTE_FORNECEDOR AS [ordem_de_producao.INT_ID_CLI");
-            viewString.Append("ENTE_FORNECEDOR], \r\n            T.TXT_NUMERO_OP AS [ordem_de_producao.TXT_NUMERO");
-            viewString.Append("_OP], \r\n            T.BOOL_COOPERADO AS [ordem_de_producao.BOOL_COOPERADO], \r\n  ");
-            viewString.Append("          T.INT_ID_COOPERAD AS [ordem_de_producao.INT_ID_COOPERAD], \r\n          ");
-            viewString.Append("  T.BOOL_ORG_CONV AS [ordem_de_producao.BOOL_ORG_CONV], \r\n            T.INT_ID_S");
-            viewString.Append("UBTIPO AS [ordem_de_producao.INT_ID_SUBTIPO], \r\n            T.DECIMAL_QTD AS [or");
-            viewString.Append("dem_de_producao.DECIMAL_QTD], \r\n            T.DATE_LANCAMENTO AS [ordem_de_produ");
-            viewString.Append("cao.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNCIONARIO AS [ordem_de_producao.I");
-            viewString.Append("NT_ID_FUNCIONARIO], \r\n            T.DATE_ORDEM_PRODUCAO AS [ordem_de_producao.DA");
-            viewString.Append("TE_ORDEM_PRODUCAO], \r\n            T.DATE_FINALIZOU AS [ordem_de_producao.DATE_FI");
-            viewString.Append("NALIZOU], \r\n            T.BOOL_LIMPEZA AS [ordem_de_producao.BOOL_LIMPEZA], \r\n  ");
-            viewString.Append("          T.TXT_OBS_LIMPEZA AS [ordem_de_producao.TXT_OBS_LIMPEZA], \r\n          ");
-            viewString.Append("  T.INT_ID_RESPONSAVEL_LIMPEZA AS [ordem_de_producao.INT_ID_RESPONSAVEL_LIMPEZA]");
-            viewString.Append(", \r\n            T.DATE_INI_TORRA AS [ordem_de_producao.DATE_INI_TORRA], \r\n      ");
-            viewString.Append("      T.DATE_FIM_TORRA AS [ordem_de_producao.DATE_FIM_TORRA], \r\n            T.DA");
-            viewString.Append("TE_INI_MOINHO AS [ordem_de_producao.DATE_INI_MOINHO], \r\n            T.DATE_FIM_M");
-            viewString.Append("OINHO AS [ordem_de_producao.DATE_FIM_MOINHO], \r\n            T.BOOL_TORRADO_MOIDO");
-            viewString.Append("_ESPRESSO AS [ordem_de_producao.BOOL_TORRADO_MOIDO_ESPRESSO], \r\n            T.DA");
-            viewString.Append("TE_INI_EMPACOTADEIRA AS [ordem_de_producao.DATE_INI_EMPACOTADEIRA], \r\n          ");
-            viewString.Append("  T.DATE_FIM_EMPACOTADEIRA AS [ordem_de_producao.DATE_FIM_EMPACOTADEIRA], \r\n    ");
-            viewString.Append("        T.DATE_INI_ROTULAGEM AS [ordem_de_producao.DATE_INI_ROTULAGEM], \r\n      ");
-            viewString.Append("      T.DATE_FIM_ROTULAGEM AS [ordem_de_producao.DATE_FIM_ROTULAGEM], \r\n        ");
-            viewString.Append("    T.DATE_ESTIMADO_FINALIZAR AS [ordem_de_producao.DATE_ESTIMADO_FINALIZAR], \r\n");
-            viewString.Append("            T.INT_ID_RESPONSAVEL_INDUSTRIALIZACAO AS [ordem_de_producao.INT_ID_R");
-            viewString.Append("ESPONSAVEL_INDUSTRIALIZACAO], \r\n            T.INT_ID_RESPONSAVEL_ROTULAGEM_EMBAL");
-            viewString.Append("AGEM AS [ordem_de_producao.INT_ID_RESPONSAVEL_ROTULAGEM_EMBALAGEM], \r\n          ");
-            viewString.Append("  T.INT_ID_REPONSAVEL_GERAL_PELA_IND AS [ordem_de_producao.INT_ID_REPONSAVEL_GER");
-            viewString.Append("AL_PELA_IND], \r\n            T.TXT_OBS AS [ordem_de_producao.TXT_OBS], \r\n        ");
-            viewString.Append("    T.BOOL_LIMPEZA_PERIODICA AS [ordem_de_producao.BOOL_LIMPEZA_PERIODICA], \r\n  ");
-            viewString.Append("          T.BOOL_LIMPEZA_iNDUSTRIA AS [ordem_de_producao.BOOL_LIMPEZA_iNDUSTRIA]");
-            viewString.Append(", \r\n            T.BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV AS [ordem_de_producao.");
-            viewString.Append("BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV], \r\n            T.BOOL_TORRAR AS [ordem_");
-            viewString.Append("de_producao.BOOL_TORRAR], \r\n            T.BOOL_MOER AS [ordem_de_producao.BOOL_M");
-            viewString.Append("OER], \r\n            T.BOOL_EMPACOTAR AS [ordem_de_producao.BOOL_EMPACOTAR], \r\n  ");
-            viewString.Append("          T.BOOL_ROTULAGEM AS [ordem_de_producao.BOOL_ROTULAGEM], \r\n            ");
-            viewString.Append("T.INT_ID_MAQUINARIO AS [ordem_de_producao.INT_ID_MAQUINARIO], \r\n            T.BO");
-            viewString.Append("OL_ATIVO AS [ordem_de_producao.BOOL_ATIVO], \r\n            T.BOOL_TORRA_CLARA AS ");
-            viewString.Append("[ordem_de_producao.BOOL_TORRA_CLARA], \r\n            T.BOOL_TORRA_MEDIA AS [ordem");
-            viewString.Append("_de_producao.BOOL_TORRA_MEDIA], \r\n            T.BOOL_TORRA_ESCURA AS [ordem_de_p");
-            viewString.Append("roducao.BOOL_TORRA_ESCURA], \r\n            T.TXT_DESCRICAO_DO_SERVICO AS [ordem_d");
-            viewString.Append("e_producao.TXT_DESCRICAO_DO_SERVICO], \r\n            T.TXT_STATUS AS [ordem_de_pr");
-            viewString.Append("oducao.TXT_STATUS], \r\n            T.DATE_AVISADO AS [ordem_de_producao.DATE_AVIS");
-            viewString.Append("ADO], \r\n            T.DATE_ENTREGUE AS [ordem_de_producao.DATE_ENTREGUE], \r\n    ");
-            viewString.Append("        T.INT_ID_EMPRESA AS [ordem_de_producao.INT_ID_EMPRESA], \r\n            T.");
-            viewString.Append("INT_ID_LINHA AS [ordem_de_producao.INT_ID_LINHA], \r\n            T.INT_ID_AUTORIZ");
-            viewString.Append("ACAO_GENERICA AS [ordem_de_producao.INT_ID_AUTORIZACAO_GENERICA], \r\n            ");
-            viewString.Append("T.DATE_INI_RESFRIAR AS [ordem_de_producao.DATE_INI_RESFRIAR], \r\n            T.DA");
-            viewString.Append("TE_FIM_RESFRIAR AS [ordem_de_producao.DATE_FIM_RESFRIAR], \r\n            T.INT_ID");
-            viewString.Append("_RESPONSAVEL_RESFRIAR AS [ordem_de_producao.INT_ID_RESPONSAVEL_RESFRIAR], \r\n    ");
-            viewString.Append("        T.DECIMAL_TEMPERATURA_MEDIA AS [ordem_de_producao.DECIMAL_TEMPERATURA_ME");
-            viewString.Append("DIA], \r\n            T.DECIMAL_QTD_RESULTANTE AS [ordem_de_producao.DECIMAL_QTD_R");
-            viewString.Append("ESULTANTE], \r\n            T.INT_ID_RESPONSAVEL_TORRA AS [ordem_de_producao.INT_I");
-            viewString.Append("D_RESPONSAVEL_TORRA], \r\n            T.INT_ID_RESPONSAVEL_MOAGEM AS [ordem_de_pro");
-            viewString.Append("ducao.INT_ID_RESPONSAVEL_MOAGEM], \r\n            T.INT_ID_RESPONSAVEL_EMPACOTAR A");
-            viewString.Append("S [ordem_de_producao.INT_ID_RESPONSAVEL_EMPACOTAR], \r\n            T.INT_ID_SITUA");
-            viewString.Append("CAO_NORMA AS [ordem_de_producao.INT_ID_SITUACAO_NORMA], \r\n            T.INT_ID_P");
-            viewString.Append("RODUTO_CONTABIL_QUE_SERA_GERADO AS [ordem_de_producao.INT_ID_PRODUTO_CONTABIL_QU");
-            viewString.Append("E_SERA_GERADO], \r\n            T.BOOL_SELECIONAR_LOTE_EM_ESTOQUE AS [ordem_de_pro");
-            viewString.Append("ducao.BOOL_SELECIONAR_LOTE_EM_ESTOQUE], \r\n            T.TXT_TIPO_SERVICO AS [ord");
-            viewString.Append("em_de_producao.TXT_TIPO_SERVICO], \r\n            T.BOOL_NAO_SERA_NECESSARIO_ROTUL");
-            viewString.Append("AR AS [ordem_de_producao.BOOL_NAO_SERA_NECESSARIO_ROTULAR], \r\n            T.INT_");
-            viewString.Append("ID_EMPACOTADEIRA AS [ordem_de_producao.INT_ID_EMPACOTADEIRA], \r\n            T.IN");
-            viewString.Append("T_ID_REVISAO_POP AS [ordem_de_producao.INT_ID_REVISAO_POP], \r\n            True A");
-            viewString.Append("S _from0\r\n        FROM db_coopfamModelStoreContainer.ordem_de_producao AS T\r\n   ");
-            viewString.Append(" ) AS T1");
+            viewString.Append("P], T1.[ordem_de_producao.BOOL_FT], T1.[ordem_de_producao.DECIMAL_TAXA_DOLAR_CAL");
+            viewString.Append("C_FT])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [ordem_de_producao.");
+            viewString.Append("INT_ID], \r\n            T.INT_ID_CLIENTE_FORNECEDOR AS [ordem_de_producao.INT_ID_");
+            viewString.Append("CLIENTE_FORNECEDOR], \r\n            T.TXT_NUMERO_OP AS [ordem_de_producao.TXT_NUM");
+            viewString.Append("ERO_OP], \r\n            T.BOOL_COOPERADO AS [ordem_de_producao.BOOL_COOPERADO], \r");
+            viewString.Append("\n            T.INT_ID_COOPERAD AS [ordem_de_producao.INT_ID_COOPERAD], \r\n       ");
+            viewString.Append("     T.BOOL_ORG_CONV AS [ordem_de_producao.BOOL_ORG_CONV], \r\n            T.INT_I");
+            viewString.Append("D_SUBTIPO AS [ordem_de_producao.INT_ID_SUBTIPO], \r\n            T.DECIMAL_QTD AS ");
+            viewString.Append("[ordem_de_producao.DECIMAL_QTD], \r\n            T.DATE_LANCAMENTO AS [ordem_de_pr");
+            viewString.Append("oducao.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNCIONARIO AS [ordem_de_produca");
+            viewString.Append("o.INT_ID_FUNCIONARIO], \r\n            T.DATE_ORDEM_PRODUCAO AS [ordem_de_producao");
+            viewString.Append(".DATE_ORDEM_PRODUCAO], \r\n            T.DATE_FINALIZOU AS [ordem_de_producao.DATE");
+            viewString.Append("_FINALIZOU], \r\n            T.BOOL_LIMPEZA AS [ordem_de_producao.BOOL_LIMPEZA], \r");
+            viewString.Append("\n            T.TXT_OBS_LIMPEZA AS [ordem_de_producao.TXT_OBS_LIMPEZA], \r\n       ");
+            viewString.Append("     T.INT_ID_RESPONSAVEL_LIMPEZA AS [ordem_de_producao.INT_ID_RESPONSAVEL_LIMPE");
+            viewString.Append("ZA], \r\n            T.DATE_INI_TORRA AS [ordem_de_producao.DATE_INI_TORRA], \r\n   ");
+            viewString.Append("         T.DATE_FIM_TORRA AS [ordem_de_producao.DATE_FIM_TORRA], \r\n            T");
+            viewString.Append(".DATE_INI_MOINHO AS [ordem_de_producao.DATE_INI_MOINHO], \r\n            T.DATE_FI");
+            viewString.Append("M_MOINHO AS [ordem_de_producao.DATE_FIM_MOINHO], \r\n            T.BOOL_TORRADO_MO");
+            viewString.Append("IDO_ESPRESSO AS [ordem_de_producao.BOOL_TORRADO_MOIDO_ESPRESSO], \r\n            T");
+            viewString.Append(".DATE_INI_EMPACOTADEIRA AS [ordem_de_producao.DATE_INI_EMPACOTADEIRA], \r\n       ");
+            viewString.Append("     T.DATE_FIM_EMPACOTADEIRA AS [ordem_de_producao.DATE_FIM_EMPACOTADEIRA], \r\n ");
+            viewString.Append("           T.DATE_INI_ROTULAGEM AS [ordem_de_producao.DATE_INI_ROTULAGEM], \r\n   ");
+            viewString.Append("         T.DATE_FIM_ROTULAGEM AS [ordem_de_producao.DATE_FIM_ROTULAGEM], \r\n     ");
+            viewString.Append("       T.DATE_ESTIMADO_FINALIZAR AS [ordem_de_producao.DATE_ESTIMADO_FINALIZAR],");
+            viewString.Append(" \r\n            T.INT_ID_RESPONSAVEL_INDUSTRIALIZACAO AS [ordem_de_producao.INT_I");
+            viewString.Append("D_RESPONSAVEL_INDUSTRIALIZACAO], \r\n            T.INT_ID_RESPONSAVEL_ROTULAGEM_EM");
+            viewString.Append("BALAGEM AS [ordem_de_producao.INT_ID_RESPONSAVEL_ROTULAGEM_EMBALAGEM], \r\n       ");
+            viewString.Append("     T.INT_ID_REPONSAVEL_GERAL_PELA_IND AS [ordem_de_producao.INT_ID_REPONSAVEL_");
+            viewString.Append("GERAL_PELA_IND], \r\n            T.TXT_OBS AS [ordem_de_producao.TXT_OBS], \r\n     ");
+            viewString.Append("       T.BOOL_LIMPEZA_PERIODICA AS [ordem_de_producao.BOOL_LIMPEZA_PERIODICA], \r");
+            viewString.Append("\n            T.BOOL_LIMPEZA_iNDUSTRIA AS [ordem_de_producao.BOOL_LIMPEZA_iNDUSTR");
+            viewString.Append("IA], \r\n            T.BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV AS [ordem_de_produc");
+            viewString.Append("ao.BOOL_CAFE_UTILIZADO_NA_LIMPEZA_ORG_CONV], \r\n            T.BOOL_TORRAR AS [ord");
+            viewString.Append("em_de_producao.BOOL_TORRAR], \r\n            T.BOOL_MOER AS [ordem_de_producao.BOO");
+            viewString.Append("L_MOER], \r\n            T.BOOL_EMPACOTAR AS [ordem_de_producao.BOOL_EMPACOTAR], \r");
+            viewString.Append("\n            T.BOOL_ROTULAGEM AS [ordem_de_producao.BOOL_ROTULAGEM], \r\n         ");
+            viewString.Append("   T.INT_ID_MAQUINARIO AS [ordem_de_producao.INT_ID_MAQUINARIO], \r\n            T");
+            viewString.Append(".BOOL_ATIVO AS [ordem_de_producao.BOOL_ATIVO], \r\n            T.BOOL_TORRA_CLARA ");
+            viewString.Append("AS [ordem_de_producao.BOOL_TORRA_CLARA], \r\n            T.BOOL_TORRA_MEDIA AS [or");
+            viewString.Append("dem_de_producao.BOOL_TORRA_MEDIA], \r\n            T.BOOL_TORRA_ESCURA AS [ordem_d");
+            viewString.Append("e_producao.BOOL_TORRA_ESCURA], \r\n            T.TXT_DESCRICAO_DO_SERVICO AS [orde");
+            viewString.Append("m_de_producao.TXT_DESCRICAO_DO_SERVICO], \r\n            T.TXT_STATUS AS [ordem_de");
+            viewString.Append("_producao.TXT_STATUS], \r\n            T.DATE_AVISADO AS [ordem_de_producao.DATE_A");
+            viewString.Append("VISADO], \r\n            T.DATE_ENTREGUE AS [ordem_de_producao.DATE_ENTREGUE], \r\n ");
+            viewString.Append("           T.INT_ID_EMPRESA AS [ordem_de_producao.INT_ID_EMPRESA], \r\n           ");
+            viewString.Append(" T.INT_ID_LINHA AS [ordem_de_producao.INT_ID_LINHA], \r\n            T.INT_ID_AUTO");
+            viewString.Append("RIZACAO_GENERICA AS [ordem_de_producao.INT_ID_AUTORIZACAO_GENERICA], \r\n         ");
+            viewString.Append("   T.DATE_INI_RESFRIAR AS [ordem_de_producao.DATE_INI_RESFRIAR], \r\n            T");
+            viewString.Append(".DATE_FIM_RESFRIAR AS [ordem_de_producao.DATE_FIM_RESFRIAR], \r\n            T.INT");
+            viewString.Append("_ID_RESPONSAVEL_RESFRIAR AS [ordem_de_producao.INT_ID_RESPONSAVEL_RESFRIAR], \r\n ");
+            viewString.Append("           T.DECIMAL_TEMPERATURA_MEDIA AS [ordem_de_producao.DECIMAL_TEMPERATURA");
+            viewString.Append("_MEDIA], \r\n            T.DECIMAL_QTD_RESULTANTE AS [ordem_de_producao.DECIMAL_QT");
+            viewString.Append("D_RESULTANTE], \r\n            T.INT_ID_RESPONSAVEL_TORRA AS [ordem_de_producao.IN");
+            viewString.Append("T_ID_RESPONSAVEL_TORRA], \r\n            T.INT_ID_RESPONSAVEL_MOAGEM AS [ordem_de_");
+            viewString.Append("producao.INT_ID_RESPONSAVEL_MOAGEM], \r\n            T.INT_ID_RESPONSAVEL_EMPACOTA");
+            viewString.Append("R AS [ordem_de_producao.INT_ID_RESPONSAVEL_EMPACOTAR], \r\n            T.INT_ID_SI");
+            viewString.Append("TUACAO_NORMA AS [ordem_de_producao.INT_ID_SITUACAO_NORMA], \r\n            T.INT_I");
+            viewString.Append("D_PRODUTO_CONTABIL_QUE_SERA_GERADO AS [ordem_de_producao.INT_ID_PRODUTO_CONTABIL");
+            viewString.Append("_QUE_SERA_GERADO], \r\n            T.BOOL_SELECIONAR_LOTE_EM_ESTOQUE AS [ordem_de_");
+            viewString.Append("producao.BOOL_SELECIONAR_LOTE_EM_ESTOQUE], \r\n            T.TXT_TIPO_SERVICO AS [");
+            viewString.Append("ordem_de_producao.TXT_TIPO_SERVICO], \r\n            T.BOOL_NAO_SERA_NECESSARIO_RO");
+            viewString.Append("TULAR AS [ordem_de_producao.BOOL_NAO_SERA_NECESSARIO_ROTULAR], \r\n            T.I");
+            viewString.Append("NT_ID_EMPACOTADEIRA AS [ordem_de_producao.INT_ID_EMPACOTADEIRA], \r\n            T");
+            viewString.Append(".INT_ID_REVISAO_POP AS [ordem_de_producao.INT_ID_REVISAO_POP], \r\n            T.B");
+            viewString.Append("OOL_FT AS [ordem_de_producao.BOOL_FT], \r\n            T.DECIMAL_TAXA_DOLAR_CALC_F");
+            viewString.Append("T AS [ordem_de_producao.DECIMAL_TAXA_DOLAR_CALC_FT], \r\n            True AS _from");
+            viewString.Append("0\r\n        FROM db_coopfamModelStoreContainer.ordem_de_producao AS T\r\n    ) AS T");
+            viewString.Append("1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_de_producao", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ordem_de_producao_embalagens
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView445()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView465()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_de_producao_embalagens", @"
     SELECT VALUE -- Constructing ordem_de_producao_embalagens
@@ -15554,7 +16464,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ordem_de_producao_produtos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView446()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView466()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_de_producao_produtos", @"
     SELECT VALUE -- Constructing ordem_de_producao_produtos
@@ -15577,7 +16487,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ordem_de_producao_produtos_utilizados
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView447()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView467()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_de_producao_produtos_utilizados", "\r\n    SELECT VALUE -- Constructing ordem_de_producao_produtos_utilizados\r\n       " +
                     " [db_coopfamModel.ordem_de_producao_produtos_utilizados](T1.[ordem_de_producao_p" +
@@ -15605,7 +16515,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ordem_de_producao_resultado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView448()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView468()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_de_producao_resultado", "\r\n    SELECT VALUE -- Constructing ordem_de_producao_resultado\r\n        [db_coopf" +
                     "amModel.ordem_de_producao_resultado](T1.[ordem_de_producao_resultado.INT_ID], T1" +
@@ -15635,7 +16545,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ordem_de_producao_situacaonorma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView449()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView469()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_de_producao_situacaonorma", @"
     SELECT VALUE -- Constructing ordem_de_producao_situacaonorma
@@ -15654,7 +16564,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ordem_de_producao_tempo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView450()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView470()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3554);
             viewString.Append("\r\n    SELECT VALUE -- Constructing ordem_de_producao_tempo\r\n        [db_coopfamM");
@@ -15706,9 +16616,133 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.ordem_reensaque
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView471()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_reensaque", "\r\n    SELECT VALUE -- Constructing ordem_reensaque\r\n        [db_coopfamModel.orde" +
+                    "m_reensaque](T1.[ordem_reensaque.INT_ID], T1.[ordem_reensaque.TXT_NR_ORDEM], T1." +
+                    "[ordem_reensaque.TXT_SAFRA], T1.[ordem_reensaque.INT_ID_RESPONSAVEL], T1.[ordem_" +
+                    "reensaque.BOOL_ATIVO], T1.[ordem_reensaque.INT_ID_TIPO_SACARIA], T1.[ordem_reens" +
+                    "aque.INT_ID_CONTRATO], T1.[ordem_reensaque.INT_ID_LANCOU], T1.[ordem_reensaque.D" +
+                    "ATE_LANCAMENTO], T1.[ordem_reensaque.INT_ID_ALTEROU], T1.[ordem_reensaque.DATE_A" +
+                    "LTEROU], T1.[ordem_reensaque.INT_ID_EXCLUIU], T1.[ordem_reensaque.DATE_EXCLUIU]," +
+                    " T1.[ordem_reensaque.TXT_OBS], T1.[ordem_reensaque.TXT_STATUS], T1.[ordem_reensa" +
+                    "que.DATE_ORDEM])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [ordem_re" +
+                    "ensaque.INT_ID], \r\n            T.TXT_NR_ORDEM AS [ordem_reensaque.TXT_NR_ORDEM]," +
+                    " \r\n            T.TXT_SAFRA AS [ordem_reensaque.TXT_SAFRA], \r\n            T.INT_I" +
+                    "D_RESPONSAVEL AS [ordem_reensaque.INT_ID_RESPONSAVEL], \r\n            T.BOOL_ATIV" +
+                    "O AS [ordem_reensaque.BOOL_ATIVO], \r\n            T.INT_ID_TIPO_SACARIA AS [ordem" +
+                    "_reensaque.INT_ID_TIPO_SACARIA], \r\n            T.INT_ID_CONTRATO AS [ordem_reens" +
+                    "aque.INT_ID_CONTRATO], \r\n            T.INT_ID_LANCOU AS [ordem_reensaque.INT_ID_" +
+                    "LANCOU], \r\n            T.DATE_LANCAMENTO AS [ordem_reensaque.DATE_LANCAMENTO], \r" +
+                    "\n            T.INT_ID_ALTEROU AS [ordem_reensaque.INT_ID_ALTEROU], \r\n           " +
+                    " T.DATE_ALTEROU AS [ordem_reensaque.DATE_ALTEROU], \r\n            T.INT_ID_EXCLUI" +
+                    "U AS [ordem_reensaque.INT_ID_EXCLUIU], \r\n            T.DATE_EXCLUIU AS [ordem_re" +
+                    "ensaque.DATE_EXCLUIU], \r\n            T.TXT_OBS AS [ordem_reensaque.TXT_OBS], \r\n " +
+                    "           T.TXT_STATUS AS [ordem_reensaque.TXT_STATUS], \r\n            T.DATE_OR" +
+                    "DEM AS [ordem_reensaque.DATE_ORDEM], \r\n            True AS _from0\r\n        FROM " +
+                    "db_coopfamModelStoreContainer.ordem_reensaque AS T\r\n    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.ordem_reensaque_lotes
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView472()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_reensaque_lotes", "\r\n    SELECT VALUE -- Constructing ordem_reensaque_lotes\r\n        [db_coopfamMode" +
+                    "l.ordem_reensaque_lotes](T1.[ordem_reensaque_lotes.INT_ID], T1.[ordem_reensaque_" +
+                    "lotes.INT_ID_ORDEM_REENSAQUE], T1.[ordem_reensaque_lotes.INT_ID_CADASTRO_ENTRADA" +
+                    "], T1.[ordem_reensaque_lotes.INT_ID_LOTE_ARMAZEN_TERCEIROS], T1.[ordem_reensaque" +
+                    "_lotes.INT_ID_LOTE_RESULTADO_REBENEFICIO], T1.[ordem_reensaque_lotes.DECIMAL_SCS" +
+                    "], T1.[ordem_reensaque_lotes.BOOL_ATIVO], T1.[ordem_reensaque_lotes.INT_ID_LANCO" +
+                    "U], T1.[ordem_reensaque_lotes.DATE_LANCAMENTO], T1.[ordem_reensaque_lotes.INT_ID" +
+                    "_ALTEROU], T1.[ordem_reensaque_lotes.DATE_ALTEROU], T1.[ordem_reensaque_lotes.IN" +
+                    "T_ID_EXCLUIU], T1.[ordem_reensaque_lotes.DATE_EXCLUIU])\r\n    FROM (\r\n        SEL" +
+                    "ECT \r\n            T.INT_ID AS [ordem_reensaque_lotes.INT_ID], \r\n            T.IN" +
+                    "T_ID_ORDEM_REENSAQUE AS [ordem_reensaque_lotes.INT_ID_ORDEM_REENSAQUE], \r\n      " +
+                    "      T.INT_ID_CADASTRO_ENTRADA AS [ordem_reensaque_lotes.INT_ID_CADASTRO_ENTRAD" +
+                    "A], \r\n            T.INT_ID_LOTE_ARMAZEN_TERCEIROS AS [ordem_reensaque_lotes.INT_" +
+                    "ID_LOTE_ARMAZEN_TERCEIROS], \r\n            T.INT_ID_LOTE_RESULTADO_REBENEFICIO AS" +
+                    " [ordem_reensaque_lotes.INT_ID_LOTE_RESULTADO_REBENEFICIO], \r\n            T.DECI" +
+                    "MAL_SCS AS [ordem_reensaque_lotes.DECIMAL_SCS], \r\n            T.BOOL_ATIVO AS [o" +
+                    "rdem_reensaque_lotes.BOOL_ATIVO], \r\n            T.INT_ID_LANCOU AS [ordem_reensa" +
+                    "que_lotes.INT_ID_LANCOU], \r\n            T.DATE_LANCAMENTO AS [ordem_reensaque_lo" +
+                    "tes.DATE_LANCAMENTO], \r\n            T.INT_ID_ALTEROU AS [ordem_reensaque_lotes.I" +
+                    "NT_ID_ALTEROU], \r\n            T.DATE_ALTEROU AS [ordem_reensaque_lotes.DATE_ALTE" +
+                    "ROU], \r\n            T.INT_ID_EXCLUIU AS [ordem_reensaque_lotes.INT_ID_EXCLUIU], " +
+                    "\r\n            T.DATE_EXCLUIU AS [ordem_reensaque_lotes.DATE_EXCLUIU], \r\n        " +
+                    "    True AS _from0\r\n        FROM db_coopfamModelStoreContainer.ordem_reensaque_l" +
+                    "otes AS T\r\n    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.ordem_servico_celular
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView473()
+        {
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4266);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing ordem_servico_celular\r\n        [db_coopfamMod");
+            viewString.Append("el.ordem_servico_celular](T1.[ordem_servico_celular.INT_ID], T1.[ordem_servico_c");
+            viewString.Append("elular.INT_ID_CLIENTE], T1.[ordem_servico_celular.TXT_MODELO], T1.[ordem_servico");
+            viewString.Append("_celular.TXT_MARCA], T1.[ordem_servico_celular.TXT_IMEI], T1.[ordem_servico_celu");
+            viewString.Append("lar.TXT_DEFEITO_RECLAMADO], T1.[ordem_servico_celular.TXT_DEFEITO_CONSTATADO], T");
+            viewString.Append("1.[ordem_servico_celular.TXT_SENHA], T1.[ordem_servico_celular.TXT_DETALHES_OBS]");
+            viewString.Append(", T1.[ordem_servico_celular.DATE_ENTRADA], T1.[ordem_servico_celular.DATE_RETIRA");
+            viewString.Append("DA], T1.[ordem_servico_celular.TXT_GARANTIA], T1.[ordem_servico_celular.DATE_FIN");
+            viewString.Append("ALIZADO], T1.[ordem_servico_celular.INT_ID_CADASTRO], T1.[ordem_servico_celular.");
+            viewString.Append("DATE_CADASTRO], T1.[ordem_servico_celular.INT_ID_ALTERA], T1.[ordem_servico_celu");
+            viewString.Append("lar.DATE_ALTERA], T1.[ordem_servico_celular.INT_ID_EXLCLUI], T1.[ordem_servico_c");
+            viewString.Append("elular.DATE_EXCLUI], T1.[ordem_servico_celular.INT_ID_FINALIZOU], T1.[ordem_serv");
+            viewString.Append("ico_celular.INT_ID_AVISOU], T1.[ordem_servico_celular.INT_ID_ENTREGOU], T1.[orde");
+            viewString.Append("m_servico_celular.DATE_AVISOU], T1.[ordem_servico_celular.BOOL_ATIVO], T1.[ordem");
+            viewString.Append("_servico_celular.TXT_NUM_ORDEM], T1.[ordem_servico_celular.TXT_ACESSORIOS], T1.[");
+            viewString.Append("ordem_servico_celular.DECIMAL_VALOR], T1.[ordem_servico_celular.TXT_NOME_CLIENTE");
+            viewString.Append("], T1.[ordem_servico_celular.TXT_CPF_CNPJ], T1.[ordem_servico_celular.TXT_RUA], ");
+            viewString.Append("T1.[ordem_servico_celular.TXT_APELIDO], T1.[ordem_servico_celular.TXT_OBS], T1.[");
+            viewString.Append("ordem_servico_celular.BOOL_PF_PJ], T1.[ordem_servico_celular.TXT_BAIRRO], T1.[or");
+            viewString.Append("dem_servico_celular.TXT_NR], T1.[ordem_servico_celular.TXT_TELEFONE])\r\n    FROM ");
+            viewString.Append("(\r\n        SELECT \r\n            T.INT_ID AS [ordem_servico_celular.INT_ID], \r\n  ");
+            viewString.Append("          T.INT_ID_CLIENTE AS [ordem_servico_celular.INT_ID_CLIENTE], \r\n        ");
+            viewString.Append("    T.TXT_MODELO AS [ordem_servico_celular.TXT_MODELO], \r\n            T.TXT_MARC");
+            viewString.Append("A AS [ordem_servico_celular.TXT_MARCA], \r\n            T.TXT_IMEI AS [ordem_servi");
+            viewString.Append("co_celular.TXT_IMEI], \r\n            T.TXT_DEFEITO_RECLAMADO AS [ordem_servico_ce");
+            viewString.Append("lular.TXT_DEFEITO_RECLAMADO], \r\n            T.TXT_DEFEITO_CONSTATADO AS [ordem_s");
+            viewString.Append("ervico_celular.TXT_DEFEITO_CONSTATADO], \r\n            T.TXT_SENHA AS [ordem_serv");
+            viewString.Append("ico_celular.TXT_SENHA], \r\n            T.TXT_DETALHES_OBS AS [ordem_servico_celul");
+            viewString.Append("ar.TXT_DETALHES_OBS], \r\n            T.DATE_ENTRADA AS [ordem_servico_celular.DAT");
+            viewString.Append("E_ENTRADA], \r\n            T.DATE_RETIRADA AS [ordem_servico_celular.DATE_RETIRAD");
+            viewString.Append("A], \r\n            T.TXT_GARANTIA AS [ordem_servico_celular.TXT_GARANTIA], \r\n    ");
+            viewString.Append("        T.DATE_FINALIZADO AS [ordem_servico_celular.DATE_FINALIZADO], \r\n        ");
+            viewString.Append("    T.INT_ID_CADASTRO AS [ordem_servico_celular.INT_ID_CADASTRO], \r\n            ");
+            viewString.Append("T.DATE_CADASTRO AS [ordem_servico_celular.DATE_CADASTRO], \r\n            T.INT_ID");
+            viewString.Append("_ALTERA AS [ordem_servico_celular.INT_ID_ALTERA], \r\n            T.DATE_ALTERA AS");
+            viewString.Append(" [ordem_servico_celular.DATE_ALTERA], \r\n            T.INT_ID_EXLCLUI AS [ordem_s");
+            viewString.Append("ervico_celular.INT_ID_EXLCLUI], \r\n            T.DATE_EXCLUI AS [ordem_servico_ce");
+            viewString.Append("lular.DATE_EXCLUI], \r\n            T.INT_ID_FINALIZOU AS [ordem_servico_celular.I");
+            viewString.Append("NT_ID_FINALIZOU], \r\n            T.INT_ID_AVISOU AS [ordem_servico_celular.INT_ID");
+            viewString.Append("_AVISOU], \r\n            T.INT_ID_ENTREGOU AS [ordem_servico_celular.INT_ID_ENTRE");
+            viewString.Append("GOU], \r\n            T.DATE_AVISOU AS [ordem_servico_celular.DATE_AVISOU], \r\n    ");
+            viewString.Append("        T.BOOL_ATIVO AS [ordem_servico_celular.BOOL_ATIVO], \r\n            T.TXT_");
+            viewString.Append("NUM_ORDEM AS [ordem_servico_celular.TXT_NUM_ORDEM], \r\n            T.TXT_ACESSORI");
+            viewString.Append("OS AS [ordem_servico_celular.TXT_ACESSORIOS], \r\n            T.DECIMAL_VALOR AS [");
+            viewString.Append("ordem_servico_celular.DECIMAL_VALOR], \r\n            T.TXT_NOME_CLIENTE AS [ordem");
+            viewString.Append("_servico_celular.TXT_NOME_CLIENTE], \r\n            T.TXT_CPF_CNPJ AS [ordem_servi");
+            viewString.Append("co_celular.TXT_CPF_CNPJ], \r\n            T.TXT_RUA AS [ordem_servico_celular.TXT_");
+            viewString.Append("RUA], \r\n            T.TXT_APELIDO AS [ordem_servico_celular.TXT_APELIDO], \r\n    ");
+            viewString.Append("        T.TXT_OBS AS [ordem_servico_celular.TXT_OBS], \r\n            T.BOOL_PF_PJ");
+            viewString.Append(" AS [ordem_servico_celular.BOOL_PF_PJ], \r\n            T.TXT_BAIRRO AS [ordem_ser");
+            viewString.Append("vico_celular.TXT_BAIRRO], \r\n            T.TXT_NR AS [ordem_servico_celular.TXT_N");
+            viewString.Append("R], \r\n            T.TXT_TELEFONE AS [ordem_servico_celular.TXT_TELEFONE], \r\n    ");
+            viewString.Append("        True AS _from0\r\n        FROM db_coopfamModelStoreContainer.ordem_servico");
+            viewString.Append("_celular AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ordem_servico_celular", viewString.ToString());
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.origem_do_produto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView451()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView474()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.origem_do_produto", @"
     SELECT VALUE -- Constructing origem_do_produto
@@ -15731,7 +16765,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.origem_do_produto_nota_fiscal
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView452()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView475()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.origem_do_produto_nota_fiscal", "\r\n    SELECT VALUE -- Constructing origem_do_produto_nota_fiscal\r\n        [db_coo" +
                     "pfamModel.origem_do_produto_nota_fiscal](T1.[origem_do_produto_nota_fiscal.INT_I" +
@@ -15755,9 +16789,57 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.ouvidoria
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView476()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ouvidoria", @"
+    SELECT VALUE -- Constructing ouvidoria
+        [db_coopfamModel.ouvidoria](T1.[ouvidoria.INT_ID], T1.[ouvidoria.INT_ID_SOLICITANTE], T1.[ouvidoria.TXT_SETOR], T1.[ouvidoria.BOOL_ANONIMO], T1.[ouvidoria.TXT_DESCRICAO], T1.[ouvidoria.TXT_STATUS], T1.[ouvidoria.DATE_LANCAMENTO], T1.[ouvidoria.BOOL_GENERO], T1.[ouvidoria.BOOL_QUEIXA], T1.[ouvidoria.BOOL_ATIVO], T1.[ouvidoria.BOOL_RH])
+    FROM (
+        SELECT 
+            T.INT_ID AS [ouvidoria.INT_ID], 
+            T.INT_ID_SOLICITANTE AS [ouvidoria.INT_ID_SOLICITANTE], 
+            T.TXT_SETOR AS [ouvidoria.TXT_SETOR], 
+            T.BOOL_ANONIMO AS [ouvidoria.BOOL_ANONIMO], 
+            T.TXT_DESCRICAO AS [ouvidoria.TXT_DESCRICAO], 
+            T.TXT_STATUS AS [ouvidoria.TXT_STATUS], 
+            T.DATE_LANCAMENTO AS [ouvidoria.DATE_LANCAMENTO], 
+            T.BOOL_GENERO AS [ouvidoria.BOOL_GENERO], 
+            T.BOOL_QUEIXA AS [ouvidoria.BOOL_QUEIXA], 
+            T.BOOL_ATIVO AS [ouvidoria.BOOL_ATIVO], 
+            T.BOOL_RH AS [ouvidoria.BOOL_RH], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.ouvidoria AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.ouvidoria_mensagem
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView477()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ouvidoria_mensagem", @"
+    SELECT VALUE -- Constructing ouvidoria_mensagem
+        [db_coopfamModel.ouvidoria_mensagem](T1.[ouvidoria_mensagem.INT_ID], T1.[ouvidoria_mensagem.INT_ID_RESPONDEU], T1.[ouvidoria_mensagem.DATE_RESPONDEU], T1.[ouvidoria_mensagem.BOOL_VISUALIZADO], T1.[ouvidoria_mensagem.TXT_DESCRICAO], T1.[ouvidoria_mensagem.INT_ID_OUVIDORIA], T1.[ouvidoria_mensagem.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [ouvidoria_mensagem.INT_ID], 
+            T.INT_ID_RESPONDEU AS [ouvidoria_mensagem.INT_ID_RESPONDEU], 
+            T.DATE_RESPONDEU AS [ouvidoria_mensagem.DATE_RESPONDEU], 
+            T.BOOL_VISUALIZADO AS [ouvidoria_mensagem.BOOL_VISUALIZADO], 
+            T.TXT_DESCRICAO AS [ouvidoria_mensagem.TXT_DESCRICAO], 
+            T.INT_ID_OUVIDORIA AS [ouvidoria_mensagem.INT_ID_OUVIDORIA], 
+            T.BOOL_ATIVO AS [ouvidoria_mensagem.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.ouvidoria_mensagem AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.padrao_de_imposto_por_cfop
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView453()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView478()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(7403);
             viewString.Append("\r\n    SELECT VALUE -- Constructing padrao_de_imposto_por_cfop\r\n        [db_coopf");
@@ -15859,7 +16941,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pagamento_emprestimo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView454()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView479()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pagamento_emprestimo", "\r\n    SELECT VALUE -- Constructing pagamento_emprestimo\r\n        [db_coopfamModel" +
                     ".pagamento_emprestimo](T1.[pagamento_emprestimo.INT_ID], T1.[pagamento_emprestim" +
@@ -15886,7 +16968,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pagamento_recebimento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView455()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView480()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pagamento_recebimento", @"
     SELECT VALUE -- Constructing pagamento_recebimento
@@ -15910,7 +16992,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pagamento_recebimento_fluxo_de_caixa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView456()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView481()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pagamento_recebimento_fluxo_de_caixa", "\r\n    SELECT VALUE -- Constructing pagamento_recebimento_fluxo_de_caixa\r\n        " +
                     "[db_coopfamModel.pagamento_recebimento_fluxo_de_caixa](T1.[pagamento_recebimento" +
@@ -15938,7 +17020,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.papel_das_partes_contrato_cafe
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView457()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView482()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.papel_das_partes_contrato_cafe", @"
     SELECT VALUE -- Constructing papel_das_partes_contrato_cafe
@@ -15957,7 +17039,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.parcela_emprestimo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView458()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView483()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.parcela_emprestimo", @"
     SELECT VALUE -- Constructing parcela_emprestimo
@@ -15978,7 +17060,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.participante_dap
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView459()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView484()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.participante_dap", @"
     SELECT VALUE -- Constructing participante_dap
@@ -15997,9 +17079,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pedido_faturamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView460()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView485()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3381);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3483);
             viewString.Append("\r\n    SELECT VALUE -- Constructing pedido_faturamento\r\n        [db_coopfamModel.");
             viewString.Append("pedido_faturamento](T1.[pedido_faturamento.INT_ID], T1.[pedido_faturamento.INT_I");
             viewString.Append("D_COOPERADO], T1.[pedido_faturamento.INT_ID_CLIENTE], T1.[pedido_faturamento.DAT");
@@ -16015,41 +17097,42 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("edido_faturamento.INT_VOLUMES], T1.[pedido_faturamento.DECIMAL_PESO_LIQUIDO], T1");
             viewString.Append(".[pedido_faturamento.DECIMAL_PESO_BRUTO], T1.[pedido_faturamento.INT_ID_SETOR], ");
             viewString.Append("T1.[pedido_faturamento.BOOL_ATIVO], T1.[pedido_faturamento.TXT_NR_PEDIDO], T1.[p");
-            viewString.Append("edido_faturamento.TXT_ESPECIE])\r\n    FROM (\r\n        SELECT \r\n            T.INT_");
-            viewString.Append("ID AS [pedido_faturamento.INT_ID], \r\n            T.INT_ID_COOPERADO AS [pedido_f");
-            viewString.Append("aturamento.INT_ID_COOPERADO], \r\n            T.INT_ID_CLIENTE AS [pedido_faturame");
-            viewString.Append("nto.INT_ID_CLIENTE], \r\n            T.DATE_AGENDAMENTO AS [pedido_faturamento.DAT");
-            viewString.Append("E_AGENDAMENTO], \r\n            T.BOOL_DOACAO AS [pedido_faturamento.BOOL_DOACAO],");
-            viewString.Append(" \r\n            T.BOOL_PERMUTA AS [pedido_faturamento.BOOL_PERMUTA], \r\n          ");
-            viewString.Append("  T.BOOL_ECOMMERCE AS [pedido_faturamento.BOOL_ECOMMERCE], \r\n            T.TXT_O");
-            viewString.Append("BS AS [pedido_faturamento.TXT_OBS], \r\n            T.TXT_INFORMACOES_ADD AS [pedi");
-            viewString.Append("do_faturamento.TXT_INFORMACOES_ADD], \r\n            T.INT_ID_FUNCIONARIO AS [pedi");
-            viewString.Append("do_faturamento.INT_ID_FUNCIONARIO], \r\n            T.DATE_LANCAMENTO AS [pedido_f");
-            viewString.Append("aturamento.DATE_LANCAMENTO], \r\n            T.INT_ID_FUNC_ULTIMA_EDICAO AS [pedid");
-            viewString.Append("o_faturamento.INT_ID_FUNC_ULTIMA_EDICAO], \r\n            T.DATE_ULTIMA_EDICAO AS ");
-            viewString.Append("[pedido_faturamento.DATE_ULTIMA_EDICAO], \r\n            T.INT_ID_EMPRESA AS [pedi");
-            viewString.Append("do_faturamento.INT_ID_EMPRESA], \r\n            T.INT_ID_TALHAO AS [pedido_faturam");
-            viewString.Append("ento.INT_ID_TALHAO], \r\n            T.TXT_MODALIDADE_FRETE AS [pedido_faturamento");
-            viewString.Append(".TXT_MODALIDADE_FRETE], \r\n            T.INT_INDEX_MODALIDADE_FRETE AS [pedido_fa");
-            viewString.Append("turamento.INT_INDEX_MODALIDADE_FRETE], \r\n            T.INT_ID_MOTORISTA AS [pedi");
-            viewString.Append("do_faturamento.INT_ID_MOTORISTA], \r\n            T.TXT_PLACA AS [pedido_faturamen");
-            viewString.Append("to.TXT_PLACA], \r\n            T.TXT_UF_PLACA AS [pedido_faturamento.TXT_UF_PLACA]");
-            viewString.Append(", \r\n            T.TXT_ANTT AS [pedido_faturamento.TXT_ANTT], \r\n            T.INT");
-            viewString.Append("_VOLUMES AS [pedido_faturamento.INT_VOLUMES], \r\n            T.DECIMAL_PESO_LIQUI");
-            viewString.Append("DO AS [pedido_faturamento.DECIMAL_PESO_LIQUIDO], \r\n            T.DECIMAL_PESO_BR");
-            viewString.Append("UTO AS [pedido_faturamento.DECIMAL_PESO_BRUTO], \r\n            T.INT_ID_SETOR AS ");
-            viewString.Append("[pedido_faturamento.INT_ID_SETOR], \r\n            T.BOOL_ATIVO AS [pedido_faturam");
-            viewString.Append("ento.BOOL_ATIVO], \r\n            T.TXT_NR_PEDIDO AS [pedido_faturamento.TXT_NR_PE");
-            viewString.Append("DIDO], \r\n            T.TXT_ESPECIE AS [pedido_faturamento.TXT_ESPECIE], \r\n      ");
-            viewString.Append("      True AS _from0\r\n        FROM db_coopfamModelStoreContainer.pedido_faturame");
-            viewString.Append("nto AS T\r\n    ) AS T1");
+            viewString.Append("edido_faturamento.TXT_ESPECIE], T1.[pedido_faturamento.BOOL_BARTER])\r\n    FROM (");
+            viewString.Append("\r\n        SELECT \r\n            T.INT_ID AS [pedido_faturamento.INT_ID], \r\n      ");
+            viewString.Append("      T.INT_ID_COOPERADO AS [pedido_faturamento.INT_ID_COOPERADO], \r\n           ");
+            viewString.Append(" T.INT_ID_CLIENTE AS [pedido_faturamento.INT_ID_CLIENTE], \r\n            T.DATE_A");
+            viewString.Append("GENDAMENTO AS [pedido_faturamento.DATE_AGENDAMENTO], \r\n            T.BOOL_DOACAO");
+            viewString.Append(" AS [pedido_faturamento.BOOL_DOACAO], \r\n            T.BOOL_PERMUTA AS [pedido_fa");
+            viewString.Append("turamento.BOOL_PERMUTA], \r\n            T.BOOL_ECOMMERCE AS [pedido_faturamento.B");
+            viewString.Append("OOL_ECOMMERCE], \r\n            T.TXT_OBS AS [pedido_faturamento.TXT_OBS], \r\n     ");
+            viewString.Append("       T.TXT_INFORMACOES_ADD AS [pedido_faturamento.TXT_INFORMACOES_ADD], \r\n    ");
+            viewString.Append("        T.INT_ID_FUNCIONARIO AS [pedido_faturamento.INT_ID_FUNCIONARIO], \r\n     ");
+            viewString.Append("       T.DATE_LANCAMENTO AS [pedido_faturamento.DATE_LANCAMENTO], \r\n            ");
+            viewString.Append("T.INT_ID_FUNC_ULTIMA_EDICAO AS [pedido_faturamento.INT_ID_FUNC_ULTIMA_EDICAO], \r");
+            viewString.Append("\n            T.DATE_ULTIMA_EDICAO AS [pedido_faturamento.DATE_ULTIMA_EDICAO], \r\n");
+            viewString.Append("            T.INT_ID_EMPRESA AS [pedido_faturamento.INT_ID_EMPRESA], \r\n         ");
+            viewString.Append("   T.INT_ID_TALHAO AS [pedido_faturamento.INT_ID_TALHAO], \r\n            T.TXT_MO");
+            viewString.Append("DALIDADE_FRETE AS [pedido_faturamento.TXT_MODALIDADE_FRETE], \r\n            T.INT");
+            viewString.Append("_INDEX_MODALIDADE_FRETE AS [pedido_faturamento.INT_INDEX_MODALIDADE_FRETE], \r\n  ");
+            viewString.Append("          T.INT_ID_MOTORISTA AS [pedido_faturamento.INT_ID_MOTORISTA], \r\n       ");
+            viewString.Append("     T.TXT_PLACA AS [pedido_faturamento.TXT_PLACA], \r\n            T.TXT_UF_PLACA");
+            viewString.Append(" AS [pedido_faturamento.TXT_UF_PLACA], \r\n            T.TXT_ANTT AS [pedido_fatur");
+            viewString.Append("amento.TXT_ANTT], \r\n            T.INT_VOLUMES AS [pedido_faturamento.INT_VOLUMES");
+            viewString.Append("], \r\n            T.DECIMAL_PESO_LIQUIDO AS [pedido_faturamento.DECIMAL_PESO_LIQU");
+            viewString.Append("IDO], \r\n            T.DECIMAL_PESO_BRUTO AS [pedido_faturamento.DECIMAL_PESO_BRU");
+            viewString.Append("TO], \r\n            T.INT_ID_SETOR AS [pedido_faturamento.INT_ID_SETOR], \r\n      ");
+            viewString.Append("      T.BOOL_ATIVO AS [pedido_faturamento.BOOL_ATIVO], \r\n            T.TXT_NR_PE");
+            viewString.Append("DIDO AS [pedido_faturamento.TXT_NR_PEDIDO], \r\n            T.TXT_ESPECIE AS [pedi");
+            viewString.Append("do_faturamento.TXT_ESPECIE], \r\n            T.BOOL_BARTER AS [pedido_faturamento.");
+            viewString.Append("BOOL_BARTER], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreCon");
+            viewString.Append("tainer.pedido_faturamento AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pedido_faturamento", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pedido_faturamento_parcelas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView461()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView486()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pedido_faturamento_parcelas", @"
     SELECT VALUE -- Constructing pedido_faturamento_parcelas
@@ -16070,7 +17153,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pedido_faturamento_produto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView462()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView487()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3228);
             viewString.Append("\r\n    SELECT VALUE -- Constructing pedido_faturamento_produto\r\n        [db_coopf");
@@ -16120,7 +17203,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pilar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView463()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView488()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pilar", @"
     SELECT VALUE -- Constructing pilar
@@ -16139,39 +17222,47 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView464()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView489()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento", "\r\n    SELECT VALUE -- Constructing planejamento\r\n        [db_coopfamModel.planeja" +
-                    "mento](T1.[planejamento.INT_ID], T1.[planejamento.INT_ID_PERIODO], T1.[planejame" +
-                    "nto.INT_ID_ACAO], T1.[planejamento.DECIMAL_ORCAMENTO_FT], T1.[planejamento.DECIM" +
-                    "AL_ORCADO_OUTRAS_FONTES], T1.[planejamento.DECIMAL_ORCADO_EMPRESA], T1.[planejam" +
-                    "ento.DECIMAL_ORCAMENTO_TOTAL], T1.[planejamento.CHAR_TIPO_ORCAMENTO], T1.[planej" +
-                    "amento.TXT_AUTO_AVALIACAO], T1.[planejamento.TXT_IMPACTO], T1.[planejamento.BOOL" +
-                    "_ATIVO], T1.[planejamento.TXT_DESCRICAO], T1.[planejamento.INT_ID_SETOR], T1.[pl" +
-                    "anejamento.INT_ID_FONTE_DE_RECURSO], T1.[planejamento.DECIMAL_REALIZADO_OUTRAS_F" +
-                    "ONTES], T1.[planejamento.BOOL_SALARIO])\r\n    FROM (\r\n        SELECT \r\n          " +
-                    "  T.INT_ID AS [planejamento.INT_ID], \r\n            T.INT_ID_PERIODO AS [planejam" +
-                    "ento.INT_ID_PERIODO], \r\n            T.INT_ID_ACAO AS [planejamento.INT_ID_ACAO]," +
-                    " \r\n            T.DECIMAL_ORCAMENTO_FT AS [planejamento.DECIMAL_ORCAMENTO_FT], \r\n" +
-                    "            T.DECIMAL_ORCADO_OUTRAS_FONTES AS [planejamento.DECIMAL_ORCADO_OUTRA" +
-                    "S_FONTES], \r\n            T.DECIMAL_ORCADO_EMPRESA AS [planejamento.DECIMAL_ORCAD" +
-                    "O_EMPRESA], \r\n            T.DECIMAL_ORCAMENTO_TOTAL AS [planejamento.DECIMAL_ORC" +
-                    "AMENTO_TOTAL], \r\n            T.CHAR_TIPO_ORCAMENTO AS [planejamento.CHAR_TIPO_OR" +
-                    "CAMENTO], \r\n            T.TXT_AUTO_AVALIACAO AS [planejamento.TXT_AUTO_AVALIACAO" +
-                    "], \r\n            T.TXT_IMPACTO AS [planejamento.TXT_IMPACTO], \r\n            T.BO" +
-                    "OL_ATIVO AS [planejamento.BOOL_ATIVO], \r\n            T.TXT_DESCRICAO AS [planeja" +
-                    "mento.TXT_DESCRICAO], \r\n            T.INT_ID_SETOR AS [planejamento.INT_ID_SETOR" +
-                    "], \r\n            T.INT_ID_FONTE_DE_RECURSO AS [planejamento.INT_ID_FONTE_DE_RECU" +
-                    "RSO], \r\n            T.DECIMAL_REALIZADO_OUTRAS_FONTES AS [planejamento.DECIMAL_R" +
-                    "EALIZADO_OUTRAS_FONTES], \r\n            T.BOOL_SALARIO AS [planejamento.BOOL_SALA" +
-                    "RIO], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer.p" +
-                    "lanejamento AS T\r\n    ) AS T1");
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2445);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing planejamento\r\n        [db_coopfamModel.planej");
+            viewString.Append("amento](T1.[planejamento.INT_ID], T1.[planejamento.INT_ID_PERIODO], T1.[planejam");
+            viewString.Append("ento.INT_ID_ACAO], T1.[planejamento.DECIMAL_ORCAMENTO_FT], T1.[planejamento.DECI");
+            viewString.Append("MAL_ORCADO_OUTRAS_FONTES], T1.[planejamento.DECIMAL_ORCADO_EMPRESA], T1.[planeja");
+            viewString.Append("mento.DECIMAL_ORCAMENTO_TOTAL], T1.[planejamento.CHAR_TIPO_ORCAMENTO], T1.[plane");
+            viewString.Append("jamento.TXT_AUTO_AVALIACAO], T1.[planejamento.TXT_IMPACTO], T1.[planejamento.BOO");
+            viewString.Append("L_ATIVO], T1.[planejamento.TXT_DESCRICAO], T1.[planejamento.INT_ID_SETOR], T1.[p");
+            viewString.Append("lanejamento.INT_ID_FONTE_DE_RECURSO], T1.[planejamento.DECIMAL_REALIZADO_OUTRAS_");
+            viewString.Append("FONTES], T1.[planejamento.BOOL_SALARIO], T1.[planejamento.DECIMAL_TAXA_DOLAR_MED");
+            viewString.Append("IA], T1.[planejamento.DECIMAL_TOTAL_EM_DOLAR], T1.[planejamento.DECIMAL_SALDO_IN");
+            viewString.Append("ICIAL], T1.[planejamento.DECIMAL_SALDO_EM_DOLAR])\r\n    FROM (\r\n        SELECT \r\n");
+            viewString.Append("            T.INT_ID AS [planejamento.INT_ID], \r\n            T.INT_ID_PERIODO AS");
+            viewString.Append(" [planejamento.INT_ID_PERIODO], \r\n            T.INT_ID_ACAO AS [planejamento.INT");
+            viewString.Append("_ID_ACAO], \r\n            T.DECIMAL_ORCAMENTO_FT AS [planejamento.DECIMAL_ORCAMEN");
+            viewString.Append("TO_FT], \r\n            T.DECIMAL_ORCADO_OUTRAS_FONTES AS [planejamento.DECIMAL_OR");
+            viewString.Append("CADO_OUTRAS_FONTES], \r\n            T.DECIMAL_ORCADO_EMPRESA AS [planejamento.DEC");
+            viewString.Append("IMAL_ORCADO_EMPRESA], \r\n            T.DECIMAL_ORCAMENTO_TOTAL AS [planejamento.D");
+            viewString.Append("ECIMAL_ORCAMENTO_TOTAL], \r\n            T.CHAR_TIPO_ORCAMENTO AS [planejamento.CH");
+            viewString.Append("AR_TIPO_ORCAMENTO], \r\n            T.TXT_AUTO_AVALIACAO AS [planejamento.TXT_AUTO");
+            viewString.Append("_AVALIACAO], \r\n            T.TXT_IMPACTO AS [planejamento.TXT_IMPACTO], \r\n      ");
+            viewString.Append("      T.BOOL_ATIVO AS [planejamento.BOOL_ATIVO], \r\n            T.TXT_DESCRICAO A");
+            viewString.Append("S [planejamento.TXT_DESCRICAO], \r\n            T.INT_ID_SETOR AS [planejamento.IN");
+            viewString.Append("T_ID_SETOR], \r\n            T.INT_ID_FONTE_DE_RECURSO AS [planejamento.INT_ID_FON");
+            viewString.Append("TE_DE_RECURSO], \r\n            T.DECIMAL_REALIZADO_OUTRAS_FONTES AS [planejamento");
+            viewString.Append(".DECIMAL_REALIZADO_OUTRAS_FONTES], \r\n            T.BOOL_SALARIO AS [planejamento");
+            viewString.Append(".BOOL_SALARIO], \r\n            T.DECIMAL_TAXA_DOLAR_MEDIA AS [planejamento.DECIMA");
+            viewString.Append("L_TAXA_DOLAR_MEDIA], \r\n            T.DECIMAL_TOTAL_EM_DOLAR AS [planejamento.DEC");
+            viewString.Append("IMAL_TOTAL_EM_DOLAR], \r\n            T.DECIMAL_SALDO_INICIAL AS [planejamento.DEC");
+            viewString.Append("IMAL_SALDO_INICIAL], \r\n            T.DECIMAL_SALDO_EM_DOLAR AS [planejamento.DEC");
+            viewString.Append("IMAL_SALDO_EM_DOLAR], \r\n            True AS _from0\r\n        FROM db_coopfamModel");
+            viewString.Append("StoreContainer.planejamento AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento_acoes_do_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView465()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView490()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_acoes_do_item", @"
     SELECT VALUE -- Constructing planejamento_acoes_do_item
@@ -16192,9 +17283,28 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.planejamento_acoes_do_item_participantes
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView491()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_acoes_do_item_participantes", @"
+    SELECT VALUE -- Constructing planejamento_acoes_do_item_participantes
+        [db_coopfamModel.planejamento_acoes_do_item_participantes](T1.[planejamento_acoes_do_item_participantes.INT_ID], T1.[planejamento_acoes_do_item_participantes.INT_ID_PLANEJAMENTO_ACAO], T1.[planejamento_acoes_do_item_participantes.INT_ID_PARTICIPANTE], T1.[planejamento_acoes_do_item_participantes.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [planejamento_acoes_do_item_participantes.INT_ID], 
+            T.INT_ID_PLANEJAMENTO_ACAO AS [planejamento_acoes_do_item_participantes.INT_ID_PLANEJAMENTO_ACAO], 
+            T.INT_ID_PARTICIPANTE AS [planejamento_acoes_do_item_participantes.INT_ID_PARTICIPANTE], 
+            T.BOOL_ATIVO AS [planejamento_acoes_do_item_participantes.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.planejamento_acoes_do_item_participantes AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento_auto_avaliacao_impacto
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView466()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView492()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_auto_avaliacao_impacto", "\r\n    SELECT VALUE -- Constructing planejamento_auto_avaliacao_impacto\r\n        [" +
                     "db_coopfamModel.planejamento_auto_avaliacao_impacto](T1.[planejamento_auto_avali" +
@@ -16224,7 +17334,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento_categoria
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView467()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView493()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_categoria", @"
     SELECT VALUE -- Constructing planejamento_categoria
@@ -16245,7 +17355,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento_data_realizacao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView468()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView494()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_data_realizacao", @"
     SELECT VALUE -- Constructing planejamento_data_realizacao
@@ -16265,28 +17375,101 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento_item
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView469()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView495()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_item", @"
-    SELECT VALUE -- Constructing planejamento_item
-        [db_coopfamModel.planejamento_item](T1.[planejamento_item.INT_ID], T1.[planejamento_item.TXT_DESCRICAO], T1.[planejamento_item.INT_ID_EMPRESA], T1.[planejamento_item.INT_NUMERO_DO_ITEM], T1.[planejamento_item.BOOL_ATIVO], T1.[planejamento_item.BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO])
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(5239);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing planejamento_item\r\n        [db_coopfamModel.p");
+            viewString.Append("lanejamento_item](T1.[planejamento_item.INT_ID], T1.[planejamento_item.INT_ID_OD");
+            viewString.Append("S], T1.[planejamento_item.TXT_BENEFICIOS_ESPERADOS], T1.[planejamento_item.TXT_P");
+            viewString.Append("ROBLEMAS_DESAFIO_INICIAR], T1.[planejamento_item.INT_PRODUTORES_ESPERADO], T1.[p");
+            viewString.Append("lanejamento_item.INT_PRODUTORAS_ESPERADO], T1.[planejamento_item.INT_PRODUTORES_");
+            viewString.Append("BENEFICIADOS], T1.[planejamento_item.INT_PRODUTORAS_BENEFICIADAS], T1.[planejame");
+            viewString.Append("nto_item.INT_TRABALHADORES_RURAIS_ESPERADO], T1.[planejamento_item.INT_TRABALHAD");
+            viewString.Append("ORAS_RURAIS_ESPERADO], T1.[planejamento_item.INT_TRABALHADORES_RURAIS_BENEFICIAD");
+            viewString.Append("OS], T1.[planejamento_item.INT_TRABALHADORAS_RURAIS_BENEFICIADAS], T1.[planejame");
+            viewString.Append("nto_item.INT_EMPREGADOS_OP_ESPERADO], T1.[planejamento_item.INT_EMPREGADAS_OP_ES");
+            viewString.Append("PERADO], T1.[planejamento_item.INT_EMPREGADOS_OP_BENEFICIADOS], T1.[planejamento");
+            viewString.Append("_item.INT_EMPREGADAS_OP_BENEFICIADAS], T1.[planejamento_item.INT_FAMILIA_HOMENS_");
+            viewString.Append("ESPERADOS], T1.[planejamento_item.INT_FAMILIA_MULHERES_ESPERADAS], T1.[planejame");
+            viewString.Append("nto_item.INT_FAMILIA_HOMENS_BENEFICIADOS], T1.[planejamento_item.INT_FAMILIA_MUL");
+            viewString.Append("HERES_BENEFICIADAS], T1.[planejamento_item.INT_COMUNIDADE_HOMENS_ESPERADOS], T1.");
+            viewString.Append("[planejamento_item.INT_COMUNIDADE_MULHERES_ESPERADAS], T1.[planejamento_item.INT");
+            viewString.Append("_COMUNIDADE_HOMENS_BENEFICIADOS], T1.[planejamento_item.INT_COMUNIDADE_MULHERES_");
+            viewString.Append("BENEFICIADAS], T1.[planejamento_item.INT_OUTROS_HOMENS_ESPERADOS], T1.[planejame");
+            viewString.Append("nto_item.INT_OUTROS_MULHERES_ESPERADAS], T1.[planejamento_item.INT_OUTROS_HOMENS");
+            viewString.Append("_BENEFICIADOS], T1.[planejamento_item.INT_OUTROS_MULHERES_BENEFICIADAS], T1.[pla");
+            viewString.Append("nejamento_item.TXT_DESCRICAO_OUTROS], T1.[planejamento_item.TXT_DESCRICAO], T1.[");
+            viewString.Append("planejamento_item.INT_ID_EMPRESA], T1.[planejamento_item.INT_NUMERO_DO_ITEM], T1");
+            viewString.Append(".[planejamento_item.BOOL_ATIVO], T1.[planejamento_item.BOOL_CONSIDERAR_PARA_GERA");
+            viewString.Append("R_PLANEJAMENTO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [planejam");
+            viewString.Append("ento_item.INT_ID], \r\n            T.INT_ID_ODS AS [planejamento_item.INT_ID_ODS],");
+            viewString.Append(" \r\n            T.TXT_BENEFICIOS_ESPERADOS AS [planejamento_item.TXT_BENEFICIOS_E");
+            viewString.Append("SPERADOS], \r\n            T.TXT_PROBLEMAS_DESAFIO_INICIAR AS [planejamento_item.T");
+            viewString.Append("XT_PROBLEMAS_DESAFIO_INICIAR], \r\n            T.INT_PRODUTORES_ESPERADO AS [plane");
+            viewString.Append("jamento_item.INT_PRODUTORES_ESPERADO], \r\n            T.INT_PRODUTORAS_ESPERADO A");
+            viewString.Append("S [planejamento_item.INT_PRODUTORAS_ESPERADO], \r\n            T.INT_PRODUTORES_BE");
+            viewString.Append("NEFICIADOS AS [planejamento_item.INT_PRODUTORES_BENEFICIADOS], \r\n            T.I");
+            viewString.Append("NT_PRODUTORAS_BENEFICIADAS AS [planejamento_item.INT_PRODUTORAS_BENEFICIADAS], \r");
+            viewString.Append("\n            T.INT_TRABALHADORES_RURAIS_ESPERADO AS [planejamento_item.INT_TRABA");
+            viewString.Append("LHADORES_RURAIS_ESPERADO], \r\n            T.INT_TRABALHADORAS_RURAIS_ESPERADO AS ");
+            viewString.Append("[planejamento_item.INT_TRABALHADORAS_RURAIS_ESPERADO], \r\n            T.INT_TRABA");
+            viewString.Append("LHADORES_RURAIS_BENEFICIADOS AS [planejamento_item.INT_TRABALHADORES_RURAIS_BENE");
+            viewString.Append("FICIADOS], \r\n            T.INT_TRABALHADORAS_RURAIS_BENEFICIADAS AS [planejament");
+            viewString.Append("o_item.INT_TRABALHADORAS_RURAIS_BENEFICIADAS], \r\n            T.INT_EMPREGADOS_OP");
+            viewString.Append("_ESPERADO AS [planejamento_item.INT_EMPREGADOS_OP_ESPERADO], \r\n            T.INT");
+            viewString.Append("_EMPREGADAS_OP_ESPERADO AS [planejamento_item.INT_EMPREGADAS_OP_ESPERADO], \r\n   ");
+            viewString.Append("         T.INT_EMPREGADOS_OP_BENEFICIADOS AS [planejamento_item.INT_EMPREGADOS_O");
+            viewString.Append("P_BENEFICIADOS], \r\n            T.INT_EMPREGADAS_OP_BENEFICIADAS AS [planejamento");
+            viewString.Append("_item.INT_EMPREGADAS_OP_BENEFICIADAS], \r\n            T.INT_FAMILIA_HOMENS_ESPERA");
+            viewString.Append("DOS AS [planejamento_item.INT_FAMILIA_HOMENS_ESPERADOS], \r\n            T.INT_FAM");
+            viewString.Append("ILIA_MULHERES_ESPERADAS AS [planejamento_item.INT_FAMILIA_MULHERES_ESPERADAS], \r");
+            viewString.Append("\n            T.INT_FAMILIA_HOMENS_BENEFICIADOS AS [planejamento_item.INT_FAMILIA");
+            viewString.Append("_HOMENS_BENEFICIADOS], \r\n            T.INT_FAMILIA_MULHERES_BENEFICIADAS AS [pla");
+            viewString.Append("nejamento_item.INT_FAMILIA_MULHERES_BENEFICIADAS], \r\n            T.INT_COMUNIDAD");
+            viewString.Append("E_HOMENS_ESPERADOS AS [planejamento_item.INT_COMUNIDADE_HOMENS_ESPERADOS], \r\n   ");
+            viewString.Append("         T.INT_COMUNIDADE_MULHERES_ESPERADAS AS [planejamento_item.INT_COMUNIDAD");
+            viewString.Append("E_MULHERES_ESPERADAS], \r\n            T.INT_COMUNIDADE_HOMENS_BENEFICIADOS AS [pl");
+            viewString.Append("anejamento_item.INT_COMUNIDADE_HOMENS_BENEFICIADOS], \r\n            T.INT_COMUNID");
+            viewString.Append("ADE_MULHERES_BENEFICIADAS AS [planejamento_item.INT_COMUNIDADE_MULHERES_BENEFICI");
+            viewString.Append("ADAS], \r\n            T.INT_OUTROS_HOMENS_ESPERADOS AS [planejamento_item.INT_OUT");
+            viewString.Append("ROS_HOMENS_ESPERADOS], \r\n            T.INT_OUTROS_MULHERES_ESPERADAS AS [planeja");
+            viewString.Append("mento_item.INT_OUTROS_MULHERES_ESPERADAS], \r\n            T.INT_OUTROS_HOMENS_BEN");
+            viewString.Append("EFICIADOS AS [planejamento_item.INT_OUTROS_HOMENS_BENEFICIADOS], \r\n            T");
+            viewString.Append(".INT_OUTROS_MULHERES_BENEFICIADAS AS [planejamento_item.INT_OUTROS_MULHERES_BENE");
+            viewString.Append("FICIADAS], \r\n            T.TXT_DESCRICAO_OUTROS AS [planejamento_item.TXT_DESCRI");
+            viewString.Append("CAO_OUTROS], \r\n            T.TXT_DESCRICAO AS [planejamento_item.TXT_DESCRICAO],");
+            viewString.Append(" \r\n            T.INT_ID_EMPRESA AS [planejamento_item.INT_ID_EMPRESA], \r\n       ");
+            viewString.Append("     T.INT_NUMERO_DO_ITEM AS [planejamento_item.INT_NUMERO_DO_ITEM], \r\n         ");
+            viewString.Append("   T.BOOL_ATIVO AS [planejamento_item.BOOL_ATIVO], \r\n            T.BOOL_CONSIDER");
+            viewString.Append("AR_PARA_GERAR_PLANEJAMENTO AS [planejamento_item.BOOL_CONSIDERAR_PARA_GERAR_PLAN");
+            viewString.Append("EJAMENTO], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContai");
+            viewString.Append("ner.planejamento_item AS T\r\n    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_item", viewString.ToString());
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.planejamento_menor_categoria
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView496()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_menor_categoria", @"
+    SELECT VALUE -- Constructing planejamento_menor_categoria
+        [db_coopfamModel.planejamento_menor_categoria](T1.[planejamento_menor_categoria.INT_ID], T1.[planejamento_menor_categoria.INT_ID_MENOR_CATEGORIA], T1.[planejamento_menor_categoria.BOOL_ATIVO], T1.[planejamento_menor_categoria.INT_ID_PLANEJAMENTO])
     FROM (
         SELECT 
-            T.INT_ID AS [planejamento_item.INT_ID], 
-            T.TXT_DESCRICAO AS [planejamento_item.TXT_DESCRICAO], 
-            T.INT_ID_EMPRESA AS [planejamento_item.INT_ID_EMPRESA], 
-            T.INT_NUMERO_DO_ITEM AS [planejamento_item.INT_NUMERO_DO_ITEM], 
-            T.BOOL_ATIVO AS [planejamento_item.BOOL_ATIVO], 
-            T.BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO AS [planejamento_item.BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO], 
+            T.INT_ID AS [planejamento_menor_categoria.INT_ID], 
+            T.INT_ID_MENOR_CATEGORIA AS [planejamento_menor_categoria.INT_ID_MENOR_CATEGORIA], 
+            T.BOOL_ATIVO AS [planejamento_menor_categoria.BOOL_ATIVO], 
+            T.INT_ID_PLANEJAMENTO AS [planejamento_menor_categoria.INT_ID_PLANEJAMENTO], 
             True AS _from0
-        FROM db_coopfamModelStoreContainer.planejamento_item AS T
+        FROM db_coopfamModelStoreContainer.planejamento_menor_categoria AS T
     ) AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento_periodo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView470()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView497()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_periodo", @"
     SELECT VALUE -- Constructing planejamento_periodo
@@ -16306,7 +17489,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.planejamento_responsavel
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView471()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView498()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.planejamento_responsavel", @"
     SELECT VALUE -- Constructing planejamento_responsavel
@@ -16326,33 +17509,34 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.plano_conversao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView472()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView499()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.plano_conversao", @"
-    SELECT VALUE -- Constructing plano_conversao
-        [db_coopfamModel.plano_conversao](T1.[plano_conversao.INT_ID], T1.[plano_conversao.INT_ID_TALHAO], T1.[plano_conversao.DATA_INICIO], T1.[plano_conversao.BOOL_ATIVO], T1.[plano_conversao.TXT_OBS], T1.[plano_conversao.INT_ID_CADASTRO], T1.[plano_conversao.DATE_CADASTRO], T1.[plano_conversao.INT_ID_ALTERACAO], T1.[plano_conversao.DATE_ALTERACAO], T1.[plano_conversao.INT_ID_EXCLUSAO], T1.[plano_conversao.DATE_EXCLUSAO])
-    FROM (
-        SELECT 
-            T.INT_ID AS [plano_conversao.INT_ID], 
-            T.INT_ID_TALHAO AS [plano_conversao.INT_ID_TALHAO], 
-            T.DATA_INICIO AS [plano_conversao.DATA_INICIO], 
-            T.BOOL_ATIVO AS [plano_conversao.BOOL_ATIVO], 
-            T.TXT_OBS AS [plano_conversao.TXT_OBS], 
-            T.INT_ID_CADASTRO AS [plano_conversao.INT_ID_CADASTRO], 
-            T.DATE_CADASTRO AS [plano_conversao.DATE_CADASTRO], 
-            T.INT_ID_ALTERACAO AS [plano_conversao.INT_ID_ALTERACAO], 
-            T.DATE_ALTERACAO AS [plano_conversao.DATE_ALTERACAO], 
-            T.INT_ID_EXCLUSAO AS [plano_conversao.INT_ID_EXCLUSAO], 
-            T.DATE_EXCLUSAO AS [plano_conversao.DATE_EXCLUSAO], 
-            True AS _from0
-        FROM db_coopfamModelStoreContainer.plano_conversao AS T
-    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.plano_conversao", "\r\n    SELECT VALUE -- Constructing plano_conversao\r\n        [db_coopfamModel.plan" +
+                    "o_conversao](T1.[plano_conversao.INT_ID], T1.[plano_conversao.INT_ID_TALHAO], T1" +
+                    ".[plano_conversao.DATA_INICIO], T1.[plano_conversao.BOOL_ATIVO], T1.[plano_conve" +
+                    "rsao.TXT_OBS], T1.[plano_conversao.INT_ID_CADASTRO], T1.[plano_conversao.DATE_CA" +
+                    "DASTRO], T1.[plano_conversao.INT_ID_ALTERACAO], T1.[plano_conversao.DATE_ALTERAC" +
+                    "AO], T1.[plano_conversao.INT_ID_EXCLUSAO], T1.[plano_conversao.DATE_EXCLUSAO], T" +
+                    "1.[plano_conversao.BOOL_INICIOU_CONVERSAO], T1.[plano_conversao.DATA_INICIO_CONV" +
+                    "ERSAO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [plano_conversao.I" +
+                    "NT_ID], \r\n            T.INT_ID_TALHAO AS [plano_conversao.INT_ID_TALHAO], \r\n    " +
+                    "        T.DATA_INICIO AS [plano_conversao.DATA_INICIO], \r\n            T.BOOL_ATI" +
+                    "VO AS [plano_conversao.BOOL_ATIVO], \r\n            T.TXT_OBS AS [plano_conversao." +
+                    "TXT_OBS], \r\n            T.INT_ID_CADASTRO AS [plano_conversao.INT_ID_CADASTRO], " +
+                    "\r\n            T.DATE_CADASTRO AS [plano_conversao.DATE_CADASTRO], \r\n            " +
+                    "T.INT_ID_ALTERACAO AS [plano_conversao.INT_ID_ALTERACAO], \r\n            T.DATE_A" +
+                    "LTERACAO AS [plano_conversao.DATE_ALTERACAO], \r\n            T.INT_ID_EXCLUSAO AS" +
+                    " [plano_conversao.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLUSAO AS [plano_conv" +
+                    "ersao.DATE_EXCLUSAO], \r\n            T.BOOL_INICIOU_CONVERSAO AS [plano_conversao" +
+                    ".BOOL_INICIOU_CONVERSAO], \r\n            T.DATA_INICIO_CONVERSAO AS [plano_conver" +
+                    "sao.DATA_INICIO_CONVERSAO], \r\n            True AS _from0\r\n        FROM db_coopfa" +
+                    "mModelStoreContainer.plano_conversao AS T\r\n    ) AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.plano_de_contas_contabil
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView473()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView500()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.plano_de_contas_contabil", @"
     SELECT VALUE -- Constructing plano_de_contas_contabil
@@ -16376,7 +17560,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.ponto_critico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView474()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView501()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.ponto_critico", @"
     SELECT VALUE -- Constructing ponto_critico
@@ -16395,7 +17579,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.portifolio_fornecedor
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView475()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView502()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.portifolio_fornecedor", @"
     SELECT VALUE -- Constructing portifolio_fornecedor
@@ -16415,7 +17599,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.potencial_risco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView476()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView503()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.potencial_risco", @"
     SELECT VALUE -- Constructing potencial_risco
@@ -16434,7 +17618,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.praga_doenca
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView477()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView504()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.praga_doenca", @"
     SELECT VALUE -- Constructing praga_doenca
@@ -16452,7 +17636,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pre_financiamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView478()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView505()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pre_financiamento", @"
     SELECT VALUE -- Constructing pre_financiamento
@@ -16472,11 +17656,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.premio_ft
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView479()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView506()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.premio_ft", @"
     SELECT VALUE -- Constructing premio_ft
-        [db_coopfamModel.premio_ft](T1.[premio_ft.INT_ID], T1.[premio_ft.INT_ID_CONTRATO], T1.[premio_ft.DECIMAL_VALOR_FT], T1.[premio_ft.BOOL_SALDO_INICIAL], T1.[premio_ft.DATE], T1.[premio_ft.BOOL_ATIVO], T1.[premio_ft.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], T1.[premio_ft.BOOL_CC_PG_FLUXO_CAIXA], T1.[premio_ft.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO], T1.[premio_ft.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL])
+        [db_coopfamModel.premio_ft](T1.[premio_ft.INT_ID], T1.[premio_ft.INT_ID_CONTRATO], T1.[premio_ft.DECIMAL_VALOR_FT], T1.[premio_ft.BOOL_SALDO_INICIAL], T1.[premio_ft.DATE], T1.[premio_ft.BOOL_ATIVO], T1.[premio_ft.INT_ID_PAGAMENTO_RECEBIMENTO_FLUXO_DE_CAIXA], T1.[premio_ft.BOOL_CC_PG_FLUXO_CAIXA], T1.[premio_ft.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO], T1.[premio_ft.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL], T1.[premio_ft.INT_ID_MOVIMENTO_PRODUTOcONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [premio_ft.INT_ID], 
@@ -16489,6 +17673,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.BOOL_CC_PG_FLUXO_CAIXA AS [premio_ft.BOOL_CC_PG_FLUXO_CAIXA], 
             T.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO AS [premio_ft.INT_ID_PAGAMENTO_PARCELA_EMPRESTIMO], 
             T.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL AS [premio_ft.INT_ID_ORIGEM_DO_PRODUTO_NOTA_FISCAL], 
+            T.INT_ID_MOVIMENTO_PRODUTOcONTABIL AS [premio_ft.INT_ID_MOVIMENTO_PRODUTOcONTABIL], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.premio_ft AS T
     ) AS T1");
@@ -16497,7 +17682,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.procedimento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView480()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView507()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.procedimento", "\r\n    SELECT VALUE -- Constructing procedimento\r\n        [db_coopfamModel.procedi" +
                     "mento](T1.[procedimento.INT_ID], T1.[procedimento.INT_ID_CONVENIO], T1.[procedim" +
@@ -16528,7 +17713,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.procedimento_critico_medida_precaucao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView481()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView508()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.procedimento_critico_medida_precaucao", @"
     SELECT VALUE -- Constructing procedimento_critico_medida_precaucao
@@ -16547,7 +17732,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.procedimento_tipo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView482()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView509()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.procedimento_tipo", @"
     SELECT VALUE -- Constructing procedimento_tipo
@@ -16566,7 +17751,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.produto_linha
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView483()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView510()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.produto_linha", @"
     SELECT VALUE -- Constructing produto_linha
@@ -16585,7 +17770,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.produtos_ccontabeis_referencia_terceiros
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView484()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView511()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.produtos_ccontabeis_referencia_terceiros", @"
     SELECT VALUE -- Constructing produtos_ccontabeis_referencia_terceiros
@@ -16605,9 +17790,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.produtos_contabeis
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView485()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView512()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3276);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3546);
             viewString.Append("\r\n    SELECT VALUE -- Constructing produtos_contabeis\r\n        [db_coopfamModel.");
             viewString.Append("produtos_contabeis](T1.[produtos_contabeis.INT_ID], T1.[produtos_contabeis.TXT_C");
             viewString.Append("ODIGO_CONTABIL], T1.[produtos_contabeis.TXT_DESCRICAO_DO_PRODUTO], T1.[produtos_");
@@ -16622,40 +17807,125 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("UTO], T1.[produtos_contabeis.TXT_CODIGO_DE_BARRAS], T1.[produtos_contabeis.TXT_U");
             viewString.Append("N], T1.[produtos_contabeis.BOOL_PARAMETRIZAR], T1.[produtos_contabeis.INT_ID_LIN");
             viewString.Append("HA_DO_PRODUTO], T1.[produtos_contabeis.BOOL_PRODUTO_SERVICO], T1.[produtos_conta");
-            viewString.Append("beis.DECIMAL_VLR_MINIMO], T1.[produtos_contabeis.INT_ID_UN_MEDIDA])\r\n    FROM (\r");
-            viewString.Append("\n        SELECT \r\n            T.INT_ID AS [produtos_contabeis.INT_ID], \r\n       ");
-            viewString.Append("     T.TXT_CODIGO_CONTABIL AS [produtos_contabeis.TXT_CODIGO_CONTABIL], \r\n      ");
-            viewString.Append("      T.TXT_DESCRICAO_DO_PRODUTO AS [produtos_contabeis.TXT_DESCRICAO_DO_PRODUTO");
-            viewString.Append("], \r\n            T.FLOAT_SALDO_INICIAL AS [produtos_contabeis.FLOAT_SALDO_INICIA");
-            viewString.Append("L], \r\n            T.BOOL_REMESSA_RETORNO AS [produtos_contabeis.BOOL_REMESSA_RET");
-            viewString.Append("ORNO], \r\n            T.DECIMAL_VLR_UNITARIO AS [produtos_contabeis.DECIMAL_VLR_U");
-            viewString.Append("NITARIO], \r\n            T.INT_ID_COD_CONTABIL_COMPRA_VENDA AS [produtos_contabei");
-            viewString.Append("s.INT_ID_COD_CONTABIL_COMPRA_VENDA], \r\n            T.CHAR_CATEGORIA_DO_PRODUTO A");
-            viewString.Append("S [produtos_contabeis.CHAR_CATEGORIA_DO_PRODUTO], \r\n            T.TXT_CEST AS [p");
-            viewString.Append("rodutos_contabeis.TXT_CEST], \r\n            T.TXT_NCM AS [produtos_contabeis.TXT_");
-            viewString.Append("NCM], \r\n            T.TXT_GTIN AS [produtos_contabeis.TXT_GTIN], \r\n            T");
-            viewString.Append(".DECIMAL_QTD_MAXIMA AS [produtos_contabeis.DECIMAL_QTD_MAXIMA], \r\n            T.");
-            viewString.Append("DECIMAL_QTD_MINIMA AS [produtos_contabeis.DECIMAL_QTD_MINIMA], \r\n            T.B");
-            viewString.Append("OOL_MATERIA_PRIMA AS [produtos_contabeis.BOOL_MATERIA_PRIMA], \r\n            T.IN");
-            viewString.Append("T_NUMERO_DE_CASAS_DECIMAIS AS [produtos_contabeis.INT_NUMERO_DE_CASAS_DECIMAIS],");
-            viewString.Append(" \r\n            T.BOOL_ATIVO AS [produtos_contabeis.BOOL_ATIVO], \r\n            T.");
-            viewString.Append("DECIMAL_PESO_LIQUIDO AS [produtos_contabeis.DECIMAL_PESO_LIQUIDO], \r\n           ");
-            viewString.Append(" T.DECIMAL_PESO_BRUTO AS [produtos_contabeis.DECIMAL_PESO_BRUTO], \r\n            ");
-            viewString.Append("T.TXT_CODIGO_DE_BARRAS AS [produtos_contabeis.TXT_CODIGO_DE_BARRAS], \r\n         ");
-            viewString.Append("   T.TXT_UN AS [produtos_contabeis.TXT_UN], \r\n            T.BOOL_PARAMETRIZAR AS");
-            viewString.Append(" [produtos_contabeis.BOOL_PARAMETRIZAR], \r\n            T.INT_ID_LINHA_DO_PRODUTO");
-            viewString.Append(" AS [produtos_contabeis.INT_ID_LINHA_DO_PRODUTO], \r\n            T.BOOL_PRODUTO_S");
-            viewString.Append("ERVICO AS [produtos_contabeis.BOOL_PRODUTO_SERVICO], \r\n            T.DECIMAL_VLR");
-            viewString.Append("_MINIMO AS [produtos_contabeis.DECIMAL_VLR_MINIMO], \r\n            T.INT_ID_UN_ME");
-            viewString.Append("DIDA AS [produtos_contabeis.INT_ID_UN_MEDIDA], \r\n            True AS _from0\r\n   ");
-            viewString.Append("     FROM db_coopfamModelStoreContainer.produtos_contabeis AS T\r\n    ) AS T1");
+            viewString.Append("beis.DECIMAL_VLR_MINIMO], T1.[produtos_contabeis.INT_ID_UN_MEDIDA], T1.[produtos");
+            viewString.Append("_contabeis.INT_ID_CONTA_CONTABIL], T1.[produtos_contabeis.BOOL_COOPERADO_TERCEIR");
+            viewString.Append("O])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [produtos_contabeis.IN");
+            viewString.Append("T_ID], \r\n            T.TXT_CODIGO_CONTABIL AS [produtos_contabeis.TXT_CODIGO_CON");
+            viewString.Append("TABIL], \r\n            T.TXT_DESCRICAO_DO_PRODUTO AS [produtos_contabeis.TXT_DESC");
+            viewString.Append("RICAO_DO_PRODUTO], \r\n            T.FLOAT_SALDO_INICIAL AS [produtos_contabeis.FL");
+            viewString.Append("OAT_SALDO_INICIAL], \r\n            T.BOOL_REMESSA_RETORNO AS [produtos_contabeis.");
+            viewString.Append("BOOL_REMESSA_RETORNO], \r\n            T.DECIMAL_VLR_UNITARIO AS [produtos_contabe");
+            viewString.Append("is.DECIMAL_VLR_UNITARIO], \r\n            T.INT_ID_COD_CONTABIL_COMPRA_VENDA AS [p");
+            viewString.Append("rodutos_contabeis.INT_ID_COD_CONTABIL_COMPRA_VENDA], \r\n            T.CHAR_CATEGO");
+            viewString.Append("RIA_DO_PRODUTO AS [produtos_contabeis.CHAR_CATEGORIA_DO_PRODUTO], \r\n            ");
+            viewString.Append("T.TXT_CEST AS [produtos_contabeis.TXT_CEST], \r\n            T.TXT_NCM AS [produto");
+            viewString.Append("s_contabeis.TXT_NCM], \r\n            T.TXT_GTIN AS [produtos_contabeis.TXT_GTIN],");
+            viewString.Append(" \r\n            T.DECIMAL_QTD_MAXIMA AS [produtos_contabeis.DECIMAL_QTD_MAXIMA], ");
+            viewString.Append("\r\n            T.DECIMAL_QTD_MINIMA AS [produtos_contabeis.DECIMAL_QTD_MINIMA], \r");
+            viewString.Append("\n            T.BOOL_MATERIA_PRIMA AS [produtos_contabeis.BOOL_MATERIA_PRIMA], \r\n");
+            viewString.Append("            T.INT_NUMERO_DE_CASAS_DECIMAIS AS [produtos_contabeis.INT_NUMERO_DE_");
+            viewString.Append("CASAS_DECIMAIS], \r\n            T.BOOL_ATIVO AS [produtos_contabeis.BOOL_ATIVO], ");
+            viewString.Append("\r\n            T.DECIMAL_PESO_LIQUIDO AS [produtos_contabeis.DECIMAL_PESO_LIQUIDO");
+            viewString.Append("], \r\n            T.DECIMAL_PESO_BRUTO AS [produtos_contabeis.DECIMAL_PESO_BRUTO]");
+            viewString.Append(", \r\n            T.TXT_CODIGO_DE_BARRAS AS [produtos_contabeis.TXT_CODIGO_DE_BARR");
+            viewString.Append("AS], \r\n            T.TXT_UN AS [produtos_contabeis.TXT_UN], \r\n            T.BOOL");
+            viewString.Append("_PARAMETRIZAR AS [produtos_contabeis.BOOL_PARAMETRIZAR], \r\n            T.INT_ID_");
+            viewString.Append("LINHA_DO_PRODUTO AS [produtos_contabeis.INT_ID_LINHA_DO_PRODUTO], \r\n            ");
+            viewString.Append("T.BOOL_PRODUTO_SERVICO AS [produtos_contabeis.BOOL_PRODUTO_SERVICO], \r\n         ");
+            viewString.Append("   T.DECIMAL_VLR_MINIMO AS [produtos_contabeis.DECIMAL_VLR_MINIMO], \r\n          ");
+            viewString.Append("  T.INT_ID_UN_MEDIDA AS [produtos_contabeis.INT_ID_UN_MEDIDA], \r\n            T.I");
+            viewString.Append("NT_ID_CONTA_CONTABIL AS [produtos_contabeis.INT_ID_CONTA_CONTABIL], \r\n          ");
+            viewString.Append("  T.BOOL_COOPERADO_TERCEIRO AS [produtos_contabeis.BOOL_COOPERADO_TERCEIRO], \r\n ");
+            viewString.Append("           True AS _from0\r\n        FROM db_coopfamModelStoreContainer.produtos_c");
+            viewString.Append("ontabeis AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.produtos_contabeis", viewString.ToString());
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.projeto_cooperado
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView513()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.projeto_cooperado", @"
+    SELECT VALUE -- Constructing projeto_cooperado
+        [db_coopfamModel.projeto_cooperado](T1.[projeto_cooperado.INT_ID], T1.[projeto_cooperado.INT_ID_PROJETO_REALIZADO], T1.[projeto_cooperado.INT_ID_COOPERADO], T1.[projeto_cooperado.BOOL_PRINCIPAL], T1.[projeto_cooperado.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [projeto_cooperado.INT_ID], 
+            T.INT_ID_PROJETO_REALIZADO AS [projeto_cooperado.INT_ID_PROJETO_REALIZADO], 
+            T.INT_ID_COOPERADO AS [projeto_cooperado.INT_ID_COOPERADO], 
+            T.BOOL_PRINCIPAL AS [projeto_cooperado.BOOL_PRINCIPAL], 
+            T.BOOL_ATIVO AS [projeto_cooperado.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.projeto_cooperado AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.projetos_da_empresa
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView514()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.projetos_da_empresa", @"
+    SELECT VALUE -- Constructing projetos_da_empresa
+        [db_coopfamModel.projetos_da_empresa](T1.[projetos_da_empresa.INT_ID], T1.[projetos_da_empresa.TXT_DESCRICAO], T1.[projetos_da_empresa.INT_ID_PLANEJAMENTO], T1.[projetos_da_empresa.INT_ID_CLIENTE_FONTE_RESCURSO], T1.[projetos_da_empresa.BOOL_ATIVO], T1.[projetos_da_empresa.TXT_OBS])
+    FROM (
+        SELECT 
+            T.INT_ID AS [projetos_da_empresa.INT_ID], 
+            T.TXT_DESCRICAO AS [projetos_da_empresa.TXT_DESCRICAO], 
+            T.INT_ID_PLANEJAMENTO AS [projetos_da_empresa.INT_ID_PLANEJAMENTO], 
+            T.INT_ID_CLIENTE_FONTE_RESCURSO AS [projetos_da_empresa.INT_ID_CLIENTE_FONTE_RESCURSO], 
+            T.BOOL_ATIVO AS [projetos_da_empresa.BOOL_ATIVO], 
+            T.TXT_OBS AS [projetos_da_empresa.TXT_OBS], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.projetos_da_empresa AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.projetos_realizados
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView515()
+        {
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(2406);
+            viewString.Append("\r\n    SELECT VALUE -- Constructing projetos_realizados\r\n        [db_coopfamModel");
+            viewString.Append(".projetos_realizados](T1.[projetos_realizados.INT_ID], T1.[projetos_realizados.I");
+            viewString.Append("NT_ID_PROJETO_DA_EMPRESA], T1.[projetos_realizados.DECIMAL_VALOR], T1.[projetos_");
+            viewString.Append("realizados.INT_QUANTIDADE_PESSOAS_IMPACTADAS], T1.[projetos_realizados.INT_ID_PL");
+            viewString.Append("ANEJAMENTO], T1.[projetos_realizados.INT_ID_CLIENTE_FONTE_RESCURSO], T1.[projeto");
+            viewString.Append("s_realizados.TXT_IMPACTO], T1.[projetos_realizados.TXT_OBS], T1.[projetos_realiz");
+            viewString.Append("ados.BOOL_ATIVO], T1.[projetos_realizados.DATE_REALIZACAO], T1.[projetos_realiza");
+            viewString.Append("dos.INT_ID_CADASTRO], T1.[projetos_realizados.DATE_CADASTRO], T1.[projetos_reali");
+            viewString.Append("zados.INT_ID_ALTERACAO], T1.[projetos_realizados.DATE_ALTERACAO], T1.[projetos_r");
+            viewString.Append("ealizados.INT_ID_EXCLUSAO], T1.[projetos_realizados.DATE_EXCLUSAO], T1.[projetos");
+            viewString.Append("_realizados.TXT_CAMINHO_ARQUIVO], T1.[projetos_realizados.TXT_CAMINHO_ARQUIVO_PD");
+            viewString.Append("F])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [projetos_realizados.I");
+            viewString.Append("NT_ID], \r\n            T.INT_ID_PROJETO_DA_EMPRESA AS [projetos_realizados.INT_ID");
+            viewString.Append("_PROJETO_DA_EMPRESA], \r\n            T.DECIMAL_VALOR AS [projetos_realizados.DECI");
+            viewString.Append("MAL_VALOR], \r\n            T.INT_QUANTIDADE_PESSOAS_IMPACTADAS AS [projetos_reali");
+            viewString.Append("zados.INT_QUANTIDADE_PESSOAS_IMPACTADAS], \r\n            T.INT_ID_PLANEJAMENTO AS");
+            viewString.Append(" [projetos_realizados.INT_ID_PLANEJAMENTO], \r\n            T.INT_ID_CLIENTE_FONTE");
+            viewString.Append("_RESCURSO AS [projetos_realizados.INT_ID_CLIENTE_FONTE_RESCURSO], \r\n            ");
+            viewString.Append("T.TXT_IMPACTO AS [projetos_realizados.TXT_IMPACTO], \r\n            T.TXT_OBS AS [");
+            viewString.Append("projetos_realizados.TXT_OBS], \r\n            T.BOOL_ATIVO AS [projetos_realizados");
+            viewString.Append(".BOOL_ATIVO], \r\n            T.DATE_REALIZACAO AS [projetos_realizados.DATE_REALI");
+            viewString.Append("ZACAO], \r\n            T.INT_ID_CADASTRO AS [projetos_realizados.INT_ID_CADASTRO]");
+            viewString.Append(", \r\n            T.DATE_CADASTRO AS [projetos_realizados.DATE_CADASTRO], \r\n      ");
+            viewString.Append("      T.INT_ID_ALTERACAO AS [projetos_realizados.INT_ID_ALTERACAO], \r\n          ");
+            viewString.Append("  T.DATE_ALTERACAO AS [projetos_realizados.DATE_ALTERACAO], \r\n            T.INT_");
+            viewString.Append("ID_EXCLUSAO AS [projetos_realizados.INT_ID_EXCLUSAO], \r\n            T.DATE_EXCLU");
+            viewString.Append("SAO AS [projetos_realizados.DATE_EXCLUSAO], \r\n            T.TXT_CAMINHO_ARQUIVO ");
+            viewString.Append("AS [projetos_realizados.TXT_CAMINHO_ARQUIVO], \r\n            T.TXT_CAMINHO_ARQUIV");
+            viewString.Append("O_PDF AS [projetos_realizados.TXT_CAMINHO_ARQUIVO_PDF], \r\n            True AS _f");
+            viewString.Append("rom0\r\n        FROM db_coopfamModelStoreContainer.projetos_realizados AS T\r\n    )");
+            viewString.Append(" AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.projetos_realizados", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pronaf
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView486()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView516()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pronaf", "\r\n    SELECT VALUE -- Constructing pronaf\r\n        [db_coopfamModel.pronaf](T1.[p" +
                     "ronaf.INT_ID], T1.[pronaf.DATE_EXCLUSAO], T1.[pronaf.INT_ID_EXCLUIU], T1.[pronaf" +
@@ -16683,7 +17953,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pronaf_parcelas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView487()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView517()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pronaf_parcelas", @"
     SELECT VALUE -- Constructing pronaf_parcelas
@@ -16704,7 +17974,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pronaf_pronaf_tipo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView488()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView518()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pronaf_pronaf_tipo", @"
     SELECT VALUE -- Constructing pronaf_pronaf_tipo
@@ -16723,7 +17993,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.pronaf_tipo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView489()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView519()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.pronaf_tipo", @"
     SELECT VALUE -- Constructing pronaf_tipo
@@ -16742,9 +18012,9 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.propriedade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView490()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView520()
         {
-            System.Text.StringBuilder viewString = new System.Text.StringBuilder(3470);
+            System.Text.StringBuilder viewString = new System.Text.StringBuilder(4040);
             viewString.Append("\r\n    SELECT VALUE -- Constructing propriedade\r\n        [db_coopfamModel.proprie");
             viewString.Append("dade](T1.[propriedade.INT_ID], T1.[propriedade.TXT_IE], T1.[propriedade.INT_ID_C");
             viewString.Append("OOPERADO], T1.[propriedade.TXT_AREA_PASTO], T1.[propriedade.TXT_AREA_TOTAL], T1.");
@@ -16759,43 +18029,50 @@ namespace Edm_EntityMappingGeneratedViews
             viewString.Append("[propriedade.FLOAT_PERCENTUAL_DA_PROPRIEDADE], T1.[propriedade.FLOAT_OUTRAS_AREA");
             viewString.Append("S], T1.[propriedade.DATE_DATA_VALIDADE_CONTRATO], T1.[propriedade.TXT_OBS], T1.[");
             viewString.Append("propriedade.TXT_CAR], T1.[propriedade.BOOL_RESIDENCIA], T1.[propriedade.TXT_CAMI");
-            viewString.Append("NHO_MAPEAMENTO_PDF], T1.[propriedade.TXT_DESCREVER_ACESSO_PROPRIEDADE])\r\n    FRO");
-            viewString.Append("M (\r\n        SELECT \r\n            T.INT_ID AS [propriedade.INT_ID], \r\n          ");
-            viewString.Append("  T.TXT_IE AS [propriedade.TXT_IE], \r\n            T.INT_ID_COOPERADO AS [proprie");
-            viewString.Append("dade.INT_ID_COOPERADO], \r\n            T.TXT_AREA_PASTO AS [propriedade.TXT_AREA_");
-            viewString.Append("PASTO], \r\n            T.TXT_AREA_TOTAL AS [propriedade.TXT_AREA_TOTAL], \r\n      ");
-            viewString.Append("      T.TXT_AREA_PRODUCAO AS [propriedade.TXT_AREA_PRODUCAO], \r\n            T.TX");
-            viewString.Append("T_AREA_RESERVA_LEGAL AS [propriedade.TXT_AREA_RESERVA_LEGAL], \r\n            T.TX");
-            viewString.Append("T_AREA_VEGETACAO AS [propriedade.TXT_AREA_VEGETACAO], \r\n            T.TXT_AREA_A");
-            viewString.Append("PP AS [propriedade.TXT_AREA_APP], \r\n            T.TXT_AREA_OUTROS_CULTIVOS AS [p");
-            viewString.Append("ropriedade.TXT_AREA_OUTROS_CULTIVOS], \r\n            T.TXT_LATITUDE AS [proprieda");
-            viewString.Append("de.TXT_LATITUDE], \r\n            T.TXT_LONGITUDE AS [propriedade.TXT_LONGITUDE], ");
-            viewString.Append("\r\n            T.FLOAT_ALTITUDE AS [propriedade.FLOAT_ALTITUDE], \r\n            T.");
-            viewString.Append("CHAR_SITUACAO_PROPRIEDADE AS [propriedade.CHAR_SITUACAO_PROPRIEDADE], \r\n        ");
-            viewString.Append("    T.TXT_BAIRRO AS [propriedade.TXT_BAIRRO], \r\n            T.TXT_CEP AS [propri");
-            viewString.Append("edade.TXT_CEP], \r\n            T.TXT_CIDADE AS [propriedade.TXT_CIDADE], \r\n      ");
-            viewString.Append("      T.TXT_RUA AS [propriedade.TXT_RUA], \r\n            T.TXT_COMPLEMENTO AS [pr");
-            viewString.Append("opriedade.TXT_COMPLEMENTO], \r\n            T.INT_NUMERO AS [propriedade.INT_NUMER");
-            viewString.Append("O], \r\n            T.BOOL_END_PRINC AS [propriedade.BOOL_END_PRINC], \r\n          ");
-            viewString.Append("  T.TXT_UF AS [propriedade.TXT_UF], \r\n            T.BOOL_FLAG_ATIVO_EXCLUIDO AS ");
-            viewString.Append("[propriedade.BOOL_FLAG_ATIVO_EXCLUIDO], \r\n            T.INT_ID_CEP_ENDERECO AS [");
-            viewString.Append("propriedade.INT_ID_CEP_ENDERECO], \r\n            T.FLOAT_PERCENTUAL_DA_PROPRIEDAD");
-            viewString.Append("E AS [propriedade.FLOAT_PERCENTUAL_DA_PROPRIEDADE], \r\n            T.FLOAT_OUTRAS");
-            viewString.Append("_AREAS AS [propriedade.FLOAT_OUTRAS_AREAS], \r\n            T.DATE_DATA_VALIDADE_C");
-            viewString.Append("ONTRATO AS [propriedade.DATE_DATA_VALIDADE_CONTRATO], \r\n            T.TXT_OBS AS");
-            viewString.Append(" [propriedade.TXT_OBS], \r\n            T.TXT_CAR AS [propriedade.TXT_CAR], \r\n    ");
-            viewString.Append("        T.BOOL_RESIDENCIA AS [propriedade.BOOL_RESIDENCIA], \r\n            T.TXT_");
-            viewString.Append("CAMINHO_MAPEAMENTO_PDF AS [propriedade.TXT_CAMINHO_MAPEAMENTO_PDF], \r\n          ");
-            viewString.Append("  T.TXT_DESCREVER_ACESSO_PROPRIEDADE AS [propriedade.TXT_DESCREVER_ACESSO_PROPRI");
-            viewString.Append("EDADE], \r\n            True AS _from0\r\n        FROM db_coopfamModelStoreContainer");
-            viewString.Append(".propriedade AS T\r\n    ) AS T1");
+            viewString.Append("NHO_MAPEAMENTO_PDF], T1.[propriedade.TXT_DESCREVER_ACESSO_PROPRIEDADE], T1.[prop");
+            viewString.Append("riedade.INT_ID_CADASTRO], T1.[propriedade.INT_ID_ALTEROU], T1.[propriedade.INT_I");
+            viewString.Append("D_EXCLUIU], T1.[propriedade.DATE_CADASTRO], T1.[propriedade.DATE_ALTEROU], T1.[p");
+            viewString.Append("ropriedade.DATE_EXCLUIU])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS ");
+            viewString.Append("[propriedade.INT_ID], \r\n            T.TXT_IE AS [propriedade.TXT_IE], \r\n        ");
+            viewString.Append("    T.INT_ID_COOPERADO AS [propriedade.INT_ID_COOPERADO], \r\n            T.TXT_AR");
+            viewString.Append("EA_PASTO AS [propriedade.TXT_AREA_PASTO], \r\n            T.TXT_AREA_TOTAL AS [pro");
+            viewString.Append("priedade.TXT_AREA_TOTAL], \r\n            T.TXT_AREA_PRODUCAO AS [propriedade.TXT_");
+            viewString.Append("AREA_PRODUCAO], \r\n            T.TXT_AREA_RESERVA_LEGAL AS [propriedade.TXT_AREA_");
+            viewString.Append("RESERVA_LEGAL], \r\n            T.TXT_AREA_VEGETACAO AS [propriedade.TXT_AREA_VEGE");
+            viewString.Append("TACAO], \r\n            T.TXT_AREA_APP AS [propriedade.TXT_AREA_APP], \r\n          ");
+            viewString.Append("  T.TXT_AREA_OUTROS_CULTIVOS AS [propriedade.TXT_AREA_OUTROS_CULTIVOS], \r\n      ");
+            viewString.Append("      T.TXT_LATITUDE AS [propriedade.TXT_LATITUDE], \r\n            T.TXT_LONGITUD");
+            viewString.Append("E AS [propriedade.TXT_LONGITUDE], \r\n            T.FLOAT_ALTITUDE AS [propriedade");
+            viewString.Append(".FLOAT_ALTITUDE], \r\n            T.CHAR_SITUACAO_PROPRIEDADE AS [propriedade.CHAR");
+            viewString.Append("_SITUACAO_PROPRIEDADE], \r\n            T.TXT_BAIRRO AS [propriedade.TXT_BAIRRO], ");
+            viewString.Append("\r\n            T.TXT_CEP AS [propriedade.TXT_CEP], \r\n            T.TXT_CIDADE AS ");
+            viewString.Append("[propriedade.TXT_CIDADE], \r\n            T.TXT_RUA AS [propriedade.TXT_RUA], \r\n  ");
+            viewString.Append("          T.TXT_COMPLEMENTO AS [propriedade.TXT_COMPLEMENTO], \r\n            T.IN");
+            viewString.Append("T_NUMERO AS [propriedade.INT_NUMERO], \r\n            T.BOOL_END_PRINC AS [proprie");
+            viewString.Append("dade.BOOL_END_PRINC], \r\n            T.TXT_UF AS [propriedade.TXT_UF], \r\n        ");
+            viewString.Append("    T.BOOL_FLAG_ATIVO_EXCLUIDO AS [propriedade.BOOL_FLAG_ATIVO_EXCLUIDO], \r\n    ");
+            viewString.Append("        T.INT_ID_CEP_ENDERECO AS [propriedade.INT_ID_CEP_ENDERECO], \r\n          ");
+            viewString.Append("  T.FLOAT_PERCENTUAL_DA_PROPRIEDADE AS [propriedade.FLOAT_PERCENTUAL_DA_PROPRIED");
+            viewString.Append("ADE], \r\n            T.FLOAT_OUTRAS_AREAS AS [propriedade.FLOAT_OUTRAS_AREAS], \r\n");
+            viewString.Append("            T.DATE_DATA_VALIDADE_CONTRATO AS [propriedade.DATE_DATA_VALIDADE_CON");
+            viewString.Append("TRATO], \r\n            T.TXT_OBS AS [propriedade.TXT_OBS], \r\n            T.TXT_CA");
+            viewString.Append("R AS [propriedade.TXT_CAR], \r\n            T.BOOL_RESIDENCIA AS [propriedade.BOOL");
+            viewString.Append("_RESIDENCIA], \r\n            T.TXT_CAMINHO_MAPEAMENTO_PDF AS [propriedade.TXT_CAM");
+            viewString.Append("INHO_MAPEAMENTO_PDF], \r\n            T.TXT_DESCREVER_ACESSO_PROPRIEDADE AS [propr");
+            viewString.Append("iedade.TXT_DESCREVER_ACESSO_PROPRIEDADE], \r\n            T.INT_ID_CADASTRO AS [pr");
+            viewString.Append("opriedade.INT_ID_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [propriedade.INT_I");
+            viewString.Append("D_ALTEROU], \r\n            T.INT_ID_EXCLUIU AS [propriedade.INT_ID_EXCLUIU], \r\n  ");
+            viewString.Append("          T.DATE_CADASTRO AS [propriedade.DATE_CADASTRO], \r\n            T.DATE_A");
+            viewString.Append("LTEROU AS [propriedade.DATE_ALTEROU], \r\n            T.DATE_EXCLUIU AS [proprieda");
+            viewString.Append("de.DATE_EXCLUIU], \r\n            True AS _from0\r\n        FROM db_coopfamModelStor");
+            viewString.Append("eContainer.propriedade AS T\r\n    ) AS T1");
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.propriedade", viewString.ToString());
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.quebra_de_safra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView491()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView521()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.quebra_de_safra", @"
     SELECT VALUE -- Constructing quebra_de_safra
@@ -16813,7 +18090,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.quebra_de_safra_estimativa
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView492()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView522()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.quebra_de_safra_estimativa", @"
     SELECT VALUE -- Constructing quebra_de_safra_estimativa
@@ -16834,7 +18111,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.rank
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView493()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView523()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.rank", @"
     SELECT VALUE -- Constructing rank
@@ -16853,7 +18130,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.rastrear_transferencias_entre_contas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView494()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView524()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.rastrear_transferencias_entre_contas", @"
     SELECT VALUE -- Constructing rastrear_transferencias_entre_contas
@@ -16874,7 +18151,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.recibo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView495()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView525()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.recibo", @"
     SELECT VALUE -- Constructing recibo
@@ -16896,7 +18173,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.recibo_cancelado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView496()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView526()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.recibo_cancelado", @"
     SELECT VALUE -- Constructing recibo_cancelado
@@ -16916,7 +18193,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.recibo_lotes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView497()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView527()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.recibo_lotes", @"
     SELECT VALUE -- Constructing recibo_lotes
@@ -16938,9 +18215,29 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.recurso_utilizado_outra_fonte
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView528()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.recurso_utilizado_outra_fonte", @"
+    SELECT VALUE -- Constructing recurso_utilizado_outra_fonte
+        [db_coopfamModel.recurso_utilizado_outra_fonte](T1.[recurso_utilizado_outra_fonte.INT_ID], T1.[recurso_utilizado_outra_fonte.INT_ID_CONTAS_A_PAGAR_PLANEJAMENTO], T1.[recurso_utilizado_outra_fonte.INT_ID_TRANSFERENCIA_RECURSO_PLANEJAMENTO_UTILIZADO], T1.[recurso_utilizado_outra_fonte.DECIMAL_TOTAL_REAIS], T1.[recurso_utilizado_outra_fonte.BOOL_ATIVO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [recurso_utilizado_outra_fonte.INT_ID], 
+            T.INT_ID_CONTAS_A_PAGAR_PLANEJAMENTO AS [recurso_utilizado_outra_fonte.INT_ID_CONTAS_A_PAGAR_PLANEJAMENTO], 
+            T.INT_ID_TRANSFERENCIA_RECURSO_PLANEJAMENTO_UTILIZADO AS [recurso_utilizado_outra_fonte.INT_ID_TRANSFERENCIA_RECURSO_PLANEJAMENTO_UTILIZADO], 
+            T.DECIMAL_TOTAL_REAIS AS [recurso_utilizado_outra_fonte.DECIMAL_TOTAL_REAIS], 
+            T.BOOL_ATIVO AS [recurso_utilizado_outra_fonte.BOOL_ATIVO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.recurso_utilizado_outra_fonte AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.referencia_comercial
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView498()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView529()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.referencia_comercial", @"
     SELECT VALUE -- Constructing referencia_comercial
@@ -16961,7 +18258,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.referencia_hedge
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView499()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView530()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.referencia_hedge", @"
     SELECT VALUE -- Constructing referencia_hedge
@@ -16986,7 +18283,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.referenciar_lotes_armazem_terceiros
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView500()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView531()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.referenciar_lotes_armazem_terceiros", @"
     SELECT VALUE -- Constructing referenciar_lotes_armazem_terceiros
@@ -17007,7 +18304,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.relacao_de_custos_da_formacao_de_preco
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView501()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView532()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.relacao_de_custos_da_formacao_de_preco", @"
     SELECT VALUE -- Constructing relacao_de_custos_da_formacao_de_preco
@@ -17028,7 +18325,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.relacao_de_notas_desc_acrescimo
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView502()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView533()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.relacao_de_notas_desc_acrescimo", "\r\n    SELECT VALUE -- Constructing relacao_de_notas_desc_acrescimo\r\n        [db_c" +
                     "oopfamModel.relacao_de_notas_desc_acrescimo](T1.[relacao_de_notas_desc_acrescimo" +
@@ -17058,7 +18355,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.relacao_notas_descontoacrescimo_lotes_fechamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView503()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView534()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.relacao_notas_descontoacrescimo_lotes_fechamento", @"
     SELECT VALUE -- Constructing relacao_notas_descontoacrescimo_lotes_fechamento
@@ -17078,7 +18375,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.relacao_situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView504()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView535()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.relacao_situacao_norma", @"
     SELECT VALUE -- Constructing relacao_situacao_norma
@@ -17100,7 +18397,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.remocao_de_lotes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView505()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView536()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.remocao_de_lotes", @"
     SELECT VALUE -- Constructing remocao_de_lotes
@@ -17124,7 +18421,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.requisicao_compra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView506()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView537()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.requisicao_compra", "\r\n    SELECT VALUE -- Constructing requisicao_compra\r\n        [db_coopfamModel.re" +
                     "quisicao_compra](T1.[requisicao_compra.INT_ID], T1.[requisicao_compra.TXT_NR_REQ" +
@@ -17153,7 +18450,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.requisito_compra_itens
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView507()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView538()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.requisito_compra_itens", "\r\n    SELECT VALUE -- Constructing requisito_compra_itens\r\n        [db_coopfamMod" +
                     "el.requisito_compra_itens](T1.[requisito_compra_itens.INT_ID], T1.[requisito_com" +
@@ -17186,7 +18483,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.resultado_rebeneficio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView508()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView539()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(3000);
             viewString.Append("\r\n    SELECT VALUE -- Constructing resultado_rebeneficio\r\n        [db_coopfamMod");
@@ -17233,7 +18530,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.revisoes_pop
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView509()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView540()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.revisoes_pop", @"
     SELECT VALUE -- Constructing revisoes_pop
@@ -17252,7 +18549,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.rfid_chip
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView510()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView541()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.rfid_chip", @"
     SELECT VALUE -- Constructing rfid_chip
@@ -17274,7 +18571,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.rolagem
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView511()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView542()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2496);
             viewString.Append("\r\n    SELECT VALUE -- Constructing rolagem\r\n        [db_coopfamModel.rolagem](T1");
@@ -17315,7 +18612,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.setor
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView512()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView543()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.setor", @"
     SELECT VALUE -- Constructing setor
@@ -17333,7 +18630,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.situacao_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView513()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView544()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.situacao_norma", @"
     SELECT VALUE -- Constructing situacao_norma
@@ -17353,7 +18650,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.situacaonorma_subtiponorma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView514()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView545()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.situacaonorma_subtiponorma", @"
     SELECT VALUE -- Constructing situacaonorma_subtiponorma
@@ -17372,7 +18669,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.solicitacao_de_amostra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView515()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView546()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.solicitacao_de_amostra", "\r\n    SELECT VALUE -- Constructing solicitacao_de_amostra\r\n        [db_coopfamMod" +
                     "el.solicitacao_de_amostra](T1.[solicitacao_de_amostra.INT_ID], T1.[solicitacao_d" +
@@ -17402,7 +18699,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.solicitacao_de_amostra_lote
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView516()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView547()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2460);
             viewString.Append("\r\n    SELECT VALUE -- Constructing solicitacao_de_amostra_lote\r\n        [db_coop");
@@ -17442,7 +18739,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.solicitacao_de_retirada
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView517()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView548()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.solicitacao_de_retirada", "\r\n    SELECT VALUE -- Constructing solicitacao_de_retirada\r\n        [db_coopfamMo" +
                     "del.solicitacao_de_retirada](T1.[solicitacao_de_retirada.INT_ID], T1.[solicitaca" +
@@ -17451,25 +18748,29 @@ namespace Edm_EntityMappingGeneratedViews
                     "CAO], T1.[solicitacao_de_retirada.INT_ID_CLIENTE], T1.[solicitacao_de_retirada.I" +
                     "NT_ID_COOPERADO], T1.[solicitacao_de_retirada.INT_ID_SOLICITANTE], T1.[solicitac" +
                     "ao_de_retirada.INT_ID_AUTORIZADO], T1.[solicitacao_de_retirada.BOOL_ATIVO], T1.[" +
-                    "solicitacao_de_retirada.INT_ID_REVISAO_POP])\r\n    FROM (\r\n        SELECT \r\n     " +
-                    "       T.INT_ID AS [solicitacao_de_retirada.INT_ID], \r\n            T.TXT_SOLICIT" +
-                    "ACAO AS [solicitacao_de_retirada.TXT_SOLICITACAO], \r\n            T.TXT_MOTIVO AS" +
-                    " [solicitacao_de_retirada.TXT_MOTIVO], \r\n            T.DATE_LANCAMENTO AS [solic" +
-                    "itacao_de_retirada.DATE_LANCAMENTO], \r\n            T.DATE_SOLICITACAO AS [solici" +
-                    "tacao_de_retirada.DATE_SOLICITACAO], \r\n            T.INT_ID_CLIENTE AS [solicita" +
-                    "cao_de_retirada.INT_ID_CLIENTE], \r\n            T.INT_ID_COOPERADO AS [solicitaca" +
-                    "o_de_retirada.INT_ID_COOPERADO], \r\n            T.INT_ID_SOLICITANTE AS [solicita" +
-                    "cao_de_retirada.INT_ID_SOLICITANTE], \r\n            T.INT_ID_AUTORIZADO AS [solic" +
-                    "itacao_de_retirada.INT_ID_AUTORIZADO], \r\n            T.BOOL_ATIVO AS [solicitaca" +
-                    "o_de_retirada.BOOL_ATIVO], \r\n            T.INT_ID_REVISAO_POP AS [solicitacao_de" +
-                    "_retirada.INT_ID_REVISAO_POP], \r\n            True AS _from0\r\n        FROM db_coo" +
-                    "pfamModelStoreContainer.solicitacao_de_retirada AS T\r\n    ) AS T1");
+                    "solicitacao_de_retirada.INT_ID_REVISAO_POP], T1.[solicitacao_de_retirada.INT_ID_" +
+                    "SETOR], T1.[solicitacao_de_retirada.TXT_PLANEJAMENTO_PROJETO])\r\n    FROM (\r\n    " +
+                    "    SELECT \r\n            T.INT_ID AS [solicitacao_de_retirada.INT_ID], \r\n       " +
+                    "     T.TXT_SOLICITACAO AS [solicitacao_de_retirada.TXT_SOLICITACAO], \r\n         " +
+                    "   T.TXT_MOTIVO AS [solicitacao_de_retirada.TXT_MOTIVO], \r\n            T.DATE_LA" +
+                    "NCAMENTO AS [solicitacao_de_retirada.DATE_LANCAMENTO], \r\n            T.DATE_SOLI" +
+                    "CITACAO AS [solicitacao_de_retirada.DATE_SOLICITACAO], \r\n            T.INT_ID_CL" +
+                    "IENTE AS [solicitacao_de_retirada.INT_ID_CLIENTE], \r\n            T.INT_ID_COOPER" +
+                    "ADO AS [solicitacao_de_retirada.INT_ID_COOPERADO], \r\n            T.INT_ID_SOLICI" +
+                    "TANTE AS [solicitacao_de_retirada.INT_ID_SOLICITANTE], \r\n            T.INT_ID_AU" +
+                    "TORIZADO AS [solicitacao_de_retirada.INT_ID_AUTORIZADO], \r\n            T.BOOL_AT" +
+                    "IVO AS [solicitacao_de_retirada.BOOL_ATIVO], \r\n            T.INT_ID_REVISAO_POP " +
+                    "AS [solicitacao_de_retirada.INT_ID_REVISAO_POP], \r\n            T.INT_ID_SETOR AS" +
+                    " [solicitacao_de_retirada.INT_ID_SETOR], \r\n            T.TXT_PLANEJAMENTO_PROJET" +
+                    "O AS [solicitacao_de_retirada.TXT_PLANEJAMENTO_PROJETO], \r\n            True AS _" +
+                    "from0\r\n        FROM db_coopfamModelStoreContainer.solicitacao_de_retirada AS T\r\n" +
+                    "    ) AS T1");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.solicitacao_de_unificacao_divisao_de_talhoes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView518()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView549()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2775);
             viewString.Append("\r\n    SELECT VALUE -- Constructing solicitacao_de_unificacao_divisao_de_talhoes\r");
@@ -17513,7 +18814,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.solicitar_visita
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView519()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView550()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.solicitar_visita", @"
     SELECT VALUE -- Constructing solicitar_visita
@@ -17533,7 +18834,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.subtipo_norma
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView520()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView551()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.subtipo_norma", @"
     SELECT VALUE -- Constructing subtipo_norma
@@ -17551,7 +18852,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tabela_codigo_produto_por_convenio
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView521()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView552()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tabela_codigo_produto_por_convenio", @"
     SELECT VALUE -- Constructing tabela_codigo_produto_por_convenio
@@ -17573,7 +18874,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tabela_icms
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView522()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView553()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tabela_icms", @"
     SELECT VALUE -- Constructing tabela_icms
@@ -17594,35 +18895,40 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.talhao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView523()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView554()
         {
-            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.talhao", @"
-    SELECT VALUE -- Constructing talhao
-        [db_coopfamModel.talhao](T1.[talhao.INT_ID], T1.[talhao.INT_ID_PROPRIEDADE], T1.[talhao.FLOAT_NUMERO_PES], T1.[talhao.FLOAT_ESPACAMENTO_X], T1.[talhao.TXT_NOME_TALHAO], T1.[talhao.TXT_AREA_PRODUCAO], T1.[talhao.FLOAT_ESPACAMENTO_Y], T1.[talhao.BOOL_FLAG_ATIVO_EXCLUIDO], T1.[talhao.TXT_OBS], T1.[talhao.BOOL_STATUS], T1.[talhao.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO], T1.[talhao.TXT_ALTERACOES_TALHAO], T1.[talhao.DATE_ENTRADA_CERTIFICACAO])
-    FROM (
-        SELECT 
-            T.INT_ID AS [talhao.INT_ID], 
-            T.INT_ID_PROPRIEDADE AS [talhao.INT_ID_PROPRIEDADE], 
-            T.FLOAT_NUMERO_PES AS [talhao.FLOAT_NUMERO_PES], 
-            T.FLOAT_ESPACAMENTO_X AS [talhao.FLOAT_ESPACAMENTO_X], 
-            T.TXT_NOME_TALHAO AS [talhao.TXT_NOME_TALHAO], 
-            T.TXT_AREA_PRODUCAO AS [talhao.TXT_AREA_PRODUCAO], 
-            T.FLOAT_ESPACAMENTO_Y AS [talhao.FLOAT_ESPACAMENTO_Y], 
-            T.BOOL_FLAG_ATIVO_EXCLUIDO AS [talhao.BOOL_FLAG_ATIVO_EXCLUIDO], 
-            T.TXT_OBS AS [talhao.TXT_OBS], 
-            T.BOOL_STATUS AS [talhao.BOOL_STATUS], 
-            T.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO AS [talhao.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO], 
-            T.TXT_ALTERACOES_TALHAO AS [talhao.TXT_ALTERACOES_TALHAO], 
-            T.DATE_ENTRADA_CERTIFICACAO AS [talhao.DATE_ENTRADA_CERTIFICACAO], 
-            True AS _from0
-        FROM db_coopfamModelStoreContainer.talhao AS T
-    ) AS T1");
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.talhao", "\r\n    SELECT VALUE -- Constructing talhao\r\n        [db_coopfamModel.talhao](T1.[t" +
+                    "alhao.INT_ID], T1.[talhao.INT_ID_PROPRIEDADE], T1.[talhao.FLOAT_NUMERO_PES], T1." +
+                    "[talhao.FLOAT_ESPACAMENTO_X], T1.[talhao.TXT_NOME_TALHAO], T1.[talhao.TXT_AREA_P" +
+                    "RODUCAO], T1.[talhao.FLOAT_ESPACAMENTO_Y], T1.[talhao.BOOL_FLAG_ATIVO_EXCLUIDO]," +
+                    " T1.[talhao.TXT_OBS], T1.[talhao.BOOL_STATUS], T1.[talhao.INT_ID_SOLICTACAO_UNIF" +
+                    "ICACAO_TALHAO], T1.[talhao.TXT_ALTERACOES_TALHAO], T1.[talhao.DATE_ENTRADA_CERTI" +
+                    "FICACAO], T1.[talhao.INT_ID_CADASTRO], T1.[talhao.INT_ID_ALTEROU], T1.[talhao.IN" +
+                    "T_ID_EXCLUSAO], T1.[talhao.DATE_CADASTRO], T1.[talhao.DATE_ALTEROU], T1.[talhao." +
+                    "DATE_EXCLUSAO])\r\n    FROM (\r\n        SELECT \r\n            T.INT_ID AS [talhao.IN" +
+                    "T_ID], \r\n            T.INT_ID_PROPRIEDADE AS [talhao.INT_ID_PROPRIEDADE], \r\n    " +
+                    "        T.FLOAT_NUMERO_PES AS [talhao.FLOAT_NUMERO_PES], \r\n            T.FLOAT_E" +
+                    "SPACAMENTO_X AS [talhao.FLOAT_ESPACAMENTO_X], \r\n            T.TXT_NOME_TALHAO AS" +
+                    " [talhao.TXT_NOME_TALHAO], \r\n            T.TXT_AREA_PRODUCAO AS [talhao.TXT_AREA" +
+                    "_PRODUCAO], \r\n            T.FLOAT_ESPACAMENTO_Y AS [talhao.FLOAT_ESPACAMENTO_Y]," +
+                    " \r\n            T.BOOL_FLAG_ATIVO_EXCLUIDO AS [talhao.BOOL_FLAG_ATIVO_EXCLUIDO], " +
+                    "\r\n            T.TXT_OBS AS [talhao.TXT_OBS], \r\n            T.BOOL_STATUS AS [tal" +
+                    "hao.BOOL_STATUS], \r\n            T.INT_ID_SOLICTACAO_UNIFICACAO_TALHAO AS [talhao" +
+                    ".INT_ID_SOLICTACAO_UNIFICACAO_TALHAO], \r\n            T.TXT_ALTERACOES_TALHAO AS " +
+                    "[talhao.TXT_ALTERACOES_TALHAO], \r\n            T.DATE_ENTRADA_CERTIFICACAO AS [ta" +
+                    "lhao.DATE_ENTRADA_CERTIFICACAO], \r\n            T.INT_ID_CADASTRO AS [talhao.INT_" +
+                    "ID_CADASTRO], \r\n            T.INT_ID_ALTEROU AS [talhao.INT_ID_ALTEROU], \r\n     " +
+                    "       T.INT_ID_EXCLUSAO AS [talhao.INT_ID_EXCLUSAO], \r\n            T.DATE_CADAS" +
+                    "TRO AS [talhao.DATE_CADASTRO], \r\n            T.DATE_ALTEROU AS [talhao.DATE_ALTE" +
+                    "ROU], \r\n            T.DATE_EXCLUSAO AS [talhao.DATE_EXCLUSAO], \r\n            Tru" +
+                    "e AS _from0\r\n        FROM db_coopfamModelStoreContainer.talhao AS T\r\n    ) AS T1" +
+                    "");
         }
         
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.talhao_ultima_aplicao_produto_proibido
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView524()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView555()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.talhao_ultima_aplicao_produto_proibido", "\r\n    SELECT VALUE -- Constructing talhao_ultima_aplicao_produto_proibido\r\n      " +
                     "  [db_coopfamModel.talhao_ultima_aplicao_produto_proibido](T1.[talhao_ultima_apl" +
@@ -17654,7 +18960,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.talhao_unificar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView525()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView556()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.talhao_unificar", @"
     SELECT VALUE -- Constructing talhao_unificar
@@ -17673,7 +18979,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.talhao_variedade
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView526()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView557()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.talhao_variedade", "\r\n    SELECT VALUE -- Constructing talhao_variedade\r\n        [db_coopfamModel.tal" +
                     "hao_variedade](T1.[talhao_variedade.INT_ID], T1.[talhao_variedade.INT_ID_TALHAO]" +
@@ -17700,7 +19006,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.telefone
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView527()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView558()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.telefone", @"
     SELECT VALUE -- Constructing telefone
@@ -17720,7 +19026,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.telefone_cliente
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView528()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView559()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.telefone_cliente", @"
     SELECT VALUE -- Constructing telefone_cliente
@@ -17740,7 +19046,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.termo_e_condicao_contrato_cafe_cru
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView529()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView560()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.termo_e_condicao_contrato_cafe_cru", @"
     SELECT VALUE -- Constructing termo_e_condicao_contrato_cafe_cru
@@ -17760,16 +19066,17 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_amostra
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView530()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView561()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_amostra", @"
     SELECT VALUE -- Constructing tipo_amostra
-        [db_coopfamModel.tipo_amostra](T1.[tipo_amostra.INT_ID], T1.[tipo_amostra.TXT_DESCRICAO], T1.[tipo_amostra.BOOL_ATIVO])
+        [db_coopfamModel.tipo_amostra](T1.[tipo_amostra.INT_ID], T1.[tipo_amostra.TXT_DESCRICAO], T1.[tipo_amostra.BOOL_ATIVO], T1.[tipo_amostra.BOOL_SOLO_FOLIAR])
     FROM (
         SELECT 
             T.INT_ID AS [tipo_amostra.INT_ID], 
             T.TXT_DESCRICAO AS [tipo_amostra.TXT_DESCRICAO], 
             T.BOOL_ATIVO AS [tipo_amostra.BOOL_ATIVO], 
+            T.BOOL_SOLO_FOLIAR AS [tipo_amostra.BOOL_SOLO_FOLIAR], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.tipo_amostra AS T
     ) AS T1");
@@ -17778,7 +19085,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_cafe_rebeneficiado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView531()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView562()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_cafe_rebeneficiado", @"
     SELECT VALUE -- Constructing tipo_cafe_rebeneficiado
@@ -17797,7 +19104,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_de_contato_com_cliente
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView532()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView563()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_contato_com_cliente", @"
     SELECT VALUE -- Constructing tipo_de_contato_com_cliente
@@ -17814,19 +19121,40 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.tipo_de_criterio
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView564()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_criterio", @"
+    SELECT VALUE -- Constructing tipo_de_criterio
+        [db_coopfamModel.tipo_de_criterio](T1.[tipo_de_criterio.INT_ID], T1.[tipo_de_criterio.TXT_DESCRICAO], T1.[tipo_de_criterio.BOOL_ELIMINATORIO], T1.[tipo_de_criterio.BOOL_ATIVO], T1.[tipo_de_criterio.DECIMAL_PESO])
+    FROM (
+        SELECT 
+            T.INT_ID AS [tipo_de_criterio.INT_ID], 
+            T.TXT_DESCRICAO AS [tipo_de_criterio.TXT_DESCRICAO], 
+            T.BOOL_ELIMINATORIO AS [tipo_de_criterio.BOOL_ELIMINATORIO], 
+            T.BOOL_ATIVO AS [tipo_de_criterio.BOOL_ATIVO], 
+            T.DECIMAL_PESO AS [tipo_de_criterio.DECIMAL_PESO], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.tipo_de_criterio AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_de_documento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView533()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView565()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_documento", @"
     SELECT VALUE -- Constructing tipo_de_documento
-        [db_coopfamModel.tipo_de_documento](T1.[tipo_de_documento.INT_ID], T1.[tipo_de_documento.TXT_DESCRICAO], T1.[tipo_de_documento.BOOL_ATIVO], T1.[tipo_de_documento.BOOL_SALRIO])
+        [db_coopfamModel.tipo_de_documento](T1.[tipo_de_documento.INT_ID], T1.[tipo_de_documento.TXT_DESCRICAO], T1.[tipo_de_documento.BOOL_ATIVO], T1.[tipo_de_documento.BOOL_SALRIO], T1.[tipo_de_documento.BOOL_LANCAMENTO_CONTABIL_OBRIGATORIO])
     FROM (
         SELECT 
             T.INT_ID AS [tipo_de_documento.INT_ID], 
             T.TXT_DESCRICAO AS [tipo_de_documento.TXT_DESCRICAO], 
             T.BOOL_ATIVO AS [tipo_de_documento.BOOL_ATIVO], 
             T.BOOL_SALRIO AS [tipo_de_documento.BOOL_SALRIO], 
+            T.BOOL_LANCAMENTO_CONTABIL_OBRIGATORIO AS [tipo_de_documento.BOOL_LANCAMENTO_CONTABIL_OBRIGATORIO], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.tipo_de_documento AS T
     ) AS T1");
@@ -17835,7 +19163,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_de_inspecao
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView534()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView566()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_inspecao", @"
     SELECT VALUE -- Constructing tipo_de_inspecao
@@ -17854,11 +19182,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_de_pagamento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView535()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView567()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_pagamento", @"
     SELECT VALUE -- Constructing tipo_de_pagamento
-        [db_coopfamModel.tipo_de_pagamento](T1.[tipo_de_pagamento.INT_ID], T1.[tipo_de_pagamento.TXT_DESCRICAO], T1.[tipo_de_pagamento.BOOL_ATIVO], T1.[tipo_de_pagamento.BOOL_CHEQUE], T1.[tipo_de_pagamento.DECIMAL_JUROS], T1.[tipo_de_pagamento.INT_ID_BANCO_PARA_MOVIMENTAR], T1.[tipo_de_pagamento.INT_D], T1.[tipo_de_pagamento.CHAR_TIPO_PAGAMENTO], T1.[tipo_de_pagamento.DECIMAL_TAXA])
+        [db_coopfamModel.tipo_de_pagamento](T1.[tipo_de_pagamento.INT_ID], T1.[tipo_de_pagamento.TXT_DESCRICAO], T1.[tipo_de_pagamento.BOOL_ATIVO], T1.[tipo_de_pagamento.BOOL_CHEQUE], T1.[tipo_de_pagamento.DECIMAL_JUROS], T1.[tipo_de_pagamento.INT_ID_BANCO_PARA_MOVIMENTAR], T1.[tipo_de_pagamento.INT_D], T1.[tipo_de_pagamento.CHAR_TIPO_PAGAMENTO], T1.[tipo_de_pagamento.DECIMAL_TAXA], T1.[tipo_de_pagamento.INT_ID_CONTA_CONTABIL])
     FROM (
         SELECT 
             T.INT_ID AS [tipo_de_pagamento.INT_ID], 
@@ -17870,6 +19198,7 @@ namespace Edm_EntityMappingGeneratedViews
             T.INT_D AS [tipo_de_pagamento.INT_D], 
             T.CHAR_TIPO_PAGAMENTO AS [tipo_de_pagamento.CHAR_TIPO_PAGAMENTO], 
             T.DECIMAL_TAXA AS [tipo_de_pagamento.DECIMAL_TAXA], 
+            T.INT_ID_CONTA_CONTABIL AS [tipo_de_pagamento.INT_ID_CONTA_CONTABIL], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.tipo_de_pagamento AS T
     ) AS T1");
@@ -17878,7 +19207,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_de_permissao_alas_do_armazem
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView536()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView568()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_permissao_alas_do_armazem", @"
     SELECT VALUE -- Constructing tipo_de_permissao_alas_do_armazem
@@ -17898,7 +19227,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_de_permissao_alas_do_armazem_normas
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView537()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView569()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_permissao_alas_do_armazem_normas", @"
     SELECT VALUE -- Constructing tipo_de_permissao_alas_do_armazem_normas
@@ -17920,7 +19249,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_de_procedimento
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView538()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView570()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_de_procedimento", @"
     SELECT VALUE -- Constructing tipo_de_procedimento
@@ -17939,7 +19268,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_lote_rebeneficio_para_gerar
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView539()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView571()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_lote_rebeneficio_para_gerar", "\r\n    SELECT VALUE -- Constructing tipo_lote_rebeneficio_para_gerar\r\n        [db_" +
                     "coopfamModel.tipo_lote_rebeneficio_para_gerar](T1.[tipo_lote_rebeneficio_para_ge" +
@@ -17965,7 +19294,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_produto_agricola
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView540()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView572()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_produto_agricola", @"
     SELECT VALUE -- Constructing tipo_produto_agricola
@@ -17983,7 +19312,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tipo_sacaria
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView541()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView573()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tipo_sacaria", @"
     SELECT VALUE -- Constructing tipo_sacaria
@@ -18004,7 +19333,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.transferencia_entre_almoxarifado
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView542()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView574()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2686);
             viewString.Append("\r\n    SELECT VALUE -- Constructing transferencia_entre_almoxarifado\r\n        [db");
@@ -18047,7 +19376,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.transferencia_produtos
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView543()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView575()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.transferencia_produtos", @"
     SELECT VALUE -- Constructing transferencia_produtos
@@ -18065,9 +19394,59 @@ namespace Edm_EntityMappingGeneratedViews
         }
         
         /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.transferencia_recurso_planejamento_utilizado
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView576()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.transferencia_recurso_planejamento_utilizado", "\r\n    SELECT VALUE -- Constructing transferencia_recurso_planejamento_utilizado\r\n" +
+                    "        [db_coopfamModel.transferencia_recurso_planejamento_utilizado](T1.[trans" +
+                    "ferencia_recurso_planejamento_utilizado.INT_ID], T1.[transferencia_recurso_plane" +
+                    "jamento_utilizado.INT_ID_TRANSFERENCIA_RECURSO], T1.[transferencia_recurso_plane" +
+                    "jamento_utilizado.INT_ID_PLANEJAMENTO], T1.[transferencia_recurso_planejamento_u" +
+                    "tilizado.DECIMAL_TAXA_DOLAR], T1.[transferencia_recurso_planejamento_utilizado.D" +
+                    "ECIMAL_TOTAL_DOLAR], T1.[transferencia_recurso_planejamento_utilizado.DECIMAL_TO" +
+                    "TAL_REAIS], T1.[transferencia_recurso_planejamento_utilizado.BOOL_ATIVO])\r\n    F" +
+                    "ROM (\r\n        SELECT \r\n            T.INT_ID AS [transferencia_recurso_planejame" +
+                    "nto_utilizado.INT_ID], \r\n            T.INT_ID_TRANSFERENCIA_RECURSO AS [transfer" +
+                    "encia_recurso_planejamento_utilizado.INT_ID_TRANSFERENCIA_RECURSO], \r\n          " +
+                    "  T.INT_ID_PLANEJAMENTO AS [transferencia_recurso_planejamento_utilizado.INT_ID_" +
+                    "PLANEJAMENTO], \r\n            T.DECIMAL_TAXA_DOLAR AS [transferencia_recurso_plan" +
+                    "ejamento_utilizado.DECIMAL_TAXA_DOLAR], \r\n            T.DECIMAL_TOTAL_DOLAR AS [" +
+                    "transferencia_recurso_planejamento_utilizado.DECIMAL_TOTAL_DOLAR], \r\n           " +
+                    " T.DECIMAL_TOTAL_REAIS AS [transferencia_recurso_planejamento_utilizado.DECIMAL_" +
+                    "TOTAL_REAIS], \r\n            T.BOOL_ATIVO AS [transferencia_recurso_planejamento_" +
+                    "utilizado.BOOL_ATIVO], \r\n            True AS _from0\r\n        FROM db_coopfamMode" +
+                    "lStoreContainer.transferencia_recurso_planejamento_utilizado AS T\r\n    ) AS T1");
+        }
+        
+        /// <Summary>
+        /// exibição de retorno para db_coopfamEntities.transferencia_recursos
+        /// </Summary>
+        private System.Collections.Generic.KeyValuePair<string, string> GetView577()
+        {
+            return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.transferencia_recursos", @"
+    SELECT VALUE -- Constructing transferencia_recursos
+        [db_coopfamModel.transferencia_recursos](T1.[transferencia_recursos.INT_ID], T1.[transferencia_recursos.INT_ID_NOVO_PLANEJAMENTO], T1.[transferencia_recursos.DECIMAL_TAXA_DOLAR_MEDIA], T1.[transferencia_recursos.DECIMAL_TOTAL_DOLAR], T1.[transferencia_recursos.DECIMAL_TOTAL_REAIS], T1.[transferencia_recursos.DATE_TRANSFERENCIA], T1.[transferencia_recursos.TXT_OBS], T1.[transferencia_recursos.BOOL_ATIVO], T1.[transferencia_recursos.BOOL_SALDO_INICIAL])
+    FROM (
+        SELECT 
+            T.INT_ID AS [transferencia_recursos.INT_ID], 
+            T.INT_ID_NOVO_PLANEJAMENTO AS [transferencia_recursos.INT_ID_NOVO_PLANEJAMENTO], 
+            T.DECIMAL_TAXA_DOLAR_MEDIA AS [transferencia_recursos.DECIMAL_TAXA_DOLAR_MEDIA], 
+            T.DECIMAL_TOTAL_DOLAR AS [transferencia_recursos.DECIMAL_TOTAL_DOLAR], 
+            T.DECIMAL_TOTAL_REAIS AS [transferencia_recursos.DECIMAL_TOTAL_REAIS], 
+            T.DATE_TRANSFERENCIA AS [transferencia_recursos.DATE_TRANSFERENCIA], 
+            T.TXT_OBS AS [transferencia_recursos.TXT_OBS], 
+            T.BOOL_ATIVO AS [transferencia_recursos.BOOL_ATIVO], 
+            T.BOOL_SALDO_INICIAL AS [transferencia_recursos.BOOL_SALDO_INICIAL], 
+            True AS _from0
+        FROM db_coopfamModelStoreContainer.transferencia_recursos AS T
+    ) AS T1");
+        }
+        
+        /// <Summary>
         /// exibição de retorno para db_coopfamEntities.unidade_de_medida
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView544()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView578()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.unidade_de_medida", @"
     SELECT VALUE -- Constructing unidade_de_medida
@@ -18086,7 +19465,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.valor_diario_de_cada_carteira
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView545()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView579()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.valor_diario_de_cada_carteira", @"
     SELECT VALUE -- Constructing valor_diario_de_cada_carteira
@@ -18108,7 +19487,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.variedades
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView546()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView580()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.variedades", @"
     SELECT VALUE -- Constructing variedades
@@ -18127,7 +19506,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.venda_prestacao_servico
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView547()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView581()
         {
             System.Text.StringBuilder viewString = new System.Text.StringBuilder(2693);
             viewString.Append("\r\n    SELECT VALUE -- Constructing venda_prestacao_servico\r\n        [db_coopfamM");
@@ -18170,11 +19549,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.configuracoes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView548()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView582()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.configuracoes", @"
     SELECT VALUE -- Constructing configuracoes
-        [db_coopfamModel.Store.configuracoes](T1.[configuracoes.INT_ID], T1.[configuracoes.TXT_CAMINHO_FOTO], T1.[configuracoes.TXT_CAMINHO_PDF], T1.[configuracoes.TXT_CAMINHO_EVIDENCIAS], T1.[configuracoes.TXT_REDUCAO_TEMPO_TRANSICAO])
+        [db_coopfamModel.Store.configuracoes](T1.[configuracoes.INT_ID], T1.[configuracoes.TXT_CAMINHO_FOTO], T1.[configuracoes.TXT_CAMINHO_PDF], T1.[configuracoes.TXT_CAMINHO_EVIDENCIAS], T1.[configuracoes.TXT_REDUCAO_TEMPO_TRANSICAO], T1.[configuracoes.TXT_EMAIL_RH], T1.[configuracoes.TXT_EMAIL_COMITE_GENERO], T1.[configuracoes.TXT_EMAIL_COMITE_QUEIXA], T1.[configuracoes.TXT_CAMINHO_AMOSTRAS], T1.[configuracoes.TXT_CAMINHO_PROJETOS], T1.[configuracoes.TXT_CAMINHO_ASSINATURA])
     FROM (
         SELECT 
             T.INT_ID AS [configuracoes.INT_ID], 
@@ -18182,6 +19561,12 @@ namespace Edm_EntityMappingGeneratedViews
             T.TXT_CAMINHO_PDF AS [configuracoes.TXT_CAMINHO_PDF], 
             T.TXT_CAMINHO_EVIDENCIAS AS [configuracoes.TXT_CAMINHO_EVIDENCIAS], 
             T.TXT_REDUCAO_TEMPO_TRANSICAO AS [configuracoes.TXT_REDUCAO_TEMPO_TRANSICAO], 
+            T.TXT_EMAIL_RH AS [configuracoes.TXT_EMAIL_RH], 
+            T.TXT_EMAIL_COMITE_GENERO AS [configuracoes.TXT_EMAIL_COMITE_GENERO], 
+            T.TXT_EMAIL_COMITE_QUEIXA AS [configuracoes.TXT_EMAIL_COMITE_QUEIXA], 
+            T.TXT_CAMINHO_AMOSTRAS AS [configuracoes.TXT_CAMINHO_AMOSTRAS], 
+            T.TXT_CAMINHO_PROJETOS AS [configuracoes.TXT_CAMINHO_PROJETOS], 
+            T.TXT_CAMINHO_ASSINATURA AS [configuracoes.TXT_CAMINHO_ASSINATURA], 
             True AS _from0
         FROM db_coopfamEntities.configuracoes AS T
     ) AS T1");
@@ -18190,11 +19575,11 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.configuracoes
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView549()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView583()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.configuracoes", @"
     SELECT VALUE -- Constructing configuracoes
-        [db_coopfamModel.configuracoes](T1.[configuracoes.INT_ID], T1.[configuracoes.TXT_CAMINHO_FOTO], T1.[configuracoes.TXT_CAMINHO_PDF], T1.[configuracoes.TXT_CAMINHO_EVIDENCIAS], T1.[configuracoes.TXT_REDUCAO_TEMPO_TRANSICAO])
+        [db_coopfamModel.configuracoes](T1.[configuracoes.INT_ID], T1.[configuracoes.TXT_CAMINHO_FOTO], T1.[configuracoes.TXT_CAMINHO_PDF], T1.[configuracoes.TXT_CAMINHO_EVIDENCIAS], T1.[configuracoes.TXT_REDUCAO_TEMPO_TRANSICAO], T1.[configuracoes.TXT_EMAIL_RH], T1.[configuracoes.TXT_EMAIL_COMITE_GENERO], T1.[configuracoes.TXT_EMAIL_COMITE_QUEIXA], T1.[configuracoes.TXT_CAMINHO_AMOSTRAS], T1.[configuracoes.TXT_CAMINHO_PROJETOS], T1.[configuracoes.TXT_CAMINHO_ASSINATURA])
     FROM (
         SELECT 
             T.INT_ID AS [configuracoes.INT_ID], 
@@ -18202,6 +19587,12 @@ namespace Edm_EntityMappingGeneratedViews
             T.TXT_CAMINHO_PDF AS [configuracoes.TXT_CAMINHO_PDF], 
             T.TXT_CAMINHO_EVIDENCIAS AS [configuracoes.TXT_CAMINHO_EVIDENCIAS], 
             T.TXT_REDUCAO_TEMPO_TRANSICAO AS [configuracoes.TXT_REDUCAO_TEMPO_TRANSICAO], 
+            T.TXT_EMAIL_RH AS [configuracoes.TXT_EMAIL_RH], 
+            T.TXT_EMAIL_COMITE_GENERO AS [configuracoes.TXT_EMAIL_COMITE_GENERO], 
+            T.TXT_EMAIL_COMITE_QUEIXA AS [configuracoes.TXT_EMAIL_COMITE_QUEIXA], 
+            T.TXT_CAMINHO_AMOSTRAS AS [configuracoes.TXT_CAMINHO_AMOSTRAS], 
+            T.TXT_CAMINHO_PROJETOS AS [configuracoes.TXT_CAMINHO_PROJETOS], 
+            T.TXT_CAMINHO_ASSINATURA AS [configuracoes.TXT_CAMINHO_ASSINATURA], 
             True AS _from0
         FROM db_coopfamModelStoreContainer.configuracoes AS T
     ) AS T1");
@@ -18210,7 +19601,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamModelStoreContainer.tabela_ibpt
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView550()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView584()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamModelStoreContainer.tabela_ibpt", @"
     SELECT VALUE -- Constructing tabela_ibpt
@@ -18235,7 +19626,7 @@ namespace Edm_EntityMappingGeneratedViews
         /// <Summary>
         /// exibição de retorno para db_coopfamEntities.tabela_ibpt
         /// </Summary>
-        private System.Collections.Generic.KeyValuePair<string, string> GetView551()
+        private System.Collections.Generic.KeyValuePair<string, string> GetView585()
         {
             return new System.Collections.Generic.KeyValuePair<string, string>("db_coopfamEntities.tabela_ibpt", @"
     SELECT VALUE -- Constructing tabela_ibpt

@@ -16,6 +16,7 @@ namespace apiERP
     {
         public complementacoes_lote()
         {
+            this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.devolucao_de_compra = new HashSet<devolucao_de_compra>();
             this.lote_nota_cancelada = new HashSet<lote_nota_cancelada>();
             this.movimentos_produtos_contabeis = new HashSet<movimentos_produtos_contabeis>();
@@ -46,6 +47,7 @@ namespace apiERP
         public virtual funcionario funcionario { get; set; }
         public virtual lotes_do_fechamento_e_hedge lotes_do_fechamento_e_hedge { get; set; }
         public virtual notas_de_origem notas_de_origem { get; set; }
+        public virtual ICollection<contas_a_pagar_plano_de_contas> contas_a_pagar_plano_de_contas { get; set; }
         public virtual ICollection<devolucao_de_compra> devolucao_de_compra { get; set; }
         public virtual ICollection<lote_nota_cancelada> lote_nota_cancelada { get; set; }
         public virtual ICollection<movimentos_produtos_contabeis> movimentos_produtos_contabeis { get; set; }

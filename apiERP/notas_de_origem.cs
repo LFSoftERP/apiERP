@@ -17,6 +17,7 @@ namespace apiERP
         public notas_de_origem()
         {
             this.complementacoes_lote = new HashSet<complementacoes_lote>();
+            this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.devolucao_de_compra = new HashSet<devolucao_de_compra>();
             this.lote_nota_cancelada = new HashSet<lote_nota_cancelada>();
             this.movimentos_produtos_contabeis = new HashSet<movimentos_produtos_contabeis>();
@@ -35,6 +36,7 @@ namespace apiERP
     
         public virtual cadastro_entrada cadastro_entrada { get; set; }
         public virtual ICollection<complementacoes_lote> complementacoes_lote { get; set; }
+        public virtual ICollection<contas_a_pagar_plano_de_contas> contas_a_pagar_plano_de_contas { get; set; }
         public virtual ICollection<devolucao_de_compra> devolucao_de_compra { get; set; }
         public virtual ICollection<lote_nota_cancelada> lote_nota_cancelada { get; set; }
         public virtual ICollection<movimentos_produtos_contabeis> movimentos_produtos_contabeis { get; set; }

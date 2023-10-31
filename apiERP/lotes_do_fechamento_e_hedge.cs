@@ -17,6 +17,7 @@ namespace apiERP
         public lotes_do_fechamento_e_hedge()
         {
             this.complementacoes_lote = new HashSet<complementacoes_lote>();
+            this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.devolucao_de_compra = new HashSet<devolucao_de_compra>();
             this.lote_nota_cancelada = new HashSet<lote_nota_cancelada>();
             this.referencia_hedge = new HashSet<referencia_hedge>();
@@ -63,6 +64,7 @@ namespace apiERP
     
         public virtual cadastro_entrada cadastro_entrada { get; set; }
         public virtual ICollection<complementacoes_lote> complementacoes_lote { get; set; }
+        public virtual ICollection<contas_a_pagar_plano_de_contas> contas_a_pagar_plano_de_contas { get; set; }
         public virtual cooperado_que_fazem_parte_do_mercado_futuro cooperado_que_fazem_parte_do_mercado_futuro { get; set; }
         public virtual ICollection<devolucao_de_compra> devolucao_de_compra { get; set; }
         public virtual fechamento fechamento { get; set; }

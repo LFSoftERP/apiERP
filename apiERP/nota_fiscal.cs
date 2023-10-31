@@ -17,6 +17,7 @@ namespace apiERP
         public nota_fiscal()
         {
             this.contas_a_pagar_e_receber = new HashSet<contas_a_pagar_e_receber>();
+            this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.fluxo_de_caixa = new HashSet<fluxo_de_caixa>();
             this.movimentos_produtos_contabeis = new HashSet<movimentos_produtos_contabeis>();
             this.nota_fiscal1 = new HashSet<nota_fiscal>();
@@ -76,6 +77,7 @@ namespace apiERP
         public virtual cfop cfop { get; set; }
         public virtual configuracao_nota_filial configuracao_nota_filial { get; set; }
         public virtual ICollection<contas_a_pagar_e_receber> contas_a_pagar_e_receber { get; set; }
+        public virtual ICollection<contas_a_pagar_plano_de_contas> contas_a_pagar_plano_de_contas { get; set; }
         public virtual empresa empresa { get; set; }
         public virtual ICollection<fluxo_de_caixa> fluxo_de_caixa { get; set; }
         public virtual funcionario funcionario { get; set; }

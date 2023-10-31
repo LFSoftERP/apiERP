@@ -25,6 +25,8 @@ namespace apiERP
         public Nullable<System.DateTime> DATE_ALTERACAO { get; set; }
         public Nullable<int> INT_ID_EXCLUSAO { get; set; }
         public Nullable<System.DateTime> DATE_EXCLUSAO { get; set; }
+        public bool BOOL_INICIOU_CONVERSAO { get; set; }
+        public Nullable<System.DateTime> DATA_INICIO_CONVERSAO { get; set; }
     
         public virtual funcionario funcionario { get; set; }
         public virtual funcionario funcionario1 { get; set; }

@@ -18,10 +18,39 @@ namespace apiERP
         {
             this.planejamento_acoes_do_item = new HashSet<planejamento_acoes_do_item>();
             this.planejamento_auto_avaliacao_impacto = new HashSet<planejamento_auto_avaliacao_impacto>();
+            this.planejamento_menor_categoria = new HashSet<planejamento_menor_categoria>();
             this.planejamento_responsavel = new HashSet<planejamento_responsavel>();
         }
     
         public int INT_ID { get; set; }
+        public Nullable<int> INT_ID_ODS { get; set; }
+        public string TXT_BENEFICIOS_ESPERADOS { get; set; }
+        public string TXT_PROBLEMAS_DESAFIO_INICIAR { get; set; }
+        public Nullable<int> INT_PRODUTORES_ESPERADO { get; set; }
+        public Nullable<int> INT_PRODUTORAS_ESPERADO { get; set; }
+        public Nullable<int> INT_PRODUTORES_BENEFICIADOS { get; set; }
+        public Nullable<int> INT_PRODUTORAS_BENEFICIADAS { get; set; }
+        public Nullable<int> INT_TRABALHADORES_RURAIS_ESPERADO { get; set; }
+        public Nullable<int> INT_TRABALHADORAS_RURAIS_ESPERADO { get; set; }
+        public Nullable<int> INT_TRABALHADORES_RURAIS_BENEFICIADOS { get; set; }
+        public Nullable<int> INT_TRABALHADORAS_RURAIS_BENEFICIADAS { get; set; }
+        public Nullable<int> INT_EMPREGADOS_OP_ESPERADO { get; set; }
+        public Nullable<int> INT_EMPREGADAS_OP_ESPERADO { get; set; }
+        public Nullable<int> INT_EMPREGADOS_OP_BENEFICIADOS { get; set; }
+        public Nullable<int> INT_EMPREGADAS_OP_BENEFICIADAS { get; set; }
+        public Nullable<int> INT_FAMILIA_HOMENS_ESPERADOS { get; set; }
+        public Nullable<int> INT_FAMILIA_MULHERES_ESPERADAS { get; set; }
+        public Nullable<int> INT_FAMILIA_HOMENS_BENEFICIADOS { get; set; }
+        public Nullable<int> INT_FAMILIA_MULHERES_BENEFICIADAS { get; set; }
+        public Nullable<int> INT_COMUNIDADE_HOMENS_ESPERADOS { get; set; }
+        public Nullable<int> INT_COMUNIDADE_MULHERES_ESPERADAS { get; set; }
+        public Nullable<int> INT_COMUNIDADE_HOMENS_BENEFICIADOS { get; set; }
+        public Nullable<int> INT_COMUNIDADE_MULHERES_BENEFICIADAS { get; set; }
+        public Nullable<int> INT_OUTROS_HOMENS_ESPERADOS { get; set; }
+        public Nullable<int> INT_OUTROS_MULHERES_ESPERADAS { get; set; }
+        public Nullable<int> INT_OUTROS_HOMENS_BENEFICIADOS { get; set; }
+        public Nullable<int> INT_OUTROS_MULHERES_BENEFICIADAS { get; set; }
+        public string TXT_DESCRICAO_OUTROS { get; set; }
         public string TXT_DESCRICAO { get; set; }
         public int INT_ID_EMPRESA { get; set; }
         public int INT_NUMERO_DO_ITEM { get; set; }
@@ -29,8 +58,10 @@ namespace apiERP
         public Nullable<bool> BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO { get; set; }
     
         public virtual empresa empresa { get; set; }
+        public virtual ods ods { get; set; }
         public virtual ICollection<planejamento_acoes_do_item> planejamento_acoes_do_item { get; set; }
         public virtual ICollection<planejamento_auto_avaliacao_impacto> planejamento_auto_avaliacao_impacto { get; set; }
+        public virtual ICollection<planejamento_menor_categoria> planejamento_menor_categoria { get; set; }
         public virtual ICollection<planejamento_responsavel> planejamento_responsavel { get; set; }
     }
 }

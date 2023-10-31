@@ -19,6 +19,7 @@ namespace apiERP
             this.contrato = new HashSet<contrato>();
             this.fechamento_mercado_futuro = new HashSet<fechamento_mercado_futuro>();
             this.instrucao_lote_resultado_para_gerar = new HashSet<instrucao_lote_resultado_para_gerar>();
+            this.ordem_reensaque = new HashSet<ordem_reensaque>();
         }
     
         public int INT_ID { get; set; }
@@ -32,5 +33,6 @@ namespace apiERP
         public virtual empresa empresa { get; set; }
         public virtual ICollection<fechamento_mercado_futuro> fechamento_mercado_futuro { get; set; }
         public virtual ICollection<instrucao_lote_resultado_para_gerar> instrucao_lote_resultado_para_gerar { get; set; }
+        public virtual ICollection<ordem_reensaque> ordem_reensaque { get; set; }
     }
 }

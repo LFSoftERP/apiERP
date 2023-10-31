@@ -16,6 +16,7 @@ namespace apiERP
     {
         public acc_com_hedge()
         {
+            this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.referencia_hedge = new HashSet<referencia_hedge>();
             this.fluxo_de_caixa = new HashSet<fluxo_de_caixa>();
             this.movimento_bancario = new HashSet<movimento_bancario>();
@@ -61,6 +62,7 @@ namespace apiERP
         public virtual categoria_de_emprestimo_com_banco categoria_de_emprestimo_com_banco { get; set; }
         public virtual contas_bancarias_empresa contas_bancarias_empresa { get; set; }
         public virtual empresa empresa { get; set; }
+        public virtual ICollection<contas_a_pagar_plano_de_contas> contas_a_pagar_plano_de_contas { get; set; }
         public virtual funcionario funcionario { get; set; }
         public virtual instituicao instituicao { get; set; }
         public virtual ICollection<referencia_hedge> referencia_hedge { get; set; }

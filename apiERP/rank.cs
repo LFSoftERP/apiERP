@@ -16,7 +16,6 @@ namespace apiERP
     {
         public rank()
         {
-            this.formulario_respostas = new HashSet<formulario_respostas>();
             this.formulario_subitem_rank = new HashSet<formulario_subitem_rank>();
         }
     
@@ -25,7 +24,6 @@ namespace apiERP
         public bool BOOL_ATIVO { get; set; }
         public decimal DECIMAL_NOTA { get; set; }
     
-        public virtual ICollection<formulario_respostas> formulario_respostas { get; set; }
         public virtual ICollection<formulario_subitem_rank> formulario_subitem_rank { get; set; }
     }
 }

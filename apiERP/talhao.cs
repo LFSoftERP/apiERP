@@ -46,6 +46,12 @@ namespace apiERP
         public Nullable<int> INT_ID_SOLICTACAO_UNIFICACAO_TALHAO { get; set; }
         public string TXT_ALTERACOES_TALHAO { get; set; }
         public Nullable<System.DateTime> DATE_ENTRADA_CERTIFICACAO { get; set; }
+        public Nullable<int> INT_ID_CADASTRO { get; set; }
+        public Nullable<int> INT_ID_ALTEROU { get; set; }
+        public Nullable<int> INT_ID_EXCLUSAO { get; set; }
+        public Nullable<System.DateTime> DATE_CADASTRO { get; set; }
+        public Nullable<System.DateTime> DATE_ALTEROU { get; set; }
+        public Nullable<System.DateTime> DATE_EXCLUSAO { get; set; }
     
         public virtual ICollection<agendamento_cooperado> agendamento_cooperado { get; set; }
         public virtual ICollection<agendamento_talhao_propriedade> agendamento_talhao_propriedade { get; set; }
@@ -53,6 +59,9 @@ namespace apiERP
         public virtual ICollection<cadastro_entrada> cadastro_entrada { get; set; }
         public virtual ICollection<estimativa> estimativa { get; set; }
         public virtual ICollection<formulario_aplicar_produtos_utilizados_na_lavoura> formulario_aplicar_produtos_utilizados_na_lavoura { get; set; }
+        public virtual funcionario funcionario { get; set; }
+        public virtual funcionario funcionario1 { get; set; }
+        public virtual funcionario funcionario2 { get; set; }
         public virtual ICollection<historico_talhao> historico_talhao { get; set; }
         public virtual ICollection<lote_produto> lote_produto { get; set; }
         public virtual ICollection<norma_talhao> norma_talhao { get; set; }

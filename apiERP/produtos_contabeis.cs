@@ -63,6 +63,8 @@ namespace apiERP
         public bool BOOL_PRODUTO_SERVICO { get; set; }
         public decimal DECIMAL_VLR_MINIMO { get; set; }
         public Nullable<int> INT_ID_UN_MEDIDA { get; set; }
+        public Nullable<int> INT_ID_CONTA_CONTABIL { get; set; }
+        public bool BOOL_COOPERADO_TERCEIRO { get; set; }
     
         public virtual ICollection<configuracao_nota_filial> configuracao_nota_filial { get; set; }
         public virtual ICollection<configuracao_plano_de_contas_nota> configuracao_plano_de_contas_nota { get; set; }
@@ -79,6 +81,7 @@ namespace apiERP
         public virtual ICollection<ordem_de_producao_produtos_utilizados> ordem_de_producao_produtos_utilizados { get; set; }
         public virtual ICollection<padrao_de_imposto_por_cfop> padrao_de_imposto_por_cfop { get; set; }
         public virtual ICollection<pedido_faturamento_produto> pedido_faturamento_produto { get; set; }
+        public virtual plano_de_contas_contabil plano_de_contas_contabil { get; set; }
         public virtual produto_linha produto_linha { get; set; }
         public virtual ICollection<produtos_ccontabeis_referencia_terceiros> produtos_ccontabeis_referencia_terceiros { get; set; }
         public virtual ICollection<produtos_contabeis> produtos_contabeis1 { get; set; }

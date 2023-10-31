@@ -358,6 +358,16 @@
     <Compile Include="Controllers\CooperadoController.cs" />
     <Compile Include="Controllers\formularioAplicarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\agendamento_certificacao_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\agendamento_formulario_ser_aplicado_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\formulario_aplicar_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\formulario_aplicar_agendamento_talhao_propriedade_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\formulario_respostas_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\formulario_resposta_documento_comprobatorio_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\formulario_resposta_evidencia_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\formulario_resposta_seletiva_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\form_resposta_nc_criterio_api.cs" />
+    <Compile Include="Controllers\objRecebendoAPI\solicitar_visita_api.cs" />
     <Compile Include="Controllers\retornoApi.cs" />
     <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_aplicar_agendamento_talhao_propriedade_ids.cs" />
     <Compile Include="Controllers\sincronizacaoRetornoAgendaFormularioAplicar\formulario_aplicar_ids.cs" />
@@ -672,7 +682,13 @@
     <Compile Include="lote_situacaonorma.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="maior_categoria.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="maquinario.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="menor_categoria.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="modalidade_entrega.cs">
@@ -741,6 +757,9 @@
     <Compile Include="nota_fiscal.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="ods.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="ordem_de_producao.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
@@ -762,10 +781,25 @@
     <Compile Include="ordem_de_producao_tempo.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="ordem_reensaque.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_reensaque_lotes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ordem_servico_celular.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="origem_do_produto.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="origem_do_produto_nota_fiscal.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ouvidoria.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ouvidoria_mensagem.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="padrao_de_imposto_por_cfop.cs">
@@ -807,6 +841,9 @@
     <Compile Include="planejamento_acoes_do_item.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="planejamento_acoes_do_item_participantes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="planejamento_auto_avaliacao_impacto.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
@@ -817,6 +854,9 @@
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="planejamento_item.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="planejamento_menor_categoria.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="planejamento_periodo.cs">
@@ -867,6 +907,15 @@
     <Compile Include="produto_linha.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="projetos_da_empresa.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="projetos_realizados.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="projeto_cooperado.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="pronaf.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
@@ -902,6 +951,9 @@
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="recibo_lotes.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recurso_utilizado_outra_fonte.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="referenciar_lotes_armazem_terceiros.cs">
@@ -1012,6 +1064,9 @@
     <Compile Include="tipo_de_contato_com_cliente.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="tipo_de_criterio.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="tipo_de_documento.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
@@ -1043,6 +1098,12 @@
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="transferencia_produtos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="transferencia_recursos.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="transferencia_recurso_planejamento_utilizado.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="unidade_de_medida.cs">

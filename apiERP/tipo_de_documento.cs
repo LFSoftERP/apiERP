@@ -23,6 +23,7 @@ namespace apiERP
         public string TXT_DESCRICAO { get; set; }
         public bool BOOL_ATIVO { get; set; }
         public bool BOOL_SALRIO { get; set; }
+        public bool BOOL_LANCAMENTO_CONTABIL_OBRIGATORIO { get; set; }
     
         public virtual ICollection<contas_a_pagar_e_receber> contas_a_pagar_e_receber { get; set; }
     }

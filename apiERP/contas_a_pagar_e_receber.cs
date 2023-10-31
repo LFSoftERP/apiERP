@@ -51,6 +51,9 @@ namespace apiERP
         public string TXT_CHAVE_DE_ACESSO { get; set; }
         public Nullable<int> INT_ID_COTACAO_COMPRA { get; set; }
         public bool BOOL_DEVOLUCAO_COTA { get; set; }
+        public decimal DECIMAL_TAXA_DOLAR { get; set; }
+        public decimal DECIMAL_TOTAL_DOLAR { get; set; }
+        public Nullable<int> INT_ID_ORDEM_SERVICO_CELULAR { get; set; }
     
         public virtual cliente cliente { get; set; }
         public virtual ICollection<contas_a_pagar_despesas_contrato> contas_a_pagar_despesas_contrato { get; set; }
@@ -61,6 +64,7 @@ namespace apiERP
         public virtual funcionario funcionario { get; set; }
         public virtual movimento_bancario movimento_bancario { get; set; }
         public virtual nota_fiscal nota_fiscal { get; set; }
+        public virtual ordem_servico_celular ordem_servico_celular { get; set; }
         public virtual procedimento procedimento { get; set; }
         public virtual cotacao_compra cotacao_compra { get; set; }
         public virtual tipo_de_documento tipo_de_documento { get; set; }

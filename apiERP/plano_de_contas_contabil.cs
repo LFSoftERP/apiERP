@@ -16,11 +16,15 @@ namespace apiERP
     {
         public plano_de_contas_contabil()
         {
+            this.categoria_de_emprestimo = new HashSet<categoria_de_emprestimo>();
+            this.categoria_de_emprestimo_com_banco = new HashSet<categoria_de_emprestimo_com_banco>();
             this.cliente = new HashSet<cliente>();
             this.configuracao_plano_de_contas_nota = new HashSet<configuracao_plano_de_contas_nota>();
             this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.contas_bancarias_empresa = new HashSet<contas_bancarias_empresa>();
             this.cooperado = new HashSet<cooperado>();
+            this.produtos_contabeis = new HashSet<produtos_contabeis>();
+            this.tipo_de_pagamento = new HashSet<tipo_de_pagamento>();
         }
     
         public int INT_ID { get; set; }
@@ -33,11 +37,15 @@ namespace apiERP
         public decimal DECIMAL_SALDO { get; set; }
         public string CHAR_TIPO_DE_CONTA { get; set; }
     
+        public virtual ICollection<categoria_de_emprestimo> categoria_de_emprestimo { get; set; }
+        public virtual ICollection<categoria_de_emprestimo_com_banco> categoria_de_emprestimo_com_banco { get; set; }
         public virtual ICollection<cliente> cliente { get; set; }
         public virtual ICollection<configuracao_plano_de_contas_nota> configuracao_plano_de_contas_nota { get; set; }
         public virtual ICollection<contas_a_pagar_plano_de_contas> contas_a_pagar_plano_de_contas { get; set; }
         public virtual ICollection<contas_bancarias_empresa> contas_bancarias_empresa { get; set; }
         public virtual ICollection<cooperado> cooperado { get; set; }
         public virtual empresa empresa { get; set; }
+        public virtual ICollection<produtos_contabeis> produtos_contabeis { get; set; }
+        public virtual ICollection<tipo_de_pagamento> tipo_de_pagamento { get; set; }
     }
 }

@@ -19,7 +19,6 @@ namespace apiERP
             this.form_resposta_nc_criterio = new HashSet<form_resposta_nc_criterio>();
             this.formulario_item = new HashSet<formulario_item>();
             this.formulario_sub_item = new HashSet<formulario_sub_item>();
-            this.formulario_sub_item1 = new HashSet<formulario_sub_item>();
             this.formulario_subitem_ref_criterio = new HashSet<formulario_subitem_ref_criterio>();
         }
     
@@ -34,6 +33,7 @@ namespace apiERP
         public Nullable<System.DateTime> DATE_ALTERACAO { get; set; }
         public Nullable<int> INT_ID_EXCLUSAO { get; set; }
         public Nullable<System.DateTime> DATE_EXCLUSAO { get; set; }
+        public string TXT_NORMA_COMPLETA { get; set; }
     
         public virtual certificacao certificacao { get; set; }
         public virtual funcionario funcionario { get; set; }
@@ -42,7 +42,6 @@ namespace apiERP
         public virtual ICollection<form_resposta_nc_criterio> form_resposta_nc_criterio { get; set; }
         public virtual ICollection<formulario_item> formulario_item { get; set; }
         public virtual ICollection<formulario_sub_item> formulario_sub_item { get; set; }
-        public virtual ICollection<formulario_sub_item> formulario_sub_item1 { get; set; }
         public virtual ICollection<formulario_subitem_ref_criterio> formulario_subitem_ref_criterio { get; set; }
     }
 }

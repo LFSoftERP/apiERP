@@ -30,8 +30,10 @@ namespace apiERP
         public string TXT_OIC { get; set; }
         public decimal DECIMAL_QTD_ESTIMADA { get; set; }
         public Nullable<int> INT_ID_TIPO_CAFE { get; set; }
+        public Nullable<int> INT_ID_SUBTIPO { get; set; }
     
         public virtual instrucao_preparo instrucao_preparo { get; set; }
+        public virtual subtipo_norma subtipo_norma { get; set; }
         public virtual tipo_cafe_rebeneficiado tipo_cafe_rebeneficiado { get; set; }
         public virtual tipo_sacaria tipo_sacaria { get; set; }
         public virtual tipo_lote_rebeneficio_para_gerar tipo_lote_rebeneficio_para_gerar { get; set; }

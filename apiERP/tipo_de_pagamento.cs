@@ -30,10 +30,12 @@ namespace apiERP
         public int INT_D { get; set; }
         public string CHAR_TIPO_PAGAMENTO { get; set; }
         public decimal DECIMAL_TAXA { get; set; }
+        public Nullable<int> INT_ID_CONTA_CONTABIL { get; set; }
     
         public virtual ICollection<contas_a_pagar_e_receber> contas_a_pagar_e_receber { get; set; }
         public virtual contas_bancarias_empresa contas_bancarias_empresa { get; set; }
         public virtual ICollection<fluxo_de_caixa> fluxo_de_caixa { get; set; }
         public virtual ICollection<pedido_faturamento_parcelas> pedido_faturamento_parcelas { get; set; }
+        public virtual plano_de_contas_contabil plano_de_contas_contabil { get; set; }
     }
 }

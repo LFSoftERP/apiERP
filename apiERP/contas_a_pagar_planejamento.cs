@@ -14,6 +14,11 @@ namespace apiERP
     
     public partial class contas_a_pagar_planejamento
     {
+        public contas_a_pagar_planejamento()
+        {
+            this.recurso_utilizado_outra_fonte = new HashSet<recurso_utilizado_outra_fonte>();
+        }
+    
         public int INT_ID { get; set; }
         public int INT_ID_PLANEJAMENTO { get; set; }
         public Nullable<int> INT_ID_CONTAS_A_PAGAR { get; set; }
@@ -29,5 +34,6 @@ namespace apiERP
         public virtual emprestimos emprestimos { get; set; }
         public virtual movimento_bancario movimento_bancario { get; set; }
         public virtual planejamento planejamento { get; set; }
+        public virtual ICollection<recurso_utilizado_outra_fonte> recurso_utilizado_outra_fonte { get; set; }
     }
 }

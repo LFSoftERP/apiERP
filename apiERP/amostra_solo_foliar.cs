@@ -34,15 +34,17 @@ namespace apiERP
         public int INT_ID_TIPO_AMOSTRA { get; set; }
         public int INT_ID_PRODUTOR { get; set; }
         public bool BOOL_TIPO_CULTIVO { get; set; }
-        public decimal DECIMAL_ESTIMATIVA_SAFRA_PROXIMO_ANO { get; set; }
+        public Nullable<decimal> DECIMAL_ESTIMATIVA_SAFRA_PROXIMO_ANO { get; set; }
         public Nullable<System.DateTime> DATE_RECEBE_RESULTADO_AMOSTRA { get; set; }
         public Nullable<int> INT_ID_RECEBE_RESULTADO_AMOSTRA { get; set; }
         public string TXT_NUM_AMOSTRA { get; set; }
-        public bool BOOL_CUSTEIO_COOPFAM { get; set; }
+        public Nullable<bool> BOOL_CUSTEIO_COOPFAM { get; set; }
         public bool BOOL_ATIVO { get; set; }
         public System.DateTime DATE_RECEBE_AMOSTRA { get; set; }
         public Nullable<int> INT_ID_AMOSTRA_CALCULADA { get; set; }
         public Nullable<System.DateTime> DATE_AMOSTRA_CALCULADA { get; set; }
+        public string TXT_TALHAO_SEM_CADASTRO { get; set; }
+        public string TXT_CAMINHO_PDF { get; set; }
     
         public virtual funcionario funcionario { get; set; }
         public virtual funcionario funcionario1 { get; set; }

@@ -19,5 +19,11 @@ namespace apiERP
         public string TXT_CAMINHO_PDF { get; set; }
         public string TXT_CAMINHO_EVIDENCIAS { get; set; }
         public string TXT_REDUCAO_TEMPO_TRANSICAO { get; set; }
+        public string TXT_EMAIL_RH { get; set; }
+        public string TXT_EMAIL_COMITE_GENERO { get; set; }
+        public string TXT_EMAIL_COMITE_QUEIXA { get; set; }
+        public string TXT_CAMINHO_AMOSTRAS { get; set; }
+        public string TXT_CAMINHO_PROJETOS { get; set; }
+        public string TXT_CAMINHO_ASSINATURA { get; set; }
     }
 }

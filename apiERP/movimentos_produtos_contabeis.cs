@@ -14,6 +14,11 @@ namespace apiERP
     
     public partial class movimentos_produtos_contabeis
     {
+        public movimentos_produtos_contabeis()
+        {
+            this.premio_ft = new HashSet<premio_ft>();
+        }
+    
         public int INT_ID { get; set; }
         public int INT_CODIGO_CONTABIL { get; set; }
         public System.DateTime DATE_DATA_NF { get; set; }
@@ -103,6 +108,7 @@ namespace apiERP
         public Nullable<int> INT_ID_RESULTADO_REBENEFICIO_NOTA_FILIAL { get; set; }
         public Nullable<int> INT_ID_LOTE_ENTRADA_NOTA_FILIAL { get; set; }
         public Nullable<int> INT_ID_AUTORIZACAO_DE__CARREGAMENTO_NOTA_FILIAL { get; set; }
+        public decimal DECIMAL_VALOR_PREMIO_FT { get; set; }
     
         public virtual almoxarifado almoxarifado { get; set; }
         public virtual autorizacao_dev_cooperado autorizacao_dev_cooperado { get; set; }
@@ -132,6 +138,7 @@ namespace apiERP
         public virtual transferencia_produtos transferencia_produtos { get; set; }
         public virtual transferencia_produtos transferencia_produtos1 { get; set; }
         public virtual venda_prestacao_servico venda_prestacao_servico { get; set; }
+        public virtual ICollection<premio_ft> premio_ft { get; set; }
         public virtual produtos_contabeis produtos_contabeis { get; set; }
     }
 }

@@ -65,6 +65,8 @@ namespace apiERP
         public string TXT_CONTATACAO { get; set; }
         public string TXT_RECOMENDACAO { get; set; }
         public string TXT_OBS_AVALIACAO_CLIENTE { get; set; }
+        public string TXT_ASSINATURA { get; set; }
+        public string TXT_MOTIVO_DE_NAO_COLETAR_ASSINATURA { get; set; }
     
         public virtual agendamento_formulario_ser_aplicado agendamento_formulario_ser_aplicado { get; set; }
         public virtual cooperado cooperado { get; set; }

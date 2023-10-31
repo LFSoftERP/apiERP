@@ -16,6 +16,7 @@ namespace apiERP
     {
         public origem_do_produto()
         {
+            this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.lote_producao_rastreabilidade = new HashSet<lote_producao_rastreabilidade>();
             this.lotes_origem_do_produto = new HashSet<lotes_origem_do_produto>();
             this.movimentos_produtos_contabeis = new HashSet<movimentos_produtos_contabeis>();
@@ -32,6 +33,7 @@ namespace apiERP
         public Nullable<int> INT_ID_REVISAO_POP { get; set; }
     
         public virtual autorizacao_generica autorizacao_generica { get; set; }
+        public virtual ICollection<contas_a_pagar_plano_de_contas> contas_a_pagar_plano_de_contas { get; set; }
         public virtual contrato contrato { get; set; }
         public virtual funcionario funcionario { get; set; }
         public virtual ICollection<lote_producao_rastreabilidade> lote_producao_rastreabilidade { get; set; }

@@ -16,6 +16,7 @@ namespace apiERP
     {
         public pedido_faturamento()
         {
+            this.fechamento_mercado_futuro = new HashSet<fechamento_mercado_futuro>();
             this.pedido_faturamento_parcelas = new HashSet<pedido_faturamento_parcelas>();
             this.pedido_faturamento_produto = new HashSet<pedido_faturamento_produto>();
             this.venda_prestacao_servico = new HashSet<venda_prestacao_servico>();
@@ -49,10 +50,12 @@ namespace apiERP
         public bool BOOL_ATIVO { get; set; }
         public string TXT_NR_PEDIDO { get; set; }
         public string TXT_ESPECIE { get; set; }
+        public bool BOOL_BARTER { get; set; }
     
         public virtual cliente cliente { get; set; }
         public virtual cooperado cooperado { get; set; }
         public virtual empresa empresa { get; set; }
+        public virtual ICollection<fechamento_mercado_futuro> fechamento_mercado_futuro { get; set; }
         public virtual funcionario funcionario { get; set; }
         public virtual funcionario funcionario1 { get; set; }
         public virtual motorista motorista { get; set; }

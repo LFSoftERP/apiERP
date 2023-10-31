@@ -24,7 +24,9 @@ namespace apiERP
         public string CHAR_MODELO_DE_CONTRATO { get; set; }
         public Nullable<int> INT_ID_PLANEJAMENTO { get; set; }
         public Nullable<bool> BOOL_FT_OUTRAS_FONTES { get; set; }
+        public Nullable<int> INT_ID_CONTA_CONTABIL { get; set; }
     
+        public virtual plano_de_contas_contabil plano_de_contas_contabil { get; set; }
         public virtual planejamento planejamento { get; set; }
         public virtual ICollection<emprestimos> emprestimos { get; set; }
     }

@@ -21,7 +21,7 @@ namespace apiERP
     
         public int INT_ID { get; set; }
         public string TXT_DESCRICAO { get; set; }
-        public int INT_ID_CRITERIO { get; set; }
+        public Nullable<int> INT_ID_CRITERIO { get; set; }
         public bool BOOL_ATIVO { get; set; }
         public int INT_ID_CADASTRO { get; set; }
         public System.DateTime DATE_CADASTRO { get; set; }

@@ -22,7 +22,9 @@ namespace apiERP
         public int INT_ID { get; set; }
         public string TXT_DESCRICAO { get; set; }
         public bool BOOL_ATIVO { get; set; }
+        public Nullable<int> INT_ID_CONTA_CONTABIL { get; set; }
     
         public virtual ICollection<acc_com_hedge> acc_com_hedge { get; set; }
+        public virtual plano_de_contas_contabil plano_de_contas_contabil { get; set; }
     }
 }

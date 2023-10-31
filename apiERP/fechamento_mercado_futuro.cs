@@ -18,6 +18,7 @@ namespace apiERP
         {
             this.agendamento_carga_descarga = new HashSet<agendamento_carga_descarga>();
             this.cooperado_que_fazem_parte_do_mercado_futuro = new HashSet<cooperado_que_fazem_parte_do_mercado_futuro>();
+            this.emprestimos = new HashSet<emprestimos>();
             this.referencia_hedge = new HashSet<referencia_hedge>();
         }
     
@@ -80,6 +81,12 @@ namespace apiERP
         public Nullable<bool> BOOL_FT { get; set; }
         public Nullable<System.DateTime> DATA_LIMITE_PARA_FIXAR { get; set; }
         public bool BOOL_NY { get; set; }
+        public decimal DECIMAL_SCS_FT { get; set; }
+        public decimal DECIMAL_VALOR_FT_REAIS { get; set; }
+        public decimal DECIMAL_VALOR_RESIDUO_REAIS { get; set; }
+        public decimal DECIMAL_SCS_RESIDUO { get; set; }
+        public Nullable<bool> BOOL_RFA { get; set; }
+        public Nullable<int> INT_ID_PEDIDO_FATURAMENTO { get; set; }
     
         public virtual ICollection<agendamento_carga_descarga> agendamento_carga_descarga { get; set; }
         public virtual almoxarifado almoxarifado { get; set; }
@@ -88,10 +95,12 @@ namespace apiERP
         public virtual cooperado cooperado { get; set; }
         public virtual ICollection<cooperado_que_fazem_parte_do_mercado_futuro> cooperado_que_fazem_parte_do_mercado_futuro { get; set; }
         public virtual dados_bancarios dados_bancarios { get; set; }
+        public virtual ICollection<emprestimos> emprestimos { get; set; }
         public virtual funcionario funcionario { get; set; }
         public virtual funcionario funcionario1 { get; set; }
         public virtual funcionario funcionario2 { get; set; }
         public virtual modalidade_entrega modalidade_entrega { get; set; }
+        public virtual pedido_faturamento pedido_faturamento { get; set; }
         public virtual tipo_lote_rebeneficio_para_gerar tipo_lote_rebeneficio_para_gerar { get; set; }
         public virtual subtipo_norma subtipo_norma { get; set; }
         public virtual tipo_cafe_rebeneficiado tipo_cafe_rebeneficiado { get; set; }

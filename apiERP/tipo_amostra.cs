@@ -22,6 +22,7 @@ namespace apiERP
         public int INT_ID { get; set; }
         public string TXT_DESCRICAO { get; set; }
         public bool BOOL_ATIVO { get; set; }
+        public bool BOOL_SOLO_FOLIAR { get; set; }
     
         public virtual ICollection<amostra_solo_foliar> amostra_solo_foliar { get; set; }
     }

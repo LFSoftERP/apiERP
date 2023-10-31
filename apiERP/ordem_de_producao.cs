@@ -86,6 +86,8 @@ namespace apiERP
         public bool BOOL_NAO_SERA_NECESSARIO_ROTULAR { get; set; }
         public Nullable<int> INT_ID_EMPACOTADEIRA { get; set; }
         public Nullable<int> INT_ID_REVISAO_POP { get; set; }
+        public bool BOOL_FT { get; set; }
+        public decimal DECIMAL_TAXA_DOLAR_CALC_FT { get; set; }
     
         public virtual autorizacao_generica autorizacao_generica { get; set; }
         public virtual cliente cliente { get; set; }

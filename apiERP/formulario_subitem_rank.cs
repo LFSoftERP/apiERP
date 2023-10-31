@@ -14,12 +14,18 @@ namespace apiERP
     
     public partial class formulario_subitem_rank
     {
+        public formulario_subitem_rank()
+        {
+            this.formulario_respostas = new HashSet<formulario_respostas>();
+        }
+    
         public int INT_ID { get; set; }
         public string TXT_DESCRICAO { get; set; }
         public bool BOOL_ATIVO { get; set; }
         public int INT_ID_RANK { get; set; }
         public int INT_ID_FORMULARIO_SUBITEM { get; set; }
     
+        public virtual ICollection<formulario_respostas> formulario_respostas { get; set; }
         public virtual formulario_sub_item formulario_sub_item { get; set; }
         public virtual rank rank { get; set; }
     }
