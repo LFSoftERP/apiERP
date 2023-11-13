@@ -1,4 +1,5 @@
-﻿using apiERP.Controllers.sincronizacaoRetornoAgendaFormularioAplicar;
+﻿using apiERP.Controllers.CertificacaoController;
+using apiERP.Controllers.sincronizacaoRetornoAgendaFormularioAplicar;
 using ERP_COOPFAM.Controllers.CertificacaoController;
 using ERP_COOPFAM.Model.Repository;
 using Newtonsoft.Json.Linq;
@@ -55,6 +56,52 @@ namespace apiERP.Controllers
             {
                 objReturn.Success = false;
                 objReturn.Message = "Erro ao sincronizar Ponto Critico!!!\n\n" + ex.Message;
+                return JObject.FromObject(objReturn);
+            }
+        }
+
+        [Route("api/agendamentocertificacao/criterio")]
+        // POST: api/agendamentoCertificacao
+        public JObject setcriterio([FromBody] criterios objcriterio)
+        {
+            retornoApi objReturn = new retornoApi();
+
+            try
+            {
+                criteriosController controller = new criteriosController();
+                objReturn = controller.ValidaDados(objcriterio.INT_ID, objcriterio.TXT_DESCRICAO,objcriterio.TXT_NORMA_COMPLETA,objcriterio.TXT_NR_NORMA, objcriterio.INT_ID_CERTIFICACAO,
+                    objcriterio.BOOL_ATIVO, objcriterio.BOOL_ATIVO, objcriterio.DATE_CADASTRO, objcriterio.INT_ID_CADASTRO, objcriterio.DATE_ALTERACAO,
+                    objcriterio.INT_ID_ALTERACAO, objcriterio.DATE_EXCLUSAO, objcriterio.INT_ID_EXCLUSAO, "API criterios", true);
+
+                return JObject.FromObject(objReturn);
+            }
+            catch (Exception ex)
+            {
+                objReturn.Success = false;
+                objReturn.Message = "Erro ao Sincronizar Critério!!!\n\n" + ex.Message;
+                return JObject.FromObject(objReturn);
+            }
+        }
+
+        [Route("api/agendamentocertificacao/refcriterio")]
+        // POST: api/agendamentoCertificacao
+        public JObject setrefcriterio([FromBody] formulario_subitem_ref_criterio objRefcriterio)
+        {
+            retornoApi objReturn = new retornoApi();
+
+            try
+            {
+                formulario_subitem_ref_criterioController controller = new formulario_subitem_ref_criterioController();
+                objReturn = controller.ValidaDados(objRefcriterio.INT_ID, objRefcriterio.TXT_NUM_CRITERIO, objRefcriterio.INT_ID_NORMA, objRefcriterio.INT_ID_CRITERIO,
+                    objRefcriterio.BOOL_ATIVO, objRefcriterio.BOOL_ATIVO, objRefcriterio.DATE_CADASTRO, objRefcriterio.INT_ID_CADASTRO, objRefcriterio.DATE_ALTERACAO,
+                    objRefcriterio.INT_ID_ALTERACAO, objRefcriterio.DATE_EXCLUSAO, objRefcriterio.INT_ID_EXCLUSAO, "API formulario_subitem_ref_criterio", true);
+
+                return JObject.FromObject(objReturn);
+            }
+            catch (Exception ex)
+            {
+                objReturn.Success = false;
+                objReturn.Message = "Erro ao Sincronizar Referência do Critério!!!\n\n" + ex.Message;
                 return JObject.FromObject(objReturn);
             }
         }

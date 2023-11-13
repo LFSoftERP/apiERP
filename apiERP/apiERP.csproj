@@ -355,6 +355,8 @@
     </Compile>
     <Compile Include="Controllers\agendamentoCertificacaoController.cs" />
     <Compile Include="Controllers\CertificacaoController\controllerGenerics.cs" />
+    <Compile Include="Controllers\CertificacaoController\criteriosController.cs" />
+    <Compile Include="Controllers\CertificacaoController\formulario_subitem_ref_criterioController.cs" />
     <Compile Include="Controllers\CooperadoController.cs" />
     <Compile Include="Controllers\formularioAplicarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
