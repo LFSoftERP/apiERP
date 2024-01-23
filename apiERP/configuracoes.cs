@@ -25,5 +25,6 @@ namespace apiERP
         public string TXT_CAMINHO_AMOSTRAS { get; set; }
         public string TXT_CAMINHO_PROJETOS { get; set; }
         public string TXT_CAMINHO_ASSINATURA { get; set; }
+        public string TXT_CAMINHO_MEMORANDO { get; set; }
     }
 }

@@ -12,20 +12,14 @@ namespace apiERP
     using System;
     using System.Collections.Generic;
     
-    public partial class ods
+    public partial class planejamento_item_ods
     {
-        public ods()
-        {
-            this.planejamento_item = new HashSet<planejamento_item>();
-            this.planejamento_item_ods = new HashSet<planejamento_item_ods>();
-        }
-    
         public int INT_ID { get; set; }
-        public string TXT_DESCRICAO { get; set; }
-        public string TXT_EXPLICACAO { get; set; }
+        public int INT_ID_PLANEJAMENTO_ITEM { get; set; }
+        public int INT_ID_ODS { get; set; }
         public bool BOOL_ATIVO { get; set; }
     
-        public virtual ICollection<planejamento_item> planejamento_item { get; set; }
-        public virtual ICollection<planejamento_item_ods> planejamento_item_ods { get; set; }
+        public virtual ods ods { get; set; }
+        public virtual planejamento_item planejamento_item { get; set; }
     }
 }

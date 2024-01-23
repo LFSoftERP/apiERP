@@ -12,20 +12,18 @@ namespace apiERP
     using System;
     using System.Collections.Generic;
     
-    public partial class ods
+    public partial class historico_bloqueio_financeiro
     {
-        public ods()
-        {
-            this.planejamento_item = new HashSet<planejamento_item>();
-            this.planejamento_item_ods = new HashSet<planejamento_item_ods>();
-        }
-    
         public int INT_ID { get; set; }
-        public string TXT_DESCRICAO { get; set; }
-        public string TXT_EXPLICACAO { get; set; }
-        public bool BOOL_ATIVO { get; set; }
+        public Nullable<int> INT_ID_CLIENTE { get; set; }
+        public bool BOOL_BLOQUEIO { get; set; }
+        public string TXT_MOTIVO { get; set; }
+        public System.DateTime DATE_LANCAMENTO { get; set; }
+        public int ID_LANCOU { get; set; }
+        public Nullable<int> INT_ID_COOPERADO { get; set; }
     
-        public virtual ICollection<planejamento_item> planejamento_item { get; set; }
-        public virtual ICollection<planejamento_item_ods> planejamento_item_ods { get; set; }
+        public virtual cliente cliente { get; set; }
+        public virtual cooperado cooperado { get; set; }
+        public virtual funcionario funcionario { get; set; }
     }
 }

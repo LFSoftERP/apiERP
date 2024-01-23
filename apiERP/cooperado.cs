@@ -42,6 +42,7 @@ namespace apiERP
             this.referencia_comercial = new HashSet<referencia_comercial>();
             this.telefone = new HashSet<telefone>();
             this.formulario_aplicar = new HashSet<formulario_aplicar>();
+            this.historico_bloqueio_financeiro = new HashSet<historico_bloqueio_financeiro>();
             this.historico_de_alteracao_de_status = new HashSet<historico_de_alteracao_de_status>();
             this.lote_produto = new HashSet<lote_produto>();
             this.movimento_bancario = new HashSet<movimento_bancario>();
@@ -130,6 +131,8 @@ namespace apiERP
         public Nullable<int> INT_ID_ALTEROU { get; set; }
         public Nullable<System.DateTime> DATE_CADASTRO { get; set; }
         public Nullable<System.DateTime> DATE_ALTEROU { get; set; }
+        public bool BOOL_BLOQUEAR_FINANCEIRO { get; set; }
+        public string TXT_MOTIVO_BLOQUEIO { get; set; }
     
         public virtual ICollection<agendamento_certificacao> agendamento_certificacao { get; set; }
         public virtual ICollection<agendamento_cooperado> agendamento_cooperado { get; set; }
@@ -164,6 +167,7 @@ namespace apiERP
         public virtual ICollection<referencia_comercial> referencia_comercial { get; set; }
         public virtual ICollection<telefone> telefone { get; set; }
         public virtual ICollection<formulario_aplicar> formulario_aplicar { get; set; }
+        public virtual ICollection<historico_bloqueio_financeiro> historico_bloqueio_financeiro { get; set; }
         public virtual ICollection<historico_de_alteracao_de_status> historico_de_alteracao_de_status { get; set; }
         public virtual ICollection<lote_produto> lote_produto { get; set; }
         public virtual ICollection<movimento_bancario> movimento_bancario { get; set; }

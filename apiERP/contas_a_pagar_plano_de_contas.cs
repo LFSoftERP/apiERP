@@ -37,6 +37,7 @@ namespace apiERP
         public Nullable<int> INT_ID_EMPRESTIMO_COOPERADO { get; set; }
         public Nullable<int> INT_ID_COMPLEMENTACAO { get; set; }
         public Nullable<int> INT_ID_ACC { get; set; }
+        public string TXT_HISTORICO { get; set; }
     
         public virtual acc_com_hedge acc_com_hedge { get; set; }
         public virtual complementacoes_lote complementacoes_lote { get; set; }

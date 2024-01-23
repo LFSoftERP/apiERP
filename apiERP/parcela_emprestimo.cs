@@ -26,9 +26,13 @@ namespace apiERP
         public System.DateTime DATA_VENCIMENTO { get; set; }
         public decimal DECIMAL_VALOR { get; set; }
         public bool BOOL_ATIVO { get; set; }
+        public bool BOOL_INATIVO { get; set; }
+        public Nullable<int> INT_ID_RENEGOCIACAO { get; set; }
+        public decimal DECIMAL_BAIXA { get; set; }
     
         public virtual ICollection<descontos_acrescimos_pg_cafe> descontos_acrescimos_pg_cafe { get; set; }
         public virtual emprestimos emprestimos { get; set; }
+        public virtual emprestimos_renegociacao emprestimos_renegociacao { get; set; }
         public virtual ICollection<pagamento_emprestimo> pagamento_emprestimo { get; set; }
     }
 }

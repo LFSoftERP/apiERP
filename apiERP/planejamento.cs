@@ -46,11 +46,13 @@ namespace apiERP
         public decimal DECIMAL_TOTAL_EM_DOLAR { get; set; }
         public decimal DECIMAL_SALDO_INICIAL { get; set; }
         public decimal DECIMAL_SALDO_EM_DOLAR { get; set; }
+        public Nullable<int> INT_ID_CONTA_CONTABIL { get; set; }
     
         public virtual ICollection<categoria_de_emprestimo> categoria_de_emprestimo { get; set; }
         public virtual ICollection<contas_a_pagar_planejamento> contas_a_pagar_planejamento { get; set; }
         public virtual fonte_de_recurso fonte_de_recurso { get; set; }
         public virtual planejamento_acoes_do_item planejamento_acoes_do_item { get; set; }
+        public virtual plano_de_contas_contabil plano_de_contas_contabil { get; set; }
         public virtual planejamento_periodo planejamento_periodo { get; set; }
         public virtual setor setor { get; set; }
         public virtual ICollection<planejamento_data_realizacao> planejamento_data_realizacao { get; set; }

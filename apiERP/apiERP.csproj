@@ -480,6 +480,9 @@
     <Compile Include="emprestimos.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="emprestimos_renegociacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="estimativa.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
@@ -588,6 +591,9 @@
     <Compile Include="hedge.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="historico_bloqueio_financeiro.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="historico_de_alteracao_de_status.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
@@ -688,6 +694,21 @@
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="maquinario.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="meio_de_circulacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="memorando.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="memorando_meios_circulacao.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="memorando_publico_alvo.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="memorando_responsavel.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="menor_categoria.cs">
@@ -858,6 +879,9 @@
     <Compile Include="planejamento_item.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
+    <Compile Include="planejamento_item_ods.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
     <Compile Include="planejamento_menor_categoria.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
@@ -932,6 +956,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="propriedade.cs">
+      <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="publico_alvo.cs">
       <DependentUpon>Modelo_COOPFAM.tt</DependentUpon>
     </Compile>
     <Compile Include="quebra_de_safra.cs">

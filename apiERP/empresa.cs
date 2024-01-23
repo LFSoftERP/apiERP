@@ -89,6 +89,7 @@ namespace apiERP
         public bool BOOL_BRFAIR { get; set; }
         public string TXT_FTUSA_ID { get; set; }
         public string TXT_RFA_ID { get; set; }
+        public string TXT_CODIGO_DA_EMPRESA_NA_CERTIFICADORA_ORGANICA { get; set; }
     
         public virtual ICollection<acc_com_hedge> acc_com_hedge { get; set; }
         public virtual ICollection<bebida_padrao> bebida_padrao { get; set; }

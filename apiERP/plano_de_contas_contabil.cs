@@ -23,6 +23,7 @@ namespace apiERP
             this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
             this.contas_bancarias_empresa = new HashSet<contas_bancarias_empresa>();
             this.cooperado = new HashSet<cooperado>();
+            this.planejamento = new HashSet<planejamento>();
             this.produtos_contabeis = new HashSet<produtos_contabeis>();
             this.tipo_de_pagamento = new HashSet<tipo_de_pagamento>();
         }
@@ -45,6 +46,7 @@ namespace apiERP
         public virtual ICollection<contas_bancarias_empresa> contas_bancarias_empresa { get; set; }
         public virtual ICollection<cooperado> cooperado { get; set; }
         public virtual empresa empresa { get; set; }
+        public virtual ICollection<planejamento> planejamento { get; set; }
         public virtual ICollection<produtos_contabeis> produtos_contabeis { get; set; }
         public virtual ICollection<tipo_de_pagamento> tipo_de_pagamento { get; set; }
     }

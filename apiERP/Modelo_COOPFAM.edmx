@@ -804,6 +804,7 @@
           <Property Name="TXT_CAMINHO_AMOSTRAS" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="TXT_CAMINHO_PROJETOS" Type="text" Nullable="false" />
           <Property Name="TXT_CAMINHO_ASSINATURA" Type="text" Nullable="false" />
+          <Property Name="TXT_CAMINHO_MEMORANDO" Type="text" Nullable="false" />
         </EntityType>
         <EntityType Name="contas_a_pagar_despesas_contrato">
           <Key>
@@ -887,6 +888,7 @@
           <Property Name="INT_ID_EMPRESTIMO_COOPERADO" Type="int" />
           <Property Name="INT_ID_COMPLEMENTACAO" Type="int" />
           <Property Name="INT_ID_ACC" Type="int" />
+          <Property Name="TXT_HISTORICO" Type="text" Nullable="false" />
         </EntityType>
         <EntityType Name="contas_bancarias_empresa">
           <Key>
@@ -1115,6 +1117,8 @@
           <Property Name="INT_ID_ALTEROU" Type="int" />
           <Property Name="DATE_CADASTRO" Type="datetime" Precision="0" />
           <Property Name="DATE_ALTEROU" Type="datetime" Precision="0" />
+          <Property Name="BOOL_BLOQUEAR_FINANCEIRO" Type="bool" Nullable="false" />
+          <Property Name="TXT_MOTIVO_BLOQUEIO" Type="varchar" MaxLength="300" Nullable="false" />
         </EntityType>
         <EntityType Name="cooperado_que_fazem_parte_do_mercado_futura_situacao_norma">
           <Key>
@@ -1543,6 +1547,7 @@
           <Property Name="BOOL_BRFAIR" Type="bool" Nullable="false" />
           <Property Name="TXT_FTUSA_ID" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="TXT_RFA_ID" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="TXT_CODIGO_DA_EMPRESA_NA_CERTIFICADORA_ORGANICA" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityType Name="empresa_forn_prod_agricola">
           <Key>
@@ -1574,6 +1579,28 @@
           <Property Name="INT_ID_SEGUNDO_AVALISTA" Type="int" />
           <Property Name="DECIMAL_VALOR_MUDAS" Type="decimal" Precision="20" Scale="2" Nullable="false" />
           <Property Name="INT_ID_FECHAMENTO_MERC_FUTURO" Type="int" />
+          <Property Name="TXT_NR_EMPRESTIMO" Type="varchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="emprestimos_renegociacao">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INT_ID_EMPRESTIMO" Type="int" Nullable="false" />
+          <Property Name="DECIMAL_VALOR" Type="decimal" Precision="20" Scale="2" Nullable="false" />
+          <Property Name="TXT_OBS_RENEGOCIACAO" Type="text" Nullable="false" />
+          <Property Name="DATE_RENEGOCIACAO" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="DECIMAL_NOVA_TAXA_DE_JUROS" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+          <Property Name="DECIMAL_NOVA_TAXA_DE_JUROS_APOS_VENCIMENTO" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+          <Property Name="BOOL_JUROS_AA_AM" Type="bool" Nullable="false" />
+          <Property Name="INT_ID_CADASTROU" Type="int" Nullable="false" />
+          <Property Name="DATE_LANCOU" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="INT_ID_ALTEROU" Type="int" />
+          <Property Name="DATE_ALTEROU" Type="datetime" Precision="0" />
+          <Property Name="INT_ID_EXCLUIU" Type="int" />
+          <Property Name="DATE_EXCLUIU" Type="datetime" Precision="0" />
+          <Property Name="INT_ID_RENEGOCIACAO" Type="int" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
         </EntityType>
         <EntityType Name="estimativa">
           <Key>
@@ -2106,6 +2133,7 @@
           <Property Name="DATE_NASCIMENTO" Type="date" Nullable="false" />
           <Property Name="INT_ID_EMPRESA" Type="int" Nullable="false" />
           <Property Name="TXT_PERMISSAO" Type="varchar" MaxLength="30" />
+          <Property Name="TXT_ASSINATURA" Type="varchar" MaxLength="100" Nullable="false" />
         </EntityType>
         <EntityType Name="gestao_risco">
           <Key>
@@ -2197,6 +2225,18 @@
           <Property Name="INT_ID_BOLSA" Type="int" />
           <Property Name="TXT_SAFRA" Type="varchar" MaxLength="10" />
           <Property Name="DECIMAL_VALOR_HEDIADO_PARA_CONVERTER" Type="decimal" Precision="20" Scale="4" />
+        </EntityType>
+        <EntityType Name="historico_bloqueio_financeiro">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INT_ID_CLIENTE" Type="int" />
+          <Property Name="BOOL_BLOQUEIO" Type="bool" Nullable="false" />
+          <Property Name="TXT_MOTIVO" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="DATE_LANCAMENTO" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="ID_LANCOU" Type="int" Nullable="false" />
+          <Property Name="INT_ID_COOPERADO" Type="int" />
         </EntityType>
         <EntityType Name="historico_de_alteracao_de_status">
           <Key>
@@ -2685,6 +2725,73 @@
           <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
           <Property Name="CHAR_TIPO_MAQUINARIO" Type="varchar" MaxLength="1" Nullable="false" />
           <Property Name="BOOL_CONTAR_TEMPO_MOEGA" Type="bool" Nullable="false" />
+        </EntityType>
+        <EntityType Name="meio_de_circulacao">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TXT_DESCRICAO" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
+        </EntityType>
+        <EntityType Name="memorando">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TXT_NR_MEMORANDO" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="INT_ID_SETOR" Type="int" Nullable="false" />
+          <Property Name="DATE_MEMORANDO" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="TXT_ASSUNTO" Type="text" Nullable="false" />
+          <Property Name="DATE_HR_POSTAGEM" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="TXT_DOC_ANEXADO" Type="text" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
+          <Property Name="INT_ID_CADASTROU" Type="int" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="INT_ID_ALTEROU" Type="int" />
+          <Property Name="DATE_ALTEROU" Type="datetime" Precision="0" />
+          <Property Name="INT_ID_EXCLUIU" Type="int" />
+          <Property Name="DATE_EXCLUIU" Type="datetime" Precision="0" />
+        </EntityType>
+        <EntityType Name="memorando_meios_circulacao">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INT_ID_CIRCULACAO" Type="int" Nullable="false" />
+          <Property Name="INT_ID_MEMORANDO" Type="int" Nullable="false" />
+          <Property Name="TXT_OBS" Type="text" Nullable="false" />
+          <Property Name="INT_ID_CADASTROU" Type="int" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="INT_ID_EXCLUIU" Type="int" />
+          <Property Name="DATE_EXCLUIU" Type="datetime" Precision="0" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
+        </EntityType>
+        <EntityType Name="memorando_publico_alvo">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INT_ID_PUBLICO_ALVO" Type="int" Nullable="false" />
+          <Property Name="INT_ID_MEMORANDO" Type="int" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
+          <Property Name="INT_ID_CADASTRO" Type="int" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="INT_ID_EXCLUIU" Type="int" />
+          <Property Name="DATE_EXCLUIU" Type="datetime" Precision="0" />
+        </EntityType>
+        <EntityType Name="memorando_responsavel">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INT_ID_RESPONSAVEL" Type="int" Nullable="false" />
+          <Property Name="INT_ID_MEMORANDO" Type="int" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
+          <Property Name="INT_ID_CADASTRO" Type="int" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="INT_ID_EXCLUIU" Type="int" />
+          <Property Name="DATE_EXCLUIU" Type="datetime" Precision="0" />
         </EntityType>
         <EntityType Name="menor_categoria">
           <Key>
@@ -3457,6 +3564,9 @@
           <Property Name="DATA_VENCIMENTO" Type="datetime" Precision="0" Nullable="false" />
           <Property Name="DECIMAL_VALOR" Type="decimal" Precision="11" Scale="2" Nullable="false" />
           <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
+          <Property Name="BOOL_INATIVO" Type="bool" Nullable="false" />
+          <Property Name="INT_ID_RENEGOCIACAO" Type="int" />
+          <Property Name="DECIMAL_BAIXA" Type="decimal" Precision="11" Scale="2" Nullable="false" />
         </EntityType>
         <EntityType Name="participante_dap">
           <Key>
@@ -3500,6 +3610,7 @@
           <Property Name="TXT_NR_PEDIDO" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="TXT_ESPECIE" Type="varchar" MaxLength="30" Nullable="false" />
           <Property Name="BOOL_BARTER" Type="bool" Nullable="false" />
+          <Property Name="BOOL_LIBERADO_PARA_EMISSAO_DA_NOTA" Type="bool" Nullable="false" />
         </EntityType>
         <EntityType Name="pedido_faturamento_parcelas">
           <Key>
@@ -3574,6 +3685,7 @@
           <Property Name="DECIMAL_TOTAL_EM_DOLAR" Type="decimal" Precision="22" Scale="4" Nullable="false" />
           <Property Name="DECIMAL_SALDO_INICIAL" Type="decimal" Precision="20" Scale="4" Nullable="false" />
           <Property Name="DECIMAL_SALDO_EM_DOLAR" Type="decimal" Precision="20" Scale="4" Nullable="false" />
+          <Property Name="INT_ID_CONTA_CONTABIL" Type="int" />
         </EntityType>
         <EntityType Name="planejamento_acoes_do_item">
           <Key>
@@ -3671,6 +3783,16 @@
           <Property Name="INT_NUMERO_DO_ITEM" Type="int" Nullable="false" />
           <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
           <Property Name="BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO" Type="bool" />
+          <Property Name="TXT_OBJETIVO" Type="text" Nullable="false" />
+        </EntityType>
+        <EntityType Name="planejamento_item_ods">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="INT_ID_PLANEJAMENTO_ITEM" Type="int" Nullable="false" />
+          <Property Name="INT_ID_ODS" Type="int" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
         </EntityType>
         <EntityType Name="planejamento_menor_categoria">
           <Key>
@@ -4021,6 +4143,14 @@
           <Property Name="DATE_CADASTRO" Type="datetime" Precision="0" />
           <Property Name="DATE_ALTEROU" Type="datetime" Precision="0" />
           <Property Name="DATE_EXCLUIU" Type="datetime" Precision="0" />
+        </EntityType>
+        <EntityType Name="publico_alvo">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TXT_DESCRICAO" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="bool" Nullable="false" />
         </EntityType>
         <EntityType Name="quebra_de_safra">
           <Key>
@@ -8183,6 +8313,66 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="emprestimos_renegociacao_fk_alterou">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="0..1" />
+          <End Role="emprestimos_renegociacao" Type="Self.emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_ALTEROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_emprestimo">
+          <End Role="emprestimos" Type="Self.emprestimos" Multiplicity="1" />
+          <End Role="emprestimos_renegociacao" Type="Self.emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="emprestimos">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_EMPRESTIMO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_excluiu">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="0..1" />
+          <End Role="emprestimos_renegociacao" Type="Self.emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_lancou">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
+          <End Role="emprestimos_renegociacao" Type="Self.emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_CADASTROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_renegociacao">
+          <End Role="emprestimos_renegociacao" Type="Self.emprestimos_renegociacao" Multiplicity="0..1" />
+          <End Role="emprestimos_renegociacao1" Type="Self.emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao1">
+              <PropertyRef Name="INT_ID_RENEGOCIACAO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="estrutura_do_produto_fk_funcionario">
           <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
           <End Role="estrutura_do_produto" Type="Self.estrutura_do_produto" Multiplicity="*" />
@@ -10133,6 +10323,42 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="historico_bloqueio_finance_fk_cliente">
+          <End Role="cliente" Type="Self.cliente" Multiplicity="0..1" />
+          <End Role="historico_bloqueio_financeiro" Type="Self.historico_bloqueio_financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="historico_bloqueio_financeiro">
+              <PropertyRef Name="INT_ID_CLIENTE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="historico_bloqueio_finance_fk_cooperado">
+          <End Role="cooperado" Type="Self.cooperado" Multiplicity="0..1" />
+          <End Role="historico_bloqueio_financeiro" Type="Self.historico_bloqueio_financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cooperado">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="historico_bloqueio_financeiro">
+              <PropertyRef Name="INT_ID_COOPERADO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="historico_bloqueio_finance_fk_funcionario">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
+          <End Role="historico_bloqueio_financeiro" Type="Self.historico_bloqueio_financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="historico_bloqueio_financeiro">
+              <PropertyRef Name="ID_LANCOU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="historico_status_ib_cooperado">
           <End Role="cooperado" Type="Self.cooperado" Multiplicity="1" />
           <End Role="historico_de_alteracao_de_status" Type="Self.historico_de_alteracao_de_status" Multiplicity="*" />
@@ -11018,6 +11244,198 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
             </Principal>
             <Dependent Role="maquinario">
               <PropertyRef Name="INT_ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_alterou">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="0..1" />
+          <End Role="memorando" Type="Self.memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_ALTEROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_cadastrou">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
+          <End Role="memorando" Type="Self.memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_CADASTROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_excluiu">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="0..1" />
+          <End Role="memorando" Type="Self.memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_setor">
+          <End Role="setor" Type="Self.setor" Multiplicity="1" />
+          <End Role="memorando" Type="Self.memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="setor">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_SETOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_meios_circulacao_fk_cadastrou">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
+          <End Role="memorando_meios_circulacao" Type="Self.memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_CADASTROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_meios_circulacao_fk_excluiu">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="0..1" />
+          <End Role="memorando_meios_circulacao" Type="Self.memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_meios_circulacao_fk_meios_de_circulacao">
+          <End Role="meio_de_circulacao" Type="Self.meio_de_circulacao" Multiplicity="1" />
+          <End Role="memorando_meios_circulacao" Type="Self.memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="meio_de_circulacao">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_CIRCULACAO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_meios_circulacao_fk_memorando">
+          <End Role="memorando" Type="Self.memorando" Multiplicity="1" />
+          <End Role="memorando_meios_circulacao" Type="Self.memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memorando">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_MEMORANDO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_cadastro">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
+          <End Role="memorando_publico_alvo" Type="Self.memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_CADASTRO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_excluiu">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="0..1" />
+          <End Role="memorando_publico_alvo" Type="Self.memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_memorando">
+          <End Role="memorando" Type="Self.memorando" Multiplicity="1" />
+          <End Role="memorando_publico_alvo" Type="Self.memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memorando">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_MEMORANDO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_publico_alvo">
+          <End Role="publico_alvo" Type="Self.publico_alvo" Multiplicity="1" />
+          <End Role="memorando_publico_alvo" Type="Self.memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="publico_alvo">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_PUBLICO_ALVO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_cadastro">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
+          <End Role="memorando_responsavel" Type="Self.memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_CADASTRO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_excluiu">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="0..1" />
+          <End Role="memorando_responsavel" Type="Self.memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_memorando">
+          <End Role="memorando" Type="Self.memorando" Multiplicity="1" />
+          <End Role="memorando_responsavel" Type="Self.memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memorando">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_MEMORANDO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_responsavel">
+          <End Role="funcionario" Type="Self.funcionario" Multiplicity="1" />
+          <End Role="memorando_responsavel" Type="Self.memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_RESPONSAVEL" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -12641,6 +13059,18 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="parcela_emprestimo_fk_renegociacao">
+          <End Role="emprestimos_renegociacao" Type="Self.emprestimos_renegociacao" Multiplicity="0..1" />
+          <End Role="parcela_emprestimo" Type="Self.parcela_emprestimo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="parcela_emprestimo">
+              <PropertyRef Name="INT_ID_RENEGOCIACAO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="PARCELAS_FK_EMPRESTIMOS">
           <End Role="emprestimos" Type="Self.emprestimos" Multiplicity="1" />
           <End Role="parcela_emprestimo" Type="Self.parcela_emprestimo" Multiplicity="*" />
@@ -12989,6 +13419,18 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="planejamento_fk_conta_contabil">
+          <End Role="plano_de_contas_contabil" Type="Self.plano_de_contas_contabil" Multiplicity="0..1" />
+          <End Role="planejamento" Type="Self.planejamento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="plano_de_contas_contabil">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="planejamento">
+              <PropertyRef Name="INT_ID_CONTA_CONTABIL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="planejamento_fk_fonte_de_recurso">
           <End Role="fonte_de_recurso" Type="Self.fonte_de_recurso" Multiplicity="0..1" />
           <End Role="planejamento" Type="Self.planejamento" Multiplicity="*" />
@@ -13034,6 +13476,30 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
             </Principal>
             <Dependent Role="planejamento">
               <PropertyRef Name="INT_ID_SETOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="planejamento_item_ods_fk_ods">
+          <End Role="ods" Type="Self.ods" Multiplicity="1" />
+          <End Role="planejamento_item_ods" Type="Self.planejamento_item_ods" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ods">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="planejamento_item_ods">
+              <PropertyRef Name="INT_ID_ODS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="planejamento_item_ods_fk_planejamento_item">
+          <End Role="planejamento_item" Type="Self.planejamento_item" Multiplicity="1" />
+          <End Role="planejamento_item_ods" Type="Self.planejamento_item_ods" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="planejamento_item">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="planejamento_item_ods">
+              <PropertyRef Name="INT_ID_PLANEJAMENTO_ITEM" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -15299,6 +15765,7 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
           <EntitySet Name="empresa" EntityType="Self.empresa" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="empresa_forn_prod_agricola" EntityType="Self.empresa_forn_prod_agricola" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="emprestimos" EntityType="Self.emprestimos" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="emprestimos_renegociacao" EntityType="Self.emprestimos_renegociacao" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="estimativa" EntityType="Self.estimativa" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="estrutura_do_produto" EntityType="Self.estrutura_do_produto" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="fechamento" EntityType="Self.fechamento" Schema="db_coopfam" store:Type="Tables" />
@@ -15334,6 +15801,7 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
           <EntitySet Name="grupo_reuniao" EntityType="Self.grupo_reuniao" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="grupo_variedade" EntityType="Self.grupo_variedade" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="hedge" EntityType="Self.hedge" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="historico_bloqueio_financeiro" EntityType="Self.historico_bloqueio_financeiro" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="historico_de_alteracao_de_status" EntityType="Self.historico_de_alteracao_de_status" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="historico_talhao" EntityType="Self.historico_talhao" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="informacao_adicional" EntityType="Self.informacao_adicional" Schema="db_coopfam" store:Type="Tables" />
@@ -15368,6 +15836,11 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
           <EntitySet Name="lotes_origem_do_produto" EntityType="Self.lotes_origem_do_produto" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="maior_categoria" EntityType="Self.maior_categoria" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="maquinario" EntityType="Self.maquinario" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="meio_de_circulacao" EntityType="Self.meio_de_circulacao" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="memorando" EntityType="Self.memorando" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="memorando_meios_circulacao" EntityType="Self.memorando_meios_circulacao" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="memorando_publico_alvo" EntityType="Self.memorando_publico_alvo" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="memorando_responsavel" EntityType="Self.memorando_responsavel" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="menor_categoria" EntityType="Self.menor_categoria" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="modalidade_entrega" EntityType="Self.modalidade_entrega" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="motorista" EntityType="Self.motorista" Schema="db_coopfam" store:Type="Tables" />
@@ -15416,6 +15889,7 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
           <EntitySet Name="planejamento_categoria" EntityType="Self.planejamento_categoria" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="planejamento_data_realizacao" EntityType="Self.planejamento_data_realizacao" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="planejamento_item" EntityType="Self.planejamento_item" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="planejamento_item_ods" EntityType="Self.planejamento_item_ods" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="planejamento_menor_categoria" EntityType="Self.planejamento_menor_categoria" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="planejamento_periodo" EntityType="Self.planejamento_periodo" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="planejamento_responsavel" EntityType="Self.planejamento_responsavel" Schema="db_coopfam" store:Type="Tables" />
@@ -15441,6 +15915,7 @@ warning 6002: The table/view 'def.db_coopfam.tabela_ibpt' does not have a primar
           <EntitySet Name="pronaf_pronaf_tipo" EntityType="Self.pronaf_pronaf_tipo" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="pronaf_tipo" EntityType="Self.pronaf_tipo" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="propriedade" EntityType="Self.propriedade" Schema="db_coopfam" store:Type="Tables" />
+          <EntitySet Name="publico_alvo" EntityType="Self.publico_alvo" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="quebra_de_safra" EntityType="Self.quebra_de_safra" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="quebra_de_safra_estimativa" EntityType="Self.quebra_de_safra_estimativa" Schema="db_coopfam" store:Type="Tables" />
           <EntitySet Name="rank" EntityType="Self.rank" Schema="db_coopfam" store:Type="Tables" />
@@ -16632,6 +17107,26 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="fechamento_mercado_futuro" EntitySet="fechamento_mercado_futuro" />
             <End Role="emprestimos" EntitySet="emprestimos" />
           </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_alterou" Association="Self.emprestimos_renegociacao_fk_alterou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_emprestimo" Association="Self.emprestimos_renegociacao_fk_emprestimo">
+            <End Role="emprestimos" EntitySet="emprestimos" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_excluiu" Association="Self.emprestimos_renegociacao_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_lancou" Association="Self.emprestimos_renegociacao_fk_lancou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_renegociacao" Association="Self.emprestimos_renegociacao_fk_renegociacao">
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+            <End Role="emprestimos_renegociacao1" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
           <AssociationSet Name="estrutura_do_produto_fk_funcionario" Association="Self.estrutura_do_produto_fk_funcionario">
             <End Role="funcionario" EntitySet="funcionario" />
             <End Role="estrutura_do_produto" EntitySet="estrutura_do_produto" />
@@ -17280,6 +17775,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="bolsa" EntitySet="bolsa" />
             <End Role="hedge" EntitySet="hedge" />
           </AssociationSet>
+          <AssociationSet Name="historico_bloqueio_finance_fk_cliente" Association="Self.historico_bloqueio_finance_fk_cliente">
+            <End Role="cliente" EntitySet="cliente" />
+            <End Role="historico_bloqueio_financeiro" EntitySet="historico_bloqueio_financeiro" />
+          </AssociationSet>
+          <AssociationSet Name="historico_bloqueio_finance_fk_cooperado" Association="Self.historico_bloqueio_finance_fk_cooperado">
+            <End Role="cooperado" EntitySet="cooperado" />
+            <End Role="historico_bloqueio_financeiro" EntitySet="historico_bloqueio_financeiro" />
+          </AssociationSet>
+          <AssociationSet Name="historico_bloqueio_finance_fk_funcionario" Association="Self.historico_bloqueio_finance_fk_funcionario">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="historico_bloqueio_financeiro" EntitySet="historico_bloqueio_financeiro" />
+          </AssociationSet>
           <AssociationSet Name="historico_status_ib_cooperado" Association="Self.historico_status_ib_cooperado">
             <End Role="cooperado" EntitySet="cooperado" />
             <End Role="historico_de_alteracao_de_status" EntitySet="historico_de_alteracao_de_status" />
@@ -17575,6 +18082,70 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <AssociationSet Name="maquinario_fk_empresa" Association="Self.maquinario_fk_empresa">
             <End Role="empresa" EntitySet="empresa" />
             <End Role="maquinario" EntitySet="maquinario" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_alterou" Association="Self.memorando_fk_alterou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_cadastrou" Association="Self.memorando_fk_cadastrou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_excluiu" Association="Self.memorando_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_setor" Association="Self.memorando_fk_setor">
+            <End Role="setor" EntitySet="setor" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_cadastrou" Association="Self.memorando_meios_circulacao_fk_cadastrou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_excluiu" Association="Self.memorando_meios_circulacao_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_meios_de_circulacao" Association="Self.memorando_meios_circulacao_fk_meios_de_circulacao">
+            <End Role="meio_de_circulacao" EntitySet="meio_de_circulacao" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_memorando" Association="Self.memorando_meios_circulacao_fk_memorando">
+            <End Role="memorando" EntitySet="memorando" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_cadastro" Association="Self.memorando_publico_alvo_fk_cadastro">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_excluiu" Association="Self.memorando_publico_alvo_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_memorando" Association="Self.memorando_publico_alvo_fk_memorando">
+            <End Role="memorando" EntitySet="memorando" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_publico_alvo" Association="Self.memorando_publico_alvo_fk_publico_alvo">
+            <End Role="publico_alvo" EntitySet="publico_alvo" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_cadastro" Association="Self.memorando_responsavel_fk_cadastro">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_excluiu" Association="Self.memorando_responsavel_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_memorando" Association="Self.memorando_responsavel_fk_memorando">
+            <End Role="memorando" EntitySet="memorando" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_responsavel" Association="Self.memorando_responsavel_fk_responsavel">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
           </AssociationSet>
           <AssociationSet Name="menor_categoria_fk_maior_categoria" Association="Self.menor_categoria_fk_maior_categoria">
             <End Role="maior_categoria" EntitySet="maior_categoria" />
@@ -18116,6 +18687,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="pagamento_recebimento" EntitySet="pagamento_recebimento" />
             <End Role="pagamento_recebimento_fluxo_de_caixa" EntitySet="pagamento_recebimento_fluxo_de_caixa" />
           </AssociationSet>
+          <AssociationSet Name="parcela_emprestimo_fk_renegociacao" Association="Self.parcela_emprestimo_fk_renegociacao">
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+            <End Role="parcela_emprestimo" EntitySet="parcela_emprestimo" />
+          </AssociationSet>
           <AssociationSet Name="PARCELAS_FK_EMPRESTIMOS" Association="Self.PARCELAS_FK_EMPRESTIMOS">
             <End Role="emprestimos" EntitySet="emprestimos" />
             <End Role="parcela_emprestimo" EntitySet="parcela_emprestimo" />
@@ -18232,6 +18807,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="planejamento_acoes_do_item" EntitySet="planejamento_acoes_do_item" />
             <End Role="planejamento" EntitySet="planejamento" />
           </AssociationSet>
+          <AssociationSet Name="planejamento_fk_conta_contabil" Association="Self.planejamento_fk_conta_contabil">
+            <End Role="plano_de_contas_contabil" EntitySet="plano_de_contas_contabil" />
+            <End Role="planejamento" EntitySet="planejamento" />
+          </AssociationSet>
           <AssociationSet Name="planejamento_fk_fonte_de_recurso" Association="Self.planejamento_fk_fonte_de_recurso">
             <End Role="fonte_de_recurso" EntitySet="fonte_de_recurso" />
             <End Role="planejamento" EntitySet="planejamento" />
@@ -18247,6 +18826,14 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <AssociationSet Name="planejamento_fk_setor" Association="Self.planejamento_fk_setor">
             <End Role="setor" EntitySet="setor" />
             <End Role="planejamento" EntitySet="planejamento" />
+          </AssociationSet>
+          <AssociationSet Name="planejamento_item_ods_fk_ods" Association="Self.planejamento_item_ods_fk_ods">
+            <End Role="ods" EntitySet="ods" />
+            <End Role="planejamento_item_ods" EntitySet="planejamento_item_ods" />
+          </AssociationSet>
+          <AssociationSet Name="planejamento_item_ods_fk_planejamento_item" Association="Self.planejamento_item_ods_fk_planejamento_item">
+            <End Role="planejamento_item" EntitySet="planejamento_item" />
+            <End Role="planejamento_item_ods" EntitySet="planejamento_item_ods" />
           </AssociationSet>
           <AssociationSet Name="planejamento_menor_categoria_fk_menor_categoria" Association="Self.planejamento_menor_categoria_fk_menor_categoria">
             <End Role="menor_categoria" EntitySet="menor_categoria" />
@@ -19067,6 +19654,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySet Name="empresa" EntityType="db_coopfamModel.empresa" />
           <EntitySet Name="empresa_forn_prod_agricola" EntityType="db_coopfamModel.empresa_forn_prod_agricola" />
           <EntitySet Name="emprestimos" EntityType="db_coopfamModel.emprestimos" />
+          <EntitySet Name="emprestimos_renegociacao" EntityType="db_coopfamModel.emprestimos_renegociacao" />
           <EntitySet Name="estimativa" EntityType="db_coopfamModel.estimativa" />
           <EntitySet Name="estrutura_do_produto" EntityType="db_coopfamModel.estrutura_do_produto" />
           <EntitySet Name="fechamento" EntityType="db_coopfamModel.fechamento" />
@@ -19102,6 +19690,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySet Name="grupo_reuniao" EntityType="db_coopfamModel.grupo_reuniao" />
           <EntitySet Name="grupo_variedade" EntityType="db_coopfamModel.grupo_variedade" />
           <EntitySet Name="hedge" EntityType="db_coopfamModel.hedge" />
+          <EntitySet Name="historico_bloqueio_financeiro" EntityType="db_coopfamModel.historico_bloqueio_financeiro" />
           <EntitySet Name="historico_de_alteracao_de_status" EntityType="db_coopfamModel.historico_de_alteracao_de_status" />
           <EntitySet Name="historico_talhao" EntityType="db_coopfamModel.historico_talhao" />
           <EntitySet Name="informacao_adicional" EntityType="db_coopfamModel.informacao_adicional" />
@@ -19136,6 +19725,11 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySet Name="lotes_origem_do_produto" EntityType="db_coopfamModel.lotes_origem_do_produto" />
           <EntitySet Name="maior_categoria" EntityType="db_coopfamModel.maior_categoria" />
           <EntitySet Name="maquinario" EntityType="db_coopfamModel.maquinario" />
+          <EntitySet Name="meio_de_circulacao" EntityType="db_coopfamModel.meio_de_circulacao" />
+          <EntitySet Name="memorando" EntityType="db_coopfamModel.memorando" />
+          <EntitySet Name="memorando_meios_circulacao" EntityType="db_coopfamModel.memorando_meios_circulacao" />
+          <EntitySet Name="memorando_publico_alvo" EntityType="db_coopfamModel.memorando_publico_alvo" />
+          <EntitySet Name="memorando_responsavel" EntityType="db_coopfamModel.memorando_responsavel" />
           <EntitySet Name="menor_categoria" EntityType="db_coopfamModel.menor_categoria" />
           <EntitySet Name="modalidade_entrega" EntityType="db_coopfamModel.modalidade_entrega" />
           <EntitySet Name="motorista" EntityType="db_coopfamModel.motorista" />
@@ -19184,6 +19778,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySet Name="planejamento_categoria" EntityType="db_coopfamModel.planejamento_categoria" />
           <EntitySet Name="planejamento_data_realizacao" EntityType="db_coopfamModel.planejamento_data_realizacao" />
           <EntitySet Name="planejamento_item" EntityType="db_coopfamModel.planejamento_item" />
+          <EntitySet Name="planejamento_item_ods" EntityType="db_coopfamModel.planejamento_item_ods" />
           <EntitySet Name="planejamento_menor_categoria" EntityType="db_coopfamModel.planejamento_menor_categoria" />
           <EntitySet Name="planejamento_periodo" EntityType="db_coopfamModel.planejamento_periodo" />
           <EntitySet Name="planejamento_responsavel" EntityType="db_coopfamModel.planejamento_responsavel" />
@@ -19209,6 +19804,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySet Name="pronaf_pronaf_tipo" EntityType="db_coopfamModel.pronaf_pronaf_tipo" />
           <EntitySet Name="pronaf_tipo" EntityType="db_coopfamModel.pronaf_tipo" />
           <EntitySet Name="propriedade" EntityType="db_coopfamModel.propriedade" />
+          <EntitySet Name="publico_alvo" EntityType="db_coopfamModel.publico_alvo" />
           <EntitySet Name="quebra_de_safra" EntityType="db_coopfamModel.quebra_de_safra" />
           <EntitySet Name="quebra_de_safra_estimativa" EntityType="db_coopfamModel.quebra_de_safra_estimativa" />
           <EntitySet Name="rank" EntityType="db_coopfamModel.rank" />
@@ -20047,6 +20643,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="cliente" EntitySet="cliente" />
             <End Role="contrato" EntitySet="contrato" />
           </AssociationSet>
+          <AssociationSet Name="historico_bloqueio_finance_fk_cliente" Association="db_coopfamModel.historico_bloqueio_finance_fk_cliente">
+            <End Role="cliente" EntitySet="cliente" />
+            <End Role="historico_bloqueio_financeiro" EntitySet="historico_bloqueio_financeiro" />
+          </AssociationSet>
           <AssociationSet Name="lote_produto_fk_cliente" Association="db_coopfamModel.lote_produto_fk_cliente">
             <End Role="cliente" EntitySet="cliente" />
             <End Role="lote_produto" EntitySet="lote_produto" />
@@ -20595,6 +21195,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="cooperado" EntitySet="cooperado" />
             <End Role="formulario_aplicar" EntitySet="formulario_aplicar" />
           </AssociationSet>
+          <AssociationSet Name="historico_bloqueio_finance_fk_cooperado" Association="db_coopfamModel.historico_bloqueio_finance_fk_cooperado">
+            <End Role="cooperado" EntitySet="cooperado" />
+            <End Role="historico_bloqueio_financeiro" EntitySet="historico_bloqueio_financeiro" />
+          </AssociationSet>
           <AssociationSet Name="historico_status_ib_cooperado" Association="db_coopfamModel.historico_status_ib_cooperado">
             <End Role="cooperado" EntitySet="cooperado" />
             <End Role="historico_de_alteracao_de_status" EntitySet="historico_de_alteracao_de_status" />
@@ -21047,12 +21651,36 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="fechamento_mercado_futuro" EntitySet="fechamento_mercado_futuro" />
             <End Role="emprestimos" EntitySet="emprestimos" />
           </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_emprestimo" Association="db_coopfamModel.emprestimos_renegociacao_fk_emprestimo">
+            <End Role="emprestimos" EntitySet="emprestimos" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
           <AssociationSet Name="movimento_bancario_fk_emprestimo" Association="db_coopfamModel.movimento_bancario_fk_emprestimo">
             <End Role="emprestimos" EntitySet="emprestimos" />
             <End Role="movimento_bancario" EntitySet="movimento_bancario" />
           </AssociationSet>
           <AssociationSet Name="PARCELAS_FK_EMPRESTIMOS" Association="db_coopfamModel.PARCELAS_FK_EMPRESTIMOS">
             <End Role="emprestimos" EntitySet="emprestimos" />
+            <End Role="parcela_emprestimo" EntitySet="parcela_emprestimo" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_alterou" Association="db_coopfamModel.emprestimos_renegociacao_fk_alterou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_excluiu" Association="db_coopfamModel.emprestimos_renegociacao_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_lancou" Association="db_coopfamModel.emprestimos_renegociacao_fk_lancou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="emprestimos_renegociacao_fk_renegociacao" Association="db_coopfamModel.emprestimos_renegociacao_fk_renegociacao">
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
+            <End Role="emprestimos_renegociacao1" EntitySet="emprestimos_renegociacao" />
+          </AssociationSet>
+          <AssociationSet Name="parcela_emprestimo_fk_renegociacao" Association="db_coopfamModel.parcela_emprestimo_fk_renegociacao">
+            <End Role="emprestimos_renegociacao" EntitySet="emprestimos_renegociacao" />
             <End Role="parcela_emprestimo" EntitySet="parcela_emprestimo" />
           </AssociationSet>
           <AssociationSet Name="FK_estimativa" Association="db_coopfamModel.FK_estimativa">
@@ -21479,6 +22107,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="funcionario" EntitySet="funcionario" />
             <End Role="log_usuarios" EntitySet="log_usuarios" />
           </AssociationSet>
+          <AssociationSet Name="historico_bloqueio_finance_fk_funcionario" Association="db_coopfamModel.historico_bloqueio_finance_fk_funcionario">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="historico_bloqueio_financeiro" EntitySet="historico_bloqueio_financeiro" />
+          </AssociationSet>
           <AssociationSet Name="instrucao_preparo_fk_finalizouCarregamento" Association="db_coopfamModel.instrucao_preparo_fk_finalizouCarregamento">
             <End Role="funcionario" EntitySet="funcionario" />
             <End Role="instrucao_preparo" EntitySet="instrucao_preparo" />
@@ -21518,6 +22150,46 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <AssociationSet Name="lote_produto_fk_funcionario" Association="db_coopfamModel.lote_produto_fk_funcionario">
             <End Role="funcionario" EntitySet="funcionario" />
             <End Role="lote_produto" EntitySet="lote_produto" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_alterou" Association="db_coopfamModel.memorando_fk_alterou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_cadastrou" Association="db_coopfamModel.memorando_fk_cadastrou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_excluiu" Association="db_coopfamModel.memorando_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_cadastrou" Association="db_coopfamModel.memorando_meios_circulacao_fk_cadastrou">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_excluiu" Association="db_coopfamModel.memorando_meios_circulacao_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_cadastro" Association="db_coopfamModel.memorando_publico_alvo_fk_cadastro">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_excluiu" Association="db_coopfamModel.memorando_publico_alvo_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_cadastro" Association="db_coopfamModel.memorando_responsavel_fk_cadastro">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_excluiu" Association="db_coopfamModel.memorando_responsavel_fk_excluiu">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_responsavel" Association="db_coopfamModel.memorando_responsavel_fk_responsavel">
+            <End Role="funcionario" EntitySet="funcionario" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
           </AssociationSet>
           <AssociationSet Name="mov_fk_funcionario" Association="db_coopfamModel.mov_fk_funcionario">
             <End Role="funcionario" EntitySet="funcionario" />
@@ -22191,6 +22863,30 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="maquinario" EntitySet="maquinario" />
             <End Role="ordem_de_producao_embalagens" EntitySet="ordem_de_producao_embalagens" />
           </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_meios_de_circulacao" Association="db_coopfamModel.memorando_meios_circulacao_fk_meios_de_circulacao">
+            <End Role="meio_de_circulacao" EntitySet="meio_de_circulacao" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_fk_setor" Association="db_coopfamModel.memorando_fk_setor">
+            <End Role="setor" EntitySet="setor" />
+            <End Role="memorando" EntitySet="memorando" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_meios_circulacao_fk_memorando" Association="db_coopfamModel.memorando_meios_circulacao_fk_memorando">
+            <End Role="memorando" EntitySet="memorando" />
+            <End Role="memorando_meios_circulacao" EntitySet="memorando_meios_circulacao" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_memorando" Association="db_coopfamModel.memorando_publico_alvo_fk_memorando">
+            <End Role="memorando" EntitySet="memorando" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_responsavel_fk_memorando" Association="db_coopfamModel.memorando_responsavel_fk_memorando">
+            <End Role="memorando" EntitySet="memorando" />
+            <End Role="memorando_responsavel" EntitySet="memorando_responsavel" />
+          </AssociationSet>
+          <AssociationSet Name="memorando_publico_alvo_fk_publico_alvo" Association="db_coopfamModel.memorando_publico_alvo_fk_publico_alvo">
+            <End Role="publico_alvo" EntitySet="publico_alvo" />
+            <End Role="memorando_publico_alvo" EntitySet="memorando_publico_alvo" />
+          </AssociationSet>
           <AssociationSet Name="planejamento_menor_categoria_fk_menor_categoria" Association="db_coopfamModel.planejamento_menor_categoria_fk_menor_categoria">
             <End Role="menor_categoria" EntitySet="menor_categoria" />
             <End Role="planejamento_menor_categoria" EntitySet="planejamento_menor_categoria" />
@@ -22322,6 +23018,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <AssociationSet Name="planejamento_fk_ods" Association="db_coopfamModel.planejamento_fk_ods">
             <End Role="ods" EntitySet="ods" />
             <End Role="planejamento_item" EntitySet="planejamento_item" />
+          </AssociationSet>
+          <AssociationSet Name="planejamento_item_ods_fk_ods" Association="db_coopfamModel.planejamento_item_ods_fk_ods">
+            <End Role="ods" EntitySet="ods" />
+            <End Role="planejamento_item_ods" EntitySet="planejamento_item_ods" />
           </AssociationSet>
           <AssociationSet Name="op_fk_produto_Contabil" Association="db_coopfamModel.op_fk_produto_Contabil">
             <End Role="produtos_contabeis" EntitySet="produtos_contabeis" />
@@ -22475,6 +23175,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             <End Role="planejamento_acoes_do_item" EntitySet="planejamento_acoes_do_item" />
             <End Role="planejamento" EntitySet="planejamento" />
           </AssociationSet>
+          <AssociationSet Name="planejamento_fk_conta_contabil" Association="db_coopfamModel.planejamento_fk_conta_contabil">
+            <End Role="plano_de_contas_contabil" EntitySet="plano_de_contas_contabil" />
+            <End Role="planejamento" EntitySet="planejamento" />
+          </AssociationSet>
           <AssociationSet Name="planejamento_fk_periodo" Association="db_coopfamModel.planejamento_fk_periodo">
             <End Role="planejamento_periodo" EntitySet="planejamento_periodo" />
             <End Role="planejamento" EntitySet="planejamento" />
@@ -22526,6 +23230,10 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <AssociationSet Name="planejamentoPeriodo_fk_categoria" Association="db_coopfamModel.planejamentoPeriodo_fk_categoria">
             <End Role="planejamento_categoria" EntitySet="planejamento_categoria" />
             <End Role="planejamento_periodo" EntitySet="planejamento_periodo" />
+          </AssociationSet>
+          <AssociationSet Name="planejamento_item_ods_fk_planejamento_item" Association="db_coopfamModel.planejamento_item_ods_fk_planejamento_item">
+            <End Role="planejamento_item" EntitySet="planejamento_item" />
+            <End Role="planejamento_item_ods" EntitySet="planejamento_item_ods" />
           </AssociationSet>
           <AssociationSet Name="planejamento_menor_categoria_fk_planejamento" Association="db_coopfamModel.planejamento_menor_categoria_fk_planejamento">
             <End Role="planejamento_item" EntitySet="planejamento_item" />
@@ -23582,6 +24290,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="cotacao_compra" Relationship="db_coopfamModel.cotacao_compra_fk_fornecedor" FromRole="cliente" ToRole="cotacao_compra" />
           <NavigationProperty Name="cotacao_item_fornecedor" Relationship="db_coopfamModel.cotacao_fornecedor_fk_fornecedor" FromRole="cliente" ToRole="cotacao_item_fornecedor" />
           <NavigationProperty Name="contrato" Relationship="db_coopfamModel.FK_contrato_IbCliente" FromRole="cliente" ToRole="contrato" />
+          <NavigationProperty Name="historico_bloqueio_financeiro" Relationship="db_coopfamModel.historico_bloqueio_finance_fk_cliente" FromRole="cliente" ToRole="historico_bloqueio_financeiro" />
           <NavigationProperty Name="lote_produto" Relationship="db_coopfamModel.lote_produto_fk_cliente" FromRole="cliente" ToRole="lote_produto" />
           <NavigationProperty Name="movimento_bancario" Relationship="db_coopfamModel.movimento_bancario_fk_fornecedor" FromRole="cliente" ToRole="movimento_bancario" />
           <NavigationProperty Name="ordem_de_producao" Relationship="db_coopfamModel.op_fk_clienteFornecedor" FromRole="cliente" ToRole="ordem_de_producao" />
@@ -23812,6 +24521,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="TXT_CAMINHO_AMOSTRAS" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="TXT_CAMINHO_PROJETOS" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
           <Property Name="TXT_CAMINHO_ASSINATURA" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="TXT_CAMINHO_MEMORANDO" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="contas_a_pagar_despesas_contrato">
           <Key>
@@ -23921,6 +24631,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="INT_ID_EMPRESTIMO_COOPERADO" Type="Int32" />
           <Property Name="INT_ID_COMPLEMENTACAO" Type="Int32" />
           <Property Name="INT_ID_ACC" Type="Int32" />
+          <Property Name="TXT_HISTORICO" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="acc_com_hedge" Relationship="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_ACC" FromRole="contas_a_pagar_plano_de_contas" ToRole="acc_com_hedge" />
           <NavigationProperty Name="complementacoes_lote" Relationship="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_complementacaoLote" FromRole="contas_a_pagar_plano_de_contas" ToRole="complementacoes_lote" />
           <NavigationProperty Name="contas_a_pagar_e_receber" Relationship="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_contas_a_pagar" FromRole="contas_a_pagar_plano_de_contas" ToRole="contas_a_pagar_e_receber" />
@@ -24213,6 +24924,8 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="INT_ID_ALTEROU" Type="Int32" />
           <Property Name="DATE_CADASTRO" Type="DateTime" />
           <Property Name="DATE_ALTEROU" Type="DateTime" />
+          <Property Name="BOOL_BLOQUEAR_FINANCEIRO" Type="Boolean" Nullable="false" />
+          <Property Name="TXT_MOTIVO_BLOQUEIO" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="agendamento_certificacao" Relationship="db_coopfamModel.agentamento_certificacao_fk_cooperado" FromRole="cooperado" ToRole="agendamento_certificacao" />
           <NavigationProperty Name="agendamento_cooperado" Relationship="db_coopfamModel.agendamentoCooperado_fk_cooperado" FromRole="cooperado" ToRole="agendamento_cooperado" />
           <NavigationProperty Name="amostra_da_roca" Relationship="db_coopfamModel.FK_amostra_da_roca_ib_cooperado" FromRole="cooperado" ToRole="amostra_da_roca" />
@@ -24246,6 +24959,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="referencia_comercial" Relationship="db_coopfamModel.FK_referencia_comercial" FromRole="cooperado" ToRole="referencia_comercial" />
           <NavigationProperty Name="telefone" Relationship="db_coopfamModel.FK_telefone" FromRole="cooperado" ToRole="telefone" />
           <NavigationProperty Name="formulario_aplicar" Relationship="db_coopfamModel.formulario_aplicar_fk_cooperado" FromRole="cooperado" ToRole="formulario_aplicar" />
+          <NavigationProperty Name="historico_bloqueio_financeiro" Relationship="db_coopfamModel.historico_bloqueio_finance_fk_cooperado" FromRole="cooperado" ToRole="historico_bloqueio_financeiro" />
           <NavigationProperty Name="historico_de_alteracao_de_status" Relationship="db_coopfamModel.historico_status_ib_cooperado" FromRole="cooperado" ToRole="historico_de_alteracao_de_status" />
           <NavigationProperty Name="lote_produto" Relationship="db_coopfamModel.lote_produto_fk_cooperado" FromRole="cooperado" ToRole="lote_produto" />
           <NavigationProperty Name="movimento_bancario" Relationship="db_coopfamModel.movimento_bancario_fk_cooperado" FromRole="cooperado" ToRole="movimento_bancario" />
@@ -24786,6 +25500,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="BOOL_BRFAIR" Type="Boolean" Nullable="false" />
           <Property Name="TXT_FTUSA_ID" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="TXT_RFA_ID" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="TXT_CODIGO_DA_EMPRESA_NA_CERTIFICADORA_ORGANICA" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="acc_com_hedge" Relationship="db_coopfamModel.acc_fk_empresa" FromRole="empresa" ToRole="acc_com_hedge" />
           <NavigationProperty Name="bebida_padrao" Relationship="db_coopfamModel.bebida_padrao_fk_empresa" FromRole="empresa" ToRole="bebida_padrao" />
           <NavigationProperty Name="certificacao" Relationship="db_coopfamModel.certificacao_fk_empresa" FromRole="empresa" ToRole="certificacao" />
@@ -24859,6 +25574,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="INT_ID_SEGUNDO_AVALISTA" Type="Int32" />
           <Property Name="DECIMAL_VALOR_MUDAS" Type="Decimal" Nullable="false" />
           <Property Name="INT_ID_FECHAMENTO_MERC_FUTURO" Type="Int32" />
+          <Property Name="TXT_NR_EMPRESTIMO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="categoria_de_emprestimo" Relationship="db_coopfamModel.emprestimo_ib_categoria" FromRole="emprestimos" ToRole="categoria_de_emprestimo" />
           <NavigationProperty Name="contas_a_pagar_planejamento" Relationship="db_coopfamModel.contas_a_pagar_planejamento_fk_emprestimo" FromRole="emprestimos" ToRole="contas_a_pagar_planejamento" />
           <NavigationProperty Name="contas_a_pagar_plano_de_contas" Relationship="db_coopfamModel.contas_a_pagar_plano_de_contas_fk_emprestimo_cooperado" FromRole="emprestimos" ToRole="contas_a_pagar_plano_de_contas" />
@@ -24868,8 +25584,37 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="forma_de_pagamento" Relationship="db_coopfamModel.emprestimo_fk_formaDePagamento" FromRole="emprestimos" ToRole="forma_de_pagamento" />
           <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.emprestimo_ib_func" FromRole="emprestimos" ToRole="funcionario" />
           <NavigationProperty Name="fechamento_mercado_futuro" Relationship="db_coopfamModel.emprestimos_fk_fechamento_merc_futuro" FromRole="emprestimos" ToRole="fechamento_mercado_futuro" />
+          <NavigationProperty Name="emprestimos_renegociacao" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_emprestimo" FromRole="emprestimos" ToRole="emprestimos_renegociacao" />
           <NavigationProperty Name="movimento_bancario" Relationship="db_coopfamModel.movimento_bancario_fk_emprestimo" FromRole="emprestimos" ToRole="movimento_bancario" />
           <NavigationProperty Name="parcela_emprestimo" Relationship="db_coopfamModel.PARCELAS_FK_EMPRESTIMOS" FromRole="emprestimos" ToRole="parcela_emprestimo" />
+        </EntityType>
+        <EntityType Name="emprestimos_renegociacao">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INT_ID_EMPRESTIMO" Type="Int32" Nullable="false" />
+          <Property Name="DECIMAL_VALOR" Type="Decimal" Nullable="false" />
+          <Property Name="TXT_OBS_RENEGOCIACAO" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_RENEGOCIACAO" Type="DateTime" Nullable="false" />
+          <Property Name="DECIMAL_NOVA_TAXA_DE_JUROS" Type="Decimal" Nullable="false" />
+          <Property Name="DECIMAL_NOVA_TAXA_DE_JUROS_APOS_VENCIMENTO" Type="Decimal" Nullable="false" />
+          <Property Name="BOOL_JUROS_AA_AM" Type="Boolean" Nullable="false" />
+          <Property Name="INT_ID_CADASTROU" Type="Int32" Nullable="false" />
+          <Property Name="DATE_LANCOU" Type="DateTime" Nullable="false" />
+          <Property Name="INT_ID_ALTEROU" Type="Int32" />
+          <Property Name="DATE_ALTEROU" Type="DateTime" />
+          <Property Name="INT_ID_EXCLUIU" Type="Int32" />
+          <Property Name="DATE_EXCLUIU" Type="DateTime" />
+          <Property Name="INT_ID_RENEGOCIACAO" Type="Int32" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="emprestimos" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_emprestimo" FromRole="emprestimos_renegociacao" ToRole="emprestimos" />
+          <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_alterou" FromRole="emprestimos_renegociacao" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario1" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_excluiu" FromRole="emprestimos_renegociacao" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario2" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_lancou" FromRole="emprestimos_renegociacao" ToRole="funcionario" />
+          <NavigationProperty Name="emprestimos_renegociacao1" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_renegociacao" FromRole="emprestimos_renegociacao" ToRole="emprestimos_renegociacao1" />
+          <NavigationProperty Name="emprestimos_renegociacao2" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_renegociacao" FromRole="emprestimos_renegociacao1" ToRole="emprestimos_renegociacao" />
+          <NavigationProperty Name="parcela_emprestimo" Relationship="db_coopfamModel.parcela_emprestimo_fk_renegociacao" FromRole="emprestimos_renegociacao" ToRole="parcela_emprestimo" />
         </EntityType>
         <EntityType Name="estimativa">
           <Key>
@@ -25546,6 +26291,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="DATE_NASCIMENTO" Type="DateTime" Nullable="false" />
           <Property Name="INT_ID_EMPRESA" Type="Int32" Nullable="false" />
           <Property Name="TXT_PERMISSAO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="TXT_ASSINATURA" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="acc_com_hedge" Relationship="db_coopfamModel.FK_acc_com_hedge_IB_FUNCIONARIO" FromRole="funcionario" ToRole="acc_com_hedge" />
           <NavigationProperty Name="agendamento_carga_descarga" Relationship="db_coopfamModel.agenda_fk_funcionario" FromRole="funcionario" ToRole="agendamento_carga_descarga" />
           <NavigationProperty Name="agendamento_certificacao" Relationship="db_coopfamModel.agentamento_certificacao_alteracao_fk_funcionario" FromRole="funcionario" ToRole="agendamento_certificacao" />
@@ -25607,6 +26353,9 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="devolucao_de_compra2" Relationship="db_coopfamModel.devolucao_de_compra_fk_lancou" FromRole="funcionario" ToRole="devolucao_de_compra" />
           <NavigationProperty Name="empresa" Relationship="db_coopfamModel.funcionario_fk_empresa" FromRole="funcionario" ToRole="empresa" />
           <NavigationProperty Name="emprestimos" Relationship="db_coopfamModel.emprestimo_ib_func" FromRole="funcionario" ToRole="emprestimos" />
+          <NavigationProperty Name="emprestimos_renegociacao" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_alterou" FromRole="funcionario" ToRole="emprestimos_renegociacao" />
+          <NavigationProperty Name="emprestimos_renegociacao1" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_excluiu" FromRole="funcionario" ToRole="emprestimos_renegociacao" />
+          <NavigationProperty Name="emprestimos_renegociacao2" Relationship="db_coopfamModel.emprestimos_renegociacao_fk_lancou" FromRole="funcionario" ToRole="emprestimos_renegociacao" />
           <NavigationProperty Name="estrutura_do_produto" Relationship="db_coopfamModel.estrutura_do_produto_fk_funcionario" FromRole="funcionario" ToRole="estrutura_do_produto" />
           <NavigationProperty Name="fechamento_mercado_futuro" Relationship="db_coopfamModel.fechamento_mercado_futuro_fk_alterou" FromRole="funcionario" ToRole="fechamento_mercado_futuro" />
           <NavigationProperty Name="fechamento_mercado_futuro1" Relationship="db_coopfamModel.fechamento_mercado_futuro_fk_cadastrou" FromRole="funcionario" ToRole="fechamento_mercado_futuro" />
@@ -25660,6 +26409,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="lancamento_extras_codigos_contabeis" Relationship="db_coopfamModel.func_ib_lancamento" FromRole="funcionario" ToRole="lancamento_extras_codigos_contabeis" />
           <NavigationProperty Name="instrucao_preparo" Relationship="db_coopfamModel.FUNCIONARIO_FK_INSTRUCAO" FromRole="funcionario" ToRole="instrucao_preparo" />
           <NavigationProperty Name="log_usuarios" Relationship="db_coopfamModel.funcionario_Fk_logUsuario" FromRole="funcionario" ToRole="log_usuarios" />
+          <NavigationProperty Name="historico_bloqueio_financeiro" Relationship="db_coopfamModel.historico_bloqueio_finance_fk_funcionario" FromRole="funcionario" ToRole="historico_bloqueio_financeiro" />
           <NavigationProperty Name="instrucao_preparo1" Relationship="db_coopfamModel.instrucao_preparo_fk_finalizouCarregamento" FromRole="funcionario" ToRole="instrucao_preparo" />
           <NavigationProperty Name="instrucao_preparo2" Relationship="db_coopfamModel.instrucao_preparo_fk_iniciouCarregamento" FromRole="funcionario" ToRole="instrucao_preparo" />
           <NavigationProperty Name="integracao_contabil" Relationship="db_coopfamModel.integracao_contabil_fk_funcionarioCadastrou" FromRole="funcionario" ToRole="integracao_contabil" />
@@ -25670,6 +26420,16 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="lote_para_analise_solo_foliar2" Relationship="db_coopfamModel.lote_para_analise_solo_foliar_fk_envio" FromRole="funcionario" ToRole="lote_para_analise_solo_foliar" />
           <NavigationProperty Name="lote_para_analise_solo_foliar3" Relationship="db_coopfamModel.lote_para_analise_solo_foliar_fk_excluiu" FromRole="funcionario" ToRole="lote_para_analise_solo_foliar" />
           <NavigationProperty Name="lote_produto" Relationship="db_coopfamModel.lote_produto_fk_funcionario" FromRole="funcionario" ToRole="lote_produto" />
+          <NavigationProperty Name="memorando" Relationship="db_coopfamModel.memorando_fk_alterou" FromRole="funcionario" ToRole="memorando" />
+          <NavigationProperty Name="memorando1" Relationship="db_coopfamModel.memorando_fk_cadastrou" FromRole="funcionario" ToRole="memorando" />
+          <NavigationProperty Name="memorando2" Relationship="db_coopfamModel.memorando_fk_excluiu" FromRole="funcionario" ToRole="memorando" />
+          <NavigationProperty Name="memorando_meios_circulacao" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_cadastrou" FromRole="funcionario" ToRole="memorando_meios_circulacao" />
+          <NavigationProperty Name="memorando_meios_circulacao1" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_excluiu" FromRole="funcionario" ToRole="memorando_meios_circulacao" />
+          <NavigationProperty Name="memorando_publico_alvo" Relationship="db_coopfamModel.memorando_publico_alvo_fk_cadastro" FromRole="funcionario" ToRole="memorando_publico_alvo" />
+          <NavigationProperty Name="memorando_publico_alvo1" Relationship="db_coopfamModel.memorando_publico_alvo_fk_excluiu" FromRole="funcionario" ToRole="memorando_publico_alvo" />
+          <NavigationProperty Name="memorando_responsavel" Relationship="db_coopfamModel.memorando_responsavel_fk_cadastro" FromRole="funcionario" ToRole="memorando_responsavel" />
+          <NavigationProperty Name="memorando_responsavel1" Relationship="db_coopfamModel.memorando_responsavel_fk_excluiu" FromRole="funcionario" ToRole="memorando_responsavel" />
+          <NavigationProperty Name="memorando_responsavel2" Relationship="db_coopfamModel.memorando_responsavel_fk_responsavel" FromRole="funcionario" ToRole="memorando_responsavel" />
           <NavigationProperty Name="movimentos_produtos_contabeis" Relationship="db_coopfamModel.mov_fk_funcionario" FromRole="funcionario" ToRole="movimentos_produtos_contabeis" />
           <NavigationProperty Name="movimento_bancario" Relationship="db_coopfamModel.movimento_bancario_fk_funcionario" FromRole="funcionario" ToRole="movimento_bancario" />
           <NavigationProperty Name="movimento_bancario1" Relationship="db_coopfamModel.movimento_bancario_fk_responsavelConciliacao" FromRole="funcionario" ToRole="movimento_bancario" />
@@ -25867,6 +26627,21 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="instituicao" Relationship="db_coopfamModel.FK_hedge_ib_instituicao" FromRole="hedge" ToRole="instituicao" />
           <NavigationProperty Name="lotes_do_fechamento_e_hedge" Relationship="db_coopfamModel.FK_lotes_do_fechamento_e_hedge_ib_hedge" FromRole="hedge" ToRole="lotes_do_fechamento_e_hedge" />
           <NavigationProperty Name="referencia_hedge" Relationship="db_coopfamModel.FK_referencia_hedge_ib_hedge" FromRole="hedge" ToRole="referencia_hedge" />
+        </EntityType>
+        <EntityType Name="historico_bloqueio_financeiro">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INT_ID_CLIENTE" Type="Int32" />
+          <Property Name="BOOL_BLOQUEIO" Type="Boolean" Nullable="false" />
+          <Property Name="TXT_MOTIVO" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_LANCAMENTO" Type="DateTime" Nullable="false" />
+          <Property Name="ID_LANCOU" Type="Int32" Nullable="false" />
+          <Property Name="INT_ID_COOPERADO" Type="Int32" />
+          <NavigationProperty Name="cliente" Relationship="db_coopfamModel.historico_bloqueio_finance_fk_cliente" FromRole="historico_bloqueio_financeiro" ToRole="cliente" />
+          <NavigationProperty Name="cooperado" Relationship="db_coopfamModel.historico_bloqueio_finance_fk_cooperado" FromRole="historico_bloqueio_financeiro" ToRole="cooperado" />
+          <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.historico_bloqueio_finance_fk_funcionario" FromRole="historico_bloqueio_financeiro" ToRole="funcionario" />
         </EntityType>
         <EntityType Name="historico_de_alteracao_de_status">
           <Key>
@@ -26509,6 +27284,93 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="ordem_de_producao1" Relationship="db_coopfamModel.op_fk_maquinario" FromRole="maquinario" ToRole="ordem_de_producao" />
           <NavigationProperty Name="ordem_de_producao_embalagens" Relationship="db_coopfamModel.ordem_de_producao_embalagens_fk_empacotadeira" FromRole="maquinario" ToRole="ordem_de_producao_embalagens" />
         </EntityType>
+        <EntityType Name="meio_de_circulacao">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TXT_DESCRICAO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="memorando_meios_circulacao" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_meios_de_circulacao" FromRole="meio_de_circulacao" ToRole="memorando_meios_circulacao" />
+        </EntityType>
+        <EntityType Name="memorando">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TXT_NR_MEMORANDO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="INT_ID_SETOR" Type="Int32" Nullable="false" />
+          <Property Name="DATE_MEMORANDO" Type="DateTime" Nullable="false" />
+          <Property Name="TXT_ASSUNTO" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="DATE_HR_POSTAGEM" Type="DateTime" Nullable="false" />
+          <Property Name="TXT_DOC_ANEXADO" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <Property Name="INT_ID_CADASTROU" Type="Int32" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="DateTime" Nullable="false" />
+          <Property Name="INT_ID_ALTEROU" Type="Int32" />
+          <Property Name="DATE_ALTEROU" Type="DateTime" />
+          <Property Name="INT_ID_EXCLUIU" Type="Int32" />
+          <Property Name="DATE_EXCLUIU" Type="DateTime" />
+          <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.memorando_fk_alterou" FromRole="memorando" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario1" Relationship="db_coopfamModel.memorando_fk_cadastrou" FromRole="memorando" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario2" Relationship="db_coopfamModel.memorando_fk_excluiu" FromRole="memorando" ToRole="funcionario" />
+          <NavigationProperty Name="setor" Relationship="db_coopfamModel.memorando_fk_setor" FromRole="memorando" ToRole="setor" />
+          <NavigationProperty Name="memorando_meios_circulacao" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_memorando" FromRole="memorando" ToRole="memorando_meios_circulacao" />
+          <NavigationProperty Name="memorando_publico_alvo" Relationship="db_coopfamModel.memorando_publico_alvo_fk_memorando" FromRole="memorando" ToRole="memorando_publico_alvo" />
+          <NavigationProperty Name="memorando_responsavel" Relationship="db_coopfamModel.memorando_responsavel_fk_memorando" FromRole="memorando" ToRole="memorando_responsavel" />
+        </EntityType>
+        <EntityType Name="memorando_meios_circulacao">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INT_ID_CIRCULACAO" Type="Int32" Nullable="false" />
+          <Property Name="INT_ID_MEMORANDO" Type="Int32" Nullable="false" />
+          <Property Name="TXT_OBS" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="INT_ID_CADASTROU" Type="Int32" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="DateTime" Nullable="false" />
+          <Property Name="INT_ID_EXCLUIU" Type="Int32" />
+          <Property Name="DATE_EXCLUIU" Type="DateTime" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_cadastrou" FromRole="memorando_meios_circulacao" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario1" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_excluiu" FromRole="memorando_meios_circulacao" ToRole="funcionario" />
+          <NavigationProperty Name="meio_de_circulacao" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_meios_de_circulacao" FromRole="memorando_meios_circulacao" ToRole="meio_de_circulacao" />
+          <NavigationProperty Name="memorando" Relationship="db_coopfamModel.memorando_meios_circulacao_fk_memorando" FromRole="memorando_meios_circulacao" ToRole="memorando" />
+        </EntityType>
+        <EntityType Name="memorando_publico_alvo">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INT_ID_PUBLICO_ALVO" Type="Int32" Nullable="false" />
+          <Property Name="INT_ID_MEMORANDO" Type="Int32" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <Property Name="INT_ID_CADASTRO" Type="Int32" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="DateTime" Nullable="false" />
+          <Property Name="INT_ID_EXCLUIU" Type="Int32" />
+          <Property Name="DATE_EXCLUIU" Type="DateTime" />
+          <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.memorando_publico_alvo_fk_cadastro" FromRole="memorando_publico_alvo" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario1" Relationship="db_coopfamModel.memorando_publico_alvo_fk_excluiu" FromRole="memorando_publico_alvo" ToRole="funcionario" />
+          <NavigationProperty Name="memorando" Relationship="db_coopfamModel.memorando_publico_alvo_fk_memorando" FromRole="memorando_publico_alvo" ToRole="memorando" />
+          <NavigationProperty Name="publico_alvo" Relationship="db_coopfamModel.memorando_publico_alvo_fk_publico_alvo" FromRole="memorando_publico_alvo" ToRole="publico_alvo" />
+        </EntityType>
+        <EntityType Name="memorando_responsavel">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INT_ID_RESPONSAVEL" Type="Int32" Nullable="false" />
+          <Property Name="INT_ID_MEMORANDO" Type="Int32" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <Property Name="INT_ID_CADASTRO" Type="Int32" Nullable="false" />
+          <Property Name="DATE_CADASTRO" Type="DateTime" Nullable="false" />
+          <Property Name="INT_ID_EXCLUIU" Type="Int32" />
+          <Property Name="DATE_EXCLUIU" Type="DateTime" />
+          <NavigationProperty Name="funcionario" Relationship="db_coopfamModel.memorando_responsavel_fk_cadastro" FromRole="memorando_responsavel" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario1" Relationship="db_coopfamModel.memorando_responsavel_fk_excluiu" FromRole="memorando_responsavel" ToRole="funcionario" />
+          <NavigationProperty Name="funcionario2" Relationship="db_coopfamModel.memorando_responsavel_fk_responsavel" FromRole="memorando_responsavel" ToRole="funcionario" />
+          <NavigationProperty Name="memorando" Relationship="db_coopfamModel.memorando_responsavel_fk_memorando" FromRole="memorando_responsavel" ToRole="memorando" />
+        </EntityType>
         <EntityType Name="menor_categoria">
           <Key>
             <PropertyRef Name="INT_ID" />
@@ -26968,6 +27830,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="TXT_EXPLICACAO" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
           <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="planejamento_item" Relationship="db_coopfamModel.planejamento_fk_ods" FromRole="ods" ToRole="planejamento_item" />
+          <NavigationProperty Name="planejamento_item_ods" Relationship="db_coopfamModel.planejamento_item_ods_fk_ods" FromRole="ods" ToRole="planejamento_item_ods" />
         </EntityType>
         <EntityType Name="ordem_de_producao">
           <Key>
@@ -27496,8 +28359,12 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="DATA_VENCIMENTO" Type="DateTime" Nullable="false" />
           <Property Name="DECIMAL_VALOR" Type="Decimal" Nullable="false" />
           <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <Property Name="BOOL_INATIVO" Type="Boolean" Nullable="false" />
+          <Property Name="INT_ID_RENEGOCIACAO" Type="Int32" />
+          <Property Name="DECIMAL_BAIXA" Type="Decimal" Nullable="false" />
           <NavigationProperty Name="descontos_acrescimos_pg_cafe" Relationship="db_coopfamModel.desc_acres_ib_parcela" FromRole="parcela_emprestimo" ToRole="descontos_acrescimos_pg_cafe" />
           <NavigationProperty Name="emprestimos" Relationship="db_coopfamModel.PARCELAS_FK_EMPRESTIMOS" FromRole="parcela_emprestimo" ToRole="emprestimos" />
+          <NavigationProperty Name="emprestimos_renegociacao" Relationship="db_coopfamModel.parcela_emprestimo_fk_renegociacao" FromRole="parcela_emprestimo" ToRole="emprestimos_renegociacao" />
           <NavigationProperty Name="pagamento_emprestimo" Relationship="db_coopfamModel.PG_EMP_FK_PARCELA" FromRole="parcela_emprestimo" ToRole="pagamento_emprestimo" />
         </EntityType>
         <EntityType Name="participante_dap">
@@ -27543,6 +28410,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="TXT_NR_PEDIDO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="TXT_ESPECIE" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
           <Property Name="BOOL_BARTER" Type="Boolean" Nullable="false" />
+          <Property Name="BOOL_LIBERADO_PARA_EMISSAO_DA_NOTA" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="cliente" Relationship="db_coopfamModel.pedido_faturamento_fk_cliente" FromRole="pedido_faturamento" ToRole="cliente" />
           <NavigationProperty Name="cooperado" Relationship="db_coopfamModel.pedido_faturamento_fk_cooperado" FromRole="pedido_faturamento" ToRole="cooperado" />
           <NavigationProperty Name="empresa" Relationship="db_coopfamModel.pedido_faturamento_fk_empresa" FromRole="pedido_faturamento" ToRole="empresa" />
@@ -27637,10 +28505,12 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="DECIMAL_TOTAL_EM_DOLAR" Type="Decimal" Nullable="false" />
           <Property Name="DECIMAL_SALDO_INICIAL" Type="Decimal" Nullable="false" />
           <Property Name="DECIMAL_SALDO_EM_DOLAR" Type="Decimal" Nullable="false" />
+          <Property Name="INT_ID_CONTA_CONTABIL" Type="Int32" />
           <NavigationProperty Name="categoria_de_emprestimo" Relationship="db_coopfamModel.categoria_de_emprestimo_fk_planejamento" FromRole="planejamento" ToRole="categoria_de_emprestimo" />
           <NavigationProperty Name="contas_a_pagar_planejamento" Relationship="db_coopfamModel.contas_a_pagar_planejamento_fk_planejamento" FromRole="planejamento" ToRole="contas_a_pagar_planejamento" />
           <NavigationProperty Name="fonte_de_recurso" Relationship="db_coopfamModel.planejamento_fk_fonte_de_recurso" FromRole="planejamento" ToRole="fonte_de_recurso" />
           <NavigationProperty Name="planejamento_acoes_do_item" Relationship="db_coopfamModel.planejamento_fk_acao" FromRole="planejamento" ToRole="planejamento_acoes_do_item" />
+          <NavigationProperty Name="plano_de_contas_contabil" Relationship="db_coopfamModel.planejamento_fk_conta_contabil" FromRole="planejamento" ToRole="plano_de_contas_contabil" />
           <NavigationProperty Name="planejamento_periodo" Relationship="db_coopfamModel.planejamento_fk_periodo" FromRole="planejamento" ToRole="planejamento_periodo" />
           <NavigationProperty Name="setor" Relationship="db_coopfamModel.planejamento_fk_setor" FromRole="planejamento" ToRole="setor" />
           <NavigationProperty Name="planejamento_data_realizacao" Relationship="db_coopfamModel.planejamentoData_fk_planejamento" FromRole="planejamento" ToRole="planejamento_data_realizacao" />
@@ -27759,12 +28629,25 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="INT_NUMERO_DO_ITEM" Type="Int32" Nullable="false" />
           <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
           <Property Name="BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO" Type="Boolean" />
+          <Property Name="TXT_OBJETIVO" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="empresa" Relationship="db_coopfamModel.planejamentoItem_fk_empresa" FromRole="planejamento_item" ToRole="empresa" />
           <NavigationProperty Name="ods" Relationship="db_coopfamModel.planejamento_fk_ods" FromRole="planejamento_item" ToRole="ods" />
           <NavigationProperty Name="planejamento_acoes_do_item" Relationship="db_coopfamModel.planAcoes_fk_item" FromRole="planejamento_item" ToRole="planejamento_acoes_do_item" />
           <NavigationProperty Name="planejamento_auto_avaliacao_impacto" Relationship="db_coopfamModel.planejamento_auto_avaliacao_impacto_fk_items" FromRole="planejamento_item" ToRole="planejamento_auto_avaliacao_impacto" />
+          <NavigationProperty Name="planejamento_item_ods" Relationship="db_coopfamModel.planejamento_item_ods_fk_planejamento_item" FromRole="planejamento_item" ToRole="planejamento_item_ods" />
           <NavigationProperty Name="planejamento_menor_categoria" Relationship="db_coopfamModel.planejamento_menor_categoria_fk_planejamento" FromRole="planejamento_item" ToRole="planejamento_menor_categoria" />
           <NavigationProperty Name="planejamento_responsavel" Relationship="db_coopfamModel.planejamentoResponsavel_fk_planejamento_item" FromRole="planejamento_item" ToRole="planejamento_responsavel" />
+        </EntityType>
+        <EntityType Name="planejamento_item_ods">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="INT_ID_PLANEJAMENTO_ITEM" Type="Int32" Nullable="false" />
+          <Property Name="INT_ID_ODS" Type="Int32" Nullable="false" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="ods" Relationship="db_coopfamModel.planejamento_item_ods_fk_ods" FromRole="planejamento_item_ods" ToRole="ods" />
+          <NavigationProperty Name="planejamento_item" Relationship="db_coopfamModel.planejamento_item_ods_fk_planejamento_item" FromRole="planejamento_item_ods" ToRole="planejamento_item" />
         </EntityType>
         <EntityType Name="planejamento_menor_categoria">
           <Key>
@@ -27846,6 +28729,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="contas_bancarias_empresa" Relationship="db_coopfamModel.contas_bancarias_empresa_fk_planoDeContas" FromRole="plano_de_contas_contabil" ToRole="contas_bancarias_empresa" />
           <NavigationProperty Name="cooperado" Relationship="db_coopfamModel.cooperado_fk_planoDeConta" FromRole="plano_de_contas_contabil" ToRole="cooperado" />
           <NavigationProperty Name="empresa" Relationship="db_coopfamModel.plano_de_conta_fk_empresa" FromRole="plano_de_contas_contabil" ToRole="empresa" />
+          <NavigationProperty Name="planejamento" Relationship="db_coopfamModel.planejamento_fk_conta_contabil" FromRole="plano_de_contas_contabil" ToRole="planejamento" />
           <NavigationProperty Name="produtos_contabeis" Relationship="db_coopfamModel.produtos_contabeis_fk_plano_de_contas" FromRole="plano_de_contas_contabil" ToRole="produtos_contabeis" />
           <NavigationProperty Name="tipo_de_pagamento" Relationship="db_coopfamModel.tipo_de_pagamento_fk_plano_de_contas" FromRole="plano_de_contas_contabil" ToRole="tipo_de_pagamento" />
         </EntityType>
@@ -28226,6 +29110,15 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <NavigationProperty Name="funcionario2" Relationship="db_coopfamModel.fk_propriedade_id_exclusao" FromRole="propriedade" ToRole="funcionario" />
           <NavigationProperty Name="historico_talhao" Relationship="db_coopfamModel.historico_talhao_fk_propriedade" FromRole="propriedade" ToRole="historico_talhao" />
           <NavigationProperty Name="talhao" Relationship="db_coopfamModel.FK_talhao" FromRole="propriedade" ToRole="talhao" />
+        </EntityType>
+        <EntityType Name="publico_alvo">
+          <Key>
+            <PropertyRef Name="INT_ID" />
+          </Key>
+          <Property Name="INT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TXT_DESCRICAO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="memorando_publico_alvo" Relationship="db_coopfamModel.memorando_publico_alvo_fk_publico_alvo" FromRole="publico_alvo" ToRole="memorando_publico_alvo" />
         </EntityType>
         <EntityType Name="quebra_de_safra">
           <Key>
@@ -28608,6 +29501,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <Property Name="TXT_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="BOOL_ATIVO" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="agendamento_certificacao" Relationship="db_coopfamModel.agentamento_certificacao_fk_setor" FromRole="setor" ToRole="agendamento_certificacao" />
+          <NavigationProperty Name="memorando" Relationship="db_coopfamModel.memorando_fk_setor" FromRole="setor" ToRole="memorando" />
           <NavigationProperty Name="pedido_faturamento" Relationship="db_coopfamModel.pedido_faturamento_fk_setor" FromRole="setor" ToRole="pedido_faturamento" />
           <NavigationProperty Name="planejamento" Relationship="db_coopfamModel.planejamento_fk_setor" FromRole="setor" ToRole="planejamento" />
           <NavigationProperty Name="requisicao_compra" Relationship="db_coopfamModel.requisicao_compra_fk_setor" FromRole="setor" ToRole="requisicao_compra" />
@@ -31612,6 +32506,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="historico_bloqueio_finance_fk_cliente">
+          <End Type="db_coopfamModel.cliente" Role="cliente" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.historico_bloqueio_financeiro" Role="historico_bloqueio_financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="historico_bloqueio_financeiro">
+              <PropertyRef Name="INT_ID_CLIENTE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="lote_produto_fk_cliente">
           <End Type="db_coopfamModel.cliente" Role="cliente" Multiplicity="0..1" />
           <End Type="db_coopfamModel.lote_produto" Role="lote_produto" Multiplicity="*" />
@@ -33262,6 +34168,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="historico_bloqueio_finance_fk_cooperado">
+          <End Type="db_coopfamModel.cooperado" Role="cooperado" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.historico_bloqueio_financeiro" Role="historico_bloqueio_financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cooperado">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="historico_bloqueio_financeiro">
+              <PropertyRef Name="INT_ID_COOPERADO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="historico_status_ib_cooperado">
           <End Type="db_coopfamModel.cooperado" Role="cooperado" Multiplicity="1" />
           <End Type="db_coopfamModel.historico_de_alteracao_de_status" Role="historico_de_alteracao_de_status" Multiplicity="*" />
@@ -34618,6 +35536,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="emprestimos_renegociacao_fk_emprestimo">
+          <End Type="db_coopfamModel.emprestimos" Role="emprestimos" Multiplicity="1" />
+          <End Type="db_coopfamModel.emprestimos_renegociacao" Role="emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="emprestimos">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_EMPRESTIMO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="movimento_bancario_fk_emprestimo">
           <End Type="db_coopfamModel.emprestimos" Role="emprestimos" Multiplicity="0..1" />
           <End Type="db_coopfamModel.movimento_bancario" Role="movimento_bancario" Multiplicity="*" />
@@ -34639,6 +35569,66 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Principal>
             <Dependent Role="parcela_emprestimo">
               <PropertyRef Name="INT_ID_EMPRESTIMO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_alterou">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.emprestimos_renegociacao" Role="emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_ALTEROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_excluiu">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.emprestimos_renegociacao" Role="emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_lancou">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="1" />
+          <End Type="db_coopfamModel.emprestimos_renegociacao" Role="emprestimos_renegociacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID_CADASTROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="emprestimos_renegociacao_fk_renegociacao">
+          <End Type="db_coopfamModel.emprestimos_renegociacao" Role="emprestimos_renegociacao" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.emprestimos_renegociacao" Role="emprestimos_renegociacao1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="emprestimos_renegociacao1">
+              <PropertyRef Name="INT_ID_RENEGOCIACAO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="parcela_emprestimo_fk_renegociacao">
+          <End Type="db_coopfamModel.emprestimos_renegociacao" Role="emprestimos_renegociacao" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.parcela_emprestimo" Role="parcela_emprestimo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="emprestimos_renegociacao">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="parcela_emprestimo">
+              <PropertyRef Name="INT_ID_RENEGOCIACAO" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -35914,6 +36904,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="historico_bloqueio_finance_fk_funcionario">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="1" />
+          <End Type="db_coopfamModel.historico_bloqueio_financeiro" Role="historico_bloqueio_financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="historico_bloqueio_financeiro">
+              <PropertyRef Name="ID_LANCOU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="instrucao_preparo_fk_finalizouCarregamento">
           <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
           <End Type="db_coopfamModel.instrucao_preparo" Role="instrucao_preparo" Multiplicity="*" />
@@ -36031,6 +37033,126 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Principal>
             <Dependent Role="lote_produto">
               <PropertyRef Name="INT_ID_FUNCIONARIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_alterou">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.memorando" Role="memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_ALTEROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_cadastrou">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando" Role="memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_CADASTROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_excluiu">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.memorando" Role="memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_meios_circulacao_fk_cadastrou">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_meios_circulacao" Role="memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_CADASTROU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_meios_circulacao_fk_excluiu">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.memorando_meios_circulacao" Role="memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_cadastro">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_publico_alvo" Role="memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_CADASTRO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_excluiu">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.memorando_publico_alvo" Role="memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_cadastro">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_responsavel" Role="memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_CADASTRO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_excluiu">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.memorando_responsavel" Role="memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_EXCLUIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_responsavel">
+          <End Type="db_coopfamModel.funcionario" Role="funcionario" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_responsavel" Role="memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="funcionario">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_RESPONSAVEL" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -38050,6 +39172,78 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="memorando_meios_circulacao_fk_meios_de_circulacao">
+          <End Type="db_coopfamModel.meio_de_circulacao" Role="meio_de_circulacao" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_meios_circulacao" Role="memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="meio_de_circulacao">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_CIRCULACAO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_fk_setor">
+          <End Type="db_coopfamModel.setor" Role="setor" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando" Role="memorando" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="setor">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando">
+              <PropertyRef Name="INT_ID_SETOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_meios_circulacao_fk_memorando">
+          <End Type="db_coopfamModel.memorando" Role="memorando" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_meios_circulacao" Role="memorando_meios_circulacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memorando">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_meios_circulacao">
+              <PropertyRef Name="INT_ID_MEMORANDO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_memorando">
+          <End Type="db_coopfamModel.memorando" Role="memorando" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_publico_alvo" Role="memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memorando">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_MEMORANDO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_responsavel_fk_memorando">
+          <End Type="db_coopfamModel.memorando" Role="memorando" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_responsavel" Role="memorando_responsavel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="memorando">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_responsavel">
+              <PropertyRef Name="INT_ID_MEMORANDO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="memorando_publico_alvo_fk_publico_alvo">
+          <End Type="db_coopfamModel.publico_alvo" Role="publico_alvo" Multiplicity="1" />
+          <End Type="db_coopfamModel.memorando_publico_alvo" Role="memorando_publico_alvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="publico_alvo">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="memorando_publico_alvo">
+              <PropertyRef Name="INT_ID_PUBLICO_ALVO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="planejamento_menor_categoria_fk_menor_categoria">
           <End Type="db_coopfamModel.menor_categoria" Role="menor_categoria" Multiplicity="1" />
           <End Type="db_coopfamModel.planejamento_menor_categoria" Role="planejamento_menor_categoria" Multiplicity="*" />
@@ -38442,6 +39636,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
               <PropertyRef Name="INT_ID" />
             </Principal>
             <Dependent Role="planejamento_item">
+              <PropertyRef Name="INT_ID_ODS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="planejamento_item_ods_fk_ods">
+          <End Type="db_coopfamModel.ods" Role="ods" Multiplicity="1" />
+          <End Type="db_coopfamModel.planejamento_item_ods" Role="planejamento_item_ods" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ods">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="planejamento_item_ods">
               <PropertyRef Name="INT_ID_ODS" />
             </Dependent>
           </ReferentialConstraint>
@@ -38902,6 +40108,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="planejamento_fk_conta_contabil">
+          <End Type="db_coopfamModel.plano_de_contas_contabil" Role="plano_de_contas_contabil" Multiplicity="0..1" />
+          <End Type="db_coopfamModel.planejamento" Role="planejamento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="plano_de_contas_contabil">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="planejamento">
+              <PropertyRef Name="INT_ID_CONTA_CONTABIL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="planejamento_fk_periodo">
           <End Type="db_coopfamModel.planejamento_periodo" Role="planejamento_periodo" Multiplicity="1" />
           <End Type="db_coopfamModel.planejamento" Role="planejamento" Multiplicity="*" />
@@ -39055,6 +40273,18 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
             </Principal>
             <Dependent Role="planejamento_periodo">
               <PropertyRef Name="INT_ID_CATEGORIA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="planejamento_item_ods_fk_planejamento_item">
+          <End Type="db_coopfamModel.planejamento_item" Role="planejamento_item" Multiplicity="1" />
+          <End Type="db_coopfamModel.planejamento_item_ods" Role="planejamento_item_ods" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="planejamento_item">
+              <PropertyRef Name="INT_ID" />
+            </Principal>
+            <Dependent Role="planejamento_item_ods">
+              <PropertyRef Name="INT_ID_PLANEJAMENTO_ITEM" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -40499,6 +41729,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="configuracoes">
             <EntityTypeMapping TypeName="db_coopfamModel.configuracoes">
               <MappingFragment StoreEntitySet="configuracoes">
+                <ScalarProperty Name="TXT_CAMINHO_MEMORANDO" ColumnName="TXT_CAMINHO_MEMORANDO" />
                 <ScalarProperty Name="TXT_CAMINHO_ASSINATURA" ColumnName="TXT_CAMINHO_ASSINATURA" />
                 <ScalarProperty Name="TXT_CAMINHO_PROJETOS" ColumnName="TXT_CAMINHO_PROJETOS" />
                 <ScalarProperty Name="TXT_CAMINHO_AMOSTRAS" ColumnName="TXT_CAMINHO_AMOSTRAS" />
@@ -40579,6 +41810,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="contas_a_pagar_plano_de_contas">
             <EntityTypeMapping TypeName="db_coopfamModel.contas_a_pagar_plano_de_contas">
               <MappingFragment StoreEntitySet="contas_a_pagar_plano_de_contas">
+                <ScalarProperty Name="TXT_HISTORICO" ColumnName="TXT_HISTORICO" />
                 <ScalarProperty Name="INT_ID_ACC" ColumnName="INT_ID_ACC" />
                 <ScalarProperty Name="INT_ID_COMPLEMENTACAO" ColumnName="INT_ID_COMPLEMENTACAO" />
                 <ScalarProperty Name="INT_ID_EMPRESTIMO_COOPERADO" ColumnName="INT_ID_EMPRESTIMO_COOPERADO" />
@@ -40756,6 +41988,8 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="cooperado">
             <EntityTypeMapping TypeName="db_coopfamModel.cooperado">
               <MappingFragment StoreEntitySet="cooperado">
+                <ScalarProperty Name="TXT_MOTIVO_BLOQUEIO" ColumnName="TXT_MOTIVO_BLOQUEIO" />
+                <ScalarProperty Name="BOOL_BLOQUEAR_FINANCEIRO" ColumnName="BOOL_BLOQUEAR_FINANCEIRO" />
                 <ScalarProperty Name="DATE_ALTEROU" ColumnName="DATE_ALTEROU" />
                 <ScalarProperty Name="DATE_CADASTRO" ColumnName="DATE_CADASTRO" />
                 <ScalarProperty Name="INT_ID_ALTEROU" ColumnName="INT_ID_ALTEROU" />
@@ -41257,6 +42491,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="empresa">
             <EntityTypeMapping TypeName="db_coopfamModel.empresa">
               <MappingFragment StoreEntitySet="empresa">
+                <ScalarProperty Name="TXT_CODIGO_DA_EMPRESA_NA_CERTIFICADORA_ORGANICA" ColumnName="TXT_CODIGO_DA_EMPRESA_NA_CERTIFICADORA_ORGANICA" />
                 <ScalarProperty Name="TXT_RFA_ID" ColumnName="TXT_RFA_ID" />
                 <ScalarProperty Name="TXT_FTUSA_ID" ColumnName="TXT_FTUSA_ID" />
                 <ScalarProperty Name="BOOL_BRFAIR" ColumnName="BOOL_BRFAIR" />
@@ -41302,6 +42537,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="emprestimos">
             <EntityTypeMapping TypeName="db_coopfamModel.emprestimos">
               <MappingFragment StoreEntitySet="emprestimos">
+                <ScalarProperty Name="TXT_NR_EMPRESTIMO" ColumnName="TXT_NR_EMPRESTIMO" />
                 <ScalarProperty Name="INT_ID_FECHAMENTO_MERC_FUTURO" ColumnName="INT_ID_FECHAMENTO_MERC_FUTURO" />
                 <ScalarProperty Name="DECIMAL_VALOR_MUDAS" ColumnName="DECIMAL_VALOR_MUDAS" />
                 <ScalarProperty Name="INT_ID_SEGUNDO_AVALISTA" ColumnName="INT_ID_SEGUNDO_AVALISTA" />
@@ -41319,6 +42555,28 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
                 <ScalarProperty Name="DATE_LANCAMENTO" ColumnName="DATE_LANCAMENTO" />
                 <ScalarProperty Name="INT_ID_CATEGORIA" ColumnName="INT_ID_CATEGORIA" />
                 <ScalarProperty Name="INT_ID_COOPERADO" ColumnName="INT_ID_COOPERADO" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="emprestimos_renegociacao">
+            <EntityTypeMapping TypeName="db_coopfamModel.emprestimos_renegociacao">
+              <MappingFragment StoreEntitySet="emprestimos_renegociacao">
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="INT_ID_RENEGOCIACAO" ColumnName="INT_ID_RENEGOCIACAO" />
+                <ScalarProperty Name="DATE_EXCLUIU" ColumnName="DATE_EXCLUIU" />
+                <ScalarProperty Name="INT_ID_EXCLUIU" ColumnName="INT_ID_EXCLUIU" />
+                <ScalarProperty Name="DATE_ALTEROU" ColumnName="DATE_ALTEROU" />
+                <ScalarProperty Name="INT_ID_ALTEROU" ColumnName="INT_ID_ALTEROU" />
+                <ScalarProperty Name="DATE_LANCOU" ColumnName="DATE_LANCOU" />
+                <ScalarProperty Name="INT_ID_CADASTROU" ColumnName="INT_ID_CADASTROU" />
+                <ScalarProperty Name="BOOL_JUROS_AA_AM" ColumnName="BOOL_JUROS_AA_AM" />
+                <ScalarProperty Name="DECIMAL_NOVA_TAXA_DE_JUROS_APOS_VENCIMENTO" ColumnName="DECIMAL_NOVA_TAXA_DE_JUROS_APOS_VENCIMENTO" />
+                <ScalarProperty Name="DECIMAL_NOVA_TAXA_DE_JUROS" ColumnName="DECIMAL_NOVA_TAXA_DE_JUROS" />
+                <ScalarProperty Name="DATE_RENEGOCIACAO" ColumnName="DATE_RENEGOCIACAO" />
+                <ScalarProperty Name="TXT_OBS_RENEGOCIACAO" ColumnName="TXT_OBS_RENEGOCIACAO" />
+                <ScalarProperty Name="DECIMAL_VALOR" ColumnName="DECIMAL_VALOR" />
+                <ScalarProperty Name="INT_ID_EMPRESTIMO" ColumnName="INT_ID_EMPRESTIMO" />
                 <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -41854,6 +43112,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="funcionario">
             <EntityTypeMapping TypeName="db_coopfamModel.funcionario">
               <MappingFragment StoreEntitySet="funcionario">
+                <ScalarProperty Name="TXT_ASSINATURA" ColumnName="TXT_ASSINATURA" />
                 <ScalarProperty Name="TXT_PERMISSAO" ColumnName="TXT_PERMISSAO" />
                 <ScalarProperty Name="INT_ID_EMPRESA" ColumnName="INT_ID_EMPRESA" />
                 <ScalarProperty Name="DATE_NASCIMENTO" ColumnName="DATE_NASCIMENTO" />
@@ -41977,6 +43236,19 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
                 <ScalarProperty Name="FLOAT_DOLAR" ColumnName="FLOAT_DOLAR" />
                 <ScalarProperty Name="FLOAT_NIVEL_NY" ColumnName="FLOAT_NIVEL_NY" />
                 <ScalarProperty Name="TXT_HEDGE" ColumnName="TXT_HEDGE" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="historico_bloqueio_financeiro">
+            <EntityTypeMapping TypeName="db_coopfamModel.historico_bloqueio_financeiro">
+              <MappingFragment StoreEntitySet="historico_bloqueio_financeiro">
+                <ScalarProperty Name="INT_ID_COOPERADO" ColumnName="INT_ID_COOPERADO" />
+                <ScalarProperty Name="ID_LANCOU" ColumnName="ID_LANCOU" />
+                <ScalarProperty Name="DATE_LANCAMENTO" ColumnName="DATE_LANCAMENTO" />
+                <ScalarProperty Name="TXT_MOTIVO" ColumnName="TXT_MOTIVO" />
+                <ScalarProperty Name="BOOL_BLOQUEIO" ColumnName="BOOL_BLOQUEIO" />
+                <ScalarProperty Name="INT_ID_CLIENTE" ColumnName="INT_ID_CLIENTE" />
                 <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -42499,6 +43771,78 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
                 <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
                 <ScalarProperty Name="INT_ID_EMPRESA" ColumnName="INT_ID_EMPRESA" />
                 <ScalarProperty Name="TXT_DESCRICAO" ColumnName="TXT_DESCRICAO" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="meio_de_circulacao">
+            <EntityTypeMapping TypeName="db_coopfamModel.meio_de_circulacao">
+              <MappingFragment StoreEntitySet="meio_de_circulacao">
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="TXT_DESCRICAO" ColumnName="TXT_DESCRICAO" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="memorando">
+            <EntityTypeMapping TypeName="db_coopfamModel.memorando">
+              <MappingFragment StoreEntitySet="memorando">
+                <ScalarProperty Name="DATE_EXCLUIU" ColumnName="DATE_EXCLUIU" />
+                <ScalarProperty Name="INT_ID_EXCLUIU" ColumnName="INT_ID_EXCLUIU" />
+                <ScalarProperty Name="DATE_ALTEROU" ColumnName="DATE_ALTEROU" />
+                <ScalarProperty Name="INT_ID_ALTEROU" ColumnName="INT_ID_ALTEROU" />
+                <ScalarProperty Name="DATE_CADASTRO" ColumnName="DATE_CADASTRO" />
+                <ScalarProperty Name="INT_ID_CADASTROU" ColumnName="INT_ID_CADASTROU" />
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="TXT_DOC_ANEXADO" ColumnName="TXT_DOC_ANEXADO" />
+                <ScalarProperty Name="DATE_HR_POSTAGEM" ColumnName="DATE_HR_POSTAGEM" />
+                <ScalarProperty Name="TXT_ASSUNTO" ColumnName="TXT_ASSUNTO" />
+                <ScalarProperty Name="DATE_MEMORANDO" ColumnName="DATE_MEMORANDO" />
+                <ScalarProperty Name="INT_ID_SETOR" ColumnName="INT_ID_SETOR" />
+                <ScalarProperty Name="TXT_NR_MEMORANDO" ColumnName="TXT_NR_MEMORANDO" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="memorando_meios_circulacao">
+            <EntityTypeMapping TypeName="db_coopfamModel.memorando_meios_circulacao">
+              <MappingFragment StoreEntitySet="memorando_meios_circulacao">
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="DATE_EXCLUIU" ColumnName="DATE_EXCLUIU" />
+                <ScalarProperty Name="INT_ID_EXCLUIU" ColumnName="INT_ID_EXCLUIU" />
+                <ScalarProperty Name="DATE_CADASTRO" ColumnName="DATE_CADASTRO" />
+                <ScalarProperty Name="INT_ID_CADASTROU" ColumnName="INT_ID_CADASTROU" />
+                <ScalarProperty Name="TXT_OBS" ColumnName="TXT_OBS" />
+                <ScalarProperty Name="INT_ID_MEMORANDO" ColumnName="INT_ID_MEMORANDO" />
+                <ScalarProperty Name="INT_ID_CIRCULACAO" ColumnName="INT_ID_CIRCULACAO" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="memorando_publico_alvo">
+            <EntityTypeMapping TypeName="db_coopfamModel.memorando_publico_alvo">
+              <MappingFragment StoreEntitySet="memorando_publico_alvo">
+                <ScalarProperty Name="DATE_EXCLUIU" ColumnName="DATE_EXCLUIU" />
+                <ScalarProperty Name="INT_ID_EXCLUIU" ColumnName="INT_ID_EXCLUIU" />
+                <ScalarProperty Name="DATE_CADASTRO" ColumnName="DATE_CADASTRO" />
+                <ScalarProperty Name="INT_ID_CADASTRO" ColumnName="INT_ID_CADASTRO" />
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="INT_ID_MEMORANDO" ColumnName="INT_ID_MEMORANDO" />
+                <ScalarProperty Name="INT_ID_PUBLICO_ALVO" ColumnName="INT_ID_PUBLICO_ALVO" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="memorando_responsavel">
+            <EntityTypeMapping TypeName="db_coopfamModel.memorando_responsavel">
+              <MappingFragment StoreEntitySet="memorando_responsavel">
+                <ScalarProperty Name="DATE_EXCLUIU" ColumnName="DATE_EXCLUIU" />
+                <ScalarProperty Name="INT_ID_EXCLUIU" ColumnName="INT_ID_EXCLUIU" />
+                <ScalarProperty Name="DATE_CADASTRO" ColumnName="DATE_CADASTRO" />
+                <ScalarProperty Name="INT_ID_CADASTRO" ColumnName="INT_ID_CADASTRO" />
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="INT_ID_MEMORANDO" ColumnName="INT_ID_MEMORANDO" />
+                <ScalarProperty Name="INT_ID_RESPONSAVEL" ColumnName="INT_ID_RESPONSAVEL" />
                 <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -43302,6 +44646,9 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="parcela_emprestimo">
             <EntityTypeMapping TypeName="db_coopfamModel.parcela_emprestimo">
               <MappingFragment StoreEntitySet="parcela_emprestimo">
+                <ScalarProperty Name="DECIMAL_BAIXA" ColumnName="DECIMAL_BAIXA" />
+                <ScalarProperty Name="INT_ID_RENEGOCIACAO" ColumnName="INT_ID_RENEGOCIACAO" />
+                <ScalarProperty Name="BOOL_INATIVO" ColumnName="BOOL_INATIVO" />
                 <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
                 <ScalarProperty Name="DECIMAL_VALOR" ColumnName="DECIMAL_VALOR" />
                 <ScalarProperty Name="DATA_VENCIMENTO" ColumnName="DATA_VENCIMENTO" />
@@ -43324,6 +44671,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="pedido_faturamento">
             <EntityTypeMapping TypeName="db_coopfamModel.pedido_faturamento">
               <MappingFragment StoreEntitySet="pedido_faturamento">
+                <ScalarProperty Name="BOOL_LIBERADO_PARA_EMISSAO_DA_NOTA" ColumnName="BOOL_LIBERADO_PARA_EMISSAO_DA_NOTA" />
                 <ScalarProperty Name="BOOL_BARTER" ColumnName="BOOL_BARTER" />
                 <ScalarProperty Name="TXT_ESPECIE" ColumnName="TXT_ESPECIE" />
                 <ScalarProperty Name="TXT_NR_PEDIDO" ColumnName="TXT_NR_PEDIDO" />
@@ -43411,6 +44759,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="planejamento">
             <EntityTypeMapping TypeName="db_coopfamModel.planejamento">
               <MappingFragment StoreEntitySet="planejamento">
+                <ScalarProperty Name="INT_ID_CONTA_CONTABIL" ColumnName="INT_ID_CONTA_CONTABIL" />
                 <ScalarProperty Name="DECIMAL_SALDO_EM_DOLAR" ColumnName="DECIMAL_SALDO_EM_DOLAR" />
                 <ScalarProperty Name="DECIMAL_SALDO_INICIAL" ColumnName="DECIMAL_SALDO_INICIAL" />
                 <ScalarProperty Name="DECIMAL_TOTAL_EM_DOLAR" ColumnName="DECIMAL_TOTAL_EM_DOLAR" />
@@ -43500,6 +44849,7 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
           <EntitySetMapping Name="planejamento_item">
             <EntityTypeMapping TypeName="db_coopfamModel.planejamento_item">
               <MappingFragment StoreEntitySet="planejamento_item">
+                <ScalarProperty Name="TXT_OBJETIVO" ColumnName="TXT_OBJETIVO" />
                 <ScalarProperty Name="BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO" ColumnName="BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO" />
                 <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
                 <ScalarProperty Name="INT_NUMERO_DO_ITEM" ColumnName="INT_NUMERO_DO_ITEM" />
@@ -43533,6 +44883,16 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
                 <ScalarProperty Name="TXT_PROBLEMAS_DESAFIO_INICIAR" ColumnName="TXT_PROBLEMAS_DESAFIO_INICIAR" />
                 <ScalarProperty Name="TXT_BENEFICIOS_ESPERADOS" ColumnName="TXT_BENEFICIOS_ESPERADOS" />
                 <ScalarProperty Name="INT_ID_ODS" ColumnName="INT_ID_ODS" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="planejamento_item_ods">
+            <EntityTypeMapping TypeName="db_coopfamModel.planejamento_item_ods">
+              <MappingFragment StoreEntitySet="planejamento_item_ods">
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="INT_ID_ODS" ColumnName="INT_ID_ODS" />
+                <ScalarProperty Name="INT_ID_PLANEJAMENTO_ITEM" ColumnName="INT_ID_PLANEJAMENTO_ITEM" />
                 <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -43908,6 +45268,15 @@ FROM `tabela_ibpt` AS `tabela_ibpt`</DefiningQuery>
                 <ScalarProperty Name="TXT_AREA_PASTO" ColumnName="TXT_AREA_PASTO" />
                 <ScalarProperty Name="INT_ID_COOPERADO" ColumnName="INT_ID_COOPERADO" />
                 <ScalarProperty Name="TXT_IE" ColumnName="TXT_IE" />
+                <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="publico_alvo">
+            <EntityTypeMapping TypeName="db_coopfamModel.publico_alvo">
+              <MappingFragment StoreEntitySet="publico_alvo">
+                <ScalarProperty Name="BOOL_ATIVO" ColumnName="BOOL_ATIVO" />
+                <ScalarProperty Name="TXT_DESCRICAO" ColumnName="TXT_DESCRICAO" />
                 <ScalarProperty Name="INT_ID" ColumnName="INT_ID" />
               </MappingFragment>
             </EntityTypeMapping>

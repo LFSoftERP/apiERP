@@ -76,6 +76,9 @@ namespace apiERP
             this.devolucao_de_compra1 = new HashSet<devolucao_de_compra>();
             this.devolucao_de_compra2 = new HashSet<devolucao_de_compra>();
             this.emprestimos = new HashSet<emprestimos>();
+            this.emprestimos_renegociacao = new HashSet<emprestimos_renegociacao>();
+            this.emprestimos_renegociacao1 = new HashSet<emprestimos_renegociacao>();
+            this.emprestimos_renegociacao2 = new HashSet<emprestimos_renegociacao>();
             this.estrutura_do_produto = new HashSet<estrutura_do_produto>();
             this.fechamento_mercado_futuro = new HashSet<fechamento_mercado_futuro>();
             this.fechamento_mercado_futuro1 = new HashSet<fechamento_mercado_futuro>();
@@ -129,6 +132,7 @@ namespace apiERP
             this.lancamento_extras_codigos_contabeis = new HashSet<lancamento_extras_codigos_contabeis>();
             this.instrucao_preparo = new HashSet<instrucao_preparo>();
             this.log_usuarios = new HashSet<log_usuarios>();
+            this.historico_bloqueio_financeiro = new HashSet<historico_bloqueio_financeiro>();
             this.instrucao_preparo1 = new HashSet<instrucao_preparo>();
             this.instrucao_preparo2 = new HashSet<instrucao_preparo>();
             this.integracao_contabil = new HashSet<integracao_contabil>();
@@ -139,6 +143,16 @@ namespace apiERP
             this.lote_para_analise_solo_foliar2 = new HashSet<lote_para_analise_solo_foliar>();
             this.lote_para_analise_solo_foliar3 = new HashSet<lote_para_analise_solo_foliar>();
             this.lote_produto = new HashSet<lote_produto>();
+            this.memorando = new HashSet<memorando>();
+            this.memorando1 = new HashSet<memorando>();
+            this.memorando2 = new HashSet<memorando>();
+            this.memorando_meios_circulacao = new HashSet<memorando_meios_circulacao>();
+            this.memorando_meios_circulacao1 = new HashSet<memorando_meios_circulacao>();
+            this.memorando_publico_alvo = new HashSet<memorando_publico_alvo>();
+            this.memorando_publico_alvo1 = new HashSet<memorando_publico_alvo>();
+            this.memorando_responsavel = new HashSet<memorando_responsavel>();
+            this.memorando_responsavel1 = new HashSet<memorando_responsavel>();
+            this.memorando_responsavel2 = new HashSet<memorando_responsavel>();
             this.movimentos_produtos_contabeis = new HashSet<movimentos_produtos_contabeis>();
             this.movimento_bancario = new HashSet<movimento_bancario>();
             this.movimento_bancario1 = new HashSet<movimento_bancario>();
@@ -251,6 +265,7 @@ namespace apiERP
         public System.DateTime DATE_NASCIMENTO { get; set; }
         public int INT_ID_EMPRESA { get; set; }
         public string TXT_PERMISSAO { get; set; }
+        public string TXT_ASSINATURA { get; set; }
     
         public virtual ICollection<acc_com_hedge> acc_com_hedge { get; set; }
         public virtual ICollection<agendamento_carga_descarga> agendamento_carga_descarga { get; set; }
@@ -313,6 +328,9 @@ namespace apiERP
         public virtual ICollection<devolucao_de_compra> devolucao_de_compra2 { get; set; }
         public virtual empresa empresa { get; set; }
         public virtual ICollection<emprestimos> emprestimos { get; set; }
+        public virtual ICollection<emprestimos_renegociacao> emprestimos_renegociacao { get; set; }
+        public virtual ICollection<emprestimos_renegociacao> emprestimos_renegociacao1 { get; set; }
+        public virtual ICollection<emprestimos_renegociacao> emprestimos_renegociacao2 { get; set; }
         public virtual ICollection<estrutura_do_produto> estrutura_do_produto { get; set; }
         public virtual ICollection<fechamento_mercado_futuro> fechamento_mercado_futuro { get; set; }
         public virtual ICollection<fechamento_mercado_futuro> fechamento_mercado_futuro1 { get; set; }
@@ -366,6 +384,7 @@ namespace apiERP
         public virtual ICollection<lancamento_extras_codigos_contabeis> lancamento_extras_codigos_contabeis { get; set; }
         public virtual ICollection<instrucao_preparo> instrucao_preparo { get; set; }
         public virtual ICollection<log_usuarios> log_usuarios { get; set; }
+        public virtual ICollection<historico_bloqueio_financeiro> historico_bloqueio_financeiro { get; set; }
         public virtual ICollection<instrucao_preparo> instrucao_preparo1 { get; set; }
         public virtual ICollection<instrucao_preparo> instrucao_preparo2 { get; set; }
         public virtual ICollection<integracao_contabil> integracao_contabil { get; set; }
@@ -376,6 +395,16 @@ namespace apiERP
         public virtual ICollection<lote_para_analise_solo_foliar> lote_para_analise_solo_foliar2 { get; set; }
         public virtual ICollection<lote_para_analise_solo_foliar> lote_para_analise_solo_foliar3 { get; set; }
         public virtual ICollection<lote_produto> lote_produto { get; set; }
+        public virtual ICollection<memorando> memorando { get; set; }
+        public virtual ICollection<memorando> memorando1 { get; set; }
+        public virtual ICollection<memorando> memorando2 { get; set; }
+        public virtual ICollection<memorando_meios_circulacao> memorando_meios_circulacao { get; set; }
+        public virtual ICollection<memorando_meios_circulacao> memorando_meios_circulacao1 { get; set; }
+        public virtual ICollection<memorando_publico_alvo> memorando_publico_alvo { get; set; }
+        public virtual ICollection<memorando_publico_alvo> memorando_publico_alvo1 { get; set; }
+        public virtual ICollection<memorando_responsavel> memorando_responsavel { get; set; }
+        public virtual ICollection<memorando_responsavel> memorando_responsavel1 { get; set; }
+        public virtual ICollection<memorando_responsavel> memorando_responsavel2 { get; set; }
         public virtual ICollection<movimentos_produtos_contabeis> movimentos_produtos_contabeis { get; set; }
         public virtual ICollection<movimento_bancario> movimento_bancario { get; set; }
         public virtual ICollection<movimento_bancario> movimento_bancario1 { get; set; }

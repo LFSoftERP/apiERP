@@ -18,6 +18,7 @@ namespace apiERP
         {
             this.contas_a_pagar_planejamento = new HashSet<contas_a_pagar_planejamento>();
             this.contas_a_pagar_plano_de_contas = new HashSet<contas_a_pagar_plano_de_contas>();
+            this.emprestimos_renegociacao = new HashSet<emprestimos_renegociacao>();
             this.movimento_bancario = new HashSet<movimento_bancario>();
             this.parcela_emprestimo = new HashSet<parcela_emprestimo>();
         }
@@ -40,6 +41,7 @@ namespace apiERP
         public Nullable<int> INT_ID_SEGUNDO_AVALISTA { get; set; }
         public decimal DECIMAL_VALOR_MUDAS { get; set; }
         public Nullable<int> INT_ID_FECHAMENTO_MERC_FUTURO { get; set; }
+        public string TXT_NR_EMPRESTIMO { get; set; }
     
         public virtual categoria_de_emprestimo categoria_de_emprestimo { get; set; }
         public virtual ICollection<contas_a_pagar_planejamento> contas_a_pagar_planejamento { get; set; }
@@ -50,6 +52,7 @@ namespace apiERP
         public virtual forma_de_pagamento forma_de_pagamento { get; set; }
         public virtual funcionario funcionario { get; set; }
         public virtual fechamento_mercado_futuro fechamento_mercado_futuro { get; set; }
+        public virtual ICollection<emprestimos_renegociacao> emprestimos_renegociacao { get; set; }
         public virtual ICollection<movimento_bancario> movimento_bancario { get; set; }
         public virtual ICollection<parcela_emprestimo> parcela_emprestimo { get; set; }
     }

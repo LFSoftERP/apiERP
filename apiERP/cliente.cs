@@ -29,6 +29,7 @@ namespace apiERP
             this.cotacao_compra = new HashSet<cotacao_compra>();
             this.cotacao_item_fornecedor = new HashSet<cotacao_item_fornecedor>();
             this.contrato = new HashSet<contrato>();
+            this.historico_bloqueio_financeiro = new HashSet<historico_bloqueio_financeiro>();
             this.lote_produto = new HashSet<lote_produto>();
             this.movimento_bancario = new HashSet<movimento_bancario>();
             this.ordem_de_producao = new HashSet<ordem_de_producao>();
@@ -99,6 +100,7 @@ namespace apiERP
         public virtual ICollection<cotacao_compra> cotacao_compra { get; set; }
         public virtual ICollection<cotacao_item_fornecedor> cotacao_item_fornecedor { get; set; }
         public virtual ICollection<contrato> contrato { get; set; }
+        public virtual ICollection<historico_bloqueio_financeiro> historico_bloqueio_financeiro { get; set; }
         public virtual ICollection<lote_produto> lote_produto { get; set; }
         public virtual ICollection<movimento_bancario> movimento_bancario { get; set; }
         public virtual ICollection<ordem_de_producao> ordem_de_producao { get; set; }

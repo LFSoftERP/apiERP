@@ -114,6 +114,7 @@ namespace apiERP
         public DbSet<empresa> empresa { get; set; }
         public DbSet<empresa_forn_prod_agricola> empresa_forn_prod_agricola { get; set; }
         public DbSet<emprestimos> emprestimos { get; set; }
+        public DbSet<emprestimos_renegociacao> emprestimos_renegociacao { get; set; }
         public DbSet<estimativa> estimativa { get; set; }
         public DbSet<estrutura_do_produto> estrutura_do_produto { get; set; }
         public DbSet<fechamento> fechamento { get; set; }
@@ -149,6 +150,7 @@ namespace apiERP
         public DbSet<grupo_reuniao> grupo_reuniao { get; set; }
         public DbSet<grupo_variedade> grupo_variedade { get; set; }
         public DbSet<hedge> hedge { get; set; }
+        public DbSet<historico_bloqueio_financeiro> historico_bloqueio_financeiro { get; set; }
         public DbSet<historico_de_alteracao_de_status> historico_de_alteracao_de_status { get; set; }
         public DbSet<historico_talhao> historico_talhao { get; set; }
         public DbSet<informacao_adicional> informacao_adicional { get; set; }
@@ -183,6 +185,11 @@ namespace apiERP
         public DbSet<lotes_origem_do_produto> lotes_origem_do_produto { get; set; }
         public DbSet<maior_categoria> maior_categoria { get; set; }
         public DbSet<maquinario> maquinario { get; set; }
+        public DbSet<meio_de_circulacao> meio_de_circulacao { get; set; }
+        public DbSet<memorando> memorando { get; set; }
+        public DbSet<memorando_meios_circulacao> memorando_meios_circulacao { get; set; }
+        public DbSet<memorando_publico_alvo> memorando_publico_alvo { get; set; }
+        public DbSet<memorando_responsavel> memorando_responsavel { get; set; }
         public DbSet<menor_categoria> menor_categoria { get; set; }
         public DbSet<modalidade_entrega> modalidade_entrega { get; set; }
         public DbSet<motorista> motorista { get; set; }
@@ -231,6 +238,7 @@ namespace apiERP
         public DbSet<planejamento_categoria> planejamento_categoria { get; set; }
         public DbSet<planejamento_data_realizacao> planejamento_data_realizacao { get; set; }
         public DbSet<planejamento_item> planejamento_item { get; set; }
+        public DbSet<planejamento_item_ods> planejamento_item_ods { get; set; }
         public DbSet<planejamento_menor_categoria> planejamento_menor_categoria { get; set; }
         public DbSet<planejamento_periodo> planejamento_periodo { get; set; }
         public DbSet<planejamento_responsavel> planejamento_responsavel { get; set; }
@@ -256,6 +264,7 @@ namespace apiERP
         public DbSet<pronaf_pronaf_tipo> pronaf_pronaf_tipo { get; set; }
         public DbSet<pronaf_tipo> pronaf_tipo { get; set; }
         public DbSet<propriedade> propriedade { get; set; }
+        public DbSet<publico_alvo> publico_alvo { get; set; }
         public DbSet<quebra_de_safra> quebra_de_safra { get; set; }
         public DbSet<quebra_de_safra_estimativa> quebra_de_safra_estimativa { get; set; }
         public DbSet<rank> rank { get; set; }

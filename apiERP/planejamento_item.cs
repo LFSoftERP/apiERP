@@ -18,6 +18,7 @@ namespace apiERP
         {
             this.planejamento_acoes_do_item = new HashSet<planejamento_acoes_do_item>();
             this.planejamento_auto_avaliacao_impacto = new HashSet<planejamento_auto_avaliacao_impacto>();
+            this.planejamento_item_ods = new HashSet<planejamento_item_ods>();
             this.planejamento_menor_categoria = new HashSet<planejamento_menor_categoria>();
             this.planejamento_responsavel = new HashSet<planejamento_responsavel>();
         }
@@ -56,11 +57,13 @@ namespace apiERP
         public int INT_NUMERO_DO_ITEM { get; set; }
         public bool BOOL_ATIVO { get; set; }
         public Nullable<bool> BOOL_CONSIDERAR_PARA_GERAR_PLANEJAMENTO { get; set; }
+        public string TXT_OBJETIVO { get; set; }
     
         public virtual empresa empresa { get; set; }
         public virtual ods ods { get; set; }
         public virtual ICollection<planejamento_acoes_do_item> planejamento_acoes_do_item { get; set; }
         public virtual ICollection<planejamento_auto_avaliacao_impacto> planejamento_auto_avaliacao_impacto { get; set; }
+        public virtual ICollection<planejamento_item_ods> planejamento_item_ods { get; set; }
         public virtual ICollection<planejamento_menor_categoria> planejamento_menor_categoria { get; set; }
         public virtual ICollection<planejamento_responsavel> planejamento_responsavel { get; set; }
     }

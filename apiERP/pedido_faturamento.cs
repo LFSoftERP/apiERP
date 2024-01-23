@@ -51,6 +51,7 @@ namespace apiERP
         public string TXT_NR_PEDIDO { get; set; }
         public string TXT_ESPECIE { get; set; }
         public bool BOOL_BARTER { get; set; }
+        public bool BOOL_LIBERADO_PARA_EMISSAO_DA_NOTA { get; set; }
     
         public virtual cliente cliente { get; set; }
         public virtual cooperado cooperado { get; set; }

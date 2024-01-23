@@ -35,7 +35,7 @@ namespace apiERP.Controllers
         {
             retornoApi objReturn = new retornoApi();
             objReturn.Success = true;
-            objReturn.Message = "API Dsiponível!!!";
+            objReturn.Message = "API Dsiponível!!! Atualização 23/01/2024 16:00:00";
             return JObject.FromObject(objReturn);
         }
 

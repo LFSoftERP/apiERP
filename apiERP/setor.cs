@@ -17,6 +17,7 @@ namespace apiERP
         public setor()
         {
             this.agendamento_certificacao = new HashSet<agendamento_certificacao>();
+            this.memorando = new HashSet<memorando>();
             this.pedido_faturamento = new HashSet<pedido_faturamento>();
             this.planejamento = new HashSet<planejamento>();
             this.requisicao_compra = new HashSet<requisicao_compra>();
@@ -28,6 +29,7 @@ namespace apiERP
         public bool BOOL_ATIVO { get; set; }
     
         public virtual ICollection<agendamento_certificacao> agendamento_certificacao { get; set; }
+        public virtual ICollection<memorando> memorando { get; set; }
         public virtual ICollection<pedido_faturamento> pedido_faturamento { get; set; }
         public virtual ICollection<planejamento> planejamento { get; set; }
         public virtual ICollection<requisicao_compra> requisicao_compra { get; set; }
